@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/sector",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "sector"
+  },
+  "subtab": "-MJwp7LkhrjPqn_z1uJr",
+  "tab": "-MKjMRUUg4_Q6hNfvyso",
+  "type": "DataGrid"
+}

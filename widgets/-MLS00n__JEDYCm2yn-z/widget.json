@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/sEISANDOREIS",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "sEISANDOREIS"
+  },
+  "subtab": "-MLS00kej9vjkY9XHCBL",
+  "tab": "-MKjMRUUg4_Q6hNfvyso",
+  "type": "DataGrid"
+}

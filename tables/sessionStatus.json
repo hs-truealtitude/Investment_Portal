@@ -1,0 +1,32 @@
+{
+  "-MT_Xz9l8P0BnRSUB8fb": {
+    "_id": 1,
+    "createdDate": 1613390147701,
+    "group": false,
+    "lastEditDate": 1613390153000,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Accepted",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MT_Xz9l8P0BnRSUB8fb"
+  },
+  "-MT_Y-bB3Tef-JAlj2G0": {
+    "_id": 2,
+    "createdDate": 1613390153616,
+    "group": false,
+    "lastEditDate": 1613390157000,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Rejected",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MT_Y-bB3Tef-JAlj2G0"
+  },
+  "-MT_Y0f-hgT92Kdk5APL": {
+    "_id": 3,
+    "createdDate": 1613390157956,
+    "group": false,
+    "lastEditDate": 1613390163000,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Pending",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MT_Y0f-hgT92Kdk5APL"
+  }
+}

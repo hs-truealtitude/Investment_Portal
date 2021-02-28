@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/investmentType",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "investmentType"
+  },
+  "subtab": "-MJwr1CdBuxTFPIdx-Y-",
+  "tab": "-MKjMRUUg4_Q6hNfvyso",
+  "type": "DataGrid"
+}

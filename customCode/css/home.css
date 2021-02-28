@@ -1,0 +1,39 @@
+.hbox{
+    position:fixed;
+    top:200px;
+    right:230px;
+    z-index:1999;
+}
+
+.home{
+    width:60px;
+    height:60px;
+    background:#fff;
+    border-radius:30px;
+    box-sizing:border-box;
+    text-align:center;
+    box-shadow:0 2px 5px rgba(0,0,0,.2);
+}
+
+.home .fas {
+    color:#cecece;
+    line-height:60px;
+    font-size:20px;
+}
+
+.home:hover .fas {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

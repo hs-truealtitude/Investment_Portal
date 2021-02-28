@@ -1,0 +1,285 @@
+{
+  "data": {
+    "metaData": {
+      "id": "",
+      "statusField": "documentRequests.requestStatus.requestStatus"
+    },
+    "nodes": [
+      {
+        "id": "node1605438191735",
+        "x": 63,
+        "y": 121,
+        "height": 55,
+        "width": 117,
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "className": "start-event",
+        "icon": {
+          "name": "play-circle",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {}
+      },
+      {
+        "id": "node1605438194763",
+        "x": 315,
+        "y": 169,
+        "height": 117,
+        "width": 169,
+        "clazz": "userTask",
+        "label": "Prompt for aproval",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "_row.documentRequests.owner"
+        },
+        "outcomes": [
+          {
+            "text": "Approve",
+            "id": "outcome1605438205498",
+            "idx": 1
+          },
+          {
+            "text": "Reject",
+            "id": "outcome1605438209681",
+            "idx": 2
+          }
+        ]
+      },
+      {
+        "id": "node1605438217127",
+        "x": 682,
+        "y": 36,
+        "height": 117,
+        "width": 142,
+        "clazz": "userTask",
+        "label": "TA emails files",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "_row.documentRequests.owner"
+        },
+        "outcomes": [
+          {
+            "text": "Files Sent",
+            "id": "outcome1605438230561",
+            "idx": 1
+          },
+          {
+            "text": "Back to review",
+            "id": "outcome1605438235864",
+            "idx": 2
+          }
+        ]
+      },
+      {
+        "id": "node1605438325091",
+        "x": 142,
+        "y": 364,
+        "height": 55,
+        "width": 170,
+        "clazz": "updateRecord",
+        "label": "Set status rejected",
+        "className": "update-record",
+        "icon": {
+          "name": "edit",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "documentRequests / requestStatus",
+          "fieldValue": "'-MM6xox-MR-uarMsiiIO'"
+        }
+      },
+      {
+        "id": "node1605439431309",
+        "x": 1009,
+        "y": 143,
+        "height": 86,
+        "width": 161,
+        "clazz": "userTask",
+        "label": "Requestor gets fil",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "_row.documentRequests.owner"
+        },
+        "outcomes": [
+          {
+            "text": "Files Receveived",
+            "id": "outcome1605439463083",
+            "idx": 1
+          }
+        ]
+      },
+      {
+        "id": "node1605439483923",
+        "x": 1328,
+        "y": 157,
+        "height": 55,
+        "width": 110,
+        "clazz": "endEvent",
+        "label": "End Event",
+        "className": "end-event",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        },
+        "attachment": {}
+      },
+      {
+        "id": "node1606151357408",
+        "x": 706,
+        "y": 261,
+        "height": 55,
+        "width": 118,
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "className": "script-task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+        }
+      },
+      {
+        "id": "node1606151594410",
+        "x": 499,
+        "y": 351,
+        "height": 86,
+        "width": 102,
+        "clazz": "decision",
+        "label": "Decision",
+        "className": "decision",
+        "icon": {
+          "name": "check-circle",
+          "color": "hsl(11, 96%, 62%)"
+        },
+        "attachment": {},
+        "outcomes": [
+          {
+            "text": "error?",
+            "id": "outcome1606151601768",
+            "idx": 1,
+            "expression": ""
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1605438191735-right",
+        "target": "node1605438194763",
+        "id": "line-1605438317123",
+        "instance": {
+          "id": "line-1605438317123",
+          "anchor": "node1605438191735-right"
+        },
+        "label": "Start Event",
+        "targetLabel": "User Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 1)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "connector-outcome1605438205498",
+        "target": "node1605438217127",
+        "id": "line-1605438321584",
+        "instance": {
+          "id": "line-1605438321584",
+          "anchor": "connector-outcome1605438205498"
+        },
+        "label": "Approve",
+        "targetLabel": "User Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 1)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "connector-outcome1605438209681",
+        "target": "node1605438325091",
+        "id": "line-1605438349216",
+        "instance": {
+          "id": "line-1605438349216",
+          "anchor": "connector-outcome1605438209681"
+        },
+        "label": "Reject",
+        "targetLabel": "Update Record",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 1)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "connector-outcome1605438235864",
+        "target": "node1605438194763",
+        "id": "line-1605439402622",
+        "instance": {
+          "id": "line-1605439402622",
+          "anchor": "connector-outcome1605438235864"
+        },
+        "label": "Back to review",
+        "targetLabel": "Prompt for aproval",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 1)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "connector-outcome1605438230561",
+        "target": "node1605439431309",
+        "id": "line-1605439481367",
+        "instance": {
+          "id": "line-1605439481367",
+          "anchor": "connector-outcome1605438230561"
+        },
+        "label": "Files Sent",
+        "targetLabel": "Requestor gets fil",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 1)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "connector-outcome1605439463083",
+        "target": "node1605439483923",
+        "id": "line-1605439489080",
+        "instance": {
+          "id": "line-1605439489080",
+          "anchor": "connector-outcome1605439463083"
+        },
+        "label": "Files Receveived",
+        "targetLabel": "End Event",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 1)",
+          "size": 3,
+          "path": "magnet"
+        }
+      }
+    ]
+  },
+  "name": "Document Request"
+}

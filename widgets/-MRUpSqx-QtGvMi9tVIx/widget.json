@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/programmePartnerProfiles",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "programmePartnerProfiles"
+  },
+  "subtab": "-MRUpSjmyR3Y9uqKuA7r",
+  "tab": "-MRUkGcjzCn_tLNtnbcx",
+  "type": "DataGrid"
+}

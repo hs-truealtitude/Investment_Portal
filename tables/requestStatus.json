@@ -1,0 +1,32 @@
+{
+  "-MM6xojR_5zc3uy3GE2A": {
+    "_id": 1,
+    "createdDate": 1605377732493,
+    "group": false,
+    "lastEditDate": 1605377738000,
+    "lastEditedBy": "IExbYiRgRLdw4BMqAJyB9omEhov1",
+    "name": "Approved",
+    "owner": "IExbYiRgRLdw4BMqAJyB9omEhov1",
+    "rowKey": "-MM6xojR_5zc3uy3GE2A"
+  },
+  "-MM6xox-MR-uarMsiiIO": {
+    "_id": 2,
+    "createdDate": 1605377733360,
+    "group": false,
+    "lastEditDate": 1605377741000,
+    "lastEditedBy": "IExbYiRgRLdw4BMqAJyB9omEhov1",
+    "name": "Rejected",
+    "owner": "IExbYiRgRLdw4BMqAJyB9omEhov1",
+    "rowKey": "-MM6xox-MR-uarMsiiIO"
+  },
+  "-MMAZ0kulxDXyGd3s74U": {
+    "_id": 3,
+    "createdDate": 1605438078353,
+    "group": false,
+    "lastEditDate": 1605438087000,
+    "lastEditedBy": "IExbYiRgRLdw4BMqAJyB9omEhov1",
+    "name": "Pending",
+    "owner": "IExbYiRgRLdw4BMqAJyB9omEhov1",
+    "rowKey": "-MMAZ0kulxDXyGd3s74U"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/currency",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "currency"
+  },
+  "subtab": "-MK-xdebLvT9i2QILB-t",
+  "tab": "-MKjMRUUg4_Q6hNfvyso",
+  "type": "DataGrid"
+}

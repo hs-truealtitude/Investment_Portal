@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/yesOrNo",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "yesOrNo"
+  },
+  "subtab": "-MK5fpuSIckK6ClEC70t",
+  "tab": "-MKjMRUUg4_Q6hNfvyso",
+  "type": "DataGrid"
+}

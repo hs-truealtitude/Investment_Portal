@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/country",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "country"
+  },
+  "subtab": "-MJwt2pkNNj05vFz2jqu",
+  "tab": "-MKjMRUUg4_Q6hNfvyso",
+  "type": "DataGrid"
+}

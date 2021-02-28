@@ -1,0 +1,43 @@
+{
+  "-MJwuMLI8nplkKYRDnGM": {
+    "_id": 1,
+    "group": false,
+    "name": "Pre-Startup / R&D",
+    "rowKey": "-MJwuMLI8nplkKYRDnGM"
+  },
+  "-MJwuQ7o2Vgv7Q7PHhLy": {
+    "_id": 2,
+    "group": false,
+    "name": "MVP / Finished Product",
+    "rowKey": "-MJwuQ7o2Vgv7Q7PHhLy"
+  },
+  "-MJwuS_MMSm4BvWL1xyy": {
+    "_id": 3,
+    "group": false,
+    "name": "Achieving Sales",
+    "rowKey": "-MJwuS_MMSm4BvWL1xyy"
+  },
+  "-MJwuUL9eDbeIxJlWiPk": {
+    "_id": 4,
+    "group": false,
+    "name": "Breaking Even",
+    "rowKey": "-MJwuUL9eDbeIxJlWiPk"
+  },
+  "-MJwuVXzPoJGnpAVqAhc": {
+    "_id": 5,
+    "group": false,
+    "name": "Profitable",
+    "rowKey": "-MJwuVXzPoJGnpAVqAhc"
+  },
+  "-MJwuWk61lBLZBeiUVtq": {
+    "_id": 6,
+    "group": false,
+    "name": "Other",
+    "rowKey": "-MJwuWk61lBLZBeiUVtq"
+  },
+  "-MRUer0dPsjht-bQeUwe": {
+    "_id": 7,
+    "name": "",
+    "rowKey": "-MRUer0dPsjht-bQeUwe"
+  }
+}

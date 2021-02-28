@@ -1,0 +1,49 @@
+<div class="card-body">
+  <div class="row">
+
+    <button @click="removeSlingshotPitch(row.rowKey)" type="button" class="btn btn-danger btn-sm">
+      <i class="fas fa-trash-alt"></i>
+    </button>
+
+    <b-button class="btn btn-warning btn-sm" style="color: white; position: absolute; right: 25px;" @click="$setUser('activeSlingshotPitch', row.rowKey); openDetail(row.rowKey)" variant='success'> <i class="fas fa-edit"></i>
+    </b-button>
+  </div>
+
+  <center><img :src="row.$companyLogo$display" style="border-radius: 50%; max-width:100px  " /> </center>
+  <a href="#!">
+  </a>
+  <div class="pt-4 text-center">
+    <h5 class="h3 title">
+      <span class="d-block mb-1">{{row.name}}</span>
+
+      <p class="h4 font-weight-light text-muted"> Team Members: </p>
+
+      <p class="h4 font-weight-light text-muted" v-if="i < 3" v-for="member, i in filterBy($getGrid('teamMembersTable'), row.rowKey, 'slingshotPitches') ">
+        <b-badge variant="secondary">
+          {{member.name}}
+
+          {{member.secondName}}
+          -
+          {{member.$jobRole$display}}
+        </b-badge>
+      </p>
+
+
+
+
+      <p class="h4 font-weight-light text-muted"> Investment Type: </p>
+      <b-badge variant="primary"> {{row.$investmentType$display}} </b-badge>
+      </p>
+      <p class="h4 font-weight-light text-muted"> Total Funding Round: £{{row.totalFundingRound |  numeralFormat('0,0') }} </p>
+      <p class="h4 font-weight-light text-muted"> Money Raised to date: £{{row.capitalRaisedToDate |  numeralFormat('0,0') }} </p>
+
+      <a :href="'https://'+row.website" target="_blank">
+        <i style="padding: 5px;" class="fas fa-globe"></i>
+      </a>
+      <a :href="row.linkedInLink" target="_blank">
+        <i style="padding: 5px;" class="fab fa-linkedin"></i>
+      </a>
+
+    </h5>
+  </div>
+</div>

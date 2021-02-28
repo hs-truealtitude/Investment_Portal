@@ -1,0 +1,22 @@
+{
+  "-MSNjp3fOzWAwLLfhWe0": {
+    "_id": 1,
+    "createdDate": 1612101667872,
+    "group": false,
+    "lastEditDate": 1612101675391,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Higher Education",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MSNjp3fOzWAwLLfhWe0"
+  },
+  "-MSNjrBZxLr-VgqfvYiJ": {
+    "_id": 2,
+    "createdDate": 1612101676569,
+    "group": false,
+    "lastEditDate": 1612101686770,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Professional",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MSNjrBZxLr-VgqfvYiJ"
+  }
+}

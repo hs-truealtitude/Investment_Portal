@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/hRType",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "hRType"
+  },
+  "subtab": "-MSNjo9e5Bef0Oy6Z2Ih",
+  "tab": "-MKjMRUUg4_Q6hNfvyso",
+  "type": "DataGrid"
+}

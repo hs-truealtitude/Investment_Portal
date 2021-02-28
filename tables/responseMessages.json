@@ -1,0 +1,22 @@
+{
+  "-MTAyDwRiHejDTSSPA9i": {
+    "_id": 1,
+    "createdDate": 1612961082828,
+    "group": false,
+    "lastEditDate": 1612961104000,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Your application has been rejected",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MTAyDwRiHejDTSSPA9i"
+  },
+  "-MTAyH-nPSqXwzaWPHXN": {
+    "_id": 2,
+    "createdDate": 1612961095395,
+    "group": false,
+    "lastEditDate": 1612961141000,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Your application has been accepted",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MTAyH-nPSqXwzaWPHXN"
+  }
+}

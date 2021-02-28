@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/interest",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "interest"
+  },
+  "subtab": "-MRu6mS0mstMjS8CcopF",
+  "tab": "-MKjMm1cJNwP3sVETeGP",
+  "type": "DataGrid"
+}

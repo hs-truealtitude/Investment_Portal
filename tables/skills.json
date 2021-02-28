@@ -1,0 +1,279 @@
+{
+  "-MRKBJ8m4BJhAEwpGneX": {
+    "_id": 1,
+    "createdDate": 1610968285146,
+    "group": false,
+    "lastEditDate": 1610968293086,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Problem Solver",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKBJ8m4BJhAEwpGneX"
+  },
+  "-MRKBLMd2oUdf1gDlzDf": {
+    "_id": 2,
+    "createdDate": 1610968294226,
+    "group": false,
+    "lastEditDate": 1610968301670,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Critical Thinker",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKBLMd2oUdf1gDlzDf"
+  },
+  "-MRKBNNYKyVUhb1OwNJO": {
+    "_id": 3,
+    "createdDate": 1610968302475,
+    "group": false,
+    "lastEditDate": 1610968308726,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Flexibility",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKBNNYKyVUhb1OwNJO"
+  },
+  "-MRKBP66M6plkL9atm4K": {
+    "_id": 4,
+    "createdDate": 1610968309551,
+    "group": false,
+    "lastEditDate": 1610968313573,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Communication",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKBP66M6plkL9atm4K"
+  },
+  "-MRKBQJoROs_JWC6ZpdI": {
+    "_id": 5,
+    "createdDate": 1610968314524,
+    "group": false,
+    "lastEditDate": 1610968319310,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Teamwork",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKBQJoROs_JWC6ZpdI"
+  },
+  "-MRKBRs5kKwcIJ7-W0gS": {
+    "_id": 6,
+    "createdDate": 1610968320878,
+    "group": false,
+    "lastEditDate": 1610968325374,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Organization",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKBRs5kKwcIJ7-W0gS"
+  },
+  "-MRKBT7psd4c9wUi1gKE": {
+    "_id": 7,
+    "createdDate": 1610968326045,
+    "group": false,
+    "lastEditDate": 1610968330038,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Creativity",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKBT7psd4c9wUi1gKE"
+  },
+  "-MRKBUFPxDIJUGpEUG5K": {
+    "_id": 8,
+    "createdDate": 1610968330627,
+    "group": false,
+    "lastEditDate": 1610968338030,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Emotional Intelligence",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKBUFPxDIJUGpEUG5K"
+  },
+  "-MRKBWDs_6OeY08KxClH": {
+    "_id": 9,
+    "createdDate": 1610968338720,
+    "group": false,
+    "lastEditDate": 1610968343254,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Attention to Detail",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKBWDs_6OeY08KxClH"
+  },
+  "-MRKBXViA9oJVUKkr4db": {
+    "_id": 10,
+    "createdDate": 1610968343958,
+    "group": false,
+    "lastEditDate": 1610968348838,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Responsibility",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKBXViA9oJVUKkr4db"
+  },
+  "-MRKBYplU1GSoLShkxzo": {
+    "_id": 11,
+    "createdDate": 1610968349402,
+    "group": false,
+    "lastEditDate": 1610968356646,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Computer Software and Application Knowledge",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKBYplU1GSoLShkxzo"
+  },
+  "-MRKB_lo7ZxT6jpXZp07": {
+    "_id": 12,
+    "createdDate": 1610968357340,
+    "group": false,
+    "lastEditDate": 1610968363000,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Designer",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKB_lo7ZxT6jpXZp07"
+  },
+  "-MRKBbOtnCBghwvpwM9C": {
+    "_id": 13,
+    "createdDate": 1610968364001,
+    "group": false,
+    "lastEditDate": 1610968369000,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Data Analysis",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKBbOtnCBghwvpwM9C"
+  },
+  "-MRKBchYI3f55TcxfUay": {
+    "_id": 14,
+    "createdDate": 1610968369355,
+    "group": false,
+    "lastEditDate": 1610968373000,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Negotiation",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKBchYI3f55TcxfUay"
+  },
+  "-MRKBdj-mPkNArS4ihdK": {
+    "_id": 15,
+    "createdDate": 1610968373544,
+    "group": false,
+    "lastEditDate": 1610968377000,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Mathematics",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKBdj-mPkNArS4ihdK"
+  },
+  "-MRKBfM8Cngc0St6Z23t": {
+    "_id": 16,
+    "createdDate": 1610968380209,
+    "group": false,
+    "lastEditDate": 1610968384000,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Project Management",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKBfM8Cngc0St6Z23t"
+  },
+  "-MRKBhIcsSiHSTTJTvXG": {
+    "_id": 17,
+    "createdDate": 1610968388176,
+    "group": false,
+    "lastEditDate": 1610968628878,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Marketing",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MRKBhIcsSiHSTTJTvXG"
+  },
+  "-MRUer0dPsjht-bQeUwd": {
+    "_id": 18,
+    "lastEditDate": 1612191857497,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Boost business performance and growth",
+    "rowKey": "-MRUer0dPsjht-bQeUwd"
+  },
+  "-MST6q0s97yByls8_zwx": {
+    "_id": 19,
+    "createdDate": 1612191850100,
+    "group": false,
+    "lastEditDate": 1612191863800,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Create an innovative and agile organisation",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MST6q0s97yByls8_zwx"
+  },
+  "-MST6tp6VaB2nWfsYnEP": {
+    "_id": 20,
+    "createdDate": 1612191865667,
+    "group": false,
+    "lastEditDate": 1612191871400,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Recover from the impact of COVID-19",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MST6tp6VaB2nWfsYnEP"
+  },
+  "-MST6xZHpgy9c66Yzl4Z": {
+    "_id": 21,
+    "createdDate": 1612191880974,
+    "group": false,
+    "lastEditDate": 1612191885000,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Plan for the future of your business",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MST6xZHpgy9c66Yzl4Z"
+  },
+  "-MST71Ed3WZai8cInOu9": {
+    "_id": 22,
+    "createdDate": 1612191900133,
+    "group": false,
+    "lastEditDate": 1612191905000,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Build leadership confidence and effectiveness",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MST71Ed3WZai8cInOu9"
+  },
+  "-MST72aF3XfX9vVmAQ0X": {
+    "_id": 23,
+    "createdDate": 1612191905676,
+    "group": false,
+    "lastEditDate": 1612191911000,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Build lasting relationships with small business leaders",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MST72aF3XfX9vVmAQ0X"
+  },
+  "-MST742yw2jBIpf0mBJ9": {
+    "_id": 24,
+    "createdDate": 1612191911674,
+    "group": false,
+    "lastEditDate": 1612191916601,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Improve risk management and efficiency",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MST742yw2jBIpf0mBJ9"
+  },
+  "-MST75tz3jsqilRppBTq": {
+    "_id": 25,
+    "createdDate": 1612191919227,
+    "group": false,
+    "lastEditDate": 1612191924433,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Investment readiness",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MST75tz3jsqilRppBTq"
+  },
+  "-MST78N6u5g_sG4ClPFv": {
+    "_id": 26,
+    "createdDate": 1612191929347,
+    "group": false,
+    "lastEditDate": 1612191930785,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Product development (Hardware)",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MST78N6u5g_sG4ClPFv"
+  },
+  "-MST78tdegxgI-JwmxTd": {
+    "_id": 27,
+    "createdDate": 1612191931493,
+    "group": false,
+    "lastEditDate": 1612191941121,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Product Development (Firmware)",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MST78tdegxgI-JwmxTd"
+  },
+  "-MST7Cc2zZXP9-a-TErC": {
+    "_id": 28,
+    "createdDate": 1612191946751,
+    "group": false,
+    "lastEditDate": 1612191948074,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Early Pre-Sales strategy",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MST7Cc2zZXP9-a-TErC"
+  }
+}

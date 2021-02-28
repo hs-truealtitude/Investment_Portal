@@ -1,0 +1,6 @@
+.widgetContent__filters{
+    -webkit-box-shadow: 0 3px 4px 1px rgba(172, 175, 188, 0.24) !important;
+    box-shadow: 0 3px 4px 1px rgba(172, 175, 188, 0.24) !important;
+    margin-left: 5px;
+    border-radius:5px;
+}

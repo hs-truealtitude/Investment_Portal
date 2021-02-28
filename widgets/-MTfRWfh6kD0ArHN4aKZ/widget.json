@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "columnMaxWidth": "370",
+  "columnMinWidth": "350",
+  "dataSource": "mentors",
+  "gsOptions": {
+    "h": 30,
+    "w": 24,
+    "x": 0,
+    "y": 2
+  },
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MPe0NxYQploLstsV54u",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "title": "All Mentors",
+  "type": "card-list",
+  "viewOfGrid": "approvedMentors",
+  "widthType": "minAndMaxWidth"
+}

@@ -1,0 +1,83 @@
+{
+  "-MJwqd67_Wc92Y4xvByu": {
+    "_id": 1,
+    "group": false,
+    "name": "HNWI",
+    "rowKey": "-MJwqd67_Wc92Y4xvByu"
+  },
+  "-MJwqe9_R3E7oy_W4C93": {
+    "_id": 2,
+    "group": false,
+    "name": "UHNWI",
+    "rowKey": "-MJwqe9_R3E7oy_W4C93"
+  },
+  "-MJwqfm_eBODRajh7F4E": {
+    "_id": 3,
+    "group": false,
+    "name": "Single Family Offices",
+    "rowKey": "-MJwqfm_eBODRajh7F4E"
+  },
+  "-MJwqglCt-zTMTaLhEcc": {
+    "_id": 4,
+    "group": false,
+    "name": "Multi-Family Offices",
+    "rowKey": "-MJwqglCt-zTMTaLhEcc"
+  },
+  "-MJwqhtCJzP-NoptKTi5": {
+    "_id": 5,
+    "group": false,
+    "name": "Private Investment Office",
+    "rowKey": "-MJwqhtCJzP-NoptKTi5"
+  },
+  "-MJwqiuLV-Ut6_kLVOKT": {
+    "_id": 6,
+    "group": false,
+    "name": "Sovereign Wealth Funds",
+    "rowKey": "-MJwqiuLV-Ut6_kLVOKT"
+  },
+  "-MJwqlDjjXldqDplykMh": {
+    "_id": 7,
+    "group": false,
+    "name": "Private Equity Firms",
+    "rowKey": "-MJwqlDjjXldqDplykMh"
+  },
+  "-MJwqn2Z0YuPiwbl5aXz": {
+    "_id": 8,
+    "group": false,
+    "name": "Venture Capital Firms",
+    "rowKey": "-MJwqn2Z0YuPiwbl5aXz"
+  },
+  "-MJwqoBQO3KvVb2m7jVS": {
+    "_id": 9,
+    "group": false,
+    "name": "Hedge Funds",
+    "rowKey": "-MJwqoBQO3KvVb2m7jVS"
+  },
+  "-MJwqpFnWeprNVZHUHZG": {
+    "_id": 10,
+    "group": false,
+    "name": "Corporate Venture Capital",
+    "rowKey": "-MJwqpFnWeprNVZHUHZG"
+  },
+  "-MLS13bHi_KwowF7uIZF": {
+    "_id": 11,
+    "group": false,
+    "lastEditDate": 1604657372385,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Other",
+    "rowKey": "-MLS13bHi_KwowF7uIZF"
+  },
+  "-MNZA2La56M8Le34WJnD": {
+    "_id": 12,
+    "group": false,
+    "lastEditDate": 1606924648938,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Strategic Investment/Partnership",
+    "rowKey": "-MNZA2La56M8Le34WJnD"
+  },
+  "-MNx085hnY_crPIbWNWS": {
+    "_id": 13,
+    "group": false,
+    "rowKey": "-MNx085hnY_crPIbWNWS"
+  }
+}

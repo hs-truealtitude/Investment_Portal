@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/milestones",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "milestones"
+  },
+  "subtab": "-MKtUgGZCNjAQot8pHWP",
+  "tab": "-MKjMm1cJNwP3sVETeGP",
+  "type": "DataGrid"
+}

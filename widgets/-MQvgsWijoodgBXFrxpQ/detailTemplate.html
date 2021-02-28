@@ -1,0 +1,439 @@
+<div class="row" style="margin-left: 20px">
+  <div class="col-lg-12 col-sm-12 column">
+    <div>
+      <b-card>
+
+
+        <img :src="row.$companyLogo$display" width="100px" height="100px" style="margin-left: 5px; vertical-align:middle; border-radius: 50%;">
+        <break></break>
+
+        <span style="font-weight: bold; text-transform: uppercase; margin-left: 10px; ">{{row.dealProjectName}} - {{row.name}}</span>
+
+        <button style="color: white; float: right;" class="btn btn-primary" @click="$dgAddRowAndOpenModal('applications', {name: 'Mentor->SME', pitch:row.rowKey, mentor: $getUser('profileID'), sME: row.sME,  notificationDescription: `A Mentor has applied for ${row.name}`})">
+          <i class="fas fa-hands-helping"></i>
+          <break></break>
+          Apply
+        </button>
+
+        <b-tabs card="">
+          <b-tab title="Company Info" active="">
+
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Company Name</p>
+                <b-card-text>{{row.name}}</b-card-text>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> About Company </p>
+                <b-card-text>{{row.aboutTheCompany}}</b-card-text>
+              </div>
+            </div>
+            <div class="row" v-if="filterMentorApplications(row.rowKey, $getUser('profileID'))">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Email </p>
+                <h2>
+                  <b-badge variant="success">{{row.companyEmail}}</b-badge>
+                </h2>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Contact Number </p>
+                <h2>
+                  <b-badge variant="success">{{row.mobileNumber}}</b-badge>
+                </h2>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column col-lg-8 col-sm-4 col-4">
+                <p>
+                  <b-badge variant="warning">Contact Details will only be displayed upon appoval by an SME. Press the 'Apply' button to apply.</b-badge>
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Website </p>
+                <b-card-text>{{row.website}}</b-card-text>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Location </p>
+                <b-card-text>{{row.$location$display}}</b-card-text>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Company Start Date </p>
+                <b-card-text>{{row.$startDate$display}}</b-card-text>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Number of employees </p>
+                <b-card-text>{{row.employeeAmount}}</b-card-text>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Current Return Of Revenue (Per Employee) </p>
+                <b-card-text>£{{row.currentReturnOfRevenue |  numeralFormat('0,0') }}</b-card-text>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Number of jobs generated in testbed to successfully deliver on program </p>
+                <b-card-text>{{row.numberOfJobsGenerated}}</b-card-text>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Predicted Number Of Employees Hired (1 Year)</p>
+                <b-card-text>{{row.predictedEmployeesHired1Year}}</b-card-text>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Predicted Number Of Employees Hired (2 Years) </p>
+                <b-card-text>{{row.predictedEmployeesHired2Years}}</b-card-text>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Predicted Number Of Employees Hired (3 Year)</p>
+                <b-card-text>{{row.predictedEmployeesHired3Years}}</b-card-text>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Predicted Number Of Employees Hired (5 Years) </p>
+                <b-card-text>{{row.predictedEmployeesHired5Years}}</b-card-text>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Predicted Number Of Jobs Generated (During Program)</p>
+                <b-card-text>{{row.predictedJobsPostProgram}}</b-card-text>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Number of Commercial Opportunities </p>
+                <b-card-text>{{row.numberOfInteractionsCommercialOpportunities}}</b-card-text>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+              </div>
+            </div>
+            <div class="row">
+              <div class="column col-lg-8 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> What other industries can the product or solution add value to? </p>
+                <b-badge v-for="item in row.$productGrowthOtherIndustries$display"> {{item}} </b-badge>
+              </div>
+            </div>
+          </b-tab>
+
+          <b-tab title="Pitch & Deal">
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Deal/Project Name </p>
+                <b-card-text>{{row.dealProjectName}}</b-card-text>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Pitch Summary </p>
+                <b-card-text>{{row.pitchSummary}}</b-card-text>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Commitment Closing Date </p>
+                <b-card-text>{{row.$commitmentClosingDate$display}}</b-card-text>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Target Completion Date </p>
+                <b-card-text>{{row.$targetCompletionDate$display}}</b-card-text>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Capital raised to-date </p>
+                <b-card-text>£{{row.capitalRaisedToDate |  numeralFormat('0,0') }}</b-card-text>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Pre-Money Valuation of current round </p>
+                <b-card-text>£{{row.preMoneyValuationOfCurrentRound |  numeralFormat('0,0') }}</b-card-text>
+              </div>
+
+
+            </div>
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Capital already raised/commited for the current funding round</p>
+                <b-card-text>£{{row.capitalAlreadyRaisedForCurrentFundingRound |  numeralFormat('0,0')}}</b-card-text>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Main investors commited/invested in current round </p>
+                <b-card-text>{{row.mainInvestorsCommitedInCurrentRound}}</b-card-text>
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Minimum Investment </p>
+                <b-card-text>£{{row.minimumInvestment |  numeralFormat('0,0')}}</b-card-text>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Target Return of Investment
+                </p>
+                <b-card-text>£{{row.targetReturnOfInvestment |  numeralFormat('0,0')}}</b-card-text>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Total funding round </p>
+                <b-card-text>£{{row.totalFundingRound |  numeralFormat('0,0')}}</b-card-text>
+              </div>
+
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> EIS Eligible </p>
+                <b-card-text>{{row.$eISSEIS$display}}</b-card-text>
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Investment Type </p>
+                <b-card-text>{{row.$investmentType$display}}</b-card-text>
+
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Target Investors for Deal Marketing </p>
+                <b-badge v-for="item in row.$targetInvestorsForDealMarketing$display"> {{item}} </b-badge>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Specific strategic/value add investors </p>
+                <b-card-text>{{row.specificStrategicValue}}</b-card-text>
+
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Excluded Investors </p>
+                <b-card-text>{{row.excludedInvestors}}</b-card-text>
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Does the company have any debt? </p>
+                <b-card-text>{{row.companyDebt}}</b-card-text>
+
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Is the company subject to any litigation, tax or creditor pressure?
+                </p>
+                <b-card-text>{{row.litigationTaxOrPressure}}</b-card-text>
+
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column col-lg-8 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> News </p>
+                <b-card-text>{{row.news}}</b-card-text>
+
+              </div>
+
+            </div>
+
+          </b-tab>
+
+          <b-tab title="Mentor Requirements">
+
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Target Sectors </p>
+                <b-badge v-for="item in row.$sectors$display"> {{item}} </b-badge>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Target Skills </p>
+                <b-badge v-for="item in row.$skills$display"> {{item}} </b-badge>
+              </div>
+            </div>
+
+          </b-tab>
+
+          <b-tab title="HR Requirements">
+            <p class="h4 font-weight-bold"> HR Requirements </p>
+
+            <b-card style="margin:10px; height: 40px;" v-for="member in filterBy($getGrid('hRRequirementsTable'), row.rowKey) ">
+
+              <div class="row" style="align-items:center;">
+
+                <div class="col">
+                  <span>{{member.name}}
+                  </span>
+
+
+
+                  <span>
+                    - {{member.$requirementType$display}}
+                  </span>
+                </div>
+
+              </div>
+
+            </b-card>
+
+          </b-tab>
+
+          <b-tab title="Milestones">
+            <div class="row">
+              <div class="column">
+                <p class="h4 font-weight-bold"> Milestones Completed (Last 6 Months)</p>
+
+
+                <div class="row">
+                  <div class="col-md-12 offset-md-3">
+                    <ul class="rm timeline">
+                      <li :class='"timeRow"' v-for="item in orderBy( filterBy($getGrid('milestones'), row.rowKey, 'slingshotPitches'), 'targetCompletionDate')">
+                        {{item.name}} - <span style="font-weight: bold;">{{item.$targetCompletionDate$MonthYear}}</span>
+
+                        <p>{{item.description}}</p>
+
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column">
+                <p class="h4 font-weight-bold"> Milestones (Next Five Years)</p>
+                <pre></pre>
+
+
+                <div class="row">
+                  <div class="col-md-12 offset-md-3">
+                    <ul class="rm timeline">
+                      <li :class='item.completed ? "timeRow" : "timeRowRed"' v-for="item in orderBy( filterBy($getGrid('nextFiveYearsMilestones'), row.rowKey, 'slingshotPitches'), 'targetCompletionDate')">
+                        {{item.name}} - <span style="font-weight: bold;">{{item.$targetCompletionDate$MonthYear}}</span>
+
+                        <p>{{item.description}}</p>
+
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+          </b-tab>
+
+
+          <b-tab title="Documents">
+            <div class="row">
+              <div class="column col-lg-6 col-sm-6 col-6">
+                <p class="h4 font-weight-bold"> Documents stored:</p>
+                <b-card-text>
+                  <li>Executive Summary of the project</li>
+                  <li>Investment Memorandum / Deck</li>
+                  <li>Financial Forecast Model</li>
+                  <li>Latest Financial Trading Information</li>
+                  <li>Data Room Documents</li>
+                  <li>Company logos and branding collalteral</li>
+                </b-card-text>
+
+                <center><button @click='$dgAddRowAndOpenModal("documentRequests", {slingshotPitches : row.rowKey})' class="btn btn-success btn-sm"> Request Access </button></center>
+
+              </div>
+
+            </div>
+          </b-tab>
+
+          <b-tab title="Team">
+            <p class="h4 font-weight-bold"> Team Members</p>
+
+
+
+            <b-card style="margin:10px" v-for="member in filterBy($getGrid('teamMembersTable'), row.rowKey, 'slingshotPitches') ">
+
+              <div class="row" style="align-items:center;">
+                <img :src="member.$profilePitcture$display" style="border-radius: 50%; vertical-align:middle; max-width:100px  " />
+
+
+                <div class="col">
+                  <span>{{member.name}}
+                  </span>
+
+                  <span>
+                    {{member.secondName}}
+                  </span>
+                </div>
+
+                <div class="col">
+                  <span>
+                    {{member.$jobRole$display}}
+                  </span>
+                </div>
+
+                <div class="col">
+                </div>
+
+                <div class="col">
+                  <a :href="member.linkedin" target="_blank">
+                    <img style="float:right; " src="https://www.freepnglogos.com/uploads/linkedin-logo-transparent-picture-31.png" width="33" height="33">
+                  </a>
+                </div>
+
+            </b-card>
+
+
+
+
+
+
+          </b-tab>
+          <b-tab title="References">
+            <p class="h4 font-weight-bold"> Cornerstone Investor</p>
+
+
+            <b-card style="margin:10px">
+              {{row.cornerstoneInvestorContactDetails}}
+            </b-card>
+
+            <p class="h4 font-weight-bold"> References</p>
+
+
+            <b-card style="margin:10px" v-for="member in filterBy($getGrid('references'), row.rowKey, 'slingshotPitch') ">
+
+              <span>
+                {{member.name}}
+              </span>
+
+              <span style="padding-left: 50px;">
+                {{member.mobileNumber}}
+              </span>
+
+              <span style="padding-left: 50px;">
+                {{member.email}}
+              </span>
+
+            </b-card>
+          </b-tab>
+
+        </b-tabs>
+      </b-card>
+    </div>
+  </div>
+</div>

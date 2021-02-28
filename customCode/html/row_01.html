@@ -1,0 +1,49 @@
+<div class="topNavigation">
+	<div class="topNavigation__mobileMenuToggler">
+		<a
+			href="#"
+			@click.prevent
+			onClick="$('.topNavigation').toggleClass('_expanded')"
+		>
+			<icon name="bars" class="togglerClosed" />
+			<icon name="remove" class="togglerOpened" />
+			<span>Menu</span>
+		</a>
+	</div>
+	<ul class="topNavigation__menu">
+		<li class="topNavigation__menuItem">
+			<a href="#">
+				<img src="https://i2.wp.com/truealtitude.co.uk/wp-content/uploads/2019/05/cropped-true-altitude-logo-col-grey.png" />
+			</a>
+		</li>
+		<li class="topNavigation__menuItem">
+			<a href="https://truealtitude.co.uk/">What We Do</a>
+		</li>
+		<li class="topNavigation__menuItem">
+			<a href="https://truealtitude.co.uk/who-we-are/">Who We Are</a>
+		</li>
+		<li class="topNavigation__menuItem">
+			<a href="https://truealtitude.co.uk/our-partners/">Our Partners</a>
+		</li>
+		<li class="topNavigation__menuItem">
+			<a href="https://truealtitude.co.uk/our-portfolio/">Our Portfolio</a>
+		</li>
+		<li class="topNavigation__menuItem">
+			<a href="https://truealtitude.co.uk/recovery-resource-centre/">Recovery Resource Centre</a>
+		</li>
+		<li class="topNavigation__menuItem">
+			<a href="https://truealtitude.co.uk/featured/">Featured</a>
+		</li>
+		<li class="topNavigation__menuItem">
+			<a href="https://truealtitude.co.uk/contact-us/">Contact Us</a>
+		</li>
+		<li class="topNavigation__menuItem" v-if="$can('update', 'Dashboard_' + currentDash)">
+			<a  @click='$setCurrentTab("-Lm1E0T_JVMCT4np8lGI")'   href='javascript:$setCurrentTab("-MKUwx1XmgWmAYvLK_wz")'   >Admin Setup</a>
+		</li>
+		<li class="topNavigation__menuItem">
+			<a href="#">
+				<icon name="long-arrow-down" />
+			</a>
+		</li>
+	</ul>
+</div>

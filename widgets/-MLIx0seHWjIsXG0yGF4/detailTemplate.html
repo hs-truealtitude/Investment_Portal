@@ -1,0 +1,128 @@
+<div class="row" style="margin-left: 20px">
+  <div class="col-lg-12 col-sm-12 column">
+    <div>
+      <b-card>
+
+
+        <img :src="row.$companyLogo$display" width="100px" height="100px" style="margin-left: 5px; vertical-align:middle; border-radius: 15px;">
+        <break></break>
+
+        <span style="font-weight: bold; text-transform: uppercase; margin-left: 10px; ">{{row.dealProjectName}} - {{row.name}}</span>
+
+
+
+        <b-tabs card="">
+          <b-tab title="Company Info" active="">
+
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Company Name</p>
+                <b-card-text>{{row.name}}</b-card-text>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> About Company </p>
+                <b-card-text>{{row.aboutTheCompany}}</b-card-text>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Website </p>
+                <a :href="'https://'+row.website" target="_blank">
+                  <b-card-text>{{row.website}}</b-card-text>
+                </a>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Location </p>
+                <b-card-text>{{row.$location$display}}</b-card-text>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Company Start Date </p>
+                <b-card-text>{{row.$startDate$display}}</b-card-text>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Number of employees </p>
+                <b-card-text>{{row.employeeAmount}}</b-card-text>
+              </div>
+            </div>
+
+
+
+          </b-tab>
+
+          <b-tab title="Pitch & Deal">
+            <div class="row">
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Deal/Project Name </p>
+                <b-card-text>{{row.dealProjectName}}</b-card-text>
+              </div>
+              <div class="column col-lg-4 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> Pitch Summary </p>
+                <b-card-text>{{row.pitchSummary}}</b-card-text>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="column col-lg-8 col-sm-4 col-4">
+                <p class="h4 font-weight-bold"> News </p>
+                <b-card-text>{{row.news}}</b-card-text>
+
+              </div>
+
+            </div>
+
+
+
+          </b-tab>
+
+          <b-tab title="Team">
+            <div class="row">
+              <div class="column col-lg-8 col-sm-4 col-4" style="padding-bottom: 10px;">
+                <p class="h4 font-weight-bold"> Team Members</p>
+                <b-card style="margin:10px; height: 40px;" v-for="member in filterBy($getGrid('teamMembersTable'), row.rowKey, 'slingshotPitches') ">  
+                 <div class="row" style="align-items:center;"> 
+                <img :src="member.$profilePitcture$display" style="border-radius: 50%; vertical-align:middle; max-width:100px  " /> 
+                
+
+                  <div class="col">
+                <span >{{member.name}}
+                </span>
+               
+                <span>
+                {{member.secondName}}
+                </span>
+                  </div>
+               
+                <div class="col">               
+                <span>
+                {{member.$jobRole$display}}
+                </span>
+                </div>
+                
+                <div class ="col">
+                </div>
+
+                <div class="col">
+
+                </div>
+                 </div>
+                 
+                            
+              </b-card>
+     
+
+            
+
+
+
+          </b-tab>
+
+        </b-tabs>
+      </b-card>
+    </div>
+  </div>
+</div>

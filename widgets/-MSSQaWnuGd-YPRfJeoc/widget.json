@@ -1,0 +1,17 @@
+{
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 2
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "mentors",
+    "view": "isApproved"
+  },
+  "subtab": "-MSSGA39TgrXo61gq-zJ",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "type": "DataGrid"
+}

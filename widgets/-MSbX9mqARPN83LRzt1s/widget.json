@@ -1,0 +1,20 @@
+{
+  "classes": "",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 2
+  },
+  "layout": "",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "applications",
+    "view": "accountNotifications"
+  },
+  "styles": "",
+  "subtab": "-MSbUoT--6X8CjMwlOQ3",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "title": "",
+  "type": "DataGrid"
+}

@@ -1,0 +1,38 @@
+<div class="card-body">
+  <div class="row">
+
+    <b-button class="btn btn-warning btn-sm" style="color: white; position: absolute; right: 25px;" @click='$setCurrentSubTab("-MTBa1kCcT0179jjmiPn","-MJq8S1suwASZ84EkCd5")' variant='success'> <i class="fas fa-edit"></i>
+    </b-button>
+
+  </div>
+  <center><img :src="row.$profileImage$display" style="border-radius: 50%; max-width:100px  " /> </center>
+  <a href="#!">
+  </a>
+  <div class="pt-4 text-center">
+    <h5 class="h3 title">
+      <span class="d-block mb-1">{{row.name}} {{row.secondName}}</span>
+
+      <p class="h4 font-weight-Bold text-muted"> Date of Birth </p>
+      <b-badge> {{row.$dateOfBirth$Date}} </b-badge>
+      </p>
+      </p>
+
+      <p class="h4 font-weight-Bold text-muted"> Address: </p>
+      <p class="h4 font-weight-light text-muted"> {{row.address}} </p>
+
+
+      <p class="h4 font-weight-Bold text-muted"> Location: </p>
+      <b-badge> {{row.$location$display}} </b-badge>
+      </p>
+
+      <p class="h4 font-weight-Bold text-muted"> Contact Number: </p>
+      <b-badge> {{row.phoneNumber}} </b-badge>
+      </p>
+
+
+
+
+    </h5>
+
+  </div>
+</div>

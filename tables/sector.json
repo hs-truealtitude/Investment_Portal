@@ -1,0 +1,319 @@
+{
+  "-MJwpAVYU3qZQHSf-zaw": {
+    "_id": 1,
+    "group": false,
+    "name": "AdTech",
+    "rowKey": "-MJwpAVYU3qZQHSf-zaw"
+  },
+  "-MJwpBr2xTpVYgzCeiYU": {
+    "_id": 2,
+    "group": false,
+    "name": "Agriculture",
+    "rowKey": "-MJwpBr2xTpVYgzCeiYU"
+  },
+  "-MJwpDu9WatVIAYmr_e3": {
+    "_id": 3,
+    "group": false,
+    "name": "AgriTech",
+    "rowKey": "-MJwpDu9WatVIAYmr_e3"
+  },
+  "-MJwpFJT7Imr1foxPks1": {
+    "_id": 4,
+    "group": false,
+    "name": "Artificial Intelligence",
+    "rowKey": "-MJwpFJT7Imr1foxPks1"
+  },
+  "-MJwpGehsvlLGLRNRCCi": {
+    "_id": 5,
+    "group": false,
+    "name": "Automotive",
+    "rowKey": "-MJwpGehsvlLGLRNRCCi"
+  },
+  "-MJwpIJy2nw8joiBUJ_4": {
+    "_id": 6,
+    "group": false,
+    "name": "Aviation",
+    "rowKey": "-MJwpIJy2nw8joiBUJ_4"
+  },
+  "-MJwpJhF1iY-UR3G3abZ": {
+    "_id": 7,
+    "group": false,
+    "name": "B2B Software Solutions",
+    "rowKey": "-MJwpJhF1iY-UR3G3abZ"
+  },
+  "-MJwpKq6su1YrrShmoyC": {
+    "_id": 8,
+    "group": false,
+    "name": "Biotech",
+    "rowKey": "-MJwpKq6su1YrrShmoyC"
+  },
+  "-MJwpM1nCyXZv7kcEz6e": {
+    "_id": 9,
+    "group": false,
+    "name": "Blockchain & Digital Ledger Technologies",
+    "rowKey": "-MJwpM1nCyXZv7kcEz6e"
+  },
+  "-MJwpN4gJCTp1FKh19il": {
+    "_id": 10,
+    "group": false,
+    "name": "Business & Professional Services",
+    "rowKey": "-MJwpN4gJCTp1FKh19il"
+  },
+  "-MJwpOBR7yv16g-vYclb": {
+    "_id": 11,
+    "group": false,
+    "name": "Chemicals & Materials",
+    "rowKey": "-MJwpOBR7yv16g-vYclb"
+  },
+  "-MJwpRsNJS8wINoe-p1l": {
+    "_id": 12,
+    "group": false,
+    "name": "Cloud Computing/SaaS",
+    "rowKey": "-MJwpRsNJS8wINoe-p1l"
+  },
+  "-MJwpTJ0wUdiPBZ_xjrL": {
+    "_id": 13,
+    "group": false,
+    "name": "Commodities",
+    "rowKey": "-MJwpTJ0wUdiPBZ_xjrL"
+  },
+  "-MJwpUx_svKWUymTyAfX": {
+    "_id": 14,
+    "group": false,
+    "name": "Construction & Engineering",
+    "rowKey": "-MJwpUx_svKWUymTyAfX"
+  },
+  "-MJwpVtSdOlT80E6Sbfs": {
+    "_id": 15,
+    "group": false,
+    "name": "Consumer",
+    "rowKey": "-MJwpVtSdOlT80E6Sbfs"
+  },
+  "-MJwpXEUp1X4lhKA53Hu": {
+    "_id": 16,
+    "group": false,
+    "name": "Creative Industry & Entertainment",
+    "rowKey": "-MJwpXEUp1X4lhKA53Hu"
+  },
+  "-MJwpYFnHNVOm4xxbZ4p": {
+    "_id": 17,
+    "group": false,
+    "name": "Crypto Currencies",
+    "rowKey": "-MJwpYFnHNVOm4xxbZ4p"
+  },
+  "-MJwp_1_Hzr_QCxwYnfo": {
+    "_id": 18,
+    "group": false,
+    "name": "Cyber Security",
+    "rowKey": "-MJwp_1_Hzr_QCxwYnfo"
+  },
+  "-MJwp_iuq4j6XJNKSKZt": {
+    "_id": 19,
+    "group": false,
+    "name": "Defence",
+    "rowKey": "-MJwp_iuq4j6XJNKSKZt"
+  },
+  "-MJwpaxMGE9g7h97YO7A": {
+    "_id": 20,
+    "group": false,
+    "name": "Deep Tech",
+    "rowKey": "-MJwpaxMGE9g7h97YO7A"
+  },
+  "-MJwpc43Un2tplgu7QLC": {
+    "_id": 21,
+    "group": false,
+    "name": "Digital Health & Wellness",
+    "rowKey": "-MJwpc43Un2tplgu7QLC"
+  },
+  "-MJwpdy721_qfnUjQDK-": {
+    "_id": 22,
+    "group": false,
+    "name": "Education & Ed Tech",
+    "rowKey": "-MJwpdy721_qfnUjQDK-"
+  },
+  "-MJwpfe8EEkGnpVMcNnd": {
+    "_id": 23,
+    "group": false,
+    "name": "Energy",
+    "rowKey": "-MJwpfe8EEkGnpVMcNnd"
+  },
+  "-MJwpgnEWIVjtXyBqBdE": {
+    "_id": 24,
+    "group": false,
+    "name": "Financial Services",
+    "rowKey": "-MJwpgnEWIVjtXyBqBdE"
+  },
+  "-MJwpi-JoRMhBnhkRliK": {
+    "_id": 25,
+    "group": false,
+    "name": "FinTech",
+    "rowKey": "-MJwpi-JoRMhBnhkRliK"
+  },
+  "-MJwpjWdzPTaLEs7c9d3": {
+    "_id": 26,
+    "group": false,
+    "name": "Food & Beverage",
+    "rowKey": "-MJwpjWdzPTaLEs7c9d3"
+  },
+  "-MJwpk0fYmWRyW71dSIc": {
+    "_id": 27,
+    "group": false,
+    "name": "Forestry & Fishing",
+    "rowKey": "-MJwpk0fYmWRyW71dSIc"
+  },
+  "-MJwplzI57bkW5lqHVOf": {
+    "_id": 28,
+    "group": false,
+    "name": "Gaming",
+    "rowKey": "-MJwplzI57bkW5lqHVOf"
+  },
+  "-MJwpnAK23mCG9YXsB8N": {
+    "_id": 29,
+    "group": false,
+    "name": "Government",
+    "rowKey": "-MJwpnAK23mCG9YXsB8N"
+  },
+  "-MJwpoZD8WUTc7Ut59hw": {
+    "_id": 30,
+    "group": false,
+    "name": "Healthcare",
+    "rowKey": "-MJwpoZD8WUTc7Ut59hw"
+  },
+  "-MJwpqsArKIJcH6zDxhw": {
+    "_id": 31,
+    "group": false,
+    "name": "Hardware",
+    "rowKey": "-MJwpqsArKIJcH6zDxhw"
+  },
+  "-MJwps-zhIYC2MUgD7bC": {
+    "_id": 32,
+    "group": false,
+    "name": "Industrial",
+    "rowKey": "-MJwps-zhIYC2MUgD7bC"
+  },
+  "-MJwptC4OoTAJxXO0rD3": {
+    "_id": 33,
+    "group": false,
+    "name": "Infrastructure",
+    "rowKey": "-MJwptC4OoTAJxXO0rD3"
+  },
+  "-MJwpuPgN27UvdR6we42": {
+    "_id": 34,
+    "group": false,
+    "name": "Internet of Things (IoT)",
+    "rowKey": "-MJwpuPgN27UvdR6we42"
+  },
+  "-MJwpvlF1Zds2L8Ket4h": {
+    "_id": 35,
+    "group": false,
+    "name": "Life Sciences",
+    "rowKey": "-MJwpvlF1Zds2L8Ket4h"
+  },
+  "-MJwpwpOUt86ETbDvy9m": {
+    "_id": 36,
+    "group": false,
+    "name": "Manufacturing",
+    "rowKey": "-MJwpwpOUt86ETbDvy9m"
+  },
+  "-MJwpy2pEx8pJrF0Fd1q": {
+    "_id": 37,
+    "group": false,
+    "name": "Marketplaces & E-commerce",
+    "rowKey": "-MJwpy2pEx8pJrF0Fd1q"
+  },
+  "-MJwpzIxuEMQcmy8NlFd": {
+    "_id": 38,
+    "group": false,
+    "name": "Media & Digital Media",
+    "rowKey": "-MJwpzIxuEMQcmy8NlFd"
+  },
+  "-MJwq-UULrrYUxqbrg9w": {
+    "_id": 39,
+    "group": false,
+    "name": "Mining",
+    "rowKey": "-MJwq-UULrrYUxqbrg9w"
+  },
+  "-MJwq1NdJ7sNTctDzn3E": {
+    "_id": 40,
+    "group": false,
+    "name": "Oil & Gas",
+    "rowKey": "-MJwq1NdJ7sNTctDzn3E"
+  },
+  "-MJwq1pGmNPL-wSMpo_w": {
+    "_id": 41,
+    "group": false,
+    "name": "PropTech",
+    "rowKey": "-MJwq1pGmNPL-wSMpo_w"
+  },
+  "-MJwq3AjRArQWZoK4kXw": {
+    "_id": 42,
+    "group": false,
+    "name": "Real Estate - Commercial",
+    "rowKey": "-MJwq3AjRArQWZoK4kXw"
+  },
+  "-MJwq4B0UQIP2qMwFlrK": {
+    "_id": 43,
+    "group": false,
+    "name": "Real Estate - Residential",
+    "rowKey": "-MJwq4B0UQIP2qMwFlrK"
+  },
+  "-MJwq5LyC29EZ9GQ9GYG": {
+    "_id": 44,
+    "group": false,
+    "name": "Renewable Energy & Cleantech",
+    "rowKey": "-MJwq5LyC29EZ9GQ9GYG"
+  },
+  "-MJwq6N_kaBIWBjpLHUF": {
+    "_id": 45,
+    "group": false,
+    "name": "Retail & Leisure",
+    "rowKey": "-MJwq6N_kaBIWBjpLHUF"
+  },
+  "-MJwq7SLTJMWIXLc1lVq": {
+    "_id": 46,
+    "group": false,
+    "name": "Shipping",
+    "rowKey": "-MJwq7SLTJMWIXLc1lVq"
+  },
+  "-MJwq8R7ncqPZIkQx7Yv": {
+    "_id": 47,
+    "group": false,
+    "name": "Social Impact",
+    "rowKey": "-MJwq8R7ncqPZIkQx7Yv"
+  },
+  "-MJwq9sl-5wxXD0fdv80": {
+    "_id": 48,
+    "group": false,
+    "name": "Software & Technology",
+    "rowKey": "-MJwq9sl-5wxXD0fdv80"
+  },
+  "-MJwqAyT6nXkSQwcI4-I": {
+    "_id": 49,
+    "group": false,
+    "name": "Sport",
+    "rowKey": "-MJwqAyT6nXkSQwcI4-I"
+  },
+  "-MJwqBpGJPLyDcaucxnH": {
+    "_id": 50,
+    "group": false,
+    "name": "Telecoms & Mobile",
+    "rowKey": "-MJwqBpGJPLyDcaucxnH"
+  },
+  "-MJwqD290tyLcS7pWWOr": {
+    "_id": 51,
+    "group": false,
+    "name": "Travel & Transportation",
+    "rowKey": "-MJwqD290tyLcS7pWWOr"
+  },
+  "-MJwqEWysswHwpuyf2LN": {
+    "_id": 52,
+    "group": false,
+    "name": "Utilities",
+    "rowKey": "-MJwqEWysswHwpuyf2LN"
+  },
+  "-MRUer0cqwzuMqCjJPh1": {
+    "_id": 53,
+    "name": "",
+    "rowKey": "-MRUer0cqwzuMqCjJPh1"
+  }
+}

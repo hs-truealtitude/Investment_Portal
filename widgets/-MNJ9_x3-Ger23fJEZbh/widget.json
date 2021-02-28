@@ -1,0 +1,23 @@
+{
+  "classes": "noscroll",
+  "columnMaxWidth": "370",
+  "columnMinWidth": "350",
+  "dataSource": "savedPitches",
+  "gsOptions": {
+    "h": 21,
+    "w": 18,
+    "x": 3,
+    "y": 0
+  },
+  "layout": "",
+  "offSet": 0,
+  "overflow": "overflow:hidden",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MMBK_vCD0he4dNLSMs4",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "title": "Slingshot - Saved Pitches",
+  "type": "card-list",
+  "viewOfGrid": "slingshotSavedPitches",
+  "widthType": "minAndMaxWidth"
+}

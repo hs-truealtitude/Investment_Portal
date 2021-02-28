@@ -1,0 +1,24 @@
+{
+  "classes": "",
+  "columnCount": "1",
+  "columnMaxWidth": "500",
+  "columnMinWidth": "400",
+  "dataSource": "mentors",
+  "gsOptions": {
+    "h": 20,
+    "w": 15,
+    "x": 4,
+    "y": 0
+  },
+  "layout": "b-card",
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MTBSU70t54vJ304W7zH",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "title": "My Mentor Profile",
+  "type": "card-list",
+  "viewOfGrid": "myProfile",
+  "widthType": "columnCount"
+}

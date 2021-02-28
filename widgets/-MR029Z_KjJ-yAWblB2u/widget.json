@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/jobRoles",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "jobRoles"
+  },
+  "subtab": "-MR029WX8lGbOojfz7jV",
+  "tab": "-MKjMRUUg4_Q6hNfvyso",
+  "type": "DataGrid"
+}

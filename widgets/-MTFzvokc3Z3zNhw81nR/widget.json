@@ -1,0 +1,24 @@
+{
+  "classes": "",
+  "columnCount": "1",
+  "columnMaxWidth": "370",
+  "columnMinWidth": "350",
+  "dataSource": "sMEProfiles",
+  "gsOptions": {
+    "h": 10,
+    "w": 15,
+    "x": 4,
+    "y": 0
+  },
+  "layout": "b-card",
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MTBSZYoq9-9f1tu4YCX",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "title": "My SME Profile",
+  "type": "card-list",
+  "viewOfGrid": "myProfile",
+  "widthType": "columnCount"
+}

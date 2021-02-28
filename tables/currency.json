@@ -1,0 +1,34 @@
+{
+  "-MK-xp83ajuqCz-9dBpT": {
+    "_id": 1,
+    "group": false,
+    "lastEditDate": 1604321639628,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "€",
+    "rowKey": "-MK-xp83ajuqCz-9dBpT"
+  },
+  "-MK-xqci9LuQeLnUv_6c": {
+    "_id": 2,
+    "group": false,
+    "lastEditDate": 1604321646628,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "£",
+    "rowKey": "-MK-xqci9LuQeLnUv_6c"
+  },
+  "-MK-xrys8OaMVGGBihM2": {
+    "_id": 3,
+    "group": false,
+    "lastEditDate": 1604321652259,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "$",
+    "rowKey": "-MK-xrys8OaMVGGBihM2"
+  },
+  "-MK-xtcKvsSR21iLgjyR": {
+    "_id": 4,
+    "group": false,
+    "lastEditDate": 1604321660596,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "¥",
+    "rowKey": "-MK-xtcKvsSR21iLgjyR"
+  }
+}

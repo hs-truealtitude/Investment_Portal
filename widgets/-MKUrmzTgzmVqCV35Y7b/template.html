@@ -1,0 +1,47 @@
+<div class="fade-in" style="height: 300px;">
+  <center>
+    <h2 style="font-family: 'Grenette pro', sans-serif;"> Company Dashboard </h2>
+  </center>
+  
+  
+    <div class="row justify-content-center" style="padding: 50px;" >
+      <button @click='$setCurrentSubTab("-MLDOWbGZ37NZOzh9Ww6","-MJq8S1suwASZ84EkCd5")' class="btn btn-danger" style="color: white;">
+        View Pitches
+
+                <break></break>
+
+        <i class="fas fa-search"></i>
+      </button>
+
+      <button @click="createSlingshotPitch()" class="btn btn-lg btn-danger" style="color: white;">
+        Create a pitch
+        <break></break>
+        <i class="fas fa-marker"></i>
+      </button>
+
+
+      <button @click='$setCurrentSubTab("-MLDOQHlSF7Jjjhq6aHE","-MJq8S1suwASZ84EkCd5")' class="btn btn-danger" style="color: white;">
+        My Pitches
+        <break></break>
+        <i class="fas fa-user"></i>
+      </button>
+
+      <div class="btn-group">
+        <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Mentors
+          <break></break>
+          <i class="fas fa-handshake"></i>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" @click='$setCurrentSubTab("-MQNav_HFaMuZMGgOjr3","-MJq8S1suwASZ84EkCd5")'>My Mentors and Sessions</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" @click='$setCurrentSubTab("-MPe0NxYQploLstsV54u","-MJq8S1suwASZ84EkCd5")'>View All Mentors</a>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  
+</div>

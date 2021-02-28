@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/referralType",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "referralType"
+  },
+  "subtab": "-MSRuxSF2xmXMbunVbEP",
+  "tab": "-MKjMRUUg4_Q6hNfvyso",
+  "type": "DataGrid"
+}

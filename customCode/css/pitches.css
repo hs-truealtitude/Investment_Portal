@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+    .pitchesList .widget-card-list__item {
+        width: 100% !important;
+    }
+}
+
+.widget-card-list__item .card{
+    height: 100%;
+
+}
+

@@ -1,0 +1,31 @@
+<div class="card-body">
+  <div class="row">
+
+
+  </div>
+  <center><img :src="row.$profileImage$display" style="border-radius: 50%; max-width:100px  " /> </center>
+  <a href="#!">
+  </a>
+  <div class="pt-4 text-center">
+    <h5 class="h3 title">
+      <span class="d-block mb-1">{{row.name}} {{row.secondName}}</span>
+
+      <p class="h4 font-weight-light text-muted"> {{truncateText(row.aboutMe, 100)}} </p>
+
+
+      <p class="h4 font-weight-light text-muted"> Sectors: </p>
+      <b-badge v-for="item in row.$mainSectors$display"> {{item}} </b-badge>
+      </p>
+
+      <p class="h4 font-weight-light text-muted"> Skills: </p>
+      <b-badge v-for="item in row.$mainSkills$display"> {{item}} </b-badge>
+      </p>
+
+
+    </h5>
+    <center>
+      <b-button class=" btn-sm" style="color: white;" @click='openDetail(row.rowKey)' variant='success'>View Profile
+      </b-button>
+    </center>
+  </div>
+</div>

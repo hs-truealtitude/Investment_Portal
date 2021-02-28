@@ -1,0 +1,18 @@
+{
+  "-MKjNhCeEjTtfQL8X6vn": {
+    "_id": 1,
+    "group": false,
+    "lastEditDate": 1603891554194,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Private",
+    "rowKey": "-MKjNhCeEjTtfQL8X6vn"
+  },
+  "-MKjNiLMpbGAZI8h2lhK": {
+    "_id": 2,
+    "group": false,
+    "lastEditDate": 1603891558746,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Public",
+    "rowKey": "-MKjNiLMpbGAZI8h2lhK"
+  }
+}

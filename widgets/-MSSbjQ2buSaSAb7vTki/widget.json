@@ -1,0 +1,17 @@
+{
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 2
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "sMEProfiles",
+    "view": "isApproved"
+  },
+  "subtab": "-MSSGDpHjJs8sZRFptJ2",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "type": "DataGrid"
+}

@@ -1,0 +1,17 @@
+{
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 3
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "programmePartnerProfiles",
+    "view": "isApproved"
+  },
+  "subtab": "-MSSGHFX-vR4Au5gFDVQ",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "type": "DataGrid"
+}

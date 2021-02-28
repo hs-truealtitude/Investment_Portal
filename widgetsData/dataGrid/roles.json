@@ -1,0 +1,41 @@
+{
+  "isReactive": true,
+  "meta": {
+    "description": {
+      "displayName": "Description",
+      "inherited": true,
+      "invisible": false,
+      "order": "3",
+      "type": "multiline_text"
+    },
+    "name": {
+      "displayName": "Name",
+      "inherited": true,
+      "invisible": false,
+      "order": "0",
+      "type": "string"
+    },
+    "nextEvents": {
+      "displayName": "Next Events",
+      "inherited": true,
+      "invisible": true,
+      "order": "2",
+      "type": "string"
+    },
+    "pages": {
+      "displayName": "Pages",
+      "inherited": true,
+      "invisible": false,
+      "lookUpTable": "pages",
+      "order": "4",
+      "type": "multi_lookup"
+    },
+    "state": {
+      "displayName": "State",
+      "inherited": true,
+      "invisible": true,
+      "order": "1",
+      "type": "string"
+    }
+  }
+}

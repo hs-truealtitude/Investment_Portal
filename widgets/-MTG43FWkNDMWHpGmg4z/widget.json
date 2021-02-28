@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "columnCount": "1",
+  "dataSource": "programmePartnerProfiles",
+  "gsOptions": {
+    "h": 13,
+    "w": 18,
+    "x": 3,
+    "y": 0
+  },
+  "layout": "b-card",
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MTBSaaRHir6-J4UBJuR",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "title": "My Programme Partner Profile",
+  "type": "card-list",
+  "viewOfGrid": "myProfile",
+  "widthType": "columnCount"
+}

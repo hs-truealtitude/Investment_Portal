@@ -1,0 +1,19 @@
+<div class="row justify-content-center" >
+
+  <img :src="$getDashboardModel('mentors')[row.mentor].$profileImage$display" style="border-radius: 15px; max-width:90px; padding: 5px; " />
+
+  <img :src="$getDashboardModel('slingshotPitches')[row.pitch].$companyLogo$display" style="border-radius: 15px; max-width:90px; padding: 5px;  " />
+
+</div>
+
+<div class="row justify-content-center" style="padding-bottom:1%;">
+
+  <h1 style="font-family: 'Grenette pro', sans-serif;" >{{row.$mentor.name}} {{row.$mentor.secondName}} & {{row.$pitch.name}} </h1>
+
+
+</div>
+
+
+<b-card>
+<FullCalendar calendarId="Slingshot Sessions" />
+</b-card>

@@ -1,0 +1,57 @@
+<div v-if='row.$slingshotPitches' class="card-body">
+
+  <div class="row">
+    <i @click="unSavePitch(saveSlingshot(row.$slingshotPitches.rowKey))" v-if="saveSlingshot(row.$slingshotPitches.rowKey)" class="fas fa-star" style="color: black;">
+    </i>
+
+
+    <i @click="saveSlingshotPitch(row.$slingshotPitches.rowKey, row.$slingshotPitches.$companyLogo$display)" v-if="!saveSlingshot(row.$slingshotPitches.rowKey)" class="far fa-star" style="color: black;">
+    </i>
+  </div>
+
+  <center><img :src="row.image" style="border-radius: 50%; max-width:100px  " /> </center>
+  <a href="#!">
+  </a>
+  <div class="pt-4 text-center">
+    <h5 class="h3 title">
+      <span class="d-block mb-1">{{row.$slingshotPitches.name}}</span>
+      <p class="h4 font-weight-light text-muted" style="height: 120px; padding: 10px;">{{truncateText(row.$slingshotPitches.aboutTheCompany, 200)}}</p>
+
+      <p class="h4 font-weight-light text-muted"> </p>
+      </p>
+      <p class="h4 font-weight-light text-muted"> Team Members: </p>
+
+      <p class="h4 font-weight-light text-muted" v-if="i < 3" v-for="member, i in filterBy($getGrid('teamMembersTable'), row.$slingshotPitches.rowKey, 'slingshotPitches') ">
+        <b-badge variant="secondary">
+          {{member.name}}
+
+          {{member.secondName}}
+          -
+          {{member.jobRole}}
+        </b-badge>
+      </p>
+
+
+
+
+      <p class="h4 font-weight-light text-muted"> Investment Type: </p>
+      <b-badge variant="primary"> {{row.$slingshotPitches.$investmentType$display}} </b-badge>
+      </p>
+      <p class="h4 font-weight-light text-muted"> Total Funding Round: £{{row.$slingshotPitches.totalFundingRound |  numeralFormat('0,0') }} </p>
+      <p class="h4 font-weight-light text-muted"> Money Raised to date: £{{row.$slingshotPitches.capitalRaisedToDate |  numeralFormat('0,0') }} </p>
+
+
+      <a :href="'https://'+row.website" target="_blank">
+        <i style="padding: 5px;" class="fas fa-globe"></i>
+      </a>
+      <a :href="row.linkedInLink" target="_blank">
+        <i style="padding: 5px;" class="fab fa-linkedin"></i>
+      </a>
+      
+    </h5>
+    <center>
+    <b-button class=" btn-sm" style="color: white;" @click='openDetail(row.rowKey)' variant='success'>Show More Detail
+    </b-button>
+    </center>
+  </div>
+</div>

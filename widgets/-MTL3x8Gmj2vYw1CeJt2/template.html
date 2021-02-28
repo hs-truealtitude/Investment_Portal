@@ -1,0 +1,48 @@
+<div v-if='row.$pitch' class="card-body">
+  <div class="row">
+
+
+
+  </div>
+  <center>
+    <img v-if='row.$sME' :src="$getDashboardModel('sMEProfiles')[row.sME].$profileImage$display" style="border-radius: 15px; max-width:90px; padding: 5px; " />
+    <img v-if='row.$sME' :src="$getDashboardModel('slingshotPitches')[row.pitch].$companyLogo$display" style="border-radius: 15px; max-width:70px; padding: 5px; " />
+  </center>
+
+  </a>
+  <div class="pt-4 text-center">
+    <h5 class="h3 title">
+      <div v-if='row.$sME'>
+          <span style="font-family: 'Grenette pro', sans-serif;" class="d-block mb-1">{{row.$sME.name}} {{row.$sME.secondName}}</span>
+        </div>
+        <span style="font-family: 'Grenette pro', sans-serif;" class="d-block mb-1">&</span>
+        <span style="font-family: 'Grenette pro', sans-serif;" class="d-block mb-1">{{row.$pitch.name}}</span>
+
+        <div style="height:20px;" class="row">
+      </div>
+
+      <div v-if='row.$sME' class="row" style="justify-content:center;">
+        <small style="font-family: 'Grenette pro', sans-serif;" class="h4 font-weight-light text-muted">Contact Number: {{row.$sME.phoneNumber}}</small>
+      </div>
+
+      <div v-if='row.$sME' class="row" style="justify-content:center;">
+        <small style="font-family: 'Grenette pro', sans-serif;" class="h4 font-weight-light text-muted" v-for="member in filterBy($getGrid('Users'), row.rowKey, 'sME')" > {{member.owner}} </small>
+      </div>
+
+      <div style="height:20px;" class="row">
+      </div>
+
+    </h5>
+
+    <center>
+      <b-button class=" btn-sm" variant='primary' 
+        @click='$setUser("filterSME",row.sME);
+          $setUser("filterPitch",row.pitch);
+          $setUser("filterMentor", row.mentor);        
+          openDetail(row.rowKey)'>
+        Engagement Schedule
+      </b-button>
+    </center>
+
+  </div>
+</div>

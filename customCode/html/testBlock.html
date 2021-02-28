@@ -1,0 +1,51 @@
+<div
+    :style="{
+        position: 'fixed',
+        right: '20px',
+        bottom: '20px',
+        background: 'red',
+        padding: '15px',
+        zIndex: 2000,
+    }"
+>
+    <div class="mb-2">
+        <span>profileID : {{$getUser('profileID')}}</span>
+        <br />
+        <span>type : {{$getUser('accountType')}}</span>
+                <br />
+        <span>filterSME : {{$getUser('filterSME')}}</span>
+    </div>
+    <div class="mb-2">
+        <b-button @click='$setUser("profileID", null)'>
+            Clear profile ID 
+        </b-button>
+    </div>
+    <div class="mb-2">
+        <b-button
+            @click='$setUser("profileID", "-MRuFWlCqAaR0CJqb3ZL");$setUser("accountType", "Mentor")'
+        >
+            Change to mentor 
+        </b-button>
+    </div>
+    <div class="mb-2">
+        <b-button
+            @click='$setUser("profileID", "-MSDB4vGVTDWjl3zyJaV");$setUser("accountType", "SME")'
+        >
+            Change to SME
+        </b-button>
+    </div>
+    <div class="mb-2">
+        <b-button
+            @click='$setUser("profileID", "-MRuBBufb0sHngYQTa_m");$setUser("accountType", "Investor")'
+        >
+            Change to Investor
+        </b-button>
+    </div>
+    <div class="mb-2">
+        <b-button
+            @click='$setUser("profileID", "-MSliBXUf7o0TV3XGQUy");$setUser("accountType", "PP")'
+        >
+            Change to Programme Partner
+        </b-button>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/investorProfiles",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "investorProfiles"
+  },
+  "subtab": "-MRUpLx2c8TPDgA8F6Bf",
+  "tab": "-MRUkGcjzCn_tLNtnbcx",
+  "type": "DataGrid"
+}

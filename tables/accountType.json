@@ -1,0 +1,18 @@
+{
+  "-MKorfvV-56oTz-K9J3t": {
+    "_id": 1,
+    "group": false,
+    "lastEditDate": 1603983604010,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Investor",
+    "rowKey": "-MKorfvV-56oTz-K9J3t"
+  },
+  "-MKorrb_8VyMmc1xRWzh": {
+    "_id": 2,
+    "group": false,
+    "lastEditDate": 1603983609168,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Company",
+    "rowKey": "-MKorrb_8VyMmc1xRWzh"
+  }
+}

@@ -1,0 +1,31 @@
+<div class="card-body">
+  <div class="row">
+
+    <b-button class="btn btn-warning btn-sm" style="color: white; position: absolute; right: 25px;" @click='$setCurrentSubTab("-MTB_p0KnCBD83k4lTzc","-MJq8S1suwASZ84EkCd5")' variant='success'> <i class="fas fa-edit"></i>
+    </b-button>
+
+  </div>
+  <center><img :src="row.$profileImage$display" style="border-radius: 50%; max-width:100px  " /> </center>
+  <a href="#!">
+  </a>
+  <div class="pt-4 text-center">
+    <h5 class="h3 title">
+      <span class="d-block mb-1">{{row.name}} {{row.secondName}}</span>
+
+      <p class="h4 font-weight-light text-muted"> {{row.aboutMe}} </p>
+
+
+      <p class="h4 font-weight-light text-muted"> Sectors: </p>
+      <b-badge v-for="item in row.$mainSectors$display"> {{item}} </b-badge>
+      </p>
+
+      <p class="h4 font-weight-light text-muted"> Skills: </p>
+      <b-badge v-for="item in row.$mainSkills$display"> {{item}} </b-badge>
+      </p>
+
+
+    </h5>
+    <center>
+    </center>
+  </div>
+</div>

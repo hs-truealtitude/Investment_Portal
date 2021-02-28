@@ -1,0 +1,46 @@
+<div class="card-body">
+  <div class="row">
+
+
+  </div>
+  <center><img :src="row.$companyLogo$display" style="border-radius: 50%; max-width:100px  " /> </center>
+  <a href="#!">
+  </a>
+  <div class="pt-4 text-center">
+    <h5 class="h3 title">
+      <span class="d-block mb-1">{{row.name}}</span>
+      <small class="h4 font-weight-light text-muted">{{row.aboutTheCompany}}</small></p>
+
+      <p class="h4 font-weight-light text-muted"> Team Members: </p>
+
+      <p class="h4 font-weight-light text-muted" v-if="i < 3" v-for="member, i in filterBy($getGrid('teamMembersTable'), row.rowKey, 'slingshotPitches') ">
+        <b-badge variant="secondary">
+          {{member.name}}
+
+          {{member.secondName}}
+          -
+          {{member.jobRole}}
+        </b-badge>
+      </p>
+
+
+
+
+      <p class="h4 font-weight-light text-muted"> Investment Type: </p>
+      <b-badge variant="primary"> {{row.$investmentType$display}} </b-badge>
+      </p>
+      <p class="h4 font-weight-light text-muted"> Total Funding Round: £{{row.totalFundingRound |  numeralFormat('0,0') }} </p>
+      <p class="h4 font-weight-light text-muted"> Money Raised to date: £{{row.capitalRaisedToDate |  numeralFormat('0,0') }} </p>
+
+
+      <a :href="'https://'+row.website" target="_blank">
+        <img src="https://www.freepnglogos.com/uploads/logo-website-png/logo-website-website-logo-png-transparent-background-background-15.png" width="35" height="35">
+      </a>
+      <a :href="row.linkedInLink" target="_blank">
+        <img src="https://www.freepnglogos.com/uploads/linkedin-logo-transparent-picture-31.png" width="33" height="33">
+      </a>
+    </h5>
+    <b-button class=" btn-sm" style="color: white;" @click='openDetail(row.rowKey)' variant='success'>Show More Detail
+    </b-button>
+  </div>
+</div>

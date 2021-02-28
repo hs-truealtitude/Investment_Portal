@@ -1,0 +1,34 @@
+{
+  "-MLS03mX7P0bwx4Vivt5": {
+    "_id": 1,
+    "group": false,
+    "lastEditDate": 1604657182603,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "I am already SEIS and/or EIS registered",
+    "rowKey": "-MLS03mX7P0bwx4Vivt5"
+  },
+  "-MLS0N3QeNklGckeQcM2": {
+    "_id": 2,
+    "group": false,
+    "lastEditDate": 1604657191994,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "I need SEIS and/or EIS registration",
+    "rowKey": "-MLS0N3QeNklGckeQcM2"
+  },
+  "-MLS0PM2_MiUpBx79hus": {
+    "_id": 3,
+    "group": false,
+    "lastEditDate": 1604657201259,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "I am not SEIS and/or EIS eligible",
+    "rowKey": "-MLS0PM2_MiUpBx79hus"
+  },
+  "-MLS0RmtYVLP3tiulzRL": {
+    "_id": 4,
+    "group": false,
+    "lastEditDate": 1604657209402,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Other",
+    "rowKey": "-MLS0RmtYVLP3tiulzRL"
+  }
+}

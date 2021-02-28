@@ -1,0 +1,76 @@
+{
+  "-MJwrJkgQNsdbLvfTAfl": {
+    "_id": 1,
+    "group": false,
+    "name": "Buy Out",
+    "rowKey": "-MJwrJkgQNsdbLvfTAfl"
+  },
+  "-MJwrKzMbRm6ilViiS4L": {
+    "_id": 2,
+    "group": false,
+    "name": "Debt & Income",
+    "rowKey": "-MJwrKzMbRm6ilViiS4L"
+  },
+  "-MJwrM0b2Fg3mktQPMcP": {
+    "_id": 3,
+    "group": false,
+    "name": "Early Stage - Seed",
+    "rowKey": "-MJwrM0b2Fg3mktQPMcP"
+  },
+  "-MJwrN-FJwouCLF3u4Pf": {
+    "_id": 4,
+    "group": false,
+    "name": "Early Stage - Pre-Series A",
+    "rowKey": "-MJwrN-FJwouCLF3u4Pf"
+  },
+  "-MJwrOVOAvVjFd7roMNW": {
+    "_id": 5,
+    "group": false,
+    "name": "Early Stage - Series A +",
+    "rowKey": "-MJwrOVOAvVjFd7roMNW"
+  },
+  "-MJwrP2xQLZufsQbc3Gz": {
+    "_id": 6,
+    "group": false,
+    "name": "Growth (this encompasses growing companies that are profitable)",
+    "rowKey": "-MJwrP2xQLZufsQbc3Gz"
+  },
+  "-MJwrQi4ZX_sdjVcxdGg": {
+    "_id": 7,
+    "group": false,
+    "name": "Philanthropy & Social Impact",
+    "rowKey": "-MJwrQi4ZX_sdjVcxdGg"
+  },
+  "-MJwrRzvTYcmfAzDXOBr": {
+    "_id": 8,
+    "group": false,
+    "name": "Private Equity Funds",
+    "rowKey": "-MJwrRzvTYcmfAzDXOBr"
+  },
+  "-MJwrT8qvZCkDdYo-GpL": {
+    "_id": 9,
+    "group": false,
+    "name": "Infrastructure & Renewables",
+    "rowKey": "-MJwrT8qvZCkDdYo-GpL"
+  },
+  "-MJwrUKCI75CEL0nOqgF": {
+    "_id": 10,
+    "group": false,
+    "name": "Real Estate",
+    "rowKey": "-MJwrUKCI75CEL0nOqgF"
+  },
+  "-MJwrVnefgZLy9LziTwe": {
+    "_id": 11,
+    "group": false,
+    "name": "Turnarounds",
+    "rowKey": "-MJwrVnefgZLy9LziTwe"
+  },
+  "-MLS10b-MRUkNxXra7zu": {
+    "_id": 12,
+    "group": false,
+    "lastEditDate": 1604657361714,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Other",
+    "rowKey": "-MLS10b-MRUkNxXra7zu"
+  }
+}

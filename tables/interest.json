@@ -1,0 +1,37 @@
+{
+  "-MRuBrtRUhJ_QKxQUyVm": {
+    "_id": 1,
+    "createdDate": 1611589189434,
+    "group": false,
+    "investor": "-MRuBBufb0sHngYQTa_m",
+    "lastEditDate": 1611589189434,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Investor->SME",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "pitch": "-MNZ-kKtSmZQuN7gqgFt",
+    "rowKey": "-MRuBrtRUhJ_QKxQUyVm"
+  },
+  "-MRuCSa4trjFEoAzmM_2": {
+    "_id": 2,
+    "group": false,
+    "investor": "-MRuBBufb0sHngYQTa_m",
+    "lastEditDate": 1611589354000,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Investor->SME",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "pitch": "-MNZ-kKtSmZQuN7gqgFt",
+    "rowKey": "-MRuCSa4trjFEoAzmM_2"
+  },
+  "-MRuDEVDjnFjRoxzX0ux": {
+    "_id": 3,
+    "createdDate": 1611589548269,
+    "group": false,
+    "investor": "-MRuBBufb0sHngYQTa_m",
+    "lastEditDate": 1611589548269,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Investor->SME",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "pitch": "-MNZ-kKtSmZQuN7gqgFt",
+    "rowKey": "-MRuDEVDjnFjRoxzX0ux"
+  }
+}

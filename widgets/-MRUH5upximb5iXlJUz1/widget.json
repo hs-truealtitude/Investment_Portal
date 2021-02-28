@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/mentors",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "mentors"
+  },
+  "subtab": "-MRUH5jWDX62lEMSWEV8",
+  "tab": "-MRUkGcjzCn_tLNtnbcx",
+  "type": "DataGrid"
+}

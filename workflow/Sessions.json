@@ -1,0 +1,349 @@
+{
+  "data": {
+    "metaData": {
+      "id": "",
+      "statusField": "sessions.status.sessionStatus"
+    },
+    "nodes": [
+      {
+        "id": "node1613390014244",
+        "x": 207,
+        "y": 481,
+        "height": 55,
+        "width": 117,
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "className": "start-event",
+        "icon": {
+          "name": "play-circle",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {}
+      },
+      {
+        "id": "node1613390095196",
+        "x": 232,
+        "y": 200,
+        "height": 55,
+        "width": 219,
+        "clazz": "updateRecord",
+        "label": "Update Record to Pending",
+        "className": "update-record",
+        "icon": {
+          "name": "edit",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "sessions / status",
+          "fieldValue": "'-MT_Y0f-hgT92Kdk5APL'"
+        }
+      },
+      {
+        "id": "node1613390323051",
+        "x": 766,
+        "y": 251,
+        "height": 117,
+        "width": 133,
+        "clazz": "userTask",
+        "label": "SME Approve",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "sME.sMEProfiles.owner"
+        },
+        "outcomes": [
+          {
+            "text": "Accepted",
+            "id": "outcome1613390338492",
+            "idx": 1
+          },
+          {
+            "text": "Rejected",
+            "id": "outcome1613390341620",
+            "idx": 2
+          }
+        ]
+      },
+      {
+        "id": "node1613390394011",
+        "x": 1018,
+        "y": 181,
+        "height": 55,
+        "width": 285,
+        "clazz": "updateRecord",
+        "label": "Update Session Record to Approved",
+        "className": "update-record",
+        "icon": {
+          "name": "edit",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "sessions / status",
+          "fieldValue": "'-MT_Xz9l8P0BnRSUB8fb'"
+        }
+      },
+      {
+        "id": "node1613390736043",
+        "x": 1019,
+        "y": 339,
+        "height": 55,
+        "width": 280,
+        "clazz": "updateRecord",
+        "label": "Update Session Record to Rejected",
+        "className": "update-record",
+        "icon": {
+          "name": "edit",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "sessions / status",
+          "fieldValue": "'-MT_Y-bB3Tef-JAlj2G0'"
+        }
+      },
+      {
+        "id": "node1613390905626",
+        "x": 1352,
+        "y": 169,
+        "height": 55,
+        "width": 215,
+        "clazz": "updateRecord",
+        "label": "Update Record to Booked",
+        "className": "update-record",
+        "icon": {
+          "name": "edit",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "sessions / isBooked",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1613463136747",
+        "x": 1723,
+        "y": 141,
+        "height": 117,
+        "width": 205,
+        "clazz": "userTask",
+        "label": "Did Session Happen?",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "mentor.mentors.owner"
+        },
+        "outcomes": [
+          {
+            "text": "Session went on as planned",
+            "id": "outcome1613463196767",
+            "idx": 1
+          },
+          {
+            "text": "Session did not happen",
+            "id": "outcome1613463200440",
+            "idx": 2
+          }
+        ]
+      },
+      {
+        "id": "node1613463588574",
+        "x": 2064,
+        "y": 140,
+        "height": 55,
+        "width": 158,
+        "clazz": "updateRecord",
+        "label": "Session Went On",
+        "className": "update-record",
+        "icon": {
+          "name": "edit",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "sessions / sessionHappen",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1614009196195",
+        "x": 320,
+        "y": 288,
+        "height": 55,
+        "width": 255,
+        "clazz": "updateRecord",
+        "label": "Update Notification Description",
+        "className": "update-record",
+        "icon": {
+          "name": "edit",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "sessions / notificationDescription",
+          "fieldValue": " has set up a session with you"
+        }
+      },
+      {
+        "id": "node1614170331521",
+        "x": 1406,
+        "y": 344,
+        "height": 55,
+        "width": 255,
+        "clazz": "updateRecord",
+        "label": "Update Notification Description",
+        "className": "update-record",
+        "icon": {
+          "name": "edit",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "sessions / notificationDescription",
+          "fieldValue": "The SME is unable to attend a session you created"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "connector-outcome1613390338492",
+        "target": "node1613390394011",
+        "id": "line-1613390627907",
+        "instance": {
+          "id": "line-1613390627907",
+          "anchor": "connector-outcome1613390338492"
+        },
+        "label": "Accepted",
+        "targetLabel": "Update Session Record to Approved",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "connector-outcome1613390341620",
+        "target": "node1613390736043",
+        "id": "line-1613390786602",
+        "instance": {
+          "id": "line-1613390786602",
+          "anchor": "connector-outcome1613390341620"
+        },
+        "label": "Rejected",
+        "targetLabel": "Update Session Record to Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "node1613390394011-right",
+        "target": "node1613390905626",
+        "id": "line-1613390995387",
+        "instance": {
+          "id": "line-1613390995387",
+          "anchor": "node1613390394011-right"
+        },
+        "label": "Update Session Record to Approved",
+        "targetLabel": "Update Record to Booked",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "node1613390905626-right",
+        "target": "node1613463136747",
+        "id": "line-1613463209326",
+        "instance": {
+          "id": "line-1613463209326",
+          "anchor": "node1613390905626-right"
+        },
+        "label": "Update Record to Booked",
+        "targetLabel": "Did Session Happen?",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "connector-outcome1613463196767",
+        "target": "node1613463588574",
+        "id": "line-1613463627702",
+        "instance": {
+          "id": "line-1613463627702",
+          "anchor": "connector-outcome1613463196767"
+        },
+        "label": "Session went on as planned",
+        "targetLabel": "Session Went On",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "node1613390095196-right",
+        "target": "node1614009196195",
+        "id": "line-1614009207549",
+        "instance": {
+          "id": "line-1614009207549",
+          "anchor": "node1613390095196-right"
+        },
+        "label": "Update Record to Pending",
+        "targetLabel": "Update Notification Record",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "node1613390736043-right",
+        "target": "node1614170331521",
+        "id": "line-1614170398505",
+        "instance": {
+          "id": "line-1614170398505",
+          "anchor": "node1613390736043-right"
+        },
+        "label": "Update Session Record to Rejected",
+        "targetLabel": "Update Notification Description",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "node1613390014244-right",
+        "target": "node1613390323051",
+        "id": "line-1614364981888",
+        "instance": {
+          "id": "line-1614364981888",
+          "anchor": "node1613390014244-right"
+        },
+        "label": "Start Event",
+        "targetLabel": "SME Approve",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      }
+    ]
+  },
+  "name": "Sessions",
+  "scheduled": false
+}

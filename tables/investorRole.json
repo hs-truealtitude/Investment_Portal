@@ -1,0 +1,32 @@
+{
+  "-MJwuhxLIO6fLerMpFmS": {
+    "_id": 1,
+    "group": false,
+    "name": "Silent",
+    "rowKey": "-MJwuhxLIO6fLerMpFmS"
+  },
+  "-MJwujKggUguiSTrf1v4": {
+    "_id": 2,
+    "group": false,
+    "name": "Daily Involvement",
+    "rowKey": "-MJwujKggUguiSTrf1v4"
+  },
+  "-MJwumFQHkhHJ-y4N7GK": {
+    "_id": 3,
+    "group": false,
+    "name": "Weekly Involvement",
+    "rowKey": "-MJwumFQHkhHJ-y4N7GK"
+  },
+  "-MJwupGDPVpGQ1j7NXY3": {
+    "_id": 4,
+    "group": false,
+    "name": "Monthly Involvement",
+    "rowKey": "-MJwupGDPVpGQ1j7NXY3"
+  },
+  "-MJwutATKTLZWFVKEN9Y": {
+    "_id": 5,
+    "group": false,
+    "name": "Any",
+    "rowKey": "-MJwutATKTLZWFVKEN9Y"
+  }
+}

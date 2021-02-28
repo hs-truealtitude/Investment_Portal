@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "columnCount": "1",
+  "dataSource": "investorProfiles",
+  "gsOptions": {
+    "h": 13,
+    "w": 18,
+    "x": 3,
+    "y": 0
+  },
+  "layout": "b-card",
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MTBSXRo7VKGCRMOGIan",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "title": "My Investor Profile",
+  "type": "card-list",
+  "viewOfGrid": "myProfile",
+  "widthType": "columnCount"
+}
