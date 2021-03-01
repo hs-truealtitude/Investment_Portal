@@ -187,8 +187,8 @@
       },
       {
         "id": "node1611833959036",
-        "x": 1162,
-        "y": 251,
+        "x": 1167,
+        "y": 249,
         "height": 55,
         "width": 262,
         "clazz": "updateRecord",
@@ -325,8 +325,8 @@
       },
       {
         "id": "node1612947861497",
-        "x": 1845,
-        "y": 318,
+        "x": 2338,
+        "y": 297,
         "height": 55,
         "width": 263,
         "clazz": "updateRecord",
@@ -342,27 +342,9 @@
         }
       },
       {
-        "id": "node1613470774397",
-        "x": 1980,
-        "y": 193,
-        "height": 55,
-        "width": 264,
-        "clazz": "updateRecord",
-        "label": "Notification Message - Accepted",
-        "className": "update-record",
-        "icon": {
-          "name": "edit",
-          "color": "hsl(189, 87%, 50%)"
-        },
-        "attachment": {
-          "field": "applications / notificationDescription",
-          "fieldValue": "Your application has been accepted"
-        }
-      },
-      {
         "id": "node1613473404020",
-        "x": 1693,
-        "y": 158,
+        "x": 2065,
+        "y": 97,
         "height": 86,
         "width": 185,
         "clazz": "userTask",
@@ -669,23 +651,6 @@
         }
       },
       {
-        "source": "connector-outcome1613473491711",
-        "target": "node1613470774397",
-        "id": "line-1613473505051",
-        "instance": {
-          "id": "line-1613473505051",
-          "anchor": "connector-outcome1613473491711"
-        },
-        "label": "Ok",
-        "targetLabel": "Notification Message - Accepted",
-        "type": {
-          "startPlug": "behind",
-          "color": "hsla(219, 79%, 66%, 0.6)",
-          "size": 3,
-          "path": "magnet"
-        }
-      },
-      {
         "source": "node1611833855780-right",
         "target": "node1613473517798",
         "id": "line-1613473537485",
@@ -737,23 +702,6 @@
         }
       },
       {
-        "source": "node1613470774397-right",
-        "target": "node1612947861497",
-        "id": "line-1613473590101",
-        "instance": {
-          "id": "line-1613473590101",
-          "anchor": "node1613470774397-right"
-        },
-        "label": "Notification Message - Accepted",
-        "targetLabel": "Update Record to Complete SME",
-        "type": {
-          "startPlug": "behind",
-          "color": "hsla(219, 79%, 66%, 0.6)",
-          "size": 3,
-          "path": "magnet"
-        }
-      },
-      {
         "source": "node1611833988292-right",
         "target": "node1613473517798",
         "id": "line-1613474344320",
@@ -788,15 +736,32 @@
         }
       },
       {
-        "source": "node1611833959036-right",
+        "source": "node1612433984022-right",
         "target": "node1613473404020",
-        "id": "line-1614333528010",
+        "id": "line-1614333536895",
         "instance": {
-          "id": "line-1614333528010",
-          "anchor": "node1611833959036-right"
+          "id": "line-1614333536895",
+          "anchor": "node1612433984022-right"
         },
-        "label": "Update SME Record to Approved",
+        "label": "Update Investor Record to Approved",
         "targetLabel": "User Task - Accepted",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "connector-outcome1613473491711",
+        "target": "node1612947861497",
+        "id": "line-1614596298219",
+        "instance": {
+          "id": "line-1614596298219",
+          "anchor": "connector-outcome1613473491711"
+        },
+        "label": "Ok",
+        "targetLabel": "Update Record to Complete SME",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -807,9 +772,9 @@
       {
         "source": "node1611833800212-right",
         "target": "node1613473404020",
-        "id": "line-1614333531985",
+        "id": "line-1614596460697",
         "instance": {
-          "id": "line-1614333531985",
+          "id": "line-1614596460697",
           "anchor": "node1611833800212-right"
         },
         "label": "Update Mentor Record to Approved",
@@ -822,14 +787,14 @@
         }
       },
       {
-        "source": "node1612433984022-right",
+        "source": "node1611833959036-right",
         "target": "node1613473404020",
-        "id": "line-1614333536895",
+        "id": "line-1614596464371",
         "instance": {
-          "id": "line-1614333536895",
-          "anchor": "node1612433984022-right"
+          "id": "line-1614596464371",
+          "anchor": "node1611833959036-right"
         },
-        "label": "Update Investor Record to Approved",
+        "label": "Update SME Record to Approved",
         "targetLabel": "User Task - Accepted",
         "type": {
           "startPlug": "behind",

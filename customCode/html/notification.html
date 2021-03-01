@@ -3,13 +3,19 @@
         <i class="fa fa-bell"></i>
         <span class="num">{{notificationCount}}</span>
         <ul>
+            <!-- Notifications Sent -->
             <li class="icon"
                 v-for='row in notificationList'
-
-                @click="$setDataGridVal('applications', `${row.rowKey}.isComplete`, true);$dgShowEditRowModal('applications', row.rowKey);" 
-            >
-                <span class="text" >{{row.notificationDescription}}</span>
+                    @click="$setDataGridVal('applications', `${row.rowKey}.isComplete`, true);$dgShowEditRowModal('applications', row.rowKey);" >
+                    <span class="text" >{{row.notificationDescription}}</span>
             </li>
+            <!-- Notifications Response -->
+            <li class="icon"
+                v-for='row in notificationListResponse'
+                    @click="$setDataGridVal('applications', `${row.rowKey}.responseOpened`, true); redirectToSMEorMentorPage();" >
+                    <span class="text" >Your application has been approved</span>
+            </li>
+
             <li class="icon">
                 <span class="text" @click='$setCurrentSubTab("-MSbUoT--6X8CjMwlOQ3","-MJq8S1suwASZ84EkCd5")'>View All Notifications</span>
             </li>

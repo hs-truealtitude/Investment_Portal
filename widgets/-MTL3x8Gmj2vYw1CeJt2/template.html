@@ -1,9 +1,12 @@
 <div v-if='row.$pitch' class="card-body">
   <div class="row">
-
-
-
   </div>
+
+    <button @click="removeSME(row.rowKey)" type="button" class="btn btn-danger btn-sm">
+      <i class="fas fa-trash-alt"></i>
+    </button>
+
+
   <center>
     <img v-if='row.$sME' :src="$getDashboardModel('sMEProfiles')[row.sME].$profileImage$display" style="border-radius: 15px; max-width:90px; padding: 5px; " />
     <img v-if='row.$sME' :src="$getDashboardModel('slingshotPitches')[row.pitch].$companyLogo$display" style="border-radius: 15px; max-width:70px; padding: 5px; " />
@@ -22,11 +25,15 @@
       </div>
 
       <div v-if='row.$sME' class="row" style="justify-content:center;">
-        <small style="font-family: 'Grenette pro', sans-serif;" class="h4 font-weight-light text-muted">Contact Number: {{row.$sME.phoneNumber}}</small>
+        <small style="font-family: 'Grenette pro', sans-serif;" class="h4 font-weight-light text-muted">{{row.$sME.phoneNumber}}</small>
       </div>
 
       <div v-if='row.$sME' class="row" style="justify-content:center;">
-        <small style="font-family: 'Grenette pro', sans-serif;" class="h4 font-weight-light text-muted" v-for="member in filterBy($getGrid('Users'), row.rowKey, 'sME')" > {{member.owner}} </small>
+        
+          <small style="font-family: 'Grenette pro', sans-serif;" class="h4 font-weight-light text-muted" v-for='e in row.$sME.$user$display' >
+            <a :href="`mailto:${e}`">{{e}}</a>
+          </small>
+       
       </div>
 
       <div style="height:20px;" class="row">

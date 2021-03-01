@@ -1,6 +1,11 @@
 <div v-if='row.$mentor' class="card-body">
   <div class="row">
   </div>
+
+    <button @click="removeMentor(row.rowKey)" type="button" class="btn btn-danger btn-sm">
+      <i class="fas fa-trash-alt"></i>
+    </button>
+
   <center>
     <img :src="$getDashboardModel('mentors')[row.mentor].$profileImage$display" style="border-radius: 15px; max-width:90px; padding: 5px; " />
     <img :src="$getDashboardModel('slingshotPitches')[row.pitch].$companyLogo$display" style="border-radius: 15px; max-width:70px; padding: 5px;  " />
@@ -17,15 +22,15 @@
       </div>
 
       <div class="row" style="justify-content:center;">
-        <small class="h4 font-weight-light text-muted">Contact Number: {{row.$mentor.phoneNumber}}</small>
+        <small class="h4 font-weight-light text-muted">{{row.$mentor.phoneNumber}}</small>
       </div>
 
       <div class="row" style="justify-content:center;">
 
 
-        <small class="h4 font-weight-light text-muted">Email: </small>
+        <small class="h4 font-weight-light text-muted"></small>
         <a href="mailto:someone@example.com">
-          <small class="h4 font-weight-light text-muted"> {{row.$mentor.$owner$display}}</small>
+          <small class="h4 font-weight-light text-muted" v-for='e in row.$mentor.$user$display' > {{e}}</small>
         </a>
       </div>
 
@@ -35,7 +40,11 @@
     </div>
 
     <center>
-      <b-button class=" btn-sm" variant='primary' @click='$setUser("filterMentor",row.mentor); $setUser("filterPitch",row.pitch); openDetail(row.rowKey)'>Engagement Schedule
+      <b-button class=" btn-sm" variant='primary' 
+      @click='$setUser("filterMentor",row.mentor); 
+      $setUser("filterSME",row.sME);
+      $setUser("filterPitch",row.pitch); 
+      openDetail(row.rowKey)'>Engagement Schedule
       </b-button>
     </center>
 

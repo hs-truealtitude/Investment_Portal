@@ -491,7 +491,7 @@
                 "vif": "",
                 "customCode": "",
                 "invisible": true,
-                "invisibleCondition": "rowData.sessionHappen  != true && $getUser('accountType') == 'SME'",
+                "invisibleCondition": "$getUser('accountType') == 'Mentor'",
                 "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,

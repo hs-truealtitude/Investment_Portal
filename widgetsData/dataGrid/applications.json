@@ -121,6 +121,11 @@
       "order": "18",
       "type": "lookup"
     },
+    "responseOpened": {
+      "displayName": "responseOpened",
+      "order": 24,
+      "type": "checkbox"
+    },
     "sME": {
       "displayName": "SME",
       "invisible": false,
@@ -756,6 +761,49 @@
                 "propName": "mentor",
                 "ableToAddLookUpVal": false,
                 "gridId": "applications"
+              },
+              {
+                "type": "checkbox",
+                "name": "control_checkbox_730343",
+                "fieldName": "control_checkbox_730343",
+                "label": "responseOpened",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "responseOpened"
               },
               {
                 "type": "checkbox",
@@ -1466,6 +1514,9 @@
         "referralTypeSME": {
           "order": "18"
         },
+        "responseOpened": {
+          "order": 24
+        },
         "sME": {
           "invisible": false,
           "order": "5"
@@ -1566,6 +1617,9 @@
         "referralTypeSME": {
           "invisible": false,
           "order": "18"
+        },
+        "responseOpened": {
+          "order": 24
         },
         "sME": {
           "invisible": false,

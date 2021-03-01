@@ -1,3 +1,5 @@
+
+<!-- -->
 <div v-if='row.$pitch' class="row justify-content-center" >
 
   <img v-if='row.$sME' :src="$getDashboardModel('mentors')[row.mentor].$profileImage$display" style="border-radius: 15px; max-width:90px; padding: 5px; " />
@@ -11,9 +13,13 @@
 
 
 </div>
-
+<!-- -->
 
 
 <b-card>
-<FullCalendar calendarId="Slingshot Sessions" />
+<FullCalendar 
+
+v-if='$getUser("filterSME")'
+
+calendarId="Slingshot2Sessions" />
 </b-card>
