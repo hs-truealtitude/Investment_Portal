@@ -1,0 +1,23 @@
+{
+  "classes": "",
+  "columnMaxWidth": "370",
+  "columnMinWidth": "350",
+  "dataSource": "applications",
+  "gsOptions": {
+    "h": 10,
+    "w": 23,
+    "x": 0,
+    "y": 2
+  },
+  "hidden": true,
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MQNav_HFaMuZMGgOjr3",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "title": "My Mentors",
+  "type": "card-list",
+  "viewOfGrid": "myMentors",
+  "widthType": "minAndMaxWidth"
+}

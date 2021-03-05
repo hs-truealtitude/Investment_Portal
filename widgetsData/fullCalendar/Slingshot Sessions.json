@@ -18,5 +18,5 @@
     "start_date": "startDate",
     "subtab": "-MPe1UmfUG2Oh10CnZjs"
   },
-  "filter": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"mentor\",\"operator\":\"=\",\"value\":\"$getUser('filterMentor')\",\"name\":\"Mentor\",\"expression\":true,\"hidden\":false},{\"key\":\"sME\",\"operator\":\"=\",\"value\":\"$getUser('filterSME')\",\"name\":\"SME\",\"expression\":true,\"hidden\":false},{\"key\":\"pitch\",\"operator\":\"=\",\"value\":\"$getUser('filterPitch')\",\"name\":\"pitch\",\"expression\":true,\"hidden\":false}]}"
+  "filter": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"mentor\",\"operator\":\"=\",\"value\":\"$getUser('filterMentor')\",\"name\":\"Mentor\",\"expression\":true,\"hidden\":false},{\"key\":\"sME\",\"operator\":\"=\",\"value\":\"$getUser('filterSME')\",\"name\":\"SME\",\"expression\":true,\"hidden\":false},{\"key\":\"pitch\",\"operator\":\"=\",\"value\":\"$getUser('filterPitch')\",\"name\":\"Pitch\",\"expression\":true,\"hidden\":false}]}"
 }

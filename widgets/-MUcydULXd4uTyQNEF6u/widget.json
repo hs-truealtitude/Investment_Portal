@@ -4,10 +4,10 @@
   "dependency": "fullCalendar/Slingshot2Sessions",
   "end_date": "sessionLength",
   "gsOptions": {
-    "h": 9,
-    "w": 24,
-    "x": 0,
-    "y": 30
+    "h": 19,
+    "w": 21,
+    "x": 3,
+    "y": 22
   },
   "hidden": true,
   "layout": "b-card",

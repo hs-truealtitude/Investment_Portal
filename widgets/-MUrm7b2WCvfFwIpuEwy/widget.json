@@ -1,0 +1,17 @@
+{
+  "dataSource": "slingshotPitches",
+  "gsOptions": {
+    "h": 8,
+    "w": 21,
+    "x": 2,
+    "y": 5
+  },
+  "hidden": true,
+  "offSet": 0,
+  "perPage": 2,
+  "subtab": "-MMkiJKDLeU1Mz8JWLqA",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "title": "Number of Commercial Trials",
+  "type": "card-list",
+  "viewOfGrid": "Default"
+}

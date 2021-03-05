@@ -1,0 +1,8 @@
+<div v-if='row.$pitch' class="card-body">
+  <h2>{{row.name}}</h2>
+  <p>{{row.$pitch.name}}</p>
+  <p>£{{row.value |  numeralFormat('0,0') }}</p>
+  <p>{{row.$startDate$Date}}</p>
+  <p>{{row.$endDate$Date}}</p>
+  <p></p>
+</div>

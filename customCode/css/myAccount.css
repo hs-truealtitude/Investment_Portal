@@ -8,19 +8,27 @@
 .profile{
     width:60px;
     height:60px;
-    background:#fff;
     border-radius:30px;
     box-sizing:border-box;
     text-align:center;
     box-shadow:0 2px 5px rgba(0,0,0,.2);
+        border:1px solid #000000;
+            background: #fffaf3;
+
+
 }
 
 .profile:hover .fas {
     color: black;
 }
 
+.profile:hover{
+        background-color:#ef4437;
+
+}
+
 .profile .fas {
-    color:#cecece;
+    color: black;
     line-height:60px;
     font-size:20px;
 }

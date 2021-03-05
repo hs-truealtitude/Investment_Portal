@@ -796,7 +796,7 @@
                 "isChecked": false,
                 "vif": "",
                 "customCode": "",
-                "invisible": false,
+                "invisible": true,
                 "invisibleCondition": "",
                 "invisibleInDataGrid": false,
                 "invisibleLabel": false,
@@ -817,7 +817,7 @@
       }
     ],
     "layout": "collapse",
-    "_uniqueId": 0.5270328607592814
+    "_uniqueId": 0.6247046690289588
   },
   "source": "sMEProfiles",
   "storageType": "dashboard",

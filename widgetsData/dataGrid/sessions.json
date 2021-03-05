@@ -1,6 +1,6 @@
 {
   "displayColumn": "name",
-  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"sME\",\"operator\":\"=\",\"value\":null,\"name\":\"sm\",\"hidden\":false},{\"key\":\"pitch\",\"operator\":\"=\",\"value\":null,\"name\":\"pitdh\",\"hidden\":false}]}",
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"sME\",\"operator\":\"=\",\"value\":null,\"name\":\"SME\",\"hidden\":false},{\"key\":\"pitch\",\"operator\":\"=\",\"value\":null,\"name\":\"PITCH\",\"hidden\":false}]}",
   "isReactive": true,
   "meta": {
     "bookASession": {
@@ -66,10 +66,20 @@
       "order": 17,
       "type": "multiline_text"
     },
+    "notifComplete": {
+      "displayName": "notifComplete",
+      "order": 24,
+      "type": "checkbox"
+    },
     "notificationDescription": {
       "displayName": "NotificationDescription",
       "order": 18,
       "type": "string"
+    },
+    "notifyMentor": {
+      "displayName": "",
+      "order": 25,
+      "type": "custom"
     },
     "owner": {
       "displayName": "Owner",
@@ -87,6 +97,11 @@
       "displayName": "",
       "order": 20,
       "type": "custom"
+    },
+    "responseOpened": {
+      "displayName": "responseOpened",
+      "order": 23,
+      "type": "checkbox"
     },
     "sME": {
       "displayName": "SME",
@@ -333,8 +348,8 @@
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
-                "readonly": true,
-                "readonlyCondition": "$getUser('accountType') == 'SME'",
+                "readonly": false,
+                "readonlyCondition": "",
                 "placeholder": "",
                 "labelBold": false,
                 "labelItalic": false,
@@ -491,7 +506,7 @@
                 "vif": "",
                 "customCode": "",
                 "invisible": true,
-                "invisibleCondition": "$getUser('accountType') == 'Mentor'",
+                "invisibleCondition": "$getUser('accountType') == 'Mentor' || rowData.state != \"Session Went On\"",
                 "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
@@ -534,8 +549,8 @@
                 "isChecked": false,
                 "vif": "",
                 "customCode": "",
-                "invisible": false,
-                "invisibleCondition": "rowData.nextEvents && rowData.owner != fbUser.uid",
+                "invisible": true,
+                "invisibleCondition": "(rowData.state == \"SME Approve\" && $getUser('accountType') == \"Mentor\") || (rowData.state == \"Did Session Happen?\" &&  $getUser('accountType') == \"SME\") || rowData.state == \"error\" || rowData.state == \"Session Went On\"",
                 "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
@@ -549,6 +564,50 @@
                 "name": "control_custom_463553",
                 "fieldName": "control_custom_463553",
                 "label": "Message",
+                "order": 9,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<h2> Session booking sent. You will be notified if the session has been accepted. </h2>",
+                "invisible": true,
+                "invisibleCondition": "!rowData.nextEvents || rowData.owner == fbUser.uid || $getUser('accountType') == \"SME\" ",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "message",
+                "gridId": "sessions"
+              },
+              {
+                "type": "custom",
+                "name": "control_custom_826448",
+                "fieldName": "control_custom_826448",
+                "label": "",
                 "order": 0,
                 "defaultValue": "",
                 "value": "",
@@ -577,15 +636,15 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<h2> Session booking sent. You will be notified if the session has been accepted or rejected. </h2>",
+                "customCode": "<h2> Response sent to the mentor. Go to 'My Mentors' to see the session booking. </h2>",
                 "invisible": true,
-                "invisibleCondition": "!rowData.nextEvents || rowData.owner == fbUser.uid",
+                "invisibleCondition": "rowData.state == \"SME Approve\" || rowData.state == \"error\" || $getUser('accountType') == \"Mentor\" ",
                 "invisibleInDataGrid": false,
-                "invisibleLabel": true,
+                "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "message",
+                "propName": "notifyMentor",
                 "gridId": "sessions"
               }
             ]
@@ -1052,11 +1111,99 @@
                 "gridId": "sessions"
               },
               {
+                "type": "checkbox",
+                "name": "control_checkbox_835690",
+                "fieldName": "control_checkbox_835690",
+                "label": "notifComplete",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "notifComplete",
+                "gridId": "sessions"
+              },
+              {
+                "type": "checkbox",
+                "name": "control_checkbox_907046",
+                "fieldName": "control_checkbox_907046",
+                "label": "responseOpened",
+                "order": 10,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "responseOpened",
+                "gridId": "sessions"
+              },
+              {
                 "type": "text",
                 "name": "control_text_777802",
                 "fieldName": "control_text_777802",
                 "label": "NotificationDescription",
-                "order": 10,
+                "order": 11,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -1100,7 +1247,7 @@
                 "name": "control_lookup_264021",
                 "fieldName": "control_lookup_264021",
                 "label": "Status",
-                "order": 11,
+                "order": 12,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -1145,7 +1292,7 @@
                 "name": "control_user_854379",
                 "fieldName": "control_user_854379",
                 "label": "Owner",
-                "order": 12,
+                "order": 13,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -1196,9 +1343,105 @@
       }
     ],
     "layout": "collapse",
-    "_uniqueId": 0.9282426365167828
+    "_uniqueId": 0.21264672347958768
   },
   "source": "sessions",
   "storageType": "dashboard",
-  "title": "Sessions"
+  "title": "Sessions",
+  "views": {
+    "myBookedSessions": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isBooked\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Booked?\",\"hidden\":true},{\"key\":\"sessionHappen\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"Happened?\",\"hidden\":true},{\"key\":\"owner\",\"operator\":\"contains\",\"value\":\"fbUser.uid\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true}]}",
+      "meta": {
+        "bookASession": {
+          "order": 15
+        },
+        "createdDate": {
+          "invisible": false,
+          "order": "4"
+        },
+        "isBooked": {
+          "order": 14
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": "9"
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": "8"
+        },
+        "mentor": {
+          "order": 11
+        },
+        "mentorCard": {
+          "order": 19
+        },
+        "message": {
+          "order": 22
+        },
+        "name": {
+          "invisible": false,
+          "order": "0"
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": "7"
+        },
+        "notes": {
+          "order": 17
+        },
+        "notifComplete": {
+          "order": 24
+        },
+        "notificationDescription": {
+          "order": 18
+        },
+        "notifyMentor": {
+          "order": 25
+        },
+        "owner": {
+          "invisible": false,
+          "order": "5"
+        },
+        "pitch": {
+          "order": 12
+        },
+        "pitchCard": {
+          "order": 20
+        },
+        "responseOpened": {
+          "order": 23
+        },
+        "sME": {
+          "order": 10
+        },
+        "sMECard": {
+          "order": 21
+        },
+        "sessionHappen": {
+          "order": 16
+        },
+        "sessionLength": {
+          "invisible": false,
+          "order": "3"
+        },
+        "sessionReview": {
+          "invisible": false,
+          "order": "2"
+        },
+        "startDate": {
+          "invisible": false,
+          "order": "1"
+        },
+        "state": {
+          "invisible": true,
+          "order": "6"
+        },
+        "status": {
+          "order": 13
+        }
+      },
+      "title": "My Booked Sessions"
+    }
+  }
 }

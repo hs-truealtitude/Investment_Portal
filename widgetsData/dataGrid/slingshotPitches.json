@@ -4803,6 +4803,311 @@
       },
       "title": "Admin View"
     },
+    "approvePitches": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"investmentType\",\"operator\":\"in\",\"value\":null,\"name\":\"Investment Type\",\"hidden\":false},{\"key\":\"dealProjectName\",\"operator\":\"contains\",\"value\":null,\"name\":\"Pitch Name\",\"hidden\":false},{\"key\":\"access\",\"operator\":\"=\",\"value\":{\"value\":\"-MKjNhCeEjTtfQL8X6vn\",\"name\":\"Private\"},\"name\":\"Private\",\"hidden\":true}]}",
+      "meta": {
+        "aboutTheCompany": {
+          "invisible": true,
+          "order": "10"
+        },
+        "access": {
+          "invisible": false,
+          "order": "0"
+        },
+        "capitalAlreadyRaisedForCurrentFundingRound": {
+          "invisible": true,
+          "order": "58"
+        },
+        "capitalRaisedToDate": {
+          "invisible": true,
+          "order": "36"
+        },
+        "commercialContractsSecured": {
+          "order": 79
+        },
+        "commitmentClosingDate": {
+          "invisible": true,
+          "order": "59"
+        },
+        "companyDebt": {
+          "invisible": true,
+          "order": "45"
+        },
+        "companyEmail": {
+          "invisible": false,
+          "order": "5"
+        },
+        "companyLogo": {
+          "invisible": false,
+          "order": "1"
+        },
+        "companyLogosAndBranding": {
+          "invisible": false,
+          "order": "40"
+        },
+        "confidentialityAgreement": {
+          "invisible": false,
+          "order": "60"
+        },
+        "cornerstoneConsent": {
+          "invisible": true,
+          "order": "48"
+        },
+        "cornerstoneInvestorContactDetails": {
+          "invisible": true,
+          "order": "17"
+        },
+        "createdDate": {
+          "invisible": true,
+          "order": "46"
+        },
+        "currentReturnOfRevenue": {
+          "invisible": true,
+          "order": "16"
+        },
+        "dataRoomDocuments": {
+          "invisible": false,
+          "order": "41"
+        },
+        "dealProjectName": {
+          "invisible": false,
+          "order": "9"
+        },
+        "debtInformation": {
+          "invisible": true,
+          "order": "56"
+        },
+        "eISSEIS": {
+          "invisible": true,
+          "order": "72"
+        },
+        "employeeAmount": {
+          "invisible": true,
+          "order": "15"
+        },
+        "excludedInvestors": {
+          "invisible": true,
+          "order": "34"
+        },
+        "executiveSummaryOfProject": {
+          "invisible": false,
+          "order": "39"
+        },
+        "financialForecastModel": {
+          "invisible": false,
+          "order": "11"
+        },
+        "grantFunding": {
+          "invisible": true,
+          "order": "64"
+        },
+        "howManyInteractionsToMeetProjection": {
+          "invisible": true,
+          "order": "29"
+        },
+        "howManyInteractionsToMeetProjectionOurOwnPrediction": {
+          "invisible": true,
+          "order": "32"
+        },
+        "howManySignedLOIMOUHOT": {
+          "invisible": true,
+          "order": "51"
+        },
+        "iD": {
+          "invisible": true,
+          "order": "47"
+        },
+        "investmentMemorandumDeck": {
+          "invisible": false,
+          "order": "57"
+        },
+        "investmentRaised": {
+          "invisible": true,
+          "order": "63"
+        },
+        "investmentType": {
+          "invisible": true,
+          "order": "61"
+        },
+        "jobsGeneratedThroughoutProgramme": {
+          "invisible": true,
+          "order": "66"
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": "37"
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": "35"
+        },
+        "latestFinancialTradingInformation": {
+          "invisible": false,
+          "order": "26"
+        },
+        "linkedInLink": {
+          "invisible": true,
+          "order": "52"
+        },
+        "litigationTaxOrPressure": {
+          "invisible": true,
+          "order": "19"
+        },
+        "location": {
+          "invisible": true,
+          "order": "8"
+        },
+        "mainInvestorsCommitedInCurrentRound": {
+          "invisible": true,
+          "order": "42"
+        },
+        "minimumInvestment": {
+          "invisible": true,
+          "order": "30"
+        },
+        "mobileNumber": {
+          "invisible": false,
+          "order": "6"
+        },
+        "name": {
+          "invisible": false,
+          "order": "12"
+        },
+        "news": {
+          "invisible": true,
+          "order": "31"
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": "49"
+        },
+        "numberOfCommercialTrials": {
+          "invisible": true,
+          "order": "65"
+        },
+        "numberOfInteractionsCommercialOpportunities": {
+          "invisible": true,
+          "order": "28"
+        },
+        "numberOfJobsGenerated": {
+          "invisible": true,
+          "order": "20"
+        },
+        "owner": {
+          "invisible": true,
+          "order": "18"
+        },
+        "permanentHigherEducationJobs": {
+          "invisible": true,
+          "order": "70"
+        },
+        "permanentProfessionalJobs": {
+          "invisible": true,
+          "order": "71"
+        },
+        "pitchSummary": {
+          "invisible": true,
+          "order": "13"
+        },
+        "preMoneyValuationOfCurrentRound": {
+          "invisible": true,
+          "order": "43"
+        },
+        "predictedEmployeesHired1Year": {
+          "invisible": true,
+          "order": "21"
+        },
+        "predictedEmployeesHired2Years": {
+          "invisible": true,
+          "order": "22"
+        },
+        "predictedEmployeesHired3Years": {
+          "invisible": true,
+          "order": "25"
+        },
+        "predictedEmployeesHired5Years": {
+          "invisible": true,
+          "order": "27"
+        },
+        "productGrowthOtherIndustries": {
+          "invisible": true,
+          "order": "33"
+        },
+        "sME": {
+          "invisible": false,
+          "order": "23"
+        },
+        "sectors": {
+          "invisible": true,
+          "order": "54"
+        },
+        "skills": {
+          "invisible": true,
+          "order": "62"
+        },
+        "specificStrategicValue": {
+          "invisible": true,
+          "order": "50"
+        },
+        "startDate": {
+          "invisible": true,
+          "order": "14"
+        },
+        "state": {
+          "invisible": true,
+          "order": "44"
+        },
+        "submitPitch": {
+          "invisible": true,
+          "order": "67"
+        },
+        "targetCompletionDate": {
+          "invisible": true,
+          "order": "4"
+        },
+        "targetInvestorsForDealMarketing": {
+          "invisible": true,
+          "order": "38"
+        },
+        "targetReturnOfInvestment": {
+          "invisible": true,
+          "order": "53"
+        },
+        "testbedHigherEducationJobs": {
+          "invisible": true,
+          "order": "69"
+        },
+        "testbedProfessionalJobs": {
+          "invisible": true,
+          "order": "68"
+        },
+        "totalFundingRound": {
+          "invisible": true,
+          "order": "24"
+        },
+        "trueAltitudeLinkedInMarketing": {
+          "invisible": true,
+          "order": "73"
+        },
+        "user": {
+          "invisible": true,
+          "order": "55"
+        },
+        "website": {
+          "invisible": true,
+          "order": "7"
+        },
+        "wiz": {
+          "invisible": true,
+          "order": "3"
+        },
+        "wizard": {
+          "invisible": true,
+          "order": "2"
+        }
+      },
+      "title": "Approve Pitches"
+    },
     "filteredCardList": {
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"hidden\":false},{\"key\":\"investmentType\",\"operator\":\"in\",\"value\":null,\"name\":\"Investment Type\",\"hidden\":false},{\"key\":\"access\",\"operator\":\"=\",\"value\":{\"value\":\"-MKjNiLMpbGAZI8h2lhK\",\"name\":\"Public\"},\"name\":\"Access\",\"hidden\":true}]}",
       "meta": {

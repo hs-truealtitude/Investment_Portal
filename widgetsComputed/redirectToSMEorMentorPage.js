@@ -14,6 +14,11 @@ return async function  () {
 
         }
 
+        //Investor
+        if(accountType == 'Investor'){
+            $setCurrentSubTab('-MMBK_vCD0he4dNLSMs4','-MJq8S1suwASZ84EkCd5')
+
+        }
 
 }
 

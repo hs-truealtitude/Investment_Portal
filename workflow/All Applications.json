@@ -75,8 +75,8 @@
       },
       {
         "id": "node1611833758124",
-        "x": 878,
-        "y": 107,
+        "x": 873,
+        "y": 113,
         "height": 117,
         "width": 151,
         "clazz": "userTask",
@@ -325,8 +325,8 @@
       },
       {
         "id": "node1612947861497",
-        "x": 2338,
-        "y": 297,
+        "x": 2737,
+        "y": 310,
         "height": 55,
         "width": 263,
         "clazz": "updateRecord",
@@ -343,19 +343,19 @@
       },
       {
         "id": "node1613473404020",
-        "x": 2065,
-        "y": 97,
+        "x": 2100,
+        "y": 178,
         "height": 86,
-        "width": 185,
+        "width": 362,
         "clazz": "userTask",
-        "label": "User Task - Accepted",
+        "label": "User Task - Accepted (RESPONSE TO MENTOR)",
         "className": "user-task",
         "icon": {
           "name": "user",
           "color": "hsl(235, 71%, 65%)"
         },
         "attachment": {
-          "user": "_row.applications.owner"
+          "user": "mentor.mentors.user"
         },
         "outcomes": [
           {
@@ -367,8 +367,8 @@
       },
       {
         "id": "node1613473517798",
-        "x": 1693,
-        "y": 408,
+        "x": 1728,
+        "y": 549,
         "height": 86,
         "width": 180,
         "clazz": "userTask",
@@ -391,8 +391,8 @@
       },
       {
         "id": "node1613473543170",
-        "x": 1994,
-        "y": 440,
+        "x": 2083,
+        "y": 590,
         "height": 55,
         "width": 259,
         "clazz": "updateRecord",
@@ -406,6 +406,90 @@
           "field": "applications / notificationDescription",
           "fieldValue": "Your application has been accepted"
         }
+      },
+      {
+        "id": "node1614618844448",
+        "x": 1667,
+        "y": 199,
+        "height": 55,
+        "width": 232,
+        "clazz": "updateRecord",
+        "label": "SME Completed Application",
+        "className": "update-record",
+        "icon": {
+          "name": "edit",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / isComplete",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1614619444841",
+        "x": 1677,
+        "y": 77,
+        "height": 55,
+        "width": 241,
+        "clazz": "updateRecord",
+        "label": "Mentor Complete Application",
+        "className": "update-record",
+        "icon": {
+          "name": "edit",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / isComplete",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1614774807685",
+        "x": 2226,
+        "y": 11,
+        "height": 86,
+        "width": 332,
+        "clazz": "userTask",
+        "label": "User Task - Accepted (RESPONSE TO SME)",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "sME.sMEProfiles.user"
+        },
+        "outcomes": [
+          {
+            "text": "Ok",
+            "id": "outcome1614774820150",
+            "idx": 1
+          }
+        ]
+      },
+      {
+        "id": "node1614775225013",
+        "x": 1840,
+        "y": 359,
+        "height": 86,
+        "width": 372,
+        "clazz": "userTask",
+        "label": "User Task - Accepted (RESPONSE TO INVESTOR)",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "investor.investorProfiles.user"
+        },
+        "outcomes": [
+          {
+            "text": "Ok",
+            "id": "outcome1614775257070",
+            "idx": 1
+          }
+        ]
       }
     ],
     "edges": [
@@ -736,15 +820,15 @@
         }
       },
       {
-        "source": "node1612433984022-right",
-        "target": "node1613473404020",
-        "id": "line-1614333536895",
+        "source": "node1611833800212-right",
+        "target": "node1614619444841",
+        "id": "line-1614619469028",
         "instance": {
-          "id": "line-1614333536895",
-          "anchor": "node1612433984022-right"
+          "id": "line-1614619469028",
+          "anchor": "node1611833800212-right"
         },
-        "label": "Update Investor Record to Approved",
-        "targetLabel": "User Task - Accepted",
+        "label": "Update Mentor Record to Approved",
+        "targetLabel": "Mentor Complete Application",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -753,12 +837,80 @@
         }
       },
       {
-        "source": "connector-outcome1613473491711",
-        "target": "node1612947861497",
-        "id": "line-1614596298219",
+        "source": "node1611833959036-right",
+        "target": "node1614618844448",
+        "id": "line-1614774562537",
         "instance": {
-          "id": "line-1614596298219",
-          "anchor": "connector-outcome1613473491711"
+          "id": "line-1614774562537",
+          "anchor": "node1611833959036-right"
+        },
+        "label": "Update SME Record to Approved",
+        "targetLabel": "SME Completed Application",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "node1614619444841-right",
+        "target": "node1614774807685",
+        "id": "line-1614774996159",
+        "instance": {
+          "id": "line-1614774996159",
+          "anchor": "node1614619444841-right"
+        },
+        "label": "Mentor Complete Application",
+        "targetLabel": "User Task - Accepted (RESPONSE TO SME)",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "node1614618844448-right",
+        "target": "node1613473404020",
+        "id": "line-1614774997853",
+        "instance": {
+          "id": "line-1614774997853",
+          "anchor": "node1614618844448-right"
+        },
+        "label": "SME Completed Application",
+        "targetLabel": "User Task - Accepted (RESPONSE TO MENTOR)",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "node1612433984022-right",
+        "target": "node1614775225013",
+        "id": "line-1614775244591",
+        "instance": {
+          "id": "line-1614775244591",
+          "anchor": "node1612433984022-right"
+        },
+        "label": "Update Investor Record to Approved",
+        "targetLabel": "User Task - Accepted (RESPONSE TO INVESTOR)",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "connector-outcome1614774820150",
+        "target": "node1612947861497",
+        "id": "line-1614776233598",
+        "instance": {
+          "id": "line-1614776233598",
+          "anchor": "connector-outcome1614774820150"
         },
         "label": "Ok",
         "targetLabel": "Update Record to Complete SME",
@@ -770,15 +922,15 @@
         }
       },
       {
-        "source": "node1611833800212-right",
-        "target": "node1613473404020",
-        "id": "line-1614596460697",
+        "source": "connector-outcome1614775257070",
+        "target": "node1612947861497",
+        "id": "line-1614776236085",
         "instance": {
-          "id": "line-1614596460697",
-          "anchor": "node1611833800212-right"
+          "id": "line-1614776236085",
+          "anchor": "connector-outcome1614775257070"
         },
-        "label": "Update Mentor Record to Approved",
-        "targetLabel": "User Task - Accepted",
+        "label": "Ok",
+        "targetLabel": "Update Record to Complete SME",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -787,15 +939,15 @@
         }
       },
       {
-        "source": "node1611833959036-right",
-        "target": "node1613473404020",
-        "id": "line-1614596464371",
+        "source": "connector-outcome1613473491711",
+        "target": "node1612947861497",
+        "id": "line-1614776239405",
         "instance": {
-          "id": "line-1614596464371",
-          "anchor": "node1611833959036-right"
+          "id": "line-1614776239405",
+          "anchor": "connector-outcome1613473491711"
         },
-        "label": "Update SME Record to Approved",
-        "targetLabel": "User Task - Accepted",
+        "label": "Ok",
+        "targetLabel": "Update Record to Complete SME",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",

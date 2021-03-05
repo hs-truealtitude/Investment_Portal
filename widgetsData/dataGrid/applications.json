@@ -643,7 +643,7 @@
                 "vif": "",
                 "customCode": "<h3>Thanks for submitting. Please close this window and wait for a response.</h3>",
                 "invisible": true,
-                "invisibleCondition": "!rowData.nextEvents || rowData.owner == fbUser.uid",
+                "invisibleCondition": "!rowData.nextEvents || rowData.owner == fbUser.uid || ($getUser('accountType') == \"SME\" && rowData.$applicationStatus$display == \"Approved\") ",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": true,
                 "enableCustomValidation": false,
@@ -706,7 +706,7 @@
                 "isChecked": false,
                 "vif": "",
                 "customCode": "",
-                "invisible": true,
+                "invisible": false,
                 "invisibleCondition": "$getUser('accountType') == 'SME' || $getUser('accountType') == 'Investor' || (rowData.name == 'SME->Mentor' && $getUser('accountType') == 'Mentor') || (rowData.name == 'Mentor->SME' && $getUser('accountType') == 'Mentor')",
                 "invisibleInDataGrid": false,
                 "invisibleLabel": false,
@@ -1435,7 +1435,7 @@
       }
     ],
     "layout": "collapse",
-    "_uniqueId": 0.9785424422311486
+    "_uniqueId": 0.4773800366263896
   },
   "source": "applications",
   "storageType": "dashboard",
@@ -1638,6 +1638,106 @@
         }
       },
       "title": "Mentor and Sessions"
+    },
+    "myMentors": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"sME\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"SME\",\"expression\":true,\"hidden\":false},{\"key\":\"applicationStatus\",\"operator\":\"=\",\"value\":{\"value\":\"-MS2D3bgt4vWZpZco7Aw\",\"name\":\"Approved\"},\"name\":\"Approved\",\"hidden\":true},{\"key\":\"isComplete\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Complete\",\"hidden\":true},{\"key\":\"name\",\"operator\":\"!=\",\"value\":\"Investor->SME\",\"name\":\"Direction Not Investor\",\"hidden\":true}]}",
+      "meta": {
+        "applicationStatus": {
+          "invisible": false,
+          "order": "1"
+        },
+        "applicationSubmit": {
+          "invisible": true,
+          "order": "4"
+        },
+        "createdBy": {
+          "invisible": false,
+          "order": "2"
+        },
+        "createdDate": {
+          "invisible": false,
+          "order": "9"
+        },
+        "investor": {
+          "invisible": false,
+          "order": "5"
+        },
+        "investorCard": {
+          "order": 20
+        },
+        "isComplete": {
+          "invisible": false,
+          "order": "3"
+        },
+        "lastEditDate": {
+          "invisible": false,
+          "order": "10"
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": "16"
+        },
+        "mentor": {
+          "invisible": false,
+          "order": "6"
+        },
+        "mentorCard": {
+          "order": 22
+        },
+        "messageDisplay": {
+          "order": 21
+        },
+        "name": {
+          "invisible": false,
+          "order": "0"
+        },
+        "nextEvents": {
+          "invisible": false,
+          "order": "12"
+        },
+        "notificationDescription": {
+          "invisible": false,
+          "order": "8"
+        },
+        "owner": {
+          "invisible": false,
+          "order": "11"
+        },
+        "pitch": {
+          "invisible": false,
+          "order": "14"
+        },
+        "pitchCard": {
+          "order": 19
+        },
+        "referralTypeMentor": {
+          "invisible": false,
+          "order": "17"
+        },
+        "referralTypeSME": {
+          "invisible": false,
+          "order": "18"
+        },
+        "responseOpened": {
+          "order": 24
+        },
+        "sME": {
+          "invisible": false,
+          "order": "7"
+        },
+        "sMECard": {
+          "order": 23
+        },
+        "sentMessage": {
+          "invisible": true,
+          "order": "15"
+        },
+        "state": {
+          "invisible": false,
+          "order": "13"
+        }
+      },
+      "title": "My Mentors"
     }
   }
 }

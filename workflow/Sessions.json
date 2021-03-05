@@ -9,8 +9,8 @@
         "id": "node1613390014244",
         "x": 207,
         "y": 481,
-        "height": 55,
-        "width": 117,
+        "height": 36,
+        "width": 113,
         "clazz": "startEvent",
         "label": "Start Event",
         "className": "start-event",
@@ -22,10 +22,10 @@
       },
       {
         "id": "node1613390095196",
-        "x": 232,
-        "y": 200,
-        "height": 55,
-        "width": 219,
+        "x": 450,
+        "y": 329,
+        "height": 36,
+        "width": 203,
         "clazz": "updateRecord",
         "label": "Update Record to Pending",
         "className": "update-record",
@@ -42,8 +42,8 @@
         "id": "node1613390323051",
         "x": 766,
         "y": 251,
-        "height": 117,
-        "width": 133,
+        "height": 109,
+        "width": 125,
         "clazz": "userTask",
         "label": "SME Approve",
         "className": "user-task",
@@ -71,8 +71,8 @@
         "id": "node1613390394011",
         "x": 1018,
         "y": 181,
-        "height": 55,
-        "width": 285,
+        "height": 36,
+        "width": 261,
         "clazz": "updateRecord",
         "label": "Update Session Record to Approved",
         "className": "update-record",
@@ -87,10 +87,10 @@
       },
       {
         "id": "node1613390736043",
-        "x": 1019,
-        "y": 339,
-        "height": 55,
-        "width": 280,
+        "x": 1061,
+        "y": 342,
+        "height": 36,
+        "width": 255,
         "clazz": "updateRecord",
         "label": "Update Session Record to Rejected",
         "className": "update-record",
@@ -107,8 +107,8 @@
         "id": "node1613390905626",
         "x": 1352,
         "y": 169,
-        "height": 55,
-        "width": 215,
+        "height": 36,
+        "width": 200,
         "clazz": "updateRecord",
         "label": "Update Record to Booked",
         "className": "update-record",
@@ -123,10 +123,10 @@
       },
       {
         "id": "node1613463136747",
-        "x": 1724,
-        "y": 141,
-        "height": 117,
-        "width": 205,
+        "x": 1723,
+        "y": 140,
+        "height": 109,
+        "width": 176,
         "clazz": "userTask",
         "label": "Did Session Happen?",
         "className": "user-task",
@@ -135,7 +135,7 @@
           "color": "hsl(235, 71%, 65%)"
         },
         "attachment": {
-          "user": "sME.sMEProfiles.owner"
+          "user": "mentor.mentors.owner"
         },
         "outcomes": [
           {
@@ -154,8 +154,8 @@
         "id": "node1613463588574",
         "x": 2064,
         "y": 140,
-        "height": 55,
-        "width": 158,
+        "height": 36,
+        "width": 151,
         "clazz": "updateRecord",
         "label": "Session Went On",
         "className": "update-record",
@@ -169,40 +169,40 @@
         }
       },
       {
-        "id": "node1614009196195",
-        "x": 320,
-        "y": 288,
-        "height": 55,
-        "width": 255,
-        "clazz": "updateRecord",
-        "label": "Update Notification Description",
-        "className": "update-record",
+        "id": "node1614763059039",
+        "x": 1467,
+        "y": 347,
+        "height": 36,
+        "width": 119,
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "className": "script-task",
         "icon": {
-          "name": "edit",
-          "color": "hsl(189, 87%, 50%)"
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
         },
         "attachment": {
-          "field": "sessions / notificationDescription",
-          "fieldValue": " has set up a session with you"
-        }
+          "script": "$dgRemoveRow('sessions', row.rowKey)"
+        },
+        "display": false
       },
       {
-        "id": "node1614170331521",
-        "x": 1406,
-        "y": 344,
-        "height": 55,
-        "width": 255,
-        "clazz": "updateRecord",
-        "label": "Update Notification Description",
-        "className": "update-record",
+        "id": "node1614772491768",
+        "x": 2084,
+        "y": 330,
+        "height": 36,
+        "width": 119,
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "className": "script-task",
         "icon": {
-          "name": "edit",
-          "color": "hsl(189, 87%, 50%)"
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
         },
         "attachment": {
-          "field": "sessions / notificationDescription",
-          "fieldValue": "The SME is unable to attend a session you created"
-        }
+          "script": "$dgRemoveRow('sessions', row.rowKey)"
+        },
+        "display": false
       }
     ],
     "edges": [
@@ -216,23 +216,6 @@
         },
         "label": "Accepted",
         "targetLabel": "Update Session Record to Approved",
-        "type": {
-          "startPlug": "behind",
-          "color": "hsla(219, 79%, 66%, 0.6)",
-          "size": 3,
-          "path": "magnet"
-        }
-      },
-      {
-        "source": "connector-outcome1613390341620",
-        "target": "node1613390736043",
-        "id": "line-1613390786602",
-        "instance": {
-          "id": "line-1613390786602",
-          "anchor": "connector-outcome1613390341620"
-        },
-        "label": "Rejected",
-        "targetLabel": "Update Session Record to Rejected",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -292,15 +275,49 @@
         }
       },
       {
-        "source": "node1613390095196-right",
-        "target": "node1614009196195",
-        "id": "line-1614009207549",
+        "source": "node1613390014244-right",
+        "target": "node1613390095196",
+        "id": "line-1614614391521",
         "instance": {
-          "id": "line-1614009207549",
+          "id": "line-1614614391521",
+          "anchor": "node1613390014244-right"
+        },
+        "label": "Start Event",
+        "targetLabel": "Update Record to Pending",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "node1613390095196-right",
+        "target": "node1613390323051",
+        "id": "line-1614614393433",
+        "instance": {
+          "id": "line-1614614393433",
           "anchor": "node1613390095196-right"
         },
         "label": "Update Record to Pending",
-        "targetLabel": "Update Notification Record",
+        "targetLabel": "SME Approve",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "connector-outcome1613390341620",
+        "target": "node1613390736043",
+        "id": "line-1614763057176",
+        "instance": {
+          "id": "line-1614763057176",
+          "anchor": "connector-outcome1613390341620"
+        },
+        "label": "Rejected",
+        "targetLabel": "Update Session Record to Rejected",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -310,14 +327,14 @@
       },
       {
         "source": "node1613390736043-right",
-        "target": "node1614170331521",
-        "id": "line-1614170398505",
+        "target": "node1614763059039",
+        "id": "line-1614763061945",
         "instance": {
-          "id": "line-1614170398505",
+          "id": "line-1614763061945",
           "anchor": "node1613390736043-right"
         },
         "label": "Update Session Record to Rejected",
-        "targetLabel": "Update Notification Description",
+        "targetLabel": "Script Task",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -326,15 +343,15 @@
         }
       },
       {
-        "source": "node1613390014244-right",
-        "target": "node1613390323051",
-        "id": "line-1614364981888",
+        "source": "connector-outcome1613463200440",
+        "target": "node1614772491768",
+        "id": "line-1614772494463",
         "instance": {
-          "id": "line-1614364981888",
-          "anchor": "node1613390014244-right"
+          "id": "line-1614772494463",
+          "anchor": "connector-outcome1613463200440"
         },
-        "label": "Start Event",
-        "targetLabel": "SME Approve",
+        "label": "Session did not happen",
+        "targetLabel": "Script Task",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",

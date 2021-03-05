@@ -5,9 +5,9 @@
   "dataSource": "slingshotPitches",
   "gsOptions": {
     "h": 10,
-    "w": 16,
+    "w": 19,
     "x": 3,
-    "y": 4
+    "y": 19
   },
   "hidden": true,
   "offSet": 0,

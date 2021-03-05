@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "columnMaxWidth": "250",
+  "columnMinWidth": "250",
+  "dataSource": "sessions",
+  "gsOptions": {
+    "h": 9,
+    "w": 23,
+    "x": 0,
+    "y": 12
+  },
+  "offSet": 0,
+  "overflow": "height:auto",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MQNav_HFaMuZMGgOjr3",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "title": "My Booked Sessions",
+  "type": "card-list",
+  "viewOfGrid": "myBookedSessions",
+  "widthType": "minAndMaxWidth"
+}

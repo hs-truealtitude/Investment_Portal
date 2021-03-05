@@ -8,13 +8,16 @@
 .notifications {
     width:60px;
     height:60px;
-    background:#fff;
+    background: #fffaf3;
     border-radius:30px;
     box-sizing:border-box;
     text-align:center;
+        border:1px solid #000000;
+
     box-shadow:0 2px 5px rgba(0,0,0,.2);
 }
 .notifications:hover {
+    
     width:300px;
     height:60px;
     text-align:left;
@@ -22,12 +25,14 @@
     background:#ea3521;
     border-bottom-left-radius:0;
     border-bottom-right-radius:0;
+        background-color:#ef4437;
+
 }
 .notifications:hover .fa {
     color:#fff;
 }
 .notifications .fa {
-    color:#cecece;
+    color:black;
     line-height:60px;
     font-size:20px;
 }
@@ -39,10 +44,12 @@
     height:25px;
     border-radius:50%;
     background:red;
-    color:#fff;
+    color:rgb(0, 0, 0);
     line-height:25px;
-    font-family:sans-serif;
+    font-family: 'Grenette pro', sans-serif;
     text-align:center;
+            border:1px solid #000000;
+
 }
 .notifications:hover .num {
     position:relative;
