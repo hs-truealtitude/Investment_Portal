@@ -4,7 +4,7 @@ return async function  () {
         $setUser('profileID', newRow)
         $setUser('accountType', 'Investor')
 
-        $setCurrentSubTab('-MRV2X9yI6E-qNKy27K4','-MJq8S1suwASZ84EkCd5')
+        $setCurrentSubTab('-MVGPWkCqsquh0_f0Xb1','-MVGOMA1-ifNurWKHxUf')
         
 
 }

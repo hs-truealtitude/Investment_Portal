@@ -14,6 +14,12 @@
       "order": "8",
       "type": "string"
     },
+    "investor": {
+      "displayName": "Investor",
+      "lookUpTable": "investorProfiles",
+      "order": 9,
+      "type": "lookup"
+    },
     "lastEditDate": {
       "displayName": "Last edit date",
       "invisible": false,
@@ -458,6 +464,50 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "image"
+              },
+              {
+                "type": "lookup",
+                "name": "control_lookup_172172",
+                "fieldName": "control_lookup_172172",
+                "label": "Investor",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "investor",
+                "ableToAddLookUpVal": true
               }
             ]
           }
@@ -481,26 +531,31 @@
       "meta": {
         "createdDate": {
           "invisible": false,
-          "order": "1"
+          "order": "3"
         },
         "image": {
-          "order": "8"
+          "invisible": false,
+          "order": "9"
+        },
+        "investor": {
+          "invisible": false,
+          "order": "1"
         },
         "lastEditDate": {
           "invisible": false,
-          "order": "6"
+          "order": "7"
         },
         "lastEditedBy": {
           "invisible": false,
-          "order": "7"
+          "order": "8"
         },
         "name": {
           "invisible": false,
-          "order": "2"
+          "order": "4"
         },
         "nextEvents": {
           "invisible": true,
-          "order": "4"
+          "order": "6"
         },
         "owner": {
           "invisible": false,
@@ -508,58 +563,17 @@
         },
         "slingshotPitches": {
           "invisible": false,
-          "order": "5"
+          "order": "2"
         },
         "state": {
           "invisible": true,
-          "order": "3"
+          "order": "5"
         }
       },
       "title": "All Saved Pitches"
     },
-    "investmentSavedPitches": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"hidden\":false},{\"key\":\"pitches\",\"operator\":\"!=\",\"value\":\"'null'\",\"name\":\"Pitch\",\"expression\":true,\"hidden\":true}]}",
-      "meta": {
-        "createdDate": {
-          "invisible": false,
-          "order": "1"
-        },
-        "image": {
-          "order": "8"
-        },
-        "lastEditDate": {
-          "invisible": false,
-          "order": "6"
-        },
-        "lastEditedBy": {
-          "invisible": false,
-          "order": "7"
-        },
-        "name": {
-          "invisible": false,
-          "order": "2"
-        },
-        "nextEvents": {
-          "invisible": true,
-          "order": "4"
-        },
-        "owner": {
-          "invisible": false,
-          "order": "0"
-        },
-        "slingshotPitches": {
-          "invisible": false,
-          "order": "5"
-        },
-        "state": {
-          "invisible": true,
-          "order": "3"
-        }
-      },
-      "title": "Investment - Saved Pitches"
-    },
     "slingshotSavedPitches": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"hidden\":false},{\"key\":\"slingshotPitches\",\"operator\":\"!=\",\"value\":\"'null'\",\"name\":\"slingshotPitches\",\"expression\":true,\"hidden\":true}]}",
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"slingshotPitches\",\"operator\":\"!=\",\"value\":\"'null'\",\"name\":\"slingshotPitches\",\"expression\":true,\"hidden\":true},{\"key\":\"owner\",\"operator\":\"contains\",\"value\":\"fbUser.uid\",\"name\":\"Investor Owner\",\"expression\":true,\"hidden\":true}]}",
       "meta": {
         "createdDate": {
           "invisible": false,
@@ -567,6 +581,9 @@
         },
         "image": {
           "order": "8"
+        },
+        "investor": {
+          "order": 9
         },
         "lastEditDate": {
           "invisible": false,

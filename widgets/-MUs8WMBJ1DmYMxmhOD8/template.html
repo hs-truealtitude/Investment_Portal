@@ -1,12 +1,11 @@
-<div>
+<div v-if="row.$mentor"style="    ">
   <div class="row">
   </div>
 
-  <button @click="removeMentor(row.rowKey)" type="button" class="btn btn-danger btn-sm">
-    <i class="fas fa-trash-alt"></i>
-  </button>
+  <button style="font-family: 'Grenette pro', sans-serif; font-size: 15px; position: absolute; left: 20px; top: 20px; width: 40px; color: black;" class="myButton" @click="removeMentor(row.rowKey)"><i class="fas fa-user-slash"></i></button>
+  </b-button>
 
-  <center>
+  <center style="padding-top:30px;">
     <img v-if='row.$mentor' :src="$getDashboardModel('mentors')[row.mentor].$profileImage$display" style="border-radius: 15px; max-width:90px; padding: 5px; " />
     <img v-if='row.$pitch' :src="$getDashboardModel('slingshotPitches')[row.pitch].$companyLogo$display" style="border-radius: 15px; max-width:70px; padding: 5px;  " />
   </center>
@@ -14,37 +13,42 @@
   <div class="pt-4 text-center">
     <h5 class="h3 title">
 
-      <span class="d-block mb-1">{{row.$mentor.name}} {{row.$mentor.secondName}}</span>
-      <i class="fas fa-hands-helping"></i>
-      <span class="d-block mb-1">{{row.$pitch.name}}</span>
+      <span style="color: black; font-size: 20px; font-family: 'Grenette pro', sans-serif;" class="d-block mb-1">{{row.$mentor.name}} {{row.$mentor.secondName}}</span>
+      <i style="color: black;" class="fas fa-hands-helping"></i>
+      <span style="color: black; font-size: 20px; font-family: 'Grenette pro', sans-serif;" class="d-block mb-1">{{row.$pitch.name}}</span>
 
       <div style="height:20px;" class="row">
       </div>
 
-      <div class="row" style="justify-content:center;">
-        <small class="h4 font-weight-light text-muted">{{row.$mentor.phoneNumber}}</small>
+
+
+      <div class="row" style="justify-content:center; height: 40px;">
+        <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;" class="h4 font-weight-light">{{row.$mentor.phoneNumber}}</small>
       </div>
 
-      <div class="row" style="justify-content:center;">
-
-
-        <small class="h4 font-weight-light text-muted"></small>
-        <a href="mailto:someone@example.com">
-          <small class="h4 font-weight-light text-muted" v-for='e in row.$mentor.$user$display'> {{e}}</small>
-        </a>
+      <div class="row" style="justify-content:center; height: 40px;">
+        <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;" class="h4 font-weight-light text-muted" v-for='e in row.$mentor.$user$display'> 
+        <a style="color: #ef4437;" href="`mailto:${e}`">{{e}}</a>
+        </small>
       </div>
 
+      
     </h5>
 
-    <div style="height:20px;" class="row">
+    <div style="height:15px;" class="row">
     </div>
 
     <center>
-      <b-button class=" btn-sm" variant='primary' @click='$setUser("filterMentor",row.mentor); 
-      $setUser("filterSME",row.sME);
-      $setUser("filterPitch",row.pitch); 
-      openDetail(row.rowKey)'>Engagement Schedule
-      </b-button>
+      <div style="padding-bottom: 10px;">
+        <button style="font-family: 'Grenette pro', sans-serif; font-size: 15px;" class="myButton" 
+        @click='$setUser("filterMentor",row.mentor); 
+        $setUser("filterSME",row.sME);
+        $setUser("filterPitch",row.pitch);
+        openDetail(row.rowKey)'>
+        Engagement Schedule
+        </button>
+        </b-button>
+      </div>
     </center>
 
 

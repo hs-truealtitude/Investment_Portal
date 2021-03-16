@@ -5,19 +5,18 @@
   "columnMinWidth": "350",
   "dataSource": "slingshotPitches",
   "gsOptions": {
-    "h": 53,
-    "w": 24,
-    "x": 0,
-    "y": 11
+    "h": 51,
+    "w": 22,
+    "x": 1,
+    "y": 3
   },
-  "layout": "",
   "offSet": 0,
   "overflow": "height:auto",
   "perPage": 2,
   "styles": "",
   "subtab": "-MLDOQHlSF7Jjjhq6aHE",
   "tab": "-MJq8S1suwASZ84EkCd5",
-  "title": "My Slingshot Pitches",
+  "title": "My Pitches",
   "type": "card-list",
   "viewOfGrid": "mySlingshotPitches",
   "widthType": "minAndMaxWidth"

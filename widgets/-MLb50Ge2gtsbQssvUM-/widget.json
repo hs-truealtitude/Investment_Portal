@@ -1,15 +1,14 @@
 {
   "classes": "noscroll",
   "gsOptions": {
-    "h": 6,
-    "w": 12,
-    "x": 6,
-    "y": 2
+    "h": 16,
+    "w": 24,
+    "x": 0,
+    "y": 0
   },
   "hidden": true,
-  "layout": "",
   "offSet": 0,
-  "overflow": "",
+  "overflow": "overflow:hidden",
   "perPage": 2,
   "styles": "",
   "subtab": "-MLb4VOxEfZKqJNookL4",

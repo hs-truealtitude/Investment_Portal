@@ -4,10 +4,10 @@
   "columnMinWidth": "350",
   "dataSource": "mentors",
   "gsOptions": {
-    "h": 30,
-    "w": 24,
-    "x": 0,
-    "y": 2
+    "h": 25,
+    "w": 22,
+    "x": 1,
+    "y": 3
   },
   "offSet": 0,
   "overflow": "",

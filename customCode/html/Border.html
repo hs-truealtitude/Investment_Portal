@@ -1,2 +1,157 @@
-<div class="body-border-contain"><div class="border-top"></div><div class="border-bottom"></div><div class="border-left"></div><div class="border-right"></div></div>
-<div class="nav-top-contain"><a href="#hero" class="nav-logo left w-nav-brand w--current"><div class="nav-logo-text">True Altitude</div></a><a href="#hero" class="nav-logo right w-nav-brand w--current"><img src="https://uploads-ssl.webflow.com/6019829c6923fb7e4774c0bc/601d6a5ca8e000caf35b4f86_logomark.svg" loading="lazy" alt="true altitude logomark" class="logomark"></a></div>
+<div class="body-border-contain">
+    <div class="border-top"></div>
+        <div class="border-bottom"></div>
+            <div class="border-left"></div>
+                <div class="border-right"></div>
+</div>
+
+<div class="nav-top-contain">
+    <div class="nav-logo left w-nav-brand w--current">
+        <div class="nav-logo-text">True Altitude - Investment Portal</div>
+    </div>
+
+<!-- NOTIFICATIONS -->
+    <div class="nav-logo right ui notif">
+        <div class="box">
+            <div class="notifications">
+                <i class="fa fa-bell"></i>
+                <span class="num">{{notificationCount}}</span>
+                <ul>
+
+
+                    <!-- 
+                    //VIEWING ALL NOTIFS (NOT NEEDED)    
+                    <li class="icon">
+                        <span class="text" @click='$setCurrentSubTab("-MSbUoT--6X8CjMwlOQ3","-MJq8S1suwASZ84EkCd5")'>View All Notifications</span>
+                    </li>
+
+                    //SETTING NOTIF STATUS (IF NEEDED)
+                    $setDataGridVal('applications', `${row.rowKey}.isComplete`, true);
+                    -->
+                </ul>
+                <div class="notifications__dropdown">
+                                        <!-- Notifications Sent -->
+                    <li class="icon"
+                        v-for='row in notificationList'
+                            @click="$dgShowEditRowModal('applications', row.rowKey);" >
+                            <span class="text" >{{row.notificationDescription}}</span>
+                    </li>
+                    
+                    <!-- SME Notifications Response -->
+                    <li class="icon"
+                        v-for='row in notificationListResponseSME'
+                            @click="redirectToSMEorMentorPage(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true);" >
+                            <span class="text" >{{row.$sME.name}} {{row.$sME.secondName}} ({{row.$pitch.name}}) has accepted your application</span>
+                    </li>
+
+                    <!-- Mentor Notifications Response -->
+                    <li class="icon"
+                        v-for='row in notificationListResponseMentor'
+                            @click="$setDataGridVal('applications', `${row.rowKey}.responseOpened`, true); redirectToSMEorMentorPage();" >
+                            <span class="text" >Mentor ({{row.$mentor.name}} {{row.$mentor.secondName}}) has accepted your application</span>
+                    </li>
+
+                    <!-- Session request sent to SME-->
+                    <li class="icon"
+                        v-for='row in notificationListSessionSME'
+                            @click="$dgShowEditRowModal('sessions', row.rowKey);" >
+                            <span class="text" >Mentor ({{row.$mentor.name}} {{row.$mentor.secondName}}) has requested to book a session with you</span>
+                    </li>
+
+                    <!-- Session request response to mentor -->
+                    <li class="icon"
+                        v-for='row in notificationListSessionResponse'
+                            @click="$setDataGridVal('sessions', `${row.rowKey}.notifComplete`, true); redirectToSMEorMentorPage();" >
+                            <span class="text" >{{row.$sME.name}} {{row.$sME.secondName}} ({{row.$pitch.name}}) has accepted your session booking</span>
+                    </li>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="nav-logo right ui">
+        <a @click="backToDashboard()" target="_blank">
+        <i class="fas fa-home "></i>
+        </a>
+    </div>
+
+    
+    
+    <div class="nav-logo right ui">
+        <a @click="directAccountViewProfile()" target="_blank">
+        <i class="fas fa-user"></i>
+        </a>
+    </div>
+
+    <div class="nav-logo right w-nav-brand w--current">
+        <a href="https://www.truealtitude.co.uk/" target="_blank">
+            <img src="https://uploads-ssl.webflow.com/6019829c6923fb7e4774c0bc/601d6a5ca8e000caf35b4f86_logomark.svg" loading="lazy" alt="true altitude logomark" class="logomark">
+        </a>
+    </div>
+
+     
+     
+</div>
+
+
+
+<div class="nav-bottom-contain">
+    <div data-w-id="639316c0-3f07-ae05-7551-93879e5f39bf" class="nav-menu-icon-contain">
+        <a href="#" class="nav-menu-link menu w-button">Menu</a>
+        <a href="#" class="nav-menu-link close w-button"></a>
+    </div>
+
+    <!--SME NAV-->
+    <div v-if="$getUser('accountType') == 'SME'" class="nav-menu-contain">
+        <div class="nav-menu-link-box start">
+            <a @click='$setCurrentSubTab("-MLDOWbGZ37NZOzh9Ww6","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">View Pitches</a>
+        </div>
+        <div class="nav-menu-link-box">
+            <a @click="createSlingshotPitch()" class="nav-menu-link w-button">Create a Pitch</a>
+        </div>
+        <div class="nav-menu-link-box">
+            <a @click='$setCurrentSubTab("-MLDOQHlSF7Jjjhq6aHE","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">My Pitches</a>
+        </div>
+        <div class="nav-menu-link-box">
+            <a @click='$setCurrentSubTab("-MPe0NxYQploLstsV54u","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">View All Mentors</a>
+        </div>
+        <div class="nav-menu-link-box end">
+            <a @click='$setCurrentSubTab("-MQNav_HFaMuZMGgOjr3","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">Mentors & Sessions</a>
+        </div>
+    </div>
+
+    <!--MENTOR NAV-->
+    <div v-if="$getUser('accountType') == 'Mentor'" class="nav-menu-contain">
+        <div class="nav-menu-link-box start">
+            <a @click='$setCurrentSubTab("-MPe1NvKBqudPSIy-W_g","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">View All Pitches</a>
+        </div>
+        <div class="nav-menu-link-box end">
+            <a @click='$setCurrentSubTab("-MPe1UmfUG2Oh10CnZjs","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">SMEs & Sessions</a>
+        </div>
+    </div>
+
+    <!--INVESTOR NAV-->
+    <div v-if="$getUser('accountType') == 'Investor'" class="nav-menu-contain">
+        <div class="nav-menu-link-box start">
+            <a @click='$setCurrentSubTab("-MMB2hmdqCdl_1QjwUXk","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">View All Pitches</a>
+        </div>
+        <div class="nav-menu-link-box">
+            <a @click='$setCurrentSubTab("-MMBK_vCD0he4dNLSMs4","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">Saved Pitches</a>
+        </div>
+        <div class="nav-menu-link-box end">
+            <a @click='$setCurrentSubTab("-MVR769td35nAd71y7X2","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">Accepted Pitches</a>
+        </div>
+    </div>
+
+    <!--PP NAV-->
+    <div v-if="$getUser('accountType') == 'PP'" class="nav-menu-contain">
+        <div class="nav-menu-link-box start">
+            <a @click='$setCurrentSubTab("-MPe0weI-_Kq4ptqiVg0","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">View All Pitches</a>
+        </div>
+        <div class="nav-menu-link-box end">
+            <a @click='$setCurrentSubTab("-MPe1A3nbtf8VlPG3BiK","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">View Cohort Data</a>
+        </div>
+    </div>
+
+</div>

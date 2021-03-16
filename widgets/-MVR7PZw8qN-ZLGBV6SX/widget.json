@@ -1,0 +1,18 @@
+{
+  "dependency": "dataGrid/investorAcceptedPitches",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "investorAcceptedPitches",
+    "view": "admin"
+  },
+  "subtab": "-MVR7PTFowYOzmnQotNM",
+  "tab": "-MKjMm1cJNwP3sVETeGP",
+  "type": "DataGrid"
+}

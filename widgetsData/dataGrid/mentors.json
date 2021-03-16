@@ -89,6 +89,11 @@
       "order": "16",
       "type": "string"
     },
+    "next": {
+      "displayName": "",
+      "order": 24,
+      "type": "custom"
+    },
     "nextEvents": {
       "displayName": "Next Events",
       "invisible": true,
@@ -537,7 +542,52 @@
                 "customCode": "",
                 "propName": "linkedInProfileLink",
                 "gridId": "mentors",
-                "invisibleInDataGrid": true
+                "invisibleInDataGrid": true,
+                "description": "Please paste a link like the following: https://www.linkedin.com/company/true-altitude"
+              },
+              {
+                "type": "custom",
+                "name": "control_custom_902831",
+                "fieldName": "control_custom_902831",
+                "label": "",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<button class=\"float-right btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n    \t$dgFormGoToTab('Mentor Details')\r\n  \t}\r\n\t}\"        \r\n        > \r\nNext\r\n</button>",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "next",
+                "gridId": "mentors"
               },
               {
                 "type": "datepicker",
@@ -1132,7 +1182,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<center>\r\n<button class=\"btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n      redirectToApproval()\r\n  \t}\r\n\t}\"        \r\n> \r\nSubmit\r\n</button>\r\n</center>\r\n",
+                "customCode": "<center>\r\n<button class=\"btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n      hideBack()\r\n      redirectToApproval()\r\n  \t}\r\n\t}\"        \r\n> \r\nSubmit\r\n</button>\r\n</center>\r\n",
                 "invisible": false,
                 "invisibleCondition": "",
                 "invisibleInDataGrid": true,
@@ -1154,8 +1204,8 @@
         "vif": ""
       }
     ],
-    "layout": "collapse",
-    "_uniqueId": 0.9120397026305387
+    "layout": "tab",
+    "_uniqueId": 0.9052840018498494
   },
   "source": "mentors",
   "storageType": "dashboard",
@@ -1217,6 +1267,9 @@
         "name": {
           "invisible": false,
           "order": "16"
+        },
+        "next": {
+          "order": 24
         },
         "nextEvents": {
           "invisible": true,
@@ -1319,6 +1372,9 @@
           "invisible": false,
           "order": "6"
         },
+        "next": {
+          "order": 24
+        },
         "nextEvents": {
           "invisible": true,
           "order": "21"
@@ -1418,6 +1474,9 @@
         "name": {
           "invisible": false,
           "order": "16"
+        },
+        "next": {
+          "order": 24
         },
         "nextEvents": {
           "invisible": true,

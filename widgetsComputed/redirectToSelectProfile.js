@@ -1,3 +1,3 @@
 return async function  () {
-        $setCurrentSubTab('-MRUDn-bOx2aG6Jog6Lp','-MJq8S1suwASZ84EkCd5')
+        $setCurrentSubTab('-MVGSFAeqMzmj9TyxT6b','-MVGOMA1-ifNurWKHxUf')
 }

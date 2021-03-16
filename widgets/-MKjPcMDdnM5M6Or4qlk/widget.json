@@ -10,7 +10,7 @@
   "overflow": "height: auto",
   "props": {
     "gridId": "slingshotPitches",
-    "view": "approvePitches"
+    "view": "adminView"
   },
   "subtab": "-MKjPc0h4zi-RTpRfuBW",
   "tab": "-MKjLdl6pSat-QkUaIYU",

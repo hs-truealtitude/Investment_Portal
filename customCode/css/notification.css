@@ -1,71 +1,104 @@
-.box {
-    position:fixed;
-    top:200px;
-    right:150px;
-    z-index:2000;
-}
 
 .notifications {
-    width:60px;
-    height:60px;
     background: #fffaf3;
-    border-radius:30px;
     box-sizing:border-box;
     text-align:center;
-        border:1px solid #000000;
-
-    box-shadow:0 2px 5px rgba(0,0,0,.2);
 }
-.notifications:hover {
+.notifications__dropdown {
+    display: none;
+    position: absolute;
+    left: -1px;
+    top: 28px;
+    width: calc(100% + 2px);
+    background: #fffaf3;
+    text-align: left;
+    border-top:  1px solid #000;
+
+
+}
+
+.notifications__dropdown li{
+    width: 100%;
+    font-family: 'Grenette pro', sans-serif;
+    border-bottom: 1px solid #000;
+    border-right:  1px solid #000;
+    border-left:  1px solid #000;
+    list-style: none;
+    height: 10%;
+    padding-left: 5%;
+}
+
+.notifications__dropdown li:hover{
+    width: 100%;
+    font-family: 'Grenette pro', sans-serif;
+    font-weight:bold;
     
-    width:300px;
-    height:60px;
-    text-align:left;
-    padding:0 15px;
-    background:#ea3521;
-    border-bottom-left-radius:0;
-    border-bottom-right-radius:0;
-        background-color:#ef4437;
 
 }
+
+
+
+.notif:hover .notifications__dropdown {
+    display: block;
+}
+
+
+
+.nav-logo.right.ui.notif:hover{
+    background-color: #ef4437;
+    cursor: pointer;
+    width:300px;
+        content:' Notifications';
+
+
+}
+
+.notifications:hover {
+   
+/* height: 400px; */
+    /* top: -200px; */
+    /* text-align:left; */
+
+    /* padding:0 15px;
+        background-color: #fffaf3;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0; */
+}
+
 .notifications:hover .fa {
     color:#fff;
 }
 .notifications .fa {
     color:black;
-    line-height:60px;
-    font-size:20px;
 }
 .notifications .num {
-    position:absolute;
-    top:0;
-    right:-5px;
-    width:25px;
-    height:25px;
-    border-radius:50%;
-    background:red;
+
+    top:3px;
+    right:0px;
+    width:20px;
+    height:20px;
     color:rgb(0, 0, 0);
     line-height:25px;
     font-family: 'Grenette pro', sans-serif;
     text-align:center;
-            border:1px solid #000000;
+        
+    display: none !important;
+
 
 }
 .notifications:hover .num {
-    position:relative;
     background:transparent;
     color:#fff;
     font-size:24px;
-    top:-4px;
+    top:40px;
 }
 
 .notifications:hover .num:after {
     content:' Notifications';
 }
 .notifications ul {
-    position:absolute;
     left:0;
-    top:50px;
+    top:0;
     margin:0;
     width:100%;
     background:#fff;
@@ -76,10 +109,10 @@
     border-bottom-right-radius:30px;
     display:none;
 }
-.notifications:hover ul {
+/* .notifications:hover ul {
     display:block;
     
-}
+} */
 .notifications ul li {
    
     border-bottom:1px solid rgba(0,0,0,.1);

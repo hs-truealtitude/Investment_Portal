@@ -345,7 +345,8 @@
                 "vif": "",
                 "customCode": "",
                 "propName": "linkedInProfileLink",
-                "gridId": "sMEProfiles"
+                "gridId": "sMEProfiles",
+                "description": "Please paste a link like the following: https://www.linkedin.com/company/true-altitude"
               },
               {
                 "type": "phone",
@@ -487,7 +488,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<center>\r\n<button class=\"btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n      redirectToApproval()\r\n  \t}\r\n\t}\"        \r\n> \r\nSubmit\r\n</button>\r\n</center>\r\n",
+                "customCode": "<center>\r\n<button class=\"btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n      hideBack()\r\n      redirectToApproval()\r\n  \t}\r\n\t}\"        \r\n> \r\nSubmit\r\n</button>\r\n</center>\r\n",
                 "invisible": false,
                 "invisibleCondition": "",
                 "invisibleInDataGrid": true,
@@ -816,8 +817,8 @@
         "instances": []
       }
     ],
-    "layout": "collapse",
-    "_uniqueId": 0.6247046690289588
+    "layout": "tab",
+    "_uniqueId": 0.6797632278936672
   },
   "source": "sMEProfiles",
   "storageType": "dashboard",

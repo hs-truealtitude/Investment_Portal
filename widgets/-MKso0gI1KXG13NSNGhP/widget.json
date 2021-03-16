@@ -9,7 +9,8 @@
   "layout": "b-card",
   "overflow": "height: auto",
   "props": {
-    "gridId": "teamMembersTable"
+    "gridId": "teamMembersTable",
+    "view": "teamCardView"
   },
   "subtab": "-MKso0d0CW4kBtb2a8Ol",
   "tab": "-MKjMm1cJNwP3sVETeGP",

@@ -9,8 +9,7 @@
   "layout": "b-card",
   "overflow": "height: auto",
   "props": {
-    "gridId": "applications",
-    "view": "myMentors"
+    "gridId": "applications"
   },
   "subtab": "-MQvjPY8QuyWFBHZgEY-",
   "tab": "-MKjMm1cJNwP3sVETeGP",

@@ -9,7 +9,8 @@
   "layout": "b-card",
   "overflow": "height: auto",
   "props": {
-    "gridId": "sessions"
+    "gridId": "sessions",
+    "view": "myBookedSessions"
   },
   "subtab": "-MSYNWd6tL020aH6OsCH",
   "tab": "-MKjMm1cJNwP3sVETeGP",

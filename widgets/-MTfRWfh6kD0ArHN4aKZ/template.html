@@ -1,31 +1,56 @@
 <div class="card-body">
-  <div class="row">
-
-
+  <div style="padding-top: 10px;">
+    <center><img :src="row.$profileImage$display" style="border-radius: 15px; max-width:100px;  " /> </center>
   </div>
-  <center><img :src="row.$profileImage$display" style="border-radius: 50%; max-width:100px  " /> </center>
-  <a href="#!">
-  </a>
+
   <div class="pt-4 text-center">
     <h5 class="h3 title">
-      <span class="d-block mb-1">{{row.name}} {{row.secondName}}</span>
+      <span style="font-family: 'Grenette pro', sans-serif; font-size: 20px; color:black;" class="d-block mb-1">{{row.name}} {{row.secondName}}</span>
 
-      <p class="h4 font-weight-light text-muted"> {{truncateText(row.aboutMe, 100)}} </p>
+      <p class="h4 font-weight-light" style="height: 80px; padding-bottom: 30px; font-family: 'Grenette pro', sans-serif; color:black;"> {{truncateText(row.aboutMe, 100)}} </p>
 
+      <div style="height: 140px; padding-bottom: 10px;">
+        <p class="h4 font-weight-bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Main Sectors: </p>
+          <p class="h4 font-weight-light" v-for="item in row.$mainSectors$display">
+          <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 0.9rem;">
+            <div class="rectangle" style="padding: 2px; border-radius: 6px;">
+              {{item}}
+            </div>
+          </span>
+        </p>
+      </div>
 
-      <p class="h4 font-weight-light text-muted"> Sectors: </p>
-      <b-badge v-for="item in row.$mainSectors$display"> {{item}} </b-badge>
-      </p>
-
-      <p class="h4 font-weight-light text-muted"> Skills: </p>
-      <b-badge v-for="item in row.$mainSkills$display"> {{item}} </b-badge>
-      </p>
-
+     <div style="height: 140px; padding-bottom: 10px;">
+        <p class="h4 font-weight-bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Main Skills: </p>
+          <p class="h4 font-weight-light"v-for="item in row.$mainSkills$display">
+          <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 0.9rem;">
+            <div class="rectangle" style="padding: 2px; border-radius: 6px;">
+              {{item}}
+            </div>
+          </span>
+        </p>
+      </div>
 
     </h5>
+
+    <div class="row justify-content-center">
+      <div style="height: 40px;">
+      <div v-if="row.linkedInProfileLink">
+        <a :href="row.linkedInProfileLink" target="_blank">
+          <div class="social-icon-contain">
+          <i style="padding: 5px; color: white;" class="fab fa-linkedin"></i>
+          </div>
+        </a>
+      </div>
+      </div>
+    </div>
+
     <center>
-      <b-button class=" btn-sm" style="color: white;" @click='openDetail(row.rowKey)' variant='success'>View Profile
-      </b-button>
+      <div style="padding: 10px;">
+        <button style="font-family: 'Grenette pro', sans-serif; font-size: 15px;" class="myButton" @click='openDetail(row.rowKey)'>View Profile</button>
+        </b-button>
+      </div>
     </center>
+
   </div>
 </div>

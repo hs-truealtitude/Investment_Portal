@@ -5,12 +5,11 @@
   "columnMinWidth": "350",
   "dataSource": "sMEProfiles",
   "gsOptions": {
-    "h": 10,
+    "h": 12,
     "w": 15,
     "x": 4,
     "y": 0
   },
-  "layout": "b-card",
   "offSet": 0,
   "overflow": "",
   "perPage": 2,

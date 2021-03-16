@@ -4,7 +4,7 @@ return async function  () {
         $setUser('profileID', newRow)
         $setUser('accountType', 'Mentor')
 
-        $setCurrentSubTab('-MRV2JD9mh_LoG_xIuKA','-MJq8S1suwASZ84EkCd5')
+        $setCurrentSubTab('-MVGPMeqvw0Ux3xl4eNE','-MVGOMA1-ifNurWKHxUf')
         
 
 }

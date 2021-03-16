@@ -3,55 +3,83 @@
   <div class="row">
     <i @click="unSavePitch(saveSlingshot(row.$slingshotPitches.rowKey))" v-if="saveSlingshot(row.$slingshotPitches.rowKey)" class="fas fa-star" style="color: black;">
     </i>
-
-
     <i @click="saveSlingshotPitch(row.$slingshotPitches.rowKey, row.$slingshotPitches.$companyLogo$display)" v-if="!saveSlingshot(row.$slingshotPitches.rowKey)" class="far fa-star" style="color: black;">
     </i>
   </div>
 
-  <center><img :src="row.image" style="border-radius: 50%; max-width:100px  " /> </center>
-  <a href="#!">
-  </a>
+  <div style="padding-top: 10px;">
+    <center><img :src="row.image" style="border-radius: 15px; max-width:100px;  " /> </center>
+  </div>
+
   <div class="pt-4 text-center">
     <h5 class="h3 title">
-      <span class="d-block mb-1">{{row.$slingshotPitches.name}}</span>
-      <p class="h4 font-weight-light text-muted" style="height: 120px; padding: 10px;">{{truncateText(row.$slingshotPitches.aboutTheCompany, 200)}}</p>
-
-      <p class="h4 font-weight-light text-muted"> </p>
-      </p>
-      <p class="h4 font-weight-light text-muted"> Team Members: </p>
-
-      <p class="h4 font-weight-light text-muted" v-if="i < 3" v-for="member, i in filterBy($getGrid('teamMembersTable'), row.$slingshotPitches.rowKey, 'slingshotPitches') ">
-        <b-badge variant="secondary">
-          {{member.name}}
-
-          {{member.secondName}}
-          -
-          {{member.jobRole}}
-        </b-badge>
-      </p>
-
-
-
-
-      <p class="h4 font-weight-light text-muted"> Investment Type: </p>
-      <b-badge variant="primary"> {{row.$slingshotPitches.$investmentType$display}} </b-badge>
-      </p>
-      <p class="h4 font-weight-light text-muted"> Total Funding Round: £{{row.$slingshotPitches.totalFundingRound |  numeralFormat('0,0') }} </p>
-      <p class="h4 font-weight-light text-muted"> Money Raised to date: £{{row.$slingshotPitches.capitalRaisedToDate |  numeralFormat('0,0') }} </p>
-
-
-      <a :href="'https://'+row.website" target="_blank">
-        <i style="padding: 5px;" class="fas fa-globe"></i>
-      </a>
-      <a :href="row.linkedInLink" target="_blank">
-        <i style="padding: 5px;" class="fab fa-linkedin"></i>
-      </a>
-      
+      <span class="d-block mb-1" style="font-family: 'Grenette pro', sans-serif; font-size: 20px; color:black;">{{row.$slingshotPitches.name}}</span>
+      <small id="about" class="h4 font-weight-light text-muted"></small>
     </h5>
+
+    <p v-if="row.$slingshotPitches.aboutTheCompany" class="h4 font-weight-light" style="height: 120px; padding-bottom: 30px; font-family: 'Grenette pro', sans-serif; color:black;">{{truncateText(row.$slingshotPitches.aboutTheCompany, 200)}}</p>
+
+
+    <div style="height: 100px; padding-bottom: 10px;">
+      <p class="h4 font-weight-bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Team Members: </p>
+
+      <p class="h4 font-weight-light" v-if="i < 3" v-for="member, i in filterBy($getGrid('teamMembersTable'), row.$slingshotPitches.rowKey, 'slingshotPitches') ">
+        <span style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 14px;">
+          <div class="rectangle" style="background-color: #dfe3eb; padding: 2px; border-radius: 6px;">
+            {{member.name}}
+
+            {{member.secondName}}
+            <span v-if="member.$jobRole$display"> - </span>
+            {{member.$jobRole$display}}
+          </div>
+        </span>
+      </p>
+    </div>
+
+    <div style="height: 70px; padding: 40px;">
+      <div v-if="row.$slingshotPitches.$investmentType$display">
+        <p class="h4 font-weight-bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Investment Type: </p>
+        <div class="rectangle" style="background-color:#f59595; padding: 2px; border-radius: 6px;">
+          <span style="font-family: 'Grenette pro', sans-serif; color: black;"> {{row.$slingshotPitches.$investmentType$display}} </span>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 20px; padding-top: 40px;">
+      <div v-if="row.$slingshotPitches.totalFundingRound ">
+        <p class="h4 font-weight-bold" style="font-family: 'Grenette pro', sans-serif; color: black;"> Total Funding Round: £{{row.$slingshotPitches.totalFundingRound |  numeralFormat('0,0') }} </p>
+      </div>
+    </div>
+
+    <div style="height: 20px; padding-top: 30px; padding-bottom: 30px;">
+      <div v-if="row.$slingshotPitches.capitalRaisedToDate ">
+        <p class="h4 font-weight-bold" style="font-family: 'Grenette pro', sans-serif; color: black;"> Money Raised to date: £{{row.$slingshotPitches.capitalRaisedToDate |  numeralFormat('0,0') }} </p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div v-if="row.$slingshotPitches.website">
+        <a :href="'https://'+row.$slingshotPitches.website" target="_blank">
+          <i style="padding: 5px; color: black;" class="fas fa-globe"></i>
+        </a>
+      </div>
+
+      <div v-if="row.$slingshotPitches.linkedInLink">
+        <a :href="row.$slingshotPitches.linkedInLink" target="_blank">
+          <i style="padding: 5px; color: black;" class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+
+
     <center>
-    <b-button class=" btn-sm" style="color: white;" @click='openDetail(row.rowKey)' variant='success'>Show More Detail
-    </b-button>
+      <div style="padding: 10px;">
+        <button style="font-family: 'Grenette pro', sans-serif; font-size: 15px;" class="myButton" @click='openDetail(row.rowKey)'>Show More Details</button>
+        </b-button>
+      </div>
     </center>
+
+
+
   </div>
 </div>

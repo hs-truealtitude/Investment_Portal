@@ -10,7 +10,7 @@
   "overflow": "height: auto",
   "props": {
     "gridId": "savedPitches",
-    "view": "investmentSavedPitches"
+    "view": "slingshotSavedPitches"
   },
   "subtab": "-MLvoEU6Gj84bbU1jZ17",
   "tab": "-MKjMm1cJNwP3sVETeGP",

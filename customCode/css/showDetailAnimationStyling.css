@@ -1,0 +1,36 @@
+a:active, a:hover {
+    outline: 0;
+}
+
+element.style {
+    transform: translate3d(-101%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+button-underline.red {
+    z-index: 1;
+    height: 2px;
+    background-color: #ef4437;
+        width: 40%;
+
+}
+
+
+
+.button-underline.black {
+    height: 2px;
+    background-color: #000;
+    width: 40%;
+}
+
+
+
+.button-text {
+    font-family: 'Grenette pro', sans-serif;
+    color: #000;
+    font-size: 0.9em;
+    line-height: 1;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}

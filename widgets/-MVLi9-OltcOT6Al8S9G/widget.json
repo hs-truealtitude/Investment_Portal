@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "columnMaxWidth": "370",
+  "columnMinWidth": "350",
+  "dataSource": "sessions",
+  "gsOptions": {
+    "h": 10,
+    "w": 22,
+    "x": 1,
+    "y": 35
+  },
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MQNav_HFaMuZMGgOjr3",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "title": "Leave Session Review",
+  "type": "card-list",
+  "viewOfGrid": "leaveMentorReview",
+  "widthType": "minAndMaxWidth"
+}

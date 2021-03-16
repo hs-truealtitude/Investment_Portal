@@ -349,7 +349,8 @@
                 "invisible": null,
                 "invisibleLabel": null,
                 "invisibleInDataGrid": null,
-                "enableCustomValidation": null
+                "enableCustomValidation": null,
+                "description": "Please paste a link like the following: https://www.linkedin.com/company/true-altitude"
               },
               {
                 "type": "phone",
@@ -494,7 +495,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<center>\r\n<button class=\"btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n      redirectToApproval()\r\n  \t}\r\n\t}\"        \r\n> \r\nSubmit\r\n</button>\r\n</center>\r\n",
+                "customCode": "<center>\r\n<button class=\"btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n      hideBack()\r\n      redirectToApproval()\r\n  \t}\r\n\t}\"        \r\n> \r\nSubmit\r\n</button>\r\n</center>\r\n",
                 "invisible": false,
                 "invisibleCondition": "",
                 "invisibleInDataGrid": true,
@@ -844,8 +845,8 @@
         "vif": "$getUser('accountType') == 'ADMIN'"
       }
     ],
-    "layout": "collapse",
-    "_uniqueId": 0.38075951206888514
+    "layout": "tab",
+    "_uniqueId": 0.7027456763520652
   },
   "source": "investorProfiles",
   "storageType": "dashboard",

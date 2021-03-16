@@ -22,8 +22,8 @@
       },
       {
         "id": "node1613390095196",
-        "x": 450,
-        "y": 329,
+        "x": 463,
+        "y": 298,
         "height": 36,
         "width": 203,
         "clazz": "updateRecord",
@@ -72,7 +72,7 @@
         "x": 1018,
         "y": 181,
         "height": 36,
-        "width": 261,
+        "width": 203,
         "clazz": "updateRecord",
         "label": "Update Session Record to Approved",
         "className": "update-record",
@@ -90,7 +90,7 @@
         "x": 1061,
         "y": 342,
         "height": 36,
-        "width": 255,
+        "width": 203,
         "clazz": "updateRecord",
         "label": "Update Session Record to Rejected",
         "className": "update-record",
@@ -124,7 +124,7 @@
       {
         "id": "node1613463136747",
         "x": 1723,
-        "y": 140,
+        "y": 139,
         "height": 109,
         "width": 176,
         "clazz": "userTask",
@@ -152,8 +152,8 @@
       },
       {
         "id": "node1613463588574",
-        "x": 2064,
-        "y": 140,
+        "x": 2045,
+        "y": 156,
         "height": 36,
         "width": 151,
         "clazz": "updateRecord",
@@ -169,40 +169,86 @@
         }
       },
       {
-        "id": "node1614763059039",
-        "x": 1467,
-        "y": 347,
+        "id": "node1615807978814",
+        "x": 1427,
+        "y": 360,
         "height": 36,
-        "width": 119,
-        "clazz": "scriptTask",
-        "label": "Script Task",
-        "className": "script-task",
+        "width": 200,
+        "clazz": "updateRecord",
+        "label": "Update Record to Rejected",
+        "className": "update-record",
         "icon": {
-          "name": "terminal",
-          "color": "hsl(218, 54%, 20%)"
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
         },
         "attachment": {
-          "script": "$dgRemoveRow('sessions', row.rowKey)"
-        },
-        "display": false
+          "field": "sessions / rejected",
+          "fieldValue": "true"
+        }
       },
       {
-        "id": "node1614772491768",
-        "x": 2084,
-        "y": 330,
+        "id": "node1615808033582",
+        "x": 2034,
+        "y": 286,
         "height": 36,
-        "width": 119,
-        "clazz": "scriptTask",
-        "label": "Script Task",
-        "className": "script-task",
+        "width": 200,
+        "clazz": "updateRecord",
+        "label": "Update Record to Rejected",
+        "className": "update-record",
         "icon": {
-          "name": "terminal",
-          "color": "hsl(218, 54%, 20%)"
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
         },
         "attachment": {
-          "script": "$dgRemoveRow('sessions', row.rowKey)"
+          "field": "sessions / rejected",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1615900510685",
+        "x": 439,
+        "y": 429,
+        "height": 109,
+        "width": 100,
+        "clazz": "decision",
+        "label": "Decision",
+        "className": "decision",
+        "icon": {
+          "name": "check-circle",
+          "color": "hsl(11, 96%, 62%)"
         },
-        "display": false
+        "attachment": {},
+        "outcomes": [
+          {
+            "text": "Mentor->SME",
+            "id": "outcome1615900568189",
+            "idx": 1,
+            "expression": "$getUser('accountType')==\"Mentor\""
+          },
+          {
+            "text": "SME->Mentor",
+            "id": "outcome1615900588141",
+            "idx": 2,
+            "expression": "$getUser('accountType')==\"SME\""
+          }
+        ]
+      },
+      {
+        "id": "node1615900642216",
+        "x": 687,
+        "y": 467,
+        "height": 36,
+        "width": 100,
+        "clazz": "updateRecord",
+        "label": "TEST",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "sessions / direction"
+        }
       }
     ],
     "edges": [
@@ -275,23 +321,6 @@
         }
       },
       {
-        "source": "node1613390014244-right",
-        "target": "node1613390095196",
-        "id": "line-1614614391521",
-        "instance": {
-          "id": "line-1614614391521",
-          "anchor": "node1613390014244-right"
-        },
-        "label": "Start Event",
-        "targetLabel": "Update Record to Pending",
-        "type": {
-          "startPlug": "behind",
-          "color": "hsla(219, 79%, 66%, 0.6)",
-          "size": 3,
-          "path": "magnet"
-        }
-      },
-      {
         "source": "node1613390095196-right",
         "target": "node1613390323051",
         "id": "line-1614614393433",
@@ -327,14 +356,14 @@
       },
       {
         "source": "node1613390736043-right",
-        "target": "node1614763059039",
-        "id": "line-1614763061945",
+        "target": "node1615807978814",
+        "id": "line-1615808013759",
         "instance": {
-          "id": "line-1614763061945",
+          "id": "line-1615808013759",
           "anchor": "node1613390736043-right"
         },
         "label": "Update Session Record to Rejected",
-        "targetLabel": "Script Task",
+        "targetLabel": "Update Record to Rejected",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -344,14 +373,67 @@
       },
       {
         "source": "connector-outcome1613463200440",
-        "target": "node1614772491768",
-        "id": "line-1614772494463",
+        "target": "node1615808033582",
+        "id": "line-1615808055467",
         "instance": {
-          "id": "line-1614772494463",
+          "id": "line-1615808055467",
           "anchor": "connector-outcome1613463200440"
         },
         "label": "Session did not happen",
-        "targetLabel": "Script Task",
+        "targetLabel": "Update Record to Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "node1613390014244-right",
+        "target": "node1615900510685",
+        "id": "line-1615900618182",
+        "instance": {
+          "id": "line-1615900618182",
+          "anchor": "node1613390014244-right"
+        },
+        "label": "Start Event",
+        "targetLabel": "Decision",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "connector-outcome1615900568189",
+        "target": "node1613390095196",
+        "id": "line-1615900627012",
+        "instance": {
+          "id": "line-1615900627012",
+          "anchor": "connector-outcome1615900568189"
+        },
+        "label": "Mentor->SME",
+        "targetLabel": "Update Record to Pending",
+        "expression": "context.data.mentor==$getUser('profileID')",
+        "type": {
+          "startPlug": "behind",
+          "color": "hsla(219, 79%, 66%, 0.6)",
+          "size": 3,
+          "path": "magnet"
+        }
+      },
+      {
+        "source": "connector-outcome1615900588141",
+        "target": "node1615900642216",
+        "id": "line-1615900672209",
+        "instance": {
+          "id": "line-1615900672209",
+          "anchor": "connector-outcome1615900588141"
+        },
+        "label": "SME->Mentor",
+        "targetLabel": "TEST",
+        "expression": "context.data.sME==$getUser('profileID')",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",

@@ -13,51 +13,5 @@
     "profileImage": "1b0a58f0-74f3-11eb-b695-951b6e42c8ad_datagrid_profile_img.png",
     "rowKey": "-MRuBBufb0sHngYQTa_m",
     "secondName": "Sherwood"
-  },
-  "-MUs5L-J9K429VYasoAY": {
-    "_created": true,
-    "_id": 2,
-    "createdDate": 1614775148673,
-    "group": false,
-    "isApproved": true,
-    "lastEditDate": 1614775170279,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "location": "-MJwtgUqBjMrFNntf6GH",
-    "name": "The",
-    "owner": "UfAYa9JRlcXQC9lARDgVDGkikbC3",
-    "profileImage": "757c7a80-7c1d-11eb-b14b-cd3e86c365ef_datagrid_profile_img.png",
-    "rowKey": "-MUs5L-J9K429VYasoAY",
-    "secondName": "Investor TEST",
-    "user": "UfAYa9JRlcXQC9lARDgVDGkikbC3"
-  },
-  "-MUuhBYggPgqINJP3n0K": {
-    "_created": true,
-    "_id": 3,
-    "createdDate": 1614818887530,
-    "group": false,
-    "lastEditDate": 1614818887530,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "location": "-MJwtgUqBjMrFNntf6GH",
-    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "rowKey": "-MUuhBYggPgqINJP3n0K",
-    "user": "mvhT7sNTcEM5BdibKTLtmFZg6RE3"
-  },
-  "-MV1Gwd6Uk9-h0Quz3vR": {
-    "_created": true,
-    "_id": 4,
-    "createdDate": 1614945961674,
-    "dateOfBirth": 1614643200000,
-    "group": false,
-    "isApproved": true,
-    "lastEditDate": 1614946004864,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "location": "-MJwtgUqBjMrFNntf6GH",
-    "name": "Test",
-    "owner": "cgyCJIbAFbdXomOs5spLEJ8Utin2",
-    "phoneNumber": "56465153132123",
-    "profileImage": "34245cd0-7dab-11eb-881f-61dbec29aeec_datagrid_profile_img.png",
-    "rowKey": "-MV1Gwd6Uk9-h0Quz3vR",
-    "secondName": "Investor",
-    "user": "cgyCJIbAFbdXomOs5spLEJ8Utin2"
   }
 }

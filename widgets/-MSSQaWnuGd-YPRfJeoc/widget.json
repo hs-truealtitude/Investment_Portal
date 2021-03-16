@@ -8,8 +8,7 @@
   "layout": "b-card",
   "overflow": "height: auto",
   "props": {
-    "gridId": "mentors",
-    "view": "isApproved"
+    "gridId": "mentors"
   },
   "subtab": "-MSSGA39TgrXo61gq-zJ",
   "tab": "-MKUwx1XmgWmAYvLK_wz",

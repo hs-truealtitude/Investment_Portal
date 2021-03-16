@@ -5,29 +5,28 @@
     </b-button>
 
   </div>
-  <center><img :src="row.$profileImage$display" style="border-radius: 50%; max-width:100px  " /> </center>
+  <center style="padding-top: 20px;"><img :src="row.$profileImage$display" style="border-radius: 15px; max-width:100px; " /> </center>
   <a href="#!">
   </a>
   <div class="pt-4 text-center">
-    <h5 class="h3 title">
-      <span class="d-block mb-1">{{row.name}} {{row.secondName}}</span>
+    <h5 class="h3 title" style="font-family: 'Grenette pro', sans-serif; font-size: 25px; color:black;">
+      <span class="d-block mb-1" style="padding-bottom: 20px;">{{row.name}} {{row.secondName}}</span>
 
-      <p class="h4 font-weight-Bold text-muted"> Date of Birth </p>
-      <b-badge> {{row.$dateOfBirth$Date}} </b-badge>
-      </p>
-      </p>
-
-      <p class="h4 font-weight-Bold text-muted"> Address: </p>
-      <p class="h4 font-weight-light text-muted"> {{row.address}} </p>
-
-
-      <p class="h4 font-weight-Bold text-muted"> Location: </p>
-      <b-badge> {{row.$location$display}} </b-badge>
+      <p class="h4 font-weight-Bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Date of Birth </p>
+      <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 0.8em;     font-weight: 400;"> {{row.$dateOfBirth$Date}} </span>
       </p>
 
-      <p class="h4 font-weight-Bold text-muted"> Contact Number: </p>
-      <b-badge> {{row.phoneNumber}} </b-badge>
+      <p class="h4 font-weight-Bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Address: </p>
+      <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 0.8em;     font-weight: 400;"> {{row.address}} </span>
       </p>
+
+      <p class="h4 font-weight-Bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Location: </p>
+      <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 0.8em;     font-weight: 400;"> {{row.$location$display}} </p>
+        </p>
+
+        <p class="h4 font-weight-Bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Contact Number: </p>
+        <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 0.8em;     font-weight: 400;"> {{row.phoneNumber}} </span>
+        </p>
 
 
 

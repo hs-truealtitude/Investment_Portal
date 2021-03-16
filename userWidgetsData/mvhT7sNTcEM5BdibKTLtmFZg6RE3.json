@@ -7,11 +7,13 @@
   "activePitch": "-MNxSBgOmL-2YELwJrrM",
   "activeProfile": "-MRe6RajCkTqEqU6rM2u",
   "activeSMEProfile": "-MRtT5SEXrMWe-DQh28W",
-  "activeSlingshotPitch": "-MUriG1JZCBE_8aJdN2r",
+  "activeSlingshotPitch": "-MVq20v4i_X7_GodaKTO",
   "activeSlingshotPitches": "",
   "filterMentor": "-MRuFWlCqAaR0CJqb3ZL",
   "filterPitch": "-MNZ-kKtSmZQuN7gqgFt",
   "filterSME": "-MSDB4vGVTDWjl3zyJaV",
+  "hideBack": "YES",
   "pitch": "-MLCLEhZkPjwRU01IsN-",
-  "profileID": "-MSDB4vGVTDWjl3zyJaV"
+  "profileID": "-MSDB4vGVTDWjl3zyJaV",
+  "sessionDirection": "SME->Mentor"
 }

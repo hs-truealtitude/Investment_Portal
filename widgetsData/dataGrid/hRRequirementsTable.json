@@ -460,7 +460,7 @@
                 "customCode": "",
                 "invisible": true,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -480,7 +480,7 @@
       }
     ],
     "layout": "collapse",
-    "_uniqueId": 0.4702664146642437
+    "_uniqueId": 0.7601946543601041
   },
   "source": "hRRequirementsTable",
   "storageType": "dashboard",

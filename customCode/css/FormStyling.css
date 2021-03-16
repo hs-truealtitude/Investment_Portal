@@ -1,0 +1,58 @@
+.dataGridEditRow{
+            background-color: #fffaf3 !important;
+
+}
+
+.form-builder-root .nav a{
+        font-family: 'Grenette pro', sans-serif !important; 
+    color: black !important;  
+
+}
+
+
+.sectionItem .nav-tabs .active {
+    border-bottom: 1px solid #ef4437;
+    color: #ef4437;
+}
+
+
+.form-builder-root span{
+        font-family: 'Grenette pro', sans-serif !important; 
+font-size: 0.85rem;
+    color: black !important;  
+
+}
+
+.controlItem{
+                background-color: #fffaf3 !important;
+
+}
+
+.form-block input{
+                    background-color: #fffaf3 !important;
+
+} 
+
+.form-block .controlElement textarea{
+                        background-color: #fffaf3 !important;
+
+}
+
+.field__description{
+            font-family: 'Grenette pro', sans-serif !important; 
+
+}
+
+.handy-scroll-area thread{
+                            background: #fffaf3 !important;
+
+}
+
+.data-grid__tableHeading{
+    background: #fffaf3 !important;
+}
+
+.input-group-text {
+                            background: #fffaf3 !important;
+
+}
