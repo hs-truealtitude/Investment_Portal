@@ -10,7 +10,7 @@
   "overflow": "height: auto",
   "props": {
     "gridId": "sessions",
-    "view": "myBookedSessions"
+    "view": "leaveMentorReview"
   },
   "subtab": "-MSYNWd6tL020aH6OsCH",
   "tab": "-MKjMm1cJNwP3sVETeGP",

@@ -17,6 +17,11 @@
       "type": "workflow",
       "workflow": "-MS7l5yVEXqVer2WbOdY"
     },
+    "approved": {
+      "displayName": "Approved",
+      "order": 25,
+      "type": "custom"
+    },
     "createdBy": {
       "displayName": "Created By",
       "order": "9",
@@ -121,6 +126,11 @@
       "order": "18",
       "type": "lookup"
     },
+    "rejected": {
+      "displayName": "Rejected",
+      "order": 26,
+      "type": "custom"
+    },
     "responseOpened": {
       "displayName": "responseOpened",
       "order": 24,
@@ -196,7 +206,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<center>\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n\r\n  </div>\r\n  <center><img :src=\"$getDashboardModel('mentors')[rowData.mentor].$profileImage$display\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span style=\"\" class=\"d-block mb-1\">{{rowData.$mentor.name}} {{rowData.$mentor.secondName}}</span>\r\n</h5>\r\n      <p class=\"h4 font-weight-light text-muted\"> {{truncateText(rowData.$mentor.aboutMe, 100)}} </p>\r\n\r\n\r\n        <p class=\"h4 font-weight-bold\" style=\"font-family: 'Grenette pro', sans-serif; font-size: 17px;     font-weight: 400;\"> Main Sectors: </p>\r\n          <p class=\"h4 font-weight-light\" v-for=\"item in rowData.$mentor.$mainSectors$display\">\r\n          <span style=\"font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;\">\r\n            <div class=\"rectangle\" style=\"padding: 2px; border-radius: 6px;\">\r\n              {{item}}\r\n            </div>\r\n          </span>\r\n        </p>\r\n      \r\n        <p class=\"h4 font-weight-bold\" style=\"font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;\"> Main Skills: </p>\r\n          <p class=\"h4 font-weight-light\" v-for=\"item in rowData.$mentor.$mainSkills$display\">\r\n          <span style=\"font-family: 'Grenette pro', sans-serif; color: black; font-size: 1em;     font-weight: 400;\">\r\n            <div class=\"rectangle\" style=\"padding: 2px; border-radius: 6px;\">\r\n              {{item}}\r\n            </div>\r\n          </span>\r\n        </p>\r\n\r\n   \r\n   <a :href=\"rowData.$mentor.linkedInProfileLink\" target=\"_blank\">\r\n        <i v-if=\"rowData.$mentor.linkedInProfileLink\" style=\"padding: 5px; bottom: 0;\" class=\"fab fa-linkedin\"></i>\r\n      </a>\r\n    \r\n  </div>\r\n</div>\r\n</center>",
+                "customCode": "<center>\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n\r\n  </div>\r\n  <center><img :src=\"$getDashboardModel('mentors')[rowData.mentor].$profileImage$display\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span style=\"\" class=\"d-block mb-1\">{{rowData.$mentor.name}} {{rowData.$mentor.secondName}}</span>\r\n</h5>\r\n      <p class=\"h4 font-weight-light text-muted\"> {{truncateText(rowData.$mentor.aboutMe, 100)}} </p>\r\n\r\n\r\n        <p class=\"h4 font-weight-bold\" style=\"font-family: 'Grenette pro', sans-serif; font-size: 17px;     font-weight: 400;\"> Main Sectors: </p>\r\n          <p class=\"h4 font-weight-light\" v-for=\"item in rowData.$mentor.$mainSectors$display\">\r\n          <span style=\"font-family: 'Grenette pro', sans-serif; color: #ef4437 !important; font-size: 1em;     font-weight: 400;\">\r\n            <div class=\"rectangle\" style=\"padding: 2px; border-radius: 6px;\">\r\n              {{item}}\r\n            </div>\r\n          </span>\r\n        </p>\r\n      \r\n        <p class=\"h4 font-weight-bold\" style=\"font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;\"> Main Skills: </p>\r\n          <p class=\"h4 font-weight-light\" v-for=\"item in rowData.$mentor.$mainSkills$display\">\r\n          <span style=\"font-family: 'Grenette pro', sans-serif; color: #ef4437 !important; font-size: 1em;     font-weight: 400;\">\r\n            <div class=\"rectangle\" style=\"padding: 2px; border-radius: 6px;\">\r\n              {{item}}\r\n            </div>\r\n          </span>\r\n        </p>\r\n\r\n  \r\n    <div class=\"row justify-content-center\">\r\n   <a :href=\"rowData.$mentor.linkedInProfileLink\" target=\"_blank\">\r\n      <div v-if=\"rowData.$mentor.linkedInProfileLink\" class=\"social-icon-contain\">\r\n        <i v-if=\"rowData.$mentor.linkedInProfileLink\" style=\"padding: 5px; bottom: 0; color: white !important;\" class=\"fab fa-linkedin\"></i>\r\n      </div>\r\n      </a>\r\n    </div>\r\n    \r\n  </div>\r\n</div>\r\n</center>",
                 "invisible": true,
                 "invisibleCondition": "$getUser('accountType') == 'Mentor' || $getUser('accountType') == 'Investor' || (rowData.name == 'Investor->SME' && $getUser('accountType') == 'SME')",
                 "invisibleInDataGrid": true,
@@ -240,7 +250,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<center>\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n\r\n  </div>\r\n  <center><img :src=\"$getDashboardModel('slingshotPitches')[rowData.pitch].$companyLogo$display\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span style=\"\" class=\"d-block mb-1\">{{rowData.$pitch.name}}</span>\r\n</h5>\r\n      <p class=\"h4 font-weight-light text-muted\"> {{truncateText(rowData.$pitch.aboutTheCompany, 200)}} </p>\r\n\r\n       <div class=\"row justify-content-center\">\r\n      <div v-if=\"rowData.$pitch.website\">\r\n        <a :href=\"'https://'+rowData.$pitch.website\" target=\"_blank\">\r\n          <i style=\"padding: 5px; color: black;\" class=\"fas fa-globe\"></i>\r\n        </a>\r\n      </div>\r\n\r\n      <div v-if=\"rowData.$pitch.linkedInLink\">\r\n        <a :href=\"rowData.$pitch.linkedInLink\" target=\"_blank\">\r\n          <i style=\"padding: 5px; color: black;\" class=\"fab fa-linkedin\"></i>\r\n        </a>\r\n      </div>\r\n    </div>\r\n    \r\n  </div>\r\n</div>\r\n</center>",
+                "customCode": "<center>\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n\r\n  </div>\r\n  <center><img :src=\"$getDashboardModel('slingshotPitches')[rowData.pitch].$companyLogo$display\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span style=\"\" class=\"d-block mb-1\">{{rowData.$pitch.name}}</span>\r\n</h5>\r\n      <p class=\"h4 font-weight-light text-muted\"> {{truncateText(rowData.$pitch.aboutTheCompany, 200)}} </p>\r\n\r\n       <div class=\"row justify-content-center\">\r\n      <div style=\"padding: 5px;\" v-if=\"rowData.$pitch.website\">\r\n        <a :href=\"'https://'+rowData.$pitch.website\" target=\"_blank\">\r\n          <div class=\"social-icon-contain\">\r\n          <i style=\"padding: 5px; color: white !important;\" class=\"fas fa-globe\"></i>\r\n          </div>\r\n        </a>\r\n      </div>\r\n\r\n      <div style=\"padding: 5px;\" v-if=\"rowData.$pitch.linkedInLink\">\r\n        <a :href=\"rowData.$pitch.linkedInLink\" target=\"_blank\">\r\n          <div class=\"social-icon-contain\">\r\n          <i style=\"padding: 5px; color: white !important;\" class=\"fab fa-linkedin\"></i>\r\n          </div>\r\n        </a>\r\n      </div>\r\n    </div>\r\n    \r\n  </div>\r\n</div>\r\n</center>",
                 "invisible": true,
                 "invisibleCondition": "(rowData.name == 'SME->Mentor' && $getUser('accountType') == 'SME')",
                 "invisibleInDataGrid": true,
@@ -284,7 +294,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<center>\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n  </div>\r\n  <center><img :src=\"$getDashboardModel('investorProfiles')[rowData.investor].$profileImage$display\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span class=\"d-block mb-1\">{{rowData.$investor.name}} {{rowData.$investor.secondName}} </span>\r\n      <small id=\"about\" class=\"h4 font-weight-light text-muted\"></small>\r\n      \r\n      <div class=\"row\" style=\"justify-content:center;\"> \r\n      <small class=\"h4 font-weight-light text-muted\">{{rowData.$investor.phoneNumber}}</small>\r\n      </div>\r\n\r\n<div class=\"row\" style=\"justify-content:center;\">\r\n      <small class=\"h4 font-weight-light text-muted\" v-for='e in rowData.$investor.$owner$display'>\r\n        <a href=\"`mailto:${e}`\">{{e}}</a>\r\n      </small>\r\n</div>\r\n\r\n      <a :href=\"rowData.$investor.linkedInProfileLink\" target=\"_blank\">\r\n        <i v-if=\"rowData.$investor.linkedInProfileLink\" style=\"padding: 5px;\" class=\"fab fa-linkedin\"></i>\r\n      </a>\r\n    </h5>\r\n  </div>\r\n</div>\r\n</center>",
+                "customCode": "<center>\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n  </div>\r\n  <center><img :src=\"$getDashboardModel('investorProfiles')[rowData.investor].$profileImage$display\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span class=\"d-block mb-1\">{{rowData.$investor.name}} {{rowData.$investor.secondName}} </span>\r\n      <small id=\"about\" class=\"h4 font-weight-light text-muted\"></small>\r\n      \r\n      <div class=\"row\" style=\"justify-content:center;\"> \r\n      <small class=\"h4 font-weight-light text-muted\">{{rowData.$investor.phoneNumber}}</small>\r\n      </div>\r\n\r\n<div class=\"row\" style=\"justify-content:center;\">\r\n      <small class=\"h4 font-weight-light text-muted\" v-for='e in rowData.$investor.$owner$display'>\r\n        <a href=\"`mailto:${e}`\">{{e}}</a>\r\n      </small>\r\n</div>\r\n\r\n </h5>\r\n\r\n       <div class=\"row justify-content-center\">\r\n\r\n      <a :href=\"rowData.$investor.linkedInProfileLink\" target=\"_blank\">\r\n        <div v-if=\"rowData.$investor.linkedInProfileLink\" class=\"social-icon-contain\">\r\n        <i v-if=\"rowData.$investor.linkedInProfileLink\" style=\"padding: 5px; color: white !important;\" class=\"fab fa-linkedin\"></i>\r\n        </div>\r\n     </a>\r\n       </div>\r\n   \r\n  </div>\r\n</div>\r\n</center>",
                 "invisible": true,
                 "invisibleCondition": "$getUser('accountType') == 'Investor' || $getUser('accountType') == 'Mentor' || rowData.name == 'Mentor->SME'  || rowData.name == 'SME->Mentor'",
                 "invisibleInDataGrid": true,
@@ -328,7 +338,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<center>\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n  </div>\r\n  <center><img :src=\"$getDashboardModel('sMEProfiles')[rowData.sME].$profileImage$display\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span class=\"d-block mb-1\">{{rowData.$sME.name}} {{rowData.$sME.secondName}} </span>\r\n      <small id=\"about\" class=\"h4 font-weight-light text-muted\"></small>\r\n\r\n      <a :href=\"rowData.$sME.linkedInProfileLink\" target=\"_blank\">\r\n        <i v-if=\"rowData.$pitch.linkedInProfileLink\" style=\"padding: 5px; bottom: 0;\" class=\"fab fa-linkedin\"></i>\r\n      </a>\r\n    </h5>\r\n  </div>\r\n</div>\r\n</center>",
+                "customCode": "<center>\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n  </div>\r\n  <center><img :src=\"$getDashboardModel('sMEProfiles')[rowData.sME].$profileImage$display\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span class=\"d-block mb-1\">{{rowData.$sME.name}} {{rowData.$sME.secondName}} </span>\r\n      <small id=\"about\" class=\"h4 font-weight-light text-muted\"></small>\r\n\r\n </h5>\r\n\r\n       <div class=\"row justify-content-center\">\r\n      <a :href=\"rowData.$sME.linkedInProfileLink\" target=\"_blank\">\r\n        <div v-if=\"rowData.$sME.linkedInProfileLink\" class=\"social-icon-contain\">\r\n        <i v-if=\"rowData.$sME.linkedInProfileLink\" style=\"padding: 5px; bottom: 0; color: white !important;\" class=\"fab fa-linkedin\"></i>\r\n        </div>\r\n      </a>\r\n       </div>\r\n   \r\n  </div>\r\n</div>\r\n</center>",
                 "invisible": true,
                 "invisibleCondition": "(rowData.name == 'Investor->SME' && $getUser('accountType') == 'SME') || (rowData.name  == 'SME->Mentor' && $getUser('accountType') == 'SME') || (rowData.name  == 'Mentor->SME' && $getUser('accountType') == 'SME')",
                 "invisibleInDataGrid": true,
@@ -381,7 +391,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "pitch",
-                "ableToAddLookUpVal": true,
+                "ableToAddLookUpVal": false,
                 "gridId": "applications",
                 "description": ""
               },
@@ -395,7 +405,7 @@
                 "value": "",
                 "className": "col-md-12",
                 "readonly": true,
-                "readonlyCondition": "rowData.name == 'Mentor->SME' && $getUser('accountType') == 'SME' || (rowData.name == 'Investor->SME' && $getUser('accountType') == 'SME')",
+                "readonlyCondition": "(rowData.name == 'Mentor->SME' && $getUser('accountType') == 'SME' || (rowData.name == 'Investor->SME' && $getUser('accountType') == 'SME')) || ($getUser('accountType') == \"Mentor\" && rowData.$applicationStatus$display == \"Pending\") ",
                 "placeholder": "",
                 "labelBold": false,
                 "labelItalic": false,
@@ -485,7 +495,7 @@
                 "value": "",
                 "className": "col-md-12",
                 "readonly": false,
-                "readonlyCondition": "",
+                "readonlyCondition": "$getUser('accountType') == 'Mentor' || ($getUser('accountType') == \"Mentor\" && rowData.$applicationStatus$display == \"Pending\") ",
                 "placeholder": "Message, why...",
                 "labelBold": false,
                 "labelItalic": false,
@@ -641,15 +651,103 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<h3>Thanks for submitting. Please close this window and wait for a response.</h3>",
+                "customCode": "<h3 style=\"color:black;\">Thanks for submitting. Please close this window and wait for a response.</h3>",
                 "invisible": true,
-                "invisibleCondition": "!rowData.nextEvents || rowData.owner == fbUser.uid || ($getUser('accountType') == \"SME\" && rowData.$applicationStatus$display == \"Approved\") ",
+                "invisibleCondition": "!rowData.nextEvents || rowData.owner == fbUser.uid || ($getUser('accountType') == \"SME\" && rowData.$applicationStatus$display == \"Approved\") || ($getUser('accountType') == \"Mentor\" && rowData.$applicationStatus$display == \"Approved\") ",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": true,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "sentMessage",
+                "gridId": "applications"
+              },
+              {
+                "type": "custom",
+                "name": "control_custom_707059",
+                "fieldName": "control_custom_707059",
+                "label": "Rejected",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<h3 style=\"color:black;\">Application rejected.</h3>",
+                "invisible": true,
+                "invisibleCondition": " rowData.$applicationStatus$display != \"Rejected\"",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "rejected",
+                "gridId": "applications"
+              },
+              {
+                "type": "custom",
+                "name": "control_custom_96757",
+                "fieldName": "control_custom_96757",
+                "label": "Approved",
+                "order": 11,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<h3 style=\"color:black;\">Application approved.</h3>",
+                "invisible": true,
+                "invisibleCondition": " rowData.$applicationStatus$display != \"Approved\"",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "approved",
                 "gridId": "applications"
               }
             ]
@@ -1431,11 +1529,11 @@
         "minInstance": 1,
         "maxInstance": 0,
         "instances": [],
-        "vif": ""
+        "vif": "$getUser('accountType') == \"Admin\""
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.6576750416252468
+    "_uniqueId": 0.20242367227502056
   },
   "source": "applications",
   "storageType": "dashboard",
@@ -1451,6 +1549,9 @@
         "applicationSubmit": {
           "invisible": false,
           "order": "2"
+        },
+        "approved": {
+          "order": 25
         },
         "createdBy": {
           "order": "9"
@@ -1514,6 +1615,9 @@
         "referralTypeSME": {
           "order": "18"
         },
+        "rejected": {
+          "order": 26
+        },
         "responseOpened": {
           "order": 24
         },
@@ -1540,7 +1644,7 @@
       }
     },
     "mentorAndSessions": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"owner\",\"operator\":\"=\",\"value\":\"fbUser.uid\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true},{\"key\":\"applicationStatus\",\"operator\":\"=\",\"value\":{\"value\":\"-MS2D3bgt4vWZpZco7Aw\",\"name\":\"Approved\"},\"name\":\"Approved\",\"hidden\":true},{\"key\":\"isComplete\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Complete\",\"hidden\":true},{\"key\":\"name\",\"operator\":\"!=\",\"value\":\"Investor->SME\",\"name\":\"Direction Not\",\"hidden\":true}]}",
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"mentor\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"Mentor\",\"expression\":true,\"hidden\":true},{\"key\":\"applicationStatus\",\"operator\":\"=\",\"value\":{\"value\":\"-MS2D3bgt4vWZpZco7Aw\",\"name\":\"Approved\"},\"name\":\"Approved\",\"hidden\":true},{\"key\":\"isComplete\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Complete\",\"hidden\":true},{\"key\":\"name\",\"operator\":\"!=\",\"value\":\"Investor->SME\",\"name\":\"Direction Not\",\"hidden\":true}]}",
       "meta": {
         "applicationStatus": {
           "invisible": false,
@@ -1549,6 +1653,9 @@
         "applicationSubmit": {
           "invisible": true,
           "order": "4"
+        },
+        "approved": {
+          "order": 25
         },
         "createdBy": {
           "invisible": false,
@@ -1617,6 +1724,9 @@
         "referralTypeSME": {
           "invisible": false,
           "order": "18"
+        },
+        "rejected": {
+          "order": 26
         },
         "responseOpened": {
           "order": 24
@@ -1650,6 +1760,9 @@
           "invisible": true,
           "order": "4"
         },
+        "approved": {
+          "order": 25
+        },
         "createdBy": {
           "invisible": false,
           "order": "2"
@@ -1717,6 +1830,9 @@
         "referralTypeSME": {
           "invisible": false,
           "order": "18"
+        },
+        "rejected": {
+          "order": 26
         },
         "responseOpened": {
           "order": 24

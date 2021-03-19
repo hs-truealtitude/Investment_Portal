@@ -87,7 +87,7 @@
           "color": "hsl(235, 71%, 65%)"
         },
         "attachment": {
-          "user": "mentor.mentors.user"
+          "user": "mentor.mentors.owner"
         },
         "outcomes": [
           {
@@ -170,7 +170,7 @@
           "color": "hsl(235, 71%, 65%)"
         },
         "attachment": {
-          "user": "sME.sMEProfiles.user"
+          "user": "sME.sMEProfiles.owner"
         },
         "outcomes": [
           {
@@ -253,7 +253,7 @@
           "color": "hsl(235, 71%, 65%)"
         },
         "attachment": {
-          "user": "sME.sMEProfiles.user"
+          "user": "sME.sMEProfiles.owner"
         },
         "outcomes": [
           {

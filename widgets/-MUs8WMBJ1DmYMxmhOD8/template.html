@@ -1,8 +1,8 @@
-<div v-if="row.$mentor"style="    ">
+<div v-if="row.$mentor" style="    ">
   <div class="row">
   </div>
 
-  <button style="font-family: 'Grenette pro', sans-serif; font-size: 15px; position: absolute; left: 20px; top: 20px; width: 40px; color: black;" class="myButton" @click="removeMentor(row.rowKey)"><i class="fas fa-user-slash"></i></button>
+  <button style="font-family: 'Grenette pro', sans-serif; font-size: 15px; position: absolute; color: black; left: 20px; top: 20px; width: 40px; color: black;" class="myButton" @click="removeMentor(row.rowKey)"><i class="fas fa-user-slash"></i></button>
   </b-button>
 
   <center style="padding-top:30px;">
@@ -27,12 +27,12 @@
       </div>
 
       <div class="row" style="justify-content:center; height: 40px;">
-        <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;" class="h4 font-weight-light text-muted" v-for='e in row.$mentor.$user$display'> 
-        <a style="color: #ef4437;" href="`mailto:${e}`">{{e}}</a>
+        <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;" class="h4 font-weight-light text-muted" v-for='e in row.$mentor.$user$display'>
+          <a style="color: #ef4437;" href="`mailto:${e}`">{{e}}</a>
         </small>
       </div>
 
-      
+
     </h5>
 
     <div style="height:15px;" class="row">
@@ -40,12 +40,12 @@
 
     <center>
       <div style="padding-bottom: 10px;">
-        <button style="font-family: 'Grenette pro', sans-serif; font-size: 15px;" class="myButton" 
-        @click='$setUser("filterMentor",row.mentor); 
+        <button style="font-family: 'Grenette pro', sans-serif; font-size: 15px;" class="myButton" @click='$setUser("filterMentor",row.mentor); 
         $setUser("filterSME",row.sME);
         $setUser("filterPitch",row.pitch);
+        $setUser("sessionDirection", "SME->Mentor");
         openDetail(row.rowKey)'>
-        Engagement Schedule
+          Engagement Schedule
         </button>
         </b-button>
       </div>

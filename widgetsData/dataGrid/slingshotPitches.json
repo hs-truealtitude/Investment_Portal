@@ -243,6 +243,11 @@
       "order": "28",
       "type": "multiline_text"
     },
+    "mentorRequirementsSummary": {
+      "displayName": "Mentor Requirements Summary",
+      "order": 80,
+      "type": "multiline_text"
+    },
     "milestones": {
       "dataGrid": "milestones",
       "displayName": "Please enter your completed milestones/objectives in the last 6 months.",
@@ -4110,7 +4115,7 @@
                 "name": "control_multi_lookup_859112",
                 "fieldName": "control_multi_lookup_859112",
                 "label": "Skills",
-                "order": 0,
+                "order": 1,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -4148,6 +4153,50 @@
                 "customValidationErrorMessage": "",
                 "propName": "skills",
                 "ableToAddLookUpVal": true,
+                "gridId": "slingshotPitches"
+              },
+              {
+                "type": "multiline_text",
+                "name": "control_multiline_text_599557",
+                "fieldName": "control_multiline_text_599557",
+                "label": "Mentor Requirements Summary",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "mentorRequirementsSummary",
                 "gridId": "slingshotPitches"
               }
             ]
@@ -4493,7 +4542,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.7710902492199254
+    "_uniqueId": 0.7691244082561521
   },
   "source": "slingshotPitches",
   "storageType": "dashboard",
@@ -4653,6 +4702,9 @@
         "mainInvestorsCommitedInCurrentRound": {
           "invisible": true,
           "order": "32"
+        },
+        "mentorRequirementsSummary": {
+          "order": 80
         },
         "minimumInvestment": {
           "invisible": true,
@@ -4962,6 +5014,9 @@
           "invisible": true,
           "order": "31"
         },
+        "mentorRequirementsSummary": {
+          "order": 80
+        },
         "minimumInvestment": {
           "invisible": true,
           "order": "17"
@@ -5267,6 +5322,9 @@
           "invisible": false,
           "order": "36"
         },
+        "mentorRequirementsSummary": {
+          "order": 80
+        },
         "minimumInvestment": {
           "invisible": false,
           "order": "6"
@@ -5534,6 +5592,9 @@
         },
         "mainInvestorsCommitedInCurrentRound": {
           "order": "49"
+        },
+        "mentorRequirementsSummary": {
+          "order": 80
         },
         "milestones": {
           "order": "26"

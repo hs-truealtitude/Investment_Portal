@@ -6,8 +6,9 @@
     "dateOfBirth": 1609804800000,
     "group": false,
     "isApproved": true,
-    "lastEditDate": 1614267947768,
+    "lastEditDate": 1616075149758,
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "linkedInProfileLink": "",
     "location": "-MJwtgUqBjMrFNntf6GH",
     "name": "Dave",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
@@ -16,5 +17,17 @@
     "rowKey": "-MSDB4vGVTDWjl3zyJaV",
     "secondName": "Winter",
     "user": "mvhT7sNTcEM5BdibKTLtmFZg6RE3"
+  },
+  "-MW4asV1zlIePvD5IaEv": {
+    "_created": true,
+    "_id": 2,
+    "createdDate": 1616075524201,
+    "group": false,
+    "lastEditDate": 1616075524201,
+    "lastEditedBy": "vpGBAtzFhZPU2cB08GL4JaqmCQ63",
+    "location": "-MJwtgUqBjMrFNntf6GH",
+    "owner": "vpGBAtzFhZPU2cB08GL4JaqmCQ63",
+    "rowKey": "-MW4asV1zlIePvD5IaEv",
+    "user": "vpGBAtzFhZPU2cB08GL4JaqmCQ63"
   }
 }

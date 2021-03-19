@@ -5,7 +5,7 @@
   "meta": {
     "bookASession": {
       "displayName": "Book a Session",
-      "order": "14",
+      "order": "3",
       "startTitle": "Request",
       "type": "workflow",
       "workflow": "-MT_XSLmtVM9drCNLKMi"
@@ -13,12 +13,12 @@
     "createdDate": {
       "displayName": "Created Date",
       "invisible": false,
-      "order": "3",
+      "order": "19",
       "type": "date"
     },
     "direction": {
       "displayName": "Direction",
-      "order": 29,
+      "order": "26",
       "type": "string"
     },
     "eDate": {
@@ -26,41 +26,41 @@
         "durationField": "sessionLength",
         "startField": "sDate"
       },
-      "displayName": "End Date",
-      "order": "26",
+      "displayName": "End Date & Time",
+      "order": "15",
       "type": "timepicker"
     },
     "isBooked": {
       "displayName": "isBooked",
-      "order": "13",
+      "order": "2",
       "type": "checkbox"
     },
     "lastEditDate": {
       "displayName": "Last edit date",
       "invisible": true,
-      "order": "8",
+      "order": "22",
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
       "invisible": true,
-      "order": "7",
+      "order": "12",
       "type": "user"
     },
     "mentor": {
       "displayName": "Mentor",
       "lookUpTable": "mentors",
-      "order": "10",
+      "order": "17",
       "type": "lookup"
     },
     "mentorCard": {
-      "displayName": "",
-      "order": "18",
+      "displayName": "Mentor Card",
+      "order": "24",
       "type": "custom"
     },
     "message": {
       "displayName": "Message",
-      "order": "21",
+      "order": "11",
       "type": "custom"
     },
     "name": {
@@ -72,80 +72,80 @@
     "nextEvents": {
       "displayName": "Next Events",
       "invisible": true,
-      "order": "6",
+      "order": "23",
       "type": "string"
     },
     "notes": {
-      "displayName": "Notes",
-      "order": "16",
+      "displayName": "Notes/Session Details",
+      "order": "6",
       "type": "multiline_text"
     },
     "notifComplete": {
       "displayName": "notifComplete",
-      "order": "23",
+      "order": "14",
       "type": "checkbox"
     },
     "notificationDescription": {
       "displayName": "NotificationDescription",
-      "order": "17",
+      "order": "7",
       "type": "string"
-    },
-    "notifyMentor": {
-      "displayName": "",
-      "order": "24",
-      "type": "custom"
     },
     "owner": {
       "displayName": "Owner",
       "invisible": false,
-      "order": "4",
+      "order": "20",
       "type": "user"
     },
     "pitch": {
       "displayName": "Pitch",
       "lookUpTable": "slingshotPitches",
-      "order": "11",
+      "order": "28",
       "type": "lookup"
     },
     "pitchCard": {
-      "displayName": "",
-      "order": "19",
+      "displayName": "Company Card",
+      "order": "8",
       "type": "custom"
     },
     "red": {
       "displayName": "red",
-      "order": "27",
+      "order": "18",
       "type": "string"
     },
     "rejected": {
-      "displayName": "Rejected",
-      "order": "28",
+      "displayName": "rejected",
+      "order": "30",
       "type": "checkbox"
     },
     "responseOpened": {
       "displayName": "responseOpened",
-      "order": "22",
+      "order": "13",
       "type": "checkbox"
     },
     "sDate": {
-      "displayName": "Start Date",
-      "order": "25",
+      "displayName": "Start Date & Time",
+      "order": "4",
       "type": "timepicker"
     },
     "sME": {
       "displayName": "SME",
       "lookUpTable": "sMEProfiles",
-      "order": "9",
+      "order": "25",
       "type": "lookup"
     },
+    "sMEACCEPT": {
+      "displayName": "SME ACCEPT",
+      "order": "27",
+      "type": "custom"
+    },
     "sMECard": {
-      "displayName": "",
-      "order": "20",
+      "displayName": "SME Card",
+      "order": "10",
       "type": "custom"
     },
     "sessionHappen": {
       "displayName": "sessionHappen",
-      "order": "15",
+      "order": "5",
       "type": "checkbox"
     },
     "sessionLength": {
@@ -155,25 +155,35 @@
       },
       "displayName": "Duration",
       "invisible": false,
-      "order": "2",
+      "order": "9",
       "type": "number"
     },
+    "sessionRejected": {
+      "displayName": "sessionRejected",
+      "order": "16",
+      "type": "custom"
+    },
     "sessionReview": {
-      "displayName": "Session Review",
+      "displayName": "Session Review for Mentor",
       "invisible": false,
       "order": "1",
+      "type": "multiline_text"
+    },
+    "sessionReviewForSME": {
+      "displayName": "Session Review for SME",
+      "order": 31,
       "type": "multiline_text"
     },
     "state": {
       "displayName": "State",
       "invisible": true,
-      "order": "5",
+      "order": "21",
       "type": "string"
     },
     "status": {
       "displayName": "Status",
       "lookUpTable": "sessionStatus",
-      "order": "12",
+      "order": "29",
       "type": "lookup"
     }
   },
@@ -181,7 +191,7 @@
     "sections": [
       {
         "name": "section_565671",
-        "label": "",
+        "label": "Session",
         "clientKey": "section_565671",
         "order": 0,
         "rows": [
@@ -194,7 +204,7 @@
                 "type": "custom",
                 "name": "control_custom_63999",
                 "fieldName": "control_custom_63999",
-                "label": "",
+                "label": "Company Card",
                 "order": 0,
                 "defaultValue": "",
                 "value": "",
@@ -223,7 +233,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<div v-if='rowData.$pitch'>\r\n  <center>\r\n  <div class=\"card-body\" style=\"max-width: 100%;\">\r\n    <div class=\"row\">\r\n\r\n    </div>\r\n    <center v-if='rowData.$pitch'><img :src=\"rowData.$pitch.$companyLogo$display\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n    <a href=\"#!\">\r\n    </a>\r\n    <div class=\"pt-4 text-center\">\r\n      <h5 class=\"h3 title\">\r\n        <span class=\"d-block mb-1\">{{rowData.$pitch.name}}</span>\r\n        <small id=\"about\" class=\"h4 font-weight-light text-muted\"></small>\r\n\r\n        <p class=\"h4 font-weight-light text-muted\" style=\"height: 120px; padding: 10px;\">{{truncateText(rowData.$pitch.aboutTheCompany,200)}}</p>\r\n\r\n\r\n        <a :href=\"'https://'+rowData.$pitch.website\" target=\"_blank\">\r\n          <i style=\"padding: 5px;\" class=\"fas fa-globe\"></i>\r\n        </a>\r\n        <a :href=\"rowData.$pitch.linkedInLink\" target=\"_blank\">\r\n          <i style=\"padding: 5px;\" class=\"fab fa-linkedin\"></i>\r\n        </a>\r\n      </h5>\r\n    </div>\r\n  </div>\r\n  </center>\r\n</div>",
+                "customCode": "<center>\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n\r\n  </div>\r\n  <center><img :src=\"$getDashboardModel('slingshotPitches')[rowData.pitch].$companyLogo$display\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span style=\"\" class=\"d-block mb-1\">{{rowData.$pitch.name}}</span>\r\n</h5>\r\n      <p class=\"h4 font-weight-light text-muted\"> {{truncateText(rowData.$pitch.aboutTheCompany, 200)}} </p>\r\n\r\n       <div class=\"row justify-content-center\">\r\n      <div style=\"padding: 5px;\" v-if=\"rowData.$pitch.website\">\r\n        <a :href=\"'https://'+rowData.$pitch.website\" target=\"_blank\">\r\n          <div class=\"social-icon-contain\">\r\n          <i style=\"padding: 5px; color: white !important;\" class=\"fas fa-globe\"></i>\r\n          </div>\r\n        </a>\r\n      </div>\r\n\r\n      <div style=\"padding: 5px;\" v-if=\"rowData.$pitch.linkedInLink\">\r\n        <a :href=\"rowData.$pitch.linkedInLink\" target=\"_blank\">\r\n          <div class=\"social-icon-contain\">\r\n          <i style=\"padding: 5px; color: white !important;\" class=\"fab fa-linkedin\"></i>\r\n          </div>\r\n        </a>\r\n      </div>\r\n    </div>\r\n    \r\n  </div>\r\n</div>\r\n</center>",
                 "invisible": false,
                 "invisibleCondition": "",
                 "invisibleInDataGrid": true,
@@ -238,7 +248,7 @@
                 "type": "custom",
                 "name": "control_custom_974881",
                 "fieldName": "control_custom_974881",
-                "label": "",
+                "label": "SME Card",
                 "order": 1,
                 "defaultValue": "",
                 "value": "",
@@ -267,7 +277,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<div v-if='rowData.$sME'>\r\n  <center>\r\n  <div class=\"card-body\" style=\"max-width: 100%;\">\r\n    <div class=\"row\">\r\n\r\n    </div>\r\n    <center><img :src=\"rowData.$sME.$profileImage$display\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n    <a href=\"#!\">\r\n    </a>\r\n    <div class=\"pt-4 text-center\">\r\n      <h5 class=\"h3 title\">\r\n        <span class=\"d-block mb-1\">{{rowData.$sME.name}} {{rowData.$sME.secondName}} </span>\r\n        <small id=\"about\" class=\"h4 font-weight-light text-muted\"></small>\r\n\r\n        <a :href=\"rowData.$sME.linkedInProfileLink\" target=\"_blank\">\r\n          <i style=\"padding: 5px;\" class=\"fab fa-linkedin\"></i>\r\n        </a>\r\n      </h5>\r\n    </div>\r\n  </div>\r\n  </center>\r\n</div>",
+                "customCode": "<center>\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n  </div>\r\n  <center><img :src=\"$getDashboardModel('sMEProfiles')[rowData.sME].$profileImage$display\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span class=\"d-block mb-1\">{{rowData.$sME.name}} {{rowData.$sME.secondName}} </span>\r\n      <small id=\"about\" class=\"h4 font-weight-light text-muted\"></small>\r\n\r\n </h5>\r\n\r\n      <div v-if='rowData.$sME' class=\"row\" style=\"justify-content:center;\">\r\n        <small style=\"font-family: 'Grenette pro', sans-serif; color: #ef4437 !important; font-size: 1em;     font-weight: 400;\" class=\"h4 font-weight-light\">{{rowData.$sME.phoneNumber}}</small>\r\n      </div>\r\n\r\n      <div v-if='rowData.$sME' class=\"row\" style=\"justify-content:center;\">\r\n        \r\n          <small style=\"font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;\" class=\"h4 font-weight-light text-muted\" v-for='e in rowData.$sME.$user$display' >\r\n            <a style=\"color: #ef4437;\" :href=\"`mailto:${e}`\">{{e}}</a>\r\n          </small>\r\n       \r\n      </div>\r\n\r\n\r\n       <div class=\"row justify-content-center\">\r\n      <a :href=\"rowData.$sME.linkedInProfileLink\" target=\"_blank\">\r\n        <div v-if=\"rowData.$sME.linkedInProfileLink\" class=\"social-icon-contain\">\r\n        <i v-if=\"rowData.$sME.linkedInProfileLink\" style=\"padding: 5px; bottom: 0; color: white !important;\" class=\"fab fa-linkedin\"></i>\r\n        </div>\r\n      </a>\r\n       </div>\r\n   \r\n  </div>\r\n</div>\r\n</center>",
                 "invisible": true,
                 "invisibleCondition": "$getUser('accountType') == 'SME'",
                 "invisibleInDataGrid": true,
@@ -282,7 +292,7 @@
                 "type": "custom",
                 "name": "control_custom_469726",
                 "fieldName": "control_custom_469726",
-                "label": "",
+                "label": "Mentor Card",
                 "order": 2,
                 "defaultValue": "",
                 "value": "",
@@ -311,7 +321,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<div v-if='rowData.$mentor'>\r\n  <center>\r\n  <div class=\"card-body\" style=\"max-width: 100%;\">\r\n    <div class=\"row\">\r\n\r\n\r\n    </div>\r\n    <center><img :src=\"rowData.$mentor.$profileImage$display\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n    <a href=\"#!\">\r\n    </a>\r\n    <div class=\"pt-4 text-center\">\r\n      <h5 class=\"h3 title\">\r\n        <span class=\"d-block mb-1\">{{rowData.$mentor.name}} {{rowData.$mentor.secondName}}</span>\r\n\r\n        <p class=\"h4 font-weight-light text-muted\"> {{truncateText(rowData.$mentor.aboutMe, 100)}} </p>\r\n\r\n\r\n        <p class=\"h4 font-weight-light text-muted\"> Sectors: </p>\r\n        <b-badge v-for=\"item in rowData.$mentor.$mainSectors$display\"> {{item}} </b-badge>\r\n        </p>\r\n\r\n        <p class=\"h4 font-weight-light text-muted\"> Skills: </p>\r\n        <b-badge v-for=\"item in rowData.$mentor.$mainSkills$display\"> {{item}} </b-badge>\r\n        </p>\r\n\r\n\r\n      </h5>\r\n    </div>\r\n  </div>\r\n  </center>\r\n</div>",
+                "customCode": "<center>\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n\r\n  </div>\r\n  <center><img :src=\"$getDashboardModel('mentors')[rowData.mentor].$profileImage$display\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span style=\"\" class=\"d-block mb-1\">{{rowData.$mentor.name}} {{rowData.$mentor.secondName}}</span>\r\n</h5>\r\n      <p class=\"h4 font-weight-light text-muted\"> {{truncateText(rowData.$mentor.aboutMe, 100)}} </p>\r\n\r\n\r\n      <div class=\"row\" style=\"justify-content:center; height: 20px;\">\r\n        <small style=\"font-family: 'Grenette pro', sans-serif; color: #ef4437 !important; font-size: 1em;     font-weight: 400;\" class=\"h4 font-weight-light\">{{rowData.$mentor.phoneNumber}}</small>\r\n      </div>\r\n\r\n      <div class=\"row\" style=\"justify-content:center; height: 40px;\">\r\n        <small style=\"font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;\" class=\"h4 font-weight-light text-muted\" v-for='e in rowData.$mentor.$user$display'>\r\n          <a style=\"color: #ef4437;\" href=\"`mailto:${e}`\">{{e}}</a>\r\n        </small>\r\n      </div>\r\n\r\n  \r\n    <div class=\"row justify-content-center\">\r\n   <a :href=\"rowData.$mentor.linkedInProfileLink\" target=\"_blank\">\r\n      <div v-if=\"rowData.$mentor.linkedInProfileLink\" class=\"social-icon-contain\">\r\n        <i v-if=\"rowData.$mentor.linkedInProfileLink\" style=\"padding: 5px; bottom: 0; color: white !important;\" class=\"fab fa-linkedin\"></i>\r\n      </div>\r\n      </a>\r\n    </div>\r\n    \r\n  </div>\r\n</div>\r\n</center>",
                 "invisible": true,
                 "invisibleCondition": "$getUser('accountType') != 'SME'",
                 "invisibleInDataGrid": true,
@@ -332,7 +342,7 @@
                 "value": "",
                 "className": "col-md-12",
                 "readonly": true,
-                "readonlyCondition": "$getUser('accountType') == 'SME'",
+                "readonlyCondition": "(rowData.direction == 'Mentor->SME'  && $getUser('accountType') == 'SME') || (rowData.direction == 'SME->Mentor' && $getUser('accountType') == 'Mentor') || rowData.$status$display == \"Accepted\" ",
                 "placeholder": "",
                 "labelBold": false,
                 "labelItalic": false,
@@ -370,13 +380,13 @@
                 "type": "timepicker",
                 "name": "control_timepicker_175874",
                 "fieldName": "control_timepicker_175874",
-                "label": "Start Date",
+                "label": "Start Date & Time",
                 "order": 4,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
-                "readonly": false,
-                "readonlyCondition": "",
+                "readonly": true,
+                "readonlyCondition": "(rowData.direction == 'Mentor->SME'  && $getUser('accountType') == 'SME') || (rowData.direction == 'SME->Mentor' && $getUser('accountType') == 'Mentor') || rowData.$status$display == \"Accepted\" ",
                 "placeholder": "",
                 "labelBold": false,
                 "labelItalic": false,
@@ -411,16 +421,60 @@
                 "gridId": "sessions"
               },
               {
+                "type": "timepicker",
+                "name": "control_timepicker_163963",
+                "fieldName": "control_timepicker_163963",
+                "label": "End Date & Time",
+                "order": 5,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": true,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "eDate",
+                "gridId": "sessions"
+              },
+              {
                 "type": "number",
                 "name": "control_number_797480",
                 "fieldName": "control_number_797480",
                 "label": "Duration",
-                "order": 5,
+                "order": 6,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
                 "readonly": true,
-                "readonlyCondition": "$getUser('accountType') == 'SME'",
+                "readonlyCondition": "(rowData.direction == 'Mentor->SME'  && $getUser('accountType') == 'SME') || (rowData.direction == 'SME->Mentor' && $getUser('accountType') == 'Mentor') || rowData.$status$display == \"Accepted\" ",
                 "placeholder": "",
                 "labelBold": false,
                 "labelItalic": false,
@@ -453,19 +507,19 @@
                 "customValidationErrorMessage": "",
                 "propName": "sessionLength",
                 "gridId": "sessions",
-                "description": "Please enter the duration in hours"
+                "description": "Please enter the duration in hours (30 minutes = 0.5, 1 hour = 1)"
               },
               {
                 "type": "multiline_text",
                 "name": "control_multiline_text_65452",
                 "fieldName": "control_multiline_text_65452",
-                "label": "Notes",
-                "order": 6,
+                "label": "Notes/Session Details",
+                "order": 7,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
                 "readonly": true,
-                "readonlyCondition": "$getUser('accountType') == 'SME'",
+                "readonlyCondition": "(rowData.direction == 'Mentor->SME'  && $getUser('accountType') == 'SME') || (rowData.direction == 'SME->Mentor' && $getUser('accountType') == 'Mentor') || rowData.$status$display == \"Accepted\" ",
                 "placeholder": "",
                 "labelBold": false,
                 "labelItalic": false,
@@ -501,10 +555,55 @@
               },
               {
                 "type": "multiline_text",
+                "name": "control_multiline_text_325453",
+                "fieldName": "control_multiline_text_325453",
+                "label": "Session Review for SME",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "$getUser('accountType') == 'SME' || rowData.state != \"Session Went On\"",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "sessionReviewForSME",
+                "gridId": "sessions",
+                "description": "Please leave a review for your session with the SME"
+              },
+              {
+                "type": "multiline_text",
                 "name": "control_multiline_text_17457",
                 "fieldName": "control_multiline_text_17457",
-                "label": "Session Review",
-                "order": 7,
+                "label": "Session Review for Mentor",
+                "order": 8,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -541,14 +640,15 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "sessionReview",
-                "gridId": "sessions"
+                "gridId": "sessions",
+                "description": "Please leave a review for your session with the Mentor"
               },
               {
                 "type": "workflow",
                 "name": "control_workflow_798950",
                 "fieldName": "control_workflow_798950",
                 "label": "Book a Session",
-                "order": 8,
+                "order": 9,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -578,7 +678,7 @@
                 "vif": "",
                 "customCode": "",
                 "invisible": true,
-                "invisibleCondition": "(rowData.state == \"SME Approve\" && $getUser('accountType') == \"Mentor\") || (rowData.state == \"Did Session Happen?\" &&  $getUser('accountType') == \"SME\") || rowData.state == \"error\" || rowData.state == \"Session Went On\"",
+                "invisibleCondition": "(rowData.nextEvents && rowData.owner != fbUser.uid) || rowData.notifComplete == 'true' || rowData.$status$display == \"Rejected\" || rowData.state == \"Session Went On\" || rowData.$rejected$display == \"true\" || rowData.$status$display == \"Rejected\"",
                 "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
@@ -592,50 +692,6 @@
                 "name": "control_custom_463553",
                 "fieldName": "control_custom_463553",
                 "label": "Message",
-                "order": 9,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-12",
-                "readonly": false,
-                "readonlyCondition": "",
-                "placeholder": "",
-                "labelBold": false,
-                "labelItalic": false,
-                "labelUnderline": false,
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "isTodayValueCreated": true,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isCurrentUser": false,
-                "isCurrentUserOwner": true,
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "<h2> Session booking sent. You will be notified if the session has been accepted. </h2>",
-                "invisible": true,
-                "invisibleCondition": "!rowData.nextEvents || rowData.owner == fbUser.uid || $getUser('accountType') == \"SME\" ",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": true,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "propName": "message",
-                "gridId": "sessions"
-              },
-              {
-                "type": "custom",
-                "name": "control_custom_826448",
-                "fieldName": "control_custom_826448",
-                "label": "",
                 "order": 10,
                 "defaultValue": "",
                 "value": "",
@@ -664,26 +720,134 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<h2> Response sent to the mentor. Go to 'My Mentors' to see the session booking. </h2>",
+                "customCode": "<h2 style=\"color:black;\"> Session booking sent. You will be notified if the session has been accepted. </h2>",
                 "invisible": true,
-                "invisibleCondition": "rowData.state != \"SME Approve\" || rowData.state != \"error\" || $getUser('accountType') == \"Mentor\" ",
+                "invisibleCondition": "!rowData.nextEvents || rowData.owner == fbUser.uid || rowData.$status$display == \"Accepted\" || rowData.state == \"Session Went On\" || rowData.$rejected$display == \"true\"",
                 "invisibleInDataGrid": false,
-                "invisibleLabel": false,
+                "invisibleLabel": true,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "notifyMentor",
+                "propName": "message",
                 "gridId": "sessions"
               },
+              {
+                "type": "custom",
+                "name": "control_custom_109306",
+                "fieldName": "control_custom_109306",
+                "label": "SME ACCEPT",
+                "order": 11,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<h2 style=\"color:black;\"> Session booking accepted.</h2>",
+                "invisible": true,
+                "invisibleCondition": "rowData.$status$display != \"Accepted\" || rowData.state == \"Session Went On\"",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "sMEACCEPT",
+                "gridId": "sessions"
+              },
+              {
+                "type": "custom",
+                "name": "control_custom_702876",
+                "fieldName": "control_custom_702876",
+                "label": "sessionRejected",
+                "order": 12,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<h3 style=\"color:black;\">Session booking rejected.</h3>",
+                "invisible": true,
+                "invisibleCondition": "rowData.$status$display != \"Rejected\"",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "sessionRejected",
+                "gridId": "sessions"
+              }
+            ]
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": []
+      },
+      {
+        "name": "section_800424",
+        "label": "Details",
+        "clientKey": "section_800424",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_800424_row_72362",
+            "label": "",
+            "order": 0,
+            "controls": [
               {
                 "type": "text",
                 "name": "control_text_958676",
                 "fieldName": "control_text_958676",
                 "label": "Direction",
                 "order": 0,
-                "defaultValue": "",
+                "defaultValue": "$getUser(\"sessionDirection\")",
                 "value": "",
-                "className": "col-md-6",
+                "className": "col-md-12",
                 "readonly": false,
                 "readonlyCondition": "",
                 "placeholder": "",
@@ -719,71 +883,7 @@
                 "propName": "direction",
                 "gridId": "sessions",
                 "sum": false,
-                "expression": "$getUser(\"sessionDirection\")"
-              }
-            ]
-          }
-        ],
-        "labelPosition": "top",
-        "isDynamic": false,
-        "minInstance": 1,
-        "maxInstance": 0,
-        "instances": []
-      },
-      {
-        "name": "section_800424",
-        "label": "Details",
-        "clientKey": "section_800424",
-        "order": 0,
-        "rows": [
-          {
-            "name": "section_800424_row_72362",
-            "label": "",
-            "order": 0,
-            "controls": [
-              {
-                "type": "timepicker",
-                "name": "control_timepicker_163963",
-                "fieldName": "control_timepicker_163963",
-                "label": "End Date",
-                "order": 0,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-6",
-                "readonly": false,
-                "readonlyCondition": "",
-                "placeholder": "",
-                "labelBold": false,
-                "labelItalic": false,
-                "labelUnderline": false,
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "isTodayValueCreated": true,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isCurrentUser": false,
-                "isCurrentUserOwner": true,
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": true,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "propName": "eDate",
-                "gridId": "sessions"
+                "expression": ""
               },
               {
                 "type": "text",
@@ -791,7 +891,7 @@
                 "fieldName": "control_text_754680",
                 "label": "red",
                 "order": 1,
-                "defaultValue": "",
+                "defaultValue": "red",
                 "value": "",
                 "className": "col-md-6",
                 "readonly": false,
@@ -826,57 +926,15 @@
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "red"
-              },
-              {
-                "type": "checkbox",
-                "name": "control_checkbox_968242",
-                "fieldName": "control_checkbox_968242",
-                "label": "Rejected",
-                "order": 2,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-6",
-                "readonly": false,
-                "readonlyCondition": "",
-                "placeholder": "",
-                "labelBold": false,
-                "labelItalic": false,
-                "labelUnderline": false,
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "isTodayValueCreated": true,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isCurrentUser": false,
-                "isCurrentUserOwner": true,
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": false,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "propName": "rejected"
+                "propName": "red",
+                "gridId": "sessions"
               },
               {
                 "type": "lookup",
                 "name": "control_lookup_425741",
                 "fieldName": "control_lookup_425741",
                 "label": "Pitch",
-                "order": 3,
+                "order": 2,
                 "defaultValue": "$getUser('filterPitch')",
                 "value": "",
                 "className": "col-md-12",
@@ -915,6 +973,49 @@
                 "propName": "pitch",
                 "ableToAddLookUpVal": false,
                 "gridId": "sessions"
+              },
+              {
+                "type": "checkbox",
+                "name": "control_checkbox_572143",
+                "fieldName": "control_checkbox_572143",
+                "label": "rejected",
+                "order": 3,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "rejected"
               },
               {
                 "type": "lookup",
@@ -1543,51 +1644,51 @@
         "minInstance": 1,
         "maxInstance": 0,
         "instances": [],
-        "vif": ""
+        "vif": "$getUser('accountType') == \"Admin\""
       }
     ],
-    "layout": "collapse",
-    "_uniqueId": 0.6500391048234928
+    "layout": "tab",
+    "_uniqueId": 0.25146310686544715
   },
   "source": "sessions",
   "storageType": "dashboard",
   "title": "Sessions",
   "views": {
     "leaveMentorReview": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isBooked\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Booked?\",\"hidden\":true},{\"key\":\"sessionHappen\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Happened?\",\"hidden\":true},{\"key\":\"sME\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true},{\"key\":\"sessionReview\",\"operator\":\"!=\",\"value\":null,\"name\":\"Session Review\",\"expression\":false,\"hidden\":true}]}",
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isBooked\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Booked?\",\"hidden\":true},{\"key\":\"sessionHappen\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Happened?\",\"hidden\":true},{\"key\":\"sME\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true},{\"key\":\"sessionReview\",\"operator\":\"null\",\"value\":null,\"name\":\"Session Review\",\"expression\":false,\"hidden\":true}]}",
       "meta": {
         "bookASession": {
-          "order": "14"
+          "order": "3"
         },
         "createdDate": {
           "invisible": false,
-          "order": "3"
+          "order": "19"
         },
         "direction": {
-          "order": 29
-        },
-        "eDate": {
           "order": "26"
         },
+        "eDate": {
+          "order": "15"
+        },
         "isBooked": {
-          "order": "13"
+          "order": "2"
         },
         "lastEditDate": {
           "invisible": true,
-          "order": "8"
+          "order": "22"
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "7"
+          "order": "12"
         },
         "mentor": {
-          "order": "10"
+          "order": "17"
         },
         "mentorCard": {
-          "order": "18"
+          "order": "24"
         },
         "message": {
-          "order": "21"
+          "order": "11"
         },
         "name": {
           "invisible": false,
@@ -1595,104 +1696,110 @@
         },
         "nextEvents": {
           "invisible": true,
-          "order": "6"
-        },
-        "notes": {
-          "order": "16"
-        },
-        "notifComplete": {
           "order": "23"
         },
-        "notificationDescription": {
-          "order": "17"
+        "notes": {
+          "order": "6"
         },
-        "notifyMentor": {
-          "order": "24"
+        "notifComplete": {
+          "order": "14"
+        },
+        "notificationDescription": {
+          "order": "7"
         },
         "owner": {
           "invisible": false,
-          "order": "4"
-        },
-        "pitch": {
-          "order": "11"
-        },
-        "pitchCard": {
-          "order": "19"
-        },
-        "red": {
-          "order": "27"
-        },
-        "rejected": {
-          "order": "28"
-        },
-        "responseOpened": {
-          "order": "22"
-        },
-        "sDate": {
-          "order": "25"
-        },
-        "sME": {
-          "order": "9"
-        },
-        "sMECard": {
           "order": "20"
         },
+        "pitch": {
+          "order": "28"
+        },
+        "pitchCard": {
+          "order": "8"
+        },
+        "red": {
+          "order": "18"
+        },
+        "rejected": {
+          "order": "30"
+        },
+        "responseOpened": {
+          "order": "13"
+        },
+        "sDate": {
+          "order": "4"
+        },
+        "sME": {
+          "order": "25"
+        },
+        "sMEACCEPT": {
+          "order": "27"
+        },
+        "sMECard": {
+          "order": "10"
+        },
         "sessionHappen": {
-          "order": "15"
+          "order": "5"
         },
         "sessionLength": {
           "invisible": false,
-          "order": "2"
+          "order": "9"
+        },
+        "sessionRejected": {
+          "order": "16"
         },
         "sessionReview": {
           "invisible": false,
           "order": "1"
         },
+        "sessionReviewForSME": {
+          "order": 31
+        },
         "state": {
           "invisible": true,
-          "order": "5"
+          "order": "21"
         },
         "status": {
-          "order": "12"
+          "order": "29"
         }
       },
       "title": "Leave Mentor Review"
     },
-    "myBookedSessions": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isBooked\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Booked?\",\"hidden\":true},{\"key\":\"sessionHappen\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"Happened?\",\"hidden\":true},{\"key\":\"sME\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true},{\"key\":\"rejected\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"Not Rejected\",\"hidden\":true}]}",
+    "leaveSMEReview": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isBooked\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Booked?\",\"hidden\":true},{\"key\":\"sessionHappen\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Happened?\",\"hidden\":true},{\"key\":\"mentor\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true},{\"key\":\"sessionReviewForSME\",\"operator\":\"null\",\"value\":null,\"name\":\"Session Review\",\"expression\":false,\"hidden\":true}]}",
       "meta": {
         "bookASession": {
-          "order": "14"
+          "order": "3"
         },
         "createdDate": {
           "invisible": false,
-          "order": "3"
+          "order": "19"
         },
         "direction": {
-          "order": 29
-        },
-        "eDate": {
           "order": "26"
         },
+        "eDate": {
+          "order": "15"
+        },
         "isBooked": {
-          "order": "13"
+          "order": "2"
         },
         "lastEditDate": {
           "invisible": true,
-          "order": "8"
+          "order": "22"
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "7"
+          "order": "12"
         },
         "mentor": {
-          "order": "10"
+          "order": "17"
         },
         "mentorCard": {
-          "order": "18"
+          "order": "24"
         },
         "message": {
-          "order": "21"
+          "order": "11"
         },
         "name": {
           "invisible": false,
@@ -1700,104 +1807,221 @@
         },
         "nextEvents": {
           "invisible": true,
-          "order": "6"
-        },
-        "notes": {
-          "order": "16"
-        },
-        "notifComplete": {
           "order": "23"
         },
-        "notificationDescription": {
-          "order": "17"
+        "notes": {
+          "order": "6"
         },
-        "notifyMentor": {
-          "order": "24"
+        "notifComplete": {
+          "order": "14"
+        },
+        "notificationDescription": {
+          "order": "7"
         },
         "owner": {
           "invisible": false,
-          "order": "4"
-        },
-        "pitch": {
-          "order": "11"
-        },
-        "pitchCard": {
-          "order": "19"
-        },
-        "red": {
-          "order": "27"
-        },
-        "rejected": {
-          "order": "28"
-        },
-        "responseOpened": {
-          "order": "22"
-        },
-        "sDate": {
-          "order": "25"
-        },
-        "sME": {
-          "order": "9"
-        },
-        "sMECard": {
           "order": "20"
         },
+        "pitch": {
+          "order": "28"
+        },
+        "pitchCard": {
+          "order": "8"
+        },
+        "red": {
+          "order": "18"
+        },
+        "rejected": {
+          "order": "30"
+        },
+        "responseOpened": {
+          "order": "13"
+        },
+        "sDate": {
+          "order": "4"
+        },
+        "sME": {
+          "order": "25"
+        },
+        "sMEACCEPT": {
+          "order": "27"
+        },
+        "sMECard": {
+          "order": "10"
+        },
         "sessionHappen": {
-          "order": "15"
+          "order": "5"
         },
         "sessionLength": {
           "invisible": false,
-          "order": "2"
+          "order": "9"
+        },
+        "sessionRejected": {
+          "order": "16"
         },
         "sessionReview": {
           "invisible": false,
           "order": "1"
         },
+        "sessionReviewForSME": {
+          "order": 31
+        },
         "state": {
           "invisible": true,
-          "order": "5"
+          "order": "21"
         },
         "status": {
+          "order": "29"
+        }
+      },
+      "title": "Leave SME Review"
+    },
+    "myBookedSessions": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isBooked\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Booked?\",\"hidden\":true},{\"key\":\"sessionHappen\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"Happened?\",\"hidden\":true},{\"key\":\"sME\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true},{\"key\":\"rejected\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"Rejected?\",\"hidden\":true}]}",
+      "meta": {
+        "bookASession": {
+          "order": "3"
+        },
+        "createdDate": {
+          "invisible": false,
+          "order": "19"
+        },
+        "direction": {
+          "order": "26"
+        },
+        "eDate": {
+          "order": "15"
+        },
+        "isBooked": {
+          "order": "2"
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": "22"
+        },
+        "lastEditedBy": {
+          "invisible": true,
           "order": "12"
+        },
+        "mentor": {
+          "order": "17"
+        },
+        "mentorCard": {
+          "order": "24"
+        },
+        "message": {
+          "order": "11"
+        },
+        "name": {
+          "invisible": false,
+          "order": "0"
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": "23"
+        },
+        "notes": {
+          "order": "6"
+        },
+        "notifComplete": {
+          "order": "14"
+        },
+        "notificationDescription": {
+          "order": "7"
+        },
+        "owner": {
+          "invisible": false,
+          "order": "20"
+        },
+        "pitch": {
+          "order": "28"
+        },
+        "pitchCard": {
+          "order": "8"
+        },
+        "red": {
+          "order": "18"
+        },
+        "rejected": {
+          "order": "30"
+        },
+        "responseOpened": {
+          "order": "13"
+        },
+        "sDate": {
+          "order": "4"
+        },
+        "sME": {
+          "order": "25"
+        },
+        "sMEACCEPT": {
+          "order": "27"
+        },
+        "sMECard": {
+          "order": "10"
+        },
+        "sessionHappen": {
+          "order": "5"
+        },
+        "sessionLength": {
+          "invisible": false,
+          "order": "9"
+        },
+        "sessionRejected": {
+          "order": "16"
+        },
+        "sessionReview": {
+          "invisible": false,
+          "order": "1"
+        },
+        "sessionReviewForSME": {
+          "order": 31
+        },
+        "state": {
+          "invisible": true,
+          "order": "21"
+        },
+        "status": {
+          "order": "29"
         }
       },
       "title": "My Booked Sessions"
     },
     "myBookedSessionsMentor": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isBooked\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Booked?\",\"hidden\":true},{\"key\":\"sessionHappen\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"Happened?\",\"hidden\":true},{\"key\":\"mentor\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"Mentor\",\"expression\":true,\"hidden\":true},{\"key\":\"startDate\",\"operator\":\"date\",\"value\":null,\"name\":\"Before Start Date\",\"hidden\":true}]}",
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isBooked\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Booked?\",\"hidden\":true},{\"key\":\"sessionHappen\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"Happened?\",\"hidden\":true},{\"key\":\"mentor\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"Mentor\",\"expression\":true,\"hidden\":true},{\"key\":\"rejected\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"Rejected?\",\"hidden\":true}]}",
       "meta": {
         "bookASession": {
-          "order": "14"
+          "order": "3"
         },
         "createdDate": {
           "invisible": false,
-          "order": "3"
+          "order": "19"
         },
         "direction": {
-          "order": 29
-        },
-        "eDate": {
           "order": "26"
         },
+        "eDate": {
+          "order": "15"
+        },
         "isBooked": {
-          "order": "13"
+          "order": "2"
         },
         "lastEditDate": {
           "invisible": true,
-          "order": "8"
+          "order": "22"
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "7"
+          "order": "12"
         },
         "mentor": {
-          "order": "10"
+          "order": "17"
         },
         "mentorCard": {
-          "order": "18"
+          "order": "24"
         },
         "message": {
-          "order": "21"
+          "order": "11"
         },
         "name": {
           "invisible": false,
@@ -1805,65 +2029,71 @@
         },
         "nextEvents": {
           "invisible": true,
-          "order": "6"
-        },
-        "notes": {
-          "order": "16"
-        },
-        "notifComplete": {
           "order": "23"
         },
-        "notificationDescription": {
-          "order": "17"
+        "notes": {
+          "order": "6"
         },
-        "notifyMentor": {
-          "order": "24"
+        "notifComplete": {
+          "order": "14"
+        },
+        "notificationDescription": {
+          "order": "7"
         },
         "owner": {
           "invisible": false,
-          "order": "4"
-        },
-        "pitch": {
-          "order": "11"
-        },
-        "pitchCard": {
-          "order": "19"
-        },
-        "red": {
-          "order": "27"
-        },
-        "rejected": {
-          "order": "28"
-        },
-        "responseOpened": {
-          "order": "22"
-        },
-        "sDate": {
-          "order": "25"
-        },
-        "sME": {
-          "order": "9"
-        },
-        "sMECard": {
           "order": "20"
         },
+        "pitch": {
+          "order": "28"
+        },
+        "pitchCard": {
+          "order": "8"
+        },
+        "red": {
+          "order": "18"
+        },
+        "rejected": {
+          "order": "30"
+        },
+        "responseOpened": {
+          "order": "13"
+        },
+        "sDate": {
+          "order": "4"
+        },
+        "sME": {
+          "order": "25"
+        },
+        "sMEACCEPT": {
+          "order": "27"
+        },
+        "sMECard": {
+          "order": "10"
+        },
         "sessionHappen": {
-          "order": "15"
+          "order": "5"
         },
         "sessionLength": {
           "invisible": false,
-          "order": "2"
+          "order": "9"
+        },
+        "sessionRejected": {
+          "order": "16"
         },
         "sessionReview": {
           "invisible": false,
           "order": "1"
         },
+        "sessionReviewForSME": {
+          "order": 31
+        },
         "state": {
           "invisible": true,
-          "order": "5"
+          "order": "21"
         },
         "status": {
-          "order": "12"
+          "order": "29"
         }
       },
       "title": "My Booked Sessions Mentor"

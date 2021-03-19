@@ -132,8 +132,8 @@
               <div class="row">
                 <div class="column col-lg-8 col-sm-4 col-4">
                   <p v-if="row.productGrowthOtherIndustries" class="h4 font-weight-bold"> What other industries can the product or solution add value to? </p>
-                  <span style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 14px;" v-for="item in row.$productGrowthOtherIndustries$display">
-                    <div class="rectangle" style="background-color: #dfe3eb; padding: 5px; border-radius: 6px; width: 250px; margin: 10px;">
+                  <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$productGrowthOtherIndustries$display">
+                    <div class="rectangle" style="padding: 5px; border-radius: 6px; width: 250px; margin: 10px;">
                       {{item}}
                     </div>
                   </span>
@@ -228,8 +228,8 @@
                 <div class="column col-lg-4 col-sm-4 col-4">
                   <p v-if="row.targetInvestorsForDealMarketing" class="h4 font-weight-bold"> Target Investors for Deal Marketing
                   </p>
-                  <span style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 14px;" v-for="item in row.$targetInvestorsForDealMarketing$display">
-                    <div class="rectangle" style="background-color: #dfe3eb; padding: 5px; border-radius: 6px; width:70%; margin: 10px;">
+                  <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$targetInvestorsForDealMarketing$display">
+                    <div class="rectangle" style="padding: 5px; border-radius: 6px; width:70%; margin: 10px;">
                       {{item}}
                     </div>
                   </span>
@@ -274,8 +274,8 @@
               <div class="row">
                 <div class="column col-lg-8 col-sm-4 col-4">
                   <p v-if="row.sectors" class="h4 font-weight-bold"> Target Sectors </p>
-                  <span style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 14px;" v-for="item in row.$sectors$display">
-                    <div class="rectangle" style="background-color: #dfe3eb; padding: 5px; border-radius: 6px; width:30%; margin: 10px;">
+                  <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$sectors$display">
+                    <div class="rectangle" style="padding: 5px; border-radius: 6px; width:30%; margin: 10px;">
                       {{item}}
                     </div>
                   </span>
@@ -285,8 +285,8 @@
               <div class="row">
                 <div class="column col-lg-8 col-sm-4 col-4">
                   <p v-if="row.skills" class="h4 font-weight-bold"> Target Skills </p>
-                  <span style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 14px;" v-for="item in row.$skills$display">
-                    <div class="rectangle" style="background-color: #dfe3eb; padding: 5px; border-radius: 6px; width:30%; margin: 10px;">
+                  <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$skills$display">
+                    <div class="rectangle" style="padding: 5px; border-radius: 6px; width:30%; margin: 10px;">
                       {{item}}
                     </div>
                   </span>
@@ -300,8 +300,8 @@
               <div class="row">
                 <div class="column col-lg-4 col-sm-4 col-4">
                   <p class="h4 font-weight-bold"> HR Requirements </p>
-                  <span style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 14px; " v-for="req in filterBy($getGrid('hRRequirementsTable'), row.rowKey,  'slingshotPitches') ">
-                    <div class="rectangle" style="background-color: #dfe3eb; padding: 5px; border-radius: 6px; width:auto; margin: 10px; ">
+                  <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px; " v-for="req in filterBy($getGrid('hRRequirementsTable'), row.rowKey,  'slingshotPitches') ">
+                    <div class="rectangle" style="padding: 5px; border-radius: 6px; width:auto; margin: 10px; ">
                       {{req.name}} - {{req.$requirementType$display}}
                     </div>
                   </span>
@@ -371,8 +371,8 @@
               <div class="row">
                 <div class="column col-lg-6 col-sm-6 col-6">
                   <p class="h4 font-weight-bold"> Team Members</p>
-                  <span style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 14px; " v-for="member in filterBy($getGrid('teamMembersTable'), row.rowKey, 'slingshotPitches') ">
-                    <div class="rectangle" style="background-color: #dfe3eb; padding: 5px; border-radius: 6px; width:auto; margin: 10px; ">
+                  <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px; " v-for="member in filterBy($getGrid('teamMembersTable'), row.rowKey, 'slingshotPitches') ">
+                    <div class="rectangle" style="padding: 5px; border-radius: 6px; width:auto; margin: 10px; ">
                       <img :src="member.$profilePitcture$display" style="border-radius: 15px; vertical-align:middle; max-width:100px  " />
                       {{member.name}}
                       {{member.secondName}}
@@ -394,8 +394,8 @@
                     <b-card-text>{{row.cornerstoneInvestorContactDetails}}</b-card-text>
                   </p>
                   <p class="h4 font-weight-bold"> References</p>
-                  <span style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 14px; " v-for="member in filterBy($getGrid('references'), row.rowKey, 'slingshotPitch') ">
-                    <div class="rectangle" style="background-color: #dfe3eb; padding: 5px; border-radius: 6px; width:auto; margin: 10px; ">
+                  <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px; " v-for="member in filterBy($getGrid('references'), row.rowKey, 'slingshotPitch') ">
+                    <div class="rectangle" style="padding: 5px; border-radius: 6px; width:auto; margin: 10px; ">
                       <img :src="member.$profilePitcture$display" style="border-radius: 15px; vertical-align:middle; max-width:100px  " />
                       {{member.name}}
                       {{member.mobileNumber}}

@@ -1,0 +1,86 @@
+/* Dropup Button */
+.dbtn {
+ width: 100%;
+
+ border: none;
+     font-family: 'Grenette pro', sans-serif;
+    color: #000;
+    font-size: 1.2em;
+    line-height: 1;
+    text-align: center;
+    position: relative;
+    outline: none;
+}
+
+
+
+.dropup{
+  position: relative;
+  width: 100%;
+  outline: none;
+}
+
+.dropup button {
+  background: none;
+  outline: none;
+}
+
+/* The container <div> - needed to position the dropup content */
+
+/* Dropup content (Hidden by Default) */
+.dropup-content {
+  width: calc(100% + 2px);
+  display: none;
+  position: absolute;
+  bottom: 25px;
+  left: -1px;
+  background-color: #fffaf3;
+  z-index: 1;
+}
+
+/* Links inside the dropup */
+.dropup-content .bl {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  height: 40px;
+    border-bottom: 1px solid #000;
+        font-family: 'Grenette pro', sans-serif;
+  text-align: center;
+      font-size: 1.2em;
+
+
+}
+
+.dropup-content .l {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  height: 40px;
+          font-family: 'Grenette pro', sans-serif;
+  text-align: center;
+      font-size: 1.2em;
+}
+
+/* Change color of dropup links on hover */
+.dropup-content a:hover {
+  
+          background-color: #ef4437;
+}
+
+/* Show the dropup menu on hover */
+.mentorAndSession:hover .dropup-content {
+  display: block;
+      border-top: 1px solid #000;
+      border-left: 1px solid #000;
+            border-right: 1px solid #000;
+
+
+}
+
+
+
+
+

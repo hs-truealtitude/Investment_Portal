@@ -44,7 +44,8 @@
         <button style="font-family: 'Grenette pro', sans-serif; font-size: 15px;" class="myButton" 
         @click='$setUser("filterSME",row.sME);
           $setUser("filterPitch",row.pitch);
-          $setUser("filterMentor", row.mentor);        
+          $setUser("filterMentor", row.mentor);    
+          $setUser("sessionDirection", "Mentor->SME");     
           openDetail(row.rowKey)'>
         Engagement Schedule
         </button>

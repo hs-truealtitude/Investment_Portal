@@ -4,19 +4,19 @@
   "columnMinWidth": "350",
   "dataSource": "sessions",
   "gsOptions": {
-    "h": 9,
+    "h": 8,
     "w": 22,
     "x": 1,
-    "y": 3
+    "y": 4
   },
   "offSet": 0,
-  "overflow": "",
+  "overflow": "height:auto",
   "perPage": 2,
   "styles": "",
-  "subtab": "-MPe1UmfUG2Oh10CnZjs",
+  "subtab": "-MW45ehLM2LrwcrP_xZ7",
   "tab": "-MJq8S1suwASZ84EkCd5",
   "title": "My Booked Sessions",
   "type": "card-list",
-  "viewOfGrid": "myBookedSessionsMentor",
+  "viewOfGrid": "myBookedSessions",
   "widthType": "minAndMaxWidth"
 }
