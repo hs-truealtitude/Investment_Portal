@@ -1,6 +1,6 @@
 {
   "displayColumn": "name",
-  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Direction\",\"hidden\":false}]}",
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Direction\",\"hidden\":false},{\"key\":\"pitch\",\"operator\":\"=\",\"value\":null,\"name\":\"Pitch\",\"hidden\":false}]}",
   "isReactive": true,
   "meta": {
     "applicationStatus": {
@@ -12,6 +12,7 @@
     },
     "applicationSubmit": {
       "displayName": "",
+      "invisible": true,
       "order": "2",
       "startTitle": "Submit",
       "type": "workflow",
@@ -19,18 +20,20 @@
     },
     "approved": {
       "displayName": "Approved",
-      "order": 25,
+      "invisible": false,
+      "order": "25",
       "type": "custom"
     },
     "createdBy": {
       "displayName": "Created By",
-      "order": "9",
+      "invisible": false,
+      "order": "10",
       "type": "user"
     },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": false,
-      "order": "7",
+      "order": "8",
       "type": "date"
     },
     "investor": {
@@ -42,41 +45,45 @@
     },
     "investorCard": {
       "displayName": "Investor Card",
-      "order": 20,
+      "invisible": true,
+      "order": "20",
       "type": "custom"
     },
     "isComplete": {
       "displayName": "isComplete",
-      "order": "10",
+      "invisible": false,
+      "order": "11",
       "type": "checkbox"
     },
     "lastEditDate": {
       "displayName": "Last edit date",
       "invisible": false,
-      "order": "8",
+      "order": "9",
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
       "invisible": true,
-      "order": "15",
+      "order": "16",
       "type": "user"
     },
     "mentor": {
       "displayName": "Mentor",
       "invisible": false,
       "lookUpTable": "mentors",
-      "order": "4",
+      "order": "5",
       "type": "lookup"
     },
     "mentorCard": {
       "displayName": "Mentor Card",
-      "order": 22,
+      "invisible": true,
+      "order": "22",
       "type": "custom"
     },
     "messageDisplay": {
       "displayName": "Message",
-      "order": 21,
+      "invisible": false,
+      "order": "21",
       "type": "custom"
     },
     "name": {
@@ -87,18 +94,20 @@
     },
     "nextEvents": {
       "displayName": "Next Events",
-      "order": "12",
+      "invisible": false,
+      "order": "13",
       "type": "string"
     },
     "notificationDescription": {
       "displayName": "Notification Description",
-      "order": "6",
+      "invisible": false,
+      "order": "7",
       "type": "string"
     },
     "owner": {
       "displayName": "Owner",
       "invisible": false,
-      "order": "11",
+      "order": "12",
       "type": "user"
     },
     "pitch": {
@@ -106,57 +115,64 @@
       "filterCode": "return row.sME == rowData.sME",
       "invisible": false,
       "lookUpTable": "slingshotPitches",
-      "order": "16",
+      "order": "4",
       "type": "lookup"
     },
     "pitchCard": {
       "displayName": "Company Card",
-      "order": 19,
+      "invisible": true,
+      "order": "19",
       "type": "custom"
     },
     "referralTypeMentor": {
       "displayName": "Referral Type",
+      "invisible": false,
       "lookUpTable": "referralType",
       "order": "17",
       "type": "lookup"
     },
     "referralTypeSME": {
       "displayName": "Referral Type",
+      "invisible": false,
       "lookUpTable": "referralTypeSME",
       "order": "18",
       "type": "lookup"
     },
     "rejected": {
       "displayName": "Rejected",
-      "order": 26,
+      "invisible": false,
+      "order": "26",
       "type": "custom"
     },
     "responseOpened": {
       "displayName": "responseOpened",
-      "order": 24,
+      "invisible": false,
+      "order": "24",
       "type": "checkbox"
     },
     "sME": {
       "displayName": "SME",
       "invisible": false,
       "lookUpTable": "sMEProfiles",
-      "order": "5",
+      "order": "6",
       "type": "lookup"
     },
     "sMECard": {
       "displayName": "SME Card",
-      "order": 23,
+      "invisible": true,
+      "order": "23",
       "type": "custom"
     },
     "sentMessage": {
       "displayName": "Sent Message",
-      "invisible": false,
-      "order": "14",
+      "invisible": true,
+      "order": "15",
       "type": "custom"
     },
     "state": {
       "displayName": "State",
-      "order": "13",
+      "invisible": false,
+      "order": "14",
       "type": "string"
     }
   },

@@ -114,3 +114,14 @@ header{
         color:#000000 !important;
 
 }
+
+.input-group-append button{
+        display: none !important;
+}
+
+.flatpickr-calendar.hasTime.animate.showTimeInput.open.arrowBottom{
+                background-color: #fffaf3;
+	border:1px solid #000000 !important;
+        font-family: 'Grenette pro', sans-serif !important;
+
+}

@@ -9,7 +9,7 @@
   "overflow": "height: auto",
   "props": {
     "gridId": "programmePartnerProfiles",
-    "view": "isApproved"
+    "view": "pPApproval"
   },
   "subtab": "-MSSGHFX-vR4Au5gFDVQ",
   "tab": "-MKUwx1XmgWmAYvLK_wz",

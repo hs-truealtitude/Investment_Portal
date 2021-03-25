@@ -71,31 +71,9 @@
 .notifications .fa {
     color:black;
 }
-.notifications .num {
-
-    top:3px;
-    right:0px;
-    width:20px;
-    height:20px;
-    color:rgb(0, 0, 0);
-    line-height:25px;
-    font-family: 'Grenette pro', sans-serif;
-    text-align:center;
-        
-    display: none !important;
 
 
-}
-.notifications:hover .num {
-    background:transparent;
-    color:#fff;
-    font-size:24px;
-    top:40px;
-}
 
-.notifications:hover .num:after {
-    content:' Notifications';
-}
 .notifications ul {
     left:0;
     top:0;
@@ -149,4 +127,32 @@ ul li:last-child {
     
 }
 
+#notifc{
 
+    display: none;
+    text-align: center;
+    width: 130px;
+    padding: 10px;
+    font-family: 'Grenette pro', sans-serif;
+    color:black;
+    font-weight: bold;
+
+}
+
+
+#hovernotif:hover #notifc {
+	display: block;
+}
+
+
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: #ef4437;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 5px;
+    right:5px;
+
+}

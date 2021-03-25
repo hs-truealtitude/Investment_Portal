@@ -384,7 +384,8 @@
                 "gridId": "investorProfiles",
                 "invisible": null,
                 "invisibleInDataGrid": null,
-                "invisibleLabel": null
+                "invisibleLabel": null,
+                "mask": "99999999999"
               },
               {
                 "type": "multiline_text",
@@ -846,13 +847,13 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.7027456763520652
+    "_uniqueId": 0.09831419301101563
   },
   "source": "investorProfiles",
   "storageType": "dashboard",
   "title": "Investor Profiles",
   "views": {
-    "isApproved": {
+    "investorApproval": {
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"IsApproved\",\"hidden\":true}]}",
       "meta": {
         "address": {
@@ -923,7 +924,7 @@
           "order": 16
         }
       },
-      "title": "isApproved"
+      "title": "Investor Approval"
     },
     "myProfile": {
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"owner\",\"operator\":\"=\",\"value\":\"fbUser.uid\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true}]}",

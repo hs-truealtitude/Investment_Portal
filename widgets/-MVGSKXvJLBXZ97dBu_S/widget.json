@@ -1,10 +1,10 @@
 {
   "classes": "",
   "gsOptions": {
-    "h": 14,
+    "h": 12,
     "w": 24,
     "x": 0,
-    "y": 0
+    "y": 3
   },
   "offSet": 0,
   "overflow": "overflow:hidden",

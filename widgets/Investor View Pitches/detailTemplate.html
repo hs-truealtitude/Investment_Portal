@@ -220,7 +220,7 @@
                 <div class="column col-lg-4 col-sm-4 col-4">
                   <p v-if="row.investmentType" class="h4 font-weight-bold"> Investment Type </p>
                   <span style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 14px;">
-                    <div class="rectangle" style="background-color:#f59595; padding: 5px; border-radius: 6px; width:70%; margin: 10px;">
+                    <div class="rectangle" v-if="row.investmentType" style="background-color:#f59595; padding: 5px; border-radius: 6px; width:70%; margin: 10px;">
                       {{row.$investmentType$display}}
                     </div>
                   </span>
@@ -376,7 +376,8 @@
                       <img :src="member.$profilePitcture$display" style="border-radius: 15px; vertical-align:middle; max-width:100px  " />
                       {{member.name}}
                       {{member.secondName}}
-                      - {{member.$jobRole$display}}
+                      <span v-if="member.$jobRole$display"> - </span>
+                      {{member.$jobRole$display}}
                       <a :href="member.linkedin" target="_blank">
                         <i v-if="member.linkedin" style="padding: 5px; float: right;" class="fab fa-linkedin"></i>
                       </a>
@@ -405,6 +406,34 @@
                 </div>
               </div>
             </div>
+          </b-tab>
+
+          <b-tab title="Mentors Involved" :title-link-class="'tab-title-class'">
+            <div class="row" style ="padding-top: 10px;">
+              <div class="column col-lg-8 col-sm-8 col-8">
+                <p class="h4 font-weight-bold" style="font-size: 17px;font-family: 'Grenette pro', sans-serif; color: black"> Mentors </p>
+              </div>
+            </div>
+
+            <span
+              style=" 
+                font-family: 'Grenette pro', sans-serif;
+                color: #ef4437;
+                font-size: 1em;
+                font-weight: 400;
+              "
+              v-for="mentor in filterPitchMentors(row.rowKey)"
+              :key="mentor.rowKey"
+            > 
+              
+              <div style="padding-left: 20px;">
+                <img :src="$getDashboardModel('mentors')[mentor.mentor].$profileImage$display" style="border-radius: 15px; max-width:90px; padding: 5px; vertical-align:middle; " /></img>
+                <span style="vertical-align:middle; ">{{mentor.$mentor.name}} {{mentor.$mentor.secondName}}</span>
+              </div>
+              
+
+              
+            </span>
           </b-tab>
 
         </b-tabs>

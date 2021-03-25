@@ -2,7 +2,7 @@
   "classes": "noscroll",
   "columnCount": 3,
   "columnMaxWidth": "370",
-  "columnMinWidth": "350",
+  "columnMinWidth": "370",
   "dataSource": "slingshotPitches",
   "gsOptions": {
     "h": 37,

@@ -9,7 +9,8 @@
   "layout": "b-card",
   "overflow": "height: auto",
   "props": {
-    "gridId": "investorProfiles"
+    "gridId": "investorProfiles",
+    "view": "myProfile"
   },
   "subtab": "-MRUpLx2c8TPDgA8F6Bf",
   "tab": "-MRUkGcjzCn_tLNtnbcx",

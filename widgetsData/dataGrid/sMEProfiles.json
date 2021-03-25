@@ -377,7 +377,8 @@
                 "vif": "",
                 "customCode": "",
                 "propName": "phoneNumber",
-                "gridId": "sMEProfiles"
+                "gridId": "sMEProfiles",
+                "mask": "99999999999"
               },
               {
                 "type": "multiline_text",
@@ -818,85 +819,12 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.6797632278936672
+    "_uniqueId": 0.0786586859154228
   },
   "source": "sMEProfiles",
   "storageType": "dashboard",
   "title": "SME - Profiles",
   "views": {
-    "isApproved": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"IsApproved\",\"hidden\":true}]}",
-      "meta": {
-        "address": {
-          "invisible": false,
-          "order": "14"
-        },
-        "createdDate": {
-          "invisible": false,
-          "order": "8"
-        },
-        "dateOfBirth": {
-          "invisible": false,
-          "order": "10"
-        },
-        "isApproved": {
-          "invisible": false,
-          "order": "0"
-        },
-        "lastEditDate": {
-          "invisible": false,
-          "order": "9"
-        },
-        "lastEditedBy": {
-          "invisible": false,
-          "order": "4"
-        },
-        "linkedInProfileLink": {
-          "invisible": false,
-          "order": "12"
-        },
-        "location": {
-          "invisible": false,
-          "order": "5"
-        },
-        "name": {
-          "invisible": false,
-          "order": "1"
-        },
-        "nextEvents": {
-          "invisible": true,
-          "order": "3"
-        },
-        "owner": {
-          "invisible": false,
-          "order": "15"
-        },
-        "phoneNumber": {
-          "invisible": false,
-          "order": "13"
-        },
-        "profileImage": {
-          "invisible": false,
-          "order": "6"
-        },
-        "secondName": {
-          "invisible": false,
-          "order": "11"
-        },
-        "state": {
-          "invisible": true,
-          "order": "2"
-        },
-        "submit": {
-          "invisible": true,
-          "order": "7"
-        },
-        "user": {
-          "order": 16
-        }
-      },
-      "title": "isApproved"
-    },
     "myProfile": {
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"owner\",\"operator\":\"=\",\"value\":\"fbUser.uid\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true}]}",
       "meta": {
@@ -969,6 +897,79 @@
         }
       },
       "title": "My Profile"
+    },
+    "sMEApproval": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"IsApproved\",\"hidden\":true}]}",
+      "meta": {
+        "address": {
+          "invisible": false,
+          "order": "14"
+        },
+        "createdDate": {
+          "invisible": false,
+          "order": "8"
+        },
+        "dateOfBirth": {
+          "invisible": false,
+          "order": "10"
+        },
+        "isApproved": {
+          "invisible": false,
+          "order": "0"
+        },
+        "lastEditDate": {
+          "invisible": false,
+          "order": "9"
+        },
+        "lastEditedBy": {
+          "invisible": false,
+          "order": "4"
+        },
+        "linkedInProfileLink": {
+          "invisible": false,
+          "order": "12"
+        },
+        "location": {
+          "invisible": false,
+          "order": "5"
+        },
+        "name": {
+          "invisible": false,
+          "order": "1"
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": "3"
+        },
+        "owner": {
+          "invisible": false,
+          "order": "15"
+        },
+        "phoneNumber": {
+          "invisible": false,
+          "order": "13"
+        },
+        "profileImage": {
+          "invisible": false,
+          "order": "6"
+        },
+        "secondName": {
+          "invisible": false,
+          "order": "11"
+        },
+        "state": {
+          "invisible": true,
+          "order": "2"
+        },
+        "submit": {
+          "invisible": true,
+          "order": "7"
+        },
+        "user": {
+          "order": 16
+        }
+      },
+      "title": "SME Approval"
     }
   }
 }

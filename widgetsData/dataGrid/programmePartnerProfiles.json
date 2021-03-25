@@ -372,7 +372,8 @@
                 "vif": "",
                 "customCode": "",
                 "propName": "phoneNumber",
-                "gridId": "programmePartnerProfiles"
+                "gridId": "programmePartnerProfiles",
+                "mask": "99999999999"
               },
               {
                 "type": "multiline_text",
@@ -769,82 +770,12 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.3361932767701905
+    "_uniqueId": 0.3218726600645754
   },
   "source": "programmePartnerProfiles",
   "storageType": "dashboard",
   "title": "Programme Partner - Profiles",
   "views": {
-    "isApproved": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"IsApproved\",\"hidden\":true}]}",
-      "meta": {
-        "address": {
-          "invisible": false,
-          "order": "13"
-        },
-        "createdDate": {
-          "invisible": false,
-          "order": "8"
-        },
-        "dateOfBirth": {
-          "invisible": false,
-          "order": "9"
-        },
-        "isApproved": {
-          "invisible": false,
-          "order": "0"
-        },
-        "lastEditDate": {
-          "invisible": false,
-          "order": "4"
-        },
-        "lastEditedBy": {
-          "invisible": false,
-          "order": "3"
-        },
-        "linkedInProfileLink": {
-          "invisible": false,
-          "order": "11"
-        },
-        "location": {
-          "invisible": false,
-          "order": "6"
-        },
-        "name": {
-          "invisible": false,
-          "order": "1"
-        },
-        "nextEvents": {
-          "invisible": true,
-          "order": "2"
-        },
-        "owner": {
-          "invisible": false,
-          "order": "14"
-        },
-        "phoneNumber": {
-          "invisible": false,
-          "order": "12"
-        },
-        "profileImage": {
-          "invisible": false,
-          "order": "5"
-        },
-        "secondName": {
-          "invisible": false,
-          "order": "10"
-        },
-        "state": {
-          "invisible": true,
-          "order": "15"
-        },
-        "submit": {
-          "invisible": false,
-          "order": "7"
-        }
-      },
-      "title": "isApproved"
-    },
     "myProfile": {
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"owner\",\"operator\":\"=\",\"value\":\"fbUser.uid\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true}]}",
       "meta": {
@@ -914,6 +845,76 @@
         }
       },
       "title": "My Profile"
+    },
+    "pPApproval": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"IsApproved\",\"hidden\":true}]}",
+      "meta": {
+        "address": {
+          "invisible": false,
+          "order": "13"
+        },
+        "createdDate": {
+          "invisible": false,
+          "order": "8"
+        },
+        "dateOfBirth": {
+          "invisible": false,
+          "order": "9"
+        },
+        "isApproved": {
+          "invisible": false,
+          "order": "0"
+        },
+        "lastEditDate": {
+          "invisible": false,
+          "order": "4"
+        },
+        "lastEditedBy": {
+          "invisible": false,
+          "order": "3"
+        },
+        "linkedInProfileLink": {
+          "invisible": false,
+          "order": "11"
+        },
+        "location": {
+          "invisible": false,
+          "order": "6"
+        },
+        "name": {
+          "invisible": false,
+          "order": "1"
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": "2"
+        },
+        "owner": {
+          "invisible": false,
+          "order": "14"
+        },
+        "phoneNumber": {
+          "invisible": false,
+          "order": "12"
+        },
+        "profileImage": {
+          "invisible": false,
+          "order": "5"
+        },
+        "secondName": {
+          "invisible": false,
+          "order": "10"
+        },
+        "state": {
+          "invisible": true,
+          "order": "15"
+        },
+        "submit": {
+          "invisible": false,
+          "order": "7"
+        }
+      },
+      "title": "PP Approval"
     }
   }
 }

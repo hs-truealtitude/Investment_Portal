@@ -9,7 +9,7 @@
   "overflow": "height: auto",
   "props": {
     "gridId": "investorProfiles",
-    "view": "isApproved"
+    "view": "investorApproval"
   },
   "subtab": "-MSSGBoDqOdUXq8acqFc",
   "tab": "-MKUwx1XmgWmAYvLK_wz",

@@ -9,8 +9,7 @@
   "layout": "b-card",
   "overflow": "height: auto",
   "props": {
-    "gridId": "slingshotPitches",
-    "view": "adminView"
+    "gridId": "slingshotPitches"
   },
   "subtab": "-MKjPc0h4zi-RTpRfuBW",
   "tab": "-MKjLdl6pSat-QkUaIYU",

@@ -1,8 +1,8 @@
 <div v-if='row.$pitch' class="card-body">
-  <h2>{{row.name}}</h2>
-  <p>{{row.$pitch.name}}</p>
-  <p>£{{row.value |  numeralFormat('0,0') }}</p>
-  <p>{{row.$startDate$Date}}</p>
-  <p>{{row.$endDate$Date}}</p>
-  <p></p>
+  <h2 style="color:black; font-family: 'Grenette pro', sans-serif !important;">{{row.name}}</h2>
+  <p style="color:black; font-family: 'Grenette pro', sans-serif !important;">{{row.$pitch.name}}</p>
+  <p style="color:black; font-family: 'Grenette pro', sans-serif !important;">£{{row.value |  numeralFormat('0,0') }}</p>
+  <p style="color:black; font-family: 'Grenette pro', sans-serif !important;">Start Date: {{row.$startDate$Date}}</p>
+  <p style="color:black; font-family: 'Grenette pro', sans-serif !important;">End Date: {{row.$endDate$Date}}</p>
+  <p ></p>
 </div>

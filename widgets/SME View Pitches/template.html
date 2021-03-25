@@ -10,8 +10,9 @@
       <small id="about" class="h4 font-weight-light text-muted"></small>
     </h5>
 
-    <p v-if="row.aboutTheCompany" class="h4 font-weight-light" style="height: 120px; padding-bottom: 30px; font-family: 'Grenette pro', sans-serif; color:black;">{{truncateText(row.aboutTheCompany,200)}}</p>
-
+    <div style="height: 120px;">
+      <p v-if="row.aboutTheCompany" class="h4 font-weight-light" style="padding-bottom: 30px; font-family: 'Grenette pro', sans-serif; color:black;">{{truncateText(row.aboutTheCompany,200)}}</p>
+    </div>
 
     <div style="height: 100px; padding-bottom: 10px;">
       <p class="h4 font-weight-bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Team Members: </p>

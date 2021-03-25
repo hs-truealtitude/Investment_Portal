@@ -16,7 +16,9 @@
 
   <div class="pt-4 text-center">
     <h5 class="h3 title">
-      <span class="d-block mb-1" style="font-family: 'Grenette pro', sans-serif; font-size: 20px; color:black;">{{row.name}}</span>
+      <span class="d-block mb-1" style="font-family: 'Grenette pro', sans-serif; font-size: 20px; color:black; padding-left: 20px;">{{row.name}}
+        <i v-if="row.$access$display == 'Public'" style="color:green; margin-left: 10px;" class="fas fa-check"></i>
+      </span>
       <small id="about" class="h4 font-weight-light text-muted"></small>
     </h5>
 

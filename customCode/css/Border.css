@@ -388,6 +388,17 @@ position: relative;
     cursor: pointer;
 }
 
+.nav-logo.right.ui.notif:hover {
+        background-color: #ef4437;
+    cursor: pointer;
+}
+
+.box{
+     margin-left: auto; margin-right: 0;
+         content: "Notification ";
+
+} 
+
 
 
 .nav-logo-text{

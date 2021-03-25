@@ -211,7 +211,7 @@
                 <div class="column col-lg-4 col-sm-4 col-4">
                   <p v-if="row.targetInvestorsForDealMarketing" class="h4 font-weight-bold"> Target Investors for Deal Marketing
                   </p>
-                 <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 16px;" v-for="item in row.$targetInvestorsForDealMarketing$display">
+                  <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 16px;" v-for="item in row.$targetInvestorsForDealMarketing$display">
                     <div class="rectangle" style="padding: 5px; border-radius: 6px; width:70%; margin: 10px;">
                       {{item}}
                     </div>
@@ -388,6 +388,34 @@
                 </div>
               </div>
             </div>
+          </b-tab>
+
+                   <b-tab title="Mentors Involved" :title-link-class="'tab-title-class'">
+            <div class="row" style ="padding-top: 10px;">
+              <div class="column col-lg-8 col-sm-8 col-8">
+                <p class="h4 font-weight-bold" style="font-size: 17px;font-family: 'Grenette pro', sans-serif; color: black"> Mentors </p>
+              </div>
+            </div>
+
+            <span
+              style=" 
+                font-family: 'Grenette pro', sans-serif;
+                color: #ef4437;
+                font-size: 1em;
+                font-weight: 400;
+              "
+              v-for="mentor in filterPitchMentors(row.rowKey)"
+              :key="mentor.rowKey"
+            > 
+              
+              <div style="padding-left: 20px;">
+                <img :src="$getDashboardModel('mentors')[mentor.mentor].$profileImage$display" style="border-radius: 15px; max-width:90px; padding: 5px; vertical-align:middle; " /></img>
+                <span style="vertical-align:middle; ">{{mentor.$mentor.name}} {{mentor.$mentor.secondName}}</span>
+              </div>
+              
+
+              
+            </span>
           </b-tab>
 
         </b-tabs>

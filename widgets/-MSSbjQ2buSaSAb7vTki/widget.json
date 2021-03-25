@@ -9,7 +9,7 @@
   "overflow": "height: auto",
   "props": {
     "gridId": "sMEProfiles",
-    "view": "isApproved"
+    "view": "sMEApproval"
   },
   "subtab": "-MSSGDpHjJs8sZRFptJ2",
   "tab": "-MKUwx1XmgWmAYvLK_wz",

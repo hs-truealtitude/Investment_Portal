@@ -112,3 +112,8 @@ background-size: cover;
 
 }
 
+.authForm .form-group input {
+
+    color: black !important;
+
+}

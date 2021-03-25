@@ -442,7 +442,8 @@
                 "customCode": "",
                 "propName": "phoneNumber",
                 "gridId": "mentors",
-                "invisibleInDataGrid": true
+                "invisibleInDataGrid": true,
+                "mask": "99999999999"
               },
               {
                 "type": "text",
@@ -961,7 +962,8 @@
                 "propName": "mainSkills",
                 "ableToAddLookUpVal": true,
                 "gridId": "mentors",
-                "description": "Please select THREE main skills you'd like to show on your profile"
+                "description": "Please select THREE main skills you'd like to show on your profile",
+                "itemsLimit": "3"
               },
               {
                 "type": "multi_lookup",
@@ -1044,7 +1046,8 @@
                 "propName": "mainSectors",
                 "ableToAddLookUpVal": true,
                 "gridId": "mentors",
-                "description": "Please select THREE main sectors you'd like to show on your profile"
+                "description": "Please select THREE main sectors you'd like to show on your profile",
+                "itemsLimit": "3"
               },
               {
                 "type": "multi_lookup",
@@ -1205,7 +1208,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.9052840018498494
+    "_uniqueId": 0.6215401694140459
   },
   "source": "mentors",
   "storageType": "dashboard",
@@ -1313,31 +1316,31 @@
       },
       "title": "Approved Mentors"
     },
-    "isApproved": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"Is Approved\",\"hidden\":true}]}",
+    "mentorApproval": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"IsApproved\",\"hidden\":true}]}",
       "meta": {
         "aboutMe": {
-          "invisible": true,
-          "order": "13"
+          "invisible": false,
+          "order": "12"
         },
         "address": {
-          "invisible": true,
-          "order": "9"
-        },
-        "companyStage": {
-          "invisible": true,
-          "order": "16"
-        },
-        "createdDate": {
-          "invisible": true,
-          "order": "14"
-        },
-        "dateOfBirth": {
-          "invisible": true,
+          "invisible": false,
           "order": "8"
         },
+        "companyStage": {
+          "invisible": false,
+          "order": "15"
+        },
+        "createdDate": {
+          "invisible": false,
+          "order": "13"
+        },
+        "dateOfBirth": {
+          "invisible": false,
+          "order": "7"
+        },
         "interests": {
-          "invisible": true,
+          "invisible": false,
           "order": "18"
         },
         "isApproved": {
@@ -1345,32 +1348,30 @@
           "order": "0"
         },
         "lastEditDate": {
-          "invisible": true,
+          "invisible": false,
           "order": "3"
         },
         "lastEditedBy": {
-          "invisible": true,
+          "invisible": false,
           "order": "2"
         },
         "linkedInProfileLink": {
-          "invisible": true,
-          "order": "11"
+          "invisible": false,
+          "order": "10"
         },
         "location": {
-          "invisible": true,
+          "invisible": false,
           "order": "19"
         },
         "mainSectors": {
-          "invisible": true,
-          "order": "23"
+          "order": 23
         },
         "mainSkills": {
-          "invisible": true,
           "order": "22"
         },
         "name": {
           "invisible": false,
-          "order": "6"
+          "order": "16"
         },
         "next": {
           "order": 24
@@ -1380,12 +1381,12 @@
           "order": "21"
         },
         "owner": {
-          "invisible": true,
-          "order": "12"
+          "invisible": false,
+          "order": "11"
         },
         "phoneNumber": {
-          "invisible": true,
-          "order": "10"
+          "invisible": false,
+          "order": "9"
         },
         "profileImage": {
           "invisible": false,
@@ -1393,14 +1394,14 @@
         },
         "secondName": {
           "invisible": false,
-          "order": "7"
+          "order": "6"
         },
         "sectors": {
-          "invisible": true,
+          "invisible": false,
           "order": "5"
         },
         "skills": {
-          "invisible": true,
+          "invisible": false,
           "order": "4"
         },
         "state": {
@@ -1412,11 +1413,10 @@
           "order": "17"
         },
         "user": {
-          "invisible": true,
-          "order": "15"
+          "order": "14"
         }
       },
-      "title": "isApproved"
+      "title": "Mentor Approval"
     },
     "myProfile": {
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"owner\",\"operator\":\"=\",\"value\":\"fbUser.uid\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true}]}",

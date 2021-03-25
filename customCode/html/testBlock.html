@@ -20,6 +20,13 @@
             Clear profile ID 
         </b-button>
     </div>
+
+    <div class="mb-2">
+        <b-button @click='$setUser("accountType", null)'>
+            Clear account type 
+        </b-button>
+    </div>
+
     <div class="mb-2">
         <b-button
             @click='$setUser("profileID", "-MRuFWlCqAaR0CJqb3ZL");$setUser("accountType", "Mentor")'
@@ -48,4 +55,6 @@
             Change to Programme Partner
         </b-button>
     </div>
+
+    
 </div>

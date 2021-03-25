@@ -11,11 +11,13 @@
     </div>
 
 <!-- NOTIFICATIONS -->
-    <div class="nav-logo right ui notif">
+    <div id="hovernotif" class="nav-logo right ui notif">
+        <span v-if="notificationCount > 0" class="dot"></span>
+        <span style="width: auto;" id="notifc" class="num">{{notificationCount}} Notification(s)</span>
         <div class="box">
             <div class="notifications">
                 <i class="fa fa-bell"></i>
-                <span class="num">{{notificationCount}}</span>
+                
                 <ul>
 
 
@@ -30,7 +32,7 @@
                     -->
                 </ul>
                 <div class="notifications__dropdown">
-                                        <!-- Notifications Sent -->
+                    <!-- Notifications Sent -->
                     <li class="icon"
                         v-for='row in notificationList'
                             @click="$dgShowEditRowModal('applications', row.rowKey);" >
@@ -92,12 +94,16 @@
         <i class="fas fa-home "></i>
         </a>
     </div>
-
-    
-    
+ 
     <div class="nav-logo right ui">
         <a @click="directAccountViewProfile()" target="_blank">
         <i class="fas fa-user"></i>
+        </a>
+    </div>
+
+    <div v-if="$root.canUpdate" class="nav-logo right ui">
+        <a @click="$setCurrentTab('-MKUwx1XmgWmAYvLK_wz')" target="_blank">
+        <i class="fas fa-database"></i>
         </a>
     </div>
 
@@ -159,7 +165,7 @@
             <a @click='$setCurrentSubTab("-MW49Z1H3IKgqYwA-yLg","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">My Booked Sessions</a>
         </div>
         <div class="nav-menu-link-box end">
-            <a @click='$setCurrentSubTab("-MW49dZ-RSTAjd_gj9HE","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">Leave Session Reviews</a>
+            <a @click='$setCurrentSubTab("-MW49dZ-RSTAjd_gj9HE","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">Leave Reviews</a>
         </div>
     </div>
 

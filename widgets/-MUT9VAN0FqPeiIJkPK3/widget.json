@@ -1,13 +1,13 @@
 {
   "classes": "",
-  "columnMaxWidth": "300",
-  "columnMinWidth": "300",
+  "columnMaxWidth": "330",
+  "columnMinWidth": "330",
   "dataSource": "slingshotPitches",
   "gsOptions": {
     "h": 10,
     "w": 19,
     "x": 3,
-    "y": 20
+    "y": 8
   },
   "hidden": true,
   "offSet": 0,
