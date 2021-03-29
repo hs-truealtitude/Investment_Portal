@@ -9,7 +9,7 @@
   "overflow": "height: auto",
   "props": {
     "gridId": "mentors",
-    "view": "mentorApproval"
+    "view": "approvedMentors"
   },
   "subtab": "-MSSGA39TgrXo61gq-zJ",
   "tab": "-MKUwx1XmgWmAYvLK_wz",

@@ -23,6 +23,11 @@ body{
 
 }
 
+.data-grid__row{
+                background-color: #fffaf3 !important;
+
+}
+
 .widgetContent button{
     	border:1px solid #000000 !important;
         color:#000000 !important;

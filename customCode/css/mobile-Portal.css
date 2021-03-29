@@ -1,0 +1,90 @@
+.nav-menu-link-box {
+    width: 300px;
+}
+
+body {
+    min-width: 600px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .nav-menu-link-box {
+        width: 150px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .nav-menu-link-box {
+        width: 100px;
+    }
+    .nav-menu-link-box {
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        min-width: 600px;
+    }
+    .nav-logo-text {
+        font-size: 12px;
+    }
+    #hovernotif {
+        position: absolute;
+        right: 206px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #hovernotif {
+        right: 137px;
+    }
+    .nav-logo.right.w-nav-brand.w--current{
+        display: none;
+    }
+
+    .nav-logo-text {
+        visibility: hidden;
+        position: relative;
+    }
+
+    .nav-logo-text:after {
+        visibility: visible;
+        position: absolute;
+        top: 2;
+        left: 0.1;
+        content: "Investment Portal";
+        font-family: 'Grenette pro', sans-serif;
+        color: #000;
+        font-size: 0.7em;
+        line-height: 1;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+    }
+
+    .nav-menu-link-box {
+        width: 14.1vw !important;
+    }
+
+    .nav-menu-link{
+        font-size: 0.7em !important;
+    }
+
+
+    .dbtn{
+        font-size: 0.7em !important;
+        line-height: 1 !important;
+    }
+
+    .center.fade-in h1{
+        font-size: 1.6em;
+    }
+
+
+    .grid-stack-item__wrapper{
+        padding-left: 13px;
+    }
+
+    .widget-card-list__item{
+        width: 300px !important;
+    }
+}

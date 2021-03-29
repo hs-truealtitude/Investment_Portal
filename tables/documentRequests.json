@@ -1,1 +1,72 @@
-{}
+{
+  "-MWiCRNgh1ZschqLFtOg": {
+    "_id": 1,
+    "createdDate": 1616756721298,
+    "group": false,
+    "lastEditDate": 1616756721298,
+    "lastEditedBy": "zRFsXLY959b5CgObvl4vESh6m2m1",
+    "nextEvents": "Approve,Reject",
+    "owner": "zRFsXLY959b5CgObvl4vESh6m2m1",
+    "rowKey": "-MWiCRNgh1ZschqLFtOg",
+    "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt",
+    "state": "Prompt for aproval"
+  },
+  "-MWiC_nlzMpak73QG9lu": {
+    "_id": 2,
+    "createdDate": 1616756759895,
+    "group": false,
+    "lastEditDate": 1616756759895,
+    "lastEditedBy": "zRFsXLY959b5CgObvl4vESh6m2m1",
+    "nextEvents": "Approve,Reject",
+    "owner": "zRFsXLY959b5CgObvl4vESh6m2m1",
+    "rowKey": "-MWiC_nlzMpak73QG9lu",
+    "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt",
+    "state": "Prompt for aproval"
+  },
+  "-MWiDIjjtNrKIvI-Lv63": {
+    "_id": 3,
+    "createdDate": 1616756948052,
+    "group": false,
+    "lastEditDate": 1616756948052,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "nextEvents": "Approve,Reject",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MWiDIjjtNrKIvI-Lv63",
+    "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt",
+    "state": "Prompt for aproval"
+  },
+  "-MWiGU2mhLLuRz1V0h_W": {
+    "_id": 4,
+    "createdDate": 1616757780823,
+    "group": false,
+    "lastEditDate": 1616757780823,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "nextEvents": "Approve,Reject",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MWiGU2mhLLuRz1V0h_W",
+    "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt",
+    "state": "Prompt for aproval"
+  },
+  "-MWiGa7EdP3_9iCsBw6L": {
+    "_id": 5,
+    "createdDate": 1616757809780,
+    "group": false,
+    "lastEditDate": 1616757809780,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MWiGa7EdP3_9iCsBw6L",
+    "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt"
+  },
+  "-MWiGjiNbj8tcpOf_8Rl": {
+    "_id": 6,
+    "createdDate": 1616757849084,
+    "group": false,
+    "lastEditDate": 1616757849084,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "nextEvents": "Approve,Reject",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MWiGjiNbj8tcpOf_8Rl",
+    "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt",
+    "state": "Prompt for aproval"
+  }
+}

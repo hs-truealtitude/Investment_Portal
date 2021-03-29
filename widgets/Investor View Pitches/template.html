@@ -1,10 +1,10 @@
 <div class="card-body">
   <div class="row" style="padding-top:5px;">
 
-    <i @click="unSavePitch(saveSlingshot(row.rowKey))" v-if="saveSlingshot(row.rowKey)" class="fas fa-star" style="color: black;">
+    <i @click="unSavePitch(saveSlingshot(row.rowKey))" v-if="saveSlingshot(row.rowKey)" class="fas fa-star fa-lg" style="color: black;">
     </i>
 
-    <i @click="saveSlingshotPitch(row.rowKey, row.$companyLogo$display)" v-if="!saveSlingshot(row.rowKey)" class="far fa-star" style="color: black;">
+    <i @click="saveSlingshotPitch(row.rowKey, row.$companyLogo$display)" v-if="!saveSlingshot(row.rowKey)" class="far fa-star fa-lg" style="color: black;">
     </i>
   </div>
   <div style="padding-top: 10px;">

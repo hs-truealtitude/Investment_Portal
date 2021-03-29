@@ -1,6 +1,7 @@
 <!-- -->
 <div v-if='row.$pitch' class="row justify-content-center">
 
+
   <img v-if='row.$sME' :src="$getDashboardModel('mentors')[row.mentor].$profileImage$display" style="border-radius: 15px; max-width:90px; padding: 5px; " />
 
   <img v-if='row.$sME' :src="$getDashboardModel('slingshotPitches')[row.pitch].$companyLogo$display" style="border-radius: 15px; max-width:90px; padding: 5px;  " />
@@ -12,6 +13,8 @@
 
 
 </div>
+
+
 <!-- -->
 
 

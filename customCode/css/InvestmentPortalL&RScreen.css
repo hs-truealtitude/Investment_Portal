@@ -1,3 +1,19 @@
+.authForm__wrapper{
+            animation: fadeIn 0.3s !important;
+
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
 .authForm__title span a{
    color: #ef4437;
        font-family: 'Grenette pro', sans-serif !important; 
@@ -93,7 +109,8 @@ button{
 }
 
 .authForm__customLogo{
-        height: 85px;
+    padding-top: 10px;
+        height: 75px;
         width: 200px;
 }
 body {
@@ -116,4 +133,10 @@ background-size: cover;
 
     color: black !important;
 
+}
+
+@media only screen and (max-width: 600px) {
+      body {
+         background-size: auto;
+        }  
 }

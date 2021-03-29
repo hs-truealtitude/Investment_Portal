@@ -1,0 +1,68 @@
+@media only screen and (max-width: 600px) {
+
+span{
+        font-size: 0.25em !important;
+}
+
+.hero-text-small {
+    color: #ef4437;
+    font-size: 0.15em !important;
+ 
+}
+
+.nav-logo-text {
+
+    font-size: 0.8em !important;
+ 
+}
+
+.logomark {
+    width: 2.2em !important;
+    height: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.nav-menu-link{
+        font-size: 0.7em !important;
+}
+
+.nav-menu-link-box {
+    width: 21.1vw !important;
+
+}
+
+label{
+        font-size: 3em !important;
+
+}
+
+.nav-item a{
+        font-size: 0.9em !important;
+}
+
+.grid-stack-item{
+   
+}
+
+.card{
+    /*width: 302px !important;*/
+
+}
+
+button{
+        font-size: 0.79rem !important;
+}
+
+.multiselect__tags span{
+        font-size: 0.79rem !important;
+
+}
+
+.multiselect__element span{
+        font-size: 0.79rem !important;
+
+}
+
+
+}
