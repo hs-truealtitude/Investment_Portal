@@ -4,7 +4,6 @@
 
  border: none;
      font-family: 'Grenette pro', sans-serif !important;
-    color: #000;
     font-size: 1.2em !important;
     line-height: 1;
     text-align: center;
@@ -33,7 +32,7 @@
   width: calc(100% + 2px);
   display: none;
   position: absolute;
-  bottom: 31px;
+  bottom: 28px;
   left: -1px;
   background-color: #fffaf3;
   z-index: 1;
@@ -46,12 +45,10 @@
   text-decoration: none;
   display: block;
   height: 50px;
-    border-bottom: 1px solid #000;
-        font-family: 'Grenette pro', sans-serif;
+  border-bottom: 1px solid #000;
+  font-family: 'Grenette pro', sans-serif;
   text-align: center;
-      font-size: 1.2em;
-
-
+  font-size: 1.2em;
 }
 
 .dropup-content .l {
@@ -60,15 +57,14 @@
   text-decoration: none;
   display: block;
   height: 50px;
-          font-family: 'Grenette pro', sans-serif;
+  font-family: 'Grenette pro', sans-serif;
   text-align: center;
-      font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 /* Change color of dropup links on hover */
 .dropup-content a:hover {
-  
-          background-color: #ef4437;
+  background-color: #ef4437;
 }
 
 
@@ -76,11 +72,17 @@
 /* Show the dropup menu on hover */
 .mentorAndSession:hover .dropup-content {
   display: block;
-      border-top: 1px solid #000;
-      border-left: 1px solid #000;
-            border-right: 1px solid #000;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
 
-
+@media only screen and (max-width: 600px) {
+  .dropup-content .bl {
+    padding: 6px 10px;
+    font-size: 0.7em ;
+    height: auto;
+  }
 }
 
 

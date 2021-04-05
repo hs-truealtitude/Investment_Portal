@@ -373,7 +373,8 @@ img {
 }
 
 .nav-logo.right.ui {
-position: relative;
+    position: relative; 
+    background-color: #fffaf3;
 
 }
 

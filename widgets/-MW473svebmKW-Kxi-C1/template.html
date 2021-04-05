@@ -23,7 +23,14 @@
       </div>
 
       <div class="row" style="justify-content:center;">
-        <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;">{{row.$sDate$display}}</small>
+        <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;">{{new Date(row.$sDate$display).toLocaleDateString("en-US", {
+          year: 'numeric',
+          month: 'numeric',
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+        }) }}
+      </small>
       </div>
 
     </h5>
@@ -32,7 +39,7 @@
     </div>
 
     <center style="padding-bottom: 20px;">
-      <b-button  class=" btn-sm" variant='primary' @click="$dgShowEditRowModal('sessions', row.rowKey);">Leave Review
+      <b-button class=" btn-sm" variant='primary' @click="$dgShowEditRowModal('sessions', row.rowKey);">Leave Review
       </b-button>
     </center>
 

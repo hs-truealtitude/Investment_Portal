@@ -5,7 +5,7 @@
     "completed": {
       "displayName": "Is the milestone completed?",
       "invisible": false,
-      "order": "3",
+      "order": "4",
       "type": "checkbox"
     },
     "createdDate": {
@@ -17,19 +17,19 @@
     "description": {
       "displayName": "Description",
       "invisible": false,
-      "order": "2",
+      "order": "3",
       "type": "string"
     },
     "lastEditDate": {
       "displayName": "Last edit date",
       "invisible": true,
-      "order": "8",
+      "order": "9",
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
       "invisible": true,
-      "order": "7",
+      "order": "8",
       "type": "user"
     },
     "name": {
@@ -41,32 +41,31 @@
     "nextEvents": {
       "displayName": "Next Events",
       "invisible": true,
-      "order": "6",
+      "order": "7",
       "type": "string"
     },
     "owner": {
       "displayName": "Owner",
       "invisible": true,
-      "order": "4",
+      "order": "5",
       "type": "user"
     },
     "slingshotPitches": {
       "displayName": "SlingshotPitches",
-      "invisible": true,
       "lookUpTable": "slingshotPitches",
-      "order": "9",
+      "order": 10,
       "type": "lookup"
     },
     "state": {
       "displayName": "State",
       "invisible": true,
-      "order": "5",
+      "order": "6",
       "type": "string"
     },
     "targetCompletionDate": {
       "displayName": "Target Completion Date",
       "invisible": false,
-      "order": "10",
+      "order": "2",
       "type": "date"
     }
   },
@@ -525,10 +524,10 @@
               },
               {
                 "type": "lookup",
-                "name": "control_lookup_868138",
-                "fieldName": "control_lookup_868138",
+                "name": "control_lookup_78851",
+                "fieldName": "control_lookup_78851",
                 "label": "SlingshotPitches",
-                "order": 11,
+                "order": 0,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -565,8 +564,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "slingshotPitches",
-                "ableToAddLookUpVal": true,
-                "gridId": "nextFiveYearsMilestones"
+                "ableToAddLookUpVal": true
               }
             ]
           }
@@ -579,7 +577,7 @@
       }
     ],
     "layout": "collapse",
-    "_uniqueId": 0.0892058663630162
+    "_uniqueId": 0.617529476800635
   },
   "source": "nextFiveYearsMilestones",
   "storageType": "dashboard",

@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'Grenette pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://firebasestorage.googleapis.com/v0/b/tangle-157402.appspot.com/o/fonts%2Fgrenette-regular-pro.ttf?alt=media&token=54b96fb6-b06d-44ee-a429-15ce25b32659);
+}
+@font-face {
+  font-family: 'Grenette pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://firebasestorage.googleapis.com/v0/b/tangle-157402.appspot.com/o/fonts%2Fgrenette-semibold-pro.ttf?alt=media&token=09d0508b-2014-439d-9f65-9a8942c6155b);
+}
+
+
 .tab-title-class {
     color: black !important;  
     font-family: 'Grenette pro', sans-serif !important;   
@@ -6,6 +22,10 @@
 
 .details{
     padding-top: 15px;
+}
+
+.nav-link.active.tab-title-class{
+    font-weight: bold !important;
 }
 
 .details .row{
@@ -150,3 +170,39 @@ body{
 
 }
 
+.RuleValue input{
+    font-family: 'Grenette pro', sans-serif !important; 
+}
+
+.pagination{
+    border: 0px solid #dce6f3;
+    font-family: 'Grenette pro', sans-serif !important; 
+
+}
+
+.pagination .active .page-link {
+    background-color: #ef4437;
+    color: black;
+    border-color: #3f8cff;
+}
+
+.page-item a{
+    border: 1px solid black;
+
+}
+
+.multiselect__tag{
+   background-color: #ef4437 !important;
+
+}
+.multiselect__tag span{
+    color:black !important;
+}
+
+.RuleValue input{
+    font-size: 14px !important;
+}
+
+.grid-stack-item__title{
+    padding-left: 10px;
+}

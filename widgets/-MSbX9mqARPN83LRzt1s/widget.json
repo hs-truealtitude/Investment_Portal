@@ -9,8 +9,7 @@
   "layout": "",
   "overflow": "height: auto",
   "props": {
-    "gridId": "applications",
-    "view": "accountNotifications"
+    "gridId": "applications"
   },
   "styles": "",
   "subtab": "-MSbUoT--6X8CjMwlOQ3",

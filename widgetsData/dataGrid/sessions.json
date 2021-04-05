@@ -1,6 +1,6 @@
 {
   "displayColumn": "name",
-  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"sME\",\"operator\":\"=\",\"value\":null,\"name\":\"SME\",\"hidden\":false},{\"key\":\"pitch\",\"operator\":\"=\",\"value\":null,\"name\":\"PITCH\",\"hidden\":false},{\"key\":\"mentor\",\"operator\":\"=\",\"value\":null,\"name\":\"Mentor\",\"hidden\":false}]}",
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"sME\",\"operator\":\"=\",\"value\":null,\"name\":\"SME\",\"hidden\":false},{\"key\":\"pitch\",\"operator\":\"=\",\"value\":null,\"name\":\"PITCH\",\"hidden\":false},{\"key\":\"mentor\",\"operator\":\"=\",\"value\":null,\"name\":\"Mentor\",\"hidden\":false},{\"key\":\"sessionHappen\",\"operator\":\"checkbox\",\"value\":null,\"name\":\"sessionHappen\",\"hidden\":false}]}",
   "isReactive": true,
   "meta": {
     "bookASession": {
@@ -139,7 +139,7 @@
       "type": "custom"
     },
     "sMECard": {
-      "displayName": "SME Card",
+      "displayName": "Company Representative",
       "order": "10",
       "type": "custom"
     },
@@ -248,7 +248,7 @@
                 "type": "custom",
                 "name": "control_custom_974881",
                 "fieldName": "control_custom_974881",
-                "label": "SME Card",
+                "label": "Company Representative",
                 "order": 1,
                 "defaultValue": "",
                 "value": "",
@@ -385,7 +385,7 @@
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
-                "readonly": true,
+                "readonly": false,
                 "readonlyCondition": "(rowData.direction == 'Mentor->SME'  && $getUser('accountType') == 'SME') || (rowData.direction == 'SME->Mentor' && $getUser('accountType') == 'Mentor') || rowData.$status$display == \"Accepted\" ",
                 "placeholder": "",
                 "labelBold": false,
@@ -429,7 +429,7 @@
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
-                "readonly": true,
+                "readonly": false,
                 "readonlyCondition": "",
                 "placeholder": "",
                 "labelBold": false,
@@ -1648,7 +1648,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.6855895752287833
+    "_uniqueId": 0.32908387462420685
   },
   "source": "sessions",
   "storageType": "dashboard",

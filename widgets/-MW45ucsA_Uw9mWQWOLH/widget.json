@@ -2,11 +2,13 @@
   "classes": "",
   "gsOptions": {
     "h": 3,
-    "w": 4,
+    "w": 24,
     "x": 0,
     "y": 0
   },
+  "offSet": 0,
   "overflow": "",
+  "perPage": 2,
   "styles": "",
   "subtab": "-MW45c7ybX9RB28zFYPM",
   "tab": "-MJq8S1suwASZ84EkCd5",

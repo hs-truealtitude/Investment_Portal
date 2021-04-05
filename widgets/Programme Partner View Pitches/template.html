@@ -10,10 +10,11 @@
       <small id="about" class="h4 font-weight-light text-muted"></small>
     </h5>
 
-    <p v-if="row.aboutTheCompany" class="h4 font-weight-light" style="height: 120px; padding-bottom: 30px; font-family: 'Grenette pro', sans-serif; color:black;">{{truncateText(row.aboutTheCompany,200)}}</p>
+    <div class="about" style="height: 120px;">
+      <p v-if="row.aboutTheCompany" class="h4 font-weight-light" style="height: 120px; padding-bottom: 30px; font-family: 'Grenette pro', sans-serif; color:black;">{{truncateText(row.aboutTheCompany,200)}}</p>
+    </div>
 
-
-    <div style="height: 100px; padding-bottom: 10px;">
+    <div class="team" style="height: 100px; padding-bottom: 10px;">
       <p class="h4 font-weight-bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Team Members: </p>
 
       <p class="h4 font-weight-light" v-if="i < 3" v-for="member, i in filterBy($getGrid('teamMembersTable'), row.rowKey, 'slingshotPitches') ">
@@ -31,7 +32,7 @@
       </p>
     </div>
 
-    <div style="height: 70px; padding: 40px;">
+    <div class="investment" style="height: 70px; padding: 40px;">
       <div v-if="row.investmentType">
         <p class="h4 font-weight-bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Investment Type: </p>
         <div class="rectangle" style="background-color:#f59595; padding: 2px; border-radius: 6px;">
@@ -40,13 +41,13 @@
       </div>
     </div>
 
-    <div style="height: 20px; padding-top: 40px;">
+    <div class="totalfundinground" style="height: 20px; padding-top: 40px;">
       <div v-if="row.totalFundingRound">
         <p class="h4 font-weight-bold" style="font-family: 'Grenette pro', sans-serif; color: black;"> Total Funding Round: £{{row.totalFundingRound |  numeralFormat('0,0') }} </p>
       </div>
     </div>
 
-    <div style="height: 20px; padding-top: 30px; padding-bottom: 30px;">
+    <div class="moneyraisedtodate" style="height: 20px; padding-top: 30px; padding-bottom: 30px;">
       <div v-if="row.capitalRaisedToDate">
         <p class="h4 font-weight-bold" style="font-family: 'Grenette pro', sans-serif; color: black;"> Money Raised to date: £{{row.capitalRaisedToDate |  numeralFormat('0,0') }} </p>
       </div>

@@ -4,8 +4,8 @@
       <b-card>
 
         <div style="padding-top: 20px; padding-left: 20px; padding-right: 20px;">
-          <img :src="$getDashboardModel('slingshotPitches')[row.slingshotPitches].$companyLogo$display" width="100px" height="100px" style="margin-left: 5px; vertical-align:middle; border-radius: 15px;">
-          <span style="font-weight: bold; font-family: 'Grenette pro', sans-serif; font-size: 25px; color:black; margin-left: 10px; ">{{row.$slingshotPitches.dealProjectName}} - {{row.$slingshotPitches.name}}</span>
+          <img class="detail_image" :src="$getDashboardModel('slingshotPitches')[row.slingshotPitches].$companyLogo$display" width="100px" height="100px" style="margin-left: 5px; vertical-align:middle; border-radius: 15px;">
+          <span class="company_title" style="font-weight: bold; font-family: 'Grenette pro', sans-serif; font-size: 25px; color:black; margin-left: 10px; ">{{row.$slingshotPitches.dealProjectName}} - {{row.$slingshotPitches.name}}</span>
         </div>
 
         <b-tabs card="">
@@ -13,12 +13,12 @@
 
             <div class="details">
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.name" class="h4 font-weight-bold"> Company Name
                     <b-card-text>{{row.$slingshotPitches.name}}</b-card-text>
                   </p>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.aboutTheCompany" class="h4 font-weight-bold"> About Company
                     <b-card-text>{{row.$slingshotPitches.aboutTheCompany}}</b-card-text>
                   </p>
@@ -26,12 +26,12 @@
               </div>
 
               <div class="row" v-if="filterInvestorApplications(row.$slingshotPitches.rowKey, $getUser('profileID'))">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.companyEmail" class="h4 font-weight-bold"> Email
                     <b-card-text>{{row.$slingshotPitches.companyEmail}}</b-card-text>
                   </p>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.mobileNumber" class="h4 font-weight-bold"> Contact Number
                     <b-card-text>{{row.$slingshotPitches.mobileNumber}}</b-card-text>
                   </p>
@@ -39,83 +39,83 @@
               </div>
 
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.website" class="h4 font-weight-bold"> Website
                     <b-card-text>{{row.$slingshotPitches.website}}</b-card-text>
                   </p>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.location" class="h4 font-weight-bold"> Location
                     <b-card-text>{{row.$slingshotPitches.$location$display}}</b-card-text>
                   </p>
                 </div>
               </div>
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.startDate" class="h4 font-weight-bold"> Company Start Date
                     <b-card-text>{{row.$slingshotPitches.$startDate$Date}}</b-card-text>
                   </p>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.employeeAmount" class="h4 font-weight-bold"> Number of employees
                     <b-card-text>{{row.$slingshotPitches.employeeAmount}}</b-card-text>
                   </p>
                 </div>
               </div>
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.currentReturnOfRevenue" class="h4 font-weight-bold"> Current Return Of Revenue (Per Employee)
                     <b-card-text>£{{row.$slingshotPitches.currentReturnOfRevenue |  numeralFormat('0,0') }}</b-card-text>
                   </p>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.numberOfJobsGenerated" class="h4 font-weight-bold"> Number of jobs generated in testbed to successfully deliver on program
                     <b-card-text>{{row.$slingshotPitches.numberOfJobsGenerated}}</b-card-text>
                   </p>
                 </div>
               </div>
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.predictedEmployeesHired1Year" class="h4 font-weight-bold"> Predicted Number Of Employees Hired (1 Year)
                     <b-card-text>{{row.$slingshotPitches.predictedEmployeesHired1Year}}</b-card-text>
                   </p>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.predictedEmployeesHired2Years" class="h4 font-weight-bold"> Predicted Number Of Employees Hired (2 Years)
                     <b-card-text>{{row.$slingshotPitches.predictedEmployeesHired2Years}}</b-card-text>
                   </p>
                 </div>
               </div>
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.predictedEmployeesHired3Years" class="h4 font-weight-bold"> Predicted Number Of Employees Hired (3 Year)
                     <b-card-text>{{row.$slingshotPitches.predictedEmployeesHired3Years}}</b-card-text>
                   </p>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.predictedEmployeesHired5Years" class="h4 font-weight-bold"> Predicted Number Of Employees Hired (5 Years)
                     <b-card-text>{{row.$slingshotPitches.predictedEmployeesHired5Years}}</b-card-text>
                   </p>
                 </div>
               </div>
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.predictedJobsPostProgram" class="h4 font-weight-bold"> Predicted Number Of Jobs Generated (During Program)
                     <b-card-text>{{row.$slingshotPitches.predictedJobsPostProgram}}</b-card-text>
                   </p>
                 </div>
               </div>
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.numberOfInteractionsCommercialOpportunities" class="h4 font-weight-bold"> Number of Commercial Opportunities
                     <b-card-text>{{row.$slingshotPitches.numberOfInteractionsCommercialOpportunities}}</b-card-text>
                   </p>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                 </div>
               </div>
               <div class="row">
-                <div class="column col-lg-8 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p class="h4 font-weight-bold"> What other industries can the product or solution add value to? </p>
                   <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$slingshotPitches.$productGrowthOtherIndustries$display">
                     <div class="rectangle" style="padding: 5px; border-radius: 6px; width: 250px; margin: 10px;">
@@ -130,79 +130,79 @@
           <b-tab title="Pitch & Deal" :title-link-class="'tab-title-class'">
             <div class="details">
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.dealProjectName" class="h4 font-weight-bold"> Deal/Project Name
                     <b-card-text>{{row.$slingshotPitches.dealProjectName}}</b-card-text>
                   </p>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.pitchSummary" class="h4 font-weight-bold"> Pitch Summary
                     <b-card-text>{{row.$slingshotPitches.pitchSummary}}</b-card-text>
                   </p>
                 </div>
               </div>
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.commitmentClosingDate" class="h4 font-weight-bold"> Commitment Closing Date
                     <b-card-text>{{row.$slingshotPitches.$commitmentClosingDate$Date}}</b-card-text>
                   </p>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.targetCompletionDate" class="h4 font-weight-bold"> Target Completion Date
                     <b-card-text>{{row.$slingshotPitches.$targetCompletionDate$Date}}</b-card-text>
                   </p>
                 </div>
               </div>
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.capitalRaisedToDate" class="h4 font-weight-bold"> Capital raised to-date
                     <b-card-text>£{{row.$slingshotPitches.capitalRaisedToDate |  numeralFormat('0,0') }}</b-card-text>
                   </p>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.preMoneyValuationOfCurrentRound" class="h4 font-weight-bold"> Pre-Money Valuation of current round
                     <b-card-text>£{{row.$slingshotPitches.preMoneyValuationOfCurrentRound |  numeralFormat('0,0') }}</b-card-text>
                   </p>
                 </div>
               </div>
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.capitalAlreadyRaisedForCurrentFundingRound" class="h4 font-weight-bold"> Capital already raised/commited for the current funding round
                     <b-card-text>£{{row.$slingshotPitches.capitalAlreadyRaisedForCurrentFundingRound |  numeralFormat('0,0')}}</b-card-text>
                   </p>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.mainInvestorsCommitedInCurrentRound" class="h4 font-weight-bold"> Main investors commited/invested in current round
                     <b-card-text>{{row.$slingshotPitches.mainInvestorsCommitedInCurrentRound}}</b-card-text>
                   </p>
                 </div>
               </div>
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.minimumInvestment" class="h4 font-weight-bold"> Minimum Investment
                     <b-card-text>£{{row.$slingshotPitches.minimumInvestment |  numeralFormat('0,0')}}</b-card-text>
                   </p>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.targetReturnOfInvestment" class="h4 font-weight-bold"> Target Return of Investment
                     <b-card-text>£{{row.$slingshotPitches.targetReturnOfInvestment |  numeralFormat('0,0')}}</b-card-text>
                   </p>
                 </div>
               </div>
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.totalFundingRound" class="h4 font-weight-bold"> Total funding round
                     <b-card-text>£{{row.$slingshotPitches.totalFundingRound |  numeralFormat('0,0')}}</b-card-text>
                   </p>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.eISSEIS" class="h4 font-weight-bold"> EIS Eligible
                     <b-card-text>{{row.$slingshotPitches.$eISSEIS$display}}</b-card-text>
                   </p>
                 </div>
               </div>
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.investmentType" class="h4 font-weight-bold"> Investment Type </p>
                   <span style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 14px;">
                     <div class="rectangle" style="background-color:#f59595; padding: 5px; border-radius: 6px; width:70%; margin: 10px;">
@@ -210,7 +210,7 @@
                     </div>
                   </span>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.targetInvestorsForDealMarketing" class="h4 font-weight-bold"> Target Investors for Deal Marketing
                   </p>
                   <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$slingshotPitches.$targetInvestorsForDealMarketing$display">
@@ -221,31 +221,31 @@
                 </div>
               </div>
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.specificStrategicValue" class="h4 font-weight-bold"> Specific strategic/value add investors
                     <b-card-text>{{row.$slingshotPitches.specificStrategicValue}}</b-card-text>
                   </p>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.excludedInvestors" class="h4 font-weight-bold"> Excluded Investors
                     <b-card-text>{{row.$slingshotPitches.excludedInvestors}}</b-card-text>
                   </p>
                 </div>
               </div>
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.companyDebt" class="h4 font-weight-bold"> Does the company have any debt?
                     <b-card-text>{{row.$slingshotPitches.companyDebt}}</b-card-text>
                   </p>
                 </div>
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.litigationTaxOrPressure" class="h4 font-weight-bold"> Is the company subject to any litigation, tax or creditor pressure?
                     <b-card-text>{{row.$slingshotPitches.litigationTaxOrPressure}}</b-card-text>
                   </p>
                 </div>
               </div>
               <div class="row">
-                <div class="column col-lg-8 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.news" class="h4 font-weight-bold"> News
                     <b-card-text>{{row.$slingshotPitches.news}}</b-card-text>
                   </p>
@@ -257,10 +257,10 @@
           <b-tab title="Mentor Requirements" :title-link-class="'tab-title-class'">
             <div class="details">
               <div class="row">
-                <div class="column col-lg-8 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.sectors" class="h4 font-weight-bold"> Target Sectors </p>
                   <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$slingshotPitches.$sectors$display">
-                    <div class="rectangle" style="padding: 5px; border-radius: 6px; width:30%; margin: 10px;">
+                    <div class="rectangle" style="padding: 5px; border-radius: 6px; margin: 10px;">
                       {{item}}
                     </div>
                   </span>
@@ -268,10 +268,10 @@
               </div>
               <p> </p>
               <div class="row">
-                <div class="column col-lg-8 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.$slingshotPitches.skills" class="h4 font-weight-bold"> Target Skills </p>
                   <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$slingshotPitches.$skills$display">
-                    <div class="rectangle" style="padding: 5px; border-radius: 6px; width:30%; margin: 10px;">
+                    <div class="rectangle" style="padding: 5px; border-radius: 6px; margin: 10px;">
                       {{item}}
                     </div>
                   </span>
@@ -283,7 +283,7 @@
           <b-tab title="HR Requirements" :title-link-class="'tab-title-class'">
             <div class="details">
               <div class="row">
-                <div class="column col-lg-4 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p class="h4 font-weight-bold"> HR Requirements </p>
                   <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px; " v-for="req in filterBy($getGrid('hRRequirementsTable'), row.$slingshotPitches.rowKey,  'slingshotPitches') ">
                     <div class="rectangle" style="padding: 5px; border-radius: 6px; width:auto; margin: 10px; ">
@@ -298,7 +298,7 @@
           <b-tab title="Milestones" :title-link-class="'tab-title-class'">
             <div class="details">
               <div class="row">
-                <div class="column col-lg-8 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p class="h4 font-weight-bold"> Milestones Completed (Last 6 Months)</p>
                   <div class="row">
                     <div class="col-md-12 offset-md-3">
@@ -314,7 +314,7 @@
               </div>
 
               <div class="row">
-                <div class="column col-lg-8 col-sm-4 col-4">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p class="h4 font-weight-bold"> Milestones (Next Five Years)</p>
                   <pre></pre>
                   <div class="row">
@@ -335,7 +335,7 @@
           <b-tab title="Documents" :title-link-class="'tab-title-class'">
             <div class="details">
               <div class="row">
-                <div class="column col-lg-6 col-sm-6 col-6">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p class="h4 font-weight-bold"> Documents stored:</p>
                   <b-card-text style="color:black;">
                     <li>Executive Summary of the project</li>
@@ -354,7 +354,7 @@
           <b-tab title="Team" :title-link-class="'tab-title-class'">
             <div class="details">
               <div class="row">
-                <div class="column col-lg-6 col-sm-6 col-6">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p class="h4 font-weight-bold"> Team Members</p>
                   <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px; " v-for="member in filterBy($getGrid('teamMembersTable'), row.$slingshotPitches.rowKey, 'slingshotPitches') ">
                     <div class="rectangle" style="padding: 5px; border-radius: 6px; width:auto; margin: 10px; ">
@@ -374,7 +374,7 @@
           <b-tab title="References" :title-link-class="'tab-title-class'">
             <div class="details">
               <div class="row">
-                <div class="column col-lg-6 col-sm-6 col-6">
+                <div class="column col-lg-4 col-sm-12 col-md-12">                  
                   <p v-if="row.cornerstoneInvestorContactDetails" class="h4 font-weight-bold"> Cornerstone Investor
                     <b-card-text>{{row.$slingshotPitches.cornerstoneInvestorContactDetails}}</b-card-text>
                   </p>

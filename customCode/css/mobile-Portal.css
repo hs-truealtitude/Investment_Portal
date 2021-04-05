@@ -1,9 +1,75 @@
 .nav-menu-link-box {
     width: 300px;
 }
+@media only screen and (max-width: 600px) {
+    .nav-logo.right.ui.notif:hover{
+        width: 100% !important;
+        right: 0px !important;
+        background: inherit;
+    }
+    #hovernotif:hover  .box{
+        margin-right: 137px;
+        border-left: 1px solid black;
+        height: 100%;
+    }
+    #hovernotif:hover  .fa-bell{
+        margin-top: 7px;
+    }
+    #notifc{
+        font-size: 13px !important;
+    }
+
+    .nav-logo-text::after{
+        font-size: 11px !important;
+    }
+
+    .widget-card-list__item .card{
+        min-width: 100% !important;
+        max-width: 100% !important;
+        padding-bottom: 50px !important;
+
+    }
+
+    .modal-header{
+        height: 40px !important;
+    }
+
+    .investment{
+        padding-top: 115px !important;
+    }
+
+    .team{
+        padding-top: 40px !important;
+    }
+
+    .company_title{
+        font-size: 15px !important;
+    }
+
+    .detail_image{
+        width: 50px;
+        height: 50px;
+    }
+
+    .tab-title-class {
+        font-size: 15px !important;
+    }
+
+    .apply{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
 
 body {
-    min-width: 600px;
+    /* min-width: 600px; */
+}
+.fullCalendar__viewControls{
+    flex-wrap: wrap
 }
 
 @media only screen and (max-width: 1300px) {
@@ -23,14 +89,14 @@ body {
 
 @media only screen and (max-width: 800px) {
     body {
-        min-width: 600px;
+        /* min-width: 600px; */
     }
     .nav-logo-text {
         font-size: 12px;
     }
     #hovernotif {
         position: absolute;
-        right: 206px;
+        /* right: 206px; */
     }
 }
 
@@ -62,17 +128,22 @@ body {
     }
 
     .nav-menu-link-box {
-        width: 14.1vw !important;
+        width: 15.2vw !important;
     }
 
     .nav-menu-link{
-        font-size: 0.7em !important;
+        font-size: 0.9em !important;
     }
 
 
     .dbtn{
-        font-size: 0.7em !important;
+        font-size: 0.9em !important;
         line-height: 1 !important;
+    }
+
+    .bl{
+                font-size: 0.9em !important;
+
     }
 
     .center.fade-in h1{
@@ -81,10 +152,16 @@ body {
 
 
     .grid-stack-item__wrapper{
-        padding-left: 13px;
+        margin: 0 15px 0 20px;
     }
 
     .widget-card-list__item{
-        width: 300px !important;
+        width: 100% !important;
     }
+
+    .application_button{
+         margin: auto !important;
+         margin: 15px !important;
+    }
+
 }

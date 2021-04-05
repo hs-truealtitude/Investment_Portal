@@ -1,3 +1,5 @@
+
+
 .nav-top-contain {
     position: fixed;
     left: 0%;
@@ -330,6 +332,7 @@ body {
 
 .nav-menu-link-box.end {
     border-right: 1px solid #000;
+    position: relative;
 }
 
 .nav-menu-link {
@@ -379,7 +382,8 @@ img {
 }
 
 .nav-logo.right.ui {
-position: relative;
+    position: relative;
+    background-color: #fffaf3;
 
 }
 

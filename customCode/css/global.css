@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Grenette pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://firebasestorage.googleapis.com/v0/b/tangle-157402.appspot.com/o/fonts%2Fgrenette-regular-pro.ttf?alt=media&token=54b96fb6-b06d-44ee-a429-15ce25b32659);
+}
+@font-face {
+  font-family: 'Grenette pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://firebasestorage.googleapis.com/v0/b/tangle-157402.appspot.com/o/fonts%2Fgrenette-semibold-pro.ttf?alt=media&token=09d0508b-2014-439d-9f65-9a8942c6155b);
+}
+
+.formBuilder__date{
+  background-color: #fffaf3 !important;
+  border: 1px solid #000000 !important;
+  color: #000000 !important;
+  font-family: 'Grenette pro', sans-serif !important;
+  border-radius: 0px;
+  font-size: 16px;
+  box-shadow: 0px 0px;
+}
+.formBuilder__date > input{
+  max-height: 30px;
+}
+.toggle-calendar{
+  border: none !important;
+}
+.grid-stack-item-content{
+  margin-bottom: 60px
+}

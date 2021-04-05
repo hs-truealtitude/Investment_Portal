@@ -11,9 +11,9 @@
     <h5 class="h3 title">
 
       <div v-if='row.$sME'>
-          <span style="color: black; font-size: 20px; font-family: 'Grenette pro', sans-serif;" class="d-block mb-1">{{row.$sME.name}} {{row.$sME.secondName}}</span>
+          <span v-if='row.$sME' style="color: black; font-size: 20px; font-family: 'Grenette pro', sans-serif;" class="d-block mb-1">{{row.$sME.name}} {{row.$sME.secondName}}</span>
         </div>      <i style="color: black;" class="fas fa-hands-helping"></i>
-      <span style="color: black; font-size: 20px; font-family: 'Grenette pro', sans-serif; padding-bottom: 10px;" class="d-block mb-1">{{row.$pitch.name}}</span>
+      <span v-if='row.$pitch' style="color: black; font-size: 20px; font-family: 'Grenette pro', sans-serif; padding-bottom: 10px;" class="d-block mb-1">{{row.$pitch.name}}</span>
 
       <div class="row" style="justify-content:center; padding-bottom: 10px;">
         <small style="color: black; font-size: 20px; font-family: 'Grenette pro', sans-serif; " class="h4 font-weight-light">{{row.name}}</small>
@@ -24,7 +24,13 @@
       </div>
 
       <div class="row" style="justify-content:center;">
-        <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;">{{row.$sDate$display}}</small>
+        <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;">{{new Date(row.$sDate$display).toLocaleDateString("en-US", {
+          year: 'numeric',
+          month: 'numeric',
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+        }) }}</small>
       </div>
 
     </h5>

@@ -7,11 +7,11 @@
     "h": 16,
     "w": 22,
     "x": 1,
-    "y": 3
+    "y": 4
   },
   "hidden": true,
   "offSet": 0,
-  "overflow": "",
+  "overflow": "height:auto",
   "perPage": 2,
   "styles": "",
   "subtab": "-MVR769td35nAd71y7X2",

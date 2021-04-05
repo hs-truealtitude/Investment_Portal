@@ -4,10 +4,10 @@
   "columnMinWidth": "350",
   "dataSource": "applications",
   "gsOptions": {
-    "h": 20,
+    "h": 5,
     "w": 22,
     "x": 1,
-    "y": 15
+    "y": 3
   },
   "hidden": true,
   "offSet": 0,

@@ -1,0 +1,16 @@
+.fc-widget-header{
+    color: black !important;
+    border: black !important;
+    font-family: 'Grenette pro', sans-serif !important;   
+}
+
+.fc-axis span{
+
+    font-family: 'Grenette pro', sans-serif !important; 
+}
+
+.flatpickr-day.selected{
+    background-color: #ef4437 !important;
+    border-color: black !important;
+    color: black !important;
+}

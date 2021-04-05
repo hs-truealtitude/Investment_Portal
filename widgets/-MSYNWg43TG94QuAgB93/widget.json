@@ -4,12 +4,13 @@
     "h": 18,
     "w": 24,
     "x": 0,
-    "y": 0
+    "y": 2
   },
   "layout": "b-card",
   "overflow": "height: auto",
   "props": {
-    "gridId": "sessions"
+    "gridId": "sessions",
+    "view": "leaveSMEReview"
   },
   "subtab": "-MSYNWd6tL020aH6OsCH",
   "tab": "-MKjMm1cJNwP3sVETeGP",

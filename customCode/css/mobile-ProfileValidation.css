@@ -42,7 +42,7 @@ label{
 }
 
 .grid-stack-item{
-   
+   padding: 0px 25px 0px 35px !important;
 }
 
 .card{
@@ -64,5 +64,21 @@ button{
 
 }
 
+.hero-text{
+        margin-top: 200px !important;
+        line-height: 0.2 !important;
+}
 
+.hero-text-small{
+        font-size: 0.25em !important;
+}
+
+
+}
+
+@media only screen and (max-width: 1300px) {
+.hero-text{
+        margin-top: 300px !important;
+        line-height: 1;
+}
 }
