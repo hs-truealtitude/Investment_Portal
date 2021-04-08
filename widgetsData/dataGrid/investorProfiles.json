@@ -4,87 +4,87 @@
   "meta": {
     "address": {
       "displayName": "Address",
-      "invisible": false,
-      "order": "13",
+      "invisible": true,
+      "order": "12",
       "type": "multiline_text"
     },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": false,
-      "order": "8",
+      "order": "14",
       "type": "date"
     },
     "dateOfBirth": {
       "displayName": "Date of Birth",
-      "invisible": false,
-      "order": "9",
+      "invisible": true,
+      "order": "8",
       "type": "date"
     },
     "isApproved": {
       "displayName": "IsApproved",
-      "invisible": false,
+      "invisible": true,
       "order": "0",
       "type": "checkbox"
     },
     "lastEditDate": {
       "displayName": "Last edit date",
-      "invisible": false,
-      "order": "4",
+      "invisible": true,
+      "order": "3",
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
-      "invisible": false,
-      "order": "3",
+      "invisible": true,
+      "order": "2",
       "type": "user"
     },
     "linkedInProfileLink": {
       "displayName": "LinkedIn Profile",
-      "invisible": false,
-      "order": "11",
+      "invisible": true,
+      "order": "10",
       "type": "string"
     },
     "location": {
       "displayName": "Location",
-      "invisible": false,
+      "invisible": true,
       "lookUpTable": "country",
-      "order": "5",
+      "order": "4",
       "type": "lookup"
     },
     "name": {
       "displayName": "First Name",
       "invisible": false,
-      "order": "1",
+      "order": "6",
       "type": "string"
     },
     "nextEvents": {
       "displayName": "Next Events",
       "invisible": true,
-      "order": "2",
+      "order": "1",
       "type": "string"
     },
     "owner": {
       "displayName": "Owner",
       "invisible": false,
-      "order": "14",
+      "order": "13",
       "type": "user"
     },
     "phoneNumber": {
       "displayName": "Contact Number",
-      "invisible": false,
-      "order": "12",
+      "invisible": true,
+      "order": "11",
       "type": "phone"
     },
     "profileImage": {
       "displayName": "Profile Image",
       "invisible": false,
-      "order": "6",
+      "order": "5",
       "type": "profile_image"
     },
     "secondName": {
       "displayName": "Second Name",
       "invisible": false,
-      "order": "10",
+      "order": "9",
       "type": "string"
     },
     "state": {
@@ -101,7 +101,8 @@
     },
     "user": {
       "displayName": "User",
-      "order": 16,
+      "invisible": true,
+      "order": "16",
       "type": "user"
     }
   },
@@ -154,7 +155,7 @@
                 "customCode": "",
                 "invisible": true,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -314,7 +315,10 @@
                 "vif": "",
                 "customCode": "",
                 "propName": "dateOfBirth",
-                "gridId": "investorProfiles"
+                "gridId": "investorProfiles",
+                "invisible": null,
+                "invisibleLabel": null,
+                "invisibleInDataGrid": true
               },
               {
                 "type": "text",
@@ -348,7 +352,7 @@
                 "gridId": "investorProfiles",
                 "invisible": null,
                 "invisibleLabel": null,
-                "invisibleInDataGrid": null,
+                "invisibleInDataGrid": true,
                 "enableCustomValidation": null,
                 "description": "Please paste a link like the following: https://www.linkedin.com/company/true-altitude"
               },
@@ -383,7 +387,7 @@
                 "propName": "phoneNumber",
                 "gridId": "investorProfiles",
                 "invisible": null,
-                "invisibleInDataGrid": null,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": null,
                 "mask": "99999999999"
               },
@@ -416,7 +420,8 @@
                 "vif": "",
                 "customCode": "",
                 "propName": "address",
-                "gridId": "investorProfiles"
+                "gridId": "investorProfiles",
+                "invisibleInDataGrid": true
               },
               {
                 "type": "lookup",
@@ -454,7 +459,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -563,7 +568,7 @@
                 "customCode": "",
                 "invisible": true,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -607,7 +612,7 @@
                 "customCode": "",
                 "invisible": true,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -679,7 +684,7 @@
                 "isMultiLine": false,
                 "isInteger": false,
                 "decimalPlace": 0,
-                "isTodayValue": true,
+                "isTodayValue": false,
                 "isTodayValueCreated": true,
                 "dateFormat": "mm/dd/yy hh:mm p",
                 "isCurrentUser": false,
@@ -739,7 +744,7 @@
                 "customCode": "",
                 "invisible": true,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -783,7 +788,7 @@
                 "customCode": "",
                 "invisible": true,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -827,7 +832,7 @@
                 "customCode": "",
                 "invisible": true,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -847,7 +852,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.09831419301101563
+    "_uniqueId": 0.9618287180418041
   },
   "source": "investorProfiles",
   "storageType": "dashboard",

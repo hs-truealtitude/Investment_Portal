@@ -8,8 +8,7 @@
   "layout": "b-card",
   "overflow": "height: auto",
   "props": {
-    "gridId": "investorProfiles",
-    "view": "investorApproval"
+    "gridId": "investorProfiles"
   },
   "subtab": "-MSSGBoDqOdUXq8acqFc",
   "tab": "-MKUwx1XmgWmAYvLK_wz",

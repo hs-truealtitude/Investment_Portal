@@ -9,8 +9,7 @@
   "layout": "b-card",
   "overflow": "height: auto",
   "props": {
-    "gridId": "sessions",
-    "view": "leaveSMEReview"
+    "gridId": "sessions"
   },
   "subtab": "-MSYNWd6tL020aH6OsCH",
   "tab": "-MKjMm1cJNwP3sVETeGP",

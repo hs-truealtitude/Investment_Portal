@@ -249,7 +249,7 @@
                 "customCode": "",
                 "invisible": true,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -582,7 +582,7 @@
                 "customCode": "<button class=\"float-right btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n    \t$dgFormGoToTab('Mentor Details')\r\n  \t}\r\n\t}\"        \r\n        > \r\nNext\r\n</button>",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -626,7 +626,7 @@
                 "customCode": "",
                 "invisible": true,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -670,7 +670,7 @@
                 "customCode": "",
                 "invisible": true,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -1208,7 +1208,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.6215401694140459
+    "_uniqueId": 0.43997676722848245
   },
   "source": "mentors",
   "storageType": "dashboard",
@@ -1320,27 +1320,27 @@
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"IsApproved\",\"hidden\":true}]}",
       "meta": {
         "aboutMe": {
-          "invisible": false,
-          "order": "12"
-        },
-        "address": {
-          "invisible": false,
-          "order": "8"
-        },
-        "companyStage": {
-          "invisible": false,
-          "order": "15"
-        },
-        "createdDate": {
-          "invisible": false,
+          "invisible": true,
           "order": "13"
         },
+        "address": {
+          "invisible": true,
+          "order": "9"
+        },
+        "companyStage": {
+          "invisible": true,
+          "order": "16"
+        },
+        "createdDate": {
+          "invisible": true,
+          "order": "14"
+        },
         "dateOfBirth": {
-          "invisible": false,
-          "order": "7"
+          "invisible": true,
+          "order": "8"
         },
         "interests": {
-          "invisible": false,
+          "invisible": true,
           "order": "18"
         },
         "isApproved": {
@@ -1348,45 +1348,48 @@
           "order": "0"
         },
         "lastEditDate": {
-          "invisible": false,
-          "order": "3"
+          "invisible": true,
+          "order": "4"
         },
         "lastEditedBy": {
-          "invisible": false,
-          "order": "2"
+          "invisible": true,
+          "order": "3"
         },
         "linkedInProfileLink": {
-          "invisible": false,
-          "order": "10"
+          "invisible": true,
+          "order": "11"
         },
         "location": {
-          "invisible": false,
+          "invisible": true,
           "order": "19"
         },
         "mainSectors": {
-          "order": 23
+          "invisible": true,
+          "order": "23"
         },
         "mainSkills": {
+          "invisible": true,
           "order": "22"
         },
         "name": {
           "invisible": false,
-          "order": "16"
+          "order": "2"
         },
         "next": {
-          "order": 24
+          "invisible": true,
+          "order": "24"
         },
         "nextEvents": {
           "invisible": true,
           "order": "21"
         },
         "owner": {
-          "invisible": false,
-          "order": "11"
+          "invisible": true,
+          "order": "12"
         },
         "phoneNumber": {
-          "invisible": false,
-          "order": "9"
+          "invisible": true,
+          "order": "10"
         },
         "profileImage": {
           "invisible": false,
@@ -1394,15 +1397,15 @@
         },
         "secondName": {
           "invisible": false,
-          "order": "6"
+          "order": "7"
         },
         "sectors": {
-          "invisible": false,
-          "order": "5"
+          "invisible": true,
+          "order": "6"
         },
         "skills": {
-          "invisible": false,
-          "order": "4"
+          "invisible": true,
+          "order": "5"
         },
         "state": {
           "invisible": true,
@@ -1413,7 +1416,8 @@
           "order": "17"
         },
         "user": {
-          "order": "14"
+          "invisible": true,
+          "order": "15"
         }
       },
       "title": "Mentor Approval"
