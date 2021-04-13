@@ -2,15 +2,20 @@
   "-MRuBBufb0sHngYQTa_m": {
     "_created": true,
     "_id": 1,
+    "dateOfBirth": "12/04/1990, 00:00",
     "group": false,
     "isApproved": true,
-    "lastEditDate": 1614337586000,
+    "lastEditDate": 1618305444288,
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "linkedInProfileLink": "https://www.linkedin.com/in/hayden-sherwood-363749185/",
     "location": "-MJwtgUqBjMrFNntf6GH",
     "name": "Hayd",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "phoneNumber": "09665544444",
-    "profileImage": "1b0a58f0-74f3-11eb-b695-951b6e42c8ad_datagrid_profile_img.png",
+    "profileImage": {
+      "fileName": "1b0a58f0-74f3-11eb-b695-951b6e42c8ad_datagrid_profile_img.png",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tangle-157402.appspot.com/o/-MQNIsXDAR635_Dq-25Z%2F1b0a58f0-74f3-11eb-b695-951b6e42c8ad_datagrid_profile_img.png?alt=media&token=45c742db-04ab-455f-bb33-e61eda550717"
+    },
     "rowKey": "-MRuBBufb0sHngYQTa_m",
     "secondName": "Sherwood"
   },
@@ -28,7 +33,10 @@
     "name": "Test",
     "owner": "zRFsXLY959b5CgObvl4vESh6m2m1",
     "phoneNumber": "0742717237",
-    "profileImage": "d3810150-8cad-11eb-acbe-556f038eff88_datagrid_profile_img.png",
+    "profileImage": {
+      "fileName": "d3810150-8cad-11eb-acbe-556f038eff88_datagrid_profile_img.png",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tangle-157402.appspot.com/o/-MQNIsXDAR635_Dq-25Z%2Fd3810150-8cad-11eb-acbe-556f038eff88_datagrid_profile_img.png?alt=media&token=ea9139b6-b48c-4560-9297-4a32d98c1a2a"
+    },
     "rowKey": "-MWZUq4DsTd39PGbAN-c",
     "secondName": "Investor",
     "user": "zRFsXLY959b5CgObvl4vESh6m2m1"
@@ -63,54 +71,6 @@
     "secondName": "SESSION",
     "user": "QkZ3TU1itdQ7NngCadXk0NZ64R12"
   },
-  "-MXWUO7F0Efz_kI9o2Af": {
-    "_created": true,
-    "_id": 6,
-    "createdDate": 1617617064536,
-    "group": false,
-    "lastEditDate": 1617617064536,
-    "lastEditedBy": "iAJXgfQ3wPUXNu2o2QGLGmUbBMv2",
-    "location": "-MJwtgUqBjMrFNntf6GH",
-    "owner": "iAJXgfQ3wPUXNu2o2QGLGmUbBMv2",
-    "rowKey": "-MXWUO7F0Efz_kI9o2Af",
-    "user": "iAJXgfQ3wPUXNu2o2QGLGmUbBMv2"
-  },
-  "-MXWUQY1Xqp4Df7L9mK2": {
-    "_created": true,
-    "_id": 7,
-    "createdDate": 1617617074442,
-    "group": false,
-    "lastEditDate": 1617617074442,
-    "lastEditedBy": "iAJXgfQ3wPUXNu2o2QGLGmUbBMv2",
-    "location": "-MJwtgUqBjMrFNntf6GH",
-    "owner": "iAJXgfQ3wPUXNu2o2QGLGmUbBMv2",
-    "rowKey": "-MXWUQY1Xqp4Df7L9mK2",
-    "user": "iAJXgfQ3wPUXNu2o2QGLGmUbBMv2"
-  },
-  "-MXWVkLWubLACsPfczrS": {
-    "_created": true,
-    "_id": 8,
-    "createdDate": 1617617421801,
-    "group": false,
-    "lastEditDate": 1617617421801,
-    "lastEditedBy": "iAJXgfQ3wPUXNu2o2QGLGmUbBMv2",
-    "location": "-MJwtgUqBjMrFNntf6GH",
-    "owner": "iAJXgfQ3wPUXNu2o2QGLGmUbBMv2",
-    "rowKey": "-MXWVkLWubLACsPfczrS",
-    "user": "iAJXgfQ3wPUXNu2o2QGLGmUbBMv2"
-  },
-  "-MXWVx9sWxLMTS6PKdj0": {
-    "_created": true,
-    "_id": 9,
-    "createdDate": 1617617474303,
-    "group": false,
-    "lastEditDate": 1617617474303,
-    "lastEditedBy": "iAJXgfQ3wPUXNu2o2QGLGmUbBMv2",
-    "location": "-MJwtgUqBjMrFNntf6GH",
-    "owner": "iAJXgfQ3wPUXNu2o2QGLGmUbBMv2",
-    "rowKey": "-MXWVx9sWxLMTS6PKdj0",
-    "user": "iAJXgfQ3wPUXNu2o2QGLGmUbBMv2"
-  },
   "-MXaKE4syqhQK5sMD1hV": {
     "_created": true,
     "_id": 10,
@@ -144,26 +104,12 @@
     "name": "charlie",
     "owner": "gN0MPXPyN2YCl8CdrTH5wtPzHQg1",
     "phoneNumber": "07391297129",
-    "profileImage": "90a1d750-96b3-11eb-a834-530afd3a7cc3_datagrid_profile_img.png",
+    "profileImage": {
+      "fileName": "90a1d750-96b3-11eb-a834-530afd3a7cc3_datagrid_profile_img.png",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tangle-157402.appspot.com/o/-MQNIsXDAR635_Dq-25Z%2F90a1d750-96b3-11eb-a834-530afd3a7cc3_datagrid_profile_img.png?alt=media&token=d720da68-43fe-43c8-9309-f18a3c4e6c00"
+    },
     "rowKey": "-MXaKEpqgbHgE2igQ9Wg",
     "secondName": "winckworth",
     "user": "gN0MPXPyN2YCl8CdrTH5wtPzHQg1"
-  },
-  "-MXaKHEtOf1wkrujjodY": {
-    "_created": true,
-    "_id": 12,
-    "createdDate": 1617698301017,
-    "dateOfBirth": "09/06/1989, 00:00",
-    "group": false,
-    "isApproved": true,
-    "lastEditDate": 1617698569275,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "location": "-MJwtgUqBjMrFNntf6GH",
-    "name": "Dorian",
-    "owner": "bSKBOxq3oHOCH32B1w8d8TIuqVh1",
-    "phoneNumber": "07565849123",
-    "rowKey": "-MXaKHEtOf1wkrujjodY",
-    "secondName": "Kouider",
-    "user": "bSKBOxq3oHOCH32B1w8d8TIuqVh1"
   }
 }

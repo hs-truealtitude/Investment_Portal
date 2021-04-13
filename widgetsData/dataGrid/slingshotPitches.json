@@ -5,10 +5,11 @@
     "aboutTheCompany": {
       "displayName": "About the Company",
       "invisible": true,
-      "order": "18",
+      "order": "19",
       "type": "multiline_text"
     },
     "access": {
+      "Width": "222px",
       "displayName": "Access",
       "invisible": false,
       "lookUpTable": "publicOrPrivate",
@@ -17,22 +18,27 @@
     },
     "capitalAlreadyRaisedForCurrentFundingRound": {
       "displayName": "Capital already raised for current funding round",
-      "invisible": false,
-      "order": "29",
+      "invisible": true,
+      "order": "30",
       "priceFormat": true,
       "type": "number"
     },
     "capitalRaisedToDate": {
       "displayName": "Capital raised to-date",
-      "invisible": false,
-      "order": "55",
+      "invisible": true,
+      "order": "56",
       "priceFormat": true,
       "type": "number"
+    },
+    "commercialContractsSecured": {
+      "dataGrid": "commercialContracts",
+      "displayName": "Commercial Contracts Secured",
+      "filterColumn": "pitch"
     },
     "commitmentClosingDate": {
       "displayName": "Commitment Closing Date",
       "invisible": true,
-      "order": "16",
+      "order": "17",
       "type": "date"
     },
     "companyDebt": {
@@ -43,151 +49,149 @@
     },
     "companyEmail": {
       "displayName": "Company Email",
-      "invisible": false,
-      "order": "47",
+      "invisible": true,
+      "order": "48",
       "type": "email"
     },
     "companyLogo": {
       "Width": "153px",
       "displayName": "Company Logo",
       "invisible": false,
-      "order": "56",
+      "order": "1",
       "type": "profile_image"
     },
     "companyLogosAndBranding": {
       "displayName": "Company logos and branding",
-      "invisible": false,
-      "order": "81",
+      "invisible": true,
+      "order": "77",
       "type": "files"
     },
     "confidentialityAgreement": {
       "displayName": "Confidentiality Agreement",
-      "invisible": false,
-      "order": "6",
+      "invisible": true,
+      "order": "7",
       "type": "files"
     },
     "cornerstoneConsent": {
       "displayName": "Cornerstone Consent",
       "invisible": true,
       "lookUpTable": "yesOrNo",
-      "order": "8",
+      "order": "9",
       "type": "lookup"
     },
     "cornerstoneInvestorContactDetails": {
       "displayName": "Cornerstone Investor Contact Details",
       "invisible": true,
-      "order": "50",
+      "order": "51",
       "type": "multiline_text"
     },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": true,
-      "order": "53",
+      "order": "54",
       "type": "date"
     },
     "currentReturnOfRevenue": {
       "displayName": "Do you know your current return of revenue per employee?",
       "invisible": true,
-      "order": "25",
+      "order": "26",
       "type": "number"
     },
     "dataRoomDocuments": {
       "displayName": "Data Room Documents",
-      "invisible": false,
-      "order": "35",
+      "invisible": true,
+      "order": "36",
       "type": "string"
     },
     "dealProjectName": {
       "displayName": "Deal Project Name",
       "invisible": false,
-      "order": "26",
+      "order": "27",
       "type": "string"
     },
     "debtInformation": {
       "displayName": "Debt Information",
       "invisible": true,
-      "order": "74",
+      "order": "72",
       "type": "multiline_text"
     },
     "eISSEIS": {
       "displayName": "EIS SEIS",
       "invisible": true,
       "lookUpTable": "sEISANDOREIS",
-      "order": "5",
+      "order": "6",
       "type": "lookup"
     },
     "employeeAmount": {
       "displayName": "How many employees do you have?",
       "invisible": true,
-      "order": "78",
+      "order": "75",
       "type": "number"
     },
     "excludedInvestors": {
       "displayName": "Excluded Investors",
       "invisible": true,
-      "order": "41",
+      "order": "42",
       "type": "multiline_text"
     },
     "executiveSummaryOfProject": {
       "displayName": "Executive Summary of Project",
-      "invisible": false,
-      "order": "2",
+      "invisible": true,
+      "order": "3",
       "type": "files"
     },
     "financialForecastModel": {
       "displayName": "Financial Forecast Model",
-      "invisible": false,
-      "order": "20",
+      "invisible": true,
+      "order": "21",
       "type": "files"
     },
     "grantFunding": {
       "displayName": "Grant Funding",
-      "invisible": false,
-      "order": "46",
+      "invisible": true,
+      "order": "47",
       "priceFormat": true,
       "type": "number"
     },
     "hRRequirements": {
       "dataGrid": "hRRequirementsTable",
       "displayName": "HR Requirements",
-      "filterColumn": "slingshotPitches",
-      "order": "82",
-      "type": "datagrid"
+      "filterColumn": "slingshotPitches"
     },
     "howManyInteractionsToMeetProjection": {
       "displayName": "How many interactions do you feel you need in the program to successfully meet your commercial projections?",
       "invisible": true,
-      "order": "75",
+      "order": "73",
       "type": "number"
     },
     "howManyInteractionsToMeetProjectionOurOwnPrediction": {
       "displayName": "TA Prediction - How many interactions do you think are required to meet your current commercial  projections?",
       "invisible": true,
-      "order": "14",
+      "order": "15",
       "type": "number"
     },
     "howManySignedLOIMOUHOT": {
       "displayName": "How many signed LOIs, MOUs, HOTs in current pipeline in the next 12 months?",
       "invisible": true,
-      "order": "31",
+      "order": "32",
       "type": "number"
     },
     "iD": {
       "displayName": "ID",
       "invisible": true,
-      "order": "23",
+      "order": "24",
       "type": "string"
     },
     "investmentMemorandumDeck": {
       "displayName": "Investment Memorandum Deck",
-      "invisible": false,
-      "order": "19",
+      "invisible": true,
+      "order": "20",
       "type": "files"
     },
     "investmentRaised": {
       "displayName": "Investment Raised",
       "invisible": false,
-      "order": "27",
+      "order": "28",
       "priceFormat": true,
       "type": "number"
     },
@@ -195,50 +199,50 @@
       "displayName": "Investment Type",
       "invisible": true,
       "lookUpTable": "investmentType",
-      "order": "36",
+      "order": "37",
       "type": "lookup"
     },
     "jobsGeneratedThroughoutProgramme": {
       "displayName": "Number of permanent employees hired  throughout the programme?",
       "invisible": true,
-      "order": "38",
+      "order": "39",
       "type": "number"
     },
     "lastEditDate": {
       "displayName": "Last edit date",
       "invisible": true,
-      "order": "28",
+      "order": "29",
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
       "invisible": true,
-      "order": "79",
+      "order": "76",
       "type": "user"
     },
     "latestFinancialTradingInformation": {
       "displayName": "Latest Financial Trading Information",
-      "invisible": false,
+      "invisible": true,
       "order": "70",
       "type": "files"
     },
     "linkedInLink": {
       "displayName": "LinkedIn Link",
       "invisible": true,
-      "order": "30",
+      "order": "31",
       "type": "string"
     },
     "litigationTaxOrPressure": {
       "displayName": "Is the company subject to any litigation, tax or creditor pressure?",
       "invisible": true,
-      "order": "32",
+      "order": "33",
       "type": "multiline_text"
     },
     "location": {
       "displayName": "Location",
       "invisible": true,
       "lookUpTable": "country",
-      "order": "17",
+      "order": "18",
       "type": "lookup"
     },
     "mainInvestorsCommitedInCurrentRound": {
@@ -249,77 +253,74 @@
     },
     "mentorRequirementsSummary": {
       "displayName": "Mentor Requirements Summary",
-      "invisible": false,
+      "invisible": true,
       "order": "68",
       "type": "multiline_text"
     },
     "milestones": {
       "dataGrid": "milestones",
       "displayName": "Please enter the milestones you have completed in the last 6 months.",
-      "filterColumn": "slingshotPitches",
-      "order": "72",
-      "type": "datagrid"
+      "filterColumn": "slingshotPitches"
     },
     "minimumInvestment": {
       "displayName": "Minimum Investment",
-      "invisible": false,
-      "order": "3",
+      "invisible": true,
+      "order": "4",
       "priceFormat": true,
       "type": "number"
     },
     "mobileNumber": {
       "displayName": "Contact Number",
-      "invisible": false,
-      "order": "45",
+      "invisible": true,
+      "order": "46",
       "type": "phone"
     },
     "name": {
+      "Width": "260px",
       "displayName": "Company Name",
       "invisible": false,
-      "order": "1",
+      "order": "2",
       "type": "string"
     },
     "news": {
       "displayName": "News",
       "invisible": true,
-      "order": "37",
+      "order": "38",
       "type": "multiline_text"
     },
     "next5": {
       "displayName": "next5",
-      "invisible": false,
-      "order": "21",
+      "invisible": true,
+      "order": "22",
       "type": "custom"
     },
     "nextEvents": {
       "displayName": "Next Events",
       "invisible": true,
-      "order": "40",
+      "order": "41",
       "type": "string"
     },
     "nextFiveYearsMilestones": {
       "dataGrid": "nextFiveYearsMilestones",
       "displayName": "Please enter the milestones you aim to complete in the next 5 years.",
-      "filterColumn": "slingshotPitches",
-      "order": "73",
-      "type": "datagrid"
+      "filterColumn": "slingshotPitches"
     },
     "note": {
       "displayName": "Note",
-      "invisible": false,
-      "order": "22",
+      "invisible": true,
+      "order": "23",
       "type": "custom"
     },
     "numberOfCommercialTrials": {
       "displayName": "Number of commercial trials secured?",
       "invisible": true,
-      "order": "33",
+      "order": "34",
       "type": "number"
     },
     "numberOfInteractionsCommercialOpportunities": {
       "displayName": "How many live commercial activites (number of contracts signed)?",
       "invisible": true,
-      "order": "48",
+      "order": "49",
       "type": "number"
     },
     "numberOfJobsGenerated": {
@@ -337,7 +338,7 @@
     "permanentHigherEducationJobs": {
       "displayName": "Number of permanent employees hired that are professional?",
       "invisible": true,
-      "order": "43",
+      "order": "44",
       "type": "number"
     },
     "permanentProfessionalJobs": {
@@ -354,8 +355,8 @@
     },
     "preMoneyValuationOfCurrentRound": {
       "displayName": "Pre-money valuation of current round",
-      "invisible": false,
-      "order": "10",
+      "invisible": true,
+      "order": "11",
       "priceFormat": true,
       "type": "number"
     },
@@ -374,41 +375,39 @@
     "predictedEmployeesHired3Years": {
       "displayName": "How many employees do you project hiring over the next 3 years?",
       "invisible": true,
-      "order": "49",
+      "order": "50",
       "type": "number"
     },
     "predictedEmployeesHired5Years": {
       "displayName": "How many employees do you project hiring over the next 5 years?",
       "invisible": true,
-      "order": "4",
+      "order": "5",
       "type": "number"
     },
     "productGrowthOtherIndustries": {
       "displayName": "What other industries can you product or solution add value to?",
       "invisible": true,
       "lookUpTable": "sector",
-      "order": "12",
+      "order": "13",
       "type": "multi_lookup"
     },
     "references": {
       "dataGrid": "references",
       "displayName": "Add References",
-      "filterColumn": "slingshotPitch",
-      "order": "80",
-      "type": "datagrid"
+      "filterColumn": "slingshotPitch"
     },
     "sME": {
       "displayName": "SME",
       "invisible": false,
       "lookUpTable": "sMEProfiles",
-      "order": "34",
+      "order": "35",
       "type": "lookup"
     },
     "sectors": {
       "displayName": "Sectors",
       "invisible": true,
       "lookUpTable": "sector",
-      "order": "13",
+      "order": "14",
       "type": "multi_lookup"
     },
     "skills": {
@@ -427,13 +426,13 @@
     "startDate": {
       "displayName": "What date did your company start?",
       "invisible": true,
-      "order": "51",
+      "order": "52",
       "type": "date"
     },
     "state": {
       "displayName": "State",
       "invisible": true,
-      "order": "9",
+      "order": "10",
       "type": "string"
     },
     "submitPitch": {
@@ -445,7 +444,7 @@
     "targetCompletionDate": {
       "displayName": "Target Completion Date",
       "invisible": true,
-      "order": "24",
+      "order": "25",
       "type": "date"
     },
     "targetInvestorsForDealMarketing": {
@@ -457,33 +456,31 @@
     },
     "targetReturnOfInvestment": {
       "displayName": "Target Return of Investment",
-      "invisible": false,
-      "order": "52",
+      "invisible": true,
+      "order": "53",
       "priceFormat": true,
       "type": "number"
     },
     "teamMembers": {
       "dataGrid": "teamMembersTable",
       "displayName": "Key Team Members",
-      "filterColumn": "slingshotPitches",
-      "order": "77",
-      "type": "datagrid"
+      "filterColumn": "slingshotPitches"
     },
     "testbedHigherEducationJobs": {
       "displayName": "Number of jobs generated which are higher education?",
       "invisible": true,
-      "order": "44",
+      "order": "45",
       "type": "number"
     },
     "testbedProfessionalJobs": {
       "displayName": "Number of jobs generated which are professional?",
       "invisible": true,
-      "order": "54",
+      "order": "55",
       "type": "number"
     },
     "totalFundingRound": {
       "displayName": "Total Funding Round",
-      "invisible": false,
+      "invisible": true,
       "order": "66",
       "priceFormat": true,
       "type": "number"
@@ -492,37 +489,37 @@
       "displayName": "True Altitude LinkedIn Marketing",
       "invisible": true,
       "lookUpTable": "yesOrNo",
-      "order": "7",
+      "order": "8",
       "type": "lookup"
     },
     "user": {
       "displayName": "User",
       "invisible": true,
-      "order": "11",
+      "order": "12",
       "type": "user"
     },
     "w": {
       "displayName": "w",
-      "invisible": false,
-      "order": "15",
+      "invisible": true,
+      "order": "16",
       "type": "custom"
     },
     "website": {
       "displayName": "Website",
       "invisible": true,
-      "order": "76",
+      "order": "74",
       "type": "string"
     },
     "wiz": {
       "displayName": "",
       "invisible": true,
-      "order": "39",
+      "order": "40",
       "type": "custom"
     },
     "wizard": {
       "displayName": "",
       "invisible": true,
-      "order": "42",
+      "order": "43",
       "type": "custom"
     }
   },
@@ -5064,6 +5061,9 @@
           "order": "71"
         }
       },
+      "roles": [
+        "-MXvhCDprEN74BTAvdwe"
+      ],
       "title": "Admin View"
     },
     "approvePitches": {
@@ -5382,6 +5382,9 @@
           "order": "50"
         }
       },
+      "roles": [
+        "-MXvhCDprEN74BTAvdwe"
+      ],
       "title": "Approve Pitches"
     },
     "filteredCardList": {
@@ -5705,6 +5708,9 @@
           "order": "79"
         }
       },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
       "title": "Filtered Card List"
     },
     "mySlingshotPitches": {
@@ -5971,6 +5977,9 @@
           "order": "43"
         }
       },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
       "title": "My Slingshot Pitches"
     }
   }

@@ -5,7 +5,7 @@
     </b-button>
 
   </div>
-  <center style="padding-top: 20px;"><img :src="row.$profileImage$display" style="border-radius: 15px; max-width:100px; " /> </center>
+  <center style="padding-top: 20px;"><img :src="row.profileImage.url" style="border-radius: 15px; max-width:100px; " /> </center>
   <a href="#!">
   </a>
   <div class="pt-4 text-center">
@@ -28,7 +28,7 @@
         <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 0.8em;     font-weight: 400;"> {{row.phoneNumber}} </span>
         </p>
 
-        <p class="h4 font-weight-Bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Email: </p>       <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;" class="h4 font-weight-light text-muted" v-for='e in row.$user$display'>
+        <p class="h4 font-weight-Bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Email: </p>       <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;" class="h4 font-weight-light text-muted" v-for='e in row.$owner$display'>
       <div class="row" style="justify-content:center; height: 40px;">
         <a style="color: #ef4437;" href="`mailto:${e}`">{{e}}</a>
         </small>

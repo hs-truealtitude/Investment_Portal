@@ -114,8 +114,13 @@ button{
     width: 200px;
 }
 body {
-    background: url("https://i.postimg.cc/rscCL64G/TA-Illustration-Full-Resolution.jpg");
+    background: url("https://i.postimg.cc/rscCL64G/TA-Illustration-Full-Resolution.jpg") no-repeat 0 0 fixed;
     background-size: cover;
+    background-repeat:   no-repeat;
+        -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+    
 
 }
 
@@ -135,11 +140,6 @@ body {
 
 }
 
-@media only screen and (max-width: 600px) {
-      body {
-         background-size: auto;
-        }  
-}
 
 .btn-primary{
     background:#fffaf3 !important;

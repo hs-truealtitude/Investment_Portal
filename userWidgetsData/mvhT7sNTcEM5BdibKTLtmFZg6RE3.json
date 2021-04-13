@@ -7,14 +7,20 @@
   "activePitch": "-MNxSBgOmL-2YELwJrrM",
   "activeProfile": "-MRe6RajCkTqEqU6rM2u",
   "activeSMEProfile": "-MRtT5SEXrMWe-DQh28W",
-  "activeSlingshotPitch": "-MXkkI4wJ0liSj5q_X_H",
+  "activeSlingshotPitch": "-MY9NqWy5jVWvCWwXcVu",
   "activeSlingshotPitches": "",
   "cookieConsent": "true",
   "filterMentor": "-MRuFWlCqAaR0CJqb3ZL",
   "filterPitch": "-MNZ-kKtSmZQuN7gqgFt",
   "filterSME": "-MSDB4vGVTDWjl3zyJaV",
   "hideBack": "YES",
+  "investorProfiles_lastViews": "",
+  "mentors_lastViews": "approvedMentors",
   "pitch": "-MLCLEhZkPjwRU01IsN-",
   "profileID": "-MSDB4vGVTDWjl3zyJaV",
-  "sessionDirection": "Mentor->SME"
+  "programmePartnerProfiles_lastViews": "pPApproval",
+  "sMEProfiles_lastViews": "sMEApproval",
+  "sessionDirection": "SME->Mentor",
+  "sessions_lastViews": "myBookedSessionsMentor",
+  "slingshotPitches_lastViews": "adminView"
 }

@@ -4,7 +4,7 @@
       <b-card>
 
         <div style="padding-top: 20px; padding-left: 20px; padding-right: 20px;">
-          <img class="detail_image" :src="row.$companyLogo$display" width="100px" height="100px" style="margin-left: 5px; vertical-align:middle; border-radius: 15px;">
+          <img class="detail_image" v-if="row.companyLogo" :src="row.companyLogo.url" width="100px" height="100px" style="margin-left: 5px; vertical-align:middle; border-radius: 15px;">
           <span class="company_title" style="font-weight: bold; font-family: 'Grenette pro', sans-serif; font-size: 25px; color:black; margin-left: 10px; ">{{row.name}} - {{row.dealProjectName}}</span>
         </div>
 

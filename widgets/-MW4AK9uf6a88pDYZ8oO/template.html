@@ -5,7 +5,7 @@
     </button>
 
     <center>
-      <img v-if='row.$sME' :src="$getDashboardModel('sMEProfiles')[row.sME].$profileImage$display" style="border-radius: 15px; max-width:90px; padding: 5px; " />
+      <img v-if='row.$sME' :src="$getDashboardModel('sMEProfiles')[row.sME].profileImage.url" style="border-radius: 15px; max-width:90px; padding: 5px; " />
     </center>
 
     <div class="pt-4 text-center">

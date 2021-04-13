@@ -3,7 +3,7 @@
       <i class="fas fa-trash-alt"></i>
     </button>
     <div style="padding-top: 20px;  ">
-      <center><img v-if='row.$mentor' :src="$getDashboardModel('mentors')[row.mentor].$profileImage$display" style="border-radius: 15px; max-width:70px;  " /> </center>
+      <center><img v-if='row.$mentor' :src="$getDashboardModel('mentors')[row.mentor].profileImage.url" style="border-radius: 15px; max-width:70px;  " /> </center>
     </div>
     <div class="pt-4 text-center">
       <h5 class="h3 title">
