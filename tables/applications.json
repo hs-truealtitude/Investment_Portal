@@ -1822,28 +1822,6 @@
     "sME": "-MSDB4vGVTDWjl3zyJaV",
     "state": "User Task - Accepted (RESPONSE TO MENTOR)"
   },
-  "-MWd4zdxATipDxwh6uG_": {
-    "_id": 206,
-    "applicationStatus": "-MS2D3bgt4vWZpZco7Aw",
-    "createdBy": "G7iNlfKQ8sbcXkgm8EnBBpjPKOk2",
-    "createdDate": 1616670881895,
-    "group": false,
-    "isComplete": true,
-    "lastEditDate": 1616670932180,
-    "lastEditedBy": "G7iNlfKQ8sbcXkgm8EnBBpjPKOk2",
-    "mentor": "-MWZUdCfzbwQ0IzXQO_0",
-    "message": "TEST",
-    "name": "Mentor->SME",
-    "nextEvents": "Ok",
-    "notificationDescription": "A Mentor has applied for BriteYellow Limited",
-    "owner": "G7iNlfKQ8sbcXkgm8EnBBpjPKOk2",
-    "pitch": "-MOb6mnS4-QZeNA3NQEL",
-    "referralTypeSME": "-MSXrH_xpojUkTnzBsPK",
-    "responseOpened": true,
-    "rowKey": "-MWd4zdxATipDxwh6uG_",
-    "sME": "-MSDB4vGVTDWjl3zyJaV",
-    "state": "User Task - Accepted (RESPONSE TO MENTOR)"
-  },
   "-MWd5dERRY4EyawaMoDi": {
     "_id": 208,
     "applicationStatus": "-MS2D3kchEIGhr_88ARk",
@@ -2668,7 +2646,7 @@
   },
   "-MY9VLoVtDhKwMcU-itW": {
     "_id": 253,
-    "applicationStatus": "-MS2D3TANT4YEUz1kO4G",
+    "applicationStatus": "-MS2D3kchEIGhr_88ARk",
     "createdBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "createdDate": 1618305181050,
     "group": false,
@@ -2677,13 +2655,13 @@
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "message": "TEST",
     "name": "Investor->SME",
-    "nextEvents": "Approve,Reject",
+    "nextEvents": "Ok",
     "notificationDescription": "An Investor has applied for Findaa Technology Ltd",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "pitch": "-MNZ-kKtSmZQuN7gqgFt",
     "referralTypeSME": "-MSXrH_xpojUkTnzBsPK",
     "rowKey": "-MY9VLoVtDhKwMcU-itW",
     "sME": "-MSDB4vGVTDWjl3zyJaV",
-    "state": "Inv SME Approve"
+    "state": "User Task - Rejected"
   }
 }

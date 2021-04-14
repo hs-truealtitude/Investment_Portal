@@ -9,7 +9,7 @@
   "hidden": true,
   "layout": "b-card",
   "offSet": 0,
-  "overflow": "",
+  "overflow": "height:auto",
   "perPage": 2,
   "styles": "",
   "subtab": "-MVHMvYtBCMU0F17kIwK",

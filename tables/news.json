@@ -1,0 +1,40 @@
+{
+  "-MYFaDmz5uVSrssUPtvT": {
+    "_id": 1,
+    "createdDate": 1618407386219,
+    "group": false,
+    "lastEditDate": 1618407402576,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "TEST",
+    "newsDescription": "TEST",
+    "newsLink": "www.test.com",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "pitch": "-MYF_nPYwb_zCLYf4hiA",
+    "rowKey": "-MYFaDmz5uVSrssUPtvT"
+  },
+  "-MYFe9VC05nWbv4Xia0g": {
+    "_id": 3,
+    "createdDate": 1618408417211,
+    "group": false,
+    "lastEditDate": 1618408429720,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Test 2",
+    "newsDescription": "TEST DESC",
+    "newsLink": "www.test.com",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "pitch": "-MMzZ2krPwl50hP5t54m",
+    "rowKey": "-MYFe9VC05nWbv4Xia0g"
+  },
+  "-MYFoDlac1dSPxXm_3T4": {
+    "_id": 4,
+    "createdDate": 1618411056147,
+    "group": false,
+    "lastEditDate": 1618411065454,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "TEST",
+    "newsDescription": "TEST",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "pitch": "-MNZ-kKtSmZQuN7gqgFt",
+    "rowKey": "-MYFoDlac1dSPxXm_3T4"
+  }
+}

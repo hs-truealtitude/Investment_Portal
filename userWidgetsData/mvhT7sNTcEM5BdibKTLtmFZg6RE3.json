@@ -7,7 +7,7 @@
   "activePitch": "-MNxSBgOmL-2YELwJrrM",
   "activeProfile": "-MRe6RajCkTqEqU6rM2u",
   "activeSMEProfile": "-MRtT5SEXrMWe-DQh28W",
-  "activeSlingshotPitch": "-MY9NqWy5jVWvCWwXcVu",
+  "activeSlingshotPitch": "-MMzZ2krPwl50hP5t54m",
   "activeSlingshotPitches": "",
   "cookieConsent": "true",
   "filterMentor": "-MRuFWlCqAaR0CJqb3ZL",
@@ -16,11 +16,13 @@
   "hideBack": "YES",
   "investorProfiles_lastViews": "",
   "mentors_lastViews": "approvedMentors",
+  "milestones_lastViews": "slingshot",
+  "news_lastViews": "allNews",
   "pitch": "-MLCLEhZkPjwRU01IsN-",
   "profileID": "-MSDB4vGVTDWjl3zyJaV",
   "programmePartnerProfiles_lastViews": "pPApproval",
   "sMEProfiles_lastViews": "sMEApproval",
   "sessionDirection": "SME->Mentor",
   "sessions_lastViews": "myBookedSessionsMentor",
-  "slingshotPitches_lastViews": "adminView"
+  "slingshotPitches_lastViews": "filteredCardList"
 }

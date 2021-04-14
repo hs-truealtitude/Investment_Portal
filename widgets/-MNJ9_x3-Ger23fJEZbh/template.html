@@ -1,9 +1,9 @@
 <div v-if='row.$slingshotPitches' class="card-body">
 
   <div class="row" style="padding-top:5px;">
-    <i @click="unSavePitch(saveSlingshot(row.$slingshotPitches.rowKey))" v-if="saveSlingshot(row.$slingshotPitches.rowKey)" class="fas fa-star" style="color: black;">
+    <i @click="unSavePitch(saveSlingshot(row.$slingshotPitches.rowKey))" v-if="saveSlingshot(row.$slingshotPitches.rowKey)" class="fas fa-star fa-lg" style="color: black;">
     </i>
-    <i @click="saveSlingshotPitch(row.$slingshotPitches.rowKey, row.$slingshotPitches.$companyLogo$display)" v-if="!saveSlingshot(row.$slingshotPitches.rowKey)" class="far fa-star" style="color: black;">
+    <i @click="saveSlingshotPitch(row.$slingshotPitches.rowKey, row.$slingshotPitches.$companyLogo$display)" v-if="!saveSlingshot(row.$slingshotPitches.rowKey)" class="far fa-star fa-lg" style="color: black;">
     </i>
   </div>
 

@@ -1216,7 +1216,7 @@
   "title": "Mentors",
   "views": {
     "approvedMentors": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Approved Mentors\",\"hidden\":true}]}",
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Approved Mentors\",\"hidden\":true},{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"First Name\",\"hidden\":false}]}",
       "meta": {
         "aboutMe": {
           "invisible": false,

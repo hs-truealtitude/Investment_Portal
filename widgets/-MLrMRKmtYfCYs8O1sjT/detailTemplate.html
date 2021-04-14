@@ -338,7 +338,7 @@
                   <p class="h4 font-weight-bold"> Team Members</p>
                   <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400; " v-for="member in filterBy($getGrid('teamMembersTable'), row.rowKey, 'slingshotPitches') ">
                     <div class="rectangle" style="padding: 5px; border-radius: 6px; width:auto; margin: 10px; ">
-                      <img :src="member.$profilePitcture$display" style="border-radius: 15px; vertical-align:middle; max-width:100px  " />
+                      <img v-if="member.profilePitcture" :src="member.profilePitcture.url" style="border-radius: 15px; vertical-align:middle; max-width:60px; margin-right: 10px;  " />
                       {{member.name}}
                       {{member.secondName}}
                       - {{member.$jobRole$display}}

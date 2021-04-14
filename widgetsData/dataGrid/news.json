@@ -2,91 +2,86 @@
   "displayColumn": "name",
   "isReactive": true,
   "meta": {
-    "completed": {
-      "displayName": "Is the milestone completed?",
-      "invisible": false,
-      "order": "4",
-      "type": "checkbox"
-    },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": true,
       "order": "1",
       "type": "date"
     },
-    "description": {
-      "displayName": "Description",
-      "invisible": false,
-      "order": "3",
-      "type": "string"
-    },
     "lastEditDate": {
       "displayName": "Last edit date",
       "invisible": true,
-      "order": "9",
+      "order": "6",
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
       "invisible": true,
-      "order": "8",
+      "order": "5",
       "type": "user"
     },
     "name": {
-      "displayName": "Milestone",
+      "displayName": "News Title",
       "invisible": false,
       "order": "0",
+      "type": "string"
+    },
+    "newsDescription": {
+      "displayName": "News Description",
+      "invisible": false,
+      "order": "7",
+      "type": "multiline_text"
+    },
+    "newsLink": {
+      "displayName": "News Link",
+      "invisible": false,
+      "order": "8",
       "type": "string"
     },
     "nextEvents": {
       "displayName": "Next Events",
       "invisible": true,
-      "order": "7",
+      "order": "4",
       "type": "string"
     },
     "owner": {
       "displayName": "Owner",
       "invisible": true,
-      "order": "5",
+      "order": "2",
       "type": "user"
     },
-    "slingshotPitches": {
-      "displayName": "SlingshotPitches",
+    "pitch": {
+      "displayName": "Pitch",
+      "invisible": false,
       "lookUpTable": "slingshotPitches",
-      "order": 10,
+      "order": "9",
       "type": "lookup"
     },
     "state": {
       "displayName": "State",
       "invisible": true,
-      "order": "6",
+      "order": "3",
       "type": "string"
-    },
-    "targetCompletionDate": {
-      "displayName": "Target Completion Date",
-      "invisible": false,
-      "order": "2",
-      "type": "date"
     }
   },
   "rowEditorFieldsForm": {
     "sections": [
       {
-        "name": "section_9329",
-        "label": "",
-        "clientKey": "section_9329",
+        "name": "section_157191",
+        "label": "News",
+        "clientKey": "section_157191",
         "order": 0,
         "rows": [
           {
-            "name": "section_9329_row_303451",
+            "name": "section_157191_row_956178",
             "label": "",
             "order": 0,
             "controls": [
               {
                 "type": "text",
-                "name": "control_text_837221",
-                "fieldName": "control_text_837221",
-                "label": "Milestone",
+                "name": "control_text_342772",
+                "fieldName": "control_text_342772",
+                "label": "News Title",
                 "order": 0,
                 "defaultValue": "",
                 "value": "",
@@ -97,7 +92,7 @@
                 "labelBold": false,
                 "labelItalic": false,
                 "labelUnderline": false,
-                "required": true,
+                "required": false,
                 "requiredCondition": "",
                 "isMultiLine": false,
                 "isInteger": false,
@@ -124,13 +119,13 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "name",
-                "gridId": "nextFiveYearsMilestones"
+                "gridId": "news"
               },
               {
-                "type": "text",
-                "name": "control_text_158208",
-                "fieldName": "control_text_158208",
-                "label": "Description",
+                "type": "multiline_text",
+                "name": "control_multiline_text_109942",
+                "fieldName": "control_multiline_text_109942",
+                "label": "News Description",
                 "order": 1,
                 "defaultValue": "",
                 "value": "",
@@ -141,7 +136,7 @@
                 "labelBold": false,
                 "labelItalic": false,
                 "labelUnderline": false,
-                "required": true,
+                "required": false,
                 "requiredCondition": "",
                 "isMultiLine": false,
                 "isInteger": false,
@@ -167,59 +162,15 @@
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "description",
-                "gridId": "nextFiveYearsMilestones"
+                "propName": "newsDescription",
+                "gridId": "news"
               },
               {
-                "type": "datepicker",
-                "name": "control_datepicker_825309",
-                "fieldName": "control_datepicker_825309",
-                "label": "Target Completion Date",
-                "order": 2,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-12",
-                "readonly": false,
-                "readonlyCondition": "",
-                "placeholder": "",
-                "labelBold": false,
-                "labelItalic": false,
-                "labelUnderline": false,
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": true,
-                "isTodayValueCreated": true,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isCurrentUser": false,
-                "isCurrentUserOwner": true,
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": false,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "propName": "targetCompletionDate",
-                "gridId": "nextFiveYearsMilestones"
-              },
-              {
-                "type": "checkbox",
-                "name": "control_checkbox_385089",
-                "fieldName": "control_checkbox_385089",
-                "label": "Is the milestone completed?",
-                "order": 3,
+                "type": "text",
+                "name": "control_text_225031",
+                "fieldName": "control_text_225031",
+                "label": "News Link",
+                "order": 0,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -255,15 +206,16 @@
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "completed",
-                "gridId": "nextFiveYearsMilestones"
+                "propName": "newsLink",
+                "gridId": "news",
+                "description": "Please ensure your link is entered like so 'www.example.com'."
               },
               {
                 "type": "datepicker",
-                "name": "control_datepicker_649951",
-                "fieldName": "control_datepicker_649951",
+                "name": "control_datepicker_228535",
+                "fieldName": "control_datepicker_228535",
                 "label": "Created Date",
-                "order": 4,
+                "order": 2,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -278,7 +230,7 @@
                 "isMultiLine": false,
                 "isInteger": false,
                 "decimalPlace": 0,
-                "isTodayValue": true,
+                "isTodayValue": false,
                 "isTodayValueCreated": true,
                 "dateFormat": "mm/dd/yy hh:mm p",
                 "isCurrentUser": false,
@@ -300,14 +252,14 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "createdDate",
-                "gridId": "nextFiveYearsMilestones"
+                "gridId": "news"
               },
               {
                 "type": "user",
-                "name": "control_user_431086",
-                "fieldName": "control_user_431086",
+                "name": "control_user_433462",
+                "fieldName": "control_user_433462",
                 "label": "Owner",
-                "order": 5,
+                "order": 3,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -344,14 +296,14 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "owner",
-                "gridId": "nextFiveYearsMilestones"
+                "gridId": "news"
               },
               {
                 "type": "text",
-                "name": "control_text_296509",
-                "fieldName": "control_text_296509",
+                "name": "control_text_446715",
+                "fieldName": "control_text_446715",
                 "label": "State",
-                "order": 6,
+                "order": 4,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -388,14 +340,14 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "state",
-                "gridId": "nextFiveYearsMilestones"
+                "gridId": "news"
               },
               {
                 "type": "text",
-                "name": "control_text_702683",
-                "fieldName": "control_text_702683",
+                "name": "control_text_2272",
+                "fieldName": "control_text_2272",
                 "label": "Next Events",
-                "order": 7,
+                "order": 5,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -432,14 +384,14 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "nextEvents",
-                "gridId": "nextFiveYearsMilestones"
+                "gridId": "news"
               },
               {
                 "type": "user",
-                "name": "control_user_704461",
-                "fieldName": "control_user_704461",
+                "name": "control_user_413066",
+                "fieldName": "control_user_413066",
                 "label": "Last edited by",
-                "order": 8,
+                "order": 6,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -476,14 +428,59 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "lastEditedBy",
-                "gridId": "nextFiveYearsMilestones"
+                "gridId": "news"
+              },
+              {
+                "type": "lookup",
+                "name": "control_lookup_623175",
+                "fieldName": "control_lookup_623175",
+                "label": "Pitch",
+                "order": 7,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "pitch",
+                "ableToAddLookUpVal": true,
+                "gridId": "news"
               },
               {
                 "type": "datepicker",
-                "name": "control_datepicker_396742",
-                "fieldName": "control_datepicker_396742",
+                "name": "control_datepicker_735037",
+                "fieldName": "control_datepicker_735037",
                 "label": "Last edit date",
-                "order": 9,
+                "order": 8,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -520,52 +517,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "lastEditDate",
-                "gridId": "nextFiveYearsMilestones"
-              },
-              {
-                "type": "lookup",
-                "name": "control_lookup_78851",
-                "fieldName": "control_lookup_78851",
-                "label": "SlingshotPitches",
-                "order": 0,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-6",
-                "readonly": false,
-                "readonlyCondition": "",
-                "placeholder": "",
-                "labelBold": false,
-                "labelItalic": false,
-                "labelUnderline": false,
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "isTodayValueCreated": true,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isCurrentUser": false,
-                "isCurrentUserOwner": true,
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": true,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "propName": "slingshotPitches",
-                "ableToAddLookUpVal": true,
-                "gridId": "nextFiveYearsMilestones"
+                "gridId": "news"
               }
             ]
           }
@@ -578,14 +530,69 @@
       }
     ],
     "layout": "collapse",
-    "_uniqueId": 0.16811160527386537
+    "_uniqueId": 0.8143570566808878
   },
-  "source": "nextFiveYearsMilestones",
+  "source": "news",
   "storageType": "dashboard",
-  "title": "Next Five Years Milestones",
+  "title": "News",
   "viewTemplate": {
     "colsPerRow": 1,
     "maxWidth": 300,
     "type": "card-list"
+  },
+  "views": {
+    "allNews": {
+      "meta": {
+        "createdDate": {
+          "invisible": true,
+          "order": "1"
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": "6"
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": "5"
+        },
+        "name": {
+          "invisible": false,
+          "order": "0"
+        },
+        "newsDescription": {
+          "invisible": false,
+          "order": "7"
+        },
+        "newsLink": {
+          "invisible": false,
+          "order": "8"
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": "4"
+        },
+        "owner": {
+          "invisible": true,
+          "order": "2"
+        },
+        "pitch": {
+          "invisible": false,
+          "order": "9"
+        },
+        "state": {
+          "invisible": true,
+          "order": "3"
+        }
+      },
+      "roles": [
+        "-MLqbNbgYlSQD7vx_FbF"
+      ],
+      "title": "All News",
+      "viewTemplate": {
+        "colsPerRow": 1,
+        "maxWidth": 300,
+        "type": "card-list"
+      }
+    }
   }
 }

@@ -233,14 +233,43 @@
     "slingshotPitches": "-MVq-LcdeHaua2mXTZFg",
     "targetCompletionDate": 1614816000000
   },
-  "-MX3_Ndo3T511cQTu8fI": {
+  "-MYAPWClclsncp92McCO": {
     "_id": 26,
-    "createdDate": 1617132094557,
+    "createdDate": 1618320430055,
+    "description": "£350,000 SMART Grant",
     "group": false,
-    "lastEditDate": 1617132094895,
+    "lastEditDate": 1618320489479,
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Close innovate SMART Grant",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "rowKey": "-MX3_Ndo3T511cQTu8fI",
-    "slingshotPitches": "-MMzZ2krPwl50hP5t54m"
+    "rowKey": "-MYAPWClclsncp92McCO",
+    "slingshotPitches": "-MMzZ2krPwl50hP5t54m",
+    "targetCompletionDate": 1578700800000
+  },
+  "-MYAPk9gydc1Rl00LmsV": {
+    "_id": 27,
+    "createdDate": 1618320491298,
+    "description": "Product Development",
+    "group": false,
+    "lastEditDate": 1618320578154,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Engage with CPI for product development",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MYAPk9gydc1Rl00LmsV",
+    "slingshotPitches": "-MMzZ2krPwl50hP5t54m",
+    "targetCompletionDate": 1618268400000
+  },
+  "-MYAPwVncQsdV6J8zrhw": {
+    "_id": 28,
+    "createdDate": 1618320541865,
+    "description": "Close £450,000 in VC Capital",
+    "group": false,
+    "lastEditDate": 1618320579897,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Equity/VC Round",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MYAPwVncQsdV6J8zrhw",
+    "slingshotPitches": "-MMzZ2krPwl50hP5t54m",
+    "targetCompletionDate": 1619737200000
   }
 }
