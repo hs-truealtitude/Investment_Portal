@@ -6,8 +6,8 @@
   </b-button>
 
   <center style="padding-top:30px;">
-    <img v-if='row.$mentor' :src="$getDashboardModel('mentors')[row.mentor].profileImage.url" style="border-radius: 15px; max-width:90px; padding: 5px; " />
-    <img v-if='row.$pitch' :src="$getDashboardModel('slingshotPitches')[row.pitch].companyLogo.url" style="border-radius: 15px; max-width:70px; padding: 5px;  " />
+    <img v-if='row.$mentor.profileImage' :src="$getDashboardModel('mentors')[row.mentor].profileImage.url" style="border-radius: 15px; max-width:90px; padding: 5px; " />
+    <img v-if='row.$pitch.companyLogo' :src="$getDashboardModel('slingshotPitches')[row.pitch].companyLogo.url" style="border-radius: 15px; max-width:70px; padding: 5px;  " />
   </center>
   </a>
   <div class="pt-4 text-center">

@@ -3,8 +3,8 @@
   </div>
 
   <center style="padding-top: 10px;">
-    <img v-if='row.$mentor' :src="$getDashboardModel('mentors')[row.mentor].profileImage.url" style="border-radius: 15px; max-width:90px; padding: 5px; " />
-    <img v-if='row.$pitch' :src="$getDashboardModel('slingshotPitches')[row.pitch].companyLogo.url" style="border-radius: 15px; max-width:70px; padding: 5px;  " />
+    <img v-if='row.$mentor.profileImage' :src="$getDashboardModel('mentors')[row.mentor].profileImage.url" style="border-radius: 15px; max-width:90px; padding: 5px; " />
+    <img v-if='row.$pitch.companyLogo' :src="$getDashboardModel('slingshotPitches')[row.pitch].companyLogo.url" style="border-radius: 15px; max-width:70px; padding: 5px;  " />
   </center>
   </a>
   <div class="pt-4 text-center">
@@ -13,32 +13,31 @@
       <span style="color: black; font-size: 20px; font-family: 'Grenette pro', sans-serif;" class="d-block mb-1">{{row.$mentor.name}} {{row.$mentor.secondName}}</span>
       <i style="color: black;" class="fas fa-hands-helping"></i>
       <span style="color: black; font-size: 20px; font-family: 'Grenette pro', sans-serif; padding-bottom: 10px;" class="d-block mb-1">{{row.$pitch.name}}</span>
+        
+        <div style="height: 30px; padding-top: 10px;" class="row justify-content-center">
+          <span class="d-block mb-1" style="text-decoration:underline; font-family: 'Grenette pro', sans-serif; color: black; font-size: 1em;  ">{{row.name}}</span>
+        </div>
 
-      <div class="row" style="justify-content:center; padding-bottom: 10px;">
-        <small style="color: black; font-size: 20px; font-family: 'Grenette pro', sans-serif; " class="h4 font-weight-light">{{row.name}}</small>
-      </div>
+        <div style="height: 120px; padding-top: 15px;" class="about">
+          <p style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;  font-weight: 400;">{{truncateText(row.notes, 200)}}</p>
+        </div>
 
-      <div class="row" style="justify-content:center;">
-        <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;" class="h4 font-weight-light">{{row.notes}}</small>
-      </div>
-
-      <div class="row" style="justify-content:center;">
-        <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;">{{new Date(row.$sDate$display).toLocaleDateString("en-US", {
+        <div style="height: 30px; padding-top: 50px;" class="row justify-content-center">
+          <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;">{{new Date(row.$sDate$display).toLocaleDateString("en-UK", {
           year: 'numeric',
           month: 'numeric',
           day: 'numeric',
           hour: '2-digit',
           minute: '2-digit',
-        }) }}
-      </small>
-      </div>
+        }) }}</span>
+        </div>
 
     </h5>
 
     <div style="height:20px;" class="row">
     </div>
 
-    <center style="padding-bottom: 20px;">
+    <center style="padding-top: 20px; padding-bottom: 20px;">
       <b-button class=" btn-sm" variant='primary' @click="$dgShowEditRowModal('sessions', row.rowKey);">Leave Review
       </b-button>
     </center>

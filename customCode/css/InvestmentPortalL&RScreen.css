@@ -154,3 +154,13 @@ body {
     border-color: black !important;
     background-color: #fffaf3 !important;
 }
+
+.custom-control-label{
+    font-family: 'Grenette pro', sans-serif !important;
+    font-size: .775rem !important;
+}
+
+.custom-control-label a{
+    color:#ef4437 !important;
+    padding-top: 5px;
+}

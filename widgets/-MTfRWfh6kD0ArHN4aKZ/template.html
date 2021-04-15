@@ -11,7 +11,7 @@
 
       <div style="height: 140px; padding-bottom: 15px;">
         <p class="h4 font-weight-bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Main Sectors: </p>
-          <p class="h4 font-weight-light" v-for="item in row.$mainSectors$display">
+        <p class="h4 font-weight-light" v-for="item in row.$mainSectors$display">
           <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 0.9rem;">
             <div class="rectangle" style="padding: 2px; border-radius: 6px;">
               {{item}}
@@ -20,9 +20,9 @@
         </p>
       </div>
 
-     <div style="height: 140px; padding-bottom: 15px; padding-top: 10px;">
+      <div style="height: 140px; padding-bottom: 15px; padding-top: 10px;">
         <p class="h4 font-weight-bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Main Skills: </p>
-          <p class="h4 font-weight-light"v-for="item in row.$mainSkills$display">
+        <p class="h4 font-weight-light" v-for="item in row.$mainSkills$display">
           <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 0.9rem;">
             <div class="rectangle" style="padding: 2px; border-radius: 6px;">
               {{item}}
@@ -35,13 +35,13 @@
 
     <div class="row justify-content-center">
       <div style="height: 40px;">
-      <div v-if="row.linkedInProfileLink">
-        <a :href="row.linkedInProfileLink" target="_blank">
-          <div class="social-icon-contain">
-          <i style="padding: 5px; color: white;" class="fab fa-linkedin"></i>
-          </div>
-        </a>
-      </div>
+        <div v-if="row.linkedInProfileLink">
+          <a :href="row.linkedInProfileLink" target="_blank">
+            <div class="social-icon-contain">
+              <i style="padding: 5px; color: white;" class="fab fa-linkedin"></i>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
 
