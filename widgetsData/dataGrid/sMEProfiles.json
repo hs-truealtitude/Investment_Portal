@@ -896,6 +896,9 @@
           "order": 16
         }
       },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
       "title": "My Profile"
     },
     "sMEApproval": {
@@ -969,6 +972,9 @@
           "order": 16
         }
       },
+      "roles": [
+        "-MXvhCDprEN74BTAvdwe"
+      ],
       "title": "SME Approval"
     }
   }

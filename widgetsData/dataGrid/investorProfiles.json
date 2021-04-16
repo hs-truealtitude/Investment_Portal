@@ -155,7 +155,7 @@
                 "customCode": "",
                 "invisible": true,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -852,7 +852,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.9618287180418041
+    "_uniqueId": 0.3669556821200861
   },
   "source": "investorProfiles",
   "storageType": "dashboard",
@@ -929,6 +929,9 @@
           "order": 16
         }
       },
+      "roles": [
+        "-MXvhCDprEN74BTAvdwe"
+      ],
       "title": "Investor Approval"
     },
     "myProfile": {
@@ -1002,6 +1005,9 @@
           "order": 16
         }
       },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
       "title": "My Profile"
     }
   }

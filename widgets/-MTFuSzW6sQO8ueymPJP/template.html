@@ -4,14 +4,14 @@
     </b-button>
 
   <div style="padding-top: 10px;">
-    <center><img :src="row.$profileImage$display" style="border-radius: 15px; max-width:100px;  " /> </center>
+    <center><img :src="row.profileImage.url" style="border-radius: 15px; max-width:100px;  " /> </center>
   </div>
 
   <div class="pt-4 text-center">
     <h5 class="h3 title">
       <span style="font-family: 'Grenette pro', sans-serif; font-size: 20px; color:black;" class="d-block mb-1">{{row.name}} {{row.secondName}}</span>
 
-      <p class="h4 font-weight-light" style="height: 80px; padding-bottom: 30px; font-family: 'Grenette pro', sans-serif; color:black;"> {{truncateText(row.aboutMe, 100)}} </p>
+      <p v-if="row.aboutMe" class="h4 font-weight-light" style="height: 80px; padding-bottom: 30px; font-family: 'Grenette pro', sans-serif; color:black;"> {{truncateText(row.aboutMe, 100)}} </p>
 
       <div style="height: 140px; padding-bottom: 10px;">
         <p class="h4 font-weight-bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Main Sectors: </p>
@@ -38,7 +38,7 @@
         <p class="h4 font-weight-bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Email: </p>
 
           <div class="row" style="justify-content:center; height: 40px;">
-        <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;" class="h4 font-weight-light text-muted" v-for='e in row.$user$display'>
+        <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;" class="h4 font-weight-light text-muted" v-for='e in row.$owner$display'>
         <a style="color: #ef4437;" href="`mailto:${e}`">{{e}}</a>
         </small>
       </div>

@@ -3,7 +3,7 @@
       <i class="fas fa-trash-alt"></i>
     </button>
     <div style="padding-top: 20px;  ">
-      <center><img v-if='row.$mentor' :src="$getDashboardModel('mentors')[row.mentor].$profileImage$display" style="border-radius: 15px; max-width:70px;  " /> </center>
+      <center><img v-if='row.$mentor.profileImage' :src="$getDashboardModel('mentors')[row.mentor].profileImage.url" style="border-radius: 15px; max-width:90px;  " /> </center>
     </div>
     <div class="pt-4 text-center">
       <h5 class="h3 title">
@@ -12,15 +12,15 @@
         <span style="color: black; font-size: 20px; font-family: 'Grenette pro', sans-serif;" class="d-block mb-1">{{row.$pitch.name}}</span>
 
         <div style="height: 30px; padding-top: 10px;" class="row justify-content-center">
-          <span class="d-block mb-1" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 1em;  ">{{row.name}}</span>
+          <span class="d-block mb-1" style="text-decoration:underline; font-family: 'Grenette pro', sans-serif; color: black; font-size: 1em;  ">{{row.name}}</span>
         </div>
 
-        <div style="height: 100px; padding-top: 20px;" class="row justify-content-center">
-          <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;">{{row.notes}}</span>
+        <div style="height: 120px; padding-top: 15px;" class="about">
+          <p style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;  font-weight: 400;">{{truncateText(row.notes, 200)}}</p>
         </div>
 
-        <div style="height: 30px; padding-bottom: 40px;" class="row justify-content-center">
-          <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;">{{new Date(row.$sDate$display).toLocaleDateString("en-US", {
+        <div style="height: 30px; padding-top: 50px;" class="row justify-content-center">
+          <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;">{{new Date(row.$sDate$display).toLocaleDateString("en-UK", {
           year: 'numeric',
           month: 'numeric',
           day: 'numeric',
@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <center style="padding-bottom: 30px;">
+    <center style="padding-top: 32px; padding-bottom: 20px;">
       <b-button class=" btn-sm" variant='primary' @click="$dgShowEditRowModal('sessions', row.rowKey);">
         View Details
       </b-button>

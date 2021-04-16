@@ -6,8 +6,8 @@
   "dataSource": "mentors",
   "gsOptions": {
     "h": 20,
-    "w": 15,
-    "x": 5,
+    "w": 16,
+    "x": 4,
     "y": 3
   },
   "offSet": 0,
