@@ -66,10 +66,11 @@
   },
   "-MNwvb3fLzwD1AGhhZAi": {
     "_id": 6,
+    "completed": false,
     "createdDate": 1607340028217,
     "group": false,
-    "lastEditDate": 1607340047659,
-    "lastEditedBy": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
+    "lastEditDate": 1618484086669,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "name": "Gaining outside investment",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "rowKey": "-MNwvb3fLzwD1AGhhZAi",
@@ -77,10 +78,11 @@
   },
   "-MNwvfEsw5VlV39i2rNp": {
     "_id": 7,
+    "completed": false,
     "createdDate": 1607340045317,
     "group": false,
-    "lastEditDate": 1607340097000,
-    "lastEditedBy": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
+    "lastEditDate": 1618484085799,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "name": "Gaining Govt. technology grants",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "rowKey": "-MNwvfEsw5VlV39i2rNp",
@@ -88,10 +90,11 @@
   },
   "-MNwvs3TcBJcsVl6k_fg": {
     "_id": 8,
+    "completed": false,
     "createdDate": 1607340097835,
     "group": false,
-    "lastEditDate": 1607340189000,
-    "lastEditedBy": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
+    "lastEditDate": 1618484088726,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "name": "Securing large commercial contracts and exponentially increasing revenue every year",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "rowKey": "-MNwvs3TcBJcsVl6k_fg",
@@ -99,10 +102,11 @@
   },
   "-MNwvwByDSCQRasPzuxr": {
     "_id": 9,
+    "completed": false,
     "createdDate": 1607340114763,
     "group": false,
-    "lastEditDate": 1607340190000,
-    "lastEditedBy": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
+    "lastEditDate": 1618484084916,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "name": "Refining the technology and production",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "rowKey": "-MNwvwByDSCQRasPzuxr",
@@ -139,16 +143,6 @@
     "name": "Gaining extensive marketing/PR coverage",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "rowKey": "-MNww46bngjIBKl7sI-3",
-    "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt"
-  },
-  "-MNww7Nh3k-S1ophHMrr": {
-    "_id": 13,
-    "createdDate": 1607340164666,
-    "group": false,
-    "lastEditDate": 1607340194000,
-    "lastEditedBy": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
-    "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
-    "rowKey": "-MNww7Nh3k-S1ophHMrr",
     "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt"
   },
   "-MOf3z9ASAvTo60kgi9f": {
@@ -258,5 +252,18 @@
     "rowKey": "-MOl0VAXAR7A18mT_Owe",
     "slingshotPitches": "-MNwrDHaFOpGKE6yT3qn",
     "targetCompletionDate": 1625007600000
+  },
+  "-MYEyJ-APMx3otEyooDQ": {
+    "_id": 23,
+    "completed": false,
+    "createdDate": 1618396920533,
+    "group": false,
+    "lastEditDate": 1618489077438,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Next Milestone",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MYEyJ-APMx3otEyooDQ",
+    "slingshotPitches": "-MMzZ2krPwl50hP5t54m",
+    "targetCompletionDate": "07/09/2022, 00:00"
   }
 }

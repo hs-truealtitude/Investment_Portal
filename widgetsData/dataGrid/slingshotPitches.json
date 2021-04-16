@@ -5,10 +5,11 @@
     "aboutTheCompany": {
       "displayName": "About the Company",
       "invisible": true,
-      "order": "18",
+      "order": "11",
       "type": "multiline_text"
     },
     "access": {
+      "Width": "222px",
       "displayName": "Access",
       "invisible": false,
       "lookUpTable": "publicOrPrivate",
@@ -17,133 +18,139 @@
     },
     "capitalAlreadyRaisedForCurrentFundingRound": {
       "displayName": "Capital already raised for current funding round",
-      "invisible": false,
-      "order": "29",
+      "invisible": true,
+      "order": "24",
       "priceFormat": true,
       "type": "number"
     },
     "capitalRaisedToDate": {
       "displayName": "Capital raised to-date",
-      "invisible": false,
-      "order": "55",
+      "invisible": true,
+      "order": "52",
       "priceFormat": true,
       "type": "number"
+    },
+    "commercialContractsSecured": {
+      "dataGrid": "commercialContracts",
+      "displayName": "Commercial Contracts Secured",
+      "filterColumn": "pitch",
+      "order": "80"
     },
     "commitmentClosingDate": {
       "displayName": "Commitment Closing Date",
       "invisible": true,
-      "order": "16",
+      "order": "9",
       "type": "date"
     },
     "companyDebt": {
       "displayName": "Company Debt",
       "invisible": true,
-      "order": "62",
+      "order": "59",
       "type": "checkbox"
     },
     "companyEmail": {
       "displayName": "Company Email",
-      "invisible": false,
-      "order": "47",
+      "invisible": true,
+      "order": "43",
       "type": "email"
     },
     "companyLogo": {
       "Width": "153px",
       "displayName": "Company Logo",
       "invisible": false,
-      "order": "56",
+      "order": "1",
       "type": "profile_image"
     },
     "companyLogosAndBranding": {
       "displayName": "Company logos and branding",
-      "invisible": false,
-      "order": "81",
+      "invisible": true,
+      "order": "75",
       "type": "files"
     },
     "confidentialityAgreement": {
       "displayName": "Confidentiality Agreement",
-      "invisible": false,
-      "order": "6",
+      "invisible": true,
+      "order": "67",
       "type": "files"
     },
     "cornerstoneConsent": {
       "displayName": "Cornerstone Consent",
       "invisible": true,
       "lookUpTable": "yesOrNo",
-      "order": "8",
+      "order": "77",
       "type": "lookup"
     },
     "cornerstoneInvestorContactDetails": {
       "displayName": "Cornerstone Investor Contact Details",
       "invisible": true,
-      "order": "50",
+      "order": "47",
       "type": "multiline_text"
     },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": true,
-      "order": "53",
+      "order": "50",
       "type": "date"
     },
     "currentReturnOfRevenue": {
       "displayName": "Do you know your current return of revenue per employee?",
       "invisible": true,
-      "order": "25",
+      "order": "19",
       "type": "number"
     },
     "dataRoomDocuments": {
       "displayName": "Data Room Documents",
-      "invisible": false,
-      "order": "35",
+      "invisible": true,
+      "order": "30",
       "type": "string"
     },
     "dealProjectName": {
       "displayName": "Deal Project Name",
       "invisible": false,
-      "order": "26",
+      "order": "20",
       "type": "string"
     },
     "debtInformation": {
       "displayName": "Debt Information",
       "invisible": true,
-      "order": "74",
+      "order": "70",
       "type": "multiline_text"
     },
     "eISSEIS": {
       "displayName": "EIS SEIS",
       "invisible": true,
       "lookUpTable": "sEISANDOREIS",
-      "order": "5",
+      "order": "56",
       "type": "lookup"
     },
     "employeeAmount": {
       "displayName": "How many employees do you have?",
       "invisible": true,
-      "order": "78",
+      "order": "73",
       "type": "number"
     },
     "excludedInvestors": {
       "displayName": "Excluded Investors",
       "invisible": true,
-      "order": "41",
+      "order": "37",
       "type": "multiline_text"
     },
     "executiveSummaryOfProject": {
       "displayName": "Executive Summary of Project",
-      "invisible": false,
-      "order": "2",
+      "invisible": true,
+      "order": "23",
       "type": "files"
     },
     "financialForecastModel": {
       "displayName": "Financial Forecast Model",
-      "invisible": false,
-      "order": "20",
+      "invisible": true,
+      "order": "14",
       "type": "files"
     },
     "grantFunding": {
       "displayName": "Grant Funding",
-      "invisible": false,
-      "order": "46",
+      "invisible": true,
+      "order": "42",
       "priceFormat": true,
       "type": "number"
     },
@@ -151,314 +158,328 @@
       "dataGrid": "hRRequirementsTable",
       "displayName": "HR Requirements",
       "filterColumn": "slingshotPitches",
-      "order": "82",
-      "type": "datagrid"
+      "order": "81"
     },
     "howManyInteractionsToMeetProjection": {
       "displayName": "How many interactions do you feel you need in the program to successfully meet your commercial projections?",
       "invisible": true,
-      "order": "75",
+      "order": "71",
       "type": "number"
     },
     "howManyInteractionsToMeetProjectionOurOwnPrediction": {
       "displayName": "TA Prediction - How many interactions do you think are required to meet your current commercial  projections?",
       "invisible": true,
-      "order": "14",
+      "order": "7",
       "type": "number"
     },
     "howManySignedLOIMOUHOT": {
       "displayName": "How many signed LOIs, MOUs, HOTs in current pipeline in the next 12 months?",
       "invisible": true,
-      "order": "31",
+      "order": "26",
       "type": "number"
     },
     "iD": {
       "displayName": "ID",
       "invisible": true,
-      "order": "23",
+      "order": "17",
       "type": "string"
     },
     "investmentMemorandumDeck": {
       "displayName": "Investment Memorandum Deck",
-      "invisible": false,
-      "order": "19",
+      "invisible": true,
+      "order": "13",
       "type": "files"
     },
     "investmentRaised": {
       "displayName": "Investment Raised",
       "invisible": false,
-      "order": "27",
+      "order": "21",
       "priceFormat": true,
       "type": "number"
     },
     "investmentType": {
-      "displayName": "Investment Type",
+      "displayName": "Investment Stage",
       "invisible": true,
       "lookUpTable": "investmentType",
-      "order": "36",
+      "order": "31",
       "type": "lookup"
     },
     "jobsGeneratedThroughoutProgramme": {
       "displayName": "Number of permanent employees hired  throughout the programme?",
       "invisible": true,
-      "order": "38",
+      "order": "33",
       "type": "number"
     },
     "lastEditDate": {
       "displayName": "Last edit date",
       "invisible": true,
-      "order": "28",
+      "order": "22",
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
       "invisible": true,
-      "order": "79",
+      "order": "74",
       "type": "user"
     },
     "latestFinancialTradingInformation": {
       "displayName": "Latest Financial Trading Information",
-      "invisible": false,
-      "order": "70",
+      "invisible": true,
+      "order": "68",
       "type": "files"
     },
     "linkedInLink": {
       "displayName": "LinkedIn Link",
       "invisible": true,
-      "order": "30",
+      "order": "25",
       "type": "string"
     },
     "litigationTaxOrPressure": {
       "displayName": "Is the company subject to any litigation, tax or creditor pressure?",
       "invisible": true,
-      "order": "32",
+      "order": "27",
       "type": "multiline_text"
     },
     "location": {
       "displayName": "Location",
       "invisible": true,
       "lookUpTable": "country",
-      "order": "17",
+      "order": "10",
       "type": "lookup"
     },
     "mainInvestorsCommitedInCurrentRound": {
       "displayName": "Main investors commited in current round",
       "invisible": true,
-      "order": "60",
+      "order": "57",
       "type": "multiline_text"
     },
     "mentorRequirementsSummary": {
       "displayName": "Mentor Requirements Summary",
-      "invisible": false,
-      "order": "68",
+      "invisible": true,
+      "order": "65",
       "type": "multiline_text"
     },
     "milestones": {
       "dataGrid": "milestones",
       "displayName": "Please enter the milestones you have completed in the last 6 months.",
       "filterColumn": "slingshotPitches",
-      "order": "72",
-      "type": "datagrid"
+      "order": "82"
+    },
+    "milestonesDiagram": {
+      "displayName": "",
+      "order": "78",
+      "type": "custom"
     },
     "minimumInvestment": {
       "displayName": "Minimum Investment",
-      "invisible": false,
-      "order": "3",
+      "invisible": true,
+      "order": "34",
       "priceFormat": true,
       "type": "number"
     },
     "mobileNumber": {
       "displayName": "Contact Number",
-      "invisible": false,
-      "order": "45",
+      "invisible": true,
+      "order": "41",
       "type": "phone"
     },
     "name": {
+      "Width": "260px",
       "displayName": "Company Name",
       "invisible": false,
-      "order": "1",
+      "order": "12",
       "type": "string"
     },
     "news": {
-      "displayName": "News",
+      "displayName": "General News",
       "invisible": true,
-      "order": "37",
+      "order": "32",
       "type": "multiline_text"
+    },
+    "newsList": {
+      "dataGrid": "news",
+      "displayName": "News List",
+      "filterColumn": "pitch",
+      "order": 86,
+      "type": "datagrid"
     },
     "next5": {
       "displayName": "next5",
-      "invisible": false,
-      "order": "21",
+      "invisible": true,
+      "order": "15",
+      "type": "custom"
+    },
+    "next5YearsMilestonesDiagram": {
+      "displayName": "",
+      "order": "79",
       "type": "custom"
     },
     "nextEvents": {
       "displayName": "Next Events",
       "invisible": true,
-      "order": "40",
+      "order": "36",
       "type": "string"
     },
     "nextFiveYearsMilestones": {
       "dataGrid": "nextFiveYearsMilestones",
       "displayName": "Please enter the milestones you aim to complete in the next 5 years.",
       "filterColumn": "slingshotPitches",
-      "order": "73",
-      "type": "datagrid"
+      "order": "83"
     },
     "note": {
       "displayName": "Note",
-      "invisible": false,
-      "order": "22",
+      "invisible": true,
+      "order": "16",
       "type": "custom"
     },
     "numberOfCommercialTrials": {
       "displayName": "Number of commercial trials secured?",
       "invisible": true,
-      "order": "33",
+      "order": "28",
       "type": "number"
     },
     "numberOfInteractionsCommercialOpportunities": {
       "displayName": "How many live commercial activites (number of contracts signed)?",
       "invisible": true,
-      "order": "48",
+      "order": "44",
       "type": "number"
     },
     "numberOfJobsGenerated": {
       "displayName": "Number of jobs generated in the testbed to successfully execute on testing phase?",
       "invisible": true,
-      "order": "64",
+      "order": "61",
       "type": "number"
     },
     "owner": {
       "displayName": "owner",
       "invisible": true,
-      "order": "69",
+      "order": "66",
       "type": "user"
     },
     "permanentHigherEducationJobs": {
       "displayName": "Number of permanent employees hired that are professional?",
       "invisible": true,
-      "order": "43",
+      "order": "39",
       "type": "number"
     },
     "permanentProfessionalJobs": {
       "displayName": "Number of permanent employees hired that are higher education?",
       "invisible": true,
-      "order": "58",
+      "order": "54",
       "type": "number"
     },
     "pitchSummary": {
       "displayName": "Pitch Summary",
       "invisible": true,
-      "order": "61",
+      "order": "58",
       "type": "multiline_text"
     },
     "preMoneyValuationOfCurrentRound": {
       "displayName": "Pre-money valuation of current round",
-      "invisible": false,
-      "order": "10",
+      "invisible": true,
+      "order": "3",
       "priceFormat": true,
       "type": "number"
     },
     "predictedEmployeesHired1Year": {
       "displayName": "How many employees do you project hiring in the next year?",
       "invisible": true,
-      "order": "65",
+      "order": "62",
       "type": "number"
     },
     "predictedEmployeesHired2Years": {
       "displayName": "How many employees do you project hiring over the next 2 years?",
       "invisible": true,
-      "order": "71",
+      "order": "69",
       "type": "number"
     },
     "predictedEmployeesHired3Years": {
       "displayName": "How many employees do you project hiring over the next 3 years?",
       "invisible": true,
-      "order": "49",
+      "order": "46",
       "type": "number"
     },
     "predictedEmployeesHired5Years": {
       "displayName": "How many employees do you project hiring over the next 5 years?",
       "invisible": true,
-      "order": "4",
+      "order": "45",
       "type": "number"
     },
     "productGrowthOtherIndustries": {
       "displayName": "What other industries can you product or solution add value to?",
       "invisible": true,
       "lookUpTable": "sector",
-      "order": "12",
+      "order": "5",
       "type": "multi_lookup"
     },
     "references": {
       "dataGrid": "references",
       "displayName": "Add References",
       "filterColumn": "slingshotPitch",
-      "order": "80",
-      "type": "datagrid"
+      "order": "84"
     },
     "sME": {
       "displayName": "SME",
       "invisible": false,
       "lookUpTable": "sMEProfiles",
-      "order": "34",
+      "order": "29",
       "type": "lookup"
     },
     "sectors": {
       "displayName": "Sectors",
       "invisible": true,
       "lookUpTable": "sector",
-      "order": "13",
+      "order": "6",
       "type": "multi_lookup"
     },
     "skills": {
       "displayName": "Skills",
       "invisible": true,
       "lookUpTable": "skills",
-      "order": "59",
+      "order": "55",
       "type": "multi_lookup"
     },
     "specificStrategicValue": {
       "displayName": "Specific strategic/value add investors",
       "invisible": true,
-      "order": "67",
+      "order": "64",
       "type": "multiline_text"
     },
     "startDate": {
       "displayName": "What date did your company start?",
       "invisible": true,
-      "order": "51",
+      "order": "48",
       "type": "date"
     },
     "state": {
       "displayName": "State",
       "invisible": true,
-      "order": "9",
+      "order": "2",
       "type": "string"
     },
     "submitPitch": {
       "displayName": "Submit Pitch",
       "invisible": true,
-      "order": "63",
+      "order": "60",
       "type": "custom"
     },
     "targetCompletionDate": {
       "displayName": "Target Completion Date",
       "invisible": true,
-      "order": "24",
+      "order": "18",
       "type": "date"
     },
     "targetInvestorsForDealMarketing": {
       "displayName": "Target Investors for Deal Marketing",
       "invisible": true,
       "lookUpTable": "investorType",
-      "order": "57",
+      "order": "53",
       "type": "multi_lookup"
     },
     "targetReturnOfInvestment": {
       "displayName": "Target Return of Investment",
-      "invisible": false,
-      "order": "52",
+      "invisible": true,
+      "order": "49",
       "priceFormat": true,
       "type": "number"
     },
@@ -466,25 +487,24 @@
       "dataGrid": "teamMembersTable",
       "displayName": "Key Team Members",
       "filterColumn": "slingshotPitches",
-      "order": "77",
-      "type": "datagrid"
+      "order": "85"
     },
     "testbedHigherEducationJobs": {
       "displayName": "Number of jobs generated which are higher education?",
       "invisible": true,
-      "order": "44",
+      "order": "40",
       "type": "number"
     },
     "testbedProfessionalJobs": {
       "displayName": "Number of jobs generated which are professional?",
       "invisible": true,
-      "order": "54",
+      "order": "51",
       "type": "number"
     },
     "totalFundingRound": {
       "displayName": "Total Funding Round",
-      "invisible": false,
-      "order": "66",
+      "invisible": true,
+      "order": "63",
       "priceFormat": true,
       "type": "number"
     },
@@ -492,37 +512,37 @@
       "displayName": "True Altitude LinkedIn Marketing",
       "invisible": true,
       "lookUpTable": "yesOrNo",
-      "order": "7",
+      "order": "76",
       "type": "lookup"
     },
     "user": {
       "displayName": "User",
       "invisible": true,
-      "order": "11",
+      "order": "4",
       "type": "user"
     },
     "w": {
       "displayName": "w",
-      "invisible": false,
-      "order": "15",
+      "invisible": true,
+      "order": "8",
       "type": "custom"
     },
     "website": {
       "displayName": "Website",
       "invisible": true,
-      "order": "76",
+      "order": "72",
       "type": "string"
     },
     "wiz": {
       "displayName": "",
       "invisible": true,
-      "order": "39",
+      "order": "35",
       "type": "custom"
     },
     "wizard": {
       "displayName": "",
       "invisible": true,
-      "order": "42",
+      "order": "38",
       "type": "custom"
     }
   },
@@ -2629,7 +2649,7 @@
                 "type": "lookup",
                 "name": "control_lookup_179539",
                 "fieldName": "control_lookup_179539",
-                "label": "Investment Type",
+                "label": "Investment Stage",
                 "order": 9,
                 "defaultValue": "",
                 "value": "",
@@ -3081,7 +3101,7 @@
                 "type": "multiline_text",
                 "name": "control_multiline_text_67881",
                 "fieldName": "control_multiline_text_67881",
-                "label": "News",
+                "label": "General News",
                 "order": 19,
                 "defaultValue": "",
                 "value": "",
@@ -3121,6 +3141,52 @@
                 "propName": "news",
                 "gridId": "slingshotPitches",
                 "description": "Has your company been in recent publications?"
+              },
+              {
+                "type": "datagrid",
+                "name": "control_datagrid_113561",
+                "fieldName": "control_datagrid_113561",
+                "label": "News List",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "newsList",
+                "gridId": "slingshotPitches",
+                "dataGridView": "allNews",
+                "hideToolbar": true
               },
               {
                 "type": "lookup",
@@ -3248,7 +3314,7 @@
                 "order": 0,
                 "defaultValue": "",
                 "value": "",
-                "className": "col-md-12",
+                "className": "col-md-8",
                 "readonly": false,
                 "readonlyCondition": "",
                 "placeholder": "",
@@ -3283,17 +3349,62 @@
                 "customValidationErrorMessage": "",
                 "propName": "milestones",
                 "gridId": "slingshotPitches",
-                "hideToolbar": true
+                "hideToolbar": true,
+                "dataGridView": "slingshot"
+              },
+              {
+                "type": "custom",
+                "name": "control_custom_177482",
+                "fieldName": "control_custom_177482",
+                "label": "",
+                "order": 1,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-4",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "           <ul class=\"rm timeline\" style=\"color: black;\">\r\n                        <li :class='\"timeRow\"' v-for=\"item in orderBy( filterBy($getGrid('milestones'), rowData.rowKey, 'slingshotPitches'), 'targetCompletionDate')\">\r\n                          {{item.name}} <span style=\"font-weight: bold;\">{{item.$targetCompletionDate$Date}}</span>\r\n                          <p>{{item.description}}</p>\r\n                        </li>\r\n                      </ul>\r\n                ",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "milestonesDiagram",
+                "gridId": "slingshotPitches"
               },
               {
                 "type": "datagrid",
                 "name": "control_datagrid_459821",
                 "fieldName": "control_datagrid_459821",
                 "label": "Please enter the milestones you aim to complete in the next 5 years.",
-                "order": 0,
+                "order": 2,
                 "defaultValue": "",
                 "value": "",
-                "className": "col-md-12",
+                "className": "col-md-8",
                 "readonly": false,
                 "readonlyCondition": "",
                 "placeholder": "",
@@ -3329,6 +3440,50 @@
                 "propName": "nextFiveYearsMilestones",
                 "gridId": "slingshotPitches",
                 "hideToolbar": true
+              },
+              {
+                "type": "custom",
+                "name": "control_custom_945704",
+                "fieldName": "control_custom_945704",
+                "label": "",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-4",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "                      <ul class=\"rm timeline\" style=\"color: black;\">\r\n                        <li :class='item.completed ? \"timeRow\" : \"timeRowRed\"' v-for=\"item in orderBy( filterBy($getGrid('nextFiveYearsMilestones'), rowData.rowKey, 'slingshotPitches'), 'targetCompletionDate')\">\r\n                          {{item.name}} <span style=\"font-weight: bold;\">{{item.$targetCompletionDate$Date}}</span>\r\n                          <p>{{item.description}}</p>\r\n                        </li>\r\n                      </ul>",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "next5YearsMilestonesDiagram",
+                "gridId": "slingshotPitches"
               }
             ]
           },
@@ -4530,7 +4685,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<h3 style=\"color: black; font-family: 'Grenette pro', sans-serif;\"> This data is intended to be entered around a month after your pitch has been created.</h3>\r\n",
+                "customCode": "<h3 style=\"color: black; font-family: 'Grenette pro', sans-serif;\"> These fields are ongoing updates and will be captured throughout the program. These fields can be updated by accessing the 'My Pitches' page and editing your pitches.\r\n</h3>\r\n",
                 "invisible": false,
                 "invisibleCondition": "",
                 "invisibleInDataGrid": true,
@@ -4731,7 +4886,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.028305088164274794
+    "_uniqueId": 0.4204830150256684
   },
   "source": "slingshotPitches",
   "storageType": "dashboard",
@@ -4742,7 +4897,7 @@
       "meta": {
         "aboutTheCompany": {
           "invisible": true,
-          "order": "77"
+          "order": "75"
         },
         "access": {
           "invisible": false,
@@ -4750,23 +4905,23 @@
         },
         "capitalAlreadyRaisedForCurrentFundingRound": {
           "invisible": true,
-          "order": "13"
+          "order": "5"
         },
         "capitalRaisedToDate": {
           "invisible": true,
-          "order": "78"
+          "order": "76"
         },
         "commitmentClosingDate": {
           "invisible": true,
-          "order": "11"
+          "order": "3"
         },
         "companyDebt": {
           "invisible": true,
-          "order": "65"
+          "order": "62"
         },
         "companyEmail": {
           "invisible": false,
-          "order": "69"
+          "order": "66"
         },
         "companyLogo": {
           "invisible": false,
@@ -4774,296 +4929,308 @@
         },
         "companyLogosAndBranding": {
           "invisible": false,
-          "order": "35"
+          "order": "29"
         },
         "confidentialityAgreement": {
           "invisible": false,
-          "order": "36"
+          "order": "30"
         },
         "cornerstoneConsent": {
           "invisible": true,
-          "order": "18"
+          "order": "10"
         },
         "cornerstoneInvestorContactDetails": {
           "invisible": true,
-          "order": "64"
+          "order": "61"
         },
         "createdDate": {
           "invisible": true,
-          "order": "40"
+          "order": "35"
         },
         "currentReturnOfRevenue": {
           "invisible": true,
-          "order": "52"
+          "order": "48"
         },
         "dataRoomDocuments": {
           "invisible": false,
-          "order": "8"
+          "order": "78"
         },
         "dealProjectName": {
           "invisible": false,
-          "order": "60"
+          "order": "57"
         },
         "debtInformation": {
           "invisible": true,
-          "order": "31"
+          "order": "25"
         },
         "eISSEIS": {
           "invisible": true,
-          "order": "43"
+          "order": "38"
         },
         "employeeAmount": {
           "invisible": true,
-          "order": "44"
+          "order": "39"
         },
         "excludedInvestors": {
           "invisible": true,
-          "order": "59"
+          "order": "55"
         },
         "executiveSummaryOfProject": {
           "invisible": false,
-          "order": "58"
+          "order": "54"
         },
         "financialForecastModel": {
           "invisible": false,
-          "order": "29"
+          "order": "22"
         },
         "grantFunding": {
           "invisible": true,
-          "order": "27"
+          "order": "20"
         },
         "hRRequirements": {
-          "order": "82"
+          "order": "81"
         },
         "howManyInteractionsToMeetProjection": {
           "invisible": true,
-          "order": "7"
+          "order": "67"
         },
         "howManyInteractionsToMeetProjectionOurOwnPrediction": {
           "invisible": true,
-          "order": "79"
+          "order": "77"
         },
         "howManySignedLOIMOUHOT": {
           "invisible": true,
-          "order": "23"
+          "order": "16"
         },
         "iD": {
           "invisible": true,
-          "order": "16"
+          "order": "8"
         },
         "investmentMemorandumDeck": {
           "invisible": false,
-          "order": "30"
+          "order": "24"
         },
         "investmentRaised": {
           "invisible": true,
-          "order": "41"
+          "order": "36"
         },
         "investmentType": {
           "invisible": true,
-          "order": "20"
+          "order": "13"
         },
         "jobsGeneratedThroughoutProgramme": {
           "invisible": true,
-          "order": "46"
+          "order": "41"
         },
         "lastEditDate": {
           "invisible": true,
-          "order": "2"
+          "order": "12"
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "28"
+          "order": "21"
         },
         "latestFinancialTradingInformation": {
           "invisible": false,
-          "order": "66"
+          "order": "63"
         },
         "linkedInLink": {
           "invisible": true,
-          "order": "25"
+          "order": "18"
         },
         "litigationTaxOrPressure": {
           "invisible": true,
-          "order": "63"
+          "order": "60"
         },
         "location": {
           "invisible": true,
-          "order": "48"
+          "order": "43"
         },
         "mainInvestorsCommitedInCurrentRound": {
           "invisible": true,
-          "order": "10"
+          "order": "2"
         },
         "mentorRequirementsSummary": {
-          "order": "6"
+          "order": "56"
         },
         "milestones": {
-          "order": "68"
+          "order": "65"
+        },
+        "milestonesDiagram": {
+          "order": "83"
         },
         "minimumInvestment": {
           "invisible": true,
-          "order": "75"
+          "order": "73"
         },
         "mobileNumber": {
           "invisible": false,
-          "order": "37"
+          "order": "31"
         },
         "name": {
           "invisible": false,
-          "order": "70"
+          "order": "68"
         },
         "news": {
           "invisible": true,
-          "order": "12"
+          "order": "4"
+        },
+        "newsList": {
+          "order": 86
         },
         "next5": {
-          "order": "21"
+          "order": "14"
+        },
+        "next5YearsMilestonesDiagram": {
+          "order": "84"
         },
         "nextEvents": {
           "invisible": true,
-          "order": "17"
+          "order": "9"
         },
         "nextFiveYearsMilestones": {
-          "order": "73"
+          "order": "71"
         },
         "note": {
-          "order": "22"
+          "order": "15"
         },
         "numberOfCommercialTrials": {
           "invisible": true,
-          "order": "26"
+          "order": "19"
         },
         "numberOfInteractionsCommercialOpportunities": {
           "invisible": true,
-          "order": "53"
+          "order": "49"
         },
         "numberOfJobsGenerated": {
           "invisible": true,
-          "order": "47"
+          "order": "42"
         },
         "owner": {
           "invisible": true,
-          "order": "34"
+          "order": "28"
         },
         "permanentHigherEducationJobs": {
           "invisible": true,
-          "order": "38"
+          "order": "32"
         },
         "permanentProfessionalJobs": {
           "invisible": true,
-          "order": "54"
+          "order": "50"
         },
         "pitchSummary": {
           "invisible": true,
-          "order": "76"
+          "order": "74"
         },
         "preMoneyValuationOfCurrentRound": {
           "invisible": true,
-          "order": "9"
+          "order": "82"
         },
         "predictedEmployeesHired1Year": {
           "invisible": true,
-          "order": "49"
+          "order": "44"
         },
         "predictedEmployeesHired2Years": {
           "invisible": true,
-          "order": "56"
+          "order": "52"
         },
         "predictedEmployeesHired3Years": {
           "invisible": true,
-          "order": "4"
+          "order": "34"
         },
         "predictedEmployeesHired5Years": {
           "invisible": true,
-          "order": "51"
+          "order": "47"
         },
         "productGrowthOtherIndustries": {
           "invisible": true,
-          "order": "55"
+          "order": "51"
         },
         "references": {
-          "order": "80"
+          "order": "79"
         },
         "sME": {
           "invisible": false,
-          "order": "67"
+          "order": "64"
         },
         "sectors": {
           "invisible": true,
-          "order": "5"
+          "order": "45"
         },
         "skills": {
           "invisible": true,
-          "order": "19"
+          "order": "11"
         },
         "specificStrategicValue": {
           "invisible": true,
-          "order": "45"
+          "order": "40"
         },
         "startDate": {
           "invisible": true,
-          "order": "42"
+          "order": "37"
         },
         "state": {
           "invisible": true,
-          "order": "61"
+          "order": "58"
         },
         "submitPitch": {
           "invisible": true,
-          "order": "33"
+          "order": "27"
         },
         "targetCompletionDate": {
           "invisible": true,
-          "order": "62"
+          "order": "59"
         },
         "targetInvestorsForDealMarketing": {
           "invisible": true,
-          "order": "81"
+          "order": "80"
         },
         "targetReturnOfInvestment": {
           "invisible": true,
-          "order": "24"
+          "order": "17"
         },
         "teamMembers": {
-          "order": "74"
+          "order": "72"
         },
         "testbedHigherEducationJobs": {
           "invisible": true,
-          "order": "50"
+          "order": "46"
         },
         "testbedProfessionalJobs": {
           "invisible": true,
-          "order": "32"
+          "order": "26"
         },
         "totalFundingRound": {
           "invisible": true,
-          "order": "72"
+          "order": "70"
         },
         "trueAltitudeLinkedInMarketing": {
           "invisible": true,
-          "order": "57"
+          "order": "53"
         },
         "user": {
           "invisible": true,
-          "order": "3"
+          "order": "23"
         },
         "w": {
-          "order": "15"
+          "order": "7"
         },
         "website": {
           "invisible": true,
-          "order": "39"
+          "order": "33"
         },
         "wiz": {
           "invisible": true,
-          "order": "14"
+          "order": "6"
         },
         "wizard": {
           "invisible": true,
-          "order": "71"
+          "order": "69"
         }
       },
+      "roles": [
+        "-MXvhCDprEN74BTAvdwe"
+      ],
       "title": "Admin View"
     },
     "approvePitches": {
@@ -5071,7 +5238,7 @@
       "meta": {
         "aboutTheCompany": {
           "invisible": true,
-          "order": "65"
+          "order": "62"
         },
         "access": {
           "invisible": false,
@@ -5079,23 +5246,23 @@
         },
         "capitalAlreadyRaisedForCurrentFundingRound": {
           "invisible": true,
-          "order": "18"
+          "order": "10"
         },
         "capitalRaisedToDate": {
           "invisible": true,
-          "order": "8"
+          "order": "76"
         },
         "commitmentClosingDate": {
           "invisible": true,
-          "order": "10"
+          "order": "2"
         },
         "companyDebt": {
           "invisible": true,
-          "order": "61"
+          "order": "58"
         },
         "companyEmail": {
           "invisible": true,
-          "order": "64"
+          "order": "61"
         },
         "companyLogo": {
           "invisible": false,
@@ -5103,285 +5270,297 @@
         },
         "companyLogosAndBranding": {
           "invisible": true,
-          "order": "62"
+          "order": "59"
         },
         "confidentialityAgreement": {
           "invisible": true,
-          "order": "33"
+          "order": "27"
         },
         "cornerstoneConsent": {
           "invisible": true,
-          "order": "24"
+          "order": "17"
         },
         "cornerstoneInvestorContactDetails": {
           "invisible": true,
-          "order": "55"
+          "order": "51"
         },
         "createdDate": {
           "invisible": true,
-          "order": "23"
+          "order": "16"
         },
         "currentReturnOfRevenue": {
           "invisible": true,
-          "order": "41"
+          "order": "36"
         },
         "dataRoomDocuments": {
           "invisible": true,
-          "order": "16"
+          "order": "8"
         },
         "dealProjectName": {
           "invisible": false,
-          "order": "36"
+          "order": "30"
         },
         "debtInformation": {
           "invisible": true,
-          "order": "37"
+          "order": "31"
         },
         "eISSEIS": {
           "invisible": true,
-          "order": "29"
+          "order": "22"
         },
         "employeeAmount": {
           "invisible": true,
-          "order": "52"
+          "order": "48"
         },
         "excludedInvestors": {
           "invisible": true,
-          "order": "54"
+          "order": "50"
         },
         "executiveSummaryOfProject": {
           "invisible": true,
-          "order": "46"
+          "order": "41"
         },
         "financialForecastModel": {
           "invisible": true,
-          "order": "68"
+          "order": "65"
         },
         "grantFunding": {
           "invisible": true,
-          "order": "31"
+          "order": "25"
         },
         "howManyInteractionsToMeetProjection": {
           "invisible": true,
-          "order": "58"
+          "order": "54"
         },
         "howManyInteractionsToMeetProjectionOurOwnPrediction": {
           "invisible": true,
-          "order": "77"
+          "order": "75"
         },
         "howManySignedLOIMOUHOT": {
           "invisible": true,
-          "order": "12"
+          "order": "4"
         },
         "iD": {
           "invisible": true,
-          "order": "4"
+          "order": "34"
         },
         "investmentMemorandumDeck": {
           "invisible": true,
-          "order": "27"
+          "order": "20"
         },
         "investmentRaised": {
           "invisible": true,
-          "order": "42"
+          "order": "37"
         },
         "investmentType": {
           "invisible": true,
-          "order": "25"
+          "order": "18"
         },
         "jobsGeneratedThroughoutProgramme": {
           "invisible": true,
-          "order": "26"
+          "order": "19"
         },
         "lastEditDate": {
           "invisible": true,
-          "order": "28"
+          "order": "21"
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "59"
+          "order": "55"
         },
         "latestFinancialTradingInformation": {
           "invisible": true,
-          "order": "76"
+          "order": "74"
         },
         "linkedInLink": {
           "invisible": true,
-          "order": "30"
+          "order": "24"
         },
         "litigationTaxOrPressure": {
           "invisible": true,
-          "order": "75"
+          "order": "73"
         },
         "location": {
           "invisible": true,
-          "order": "48"
+          "order": "43"
         },
         "mainInvestorsCommitedInCurrentRound": {
           "invisible": true,
-          "order": "34"
+          "order": "28"
         },
         "mentorRequirementsSummary": {
           "invisible": true,
-          "order": "69"
+          "order": "66"
+        },
+        "milestonesDiagram": {
+          "order": "78"
         },
         "minimumInvestment": {
           "invisible": true,
-          "order": "71"
+          "order": "69"
         },
         "mobileNumber": {
           "invisible": true,
-          "order": "40"
+          "order": "35"
         },
         "name": {
           "invisible": false,
-          "order": "35"
+          "order": "29"
         },
         "news": {
           "invisible": true,
-          "order": "21"
+          "order": "14"
+        },
+        "newsList": {
+          "order": 86
         },
         "next5": {
           "invisible": true,
-          "order": "73"
+          "order": "71"
+        },
+        "next5YearsMilestonesDiagram": {
+          "order": "79"
         },
         "nextEvents": {
           "invisible": true,
-          "order": "13"
+          "order": "5"
         },
         "note": {
           "invisible": true,
-          "order": "74"
+          "order": "72"
         },
         "numberOfCommercialTrials": {
           "invisible": true,
-          "order": "7"
+          "order": "67"
         },
         "numberOfInteractionsCommercialOpportunities": {
           "invisible": true,
-          "order": "51"
+          "order": "47"
         },
         "numberOfJobsGenerated": {
           "invisible": true,
-          "order": "56"
+          "order": "52"
         },
         "owner": {
           "invisible": true,
-          "order": "67"
+          "order": "64"
         },
         "permanentHigherEducationJobs": {
           "invisible": true,
-          "order": "22"
+          "order": "15"
         },
         "permanentProfessionalJobs": {
           "invisible": true,
-          "order": "39"
+          "order": "33"
         },
         "pitchSummary": {
           "invisible": true,
-          "order": "53"
+          "order": "49"
         },
         "preMoneyValuationOfCurrentRound": {
           "invisible": true,
-          "order": "17"
+          "order": "9"
         },
         "predictedEmployeesHired1Year": {
           "invisible": true,
-          "order": "47"
+          "order": "42"
         },
         "predictedEmployeesHired2Years": {
           "invisible": true,
-          "order": "49"
+          "order": "44"
         },
         "predictedEmployeesHired3Years": {
           "invisible": true,
-          "order": "14"
+          "order": "6"
         },
         "predictedEmployeesHired5Years": {
           "invisible": true,
-          "order": "60"
+          "order": "57"
         },
         "productGrowthOtherIndustries": {
           "invisible": true,
-          "order": "63"
+          "order": "60"
         },
         "sME": {
           "invisible": false,
-          "order": "66"
+          "order": "63"
         },
         "sectors": {
           "invisible": true,
-          "order": "11"
+          "order": "3"
         },
         "skills": {
           "invisible": true,
-          "order": "19"
+          "order": "11"
         },
         "specificStrategicValue": {
           "invisible": true,
-          "order": "3"
+          "order": "23"
         },
         "startDate": {
           "invisible": true,
-          "order": "45"
+          "order": "40"
         },
         "state": {
           "invisible": true,
-          "order": "5"
+          "order": "45"
         },
         "submitPitch": {
           "invisible": true,
-          "order": "38"
+          "order": "32"
         },
         "targetCompletionDate": {
           "invisible": true,
-          "order": "57"
+          "order": "53"
         },
         "targetInvestorsForDealMarketing": {
           "invisible": true,
-          "order": "9"
+          "order": "77"
         },
         "targetReturnOfInvestment": {
           "invisible": true,
-          "order": "20"
+          "order": "13"
         },
         "testbedHigherEducationJobs": {
           "invisible": true,
-          "order": "32"
+          "order": "26"
         },
         "testbedProfessionalJobs": {
           "invisible": true,
-          "order": "15"
+          "order": "7"
         },
         "totalFundingRound": {
           "invisible": true,
-          "order": "6"
+          "order": "56"
         },
         "trueAltitudeLinkedInMarketing": {
           "invisible": true,
-          "order": "44"
+          "order": "39"
         },
         "user": {
           "invisible": true,
-          "order": "2"
+          "order": "12"
         },
         "w": {
           "invisible": true,
-          "order": "70"
+          "order": "68"
         },
         "website": {
           "invisible": true,
-          "order": "43"
+          "order": "38"
         },
         "wiz": {
           "invisible": true,
-          "order": "72"
+          "order": "70"
         },
         "wizard": {
           "invisible": true,
-          "order": "50"
+          "order": "46"
         }
       },
+      "roles": [
+        "-MXvhCDprEN74BTAvdwe"
+      ],
       "title": "Approve Pitches"
     },
     "filteredCardList": {
@@ -5389,34 +5568,34 @@
       "meta": {
         "aboutTheCompany": {
           "invisible": false,
-          "order": "58"
+          "order": "54"
         },
         "access": {
           "invisible": false,
-          "order": "51"
+          "order": "47"
         },
         "capitalAlreadyRaisedForCurrentFundingRound": {
           "invisible": false,
-          "order": "48"
+          "order": "43"
         },
         "capitalRaisedToDate": {
           "invisible": false,
-          "order": "69"
+          "order": "66"
         },
         "commercialContractsSecured": {
-          "order": "52"
+          "order": "48"
         },
         "commitmentClosingDate": {
           "invisible": false,
-          "order": "63"
+          "order": "60"
         },
         "companyDebt": {
           "invisible": false,
-          "order": "67"
+          "order": "64"
         },
         "companyEmail": {
           "invisible": false,
-          "order": "33"
+          "order": "27"
         },
         "companyLogo": {
           "invisible": false,
@@ -5424,210 +5603,219 @@
         },
         "companyLogosAndBranding": {
           "invisible": false,
-          "order": "53"
+          "order": "49"
         },
         "confidentialityAgreement": {
           "invisible": false,
-          "order": "18"
+          "order": "10"
         },
         "cornerstoneConsent": {
           "invisible": false,
-          "order": "64"
+          "order": "61"
         },
         "cornerstoneInvestorContactDetails": {
           "invisible": false,
-          "order": "72"
+          "order": "70"
         },
         "createdDate": {
           "invisible": false,
-          "order": "2"
+          "order": "12"
         },
         "currentReturnOfRevenue": {
           "invisible": false,
-          "order": "19"
+          "order": "11"
         },
         "dataRoomDocuments": {
           "invisible": false,
-          "order": "24"
+          "order": "17"
         },
         "dealProjectName": {
           "invisible": false,
-          "order": "60"
+          "order": "57"
         },
         "debtInformation": {
           "invisible": false,
-          "order": "62"
+          "order": "59"
         },
         "eISSEIS": {
           "invisible": false,
-          "order": "4"
+          "order": "34"
         },
         "employeeAmount": {
           "invisible": false,
-          "order": "66"
+          "order": "63"
         },
         "excludedInvestors": {
           "invisible": false,
-          "order": "26"
+          "order": "19"
         },
         "executiveSummaryOfProject": {
           "invisible": false,
-          "order": "46"
+          "order": "41"
         },
         "financialForecastModel": {
           "invisible": false,
-          "order": "49"
+          "order": "44"
         },
         "grantFunding": {
-          "order": "31"
+          "order": "25"
         },
         "hRRequirements": {
-          "order": "83"
+          "order": "82"
         },
         "howManyInteractionsToMeetProjection": {
           "invisible": false,
-          "order": "61"
+          "order": "58"
         },
         "howManyInteractionsToMeetProjectionOurOwnPrediction": {
           "invisible": false,
-          "order": "21"
+          "order": "14"
         },
         "howManySignedLOIMOUHOT": {
           "invisible": false,
-          "order": "3"
+          "order": "23"
         },
         "iD": {
           "invisible": false,
-          "order": "13"
+          "order": "5"
         },
         "investmentMemorandumDeck": {
           "invisible": false,
-          "order": "10"
+          "order": "2"
         },
         "investmentRaised": {
-          "order": "41"
+          "order": "36"
         },
         "investmentType": {
           "invisible": false,
-          "order": "39"
+          "order": "33"
         },
         "jobsGeneratedThroughoutProgramme": {
-          "order": "42"
+          "order": "37"
         },
         "lastEditDate": {
           "invisible": false,
-          "order": "45"
+          "order": "40"
         },
         "lastEditedBy": {
           "invisible": false,
-          "order": "55"
+          "order": "51"
         },
         "latestFinancialTradingInformation": {
           "invisible": false,
-          "order": "25"
+          "order": "18"
         },
         "linkedInLink": {
           "invisible": false,
-          "order": "12"
+          "order": "4"
         },
         "litigationTaxOrPressure": {
           "invisible": false,
-          "order": "30"
+          "order": "24"
         },
         "location": {
           "invisible": false,
-          "order": "59"
+          "order": "55"
         },
         "mainInvestorsCommitedInCurrentRound": {
           "invisible": false,
-          "order": "23"
+          "order": "16"
         },
         "mentorRequirementsSummary": {
-          "order": "75"
+          "order": "73"
         },
         "milestones": {
-          "order": "68"
+          "order": "65"
+        },
+        "milestonesDiagram": {
+          "order": "84"
         },
         "minimumInvestment": {
           "invisible": false,
-          "order": "47"
+          "order": "42"
         },
         "mobileNumber": {
           "invisible": false,
-          "order": "36"
+          "order": "30"
         },
         "name": {
           "invisible": false,
-          "order": "15"
+          "order": "7"
         },
         "news": {
           "invisible": false,
-          "order": "38"
+          "order": "32"
+        },
+        "newsList": {
+          "order": 86
         },
         "next5": {
-          "order": "76"
+          "order": "74"
+        },
+        "next5YearsMilestonesDiagram": {
+          "order": "85"
         },
         "nextEvents": {
           "invisible": true,
-          "order": "9"
+          "order": "83"
         },
         "nextFiveYearsMilestones": {
-          "order": "71"
+          "order": "69"
         },
         "note": {
-          "order": "78"
+          "order": "76"
         },
         "numberOfCommercialTrials": {
-          "order": "7"
+          "order": "67"
         },
         "numberOfInteractionsCommercialOpportunities": {
           "invisible": false,
-          "order": "81"
+          "order": "80"
         },
         "numberOfJobsGenerated": {
           "invisible": false,
-          "order": "56"
+          "order": "52"
         },
         "owner": {
           "invisible": false,
-          "order": "65"
+          "order": "62"
         },
         "permanentHigherEducationJobs": {
-          "order": "29"
+          "order": "22"
         },
         "permanentProfessionalJobs": {
-          "order": "43"
+          "order": "38"
         },
         "pitchSummary": {
           "invisible": false,
-          "order": "37"
+          "order": "31"
         },
         "preMoneyValuationOfCurrentRound": {
           "invisible": false,
-          "order": "8"
+          "order": "78"
         },
         "predictedEmployeesHired1Year": {
           "invisible": false,
-          "order": "80"
+          "order": "79"
         },
         "predictedEmployeesHired2Years": {
           "invisible": false,
-          "order": "57"
+          "order": "53"
         },
         "predictedEmployeesHired3Years": {
           "invisible": false,
-          "order": "6"
+          "order": "56"
         },
         "predictedEmployeesHired5Years": {
           "invisible": false,
-          "order": "14"
+          "order": "6"
         },
         "productGrowthOtherIndustries": {
           "invisible": false,
-          "order": "82"
+          "order": "81"
         },
         "references": {
-          "order": "77"
+          "order": "75"
         },
         "sME": {
           "invisible": false,
@@ -5635,342 +5823,357 @@
         },
         "sectors": {
           "invisible": false,
-          "order": "20"
+          "order": "13"
         },
         "skills": {
-          "order": "44"
+          "order": "39"
         },
         "specificStrategicValue": {
           "invisible": false,
-          "order": "40"
+          "order": "35"
         },
         "startDate": {
           "invisible": false,
-          "order": "32"
+          "order": "26"
         },
         "state": {
           "invisible": true,
-          "order": "50"
+          "order": "46"
         },
         "submitPitch": {
           "invisible": true,
-          "order": "35"
+          "order": "29"
         },
         "targetCompletionDate": {
           "invisible": false,
-          "order": "16"
+          "order": "8"
         },
         "targetInvestorsForDealMarketing": {
           "invisible": false,
-          "order": "28"
+          "order": "21"
         },
         "targetReturnOfInvestment": {
           "invisible": false,
-          "order": "27"
+          "order": "20"
         },
         "teamMembers": {
-          "order": "73"
+          "order": "71"
         },
         "testbedHigherEducationJobs": {
-          "order": "54"
+          "order": "50"
         },
         "testbedProfessionalJobs": {
-          "order": "22"
+          "order": "15"
         },
         "totalFundingRound": {
           "invisible": false,
-          "order": "17"
+          "order": "9"
         },
         "trueAltitudeLinkedInMarketing": {
           "invisible": false,
-          "order": "5"
+          "order": "45"
         },
         "user": {
           "invisible": false,
-          "order": "11"
+          "order": "3"
         },
         "w": {
-          "order": "74"
+          "order": "72"
         },
         "website": {
           "invisible": false,
-          "order": "34"
+          "order": "28"
         },
         "wiz": {
           "invisible": true,
-          "order": "70"
+          "order": "68"
         },
         "wizard": {
           "invisible": true,
-          "order": "79"
+          "order": "77"
         }
       },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
       "title": "Filtered Card List"
     },
     "mySlingshotPitches": {
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"hidden\":false},{\"key\":\"investmentType\",\"operator\":\"in\",\"value\":null,\"name\":\"Investment Type\",\"hidden\":false},{\"key\":\"owner\",\"operator\":\"=\",\"value\":\"fbUser.uid\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true}]}",
       "meta": {
         "aboutTheCompany": {
-          "order": "22"
+          "order": "15"
         },
         "access": {
           "invisible": false,
           "order": "0"
         },
         "capitalAlreadyRaisedForCurrentFundingRound": {
-          "order": "38"
+          "order": "32"
         },
         "capitalRaisedToDate": {
-          "order": "11"
+          "order": "3"
         },
         "commercialContractsSecured": {
-          "order": "66"
-        },
-        "commitmentClosingDate": {
           "order": "63"
         },
+        "commitmentClosingDate": {
+          "order": "60"
+        },
         "companyDebt": {
-          "order": "34"
+          "order": "28"
         },
         "companyEmail": {
-          "order": "19"
+          "order": "11"
         },
         "companyLogo": {
-          "order": "5"
+          "order": "45"
         },
         "companyLogosAndBranding": {
-          "order": "37"
+          "order": "31"
         },
         "confidentialityAgreement": {
-          "order": "65"
+          "order": "62"
         },
         "cornerstoneConsent": {
-          "order": "8"
+          "order": "78"
         },
         "cornerstoneInvestorContactDetails": {
-          "order": "35"
+          "order": "29"
         },
         "createdDate": {
           "invisible": false,
-          "order": "45"
+          "order": "40"
         },
         "currentReturnOfRevenue": {
-          "order": "56"
+          "order": "52"
         },
         "dataRoomDocuments": {
-          "order": "33"
+          "order": "27"
         },
         "dealProjectName": {
-          "order": "51"
+          "order": "47"
         },
         "debtInformation": {
-          "order": "73"
+          "order": "71"
         },
         "eISSEIS": {
-          "order": "60"
+          "order": "57"
         },
         "employeeAmount": {
-          "order": "62"
+          "order": "59"
         },
         "excludedInvestors": {
-          "order": "24"
+          "order": "17"
         },
         "executiveSummaryOfProject": {
-          "order": "4"
+          "order": "34"
         },
         "financialForecastModel": {
-          "order": "20"
+          "order": "13"
         },
         "grantFunding": {
-          "order": "49"
+          "order": "44"
         },
         "hRRequirements": {
-          "order": "83"
+          "order": "82"
         },
         "howManyInteractionsToMeetProjection": {
-          "order": "7"
+          "order": "67"
         },
         "howManyInteractionsToMeetProjectionOurOwnPrediction": {
-          "order": "64"
+          "order": "61"
         },
         "howManySignedLOIMOUHOT": {
-          "order": "78"
+          "order": "76"
         },
         "iD": {
-          "order": "16"
+          "order": "8"
         },
         "investmentMemorandumDeck": {
-          "order": "77"
+          "order": "75"
         },
         "investmentRaised": {
-          "order": "30"
+          "order": "24"
         },
         "investmentType": {
-          "order": "29"
+          "order": "22"
         },
         "jobsGeneratedThroughoutProgramme": {
-          "order": "55"
+          "order": "51"
         },
         "lastEditDate": {
           "invisible": false,
-          "order": "47"
+          "order": "42"
         },
         "lastEditedBy": {
           "invisible": false,
-          "order": "26"
+          "order": "19"
         },
         "latestFinancialTradingInformation": {
-          "order": "61"
+          "order": "58"
         },
         "linkedInLink": {
-          "order": "27"
+          "order": "20"
         },
         "litigationTaxOrPressure": {
-          "order": "80"
-        },
-        "location": {
-          "order": "39"
-        },
-        "mainInvestorsCommitedInCurrentRound": {
-          "order": "23"
-        },
-        "mentorRequirementsSummary": {
           "order": "79"
         },
+        "location": {
+          "order": "33"
+        },
+        "mainInvestorsCommitedInCurrentRound": {
+          "order": "16"
+        },
+        "mentorRequirementsSummary": {
+          "order": "77"
+        },
         "milestones": {
-          "order": "68"
+          "order": "65"
+        },
+        "milestonesDiagram": {
+          "order": "84"
         },
         "minimumInvestment": {
-          "order": "53"
+          "order": "49"
         },
         "mobileNumber": {
-          "order": "57"
+          "order": "53"
         },
         "name": {
           "invisible": false,
           "order": "1"
         },
         "news": {
-          "order": "48"
+          "order": "43"
+        },
+        "newsList": {
+          "order": 86
         },
         "next5": {
-          "order": "69"
+          "order": "66"
+        },
+        "next5YearsMilestonesDiagram": {
+          "order": "85"
         },
         "nextEvents": {
           "invisible": true,
-          "order": "50"
+          "order": "46"
         },
         "nextFiveYearsMilestones": {
-          "order": "71"
+          "order": "69"
         },
         "note": {
-          "order": "21"
+          "order": "14"
         },
         "numberOfCommercialTrials": {
-          "order": "3"
+          "order": "23"
         },
         "numberOfInteractionsCommercialOpportunities": {
-          "order": "82"
+          "order": "81"
         },
         "numberOfJobsGenerated": {
-          "order": "54"
+          "order": "50"
         },
         "owner": {
           "invisible": false,
-          "order": "52"
+          "order": "48"
         },
         "permanentHigherEducationJobs": {
-          "order": "25"
-        },
-        "permanentProfessionalJobs": {
-          "order": "59"
-        },
-        "pitchSummary": {
-          "order": "12"
-        },
-        "preMoneyValuationOfCurrentRound": {
-          "order": "75"
-        },
-        "predictedEmployeesHired1Year": {
-          "order": "6"
-        },
-        "predictedEmployeesHired2Years": {
-          "order": "67"
-        },
-        "predictedEmployeesHired3Years": {
-          "order": "58"
-        },
-        "predictedEmployeesHired5Years": {
-          "order": "76"
-        },
-        "productGrowthOtherIndustries": {
-          "order": "41"
-        },
-        "references": {
-          "order": "81"
-        },
-        "sME": {
           "order": "18"
         },
-        "sectors": {
+        "permanentProfessionalJobs": {
+          "order": "55"
+        },
+        "pitchSummary": {
+          "order": "4"
+        },
+        "preMoneyValuationOfCurrentRound": {
+          "order": "73"
+        },
+        "predictedEmployeesHired1Year": {
+          "order": "56"
+        },
+        "predictedEmployeesHired2Years": {
+          "order": "64"
+        },
+        "predictedEmployeesHired3Years": {
+          "order": "54"
+        },
+        "predictedEmployeesHired5Years": {
+          "order": "74"
+        },
+        "productGrowthOtherIndustries": {
           "order": "36"
         },
+        "references": {
+          "order": "80"
+        },
+        "sME": {
+          "order": "10"
+        },
+        "sectors": {
+          "order": "30"
+        },
         "skills": {
-          "order": "42"
+          "order": "37"
         },
         "specificStrategicValue": {
-          "order": "13"
+          "order": "5"
         },
         "startDate": {
-          "order": "10"
+          "order": "2"
         },
         "state": {
           "invisible": true,
-          "order": "46"
+          "order": "41"
         },
         "submitPitch": {
-          "order": "32"
+          "order": "26"
         },
         "targetCompletionDate": {
-          "order": "40"
+          "order": "35"
         },
         "targetInvestorsForDealMarketing": {
-          "order": "31"
+          "order": "25"
         },
         "targetReturnOfInvestment": {
-          "order": "28"
+          "order": "21"
         },
         "teamMembers": {
-          "order": "74"
-        },
-        "testbedHigherEducationJobs": {
-          "order": "44"
-        },
-        "testbedProfessionalJobs": {
-          "order": "17"
-        },
-        "totalFundingRound": {
-          "order": "9"
-        },
-        "trueAltitudeLinkedInMarketing": {
-          "order": "2"
-        },
-        "user": {
           "order": "72"
         },
-        "w": {
+        "testbedHigherEducationJobs": {
+          "order": "39"
+        },
+        "testbedProfessionalJobs": {
+          "order": "9"
+        },
+        "totalFundingRound": {
+          "order": "83"
+        },
+        "trueAltitudeLinkedInMarketing": {
+          "order": "12"
+        },
+        "user": {
           "order": "70"
         },
+        "w": {
+          "order": "68"
+        },
         "website": {
-          "order": "15"
+          "order": "7"
         },
         "wiz": {
-          "order": "14"
+          "order": "6"
         },
         "wizard": {
-          "order": "43"
+          "order": "38"
         }
       },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
       "title": "My Slingshot Pitches"
     }
   }

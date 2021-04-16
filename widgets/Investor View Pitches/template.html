@@ -4,12 +4,12 @@
     <i @click="unSavePitch(saveSlingshot(row.rowKey))" v-if="saveSlingshot(row.rowKey)" class="fas fa-star fa-lg" style="color: black;">
     </i>
 
-    <i @click="saveSlingshotPitch(row.rowKey, row.$companyLogo$display)" v-if="!saveSlingshot(row.rowKey)" class="far fa-star fa-lg" style="color: black;">
+    <i @click="saveSlingshotPitch(row.rowKey, row.companyLogo.url)" v-if="!saveSlingshot(row.rowKey)" class="far fa-star fa-lg" style="color: black;">
     </i>
   </div>
 
   <div style="padding-top: 10px;">
-    <center><img :src="row.$companyLogo$display" style="border-radius: 15px; max-width:100px;  " /> </center>
+    <center><img v-if="row.companyLogo" :src="row.companyLogo.url" style="border-radius: 15px; max-width:100px;  " /> </center>
   </div>
 
   <div class="pt-4 text-center">

@@ -3,175 +3,170 @@
     <div>
       <b-card>
 
-        <div style="padding-top: 20px; padding-left: 20px; padding-right: 20px;">  
-          <img class="detail_image" :src="$getDashboardModel('mentors')[row.rowKey].$profileImage$display" width="100px" height="100px" style="margin-left: 5px; vertical-align:middle; border-radius: 15px;" />
+        <div style="padding-top: 20px; padding-left: 20px; padding-right: 20px;">
+          <img class="detail_image" v-if="row.profileImage" :src="row.profileImage.url" width="100px" height="100px" style="margin-left: 5px; vertical-align:middle; border-radius: 15px;" />
 
           <span class="company_title" style="font-weight: bold; font-family: 'Grenette pro', sans-serif; font-size: 25px; color:black; margin-left: 10px; ">{{row.name}} {{row.secondName}}</span>
-        
-            <button style="float: right; font-family: 'Grenette pro', sans-serif; font-size: 15px; " class="myButton application_button"
-              @click="$dgAddRowAndOpenModal('applications', {name: 'SME->Mentor', mentor:row.rowKey, sME:$getUser('profileID'),  notificationDescription: `An SME has applied for a Mentor`})">
-              <i class="fas fa-hands-helping"></i>
-              Apply
-            </button>
+
+          <button style="float: right; font-family: 'Grenette pro', sans-serif; font-size: 15px; " class="myButton application_button" @click="$dgAddRowAndOpenModal('applications', {name: 'SME->Mentor', mentor:row.rowKey, sME:$getUser('profileID'),  notificationDescription: `An SME has applied for a Mentor`})">
+            <i class="fas fa-hands-helping"></i>
+            Apply
+          </button>
         </div>
 
         <b-tabs card="">
           <b-tab title="Profile" :title-link-class="'tab-title-class'" active="">
-            <div class="row" style ="padding-top: 10px;">
-                <div class="column col-lg-4 col-sm-12 col-md-12">
+            <div class="row" style="padding-top: 10px;">
+              <div class="column col-lg-4 col-sm-12 col-md-12">
                 <p>
                   <span style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 14px;">
-                    <div class="rectangle" style="background-color: #dfe3eb; padding: 5px; border-radius: 6px; width:70%; margin: 10px;" >
-                      Contact Details will only be displayed upon appoval by the mentor. Press the 'Apply' button to apply.                  </div>
+                    <div class="rectangle" style="background-color: #dfe3eb; padding: 5px; border-radius: 6px; width:70%; margin: 10px;">
+                      Contact Details will only be displayed upon appoval by the mentor. Press the 'Apply' button to apply. </div>
                   </span>
                 </p>
               </div>
             </div>
 
-            <div class="details"> 
+            <div class="details">
 
-            <div class="row">
+              <div class="row">
                 <div class="column col-lg-4 col-sm-12 col-md-12">
-                <p class="h4 font-weight-bold"> About Me 
-                <b-card-text>{{row.aboutMe}}</b-card-text>
-                </p>
-              </div>
-            </div>
-
-            <div class="row" v-if="filterSMEApplications(row.rowKey, $getUser('profileID'))">
-                <div class="column col-lg-4 col-sm-12 col-md-12">
-                <p class="h4 font-weight-bold"> Email 
-                <div v-for='e in row.$owner$display'>
-                  <a style="color: #ef4437;" :href="`mailto:${e}`">{{e}}</a>
+                  <p class="h4 font-weight-bold"> About Me
+                    <b-card-text>{{row.aboutMe}}</b-card-text>
+                  </p>
                 </div>
-                </p>
               </div>
-                <div class="column col-lg-4 col-sm-12 col-md-12">
-                <p class="h4 font-weight-bold"> Contact Number 
-                  <b-card-text variant="success">{{row.phoneNumber}}</b-card-text>
-                </p>
-              </div>
-            </div>
 
-            <div class="row">
+              <div class="row" v-if="filterSMEApplications(row.rowKey, $getUser('profileID'))">
                 <div class="column col-lg-4 col-sm-12 col-md-12">
-                <p v-if="row.dateOfBirth" class="h4 font-weight-bold"> Date of Birth: 
-                <b-card-text>{{row.$dateOfBirth$display}}</b-card-text>
-                </p>
-              </div>
-            </div>
-
-            <div class="row">
-                <div class="column col-lg-4 col-sm-12 col-md-12">
-                <p class="h4 font-weight-bold"> Location: 
-                <b-card-text>{{row.$location$display}}</b-card-text>
-                </p>
-              </div>
-            </div>
-
-            <div class="row">
-                <div class="column col-lg-4 col-sm-12 col-md-12">
-                <p class="h4 font-weight-bold"> Main Sectors:      </p>
-              <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$mainSectors$display">
-                <div class="rectangle" style="padding: 5px; border-radius: 6px; width: 250px; margin: 10px;" >
-                  {{item}}
+                  <p class="h4 font-weight-bold"> Email
+                  <div v-for='e in row.$owner$display'>
+                    <a style="color: #ef4437;" :href="`mailto:${e}`">{{e}}</a>
+                  </div>
+                  </p>
                 </div>
-              </span>
-         
-              </div>
-            </div>
-
-            <div class="row">
                 <div class="column col-lg-4 col-sm-12 col-md-12">
-                <p class="h4 font-weight-bold"> All Sectors:  </p>
-                <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$sectors$display">
-                <div class="rectangle" style="padding: 5px; border-radius: 6px; width: 250px; margin: 10px;" >
-                  {{item}}
+                  <p class="h4 font-weight-bold"> Contact Number
+                    <b-card-text variant="success">{{row.phoneNumber}}</b-card-text>
+                  </p>
                 </div>
-                </span>
-               
               </div>
-            </div>
 
-            <div class="row">
+              <div class="row">
                 <div class="column col-lg-4 col-sm-12 col-md-12">
-                <p class="h4 font-weight-bold"> Main Skills:   </p>
-                <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$mainSkills$display">
-                <div class="rectangle" style="padding: 5px; border-radius: 6px; width: 250px; margin: 10px;" >
-                  {{item}}
+                  <p v-if="row.dateOfBirth" class="h4 font-weight-bold"> Date of Birth:
+                    <b-card-text>{{row.$dateOfBirth$display}}</b-card-text>
+                  </p>
                 </div>
-                </span>
-              
               </div>
-            </div>
 
-            <div class="row">
+              <div class="row">
                 <div class="column col-lg-4 col-sm-12 col-md-12">
-                <p class="h4 font-weight-bold"> All Skills:   </p>
-                <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$skills$display">
-                <div class="rectangle" style="padding: 5px; border-radius: 6px; width: 250px; margin: 10px;" >
-                  {{item}}
+                  <p class="h4 font-weight-bold"> Location:
+                    <b-card-text>{{row.$location$display}}</b-card-text>
+                  </p>
                 </div>
-                </span>
-              
               </div>
-            </div>
 
-            <div class="row">
+              <div class="row">
                 <div class="column col-lg-4 col-sm-12 col-md-12">
-                <p class="h4 font-weight-bold"> Company stages I can help with:    </p>
-                <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$companyStage$display">
-                <div class="rectangle" style="padding: 5px; border-radius: 6px; width: 250px; margin: 10px;" >
-                  {{item}}
-                </div>
-                </span>
-             
-              </div>
-            </div>
+                  <p class="h4 font-weight-bold"> Main Sectors: </p>
+                  <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$mainSectors$display">
+                    <div class="rectangle" style="padding: 5px; border-radius: 6px; width: 250px; margin: 10px;">
+                      {{item}}
+                    </div>
+                  </span>
 
-            <div class="row">
-                <div class="column col-lg-4 col-sm-12 col-md-12">
-                <p class="h4 font-weight-bold"> Other sectors I'm interested in: </p>
-                <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$interests$display">
-                <div class="rectangle" style="padding: 5px; border-radius: 6px; width: 250px; margin: 10px;" >
-                  {{item}}
                 </div>
-                </span>
-                
               </div>
-            </div>
+
+              <div class="row">
+                <div class="column col-lg-4 col-sm-12 col-md-12">
+                  <p class="h4 font-weight-bold"> All Sectors: </p>
+                  <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$sectors$display">
+                    <div class="rectangle" style="padding: 5px; border-radius: 6px; width: 250px; margin: 10px;">
+                      {{item}}
+                    </div>
+                  </span>
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="column col-lg-4 col-sm-12 col-md-12">
+                  <p class="h4 font-weight-bold"> Main Skills: </p>
+                  <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$mainSkills$display">
+                    <div class="rectangle" style="padding: 5px; border-radius: 6px; width: 250px; margin: 10px;">
+                      {{item}}
+                    </div>
+                  </span>
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="column col-lg-4 col-sm-12 col-md-12">
+                  <p class="h4 font-weight-bold"> All Skills: </p>
+                  <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$skills$display">
+                    <div class="rectangle" style="padding: 5px; border-radius: 6px; width: 250px; margin: 10px;">
+                      {{item}}
+                    </div>
+                  </span>
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="column col-lg-4 col-sm-12 col-md-12">
+                  <p class="h4 font-weight-bold"> Company stages I can help with: </p>
+                  <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$companyStage$display">
+                    <div class="rectangle" style="padding: 5px; border-radius: 6px; width: 250px; margin: 10px;">
+                      {{item}}
+                    </div>
+                  </span>
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="column col-lg-4 col-sm-12 col-md-12">
+                  <p class="h4 font-weight-bold"> Other sectors I'm interested in: </p>
+                  <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 14px;" v-for="item in row.$interests$display">
+                    <div class="rectangle" style="padding: 5px; border-radius: 6px; width: 250px; margin: 10px;">
+                      {{item}}
+                    </div>
+                  </span>
+
+                </div>
+              </div>
 
             </div>
           </b-tab>
 
-        <b-tab title="Who are they mentoring?" :title-link-class="'tab-title-class'">
-          <div class="row" style ="padding-top: 10px;">
-                <div class="column col-lg-4 col-sm-12 col-md-12">
-              <p class="h4 font-weight-bold" style="font-size: 17px;font-family: 'Grenette pro', sans-serif; color: black"> Companies & SMEs </p>
+          <b-tab title="Who are they mentoring?" :title-link-class="'tab-title-class'">
+            <div class="row" style="padding-top: 10px;">
+              <div class="column col-lg-4 col-sm-12 col-md-12">
+                <p class="h4 font-weight-bold" style="font-size: 17px;font-family: 'Grenette pro', sans-serif; color: black"> Companies & SMEs </p>
+              </div>
             </div>
-          </div>
 
-          <span
-            style=" 
+            <span style=" 
               font-family: 'Grenette pro', sans-serif;
               color: #ef4437;
               font-size: 1em;
               font-weight: 400;
-            "
-            v-for="mentor in filterMySMEs(row.rowKey)"
-            :key="mentor.rowKey"
-          > 
-            
-            <div style="padding-left: 20px;">
-              <img class="detail_image" :src="$getDashboardModel('slingshotPitches')[mentor.pitch].$companyLogo$display" style="border-radius: 15px; max-width:90px; padding: 5px; vertical-align:middle; " /></img>
-              <span style="vertical-align:middle; ">{{mentor.$pitch.name}} - {{mentor.$sME.name}} {{mentor.$sME.secondName}}  </span>
-            </div>
+            " v-for="mentor in filterMySMEs(row.rowKey)" :key="mentor.rowKey">
 
-            
-          </span>
+              <div style="padding-left: 20px;">
+                <img class="detail_image" :src="$getDashboardModel('slingshotPitches')[mentor.pitch].companyLogo.url" style="border-radius: 15px; max-width:90px; padding: 5px; vertical-align:middle; " /></img>
+                <span style="vertical-align:middle; ">{{mentor.$pitch.name}} - {{mentor.$sME.name}} {{mentor.$sME.secondName}} </span>
+              </div>
 
-         
-        </b-tab>
+
+            </span>
+
+
+          </b-tab>
 
 
         </b-tabs>

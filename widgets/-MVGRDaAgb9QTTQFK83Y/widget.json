@@ -7,7 +7,9 @@
     "y": 2
   },
   "layout": "b-card",
+  "offSet": 0,
   "overflow": "",
+  "perPage": 2,
   "styles": "",
   "subtab": "-MVGPTbxCAO6gmtwzQIf",
   "tab": "-MVGOMA1-ifNurWKHxUf",

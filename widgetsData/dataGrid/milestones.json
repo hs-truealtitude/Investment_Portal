@@ -625,7 +625,12 @@
           "order": "9"
         }
       },
-      "title": "Slingshot"
+      "title": "Slingshot",
+      "viewTemplate": {
+        "colsPerRow": "1",
+        "maxWidth": "300",
+        "type": "card-list"
+      }
     }
   }
 }

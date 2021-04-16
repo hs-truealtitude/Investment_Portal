@@ -62,7 +62,7 @@
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
-                "readonly": false,
+                "readonly": true,
                 "readonlyCondition": "",
                 "placeholder": "",
                 "labelBold": false,
@@ -94,7 +94,8 @@
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "name"
+                "propName": "name",
+                "gridId": "hRType"
               },
               {
                 "type": "datepicker",
@@ -116,7 +117,7 @@
                 "isMultiLine": false,
                 "isInteger": false,
                 "decimalPlace": 0,
-                "isTodayValue": false,
+                "isTodayValue": true,
                 "isTodayValueCreated": true,
                 "dateFormat": "mm/dd/yy hh:mm p",
                 "isCurrentUser": false,
@@ -130,14 +131,15 @@
                 "isChecked": false,
                 "vif": "",
                 "customCode": "",
-                "invisible": false,
+                "invisible": true,
                 "invisibleCondition": "",
                 "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "createdDate"
+                "propName": "createdDate",
+                "gridId": "hRType"
               },
               {
                 "type": "user",
@@ -173,14 +175,15 @@
                 "isChecked": false,
                 "vif": "",
                 "customCode": "",
-                "invisible": false,
+                "invisible": true,
                 "invisibleCondition": "",
                 "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "owner"
+                "propName": "owner",
+                "gridId": "hRType"
               },
               {
                 "type": "text",
@@ -223,7 +226,8 @@
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "state"
+                "propName": "state",
+                "gridId": "hRType"
               },
               {
                 "type": "text",
@@ -266,7 +270,8 @@
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "nextEvents"
+                "propName": "nextEvents",
+                "gridId": "hRType"
               },
               {
                 "type": "user",
@@ -302,14 +307,15 @@
                 "isChecked": false,
                 "vif": "",
                 "customCode": "",
-                "invisible": false,
+                "invisible": true,
                 "invisibleCondition": "",
                 "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "lastEditedBy"
+                "propName": "lastEditedBy",
+                "gridId": "hRType"
               },
               {
                 "type": "datepicker",
@@ -345,14 +351,15 @@
                 "isChecked": false,
                 "vif": "",
                 "customCode": "",
-                "invisible": false,
+                "invisible": true,
                 "invisibleCondition": "",
                 "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "lastEditDate"
+                "propName": "lastEditDate",
+                "gridId": "hRType"
               }
             ]
           }
@@ -364,7 +371,8 @@
         "instances": []
       }
     ],
-    "layout": "collapse"
+    "layout": "collapse",
+    "_uniqueId": 0.8167970778365705
   },
   "source": "hRType",
   "storageType": "dashboard",

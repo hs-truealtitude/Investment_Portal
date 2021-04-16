@@ -4,7 +4,7 @@
       <b-card>
 
         <div style="padding-top: 20px; padding-left: 20px; padding-right: 20px;">
-          <img class="detail_image" :src="row.$companyLogo$display" width="100px" height="100px" style="margin-left: 5px; vertical-align:middle; border-radius: 15px;">
+          <img class="detail_image" v-if="row.companyLogo" :src="row.companyLogo.url" width="100px" height="100px" style="margin-left: 5px; vertical-align:middle; border-radius: 15px;">
           <span class="company_title" style="font-weight: bold; font-family: 'Grenette pro', sans-serif; font-size: 25px; color:black; margin-left: 10px; ">{{row.name}} - {{row.dealProjectName}}</span>
         </div>
 
@@ -250,6 +250,29 @@
                   </p>
                 </div>
               </div>
+
+            <div class="row">
+                <div class="column col-lg-4 col-sm-12 col-md-12">
+                  <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em; font-weight: 400; " v-for="member in filterBy($getGrid('news'), row.rowKey, 'pitch') ">
+                    <div class="rectangle" style="padding: 5px; border-radius: 6px; width:auto; margin: 10px; ">
+
+                      <p style="padding-left: 10px; font-weight:bold; color:black;">
+                      {{member.name}} <br> 
+                      <span style="font-weight: normal;">{{member.newsDescription}}</span> <br>
+                        <div style="margin-top:-10px; padding-left: 10px;" v-if="member.newsLink">
+                          <a :href="'https://'+member.newsLink" target="_blank">
+                            <div class="social-icon-contain">
+                              <i style="padding: 5px; color: white;" class="fas fa-globe"></i>
+                            </div>
+                          </a>
+                        </div>
+                      </p>
+               
+                    </div>
+                  </span>
+                </div>
+            </div>
+
             </div>
           </b-tab>
 
@@ -338,7 +361,7 @@
                   <p class="h4 font-weight-bold"> Team Members</p>
                   <span style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400; " v-for="member in filterBy($getGrid('teamMembersTable'), row.rowKey, 'slingshotPitches') ">
                     <div class="rectangle" style="padding: 5px; border-radius: 6px; width:auto; margin: 10px; ">
-                      <img :src="member.$profilePitcture$display" style="border-radius: 15px; vertical-align:middle; max-width:100px  " />
+                      <img v-if="member.profilePitcture" :src="member.profilePitcture.url" style="border-radius: 15px; vertical-align:middle; max-width:60px; margin-right: 10px;  " />
                       {{member.name}}
                       {{member.secondName}}
                       - {{member.$jobRole$display}}

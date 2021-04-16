@@ -1,5 +1,6 @@
 {
   "displayColumn": "name",
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"owner\",\"operator\":\"=\",\"value\":null,\"name\":\"Owner\",\"hidden\":false}]}",
   "isReactive": true,
   "meta": {
     "aboutMe": {
@@ -1215,7 +1216,7 @@
   "title": "Mentors",
   "views": {
     "approvedMentors": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Approved Mentors\",\"hidden\":true}]}",
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Approved Mentors\",\"hidden\":true},{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"First Name\",\"hidden\":false}]}",
       "meta": {
         "aboutMe": {
           "invisible": false,
@@ -1314,6 +1315,9 @@
           "order": "14"
         }
       },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
       "title": "Approved Mentors"
     },
     "mentorApproval": {
@@ -1420,6 +1424,9 @@
           "order": "15"
         }
       },
+      "roles": [
+        "-MXvhCDprEN74BTAvdwe"
+      ],
       "title": "Mentor Approval"
     },
     "myProfile": {
@@ -1522,6 +1529,9 @@
           "order": "14"
         }
       },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
       "title": "My Profile"
     }
   }

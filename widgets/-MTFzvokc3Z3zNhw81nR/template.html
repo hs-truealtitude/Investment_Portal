@@ -4,12 +4,10 @@
 
     <b-button class="btn btn-warning btn-sm" style="color: white;  right: 25px; position: absolute;" @click='$setCurrentSubTab("-MTBaL8BTycvh1K_uOK4","-MJq8S1suwASZ84EkCd5")' variant='success'> <i class="fas fa-edit"></i>
     </b-button>
-
-
-
+    
   </div>
 
-  <center style="padding-top: 20px;"><img :src="row.$profileImage$display" style="border-radius: 15px; max-width:100px; " /> </center>
+  <center style="padding-top: 20px;"><img v-if="row.profileImage" :src="row.profileImage.url" style="border-radius: 15px; max-width:100px; " /> </center>
   <a href="#!">
   </a>
   <div class="pt-4 text-center">
@@ -36,7 +34,7 @@
         </p>
 
       <div class="row" style="justify-content:center; height: 40px;">
-        <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;" class="h4 font-weight-light text-muted" v-for='e in row.$user$display'>
+        <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;" class="h4 font-weight-light text-muted" v-for='e in row.$owner$display'>
         <a style="color: #ef4437;" href="`mailto:${e}`">{{e}}</a>
         </small>
       </div>
