@@ -24,7 +24,7 @@
         "name": "WarnerPatch-MK5G.pdf"
       }
     ],
-    "grantFunding": 50000,
+    "grantFunding": 250000,
     "group": false,
     "howManyInteractionsToMeetProjection": 1,
     "howManySignedLOIMOUHOT": 2,
@@ -34,10 +34,10 @@
         "name": "WarnerPatch - deck.pdf"
       }
     ],
-    "investmentRaised": 15000,
+    "investmentRaised": 450000,
     "investmentType": "-MJwrM0b2Fg3mktQPMcP",
     "jobsGeneratedThroughoutProgramme": 2,
-    "lastEditDate": 1618582011826,
+    "lastEditDate": 1618584341738,
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "latestFinancialTradingInformation": [
       {
@@ -51,7 +51,7 @@
     "mobileNumber": "000000000",
     "name": "Warner Patch",
     "news": "£450,000 raised\n",
-    "numberOfCommercialTrials": 5,
+    "numberOfCommercialTrials": 1,
     "numberOfInteractionsCommercialOpportunities": 2,
     "numberOfJobsGenerated": 2,
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
@@ -66,8 +66,8 @@
     "productGrowthOtherIndustries": "-MJwpoZD8WUTc7Ut59hw,-MJwpc43Un2tplgu7QLC",
     "rowKey": "-MMzZ2krPwl50hP5t54m",
     "sME": "-MSDB4vGVTDWjl3zyJaV",
-    "sectors": "-MJwpBr2xTpVYgzCeiYU,-MJwpDu9WatVIAYmr_e3",
-    "skills": "-MRKBP66M6plkL9atm4K,-MRKBNNYKyVUhb1OwNJO,-MRKBLMd2oUdf1gDlzDf",
+    "sectors": "-MJwpc43Un2tplgu7QLC,-MJwpoZD8WUTc7Ut59hw",
+    "skills": "-MRKBLMd2oUdf1gDlzDf,-MRUer0dPsjht-bQeUwd,-MST6q0s97yByls8_zwx,-MST7Cc2zZXP9-a-TErC",
     "specificStrategicValue": "Healthtech, IOT",
     "startDate": "10/04/2019, 00:00",
     "targetCompletionDate": "30/04/2019, 00:00",
@@ -272,5 +272,23 @@
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "rowKey": "-MObBhrhAnqlN698S_p7",
     "website": "https://www.nowwireless.com/"
+  },
+  "-MYd6zjTx4i8EuczUlS4": {
+    "_created": true,
+    "_id": 15,
+    "access": "-MKjNhCeEjTtfQL8X6vn",
+    "commitmentClosingDate": "14/04/2021, 00:00",
+    "cornerstoneConsent": "-MK5fqSDJJwvtDq1yxqJ",
+    "createdDate": 1618818889378,
+    "group": false,
+    "lastEditDate": 1618820098322,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "location": "-MJwtgUqBjMrFNntf6GH",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MYd6zjTx4i8EuczUlS4",
+    "sME": "-MSDB4vGVTDWjl3zyJaV",
+    "startDate": "14.01.2021",
+    "targetCompletionDate": "05/04/2021",
+    "user": "mvhT7sNTcEM5BdibKTLtmFZg6RE3"
   }
 }

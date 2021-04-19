@@ -1361,7 +1361,8 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "startDate",
-                "gridId": "slingshotPitches"
+                "gridId": "slingshotPitches",
+                "format": "DD/MM/YYYY"
               },
               {
                 "type": "number",
@@ -2373,7 +2374,8 @@
                 "customValidationErrorMessage": "",
                 "propName": "commitmentClosingDate",
                 "gridId": "slingshotPitches",
-                "description": "Target date for when a sponsor wants to receive all commitments for their deal."
+                "description": "Target date for when a sponsor wants to receive all commitments for their deal.",
+                "format": "DD/MM/YYYY"
               },
               {
                 "type": "datepicker",
@@ -2418,7 +2420,8 @@
                 "customValidationErrorMessage": "",
                 "propName": "targetCompletionDate",
                 "gridId": "slingshotPitches",
-                "description": "Estimated completion date of the investment."
+                "description": "Estimated completion date of the investment.",
+                "format": "DD/MM/YYYY"
               },
               {
                 "type": "number",
@@ -4886,7 +4889,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.4204830150256684
+    "_uniqueId": 0.49620295330839737
   },
   "source": "slingshotPitches",
   "storageType": "dashboard",
