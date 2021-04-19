@@ -441,7 +441,8 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "sDate",
-                "gridId": "sessions"
+                "gridId": "sessions",
+                "format": "DD/MM/YYYY, HH:mm"
               },
               {
                 "type": "timepicker",
@@ -485,7 +486,8 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "eDate",
-                "gridId": "sessions"
+                "gridId": "sessions",
+                "format": "DD/MM/YYYY, HH:mm"
               },
               {
                 "type": "number",
@@ -1673,7 +1675,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.8576114459665933
+    "_uniqueId": 0.8933857563483498
   },
   "source": "sessions",
   "storageType": "dashboard",
