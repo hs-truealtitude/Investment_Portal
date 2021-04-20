@@ -99,3 +99,17 @@ element.style {
                             background: #fffaf3 !important;
 
 }
+
+.guiSectionItem .nav-tabs .active {
+    border-bottom: 2px solid #ef4437
+
+}
+
+.vs__dropdown-menu{
+        background: #fffaf3 !important;
+
+}
+
+.dg-lookup-control__addVal.i-primary{
+ color: #ef4437;
+}

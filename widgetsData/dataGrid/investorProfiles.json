@@ -318,7 +318,8 @@
                 "gridId": "investorProfiles",
                 "invisible": null,
                 "invisibleLabel": null,
-                "invisibleInDataGrid": true
+                "invisibleInDataGrid": true,
+                "format": "DD/MM/YYYY"
               },
               {
                 "type": "text",
@@ -852,7 +853,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.3669556821200861
+    "_uniqueId": 0.04954130641537957
   },
   "source": "investorProfiles",
   "storageType": "dashboard",

@@ -22,7 +22,7 @@
   "profileID": "-MSDB4vGVTDWjl3zyJaV",
   "programmePartnerProfiles_lastViews": "",
   "sMEProfiles_lastViews": "sMEApproval",
-  "sessionDirection": "SME->Mentor",
+  "sessionDirection": "Mentor->SME",
   "sessions_lastViews": "leaveMentorReview",
   "slingshotPitches_lastViews": "filteredCardList"
 }

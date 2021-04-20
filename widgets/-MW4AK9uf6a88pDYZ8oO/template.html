@@ -27,13 +27,7 @@
         </div>
 
         <div v-if='row.$sME' class="row" style="justify-content:center; height: 30px; padding-top: 50px;">
-          <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;" class="h4 font-weight-light">{{new Date(row.$sDate$display).toLocaleDateString("en-UK", {
-          year: 'numeric',
-          month: 'numeric',
-          day: 'numeric',
-          hour: '2-digit',
-          minute: '2-digit',
-        }) }}</small>
+          <small style="font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;" class="h4 font-weight-light">{{row.$sDate$display}}</small>
         </div>
 
 

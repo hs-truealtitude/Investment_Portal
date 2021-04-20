@@ -315,7 +315,8 @@
                 "vif": "",
                 "customCode": "",
                 "propName": "dateOfBirth",
-                "gridId": "sMEProfiles"
+                "gridId": "sMEProfiles",
+                "format": "DD/MM/YYYY"
               },
               {
                 "type": "text",
@@ -820,7 +821,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.0786586859154228
+    "_uniqueId": 0.786374255832222
   },
   "source": "sMEProfiles",
   "storageType": "dashboard",

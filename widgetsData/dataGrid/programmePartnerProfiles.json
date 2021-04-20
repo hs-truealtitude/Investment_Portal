@@ -309,7 +309,8 @@
                 "vif": "",
                 "customCode": "",
                 "propName": "dateOfBirth",
-                "gridId": "programmePartnerProfiles"
+                "gridId": "programmePartnerProfiles",
+                "format": "DD/MM/YYYY"
               },
               {
                 "type": "text",
@@ -770,7 +771,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.3218726600645754
+    "_uniqueId": 0.9953802288810574
   },
   "source": "programmePartnerProfiles",
   "storageType": "dashboard",

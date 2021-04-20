@@ -411,7 +411,8 @@
                 "customCode": "",
                 "propName": "dateOfBirth",
                 "gridId": "mentors",
-                "invisibleInDataGrid": true
+                "invisibleInDataGrid": true,
+                "format": "DD/MM/YYYY"
               },
               {
                 "type": "phone",
@@ -1209,7 +1210,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.43997676722848245
+    "_uniqueId": 0.4164601530406349
   },
   "source": "mentors",
   "storageType": "dashboard",

@@ -409,7 +409,7 @@
                 "value": "",
                 "className": "col-md-6",
                 "readonly": true,
-                "readonlyCondition": "(rowData.direction == 'Mentor->SME'  && $getUser('accountType') == 'SME') || (rowData.direction == 'SME->Mentor' && $getUser('accountType') == 'Mentor') || rowData.$status$display == \"Accepted\"",
+                "readonlyCondition": "",
                 "placeholder": "",
                 "labelBold": false,
                 "labelItalic": false,
