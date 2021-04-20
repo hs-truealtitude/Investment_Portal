@@ -1,0 +1,13 @@
+{
+  "dependency": "charts/-MUroTaKWcr1ElBA2R76",
+  "gsOptions": {
+    "h": 9,
+    "w": 19,
+    "x": 2,
+    "y": 32
+  },
+  "layout": "b-card",
+  "subtab": "-MMkiJKDLeU1Mz8JWLqA",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<Chart v-if=\"$getGrid('slingshotPitches')\" chartId=\"-MUroTaKWcr1ElBA2R76\" :rData=\"$getGrid('slingshotPitches')\" :widgetKey=\"widgetKey\" gridId=\"slingshotPitches\" />"
+}

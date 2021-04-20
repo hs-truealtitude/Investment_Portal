@@ -1,0 +1,24 @@
+{
+  "classes": "",
+  "columnMaxWidth": "200",
+  "columnMinWidth": "200",
+  "dataSource": "commercialContracts",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 10,
+    "w": 19,
+    "x": 3,
+    "y": 18
+  },
+  "offSet": 0,
+  "overflow": "height:auto",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MPe1A3nbtf8VlPG3BiK",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<div v-if='row.$pitch' class=\"card-body\">\r\n  <h2 style=\"color:black; font-family: 'Grenette pro', sans-serif !important;\">{{row.name}}</h2>\r\n  <p style=\"color:black; font-family: 'Grenette pro', sans-serif !important;\">{{row.$pitch.name}}</p>\r\n  <p style=\"color:black; font-family: 'Grenette pro', sans-serif !important;\">£{{row.value |  numeralFormat('0,0') }}</p>\r\n  <p style=\"color:black; font-family: 'Grenette pro', sans-serif !important;\">Start Date: {{row.$startDate$Date}}</p>\r\n  <p style=\"color:black; font-family: 'Grenette pro', sans-serif !important;\">End Date: {{row.$endDate$Date}}</p>\r\n  <p ></p>\r\n</div>",
+  "title": "Commercial Contracts Secured",
+  "type": "card-list",
+  "viewOfGrid": "Default",
+  "widthType": "minAndMaxWidth"
+}

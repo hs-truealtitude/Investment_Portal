@@ -1,0 +1,18 @@
+{
+  "classes": "",
+  "gsOptions": {
+    "h": 5,
+    "w": 15,
+    "x": 3,
+    "y": 2
+  },
+  "layout": "",
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MSS8Qq3X5Knrz4I6FLi",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<center>\r\n  <button type=\"button\" class=\"btn btn-success\" @click='$setCurrentSubTab(\"-MSSGA39TgrXo61gq-zJ\",\"-MKUwx1XmgWmAYvLK_wz\")'>Mentors</button>\r\n  <button type=\"button\" class=\"btn btn-danger\" @click='$setCurrentSubTab(\"-MSSGBoDqOdUXq8acqFc\",\"-MKUwx1XmgWmAYvLK_wz\")'>Investors</button>\r\n  <button type=\"button\" class=\"btn btn-warning\" @click='$setCurrentSubTab(\"-MSSGHFX-vR4Au5gFDVQ\",\"-MKUwx1XmgWmAYvLK_wz\")'>Programme Partners</button>\r\n  <button type=\"button\" class=\"btn btn-primary\" @click='$setCurrentSubTab(\"-MSSGDpHjJs8sZRFptJ2\",\"-MKUwx1XmgWmAYvLK_wz\")'>SMEs</button>\r\n\r\n</center>",
+  "title": ""
+}

@@ -1,0 +1,24 @@
+{
+  "classes": "",
+  "columnMaxWidth": "370",
+  "columnMinWidth": "350",
+  "dataSource": "sessions",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 10,
+    "w": 22,
+    "x": 1,
+    "y": 3
+  },
+  "offSet": 0,
+  "overflow": "height:auto",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MW45c7ybX9RB28zFYPM",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<div>\n  <div class=\"row\">\n  </div>\n\n  <center style=\"padding-top: 10px;\">\n    <img v-if='row.$mentor.profileImage' :src=\"$getDashboardModel('mentors')[row.mentor].profileImage.url\" style=\"border-radius: 15px; max-width:90px; padding: 5px; \" />\n    <img v-if='row.$pitch.companyLogo' :src=\"$getDashboardModel('slingshotPitches')[row.pitch].companyLogo.url\" style=\"border-radius: 15px; max-width:70px; padding: 5px;  \" />\n  </center>\n  </a>\n  <div class=\"pt-4 text-center\">\n    <h5 class=\"h3 title\">\n\n      <span style=\"color: black; font-size: 20px; font-family: 'Grenette pro', sans-serif;\" class=\"d-block mb-1\">{{row.$mentor.name}} {{row.$mentor.secondName}}</span>\n      <i style=\"color: black;\" class=\"fas fa-hands-helping\"></i>\n      <span style=\"color: black; font-size: 20px; font-family: 'Grenette pro', sans-serif; padding-bottom: 10px;\" class=\"d-block mb-1\">{{row.$pitch.name}}</span>\n        \n        <div style=\"height: 30px; padding-top: 10px;\" class=\"row justify-content-center\">\n          <span class=\"d-block mb-1\" style=\"text-decoration:underline; font-family: 'Grenette pro', sans-serif; color: black; font-size: 1em;  \">{{row.name}}</span>\n        </div>\n\n        <div style=\"height: 120px; padding-top: 15px;\" class=\"about\">\n          <p style=\"font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;  font-weight: 400;\">{{truncateText(row.notes, 200)}}</p>\n        </div>\n\n        <div style=\"height: 30px; padding-top: 50px;\" class=\"row justify-content-center\">\n          <span style=\"font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;\">{{new Date(row.$sDate$display).toLocaleDateString(\"en-UK\", {\n          year: 'numeric',\n          month: 'numeric',\n          day: 'numeric',\n          hour: '2-digit',\n          minute: '2-digit',\n        }) }}</span>\n        </div>\n\n    </h5>\n\n    <div style=\"height:20px;\" class=\"row\">\n    </div>\n\n    <center style=\"padding-top: 20px; padding-bottom: 20px;\">\n      <b-button class=\" btn-sm\" variant='primary' @click=\"$dgShowEditRowModal('sessions', row.rowKey);\">Leave Review\n      </b-button>\n    </center>\n\n\n\n  </div>\n</div>",
+  "title": "Leave Session Reviews",
+  "type": "card-list",
+  "viewOfGrid": "leaveMentorReview",
+  "widthType": "minAndMaxWidth"
+}

@@ -1,0 +1,17 @@
+{
+  "classes": "noscroll",
+  "gsOptions": {
+    "h": 3,
+    "w": 15,
+    "x": 4,
+    "y": 0
+  },
+  "layout": "",
+  "offSet": 0,
+  "overflow": "overflow:hidden",
+  "perPage": 2,
+  "styles": "",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<center>\n  <h1 style=\"font-weight: bold;\">Investment Portal</h1>\n  <h3> Admin Dashboard </h3>\n</center>",
+  "title": ""
+}
