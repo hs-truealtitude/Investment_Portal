@@ -11,18 +11,6 @@
     "rowKey": "-MV1yZ8hUHRw78DORc_v",
     "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt"
   },
-  "-MV20KiEvueQY9b5L5mo": {
-    "_id": 4,
-    "createdDate": 1614958385068,
-    "group": false,
-    "lastEditDate": 1614958388000,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "name": "Financial Advisor",
-    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "requirementType": "-MSNjp3fOzWAwLLfhWe0",
-    "rowKey": "-MV20KiEvueQY9b5L5mo",
-    "slingshotPitches": "-MMzZ2krPwl50hP5t54m"
-  },
   "-MVFtdvMyRcRJ-SOu2sZ": {
     "_id": 5,
     "createdDate": 1615191252336,
@@ -34,5 +22,15 @@
     "requirementType": "-MSNjrBZxLr-VgqfvYiJ",
     "rowKey": "-MVFtdvMyRcRJ-SOu2sZ",
     "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt"
+  },
+  "-MYjQPDzYrX4l_faYMze": {
+    "_id": 6,
+    "createdDate": 1618924643383,
+    "group": false,
+    "lastEditDate": 1618924643693,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-MYjQPDzYrX4l_faYMze",
+    "slingshotPitches": "-MMzZ2krPwl50hP5t54m"
   }
 }
