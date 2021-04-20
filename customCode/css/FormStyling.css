@@ -24,13 +24,6 @@ border: 1px solid black;
 
 }
 
-.guiSectionItem .nav-tabs .active {
-    border-bottom: 2px solid #ef4437;
-
-
-}
-
-
 
 .form-builder-root span{
         font-family: 'Grenette pro', sans-serif !important; 
@@ -119,9 +112,4 @@ font-size: 0.85rem;
 
 .grid-stack-item-content h-100 ._hasTitle{
  display: none;
-}
-
-.vs__dropdown-menu{
-        background: #fffaf3 !important;
-
 }

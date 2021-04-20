@@ -35,7 +35,7 @@
     "lastEditedBy": {
       "displayName": "Last edited by",
       "invisible": false,
-      "order": "5",
+      "order": "4",
       "type": "user"
     },
     "linkedInProfileLink": {
@@ -48,19 +48,19 @@
       "displayName": "Location",
       "invisible": false,
       "lookUpTable": "country",
-      "order": "6",
+      "order": "5",
       "type": "lookup"
     },
     "name": {
       "displayName": "First Name",
       "invisible": false,
-      "order": "2",
+      "order": "1",
       "type": "string"
     },
     "nextEvents": {
       "displayName": "Next Events",
       "invisible": true,
-      "order": "4",
+      "order": "3",
       "type": "string"
     },
     "owner": {
@@ -78,7 +78,7 @@
     "profileImage": {
       "displayName": "Profile Image",
       "invisible": false,
-      "order": "1",
+      "order": "6",
       "type": "profile_image"
     },
     "secondName": {
@@ -90,7 +90,7 @@
     "state": {
       "displayName": "State",
       "invisible": true,
-      "order": "3",
+      "order": "2",
       "type": "string"
     },
     "submit": {
@@ -101,8 +101,7 @@
     },
     "user": {
       "displayName": "User",
-      "invisible": false,
-      "order": "16",
+      "order": 16,
       "type": "user"
     }
   },
@@ -315,8 +314,7 @@
                 "vif": "",
                 "customCode": "",
                 "propName": "dateOfBirth",
-                "gridId": "sMEProfiles",
-                "format": "DD/MM/YYYY"
+                "gridId": "sMEProfiles"
               },
               {
                 "type": "text",
@@ -821,7 +819,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.786374255832222
+    "_uniqueId": 0.0786586859154228
   },
   "source": "sMEProfiles",
   "storageType": "dashboard",

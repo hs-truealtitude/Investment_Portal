@@ -6,7 +6,7 @@
 
   <div class="pt-4 text-center">
     <h5 class="h3 title">
-      <span v-if="row.name" class="d-block mb-1" style="font-family: 'Grenette pro', sans-serif; font-size: 20px; color:black;">{{row.name}}</span>
+      <span class="d-block mb-1" style="font-family: 'Grenette pro', sans-serif; font-size: 20px; color:black;">{{row.name}}</span>
       <small id="about" class="h4 font-weight-light text-muted"></small>
     </h5>
 
@@ -36,7 +36,7 @@
       <div style="padding-top:20px;" v-if="row.investmentType">
         <p class="h4 font-weight-bold" style="font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;"> Investment Type: </p>
         <div class="rectangle" style="background-color:#f59595; padding: 2px; border-radius: 6px;">
-          <span v-if="row.investmentType" style="font-family: 'Grenette pro', sans-serif; color: black;"> {{row.$investmentType$display}} </span>
+          <span style="font-family: 'Grenette pro', sans-serif; color: black;"> {{row.$investmentType$display}} </span>
         </div>
       </div>
     </div>

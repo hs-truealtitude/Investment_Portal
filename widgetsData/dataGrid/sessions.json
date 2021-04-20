@@ -409,7 +409,7 @@
                 "value": "",
                 "className": "col-md-6",
                 "readonly": true,
-                "readonlyCondition": "",
+                "readonlyCondition": "(rowData.direction == 'Mentor->SME'  && $getUser('accountType') == 'SME') || (rowData.direction == 'SME->Mentor' && $getUser('accountType') == 'Mentor') || rowData.$status$display == \"Accepted\"",
                 "placeholder": "",
                 "labelBold": false,
                 "labelItalic": false,
@@ -441,8 +441,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "sDate",
-                "gridId": "sessions",
-                "format": "DD/MM/YYYY, HH:mm"
+                "gridId": "sessions"
               },
               {
                 "type": "timepicker",
@@ -486,8 +485,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "eDate",
-                "gridId": "sessions",
-                "format": "DD/MM/YYYY, HH:mm"
+                "gridId": "sessions"
               },
               {
                 "type": "number",
@@ -1675,7 +1673,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.8933857563483498
+    "_uniqueId": 0.8576114459665933
   },
   "source": "sessions",
   "storageType": "dashboard",

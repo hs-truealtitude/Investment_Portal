@@ -257,26 +257,13 @@
     "_id": 23,
     "completed": false,
     "createdDate": 1618396920533,
-    "description": "FDA",
     "group": false,
-    "lastEditDate": 1618583968999,
+    "lastEditDate": 1618489077438,
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "name": "CE Marking -FDA",
+    "name": "Next Milestone",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "rowKey": "-MYEyJ-APMx3otEyooDQ",
     "slingshotPitches": "-MMzZ2krPwl50hP5t54m",
-    "targetCompletionDate": "01/06/2022, 00:00"
-  },
-  "-MYQ6a2PqqU1liyo_mEV": {
-    "_id": 24,
-    "createdDate": 1618583904022,
-    "group": false,
-    "lastEditDate": 1618583917157,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "name": "Clinical Study",
-    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "rowKey": "-MYQ6a2PqqU1liyo_mEV",
-    "slingshotPitches": "-MMzZ2krPwl50hP5t54m",
-    "targetCompletionDate": 1618583904022
+    "targetCompletionDate": "07/09/2022, 00:00"
   }
 }
