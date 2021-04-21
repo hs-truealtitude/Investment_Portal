@@ -125,3 +125,7 @@ font-size: 0.85rem;
         background: #fffaf3 !important;
 
 }
+
+.vs__dropdown-menu .vs__dropdown-option--highlight{
+    background: #ef4437;
+}

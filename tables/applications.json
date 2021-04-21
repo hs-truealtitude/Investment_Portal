@@ -2701,5 +2701,27 @@
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "rowKey": "-MYjpZ9ZgkcubHlnj0B_",
     "sME": "-MSDB4vGVTDWjl3zyJaV"
+  },
+  "-MYngZMddxiog3bL8sfX": {
+    "_id": 260,
+    "applicationStatus": "-MS2D3bgt4vWZpZco7Aw",
+    "createdBy": "9p15gDKpdKOzb9HUqo2J72YmWuH2",
+    "createdDate": 1618996249356,
+    "group": false,
+    "investor": "-MYnbtZgnlPp-ae8R83V",
+    "isComplete": true,
+    "lastEditDate": 1618996311957,
+    "lastEditedBy": "9p15gDKpdKOzb9HUqo2J72YmWuH2",
+    "message": "Hi there, very interested in investing....",
+    "name": "Investor->SME",
+    "nextEvents": "Ok",
+    "notificationDescription": "An Investor has applied for Warner Patch",
+    "owner": "9p15gDKpdKOzb9HUqo2J72YmWuH2",
+    "pitch": "-MMzZ2krPwl50hP5t54m",
+    "referralTypeSME": "-MSXrH_xpojUkTnzBsPK",
+    "responseOpened": true,
+    "rowKey": "-MYngZMddxiog3bL8sfX",
+    "sME": "-MSDB4vGVTDWjl3zyJaV",
+    "state": "User Task - Accepted (RESPONSE TO INVESTOR)"
   }
 }

@@ -212,7 +212,8 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "targetCompletionDate",
-                "gridId": "nextFiveYearsMilestones"
+                "gridId": "nextFiveYearsMilestones",
+                "format": "DD/MM/YYYY"
               },
               {
                 "type": "checkbox",
@@ -578,7 +579,7 @@
       }
     ],
     "layout": "collapse",
-    "_uniqueId": 0.16811160527386537
+    "_uniqueId": 0.09743292483307209
   },
   "source": "nextFiveYearsMilestones",
   "storageType": "dashboard",

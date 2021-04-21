@@ -113,3 +113,7 @@ element.style {
 .dg-lookup-control__addVal.i-primary{
  color: #ef4437;
 }
+
+.vs__dropdown-menu .vs__dropdown-option--highlight{
+    background: #ef4437;
+}
