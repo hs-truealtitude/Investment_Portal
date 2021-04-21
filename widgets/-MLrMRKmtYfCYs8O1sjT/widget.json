@@ -5,9 +5,9 @@
   "columnMinWidth": "370",
   "dataSource": "slingshotPitches",
   "gsOptions": {
-    "h": 51,
-    "w": 22,
-    "x": 1,
+    "h": 41,
+    "w": 20,
+    "x": 2,
     "y": 5
   },
   "offSet": 0,
