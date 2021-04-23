@@ -1,0 +1,17 @@
+{
+  "classes": "",
+  "dependency": "chartsOnly/-MYtKqhAoEx1rsBAWMbn",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 9,
+    "w": 20,
+    "x": 2,
+    "y": 21
+  },
+  "overflow": "",
+  "styles": "",
+  "subtab": "-MMkiJKDLeU1Mz8JWLqA",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<ChartOnly chartId=\"-MYtKqhAoEx1rsBAWMbn\" :rData=\"$getGrid('slingshotPitches')\" :widgetKey=\"widgetKey\" gridId=\"slingshotPitches\" />",
+  "title": "Investment Raised"
+}

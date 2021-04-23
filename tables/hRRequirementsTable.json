@@ -27,10 +27,48 @@
     "_id": 6,
     "createdDate": 1618924643383,
     "group": false,
-    "lastEditDate": 1618924643693,
+    "lastEditDate": 1619001864816,
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Legal & Business Economics - Undergrad & Postgrad Students",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "requirementType": "-MSNjp3fOzWAwLLfhWe0",
     "rowKey": "-MYjQPDzYrX4l_faYMze",
+    "slingshotPitches": "-MMzZ2krPwl50hP5t54m"
+  },
+  "-MYo0zbzru8A3Fziz_Sn": {
+    "_id": 7,
+    "createdDate": 1619001866041,
+    "group": false,
+    "lastEditDate": 1619001993840,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Front end & Backend developers - Specialising in wareable technology",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "requirementType": "-MSNjrBZxLr-VgqfvYiJ",
+    "rowKey": "-MYo0zbzru8A3Fziz_Sn",
+    "slingshotPitches": "-MMzZ2krPwl50hP5t54m"
+  },
+  "-MYo14twEzv16Q6ouZOj": {
+    "_id": 8,
+    "createdDate": 1619001891765,
+    "group": false,
+    "lastEditDate": 1619001904927,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Product Design Engineer",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "requirementType": "-MSNjrBZxLr-VgqfvYiJ",
+    "rowKey": "-MYo14twEzv16Q6ouZOj",
+    "slingshotPitches": "-MMzZ2krPwl50hP5t54m"
+  },
+  "-MYo18UVPtAhNj5v0XaO": {
+    "_id": 9,
+    "createdDate": 1619001906457,
+    "group": false,
+    "lastEditDate": 1619001920062,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "BDM Resource in Health & Wellbeing",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "requirementType": "-MSNjrBZxLr-VgqfvYiJ",
+    "rowKey": "-MYo18UVPtAhNj5v0XaO",
     "slingshotPitches": "-MMzZ2krPwl50hP5t54m"
   }
 }

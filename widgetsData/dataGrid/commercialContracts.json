@@ -213,7 +213,8 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "startDate",
-                "gridId": "commercialContracts"
+                "gridId": "commercialContracts",
+                "format": "DD/MM/YYYY"
               },
               {
                 "type": "datepicker",
@@ -257,7 +258,8 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "endDate",
-                "gridId": "commercialContracts"
+                "gridId": "commercialContracts",
+                "format": "DD/MM/YYYY"
               },
               {
                 "type": "datepicker",

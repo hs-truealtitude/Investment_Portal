@@ -81,29 +81,5 @@
     "phoneNumber": "0000000000",
     "rowKey": "-MWjm-W7hiugHHKJF_Vt",
     "user": "oGXbVhqh4hSijr26QVyKoiU3YdX2"
-  },
-  "-MYjmYjZzKTx6pfTGUFm": {
-    "_created": true,
-    "_id": 8,
-    "createdDate": 1618930711669,
-    "group": false,
-    "lastEditDate": 1618930711669,
-    "lastEditedBy": "o8ms9AtsoiQ3BGpOtf4HCo11Ezt1",
-    "location": "-MJwtgUqBjMrFNntf6GH",
-    "owner": "o8ms9AtsoiQ3BGpOtf4HCo11Ezt1",
-    "rowKey": "-MYjmYjZzKTx6pfTGUFm",
-    "user": "o8ms9AtsoiQ3BGpOtf4HCo11Ezt1"
-  },
-  "-MYjnrd2PEYr0luotXqC": {
-    "_created": true,
-    "_id": 9,
-    "createdDate": 1618931055308,
-    "group": false,
-    "lastEditDate": 1618931055308,
-    "lastEditedBy": "nmQXmFXhAzRnpLTMQ80gWGr1bGt2",
-    "location": "-MJwtgUqBjMrFNntf6GH",
-    "owner": "nmQXmFXhAzRnpLTMQ80gWGr1bGt2",
-    "rowKey": "-MYjnrd2PEYr0luotXqC",
-    "user": "nmQXmFXhAzRnpLTMQ80gWGr1bGt2"
   }
 }

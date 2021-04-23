@@ -4,14 +4,15 @@
   "gsOptions": {
     "h": 4,
     "w": 5,
-    "x": 9,
+    "x": 10,
     "y": 2
   },
-  "layout": "b-card",
+  "offSet": 0,
   "overflow": "",
+  "perPage": 2,
   "styles": "",
   "subtab": "-MMkiJKDLeU1Mz8JWLqA",
   "tab": "-MKUwx1XmgWmAYvLK_wz",
-  "template": "<center>\r\n  <i class=\"fas fa-handshake fa-4x\"></i>\r\n\r\n  <h2> Mentor Introductions </h2>\r\n  <h1 style=\"font-weight: bold;\">{{mentorInteractionsCount()}}</h1>\r\n</center>",
+  "template": "<center>\r\n  <i style=\"color:black;\" class=\"fas fa-handshake fa-4x\"></i>\r\n\r\n  <h2> Mentor Introductions </h2>\r\n  <h1 style=\"font-weight: bold;\">{{mentorInteractionsCount()}}</h1>\r\n</center>",
   "title": ""
 }

@@ -26917,5 +26917,216 @@
     "logDetails": "{\n  \"_id\": 260,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"9p15gDKpdKOzb9HUqo2J72YmWuH2\",\n  \"createdDate\": 1618996249356,\n  \"group\": false,\n  \"investor\": \"-MYnbtZgnlPp-ae8R83V\",\n  \"lastEditDate\": 1618996268457,\n  \"lastEditedBy\": \"9p15gDKpdKOzb9HUqo2J72YmWuH2\",\n  \"message\": \"Hi there, very interested in investing....\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MYngZMddxiog3bL8sfX\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": \"Inv SME Approve\"\n}",
     "name": "Workflow Step > User Task - Accepted (RESPONSE TO INVESTOR)",
     "rowKey": "-MYngl2fCKusrgvDrYLo"
+  },
+  "-MYtzvOM-XeLOCw0Iwb7": {
+    "_id": 3284,
+    "date": 1619101988403,
+    "logDetails": "data passed is{\n  \"row\": \"-MYtzr7EfpqSgLxPP_Or\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MYtzvOM-XeLOCw0Iwb7"
+  },
+  "-MYtzw4KfdVp3VEUUZL2": {
+    "_id": 3285,
+    "date": 1619101988512,
+    "logDetails": "record name is\"Investor->SME\"",
+    "name": "Workflow Log ",
+    "rowKey": "-MYtzw4KfdVp3VEUUZL2"
+  },
+  "-MYtzxK2whAW6FMldNqw": {
+    "_id": 3286,
+    "date": 1619101995659,
+    "logDetails": "{\n  \"_id\": 261,\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619101970799,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619101976775,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MYtzr7EfpqSgLxPP_Or\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Inv SME Approve",
+    "rowKey": "-MYtzxK2whAW6FMldNqw"
+  },
+  "-MYtzxQHHqnAmUixt9BK": {
+    "_id": 3286,
+    "date": 1619101995060,
+    "logDetails": "{\n  \"_id\": 261,\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619101970799,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619101976775,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MYtzr7EfpqSgLxPP_Or\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Script Task",
+    "rowKey": "-MYtzxQHHqnAmUixt9BK"
+  },
+  "-MYu-1Nhn0XmO4dOQuyr": {
+    "_id": 3287,
+    "date": 1619102017067,
+    "logDetails": "data passed is{\n  \"event\": \"Reject\",\n  \"row\": \"-MYtzr7EfpqSgLxPP_Or\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Reject\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"email\": \"hayden.sherwood@live.com\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MYu-1Nhn0XmO4dOQuyr"
+  },
+  "-MYu-1OFc_H9QhVeKERM": {
+    "_id": 3288,
+    "date": 1619102017086,
+    "logDetails": "hayden.sherwood@live.com clicked Reject at 2021-04-22 14:33:37 on record ID 261",
+    "name": "User Workflow Event",
+    "rowKey": "-MYu-1OFc_H9QhVeKERM",
+    "user": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "workflowName": "All Applications"
+  },
+  "-MYu-1PMFPkSCpHY8iD5": {
+    "_id": 3289,
+    "date": 1619102017168,
+    "logDetails": "{\n  \"_id\": 261,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619101970799,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619101976775,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MYtzr7EfpqSgLxPP_Or\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > User Task - Rejected",
+    "rowKey": "-MYu-1PMFPkSCpHY8iD5"
+  },
+  "-MYu-535CeSCUTgW8Kmk": {
+    "_id": 3290,
+    "date": 1619102032135,
+    "logDetails": "data passed is{\n  \"row\": \"-MYu-3G8TF9xi3fOlvxB\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MYu-535CeSCUTgW8Kmk"
+  },
+  "-MYu-53b5q0AvuY5YDUn": {
+    "_id": 3291,
+    "date": 1619102032154,
+    "logDetails": "record name is\"Investor->SME\"",
+    "name": "Workflow Log ",
+    "rowKey": "-MYu-53b5q0AvuY5YDUn"
+  },
+  "-MYu-54783q1Wwvg08Yp": {
+    "_id": 3292,
+    "date": 1619102032199,
+    "logDetails": "{\n  \"_id\": 262,\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619102024616,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619102031644,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"Test\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MYu-3G8TF9xi3fOlvxB\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Inv SME Approve",
+    "rowKey": "-MYu-54783q1Wwvg08Yp"
+  },
+  "-MYu-548N7gee1dJl0_-": {
+    "_id": 3292,
+    "date": 1619102032197,
+    "logDetails": "{\n  \"_id\": 262,\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619102024616,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619102031644,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"Test\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MYu-3G8TF9xi3fOlvxB\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Script Task",
+    "rowKey": "-MYu-548N7gee1dJl0_-"
+  },
+  "-MYu-DgtQcgtNUd6BHk2": {
+    "_id": 3293,
+    "date": 1619102067511,
+    "logDetails": "data passed is{\n  \"event\": \"Reject\",\n  \"row\": \"-MYu-3G8TF9xi3fOlvxB\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Reject\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"email\": \"hayden.sherwood@live.com\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MYu-DgtQcgtNUd6BHk2"
+  },
+  "-MYu-DhJCPLBgPPQCdaH": {
+    "_id": 3294,
+    "date": 1619102067526,
+    "logDetails": "hayden.sherwood@live.com clicked Reject at 2021-04-22 14:34:27 on record ID 262",
+    "name": "User Workflow Event",
+    "rowKey": "-MYu-DhJCPLBgPPQCdaH",
+    "user": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "workflowName": "All Applications"
+  },
+  "-MYu-Dhi_kQCHwt1j_H_": {
+    "_id": 3295,
+    "date": 1619102067565,
+    "logDetails": "{\n  \"_id\": 262,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619102024616,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619102031644,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"Test\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MYu-3G8TF9xi3fOlvxB\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > User Task - Rejected",
+    "rowKey": "-MYu-Dhi_kQCHwt1j_H_"
+  },
+  "-MYu-IBoHMeiy7gjmz0H": {
+    "_id": 3296,
+    "date": 1619102085941,
+    "logDetails": "data passed is{\n  \"row\": \"-MYu-GJpLC7s5dxYDP8i\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MYu-IBoHMeiy7gjmz0H"
+  },
+  "-MYu-ICOtqkD-PU_nuPu": {
+    "_id": 3297,
+    "date": 1619102085958,
+    "logDetails": "record name is\"Investor->SME\"",
+    "name": "Workflow Log ",
+    "rowKey": "-MYu-ICOtqkD-PU_nuPu"
+  },
+  "-MYu-IChej3l6vqZRJhC": {
+    "_id": 3298,
+    "date": 1619102086000,
+    "logDetails": "{\n  \"_id\": 263,\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619102078101,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619102084324,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Findaa Technology Ltd\",\n  \"owner\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"pitch\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"referralTypeSME\": \"-MSXrbISIxncbwM3CU5V\",\n  \"rowKey\": \"-MYu-GJpLC7s5dxYDP8i\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Inv SME Approve",
+    "rowKey": "-MYu-IChej3l6vqZRJhC"
+  },
+  "-MYu-ICiYoO624M4JNwB": {
+    "_id": 3298,
+    "date": 1619102085998,
+    "logDetails": "{\n  \"_id\": 263,\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619102078101,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619102084324,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Findaa Technology Ltd\",\n  \"owner\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"pitch\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"referralTypeSME\": \"-MSXrbISIxncbwM3CU5V\",\n  \"rowKey\": \"-MYu-GJpLC7s5dxYDP8i\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Script Task",
+    "rowKey": "-MYu-ICiYoO624M4JNwB"
+  },
+  "-MYu-JwYS85daErvnTtJ": {
+    "_id": 3299,
+    "date": 1619102093092,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MYu-GJpLC7s5dxYDP8i\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"email\": \"hayden.sherwood@live.com\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MYu-JwYS85daErvnTtJ"
+  },
+  "-MYu-Jwz0HWzjrxpJTRY": {
+    "_id": 3300,
+    "date": 1619102093108,
+    "logDetails": "hayden.sherwood@live.com clicked Approve at 2021-04-22 14:34:53 on record ID 263",
+    "name": "User Workflow Event",
+    "rowKey": "-MYu-Jwz0HWzjrxpJTRY",
+    "user": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "workflowName": "All Applications"
+  },
+  "-MYu-JyDOatUjbC5u3zj": {
+    "_id": 3301,
+    "date": 1619102093186,
+    "logDetails": "{\n  \"_id\": 263,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619102078101,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619102084324,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Findaa Technology Ltd\",\n  \"owner\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"pitch\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"referralTypeSME\": \"-MSXrbISIxncbwM3CU5V\",\n  \"rowKey\": \"-MYu-GJpLC7s5dxYDP8i\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > Script Task - Save Pitch Investor",
+    "rowKey": "-MYu-JyDOatUjbC5u3zj"
+  },
+  "-MYu-JyPgWEBJ6wV2BR7": {
+    "_id": 3302,
+    "date": 1619102093209,
+    "logDetails": "{\n  \"_id\": 263,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619102078101,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619102084324,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Findaa Technology Ltd\",\n  \"owner\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"pitch\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"referralTypeSME\": \"-MSXrbISIxncbwM3CU5V\",\n  \"rowKey\": \"-MYu-GJpLC7s5dxYDP8i\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > User Task - Accepted (RESPONSE TO INVESTOR)",
+    "rowKey": "-MYu-JyPgWEBJ6wV2BR7"
+  },
+  "-MYu05cFrPj9fGMp5Ddp": {
+    "_id": 3303,
+    "date": 1619102296592,
+    "logDetails": "data passed is{\n  \"row\": \"-MYu02x1OkdcBn2BbckL\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MYu05cFrPj9fGMp5Ddp"
+  },
+  "-MYu05c_otr86EIhTjm4": {
+    "_id": 3304,
+    "date": 1619102296609,
+    "logDetails": "record name is\"Investor->SME\"",
+    "name": "Workflow Log ",
+    "rowKey": "-MYu05c_otr86EIhTjm4"
+  },
+  "-MYu05crhT5dD_EoFYXh": {
+    "_id": 3305,
+    "date": 1619102296634,
+    "logDetails": "{\n  \"_id\": 264,\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619102285474,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619102295287,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Robok\",\n  \"owner\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"pitch\": \"-MNwrDHaFOpGKE6yT3qn\",\n  \"referralTypeSME\": \"-MSXrbISIxncbwM3CU5V\",\n  \"rowKey\": \"-MYu02x1OkdcBn2BbckL\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Inv SME Approve",
+    "rowKey": "-MYu05crhT5dD_EoFYXh"
+  },
+  "-MYu05cusMtZRZ5LAc3F": {
+    "_id": 3305,
+    "date": 1619102296631,
+    "logDetails": "{\n  \"_id\": 264,\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619102285474,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619102295287,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Robok\",\n  \"owner\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"pitch\": \"-MNwrDHaFOpGKE6yT3qn\",\n  \"referralTypeSME\": \"-MSXrbISIxncbwM3CU5V\",\n  \"rowKey\": \"-MYu02x1OkdcBn2BbckL\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Script Task",
+    "rowKey": "-MYu05cusMtZRZ5LAc3F"
+  },
+  "-MYxz4B2cRdeBDtgrjdh": {
+    "_id": 3306,
+    "date": 1619168875255,
+    "logDetails": "data passed is{\n  \"event\": \"Session went on as planned\",\n  \"row\": \"-MYjSp1iJ4S97uEnk-gu\",\n  \"workflow\": \"-MT_XSLmtVM9drCNLKMi\",\n  \"grid\": \"sessions\",\n  \"step\": \"Session went on as planned\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"email\": \"hayden.sherwood@live.com\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MYxz4B2cRdeBDtgrjdh"
+  },
+  "-MYxz4CU7jlwAFZWrx0u": {
+    "_id": 3307,
+    "date": 1619168875289,
+    "logDetails": "hayden.sherwood@live.com clicked Session went on as planned at 2021-04-23 09:07:55 on record ID 390",
+    "name": "User Workflow Event",
+    "rowKey": "-MYxz4CU7jlwAFZWrx0u",
+    "user": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "workflowName": "Sessions"
+  },
+  "-MYxz4CjqsutGM8VeAoP": {
+    "_id": 3308,
+    "date": 1619168875379,
+    "logDetails": "{\n  \"_id\": 390,\n  \"createdDate\": 1618925277477,\n  \"direction\": \"Mentor->SME\",\n  \"eDate\": 1618927200000,\n  \"group\": false,\n  \"isBooked\": true,\n  \"lastEditDate\": 1618925344107,\n  \"lastEditedBy\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"mentor\": \"-MRuFWlCqAaR0CJqb3ZL\",\n  \"name\": \"Important Company Analysis\",\n  \"nextEvents\": \"Session went on as planned,Session did not happen\",\n  \"notes\": \"This session we will analyse your business model and assess whether it is suitable.\",\n  \"notifComplete\": true,\n  \"owner\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"pitch\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"red\": \"red\",\n  \"rowKey\": \"-MYjSp1iJ4S97uEnk-gu\",\n  \"sDate\": 1618920000000,\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"sessionLength\": 2,\n  \"state\": \"Did Session Happen? SME\",\n  \"status\": \"-MT_Xz9l8P0BnRSUB8fb\"\n}",
+    "name": "Workflow Step > Session Went On",
+    "rowKey": "-MYxz4CjqsutGM8VeAoP"
   }
 }

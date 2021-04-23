@@ -1,0 +1,13 @@
+{
+  "filter": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"access\",\"operator\":\"=\",\"value\":{\"value\":\"-MKjNiLMpbGAZI8h2lhK\",\"name\":\"Public\"},\"name\":\"Access\",\"hidden\":true}]}",
+  "numberFormat": "$0,0.00",
+  "renderOptions": {
+    "selectedX": [
+      "name"
+    ],
+    "selectedY": [
+      "grantFunding"
+    ]
+  },
+  "type": "donut"
+}

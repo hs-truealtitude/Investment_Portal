@@ -1,6 +1,6 @@
 {
   "dataSource": "slingshotPitches",
-  "detailTemplate": "<template>\n  <div>\n  </div>\n</template>\n\n<script>\nmodule.exports = {\n  props: ['widget', 'row'],\n  data() {\n    return {}\n  },\n  beforeCreate() {},\n  created() {},\n  beforeMount() {},\n  mounted() {},\n  beforeUpdate() {},\n  updated() {},\n  beforeDestroy() {},\n  destroyed() {},\n}\n</script>\n\n<style>\n</style>\n",
+  "detailTemplate": "",
   "gsOptions": {
     "h": 8,
     "w": 21,
@@ -12,7 +12,7 @@
   "perPage": 2,
   "subtab": "-MMkiJKDLeU1Mz8JWLqA",
   "tab": "-MKUwx1XmgWmAYvLK_wz",
-  "template": "  <div v-if=\"row.numberOfCommercialTrials\">\n    <center><img :src=\"row.$companyLogo$display\" style=\"border-radius: 15px; max-width:70px  \" /> </center>\n    <a href=\"#!\">\n    </a>\n    <div class=\"pt-4 text-center\">\n      <h5 class=\"h3 title\">\n        <span class=\"d-block mb-1\">{{row.name}}</span>\n        <p>Commercial Trials Secured: {{row.numberOfCommercialTrials}}</p>\n    </div>\n  </div>",
+  "template": "  <div style=\"color:black; font-family: 'Grenette pro', sans-serif !important;\" v-if=\"row.numberOfCommercialTrials\">\n    <center><img :src=\"row.companyLogo.url\" style=\"border-radius: 15px; max-width:70px  \" /> </center>\n    <a href=\"#!\">\n    </a>\n    <div class=\"pt-4 text-center\">\n      <h5 style=\"color:black;\" class=\"h3 title\">\n        <span class=\"d-block mb-1\">{{row.name}}</span>\n        <p>Commercial Trials Secured: {{row.numberOfCommercialTrials}}</p>\n      </h5>\n    </div>\n  </div>",
   "title": "Number of Commercial Trials",
   "type": "card-list",
   "viewOfGrid": "Default"

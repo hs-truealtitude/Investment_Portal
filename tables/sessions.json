@@ -5794,7 +5794,7 @@
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "mentor": "-MRuFWlCqAaR0CJqb3ZL",
     "name": "Important Company Analysis",
-    "nextEvents": "Session went on as planned,Session did not happen",
+    "nextEvents": "",
     "notes": "This session we will analyse your business model and assess whether it is suitable.",
     "notifComplete": true,
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
@@ -5803,8 +5803,9 @@
     "rowKey": "-MYjSp1iJ4S97uEnk-gu",
     "sDate": 1618920000000,
     "sME": "-MSDB4vGVTDWjl3zyJaV",
+    "sessionHappen": true,
     "sessionLength": 2,
-    "state": "Did Session Happen? SME",
+    "state": "Session Went On",
     "status": "-MT_Xz9l8P0BnRSUB8fb"
   },
   "-MYjoIn9a6hjPjqr7NbS": {
@@ -5843,5 +5844,35 @@
     "sessionLength": 1,
     "state": "Mentor Approve",
     "status": "-MT_Y0f-hgT92Kdk5APL"
+  },
+  "-MYuKms1ppB4siafi4h7": {
+    "_id": 393,
+    "createdDate": 1619107720574,
+    "direction": "SME->Mentor",
+    "group": false,
+    "lastEditDate": 1619107720575,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "mentor": "-MRuFWlCqAaR0CJqb3ZL",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "pitch": "-MNZ-kKtSmZQuN7gqgFt",
+    "red": "red",
+    "rowKey": "-MYuKms1ppB4siafi4h7",
+    "sDate": 1618990200000,
+    "sME": "-MSDB4vGVTDWjl3zyJaV"
+  },
+  "-MYuKmzlfu4WD7Wlctjg": {
+    "_id": 394,
+    "createdDate": 1619107721069,
+    "direction": "SME->Mentor",
+    "group": false,
+    "lastEditDate": 1619107721070,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "mentor": "-MRuFWlCqAaR0CJqb3ZL",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "pitch": "-MNZ-kKtSmZQuN7gqgFt",
+    "red": "red",
+    "rowKey": "-MYuKmzlfu4WD7Wlctjg",
+    "sDate": 1618990200000,
+    "sME": "-MSDB4vGVTDWjl3zyJaV"
   }
 }

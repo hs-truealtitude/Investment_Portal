@@ -1,0 +1,17 @@
+{
+  "classes": "",
+  "dependency": "chartsOnly/-MYtXWoVSZ5Q3JdWlVM_",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 10,
+    "w": 20,
+    "x": 2,
+    "y": 59
+  },
+  "overflow": "",
+  "styles": "",
+  "subtab": "-MMkiJKDLeU1Mz8JWLqA",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<ChartOnly chartId=\"-MYtXWoVSZ5Q3JdWlVM_\" :rData=\"$getGrid('slingshotPitches')\" :widgetKey=\"widgetKey\" gridId=\"slingshotPitches\" />",
+  "title": "Predicted Employees Hired After 5 Years"
+}

@@ -57,3 +57,19 @@ button:hover{
 .data-grid__tableHeading {
     background: #fffaf3 !important;
 }
+
+
+.splitpanes__pane {
+
+    background-color: #fffaf3 !important;
+}
+
+.legend__body{
+    font-family: 'Grenette pro', sans-serif !important;   
+    color: black !important;  
+}
+
+.legend__header{
+        font-family: 'Grenette pro', sans-serif !important;   
+    color: black !important;  
+}

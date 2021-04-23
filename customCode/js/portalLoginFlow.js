@@ -1,5 +1,4 @@
-return async function  () {
-    
+(async function() {
     let accountType = $getUser('accountType')
 
     //IF THERE ISN'T A PROFILE REDIRECT TO SELECT PROFILE
@@ -9,11 +8,8 @@ return async function  () {
     else{
         //INVESTOR
         if(accountType == 'Investor'){
-           
+            
             let activeInvestorProfile = $getDashboardModel('investorProfiles')[$getUser('profileID')]
-
-            console.log(activeInvestorProfile)
-
             let isApprovedI = activeInvestorProfile.isApproved
             
             if(isApprovedI == true){
@@ -24,7 +20,7 @@ return async function  () {
             } 
             else{
                 redirectToApproval()
-              }
+                }
         }
         
         //MENTOR
@@ -61,7 +57,7 @@ return async function  () {
 
         //PROGRAMME PARTNER
         if(accountType == 'PP'){
-      
+        
             let activePPProfile = $getDashboardModel('programmePartnerProfiles')[$getUser('profileID')]
             let isApprovedP = activePPProfile.isApproved 
 
@@ -74,5 +70,4 @@ return async function  () {
             }
         }
     }
-
-}
+})()
