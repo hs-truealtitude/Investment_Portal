@@ -4,9 +4,9 @@
   "dataSource": "investorProfiles",
   "detailTemplate": "",
   "gsOptions": {
-    "h": 13,
-    "w": 14,
-    "x": 5,
+    "h": 12,
+    "w": 16,
+    "x": 4,
     "y": 3
   },
   "offSet": 0,

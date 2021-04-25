@@ -48,7 +48,7 @@
     "investmentRaised": 450000,
     "investmentType": "-MJwrM0b2Fg3mktQPMcP",
     "jobsGeneratedThroughoutProgramme": 2,
-    "lastEditDate": 1619004244394,
+    "lastEditDate": 1619360584909,
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "latestFinancialTradingInformation": [
       {
@@ -221,8 +221,9 @@
     "grantFunding": 15000,
     "group": false,
     "investmentRaised": 1000,
+    "investmentType": "-MJwrOVOAvVjFd7roMNW",
     "jobsGeneratedThroughoutProgramme": 13,
-    "lastEditDate": 1619094870384,
+    "lastEditDate": 1619182161055,
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "linkedInLink": "https://www.linkedin.com/company/fotech-solutions",
     "location": "-MJwtgUqBjMrFNntf6GH",
@@ -295,19 +296,5 @@
     "predictedEmployeesHired5Years": 90,
     "rowKey": "-MObBhrhAnqlN698S_p7",
     "website": "https://www.nowwireless.com/"
-  },
-  "-MYxzmlMuUoRqBLJZjSM": {
-    "_created": true,
-    "_id": 15,
-    "access": "-MKjNhCeEjTtfQL8X6vn",
-    "createdDate": 1619169060094,
-    "group": false,
-    "lastEditDate": 1619169060100,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "location": "-MJwtgUqBjMrFNntf6GH",
-    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "rowKey": "-MYxzmlMuUoRqBLJZjSM",
-    "sME": "-MSDB4vGVTDWjl3zyJaV",
-    "user": "mvhT7sNTcEM5BdibKTLtmFZg6RE3"
   }
 }

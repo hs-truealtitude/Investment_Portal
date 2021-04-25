@@ -27128,5 +27128,188 @@
     "logDetails": "{\n  \"_id\": 390,\n  \"createdDate\": 1618925277477,\n  \"direction\": \"Mentor->SME\",\n  \"eDate\": 1618927200000,\n  \"group\": false,\n  \"isBooked\": true,\n  \"lastEditDate\": 1618925344107,\n  \"lastEditedBy\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"mentor\": \"-MRuFWlCqAaR0CJqb3ZL\",\n  \"name\": \"Important Company Analysis\",\n  \"nextEvents\": \"Session went on as planned,Session did not happen\",\n  \"notes\": \"This session we will analyse your business model and assess whether it is suitable.\",\n  \"notifComplete\": true,\n  \"owner\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"pitch\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"red\": \"red\",\n  \"rowKey\": \"-MYjSp1iJ4S97uEnk-gu\",\n  \"sDate\": 1618920000000,\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"sessionLength\": 2,\n  \"state\": \"Did Session Happen? SME\",\n  \"status\": \"-MT_Xz9l8P0BnRSUB8fb\"\n}",
     "name": "Workflow Step > Session Went On",
     "rowKey": "-MYxz4CjqsutGM8VeAoP"
+  },
+  "-MYyETkZTjvLVEuyL6x3": {
+    "_id": 3309,
+    "date": 1619173173751,
+    "logDetails": "data passed is{\n  \"row\": \"-MYyERTGJvDUqQedour9\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"9p15gDKpdKOzb9HUqo2J72YmWuH2\",\n  \"email\": \"investortest11@email.com\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MYyETkZTjvLVEuyL6x3"
+  },
+  "-MYyETlaBm0bRBjFAdCg": {
+    "_id": 3310,
+    "date": 1619173174356,
+    "logDetails": "record name is\"Investor->SME\"",
+    "name": "Workflow Log ",
+    "rowKey": "-MYyETlaBm0bRBjFAdCg"
+  },
+  "-MYyETlw4e0JouiIFUeC": {
+    "_id": 3311,
+    "date": 1619173174399,
+    "logDetails": "{\n  \"_id\": 265,\n  \"createdBy\": \"9p15gDKpdKOzb9HUqo2J72YmWuH2\",\n  \"createdDate\": 1619173165005,\n  \"group\": false,\n  \"investor\": \"-MYnbtZgnlPp-ae8R83V\",\n  \"lastEditDate\": 1619173169223,\n  \"lastEditedBy\": \"9p15gDKpdKOzb9HUqo2J72YmWuH2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Fotech\",\n  \"owner\": \"9p15gDKpdKOzb9HUqo2J72YmWuH2\",\n  \"pitch\": \"-MOW10DS-e14k8n-7TCi\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MYyERTGJvDUqQedour9\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Inv SME Approve",
+    "rowKey": "-MYyETlw4e0JouiIFUeC"
+  },
+  "-MYyETlw4e0JouiIFUeD": {
+    "_id": 3311,
+    "date": 1619173174394,
+    "logDetails": "{\n  \"_id\": 265,\n  \"createdBy\": \"9p15gDKpdKOzb9HUqo2J72YmWuH2\",\n  \"createdDate\": 1619173165005,\n  \"group\": false,\n  \"investor\": \"-MYnbtZgnlPp-ae8R83V\",\n  \"lastEditDate\": 1619173169223,\n  \"lastEditedBy\": \"9p15gDKpdKOzb9HUqo2J72YmWuH2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Fotech\",\n  \"owner\": \"9p15gDKpdKOzb9HUqo2J72YmWuH2\",\n  \"pitch\": \"-MOW10DS-e14k8n-7TCi\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MYyERTGJvDUqQedour9\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Script Task",
+    "rowKey": "-MYyETlw4e0JouiIFUeD"
+  },
+  "-MYyEVqdrv80bM9L9oI9": {
+    "_id": 3312,
+    "date": 1619173182888,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MYu02x1OkdcBn2BbckL\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"email\": \"hayden.sherwood@live.com\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MYyEVqdrv80bM9L9oI9"
+  },
+  "-MYyEVr-ZxbZfVT-NhWb": {
+    "_id": 3313,
+    "date": 1619173182903,
+    "logDetails": "hayden.sherwood@live.com clicked Approve at 2021-04-23 10:19:42 on record ID 264",
+    "name": "User Workflow Event",
+    "rowKey": "-MYyEVr-ZxbZfVT-NhWb",
+    "user": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "workflowName": "All Applications"
+  },
+  "-MYyEVrS4nJSbnrPyd0C": {
+    "_id": 3314,
+    "date": 1619173182936,
+    "logDetails": "{\n  \"_id\": 264,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619102285474,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619102295287,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Robok\",\n  \"owner\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"pitch\": \"-MNwrDHaFOpGKE6yT3qn\",\n  \"referralTypeSME\": \"-MSXrbISIxncbwM3CU5V\",\n  \"rowKey\": \"-MYu02x1OkdcBn2BbckL\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > Script Task - Save Pitch Investor",
+    "rowKey": "-MYyEVrS4nJSbnrPyd0C"
+  },
+  "-MYyEVrnoIo4PUDOUad8": {
+    "_id": 3315,
+    "date": 1619173182962,
+    "logDetails": "{\n  \"_id\": 264,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619102285474,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619102295287,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Robok\",\n  \"owner\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"pitch\": \"-MNwrDHaFOpGKE6yT3qn\",\n  \"referralTypeSME\": \"-MSXrbISIxncbwM3CU5V\",\n  \"rowKey\": \"-MYu02x1OkdcBn2BbckL\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > User Task - Accepted (RESPONSE TO INVESTOR)",
+    "rowKey": "-MYyEVrnoIo4PUDOUad8"
+  },
+  "-MYyEYgSEYjOCKqDV8sE": {
+    "_id": 3316,
+    "date": 1619173194524,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MYyERTGJvDUqQedour9\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"email\": \"hayden.sherwood@live.com\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MYyEYgSEYjOCKqDV8sE"
+  },
+  "-MYyEYh9iLboeCFnUmhb": {
+    "_id": 3317,
+    "date": 1619173194537,
+    "logDetails": "hayden.sherwood@live.com clicked Approve at 2021-04-23 10:19:54 on record ID 265",
+    "name": "User Workflow Event",
+    "rowKey": "-MYyEYh9iLboeCFnUmhb",
+    "user": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "workflowName": "All Applications"
+  },
+  "-MYyEYiTI0RGWu4Ch8ye": {
+    "_id": 3318,
+    "date": 1619173194600,
+    "logDetails": "{\n  \"_id\": 265,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"9p15gDKpdKOzb9HUqo2J72YmWuH2\",\n  \"createdDate\": 1619173165005,\n  \"group\": false,\n  \"investor\": \"-MYnbtZgnlPp-ae8R83V\",\n  \"lastEditDate\": 1619173169223,\n  \"lastEditedBy\": \"9p15gDKpdKOzb9HUqo2J72YmWuH2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Fotech\",\n  \"owner\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"pitch\": \"-MOW10DS-e14k8n-7TCi\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MYyERTGJvDUqQedour9\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > Script Task - Save Pitch Investor",
+    "rowKey": "-MYyEYiTI0RGWu4Ch8ye"
+  },
+  "-MYyEYutzIUNk_pb8Do2": {
+    "_id": 3319,
+    "date": 1619173194665,
+    "logDetails": "{\n  \"_id\": 265,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"9p15gDKpdKOzb9HUqo2J72YmWuH2\",\n  \"createdDate\": 1619173165005,\n  \"group\": false,\n  \"investor\": \"-MYnbtZgnlPp-ae8R83V\",\n  \"lastEditDate\": 1619173169223,\n  \"lastEditedBy\": \"9p15gDKpdKOzb9HUqo2J72YmWuH2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Fotech\",\n  \"owner\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"pitch\": \"-MOW10DS-e14k8n-7TCi\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MYyERTGJvDUqQedour9\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > User Task - Accepted (RESPONSE TO INVESTOR)",
+    "rowKey": "-MYyEYutzIUNk_pb8Do2"
+  },
+  "-MYyghVsooR_S6KUPwZQ": {
+    "_id": 3320,
+    "date": 1619180836910,
+    "logDetails": "data passed is{\n  \"row\": \"-MYygdtciQKK1Rvv4bVp\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MYyghVsooR_S6KUPwZQ"
+  },
+  "-MYyghXsXZZ1oa3kdk92": {
+    "_id": 3321,
+    "date": 1619180836976,
+    "logDetails": "record name is\"Investor->SME\"",
+    "name": "Workflow Log ",
+    "rowKey": "-MYyghXsXZZ1oa3kdk92"
+  },
+  "-MYyghYITC8d1S_WGqT2": {
+    "_id": 3322,
+    "date": 1619180837080,
+    "logDetails": "{\n  \"_id\": 275,\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619180822218,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619180830577,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Findaa Technology Ltd\",\n  \"owner\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"pitch\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MYygdtciQKK1Rvv4bVp\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Inv SME Approve",
+    "rowKey": "-MYyghYITC8d1S_WGqT2"
+  },
+  "-MYyghYK7LRsN--IjfR7": {
+    "_id": 3322,
+    "date": 1619180837077,
+    "logDetails": "{\n  \"_id\": 275,\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619180822218,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619180830577,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Findaa Technology Ltd\",\n  \"owner\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"pitch\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MYygdtciQKK1Rvv4bVp\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Script Task",
+    "rowKey": "-MYyghYK7LRsN--IjfR7"
+  },
+  "-MYygnUFXklh_2V3Uxus": {
+    "_id": 3323,
+    "date": 1619180861394,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MYygdtciQKK1Rvv4bVp\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"email\": \"hayden.sherwood@live.com\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MYygnUFXklh_2V3Uxus"
+  },
+  "-MYygnV6WbWqaOvM0Lvg": {
+    "_id": 3324,
+    "date": 1619180861408,
+    "logDetails": "hayden.sherwood@live.com clicked Approve at 2021-04-23 12:27:41 on record ID 275",
+    "name": "User Workflow Event",
+    "rowKey": "-MYygnV6WbWqaOvM0Lvg",
+    "user": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "workflowName": "All Applications"
+  },
+  "-MYygnVfy-fypWgFOPOz": {
+    "_id": 3325,
+    "date": 1619180861481,
+    "logDetails": "{\n  \"_id\": 275,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619180822218,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619180830577,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Findaa Technology Ltd\",\n  \"owner\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"pitch\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MYygdtciQKK1Rvv4bVp\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > Script Task - Save Pitch Investor",
+    "rowKey": "-MYygnVfy-fypWgFOPOz"
+  },
+  "-MYygnVqe8aptfkES2-_": {
+    "_id": 3326,
+    "date": 1619180861497,
+    "logDetails": "{\n  \"_id\": 275,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"createdDate\": 1619180822218,\n  \"group\": false,\n  \"investor\": \"-MYt9rT63qdIJ6f9DDpt\",\n  \"lastEditDate\": 1619180830577,\n  \"lastEditedBy\": \"3OU2KLvO3EOMeCkbLzbXfccTciu2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Findaa Technology Ltd\",\n  \"owner\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"pitch\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MYygdtciQKK1Rvv4bVp\",\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > User Task - Accepted (RESPONSE TO INVESTOR)",
+    "rowKey": "-MYygnVqe8aptfkES2-_"
+  },
+  "-MYyiIQutPcxcaVUBDKO": {
+    "_id": 3327,
+    "date": 1619181254396,
+    "logDetails": "data passed is{\n  \"row\": \"-MYyi8EXQszsOM6YARNx\",\n  \"workflow\": \"-MT_XSLmtVM9drCNLKMi\",\n  \"grid\": \"sessions\",\n  \"step\": \"Request\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"email\": \"hayden.sherwood@live.com\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MYyiIQutPcxcaVUBDKO"
+  },
+  "-MYyiIRU2mrrg69qLiat": {
+    "_id": 3328,
+    "date": 1619181254436,
+    "logDetails": "{\n  \"_id\": 398,\n  \"createdDate\": 1619181212739,\n  \"direction\": \"SME->Mentor\",\n  \"eDate\": 1619263800000,\n  \"group\": false,\n  \"lastEditDate\": 1619181254032,\n  \"lastEditedBy\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"mentor\": \"-MRuFWlCqAaR0CJqb3ZL\",\n  \"name\": \"Session 2 - Branding Improvement\",\n  \"notes\": \"This session we will discuss whether your branding is suitable and whether we can help you improve that.\",\n  \"owner\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"pitch\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"red\": \"red\",\n  \"rowKey\": \"-MYyi8EXQszsOM6YARNx\",\n  \"sDate\": 1619260200000,\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"sessionLength\": 1,\n  \"state\": null\n}",
+    "name": "Workflow Step > Mentor Approve",
+    "rowKey": "-MYyiIRU2mrrg69qLiat"
+  },
+  "-MYyiJ7XCjVRa0si8tVS": {
+    "_id": 3329,
+    "date": 1619181257254,
+    "logDetails": "data passed is{\n  \"event\": \"Accepted\",\n  \"row\": \"-MYyi8EXQszsOM6YARNx\",\n  \"workflow\": \"-MT_XSLmtVM9drCNLKMi\",\n  \"grid\": \"sessions\",\n  \"step\": \"Accepted\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"email\": \"hayden.sherwood@live.com\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MYyiJ7XCjVRa0si8tVS"
+  },
+  "-MYyiJ7tvRGhUZBcWYRY": {
+    "_id": 3330,
+    "date": 1619181257266,
+    "logDetails": "hayden.sherwood@live.com clicked Accepted at 2021-04-23 12:34:17 on record ID 398",
+    "name": "User Workflow Event",
+    "rowKey": "-MYyiJ7tvRGhUZBcWYRY",
+    "user": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "workflowName": "Sessions"
+  },
+  "-MYyiJ8GBNnfhjUriTsF": {
+    "_id": 3331,
+    "date": 1619181257301,
+    "logDetails": "{\n  \"_id\": 398,\n  \"createdDate\": 1619181212739,\n  \"direction\": \"SME->Mentor\",\n  \"eDate\": 1619263800000,\n  \"group\": false,\n  \"lastEditDate\": 1619181254032,\n  \"lastEditedBy\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"mentor\": \"-MRuFWlCqAaR0CJqb3ZL\",\n  \"name\": \"Session 2 - Branding Improvement\",\n  \"nextEvents\": \"Accepted,Rejected\",\n  \"notes\": \"This session we will discuss whether your branding is suitable and whether we can help you improve that.\",\n  \"owner\": \"mvhT7sNTcEM5BdibKTLtmFZg6RE3\",\n  \"pitch\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"red\": \"red\",\n  \"rowKey\": \"-MYyi8EXQszsOM6YARNx\",\n  \"sDate\": 1619260200000,\n  \"sME\": \"-MSDB4vGVTDWjl3zyJaV\",\n  \"sessionLength\": 1,\n  \"state\": \"Mentor Approve\",\n  \"status\": \"-MT_Y0f-hgT92Kdk5APL\"\n}",
+    "name": "Workflow Step > Did Session Happen? Mentor",
+    "rowKey": "-MYyiJ8GBNnfhjUriTsF"
   }
 }

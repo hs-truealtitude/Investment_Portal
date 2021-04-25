@@ -1904,6 +1904,9 @@
           "order": "29"
         }
       },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
       "title": "Leave SME Review"
     },
     "myBookedSessions": {
@@ -2015,6 +2018,9 @@
           "order": "29"
         }
       },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
       "title": "My Booked Sessions"
     },
     "myBookedSessionsMentor": {
@@ -2126,6 +2132,9 @@
           "order": "29"
         }
       },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
       "title": "My Booked Sessions Mentor"
     }
   }

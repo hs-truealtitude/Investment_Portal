@@ -1,0 +1,18 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 6,
+    "w": 12,
+    "x": 5,
+    "y": 0
+  },
+  "hidden": true,
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "tab": "-MRosDn6SYo3LCxaAq4i",
+  "template": "<center>\r\n  <button type=\"button\" @click='$setCurrentTab(\"-MKUwx1XmgWmAYvLK_wz\")'>Back to Admin Dashboard</button>\r\n</center>",
+  "title": ""
+}
