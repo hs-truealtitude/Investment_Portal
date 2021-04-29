@@ -2,10 +2,10 @@
   "dataSource": "slingshotPitches",
   "detailTemplate": "",
   "gsOptions": {
-    "h": 8,
+    "h": 10,
     "w": 21,
     "x": 2,
-    "y": 7
+    "y": 6
   },
   "hidden": true,
   "offSet": 0,

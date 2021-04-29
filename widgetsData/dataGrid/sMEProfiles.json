@@ -35,7 +35,7 @@
     "lastEditedBy": {
       "displayName": "Last edited by",
       "invisible": false,
-      "order": "5",
+      "order": "16",
       "type": "user"
     },
     "linkedInProfileLink": {
@@ -66,7 +66,7 @@
     "owner": {
       "displayName": "Owner",
       "invisible": false,
-      "order": "15",
+      "order": "5",
       "type": "user"
     },
     "phoneNumber": {
@@ -102,7 +102,7 @@
     "user": {
       "displayName": "User",
       "invisible": false,
-      "order": "16",
+      "order": "15",
       "type": "user"
     }
   },

@@ -1,5 +1,6 @@
 {
   "displayColumn": "name",
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Company Name\",\"hidden\":false},{\"key\":\"access\",\"operator\":\"=\",\"value\":{\"value\":\"-MKjNiLMpbGAZI8h2lhK\",\"name\":\"Public\"},\"name\":\"Access\",\"hidden\":true}]}",
   "isReactive": true,
   "meta": {
     "aboutTheCompany": {
@@ -548,11 +549,99 @@
             "order": 0,
             "controls": [
               {
+                "type": "user",
+                "name": "control_user_795891",
+                "fieldName": "control_user_795891",
+                "label": "owner",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": true,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "owner",
+                "gridId": "slingshotPitches"
+              },
+              {
+                "type": "user",
+                "name": "control_user_521671",
+                "fieldName": "control_user_521671",
+                "label": "User",
+                "order": 1,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": true,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "user",
+                "gridId": "slingshotPitches"
+              },
+              {
                 "type": "lookup",
                 "name": "control_lookup_497900",
                 "fieldName": "control_lookup_497900",
                 "label": "SME",
-                "order": 0,
+                "order": 2,
                 "defaultValue": "$getUser('profileID')",
                 "value": "",
                 "className": "col-md-12",
@@ -597,7 +686,7 @@
                 "name": "control_profile_image_379825",
                 "fieldName": "control_profile_image_379825",
                 "label": "Company Logo",
-                "order": 1,
+                "order": 3,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -641,7 +730,7 @@
                 "name": "control_lookup_732701",
                 "fieldName": "control_lookup_732701",
                 "label": "Access",
-                "order": 2,
+                "order": 4,
                 "defaultValue": "-MKjNhCeEjTtfQL8X6vn",
                 "value": "",
                 "className": "col-md-12",
@@ -686,7 +775,7 @@
                 "name": "control_text_292815",
                 "fieldName": "control_text_292815",
                 "label": "Company Name",
-                "order": 3,
+                "order": 5,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -731,7 +820,7 @@
                 "name": "control_multiline_text_606169",
                 "fieldName": "control_multiline_text_606169",
                 "label": "About the Company",
-                "order": 4,
+                "order": 6,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -776,7 +865,7 @@
                 "name": "control_text_915909",
                 "fieldName": "control_text_915909",
                 "label": "Website",
-                "order": 5,
+                "order": 7,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -821,7 +910,7 @@
                 "name": "control_text_512740",
                 "fieldName": "control_text_512740",
                 "label": "LinkedIn Link",
-                "order": 6,
+                "order": 8,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -866,7 +955,7 @@
                 "name": "control_lookup_6964",
                 "fieldName": "control_lookup_6964",
                 "label": "Location",
-                "order": 7,
+                "order": 9,
                 "defaultValue": "-MJwtgUqBjMrFNntf6GH",
                 "value": "",
                 "className": "col-md-12",
@@ -912,7 +1001,7 @@
                 "name": "control_email_523901",
                 "fieldName": "control_email_523901",
                 "label": "Company Email",
-                "order": 8,
+                "order": 10,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -953,55 +1042,11 @@
                 "description": "Enter your company email"
               },
               {
-                "type": "user",
-                "name": "control_user_521671",
-                "fieldName": "control_user_521671",
-                "label": "User",
-                "order": 9,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-6",
-                "readonly": false,
-                "readonlyCondition": "",
-                "placeholder": "",
-                "labelBold": false,
-                "labelItalic": false,
-                "labelUnderline": false,
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "isTodayValueCreated": true,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isCurrentUser": true,
-                "isCurrentUserOwner": true,
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": true,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": true,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "propName": "user",
-                "gridId": "slingshotPitches"
-              },
-              {
                 "type": "phone",
                 "name": "control_phone_470404",
                 "fieldName": "control_phone_470404",
                 "label": "Contact Number",
-                "order": 10,
+                "order": 11,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -1040,50 +1085,6 @@
                 "propName": "mobileNumber",
                 "gridId": "slingshotPitches",
                 "description": "Enter your contact number"
-              },
-              {
-                "type": "user",
-                "name": "control_user_795891",
-                "fieldName": "control_user_795891",
-                "label": "owner",
-                "order": 11,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-6",
-                "readonly": false,
-                "readonlyCondition": "",
-                "placeholder": "",
-                "labelBold": false,
-                "labelItalic": false,
-                "labelUnderline": false,
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "isTodayValueCreated": true,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isCurrentUser": true,
-                "isCurrentUserOwner": true,
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": true,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "propName": "owner",
-                "gridId": "slingshotPitches"
               },
               {
                 "type": "text",
@@ -4789,7 +4790,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.40342319566310847
+    "_uniqueId": 0.5363299875577126
   },
   "source": "slingshotPitches",
   "storageType": "dashboard",
@@ -5453,158 +5454,129 @@
       ],
       "title": "Approve Pitches"
     },
-    "filteredCardList": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"hidden\":false},{\"key\":\"investmentType\",\"operator\":\"in\",\"value\":null,\"name\":\"Investment Type\",\"hidden\":false},{\"key\":\"access\",\"operator\":\"=\",\"value\":{\"value\":\"-MKjNiLMpbGAZI8h2lhK\",\"name\":\"Public\"},\"name\":\"Access\",\"hidden\":true}]}",
+    "companySpecificMetrics": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":\"Warner\",\"name\":\"Name\",\"hidden\":false}]}",
       "meta": {
         "aboutTheCompany": {
-          "invisible": false,
-          "order": "41"
+          "order": "63"
         },
         "access": {
           "invisible": false,
-          "order": "31"
+          "order": "0"
         },
         "capitalAlreadyRaisedForCurrentFundingRound": {
-          "invisible": false,
-          "order": "26"
+          "order": "10"
         },
         "capitalRaisedToDate": {
-          "invisible": false,
-          "order": "55"
+          "order": "7"
         },
         "commercialContractsSecured": {
-          "order": "32"
+          "order": "52"
         },
         "commitmentClosingDate": {
-          "invisible": false,
-          "order": "49"
+          "order": "48"
         },
         "companyDebt": {
-          "invisible": false,
-          "order": "53"
+          "order": "6"
         },
         "companyEmail": {
-          "invisible": false,
-          "order": "5"
+          "order": "15"
         },
         "companyLogo": {
-          "invisible": false,
-          "order": "1"
+          "order": "28"
         },
         "companyLogosAndBranding": {
-          "invisible": false,
-          "order": "33"
+          "order": "9"
         },
         "confidentialityAgreement": {
-          "invisible": false,
-          "order": "4"
+          "order": "50"
         },
         "createdDate": {
           "invisible": false,
-          "order": "28"
+          "order": "21"
         },
         "currentReturnOfRevenue": {
-          "invisible": false,
-          "order": "16"
+          "order": "37"
         },
         "dataRoomDocuments": {
-          "invisible": false,
-          "order": "82"
+          "order": "5"
         },
         "dealProjectName": {
-          "invisible": false,
-          "order": "44"
+          "order": "30"
         },
         "debtInformation": {
-          "invisible": false,
-          "order": "47"
+          "order": "62"
         },
         "eISSEIS": {
-          "invisible": false,
-          "order": "14"
+          "order": "43"
         },
         "employeeAmount": {
-          "invisible": false,
-          "order": "52"
+          "order": "46"
         },
         "excludedInvestors": {
-          "invisible": false,
-          "order": "23"
+          "order": "82"
         },
         "executiveSummaryOfProject": {
-          "invisible": false,
-          "order": "24"
+          "order": "13"
         },
         "financialForecastModel": {
-          "invisible": false,
-          "order": "27"
+          "order": "39"
         },
         "grantFunding": {
-          "order": "2"
+          "order": "26"
         },
         "hRRequirements": {
           "order": "75"
         },
         "howManyInteractionsToMeetProjection": {
-          "invisible": false,
-          "order": "46"
+          "order": "57"
         },
         "howManyInteractionsToMeetProjectionOurOwnPrediction": {
-          "invisible": false,
-          "order": "51"
+          "order": "49"
         },
         "howManySignedLOIMOUHOT": {
-          "invisible": false,
-          "order": "77"
+          "order": "69"
         },
         "iD": {
-          "invisible": false,
-          "order": "35"
+          "order": "72"
         },
         "investmentMemorandumDeck": {
-          "invisible": false,
-          "order": "34"
+          "order": "68"
         },
         "investmentRaised": {
-          "order": "17"
+          "order": "83"
         },
         "investmentType": {
-          "invisible": false,
-          "order": "13"
+          "order": "66"
         },
         "jobsGeneratedThroughoutProgramme": {
-          "order": "18"
+          "order": "36"
         },
         "lastEditDate": {
           "invisible": false,
-          "order": "22"
+          "order": "24"
         },
         "lastEditedBy": {
           "invisible": false,
-          "order": "37"
+          "order": "22"
         },
         "latestFinancialTradingInformation": {
-          "invisible": false,
-          "order": "12"
+          "order": "45"
         },
         "linkedInLink": {
-          "invisible": false,
-          "order": "21"
+          "order": "44"
         },
         "litigationTaxOrPressure": {
-          "invisible": false,
-          "order": "83"
+          "order": "71"
         },
         "location": {
-          "invisible": false,
-          "order": "42"
+          "order": "12"
         },
         "mainInvestorsCommitedInCurrentRound": {
-          "invisible": false,
           "order": "74"
         },
         "mentorRequirementsSummary": {
-          "order": "64"
+          "order": "70"
         },
         "milestones": {
           "order": "54"
@@ -5613,28 +5585,342 @@
           "order": "78"
         },
         "minimumInvestment": {
-          "invisible": false,
-          "order": "25"
+          "order": "32"
         },
         "mobileNumber": {
-          "invisible": false,
-          "order": "9"
+          "order": "38"
         },
         "name": {
           "invisible": false,
-          "order": "60"
+          "order": "1"
         },
         "news": {
-          "invisible": false,
-          "order": "11"
+          "order": "25"
         },
         "newsList": {
           "order": "81"
         },
         "next5": {
+          "order": "56"
+        },
+        "next5YearsMilestonesDiagram": {
+          "order": "79"
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": "29"
+        },
+        "nextFiveYearsMilestones": {
+          "order": "59"
+        },
+        "note": {
+          "order": "51"
+        },
+        "numberOfCommercialTrials": {
+          "order": "77"
+        },
+        "numberOfInteractionsCommercialOpportunities": {
+          "order": "73"
+        },
+        "numberOfJobsGenerated": {
+          "order": "35"
+        },
+        "owner": {
+          "invisible": false,
+          "order": "31"
+        },
+        "permanentHigherEducationJobs": {
+          "order": "11"
+        },
+        "permanentProfessionalJobs": {
+          "order": "41"
+        },
+        "pitchSummary": {
+          "order": "20"
+        },
+        "preMoneyValuationOfCurrentRound": {
+          "order": "65"
+        },
+        "predictedEmployeesHired1Year": {
+          "order": "42"
+        },
+        "predictedEmployeesHired2Years": {
+          "order": "53"
+        },
+        "predictedEmployeesHired3Years": {
+          "order": "40"
+        },
+        "predictedEmployeesHired5Years": {
+          "order": "67"
+        },
+        "productGrowthOtherIndustries": {
+          "order": "16"
+        },
+        "references": {
+          "order": 84
+        },
+        "sME": {
+          "order": "4"
+        },
+        "sectors": {
+          "order": "8"
+        },
+        "skills": {
+          "order": "17"
+        },
+        "specificStrategicValue": {
+          "order": "34"
+        },
+        "startDate": {
+          "order": "33"
+        },
+        "state": {
+          "invisible": true,
+          "order": "23"
+        },
+        "submitPitch": {
+          "order": "3"
+        },
+        "targetCompletionDate": {
+          "order": "14"
+        },
+        "targetInvestorsForDealMarketing": {
+          "order": "2"
+        },
+        "targetReturnOfInvestment": {
+          "order": "55"
+        },
+        "teamMembers": {
+          "order": "64"
+        },
+        "testbedHigherEducationJobs": {
+          "order": "19"
+        },
+        "testbedProfessionalJobs": {
+          "order": "80"
+        },
+        "totalFundingRound": {
+          "order": "76"
+        },
+        "trueAltitudeLinkedInMarketing": {
+          "order": "27"
+        },
+        "user": {
+          "order": "61"
+        },
+        "w": {
+          "order": "58"
+        },
+        "website": {
+          "order": "60"
+        },
+        "wiz": {
+          "order": "47"
+        },
+        "wizard": {
+          "order": "18"
+        }
+      },
+      "roles": [
+        "-MXvhCDprEN74BTAvdwe",
+        "-MLqbNbgYlSQD7vx_FbF",
+        "-MXvgvmptAXJEl738FcF",
+        "-MN88QlbP0JAIQrvdpBC"
+      ],
+      "title": "Company Specific Metrics"
+    },
+    "filteredCardList": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"hidden\":false},{\"key\":\"investmentType\",\"operator\":\"in\",\"value\":null,\"name\":\"Investment Type\",\"hidden\":false},{\"key\":\"access\",\"operator\":\"=\",\"value\":{\"value\":\"-MKjNiLMpbGAZI8h2lhK\",\"name\":\"Public\"},\"name\":\"Access\",\"hidden\":true}]}",
+      "meta": {
+        "aboutTheCompany": {
+          "invisible": true,
+          "order": "42"
+        },
+        "access": {
+          "invisible": false,
+          "order": "0"
+        },
+        "capitalAlreadyRaisedForCurrentFundingRound": {
+          "invisible": true,
+          "order": "28"
+        },
+        "capitalRaisedToDate": {
+          "invisible": true,
+          "order": "56"
+        },
+        "commercialContractsSecured": {
+          "invisible": true,
+          "order": "33"
+        },
+        "commitmentClosingDate": {
+          "invisible": true,
+          "order": "50"
+        },
+        "companyDebt": {
+          "invisible": true,
+          "order": "54"
+        },
+        "companyEmail": {
+          "invisible": true,
+          "order": "6"
+        },
+        "companyLogo": {
+          "invisible": false,
+          "order": "2"
+        },
+        "companyLogosAndBranding": {
+          "invisible": true,
+          "order": "34"
+        },
+        "confidentialityAgreement": {
+          "invisible": true,
+          "order": "5"
+        },
+        "createdDate": {
+          "invisible": false,
+          "order": "30"
+        },
+        "currentReturnOfRevenue": {
+          "invisible": true,
+          "order": "17"
+        },
+        "dataRoomDocuments": {
+          "invisible": true,
+          "order": "81"
+        },
+        "dealProjectName": {
+          "invisible": false,
+          "order": "45"
+        },
+        "debtInformation": {
+          "invisible": true,
+          "order": "48"
+        },
+        "eISSEIS": {
+          "invisible": true,
+          "order": "15"
+        },
+        "employeeAmount": {
+          "invisible": true,
+          "order": "53"
+        },
+        "excludedInvestors": {
+          "invisible": true,
+          "order": "25"
+        },
+        "executiveSummaryOfProject": {
+          "invisible": true,
+          "order": "26"
+        },
+        "financialForecastModel": {
+          "invisible": true,
+          "order": "29"
+        },
+        "grantFunding": {
+          "invisible": true,
+          "order": "3"
+        },
+        "hRRequirements": {
+          "invisible": true,
+          "order": "75"
+        },
+        "howManyInteractionsToMeetProjection": {
+          "invisible": true,
+          "order": "47"
+        },
+        "howManyInteractionsToMeetProjectionOurOwnPrediction": {
+          "invisible": true,
+          "order": "52"
+        },
+        "howManySignedLOIMOUHOT": {
+          "invisible": true,
+          "order": "77"
+        },
+        "iD": {
+          "invisible": true,
+          "order": "36"
+        },
+        "investmentMemorandumDeck": {
+          "invisible": true,
+          "order": "35"
+        },
+        "investmentRaised": {
+          "invisible": false,
+          "order": "19"
+        },
+        "investmentType": {
+          "invisible": true,
+          "order": "14"
+        },
+        "jobsGeneratedThroughoutProgramme": {
+          "invisible": true,
+          "order": "20"
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": "24"
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": "38"
+        },
+        "latestFinancialTradingInformation": {
+          "invisible": true,
+          "order": "13"
+        },
+        "linkedInLink": {
+          "invisible": true,
+          "order": "23"
+        },
+        "litigationTaxOrPressure": {
+          "invisible": true,
+          "order": "81"
+        },
+        "location": {
+          "invisible": true,
+          "order": "43"
+        },
+        "mainInvestorsCommitedInCurrentRound": {
+          "invisible": true,
+          "order": "74"
+        },
+        "mentorRequirementsSummary": {
+          "invisible": true,
+          "order": "64"
+        },
+        "milestones": {
+          "invisible": true,
+          "order": "55"
+        },
+        "milestonesDiagram": {
+          "invisible": true,
+          "order": "78"
+        },
+        "minimumInvestment": {
+          "invisible": true,
+          "order": "27"
+        },
+        "mobileNumber": {
+          "invisible": true,
+          "order": "10"
+        },
+        "name": {
+          "invisible": false,
+          "order": "18"
+        },
+        "news": {
+          "invisible": true,
+          "order": "12"
+        },
+        "newsList": {
+          "order": "81"
+        },
+        "next5": {
+          "invisible": true,
           "order": "65"
         },
         "next5YearsMilestonesDiagram": {
+          "invisible": true,
           "order": "79"
         },
         "nextEvents": {
@@ -5642,58 +5928,63 @@
           "order": "76"
         },
         "nextFiveYearsMilestones": {
-          "order": "59"
+          "invisible": true,
+          "order": "60"
         },
         "note": {
+          "invisible": true,
           "order": "67"
         },
         "numberOfCommercialTrials": {
-          "order": "57"
+          "invisible": true,
+          "order": "58"
         },
         "numberOfInteractionsCommercialOpportunities": {
-          "invisible": false,
+          "invisible": true,
           "order": "72"
         },
         "numberOfJobsGenerated": {
-          "invisible": false,
-          "order": "38"
+          "invisible": true,
+          "order": "39"
         },
         "owner": {
           "invisible": false,
-          "order": "50"
+          "order": "51"
         },
         "permanentHigherEducationJobs": {
+          "invisible": true,
           "order": "66"
         },
         "permanentProfessionalJobs": {
-          "order": "19"
+          "invisible": true,
+          "order": "21"
         },
         "pitchSummary": {
-          "invisible": false,
-          "order": "10"
+          "invisible": true,
+          "order": "11"
         },
         "preMoneyValuationOfCurrentRound": {
-          "invisible": false,
+          "invisible": true,
           "order": "69"
         },
         "predictedEmployeesHired1Year": {
-          "invisible": false,
+          "invisible": true,
           "order": "70"
         },
         "predictedEmployeesHired2Years": {
-          "invisible": false,
-          "order": "39"
+          "invisible": true,
+          "order": "40"
         },
         "predictedEmployeesHired3Years": {
-          "invisible": false,
-          "order": "43"
+          "invisible": true,
+          "order": "44"
         },
         "predictedEmployeesHired5Years": {
-          "invisible": false,
-          "order": "48"
+          "invisible": true,
+          "order": "49"
         },
         "productGrowthOtherIndustries": {
-          "invisible": false,
+          "invisible": true,
           "order": "73"
         },
         "references": {
@@ -5701,74 +5992,79 @@
         },
         "sME": {
           "invisible": false,
-          "order": "0"
+          "order": "1"
         },
         "sectors": {
-          "invisible": false,
-          "order": "40"
+          "invisible": true,
+          "order": "41"
         },
         "skills": {
-          "order": "20"
+          "invisible": true,
+          "order": "22"
         },
         "specificStrategicValue": {
-          "invisible": false,
-          "order": "15"
+          "invisible": true,
+          "order": "16"
         },
         "startDate": {
-          "invisible": false,
-          "order": "3"
+          "invisible": true,
+          "order": "4"
         },
         "state": {
           "invisible": true,
-          "order": "30"
+          "order": "32"
         },
         "submitPitch": {
           "invisible": true,
-          "order": "7"
+          "order": "8"
         },
         "targetCompletionDate": {
-          "invisible": false,
+          "invisible": true,
           "order": "71"
         },
         "targetInvestorsForDealMarketing": {
-          "invisible": false,
-          "order": "56"
+          "invisible": true,
+          "order": "57"
         },
         "targetReturnOfInvestment": {
-          "invisible": false,
-          "order": "45"
+          "invisible": true,
+          "order": "46"
         },
         "teamMembers": {
+          "invisible": true,
           "order": "61"
         },
         "testbedHigherEducationJobs": {
-          "order": "36"
+          "invisible": true,
+          "order": "37"
         },
         "testbedProfessionalJobs": {
+          "invisible": true,
           "order": "62"
         },
         "totalFundingRound": {
-          "invisible": false,
+          "invisible": true,
           "order": "80"
         },
         "trueAltitudeLinkedInMarketing": {
-          "invisible": false,
-          "order": "29"
+          "invisible": true,
+          "order": "31"
         },
         "user": {
-          "invisible": false,
-          "order": "8"
+          "invisible": true,
+          "order": "9"
         },
         "w": {
+          "invisible": true,
           "order": "63"
         },
         "website": {
-          "invisible": false,
-          "order": "6"
+          "invisible": true,
+          "order": "7"
         },
         "wiz": {
           "invisible": true,
-          "order": "58"
+          "order": "59"
         },
         "wizard": {
           "invisible": true,
