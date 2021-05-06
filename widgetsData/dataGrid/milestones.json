@@ -209,7 +209,8 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "targetCompletionDate",
-                "gridId": "milestones"
+                "gridId": "milestones",
+                "format": "DD/MM/YYYY"
               },
               {
                 "type": "datepicker",

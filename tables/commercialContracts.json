@@ -1,83 +1,30 @@
 {
-  "-MSYEBP_21KhpMATKqHD": {
-    "lastEditDate": 1612277676000,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3"
-  },
-  "-MUJOivje9zrXWosyi5H": {
-    "_id": 4,
-    "createdDate": 1614176251747,
-    "endDate": 1614038400000,
+  "-MYtTVYP-HWb6Ty2Ehld": {
+    "_id": 1,
+    "createdDate": 1619093227546,
+    "endDate": 1619737200000,
     "group": false,
-    "lastEditDate": 1614338815000,
+    "lastEditDate": 1619093268565,
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "name": "Contact 1",
+    "name": "Test Contract 1",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "pitch": "-MNZ-kKtSmZQuN7gqgFt",
-    "rowKey": "-MUJOivje9zrXWosyi5H",
-    "startDate": 1613520000000,
-    "value": 50
+    "rowKey": "-MYtTVYP-HWb6Ty2Ehld",
+    "startDate": 1617231600000,
+    "value": 1500
   },
-  "-MUT4sT5ckRA4qVQcdMe": {
-    "_id": 5,
-    "createdDate": 1614338818929,
-    "endDate": 1614384000000,
+  "-MYtTiyqAIhHCrQbwnks": {
+    "_id": 2,
+    "createdDate": 1619093286646,
+    "endDate": 1619737200000,
     "group": false,
-    "lastEditDate": 1614338832000,
+    "lastEditDate": 1619093305653,
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "name": "Contract 2",
-    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "pitch": "-MNZ-kKtSmZQuN7gqgFt",
-    "rowKey": "-MUT4sT5ckRA4qVQcdMe",
-    "startDate": 1612915200000,
-    "value": 10000
-  },
-  "-MUT4wkS0eB-7JJ7p8t-": {
-    "_id": 6,
-    "createdDate": 1614338836488,
-    "endDate": 1614384000000,
-    "group": false,
-    "lastEditDate": 1614338852000,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "name": "Contract 3",
-    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "pitch": "-MNZ-kKtSmZQuN7gqgFt",
-    "rowKey": "-MUT4wkS0eB-7JJ7p8t-",
-    "startDate": 1612828800000,
-    "value": 800
-  },
-  "-MUT8k6Ys7qAkJ4RcvVH": {
-    "_id": 7,
-    "createdDate": 1614339833286,
-    "endDate": 1612915200000,
-    "group": false,
-    "lastEditDate": 1614339853499,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "name": "Best Contract",
+    "name": "Test Contract 2",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "pitch": "-MOW10DS-e14k8n-7TCi",
-    "rowKey": "-MUT8k6Ys7qAkJ4RcvVH",
-    "startDate": 1517443200000,
-    "value": 50
-  },
-  "-MY9OGWzgje41WDyY1Ku": {
-    "_id": 8,
-    "createdDate": 1618303324360,
-    "group": false,
-    "lastEditDate": 1618303324578,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "pitch": "-MY9NqWy5jVWvCWwXcVu",
-    "rowKey": "-MY9OGWzgje41WDyY1Ku"
-  },
-  "-MYF9yUKRidhrXysPbt4": {
-    "_id": 9,
-    "createdDate": 1618400240286,
-    "group": false,
-    "lastEditDate": 1618400248993,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "pitch": "-MMzZ2krPwl50hP5t54m",
-    "rowKey": "-MYF9yUKRidhrXysPbt4",
-    "startDate": "21/04/2021, 00:00"
+    "rowKey": "-MYtTiyqAIhHCrQbwnks",
+    "startDate": 1554332400000,
+    "value": 190000
   }
 }

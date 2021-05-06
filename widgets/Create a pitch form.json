@@ -1,0 +1,19 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "filename": "Create a pitch form",
+  "gsOptions": {
+    "h": 6,
+    "w": 12,
+    "x": 6,
+    "y": 3
+  },
+  "offSet": 0,
+  "overflow": "height:auto",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MLb60UzLHdCuJrxTlq0",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<DataGridEditRow gridId=\"slingshotPitches\" :rowKey=\"$getUser('activeSlingshotPitch')\" />",
+  "title": "Create a Pitch"
+}

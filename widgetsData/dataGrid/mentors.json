@@ -5,38 +5,38 @@
   "meta": {
     "aboutMe": {
       "displayName": "About Me",
-      "invisible": false,
-      "order": "12",
+      "invisible": true,
+      "order": "13",
       "type": "multiline_text"
     },
     "address": {
       "displayName": "Address",
-      "invisible": false,
-      "order": "8",
+      "invisible": true,
+      "order": "9",
       "type": "string"
     },
     "companyStage": {
       "displayName": "Company Stage",
-      "invisible": false,
+      "invisible": true,
       "lookUpTable": "stage",
-      "order": "15",
+      "order": "16",
       "type": "multi_lookup"
     },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": false,
-      "order": "13",
+      "order": "14",
       "type": "date"
     },
     "dateOfBirth": {
       "displayName": "Date of Birth",
-      "invisible": false,
-      "order": "7",
+      "invisible": true,
+      "order": "8",
       "type": "date"
     },
     "interests": {
       "displayName": "Interests",
-      "invisible": false,
+      "invisible": true,
       "lookUpTable": "sector",
       "order": "18",
       "type": "multi_lookup"
@@ -49,37 +49,39 @@
     },
     "lastEditDate": {
       "displayName": "Last edit date",
-      "invisible": false,
+      "invisible": true,
       "order": "3",
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
-      "invisible": false,
+      "invisible": true,
       "order": "2",
       "type": "user"
     },
     "linkedInProfileLink": {
       "displayName": "LinkedIn Profile Link",
-      "invisible": false,
-      "order": "10",
+      "invisible": true,
+      "order": "11",
       "type": "string"
     },
     "location": {
       "displayName": "Location",
-      "invisible": false,
+      "invisible": true,
       "lookUpTable": "country",
       "order": "19",
       "type": "lookup"
     },
     "mainSectors": {
       "displayName": "Three main sectors",
+      "invisible": true,
       "lookUpTable": "sector",
-      "order": 23,
+      "order": "23",
       "type": "multi_lookup"
     },
     "mainSkills": {
       "displayName": "Three main skills",
+      "invisible": true,
       "lookUpTable": "skills",
       "order": "22",
       "type": "multi_lookup"
@@ -87,12 +89,13 @@
     "name": {
       "displayName": "First Name",
       "invisible": false,
-      "order": "16",
+      "order": "6",
       "type": "string"
     },
     "next": {
       "displayName": "",
-      "order": 24,
+      "invisible": true,
+      "order": "24",
       "type": "custom"
     },
     "nextEvents": {
@@ -104,13 +107,13 @@
     "owner": {
       "displayName": "Owner",
       "invisible": false,
-      "order": "11",
+      "order": "12",
       "type": "user"
     },
     "phoneNumber": {
       "displayName": "Contact Number",
-      "invisible": false,
-      "order": "9",
+      "invisible": true,
+      "order": "10",
       "type": "phone"
     },
     "profileImage": {
@@ -122,19 +125,19 @@
     "secondName": {
       "displayName": "Last Name",
       "invisible": false,
-      "order": "6",
+      "order": "7",
       "type": "string"
     },
     "sectors": {
       "displayName": "Sectors",
-      "invisible": false,
+      "invisible": true,
       "lookUpTable": "sector",
       "order": "5",
       "type": "multi_lookup"
     },
     "skills": {
       "displayName": "Skills",
-      "invisible": false,
+      "invisible": true,
       "lookUpTable": "skills",
       "order": "4",
       "type": "multi_lookup"
@@ -153,7 +156,8 @@
     },
     "user": {
       "displayName": "User",
-      "order": "14",
+      "invisible": false,
+      "order": "15",
       "type": "user"
     }
   },
@@ -411,7 +415,8 @@
                 "customCode": "",
                 "propName": "dateOfBirth",
                 "gridId": "mentors",
-                "invisibleInDataGrid": true
+                "invisibleInDataGrid": true,
+                "format": "DD/MM/YYYY"
               },
               {
                 "type": "phone",
@@ -1209,7 +1214,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.43997676722848245
+    "_uniqueId": 0.4164601530406349
   },
   "source": "mentors",
   "storageType": "dashboard",

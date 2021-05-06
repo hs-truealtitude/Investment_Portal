@@ -1,7 +1,8 @@
 {
+  "cardOutlineTheme": "none",
   "cardStyle": "none",
   "leftNavBarTheme": "none",
   "leftNavStyle": "extra_dark",
-  "navBarTheme": "extraDark",
+  "navBarTheme": "dark",
   "navPlacement": "sidebar"
 }

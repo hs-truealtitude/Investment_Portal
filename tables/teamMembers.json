@@ -1,0 +1,42 @@
+{
+  "-MK-W_J9PHxAAxJKUgwK": {
+    "_id": 1,
+    "group": false,
+    "rowKey": "-MK-W_J9PHxAAxJKUgwK"
+  },
+  "-MK9IgkNRnmZPDwEPD4O": {
+    "_id": 2,
+    "group": false,
+    "rowKey": "-MK9IgkNRnmZPDwEPD4O"
+  },
+  "-MK9KPtltIJVQLaf2Y45": {
+    "_id": 3,
+    "group": false,
+    "rowKey": "-MK9KPtltIJVQLaf2Y45"
+  },
+  "-MK9KRUlzp9D-ZLaysV0": {
+    "_id": 4,
+    "group": false,
+    "rowKey": "-MK9KRUlzp9D-ZLaysV0"
+  },
+  "-MK9KSbHA2SI4MCWpkV1": {
+    "_id": 5,
+    "company": "-MK5dBcWS1nJR4zsCZ50",
+    "group": false,
+    "rowKey": "-MK9KSbHA2SI4MCWpkV1"
+  },
+  "-MK9KWtYMUHdCfVtktiv": {
+    "_id": 6,
+    "company": "-MK5dBcWS1nJR4zsCZ50",
+    "group": false,
+    "rowKey": "-MK9KWtYMUHdCfVtktiv"
+  },
+  "-MKskbMMcFvxzGi7yZqf": {
+    "_id": 7,
+    "company": "-MK5dBcWS1nJR4zsCZ50",
+    "group": false,
+    "lastEditDate": 1604048871841,
+    "lastEditedBy": "IExbYiRgRLdw4BMqAJyB9omEhov1",
+    "rowKey": "-MKskbMMcFvxzGi7yZqf"
+  }
+}

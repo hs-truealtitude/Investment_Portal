@@ -1,0 +1,12 @@
+{
+  "filter": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"access\",\"operator\":\"=\",\"value\":{\"value\":\"-MKjNiLMpbGAZI8h2lhK\",\"name\":\"Public\"},\"name\":\"Access\",\"hidden\":true}]}",
+  "renderOptions": {
+    "selectedX": [
+      "name"
+    ],
+    "selectedY": [
+      "jobsGeneratedThroughoutProgramme"
+    ]
+  },
+  "type": "stacked"
+}

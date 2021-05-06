@@ -2,13 +2,8 @@
   "displayColumn": "name",
   "isReactive": true,
   "meta": {
-    "email": {
-      "displayName": "Email",
-      "order": "3",
-      "type": "string"
-    },
-    "mobileNumber": {
-      "displayName": "Mobile Number",
+    "company": {
+      "displayName": "Company",
       "order": "4",
       "type": "string"
     },
@@ -27,7 +22,7 @@
       "displayName": "Slingshot Pitch",
       "invisible": true,
       "lookUpTable": "slingshotPitches",
-      "order": "5",
+      "order": "3",
       "type": "lookup"
     },
     "state": {
@@ -41,7 +36,7 @@
     "sections": [
       {
         "name": "section_985275",
-        "label": "",
+        "label": "Cornerstone Investor - Institutional Stakeholders Backing The Business",
         "clientKey": "section_985275",
         "order": 0,
         "rows": [
@@ -90,14 +85,14 @@
                 "customValidationErrorMessage": "",
                 "propName": "name",
                 "gridId": "references",
-                "description": "Please enter the name of your reference"
+                "description": "Optional"
               },
               {
                 "type": "text",
-                "name": "control_text_515519",
-                "fieldName": "control_text_515519",
-                "label": "Mobile Number",
-                "order": 1,
+                "name": "control_text_525348",
+                "fieldName": "control_text_525348",
+                "label": "Company",
+                "order": 0,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -107,13 +102,16 @@
                 "labelBold": false,
                 "labelItalic": false,
                 "labelUnderline": false,
-                "required": true,
+                "required": false,
                 "requiredCondition": "",
                 "isMultiLine": false,
                 "isInteger": false,
                 "decimalPlace": 0,
                 "isTodayValue": false,
+                "isTodayValueCreated": true,
                 "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
                 "isNowTimeValue": false,
                 "timeFormat": "HH:mm",
                 "isMultiple": false,
@@ -130,57 +128,55 @@
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "mobileNumber",
-                "gridId": "references",
-                "description": "Enter the contact number of your reference"
-              },
-              {
-                "type": "text",
-                "name": "control_text_301595",
-                "fieldName": "control_text_301595",
-                "label": "Email",
-                "order": 2,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-12",
-                "readonly": false,
-                "readonlyCondition": "",
-                "placeholder": "",
-                "labelBold": false,
-                "labelItalic": false,
-                "labelUnderline": false,
-                "required": true,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": false,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "propName": "email",
-                "gridId": "references",
-                "description": "Enter the email of your reference"
+                "propName": "company",
+                "gridId": "references"
               },
               {
                 "type": "text",
                 "name": "control_text_317374",
                 "fieldName": "control_text_317374",
                 "label": "State",
+                "order": 2,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "state",
+                "gridId": "references"
+              },
+              {
+                "type": "text",
+                "name": "control_text_816964",
+                "fieldName": "control_text_816964",
+                "label": "Next Events",
                 "order": 3,
                 "defaultValue": "",
                 "value": "",
@@ -214,54 +210,15 @@
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "state"
-              },
-              {
-                "type": "text",
-                "name": "control_text_816964",
-                "fieldName": "control_text_816964",
-                "label": "Next Events",
-                "order": 4,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-6",
-                "readonly": false,
-                "readonlyCondition": "",
-                "placeholder": "",
-                "labelBold": false,
-                "labelItalic": false,
-                "labelUnderline": false,
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": true,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "propName": "nextEvents"
+                "propName": "nextEvents",
+                "gridId": "references"
               },
               {
                 "type": "lookup",
                 "name": "control_lookup_103972",
                 "fieldName": "control_lookup_103972",
                 "label": "Slingshot Pitch",
-                "order": 0,
+                "order": 4,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -317,8 +274,8 @@
         "instances": []
       }
     ],
-    "layout": "collapse",
-    "_uniqueId": 0.6735248809323429
+    "layout": "tab",
+    "_uniqueId": 0.8056683040503756
   },
   "source": "references",
   "storageType": "dashboard",
@@ -326,10 +283,7 @@
   "views": {
     "referenceCards": {
       "meta": {
-        "email": {
-          "order": "3"
-        },
-        "mobileNumber": {
+        "company": {
           "order": "4"
         },
         "name": {
@@ -340,7 +294,7 @@
           "order": "2"
         },
         "slingshotPitch": {
-          "order": "5"
+          "order": "3"
         },
         "state": {
           "invisible": true,
