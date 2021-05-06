@@ -301,7 +301,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "jobRole",
-                "ableToAddLookUpVal": true,
+                "ableToAddLookUpVal": false,
                 "gridId": "teamMembersTable",
                 "description": "Please select the job role of your team member"
               },
@@ -625,7 +625,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.8673916916614861
+    "_uniqueId": 0.025866095986893267
   },
   "source": "teamMembersTable",
   "storageType": "dashboard",
