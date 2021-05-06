@@ -11,21 +11,21 @@
       "displayName": "Job Role",
       "lookUpTable": "jobRoles",
       "order": 11,
-      "type": "multi_lookup"
+      "type": "lookup"
     },
     "lastEditDate": {
       "displayName": "Last edit date",
-      "order": "2",
+      "order": "10",
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
-      "order": "10",
+      "order": "9",
       "type": "user"
     },
     "linkedin": {
       "displayName": "Linkedin",
-      "order": "3",
+      "order": "2",
       "type": "string"
     },
     "name": {
@@ -36,34 +36,34 @@
     "nextEvents": {
       "displayName": "Next Events",
       "invisible": true,
-      "order": "9",
+      "order": "8",
       "type": "string"
     },
     "owner": {
       "displayName": "Owner",
-      "order": "7",
+      "order": "6",
       "type": "user"
     },
     "profilePitcture": {
       "displayName": "Profile Pitcture",
-      "order": "4",
+      "order": "3",
       "type": "profile_image"
     },
     "secondName": {
       "displayName": "Second Name",
-      "order": "5",
+      "order": "4",
       "type": "string"
     },
     "slingshotPitches": {
       "displayName": "Slingshot Pitches",
       "lookUpTable": "slingshotPitches",
-      "order": "6",
+      "order": "5",
       "type": "lookup"
     },
     "state": {
       "displayName": "State",
       "invisible": true,
-      "order": "8",
+      "order": "7",
       "type": "string"
     }
   },
@@ -215,54 +215,11 @@
                 "description": "Please enter the second name of your team member"
               },
               {
-                "type": "multi_lookup",
-                "name": "control_multi_lookup_445733",
-                "fieldName": "control_multi_lookup_445733",
-                "label": "Job Role",
-                "order": 0,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-12",
-                "readonly": false,
-                "readonlyCondition": "",
-                "placeholder": "",
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "isTodayValueCreated": true,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isCurrentUser": false,
-                "isCurrentUserOwner": true,
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": false,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "propName": "jobRole",
-                "ableToAddLookUpVal": false,
-                "gridId": "teamMembersTable",
-                "description": "Please select the job role(s) of your team member"
-              },
-              {
                 "type": "text",
                 "name": "control_text_209602",
                 "fieldName": "control_text_209602",
                 "label": "Linkedin",
-                "order": 3,
+                "order": 4,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -303,11 +260,57 @@
                 "description": "Please enter the link to your team member's LinkedIn profile page"
               },
               {
+                "type": "lookup",
+                "name": "control_lookup_388963",
+                "fieldName": "control_lookup_388963",
+                "label": "Job Role",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "jobRole",
+                "ableToAddLookUpVal": true,
+                "gridId": "teamMembersTable",
+                "description": "Please select the job role of your team member"
+              },
+              {
                 "type": "datepicker",
                 "name": "control_datepicker_485588",
                 "fieldName": "control_datepicker_485588",
                 "label": "Last edit date",
-                "order": 4,
+                "order": 7,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -351,7 +354,7 @@
                 "name": "control_datepicker_700550",
                 "fieldName": "control_datepicker_700550",
                 "label": "Created Date",
-                "order": 5,
+                "order": 8,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -395,7 +398,7 @@
                 "name": "control_user_285233",
                 "fieldName": "control_user_285233",
                 "label": "Last edited by",
-                "order": 6,
+                "order": 9,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -439,7 +442,7 @@
                 "name": "control_text_259366",
                 "fieldName": "control_text_259366",
                 "label": "Next Events",
-                "order": 7,
+                "order": 10,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -483,7 +486,7 @@
                 "name": "control_user_964654",
                 "fieldName": "control_user_964654",
                 "label": "Owner",
-                "order": 8,
+                "order": 11,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -527,7 +530,7 @@
                 "name": "control_text_876742",
                 "fieldName": "control_text_876742",
                 "label": "State",
-                "order": 9,
+                "order": 12,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -571,7 +574,7 @@
                 "name": "control_lookup_692760",
                 "fieldName": "control_lookup_692760",
                 "label": "Slingshot Pitches",
-                "order": 10,
+                "order": 0,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -622,7 +625,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.2809944116325316
+    "_uniqueId": 0.8673916916614861
   },
   "source": "teamMembersTable",
   "storageType": "dashboard",
@@ -637,36 +640,36 @@
           "order": 11
         },
         "lastEditDate": {
-          "order": "2"
-        },
-        "lastEditedBy": {
           "order": "10"
         },
+        "lastEditedBy": {
+          "order": "9"
+        },
         "linkedin": {
-          "order": "3"
+          "order": "2"
         },
         "name": {
           "order": "0"
         },
         "nextEvents": {
           "invisible": true,
-          "order": "9"
+          "order": "8"
         },
         "owner": {
-          "order": "7"
+          "order": "6"
         },
         "profilePitcture": {
-          "order": "4"
+          "order": "3"
         },
         "secondName": {
-          "order": "5"
+          "order": "4"
         },
         "slingshotPitches": {
-          "order": "6"
+          "order": "5"
         },
         "state": {
           "invisible": true,
-          "order": "8"
+          "order": "7"
         }
       },
       "title": "Team Card View",
