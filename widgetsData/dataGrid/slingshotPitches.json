@@ -1077,14 +1077,15 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "mobileNumber",
                 "gridId": "slingshotPitches",
-                "description": "Enter your contact number"
+                "description": "Enter your contact number",
+                "mask": ""
               },
               {
                 "type": "text",
@@ -4790,7 +4791,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.5363299875577126
+    "_uniqueId": 0.31347030414834065
   },
   "source": "slingshotPitches",
   "storageType": "dashboard",
@@ -4821,22 +4822,22 @@
         },
         "companyDebt": {
           "invisible": true,
-          "order": "49"
+          "order": "50"
         },
         "companyEmail": {
-          "invisible": false,
-          "order": "54"
+          "invisible": true,
+          "order": "55"
         },
         "companyLogo": {
           "invisible": false,
           "order": "1"
         },
         "companyLogosAndBranding": {
-          "invisible": false,
+          "invisible": true,
           "order": "6"
         },
         "confidentialityAgreement": {
-          "invisible": false,
+          "invisible": true,
           "order": "8"
         },
         "createdDate": {
@@ -4848,12 +4849,12 @@
           "order": "31"
         },
         "dataRoomDocuments": {
-          "invisible": false,
+          "invisible": true,
           "order": "70"
         },
         "dealProjectName": {
           "invisible": false,
-          "order": "43"
+          "order": "44"
         },
         "debtInformation": {
           "invisible": true,
@@ -4872,23 +4873,24 @@
           "order": "41"
         },
         "executiveSummaryOfProject": {
-          "invisible": false,
+          "invisible": true,
           "order": "40"
         },
         "financialForecastModel": {
-          "invisible": false,
+          "invisible": true,
           "order": "66"
         },
         "grantFunding": {
           "invisible": true,
-          "order": "45"
+          "order": "46"
         },
         "hRRequirements": {
+          "invisible": true,
           "order": "73"
         },
         "howManyInteractionsToMeetProjection": {
           "invisible": true,
-          "order": "56"
+          "order": "57"
         },
         "howManyInteractionsToMeetProjectionOurOwnPrediction": {
           "invisible": true,
@@ -4903,8 +4905,8 @@
           "order": "71"
         },
         "investmentMemorandumDeck": {
-          "invisible": false,
-          "order": "82"
+          "invisible": true,
+          "order": "81"
         },
         "investmentRaised": {
           "invisible": true,
@@ -4924,11 +4926,11 @@
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "55"
+          "order": "56"
         },
         "latestFinancialTradingInformation": {
-          "invisible": false,
-          "order": "51"
+          "invisible": true,
+          "order": "52"
         },
         "linkedInLink": {
           "invisible": true,
@@ -4936,7 +4938,7 @@
         },
         "litigationTaxOrPressure": {
           "invisible": true,
-          "order": "48"
+          "order": "49"
         },
         "location": {
           "invisible": true,
@@ -4947,12 +4949,15 @@
           "order": "34"
         },
         "mentorRequirementsSummary": {
+          "invisible": true,
           "order": "42"
         },
         "milestones": {
-          "order": "53"
+          "invisible": true,
+          "order": "54"
         },
         "milestonesDiagram": {
+          "invisible": true,
           "order": "76"
         },
         "minimumInvestment": {
@@ -4960,12 +4965,12 @@
           "order": "64"
         },
         "mobileNumber": {
-          "invisible": false,
+          "invisible": true,
           "order": "9"
         },
         "name": {
           "invisible": false,
-          "order": "57"
+          "order": "43"
         },
         "news": {
           "invisible": true,
@@ -4975,9 +4980,11 @@
           "order": "80"
         },
         "next5": {
-          "order": "50"
+          "invisible": true,
+          "order": "51"
         },
         "next5YearsMilestonesDiagram": {
+          "invisible": true,
           "order": "78"
         },
         "nextEvents": {
@@ -4985,9 +4992,11 @@
           "order": "79"
         },
         "nextFiveYearsMilestones": {
+          "invisible": true,
           "order": "61"
         },
         "note": {
+          "invisible": true,
           "order": "62"
         },
         "numberOfCommercialTrials": {
@@ -5047,7 +5056,7 @@
         },
         "sME": {
           "invisible": false,
-          "order": "52"
+          "order": "53"
         },
         "sectors": {
           "invisible": true,
@@ -5067,7 +5076,7 @@
         },
         "state": {
           "invisible": true,
-          "order": "44"
+          "order": "45"
         },
         "submitPitch": {
           "invisible": true,
@@ -5075,7 +5084,7 @@
         },
         "targetCompletionDate": {
           "invisible": true,
-          "order": "46"
+          "order": "47"
         },
         "targetInvestorsForDealMarketing": {
           "invisible": true,
@@ -5083,9 +5092,10 @@
         },
         "targetReturnOfInvestment": {
           "invisible": true,
-          "order": "81"
+          "order": "80"
         },
         "teamMembers": {
+          "invisible": true,
           "order": "63"
         },
         "testbedHigherEducationJobs": {
@@ -5109,6 +5119,7 @@
           "order": "77"
         },
         "w": {
+          "invisible": true,
           "order": "59"
         },
         "website": {
@@ -5117,7 +5128,7 @@
         },
         "wiz": {
           "invisible": true,
-          "order": "47"
+          "order": "48"
         },
         "wizard": {
           "invisible": true,

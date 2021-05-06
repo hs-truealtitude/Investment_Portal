@@ -12,19 +12,5 @@
     "rowKey": "-MYtTVYP-HWb6Ty2Ehld",
     "startDate": 1617231600000,
     "value": 1500
-  },
-  "-MYtTiyqAIhHCrQbwnks": {
-    "_id": 2,
-    "createdDate": 1619093286646,
-    "endDate": 1619737200000,
-    "group": false,
-    "lastEditDate": 1619093305653,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "name": "Test Contract 2",
-    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "pitch": "-MOW10DS-e14k8n-7TCi",
-    "rowKey": "-MYtTiyqAIhHCrQbwnks",
-    "startDate": 1554332400000,
-    "value": 190000
   }
 }
