@@ -84,6 +84,7 @@
       "displayName": "Do you know your current return of revenue per employee?",
       "invisible": true,
       "order": "23",
+      "priceFormat": true,
       "type": "number"
     },
     "dataRoomDocuments": {
@@ -903,7 +904,7 @@
                 "customValidationErrorMessage": "",
                 "propName": "website",
                 "gridId": "slingshotPitches",
-                "description": "Enter your company website"
+                "description": "Enter your company website like so: www.example.com"
               },
               {
                 "type": "text",
@@ -948,7 +949,7 @@
                 "customValidationErrorMessage": "",
                 "propName": "linkedInLink",
                 "gridId": "slingshotPitches",
-                "description": "Please enter your LinkedIn link"
+                "description": "Please enter your LinkedIn link like so: https://www.linkedin.com/company/company-name"
               },
               {
                 "type": "lookup",
@@ -992,7 +993,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "location",
-                "ableToAddLookUpVal": true,
+                "ableToAddLookUpVal": false,
                 "gridId": "slingshotPitches",
                 "description": "Select the location of your company"
               },
@@ -1442,7 +1443,7 @@
                 "customValidationErrorMessage": "",
                 "propName": "currentReturnOfRevenue",
                 "gridId": "slingshotPitches",
-                "description": "Please enter a number"
+                "description": ""
               },
               {
                 "type": "number",
@@ -2112,7 +2113,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "productGrowthOtherIndustries",
-                "ableToAddLookUpVal": true,
+                "ableToAddLookUpVal": false,
                 "gridId": "slingshotPitches",
                 "description": "You can select more than one industry"
               },
@@ -2680,7 +2681,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "investmentType",
-                "ableToAddLookUpVal": true,
+                "ableToAddLookUpVal": false,
                 "gridId": "slingshotPitches",
                 "description": "Select all that are relevant"
               },
@@ -2816,7 +2817,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "eISSEIS",
-                "ableToAddLookUpVal": true,
+                "ableToAddLookUpVal": false,
                 "gridId": "slingshotPitches",
                 "description": "Is the investment applicable for EIS relief for UK tax payers"
               },
@@ -2862,7 +2863,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "targetInvestorsForDealMarketing",
-                "ableToAddLookUpVal": true,
+                "ableToAddLookUpVal": false,
                 "gridId": "slingshotPitches",
                 "description": "Choose which True Altitude investor types you want to market the project to."
               },
@@ -3223,7 +3224,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "trueAltitudeLinkedInMarketing",
-                "ableToAddLookUpVal": true,
+                "ableToAddLookUpVal": false,
                 "gridId": "slingshotPitches",
                 "description": "True Altitude looks to support its marketing efforts on deals by referencing them on LinkedIn to its network. Please let us know if you are happy for us to mention the company directly or if you would like us to keep the company anonymous."
               }
@@ -4254,7 +4255,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "sectors",
-                "ableToAddLookUpVal": true,
+                "ableToAddLookUpVal": false,
                 "gridId": "slingshotPitches"
               },
               {
@@ -4299,7 +4300,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "skills",
-                "ableToAddLookUpVal": true,
+                "ableToAddLookUpVal": false,
                 "gridId": "slingshotPitches"
               }
             ]

@@ -1,28 +1,4 @@
 {
-  "-MV1yZ8hUHRw78DORc_v": {
-    "_id": 3,
-    "createdDate": 1614957657738,
-    "group": false,
-    "lastEditDate": 1614957662240,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "name": "Coder",
-    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "requirementType": "-MSNjp3fOzWAwLLfhWe0",
-    "rowKey": "-MV1yZ8hUHRw78DORc_v",
-    "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt"
-  },
-  "-MVFtdvMyRcRJ-SOu2sZ": {
-    "_id": 5,
-    "createdDate": 1615191252336,
-    "group": false,
-    "lastEditDate": 1615191257124,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "name": "Financial Advisor",
-    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "requirementType": "-MSNjrBZxLr-VgqfvYiJ",
-    "rowKey": "-MVFtdvMyRcRJ-SOu2sZ",
-    "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt"
-  },
   "-MYjQPDzYrX4l_faYMze": {
     "_id": 6,
     "createdDate": 1618924643383,

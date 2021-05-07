@@ -297,5 +297,68 @@
     "logDetails": "{\n  \"_id\": 2,\n  \"createdDate\": 1619694216126,\n  \"direction\": \"SME->Mentor\",\n  \"eDate\": 1619604000000,\n  \"group\": false,\n  \"lastEditDate\": 1619694237879,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MZSG7lgSWJYuL6D1E_3\",\n  \"name\": \"Session 1 - Getting Started\",\n  \"nextEvents\": \"Accepted,Rejected\",\n  \"notes\": \"This session will help you sort out your product branding.\",\n  \"owner\": \"sGcm6s5Cfrd9edrNLMKn7rtGq5O2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"red\": \"red\",\n  \"rowKey\": \"-MZSI5CrYDU1VpQWaZQl\",\n  \"sDate\": 1619600400000,\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"sessionLength\": 1,\n  \"state\": \"Mentor Approve\",\n  \"status\": \"-MT_Y0f-hgT92Kdk5APL\"\n}",
     "name": "Workflow Step > Did Session Happen? Mentor",
     "rowKey": "-MZSIGs8Q5r85BNZ-EU2"
+  },
+  "-M_0nJjPjgJ6mzCdba29": {
+    "_id": 37,
+    "date": 1620306643763,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0n5PGHMyKYnIXcCcN\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0nJjPjgJ6mzCdba29"
+  },
+  "-M_0nJoxMGiVIqZ8KfJw": {
+    "_id": 38,
+    "date": 1620306644246,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0nH7dXcbbDeBlnqxZ\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0nJoxMGiVIqZ8KfJw"
+  },
+  "-M_0nKp0CCt0sC0SHJoo": {
+    "_id": 39,
+    "date": 1620306648397,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0nH7dXcbbDeBlnqxZ\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0nKp0CCt0sC0SHJoo"
+  },
+  "-M_0nLTCoOl3YZuL7p9e": {
+    "_id": 40,
+    "date": 1620306651033,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0nH7dXcbbDeBlnqxZ\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0nLTCoOl3YZuL7p9e"
+  },
+  "-M_0nN-o5EUmeJWUkGhZ": {
+    "_id": 41,
+    "date": 1620306657343,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0nH7dXcbbDeBlnqxZ\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0nN-o5EUmeJWUkGhZ"
+  },
+  "-M_0nNEb72Eq1HX3PR4J": {
+    "_id": 42,
+    "date": 1620306658291,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0nH7dXcbbDeBlnqxZ\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0nNEb72Eq1HX3PR4J"
+  },
+  "-M_0nVodjIXDoC7cRsKZ": {
+    "_id": 43,
+    "date": 1620306693427,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0nTJIZEYTp1n4r_oa\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0nVodjIXDoC7cRsKZ"
+  },
+  "-M_0pUX2BbCFdIi2_oeP": {
+    "_id": 44,
+    "date": 1620307212424,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0pRkIUrnRnKPBm_KG\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0pUX2BbCFdIi2_oeP"
+  },
+  "-M_0pt9seaLjeENgpBRc": {
+    "_id": 45,
+    "date": 1620307317306,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0pfydiLQiFbNbKslV\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0pt9seaLjeENgpBRc"
   }
 }
