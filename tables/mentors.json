@@ -27,5 +27,17 @@
     "sectors": "-MJwplzI57bkW5lqHVOf,-MJwp_iuq4j6XJNKSKZt,-MJwpTJ0wUdiPBZ_xjrL,-MJwpgnEWIVjtXyBqBdE,-MJwpvlF1Zds2L8Ket4h",
     "skills": "-MRKBWDs_6OeY08KxClH,-MRKB_lo7ZxT6jpXZp07,-MRKBdj-mPkNArS4ihdK,-MST6xZHpgy9c66Yzl4Z,-MRKBfM8Cngc0St6Z23t",
     "user": "sGcm6s5Cfrd9edrNLMKn7rtGq5O2"
+  },
+  "-M_QjoVus8EHpyq6VwR7": {
+    "_created": true,
+    "_id": 13,
+    "createdDate": 1620741932504,
+    "group": false,
+    "lastEditDate": 1620741932505,
+    "lastEditedBy": "gzYyMtxqjPd2TE5mbZcvQGINq932",
+    "location": "-MJwtgUqBjMrFNntf6GH",
+    "owner": "gzYyMtxqjPd2TE5mbZcvQGINq932",
+    "rowKey": "-M_QjoVus8EHpyq6VwR7",
+    "user": "gzYyMtxqjPd2TE5mbZcvQGINq932"
   }
 }
