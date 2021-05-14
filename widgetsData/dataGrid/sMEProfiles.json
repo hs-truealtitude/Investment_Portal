@@ -455,7 +455,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "location",
-                "ableToAddLookUpVal": true,
+                "ableToAddLookUpVal": false,
                 "gridId": "sMEProfiles"
               },
               {
@@ -821,7 +821,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.786374255832222
+    "_uniqueId": 0.22394914099670493
   },
   "source": "sMEProfiles",
   "storageType": "dashboard",

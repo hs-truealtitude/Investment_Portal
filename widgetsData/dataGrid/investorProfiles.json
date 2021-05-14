@@ -466,7 +466,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "location",
-                "ableToAddLookUpVal": true,
+                "ableToAddLookUpVal": false,
                 "gridId": "investorProfiles"
               },
               {

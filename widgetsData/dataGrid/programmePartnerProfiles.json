@@ -449,7 +449,7 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "location",
-                "ableToAddLookUpVal": true,
+                "ableToAddLookUpVal": false,
                 "gridId": "programmePartnerProfiles"
               },
               {
@@ -771,7 +771,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.9953802288810574
+    "_uniqueId": 0.5130641958044115
   },
   "source": "programmePartnerProfiles",
   "storageType": "dashboard",
