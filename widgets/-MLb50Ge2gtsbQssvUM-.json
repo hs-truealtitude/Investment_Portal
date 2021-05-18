@@ -1,0 +1,19 @@
+{
+  "classes": "noscroll",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "hidden": true,
+  "offSet": 0,
+  "overflow": "overflow:hidden",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MLb4VOxEfZKqJNookL4",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<div class=\"center fade-in\" >\r\n\r\n    <h1 v-if=\"$getUser('accountType') == 'SME'\" style=\"font-family: 'Grenette pro', sans-serif;\"> Company Dashboard </h1>\r\n    <h1 v-if=\"$getUser('accountType') == 'Investor'\" style=\"font-family: 'Grenette pro', sans-serif;\"> Investor Dashboard </h1>\r\n    <h1 v-if=\"$getUser('accountType') == 'Mentor'\" style=\"font-family: 'Grenette pro', sans-serif;\"> Mentor Dashboard </h1>\r\n    <h1 v-if=\"$getUser('accountType') == 'PP'\" style=\"font-family: 'Grenette pro', sans-serif;\"> Programme Partner Dashboard </h1>\r\n\r\n\r\n</div>",
+  "title": ""
+}

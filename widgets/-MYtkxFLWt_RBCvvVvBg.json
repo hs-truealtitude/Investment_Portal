@@ -1,0 +1,17 @@
+{
+  "classes": "",
+  "dependency": "chartsOnly/-MYtkx30MaiUdk_ZXj8s",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 10,
+    "w": 18,
+    "x": 3,
+    "y": 27
+  },
+  "overflow": "",
+  "styles": "",
+  "subtab": "-MPe1A3nbtf8VlPG3BiK",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<ChartOnly chartId=\"-MYtkx30MaiUdk_ZXj8s\" :rData=\"$getGrid('slingshotPitches')\" :widgetKey=\"widgetKey\" gridId=\"slingshotPitches\" />",
+  "title": "Grant Funding"
+}

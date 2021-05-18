@@ -1,0 +1,14 @@
+{
+  "filter": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":\"Warner\",\"name\":\"Company Name\",\"hidden\":false}]}",
+  "isLabels": true,
+  "isOutlabels": false,
+  "isPercents": false,
+  "numberFormat": "$0,0.00",
+  "renderOptions": {
+    "selectedY": [
+      "totalFundingRound",
+      "capitalAlreadyRaisedForCurrentFundingRound"
+    ]
+  },
+  "type": "pie"
+}

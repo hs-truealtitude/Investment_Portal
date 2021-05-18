@@ -1,0 +1,13 @@
+{
+  "-MMAdTaKMbgcuCz2OU6U": {
+    "_id": 1,
+    "description": "",
+    "emailBody": "<p>${row.name}</p>",
+    "emailSubject": "",
+    "group": false,
+    "lastEditDate": 1605439556328,
+    "lastEditedBy": "IExbYiRgRLdw4BMqAJyB9omEhov1",
+    "name": "",
+    "rowKey": "-MMAdTaKMbgcuCz2OU6U"
+  }
+}

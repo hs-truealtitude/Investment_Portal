@@ -1,0 +1,17 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 21,
+    "w": 16,
+    "x": 4,
+    "y": 3
+  },
+  "layout": "b-card",
+  "overflow": "",
+  "styles": "",
+  "subtab": "-MTBaL8BTycvh1K_uOK4",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<DataGridEditRow gridId=\"sMEProfiles\" :rowKey=\"$getUser('profileID')\" />",
+  "title": ""
+}

@@ -1,0 +1,26 @@
+{
+  "-MJpxk2pyNDe4PiknHdo": {
+    "_id": 1,
+    "group": false,
+    "name": "5g",
+    "rowKey": "-MJpxk2pyNDe4PiknHdo"
+  },
+  "-MJpxl_BRBo6Vp1m1YMj": {
+    "_id": 2,
+    "group": false,
+    "name": "Gaming",
+    "rowKey": "-MJpxl_BRBo6Vp1m1YMj"
+  },
+  "-MJpxmUPiD5jVmyflZ0p": {
+    "_id": 3,
+    "group": false,
+    "name": "Sports",
+    "rowKey": "-MJpxmUPiD5jVmyflZ0p"
+  },
+  "-MJpxnwIezDktpS9RG-_": {
+    "_id": 4,
+    "group": false,
+    "name": "Food",
+    "rowKey": "-MJpxnwIezDktpS9RG-_"
+  }
+}

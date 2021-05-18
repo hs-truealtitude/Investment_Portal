@@ -59,3 +59,10 @@
 
 }
 
+.logomark {
+    width: 2.6em;
+    height: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 2px !important;
+}

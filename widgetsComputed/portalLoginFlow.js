@@ -11,6 +11,9 @@ return async function  () {
         if(accountType == 'Investor'){
            
             let activeInvestorProfile = $getDashboardModel('investorProfiles')[$getUser('profileID')]
+
+            console.log(activeInvestorProfile)
+
             let isApprovedI = activeInvestorProfile.isApproved
             
             if(isApprovedI == true){

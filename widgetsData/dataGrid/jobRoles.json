@@ -62,7 +62,7 @@
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
-                "readonly": true,
+                "readonly": false,
                 "readonlyCondition": "",
                 "placeholder": "",
                 "labelBold": false,
@@ -372,7 +372,7 @@
       }
     ],
     "layout": "collapse",
-    "_uniqueId": 0.0645866791969738
+    "_uniqueId": 0.20987313996603696
   },
   "source": "jobRoles",
   "storageType": "dashboard",

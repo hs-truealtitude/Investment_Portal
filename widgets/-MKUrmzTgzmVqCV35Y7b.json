@@ -1,0 +1,18 @@
+{
+  "classes": "noscroll",
+  "gsOptions": {
+    "h": 13,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "",
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MKUrGgnB0UOnhJlhCjv",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<div class=\"center fade-in\" >\r\n\r\n    <h1 v-if=\"$getUser('accountType') == 'SME'\" style=\"font-family: 'Grenette pro', sans-serif;\"> Company Dashboard </h1>\r\n    <h1 v-if=\"$getUser('accountType') == 'Investor'\" style=\"font-family: 'Grenette pro', sans-serif;\"> Investor Dashboard </h1>\r\n    <h1 v-if=\"$getUser('accountType') == 'Mentor'\" style=\"font-family: 'Grenette pro', sans-serif;\"> Mentor Dashboard </h1>\r\n    <h1 v-if=\"$getUser('accountType') == 'PP'\" style=\"font-family: 'Grenette pro', sans-serif;\"> PP Dashboard </h1>\r\n\r\n\r\n</div>",
+  "title": ""
+}
