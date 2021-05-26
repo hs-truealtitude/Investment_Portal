@@ -1,0 +1,18 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 4,
+    "w": 5,
+    "x": 2,
+    "y": 2
+  },
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MMkiJKDLeU1Mz8JWLqA",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<center>\r\n  <i style=\"color:black;\" class=\"fas fa-handshake fa-4x\"></i>\r\n\r\n  <h2> SME Introductions </h2>\r\n  <h1 style=\"font-weight: bold;\">{{smeInteractionsCount()}}</h1>\r\n</center>",
+  "title": ""
+}

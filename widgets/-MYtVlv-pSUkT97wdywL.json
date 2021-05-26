@@ -1,0 +1,17 @@
+{
+  "classes": "",
+  "dependency": "chartsOnly/-MYtVleFoasVimRv3uEY",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 10,
+    "w": 20,
+    "x": 3,
+    "y": 15
+  },
+  "overflow": "",
+  "styles": "",
+  "subtab": "-MMkiJKDLeU1Mz8JWLqA",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<ChartOnly chartId=\"-MYtVleFoasVimRv3uEY\" :rData=\"$getGrid('slingshotPitches')\" :widgetKey=\"widgetKey\" gridId=\"slingshotPitches\" />",
+  "title": "Jobs Generated Throughout Programme"
+}

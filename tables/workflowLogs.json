@@ -1,0 +1,473 @@
+{
+  "-MZMzwqgsdvmN5GbesDv": {
+    "_id": 1,
+    "date": 1619605310707,
+    "logDetails": "data passed is{\n  \"row\": \"-MZMzuJs2v1u43Q0dG5F\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MZMzwqgsdvmN5GbesDv"
+  },
+  "-MZMzwu1LPGc9jQ9c5He": {
+    "_id": 2,
+    "date": 1619605311097,
+    "logDetails": "record name is\"Investor->SME\"",
+    "name": "Workflow Log ",
+    "rowKey": "-MZMzwu1LPGc9jQ9c5He"
+  },
+  "-MZMzwvdT8VP-9Z70Yo2": {
+    "_id": 3,
+    "date": 1619605311213,
+    "logDetails": "{\n  \"_id\": 4,\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1619605299577,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1619605305041,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MZMzuJs2v1u43Q0dG5F\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Inv SME Approve",
+    "rowKey": "-MZMzwvdT8VP-9Z70Yo2"
+  },
+  "-MZMzwve4Ad3HkeqqARI": {
+    "_id": 3,
+    "date": 1619605311207,
+    "logDetails": "{\n  \"_id\": 4,\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1619605299577,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1619605305041,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MZMzuJs2v1u43Q0dG5F\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Script Task",
+    "rowKey": "-MZMzwve4Ad3HkeqqARI"
+  },
+  "-MZN-RjP2qokhTF9S-3S": {
+    "_id": 4,
+    "date": 1619605441410,
+    "logDetails": "data passed is{\n  \"row\": \"-MZN-PJNVHpUbKl5tLY1\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MZN-RjP2qokhTF9S-3S"
+  },
+  "-MZN-RpljnUVOEHueN9G": {
+    "_id": 5,
+    "date": 1619605441616,
+    "logDetails": "record name is\"Investor->SME\"",
+    "name": "Workflow Log ",
+    "rowKey": "-MZN-RpljnUVOEHueN9G"
+  },
+  "-MZN-RrRJWHEkj6m_Hzf": {
+    "_id": 6,
+    "date": 1619605442015,
+    "logDetails": "{\n  \"_id\": 5,\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1619605430619,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1619605436400,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MZN-PJNVHpUbKl5tLY1\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Inv SME Approve",
+    "rowKey": "-MZN-RrRJWHEkj6m_Hzf"
+  },
+  "-MZN-RrSeqlD3mywtxyx": {
+    "_id": 6,
+    "date": 1619605442009,
+    "logDetails": "{\n  \"_id\": 5,\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1619605430619,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1619605436400,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MZN-PJNVHpUbKl5tLY1\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Script Task",
+    "rowKey": "-MZN-RrSeqlD3mywtxyx"
+  },
+  "-MZN-eRTzz4GKzuu3wAs": {
+    "_id": 7,
+    "date": 1619605497542,
+    "logDetails": "data passed is{\n  \"event\": \"Reject\",\n  \"row\": \"-MZMzWp-gvhVJM9u--EK\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Reject\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MZN-eRTzz4GKzuu3wAs"
+  },
+  "-MZN-eW3CUMYeWKxqMcz": {
+    "_id": 8,
+    "date": 1619605497735,
+    "logDetails": "support@truealtitude.co.uk clicked Reject at 2021-04-28 10:24:57 on record ID 3",
+    "name": "User Workflow Event",
+    "rowKey": "-MZN-eW3CUMYeWKxqMcz",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "All Applications"
+  },
+  "-MZN-eXkttYEaZOJwFRB": {
+    "_id": 9,
+    "date": 1619605498034,
+    "logDetails": "{\n  \"_id\": 3,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1619605199233,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1619605204662,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MZMzWp-gvhVJM9u--EK\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > User Task - Rejected",
+    "rowKey": "-MZN-eXkttYEaZOJwFRB"
+  },
+  "-MZN-g7U-F3db_nFmUKy": {
+    "_id": 10,
+    "date": 1619605504437,
+    "logDetails": "data passed is{\n  \"event\": \"Reject\",\n  \"row\": \"-MZMzuJs2v1u43Q0dG5F\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Reject\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MZN-g7U-F3db_nFmUKy"
+  },
+  "-MZN-g8K0-Sy9qUKd1Py": {
+    "_id": 11,
+    "date": 1619605504565,
+    "logDetails": "support@truealtitude.co.uk clicked Reject at 2021-04-28 10:25:04 on record ID 4",
+    "name": "User Workflow Event",
+    "rowKey": "-MZN-g8K0-Sy9qUKd1Py",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "All Applications"
+  },
+  "-MZN-g8jDkvQSpKkRUWa": {
+    "_id": 12,
+    "date": 1619605504623,
+    "logDetails": "{\n  \"_id\": 4,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1619605299577,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1619605305041,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MZMzuJs2v1u43Q0dG5F\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > User Task - Rejected",
+    "rowKey": "-MZN-g8jDkvQSpKkRUWa"
+  },
+  "-MZN-hflO5kTNEAsPgiy": {
+    "_id": 13,
+    "date": 1619605510803,
+    "logDetails": "data passed is{\n  \"event\": \"Reject\",\n  \"row\": \"-MZN-PJNVHpUbKl5tLY1\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Reject\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MZN-hflO5kTNEAsPgiy"
+  },
+  "-MZN-hlvjMkd1EaA8ggq": {
+    "_id": 14,
+    "date": 1619605510997,
+    "logDetails": "support@truealtitude.co.uk clicked Reject at 2021-04-28 10:25:10 on record ID 5",
+    "name": "User Workflow Event",
+    "rowKey": "-MZN-hlvjMkd1EaA8ggq",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "All Applications"
+  },
+  "-MZN-hnUY0ovbI9HCBAg": {
+    "_id": 15,
+    "date": 1619605511317,
+    "logDetails": "{\n  \"_id\": 5,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1619605430619,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1619605436400,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MZN-PJNVHpUbKl5tLY1\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > User Task - Rejected",
+    "rowKey": "-MZN-hnUY0ovbI9HCBAg"
+  },
+  "-MZN-mqx634sh-GrQoh5": {
+    "_id": 16,
+    "date": 1619605531958,
+    "logDetails": "data passed is{\n  \"row\": \"-MZN-kHzCjlpovqXSZ7X\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MZN-mqx634sh-GrQoh5"
+  },
+  "-MZN-mrpApwhrGWFcHel": {
+    "_id": 17,
+    "date": 1619605532141,
+    "logDetails": "record name is\"Investor->SME\"",
+    "name": "Workflow Log ",
+    "rowKey": "-MZN-mrpApwhrGWFcHel"
+  },
+  "-MZN-ms8bhnMxRTx-Kgh": {
+    "_id": 18,
+    "date": 1619605532174,
+    "logDetails": "{\n  \"_id\": 6,\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1619605520642,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1619605523852,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MZN-kHzCjlpovqXSZ7X\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Inv SME Approve",
+    "rowKey": "-MZN-ms8bhnMxRTx-Kgh"
+  },
+  "-MZN-ms9R4inQWmC4OtJ": {
+    "_id": 18,
+    "date": 1619605532168,
+    "logDetails": "{\n  \"_id\": 6,\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1619605520642,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1619605523852,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MZN-kHzCjlpovqXSZ7X\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Script Task",
+    "rowKey": "-MZN-ms9R4inQWmC4OtJ"
+  },
+  "-MZN-paMStbvcruxNIVi": {
+    "_id": 19,
+    "date": 1619605543226,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MZN-kHzCjlpovqXSZ7X\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MZN-paMStbvcruxNIVi"
+  },
+  "-MZN-pgl3oQmAG3q2SO5": {
+    "_id": 20,
+    "date": 1619605543341,
+    "logDetails": "support@truealtitude.co.uk clicked Approve at 2021-04-28 10:25:43 on record ID 6",
+    "name": "User Workflow Event",
+    "rowKey": "-MZN-pgl3oQmAG3q2SO5",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "All Applications"
+  },
+  "-MZN-pjnZOpV929vz7mD": {
+    "_id": 21,
+    "date": 1619605543834,
+    "logDetails": "{\n  \"_id\": 6,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1619605520642,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1619605523852,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MZN-kHzCjlpovqXSZ7X\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > Script Task - Save Pitch Investor",
+    "rowKey": "-MZN-pjnZOpV929vz7mD"
+  },
+  "-MZN-pjvaPQNEpwfNvAg": {
+    "_id": 22,
+    "date": 1619605543931,
+    "logDetails": "{\n  \"_id\": 6,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1619605520642,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1619605523852,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MZN-kHzCjlpovqXSZ7X\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > User Task - Accepted (RESPONSE TO INVESTOR)",
+    "rowKey": "-MZN-pjvaPQNEpwfNvAg"
+  },
+  "-MZSGtYBovkbSQmJCq7W": {
+    "_id": 23,
+    "date": 1619693901980,
+    "logDetails": "data passed is{\n  \"row\": \"-MZSGqqUq12w6panywSt\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MZSGtYBovkbSQmJCq7W"
+  },
+  "-MZSGtdOEteh8rq3b6Qc": {
+    "_id": 24,
+    "date": 1619693902228,
+    "logDetails": "record name is\"SME->Mentor\"",
+    "name": "Workflow Log ",
+    "rowKey": "-MZSGtdOEteh8rq3b6Qc"
+  },
+  "-MZSGtfBG-B8KCzVRZjQ": {
+    "_id": 25,
+    "date": 1619693902543,
+    "logDetails": "{\n  \"_id\": 8,\n  \"createdBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"createdDate\": 1619693891046,\n  \"group\": false,\n  \"lastEditDate\": 1619693896757,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MZSG7lgSWJYuL6D1E_3\",\n  \"message\": \"TEST\",\n  \"name\": \"SME->Mentor\",\n  \"notificationDescription\": \"An SME has applied for a Mentor\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeMentor\": \"-MSRv08u91YrXlX1ETmc\",\n  \"rowKey\": \"-MZSGqqUq12w6panywSt\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Mentor Approve",
+    "rowKey": "-MZSGtfBG-B8KCzVRZjQ"
+  },
+  "-MZSGtfBG-B8KCzVRZjR": {
+    "_id": 25,
+    "date": 1619693902536,
+    "logDetails": "{\n  \"_id\": 8,\n  \"createdBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"createdDate\": 1619693891046,\n  \"group\": false,\n  \"lastEditDate\": 1619693896757,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MZSG7lgSWJYuL6D1E_3\",\n  \"message\": \"TEST\",\n  \"name\": \"SME->Mentor\",\n  \"notificationDescription\": \"An SME has applied for a Mentor\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeMentor\": \"-MSRv08u91YrXlX1ETmc\",\n  \"rowKey\": \"-MZSGqqUq12w6panywSt\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Script Task",
+    "rowKey": "-MZSGtfBG-B8KCzVRZjR"
+  },
+  "-MZSGw5f4_AWphgmPT3g": {
+    "_id": 26,
+    "date": 1619693912362,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MZSGqqUq12w6panywSt\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"sGcm6s5Cfrd9edrNLMKn7rtGq5O2\",\n  \"email\": \"hs@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MZSGw5f4_AWphgmPT3g"
+  },
+  "-MZSGwC-85Y0czZ_Gcdm": {
+    "_id": 27,
+    "date": 1619693912515,
+    "logDetails": "hs@truealtitude.co.uk clicked Approve at 2021-04-29 10:58:32 on record ID 8",
+    "name": "User Workflow Event",
+    "rowKey": "-MZSGwC-85Y0czZ_Gcdm",
+    "user": "sGcm6s5Cfrd9edrNLMKn7rtGq5O2",
+    "workflowName": "All Applications"
+  },
+  "-MZSGwDg5BV3vomnoDMR": {
+    "_id": 28,
+    "date": 1619693913005,
+    "logDetails": "{\n  \"_id\": 8,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"createdDate\": 1619693891046,\n  \"group\": false,\n  \"lastEditDate\": 1619693896757,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MZSG7lgSWJYuL6D1E_3\",\n  \"message\": \"TEST\",\n  \"name\": \"SME->Mentor\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An SME has applied for a Mentor\",\n  \"owner\": \"sGcm6s5Cfrd9edrNLMKn7rtGq5O2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeMentor\": \"-MSRv08u91YrXlX1ETmc\",\n  \"rowKey\": \"-MZSGqqUq12w6panywSt\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": \"Mentor Approve\"\n}",
+    "name": "Workflow Step > User Task - Accepted (RESPONSE TO SME)",
+    "rowKey": "-MZSGwDg5BV3vomnoDMR"
+  },
+  "-MZSH73ZdqkJQ5KVxSLF": {
+    "_id": 29,
+    "date": 1619693961452,
+    "logDetails": "data passed is{\n  \"row\": \"-MZSH1Ep9asXIEwu00D6\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"sGcm6s5Cfrd9edrNLMKn7rtGq5O2\",\n  \"email\": \"hs@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MZSH73ZdqkJQ5KVxSLF"
+  },
+  "-MZSH7BHdBZbWHl6-k02": {
+    "_id": 30,
+    "date": 1619693961913,
+    "logDetails": "record name is\"Mentor->SME\"",
+    "name": "Workflow Log ",
+    "rowKey": "-MZSH7BHdBZbWHl6-k02"
+  },
+  "-MZSH7CwK-KNMMTS5Nq9": {
+    "_id": 31,
+    "date": 1619693962113,
+    "logDetails": "{\n  \"_id\": 9,\n  \"createdBy\": \"sGcm6s5Cfrd9edrNLMKn7rtGq5O2\",\n  \"createdDate\": 1619693937732,\n  \"group\": false,\n  \"lastEditDate\": 1619693956602,\n  \"lastEditedBy\": \"sGcm6s5Cfrd9edrNLMKn7rtGq5O2\",\n  \"mentor\": \"-MZSG7lgSWJYuL6D1E_3\",\n  \"message\": \"Hi there, I'm very interested in mentoring you and your company...\",\n  \"name\": \"Mentor->SME\",\n  \"notificationDescription\": \"A Mentor has applied for Warner Patch\",\n  \"owner\": \"sGcm6s5Cfrd9edrNLMKn7rtGq5O2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MZSH1Ep9asXIEwu00D6\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": null\n}",
+    "name": "Workflow Step > SME Approve",
+    "rowKey": "-MZSH7CwK-KNMMTS5Nq9"
+  },
+  "-MZSH7CwK-KNMMTS5NqA": {
+    "_id": 31,
+    "date": 1619693962106,
+    "logDetails": "{\n  \"_id\": 9,\n  \"createdBy\": \"sGcm6s5Cfrd9edrNLMKn7rtGq5O2\",\n  \"createdDate\": 1619693937732,\n  \"group\": false,\n  \"lastEditDate\": 1619693956602,\n  \"lastEditedBy\": \"sGcm6s5Cfrd9edrNLMKn7rtGq5O2\",\n  \"mentor\": \"-MZSG7lgSWJYuL6D1E_3\",\n  \"message\": \"Hi there, I'm very interested in mentoring you and your company...\",\n  \"name\": \"Mentor->SME\",\n  \"notificationDescription\": \"A Mentor has applied for Warner Patch\",\n  \"owner\": \"sGcm6s5Cfrd9edrNLMKn7rtGq5O2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MZSH1Ep9asXIEwu00D6\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Script Task",
+    "rowKey": "-MZSH7CwK-KNMMTS5NqA"
+  },
+  "-MZSIBV1roavJsn_UVfZ": {
+    "_id": 32,
+    "date": 1619694241613,
+    "logDetails": "data passed is{\n  \"row\": \"-MZSI5CrYDU1VpQWaZQl\",\n  \"workflow\": \"-MT_XSLmtVM9drCNLKMi\",\n  \"grid\": \"sessions\",\n  \"step\": \"Request\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MZSIBV1roavJsn_UVfZ"
+  },
+  "-MZSIBZkz3DmRqwurP9t": {
+    "_id": 33,
+    "date": 1619694242027,
+    "logDetails": "{\n  \"_id\": 2,\n  \"createdDate\": 1619694216126,\n  \"direction\": \"SME->Mentor\",\n  \"eDate\": 1619604000000,\n  \"group\": false,\n  \"lastEditDate\": 1619694237879,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MZSG7lgSWJYuL6D1E_3\",\n  \"name\": \"Session 1 - Getting Started\",\n  \"notes\": \"This session will help you sort out your product branding.\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"red\": \"red\",\n  \"rowKey\": \"-MZSI5CrYDU1VpQWaZQl\",\n  \"sDate\": 1619600400000,\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"sessionLength\": 1,\n  \"state\": null\n}",
+    "name": "Workflow Step > Mentor Approve",
+    "rowKey": "-MZSIBZkz3DmRqwurP9t"
+  },
+  "-MZSIGnIR4avL1k82NtG": {
+    "_id": 34,
+    "date": 1619694263427,
+    "logDetails": "data passed is{\n  \"event\": \"Accepted\",\n  \"row\": \"-MZSI5CrYDU1VpQWaZQl\",\n  \"workflow\": \"-MT_XSLmtVM9drCNLKMi\",\n  \"grid\": \"sessions\",\n  \"step\": \"Accepted\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"sGcm6s5Cfrd9edrNLMKn7rtGq5O2\",\n  \"email\": \"hs@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MZSIGnIR4avL1k82NtG"
+  },
+  "-MZSIGqXjdQhbHCgDkXC": {
+    "_id": 35,
+    "date": 1619694263606,
+    "logDetails": "hs@truealtitude.co.uk clicked Accepted at 2021-04-29 11:04:23 on record ID 2",
+    "name": "User Workflow Event",
+    "rowKey": "-MZSIGqXjdQhbHCgDkXC",
+    "user": "sGcm6s5Cfrd9edrNLMKn7rtGq5O2",
+    "workflowName": "Sessions"
+  },
+  "-MZSIGs8Q5r85BNZ-EU2": {
+    "_id": 36,
+    "date": 1619694263819,
+    "logDetails": "{\n  \"_id\": 2,\n  \"createdDate\": 1619694216126,\n  \"direction\": \"SME->Mentor\",\n  \"eDate\": 1619604000000,\n  \"group\": false,\n  \"lastEditDate\": 1619694237879,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MZSG7lgSWJYuL6D1E_3\",\n  \"name\": \"Session 1 - Getting Started\",\n  \"nextEvents\": \"Accepted,Rejected\",\n  \"notes\": \"This session will help you sort out your product branding.\",\n  \"owner\": \"sGcm6s5Cfrd9edrNLMKn7rtGq5O2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"red\": \"red\",\n  \"rowKey\": \"-MZSI5CrYDU1VpQWaZQl\",\n  \"sDate\": 1619600400000,\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"sessionLength\": 1,\n  \"state\": \"Mentor Approve\",\n  \"status\": \"-MT_Y0f-hgT92Kdk5APL\"\n}",
+    "name": "Workflow Step > Did Session Happen? Mentor",
+    "rowKey": "-MZSIGs8Q5r85BNZ-EU2"
+  },
+  "-M_0nJjPjgJ6mzCdba29": {
+    "_id": 37,
+    "date": 1620306643763,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0n5PGHMyKYnIXcCcN\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0nJjPjgJ6mzCdba29"
+  },
+  "-M_0nJoxMGiVIqZ8KfJw": {
+    "_id": 38,
+    "date": 1620306644246,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0nH7dXcbbDeBlnqxZ\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0nJoxMGiVIqZ8KfJw"
+  },
+  "-M_0nKp0CCt0sC0SHJoo": {
+    "_id": 39,
+    "date": 1620306648397,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0nH7dXcbbDeBlnqxZ\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0nKp0CCt0sC0SHJoo"
+  },
+  "-M_0nLTCoOl3YZuL7p9e": {
+    "_id": 40,
+    "date": 1620306651033,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0nH7dXcbbDeBlnqxZ\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0nLTCoOl3YZuL7p9e"
+  },
+  "-M_0nN-o5EUmeJWUkGhZ": {
+    "_id": 41,
+    "date": 1620306657343,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0nH7dXcbbDeBlnqxZ\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0nN-o5EUmeJWUkGhZ"
+  },
+  "-M_0nNEb72Eq1HX3PR4J": {
+    "_id": 42,
+    "date": 1620306658291,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0nH7dXcbbDeBlnqxZ\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0nNEb72Eq1HX3PR4J"
+  },
+  "-M_0nVodjIXDoC7cRsKZ": {
+    "_id": 43,
+    "date": 1620306693427,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0nTJIZEYTp1n4r_oa\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0nVodjIXDoC7cRsKZ"
+  },
+  "-M_0pUX2BbCFdIi2_oeP": {
+    "_id": 44,
+    "date": 1620307212424,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0pRkIUrnRnKPBm_KG\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0pUX2BbCFdIi2_oeP"
+  },
+  "-M_0pt9seaLjeENgpBRc": {
+    "_id": 45,
+    "date": 1620307317306,
+    "logDetails": "data passed is{\n  \"row\": \"-M_0pfydiLQiFbNbKslV\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_0pt9seaLjeENgpBRc"
+  },
+  "-M_72Or54EFlXfy3Qybd": {
+    "_id": 46,
+    "date": 1620411522426,
+    "logDetails": "data passed is{\n  \"row\": \"-M_72MuNuDOEGlVvK8pH\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_72Or54EFlXfy3Qybd"
+  },
+  "-M_72OuMlqhQK1xDBMoK": {
+    "_id": 47,
+    "date": 1620411522624,
+    "logDetails": "record name is\"Investor->SME\"",
+    "name": "Workflow Log ",
+    "rowKey": "-M_72OuMlqhQK1xDBMoK"
+  },
+  "-M_72OvrLsWEtkjpk_Gi": {
+    "_id": 48,
+    "date": 1620411522809,
+    "logDetails": "{\n  \"_id\": 6,\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1620411514746,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1620411518665,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrbISIxncbwM3CU5V\",\n  \"rowKey\": \"-M_72MuNuDOEGlVvK8pH\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Inv SME Approve",
+    "rowKey": "-M_72OvrLsWEtkjpk_Gi"
+  },
+  "-M_72OvsdWK9CgNjL9x7": {
+    "_id": 48,
+    "date": 1620411522807,
+    "logDetails": "{\n  \"_id\": 6,\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1620411514746,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1620411518665,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrbISIxncbwM3CU5V\",\n  \"rowKey\": \"-M_72MuNuDOEGlVvK8pH\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Script Task",
+    "rowKey": "-M_72OvsdWK9CgNjL9x7"
+  },
+  "-M_72Qx-bg21bXr1-hyN": {
+    "_id": 49,
+    "date": 1620411530774,
+    "logDetails": "data passed is{\n  \"event\": \"Reject\",\n  \"row\": \"-M_72MuNuDOEGlVvK8pH\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Reject\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-M_72Qx-bg21bXr1-hyN"
+  },
+  "-M_72R-G6TH_BTbq_khw": {
+    "_id": 50,
+    "date": 1620411531171,
+    "logDetails": "support@truealtitude.co.uk clicked Reject at 2021-05-07 18:18:51 on record ID 6",
+    "name": "User Workflow Event",
+    "rowKey": "-M_72R-G6TH_BTbq_khw",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "All Applications"
+  },
+  "-M_72R0le1v_9xaatI_F": {
+    "_id": 51,
+    "date": 1620411531379,
+    "logDetails": "{\n  \"_id\": 6,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1620411514746,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1620411518665,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrbISIxncbwM3CU5V\",\n  \"rowKey\": \"-M_72MuNuDOEGlVvK8pH\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > User Task - Rejected",
+    "rowKey": "-M_72R0le1v_9xaatI_F"
+  },
+  "-Mabujq9S_YY8z3GNjd5": {
+    "_id": 52,
+    "date": 1622019865955,
+    "logDetails": "data passed is{\n  \"row\": \"-MabugX-E9U5n7BN696R\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mabujq9S_YY8z3GNjd5"
+  },
+  "-MabujtXwppU26GN1fhU": {
+    "_id": 53,
+    "date": 1622019866118,
+    "logDetails": "record name is\"Investor->SME\"",
+    "name": "Workflow Log ",
+    "rowKey": "-MabujtXwppU26GN1fhU"
+  },
+  "-Mabuk6NOH5uJpbuBpJK": {
+    "_id": 54,
+    "date": 1622019866311,
+    "logDetails": "{\n  \"_id\": 1,\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1622019851588,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1622019857590,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MabugX-E9U5n7BN696R\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Inv SME Approve",
+    "rowKey": "-Mabuk6NOH5uJpbuBpJK"
+  },
+  "-Mabuk9RtDs-B71MGM0b": {
+    "_id": 54,
+    "date": 1622019866306,
+    "logDetails": "{\n  \"_id\": 1,\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1622019851588,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1622019857590,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MabugX-E9U5n7BN696R\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Script Task",
+    "rowKey": "-Mabuk9RtDs-B71MGM0b"
+  },
+  "-MaburhpjgZ66VTANxNa": {
+    "_id": 55,
+    "date": 1622019898119,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MabugX-E9U5n7BN696R\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MaburhpjgZ66VTANxNa"
+  },
+  "-MaburmP3XDoTMN1ZBxf": {
+    "_id": 56,
+    "date": 1622019898328,
+    "logDetails": "support@truealtitude.co.uk clicked Approve at 2021-05-26 09:04:58 on record ID 1",
+    "name": "User Workflow Event",
+    "rowKey": "-MaburmP3XDoTMN1ZBxf",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "All Applications"
+  },
+  "-Mabushj5mpOUR6Co60D": {
+    "_id": 57,
+    "date": 1622019898547,
+    "logDetails": "{\n  \"_id\": 1,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1622019851588,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1622019857590,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MabugX-E9U5n7BN696R\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > Script Task - Save Pitch Investor",
+    "rowKey": "-Mabushj5mpOUR6Co60D"
+  },
+  "-MabutC1YRMsS90DndrO": {
+    "_id": 58,
+    "date": 1622019903025,
+    "logDetails": "{\n  \"_id\": 1,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1622019851588,\n  \"group\": false,\n  \"investor\": \"-MZMzJ-vwa9AN37lJLoF\",\n  \"lastEditDate\": 1622019857590,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"TEST\",\n  \"name\": \"Investor->SME\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An Investor has applied for Warner Patch\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeSME\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MabugX-E9U5n7BN696R\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": \"Inv SME Approve\"\n}",
+    "name": "Workflow Step > User Task - Accepted (RESPONSE TO INVESTOR)",
+    "rowKey": "-MabutC1YRMsS90DndrO"
+  }
+}

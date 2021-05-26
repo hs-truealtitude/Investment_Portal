@@ -523,7 +523,7 @@
           "color": "hsl(218, 54%, 20%)"
         },
         "attachment": {
-          "script": "//console.log(context)\r\n\r\nlet w = await $addRow('investorAcceptedPitches', {\r\n  slingshotPitches: context.data.pitch,\r\n  investor: context.data.investor\r\n})"
+          "script": "let w = await $addRow('investorAcceptedPitches', {\r\n  slingshotPitches: context.data.pitch,\r\n  investor: context.data.investor\r\n})"
         },
         "display": false,
         "dispaly": false

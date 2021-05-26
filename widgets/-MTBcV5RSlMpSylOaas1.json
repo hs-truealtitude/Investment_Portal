@@ -1,0 +1,17 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 19,
+    "w": 16,
+    "x": 4,
+    "y": 3
+  },
+  "layout": "b-card",
+  "overflow": "",
+  "styles": "",
+  "subtab": "-MTBa1kCcT0179jjmiPn",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<DataGridEditRow gridId=\"investorProfiles\" :rowKey=\"$getUser('profileID')\" />",
+  "title": ""
+}

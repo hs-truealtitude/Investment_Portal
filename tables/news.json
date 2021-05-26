@@ -1,0 +1,28 @@
+{
+  "-MYFaDmz5uVSrssUPtvT": {
+    "_id": 1,
+    "createdDate": 1618407386219,
+    "group": false,
+    "lastEditDate": 1618407402576,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "TEST",
+    "newsDescription": "TEST",
+    "newsLink": "www.test.com",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "pitch": "-MYF_nPYwb_zCLYf4hiA",
+    "rowKey": "-MYFaDmz5uVSrssUPtvT"
+  },
+  "-MYFoDlac1dSPxXm_3T4": {
+    "_id": 4,
+    "createdDate": 1618411056147,
+    "group": false,
+    "lastEditDate": 1620296951976,
+    "lastEditedBy": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "name": "The Impact Of  AI on Surgery",
+    "newsDescription": "LinkedIn Post",
+    "newsLink": "www.linkedin.com/posts/findaa-tech_the-impact-of-artificial-intelligence-on-activity-6723894367381147648-YsP8",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "pitch": "-MNZ-kKtSmZQuN7gqgFt",
+    "rowKey": "-MYFoDlac1dSPxXm_3T4"
+  }
+}

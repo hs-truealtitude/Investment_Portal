@@ -1,0 +1,18 @@
+{
+  "classes": "",
+  "dependency": "chartsOnly/-MZNMEZvV5r-z5-UHIpF",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 10,
+    "w": 18,
+    "x": 3,
+    "y": 25
+  },
+  "layout": "b-card",
+  "overflow": "",
+  "styles": "",
+  "subtab": "-MMjYuXoo21454Y2IYpK",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<ChartOnly chartId=\"-MZNMEZvV5r-z5-UHIpF\" :rData=\"$getGrid('slingshotPitches')\" :widgetKey=\"widgetKey\" gridId=\"slingshotPitches\" />",
+  "title": "Predicted Employees"
+}

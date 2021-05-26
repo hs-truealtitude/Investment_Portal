@@ -60,6 +60,11 @@
         margin-bottom: 10px;
     }
 
+    .bg{
+    display: none;
+    
+}
+
 }
 
 
@@ -162,6 +167,10 @@ body {
     .application_button{
          margin: auto !important;
          margin: 15px !important;
+    }
+
+    .alert-warning h3{
+        font-size: 9px;
     }
 
 }

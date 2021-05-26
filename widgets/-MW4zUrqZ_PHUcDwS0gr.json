@@ -1,0 +1,24 @@
+{
+  "classes": "",
+  "columnMaxWidth": "370",
+  "columnMinWidth": "350",
+  "dataSource": "sessions",
+  "detailTemplate": "<template>\n  <div>\n  </div>\n</template>\n\n<script>\n  module.exports = {\n    props: ['widget', 'row'],\n    data() {\n      return {}\n    },\n    beforeCreate() {},\n    created() {},\n    beforeMount() {},\n    mounted() {},\n    beforeUpdate() {},\n    updated() {},\n    beforeDestroy() {},\n    destroyed() {},\n  }\n</script>\n\n<style>\n</style>",
+  "gsOptions": {
+    "h": 9,
+    "w": 22,
+    "x": 1,
+    "y": 3
+  },
+  "offSet": 0,
+  "overflow": "height:auto",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MW49dZ-RSTAjd_gj9HE",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<div>\n  <div class=\"row\">\n  </div>\n\n  <center style=\"padding-top: 10px;\">\n    <img v-if='row.$sME.profileImage' :src=\"$getDashboardModel('sMEProfiles')[row.sME].profileImage.url\" style=\"border-radius: 15px; max-width:90px; padding: 5px; \" />\n    <img v-if='row.$pitch.companyLogo' :src=\"$getDashboardModel('slingshotPitches')[row.pitch].companyLogo.url\" style=\"border-radius: 15px; max-width:70px; padding: 5px;  \" />\n  </center>\n  </a>\n  <div class=\"pt-4 text-center\">\n    <h5 class=\"h3 title\">\n\n      <div v-if='row.$sME'>\n          <span v-if='row.$sME' style=\"color: black; font-size: 20px; font-family: 'Grenette pro', sans-serif;\" class=\"d-block mb-1\">{{row.$sME.name}} {{row.$sME.secondName}}</span>\n        </div> \n        &\n      <span v-if='row.$pitch' style=\"color: black; font-size: 20px; font-family: 'Grenette pro', sans-serif; padding-bottom: 10px;\" class=\"d-block mb-1\">{{row.$pitch.name}}</span>\n\n         <div style=\"height: 30px; padding-top: 10px;\" class=\"row justify-content-center\">\n          <span class=\"d-block mb-1\" style=\"text-decoration:underline; font-family: 'Grenette pro', sans-serif; color: black; font-size: 1em;  \">{{row.name}}</span>\n        </div>\n\n        <div style=\"height: 120px; padding-top: 15px;\" class=\"about\">\n          <p style=\"font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;  font-weight: 400;\">{{truncateText(row.notes, 200)}}</p>\n        </div>\n\n      <div class=\"row\" style=\"justify-content:center; height: 30px; padding-top: 50px;\">\n        <small style=\"font-family: 'Grenette pro', sans-serif; color: #ef4437; font-size: 1em;     font-weight: 400;\">{{row.$sDate$display}}</small>\n      </div>\n\n    </h5>\n\n    <div style=\"height:20px;\" class=\"row\">\n    </div>\n\n    <center style=\"padding-top: 20px; padding-bottom: 20px;\">\n      <b-button  class=\" btn-sm\" variant='primary' @click=\"$dgShowEditRowModal('sessions', row.rowKey);\">Leave Review\n      </b-button>\n    </center>\n\n\n\n  </div>\n</div>",
+  "title": "Leave SME Review",
+  "type": "card-list",
+  "viewOfGrid": "leaveSMEReview",
+  "widthType": "minAndMaxWidth"
+}

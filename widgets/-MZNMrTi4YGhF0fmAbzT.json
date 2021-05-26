@@ -1,0 +1,18 @@
+{
+  "classes": "",
+  "dependency": "chartsOnly/-MZNMrOthUR1r1H29Nns",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 10,
+    "w": 18,
+    "x": 3,
+    "y": 35
+  },
+  "layout": "b-card",
+  "overflow": "",
+  "styles": "",
+  "subtab": "-MMjYuXoo21454Y2IYpK",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<ChartOnly chartId=\"-MZNMrOthUR1r1H29Nns\" :rData=\"$getGrid('slingshotPitches')\" :widgetKey=\"widgetKey\" gridId=\"slingshotPitches\" />",
+  "title": "Total Funding Round/Capital Already Raised"
+}

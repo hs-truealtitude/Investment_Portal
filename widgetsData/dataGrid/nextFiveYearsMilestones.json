@@ -212,7 +212,8 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "targetCompletionDate",
-                "gridId": "nextFiveYearsMilestones"
+                "gridId": "nextFiveYearsMilestones",
+                "format": "DD/MM/YYYY"
               },
               {
                 "type": "checkbox",
@@ -468,7 +469,7 @@
                 "isChecked": false,
                 "vif": "",
                 "customCode": "",
-                "invisible": false,
+                "invisible": true,
                 "invisibleCondition": "",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": false,
@@ -556,7 +557,7 @@
                 "isChecked": false,
                 "vif": "",
                 "customCode": "",
-                "invisible": false,
+                "invisible": true,
                 "invisibleCondition": "",
                 "invisibleInDataGrid": false,
                 "invisibleLabel": false,
@@ -564,7 +565,8 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "slingshotPitches",
-                "ableToAddLookUpVal": true
+                "ableToAddLookUpVal": true,
+                "gridId": "nextFiveYearsMilestones"
               }
             ]
           }
@@ -577,9 +579,14 @@
       }
     ],
     "layout": "collapse",
-    "_uniqueId": 0.617529476800635
+    "_uniqueId": 0.09743292483307209
   },
   "source": "nextFiveYearsMilestones",
   "storageType": "dashboard",
-  "title": "Next Five Years Milestones"
+  "title": "Next Five Years Milestones",
+  "viewTemplate": {
+    "colsPerRow": 1,
+    "maxWidth": 300,
+    "type": "card-list"
+  }
 }
