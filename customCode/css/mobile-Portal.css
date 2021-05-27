@@ -8,7 +8,7 @@
         background: inherit;
     }
     #hovernotif:hover  .box{
-        margin-right: 137px;
+        margin-right: 93px;
         border-left: 1px solid black;
         height: 100%;
     }
@@ -101,13 +101,13 @@ body {
     }
     #hovernotif {
         position: absolute;
-        /* right: 206px; */
+        right: 161px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     #hovernotif {
-        right: 137px;
+        right: 93px;
     }
     .nav-logo.right.w-nav-brand.w--current{
         display: none;

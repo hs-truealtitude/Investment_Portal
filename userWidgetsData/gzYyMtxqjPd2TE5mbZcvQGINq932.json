@@ -1,6 +1,10 @@
 {
-  "accountType": "NONE",
+  "accountType": "Mentor",
   "cookieConsent": "true",
+  "filterMentor": "-MahmmxU2Bj4-TGjPHA3",
+  "filterPitch": "-MMzZ2krPwl50hP5t54m",
+  "filterSME": "-MZMta3pwumGA07UlWEe",
   "hideBack": "YES",
-  "profileID": "-M_zr0vdclj6qk3Ahcl_"
+  "profileID": "-MahmmxU2Bj4-TGjPHA3",
+  "sessionDirection": "Mentor->SME"
 }
