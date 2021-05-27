@@ -1086,7 +1086,7 @@
                 "propName": "mobileNumber",
                 "gridId": "slingshotPitches",
                 "description": "Enter your contact number",
-                "mask": ""
+                "mask": "99999999999"
               },
               {
                 "type": "text",
@@ -4792,7 +4792,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.31347030414834065
+    "_uniqueId": 0.16441432338318385
   },
   "source": "slingshotPitches",
   "storageType": "dashboard",
