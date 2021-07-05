@@ -4799,7 +4799,7 @@
   "title": "Slingshot Pitches",
   "views": {
     "adminView": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"investmentType\",\"operator\":\"in\",\"value\":null,\"name\":\"Investment Type\",\"hidden\":false},{\"key\":\"dealProjectName\",\"operator\":\"contains\",\"value\":null,\"name\":\"Pitch Name\",\"hidden\":false}]}",
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"dealProjectName\",\"operator\":\"contains\",\"value\":null,\"name\":\"Pitch Name\",\"hidden\":false}]}",
       "meta": {
         "aboutTheCompany": {
           "invisible": true,
@@ -5142,7 +5142,7 @@
       "title": "Admin View"
     },
     "approvePitches": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"investmentType\",\"operator\":\"in\",\"value\":null,\"name\":\"Investment Type\",\"hidden\":false},{\"key\":\"dealProjectName\",\"operator\":\"contains\",\"value\":null,\"name\":\"Pitch Name\",\"hidden\":false},{\"key\":\"access\",\"operator\":\"=\",\"value\":{\"value\":\"-MKjNhCeEjTtfQL8X6vn\",\"name\":\"Private\"},\"name\":\"Private\",\"hidden\":true}]}",
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"dealProjectName\",\"operator\":\"contains\",\"value\":null,\"name\":\"Pitch Name\",\"hidden\":false},{\"key\":\"access\",\"operator\":\"=\",\"value\":{\"value\":\"-MKjNhCeEjTtfQL8X6vn\",\"name\":\"Private\"},\"name\":\"Private\",\"hidden\":true}]}",
       "meta": {
         "aboutTheCompany": {
           "invisible": true,
@@ -5742,7 +5742,7 @@
       "title": "Company Specific Metrics"
     },
     "filteredCardList": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"hidden\":false},{\"key\":\"investmentType\",\"operator\":\"in\",\"value\":null,\"name\":\"Investment Type\",\"hidden\":false},{\"key\":\"access\",\"operator\":\"=\",\"value\":{\"value\":\"-MKjNiLMpbGAZI8h2lhK\",\"name\":\"Public\"},\"name\":\"Access\",\"hidden\":true}]}",
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"hidden\":false},{\"key\":\"access\",\"operator\":\"=\",\"value\":{\"value\":\"-MKjNiLMpbGAZI8h2lhK\",\"name\":\"Public\"},\"name\":\"Access\",\"hidden\":true}]}",
       "meta": {
         "aboutTheCompany": {
           "invisible": true,
@@ -6089,7 +6089,7 @@
       "title": "Filtered Card List"
     },
     "mySlingshotPitches": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"hidden\":false},{\"key\":\"investmentType\",\"operator\":\"in\",\"value\":null,\"name\":\"Investment Type\",\"hidden\":false},{\"key\":\"owner\",\"operator\":\"=\",\"value\":\"fbUser.uid\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true}]}",
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"hidden\":false},{\"key\":\"owner\",\"operator\":\"=\",\"value\":\"fbUser.uid\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true}]}",
       "meta": {
         "aboutTheCompany": {
           "order": "63"

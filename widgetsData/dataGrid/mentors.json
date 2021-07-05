@@ -16,7 +16,7 @@
       "type": "string"
     },
     "companyStage": {
-      "displayName": "Company Stage",
+      "displayName": "Company Stage Preference",
       "invisible": true,
       "lookUpTable": "stage",
       "order": "16",
@@ -398,7 +398,7 @@
                 "labelBold": false,
                 "labelItalic": false,
                 "labelUnderline": false,
-                "required": true,
+                "required": false,
                 "isMultiLine": false,
                 "isInteger": false,
                 "decimalPlace": 0,
@@ -1096,7 +1096,7 @@
                 "type": "multi_lookup",
                 "name": "control_2c4ab109-5b17-11eb-a9bd-d7cf7b51c59f_",
                 "fieldName": "control_2c4ab109-5b17-11eb-a9bd-d7cf7b51c59f_",
-                "label": "Company Stage",
+                "label": "Company Stage Preference",
                 "order": 5,
                 "defaultValue": "",
                 "value": "",

@@ -608,5 +608,114 @@
     "logDetails": "{\n  \"_id\": 2,\n  \"createdDate\": 1623244425847,\n  \"direction\": \"Mentor->SME\",\n  \"eDate\": 1623124800000,\n  \"group\": false,\n  \"lastEditDate\": 1623244431974,\n  \"lastEditedBy\": \"sGcm6s5Cfrd9edrNLMKn7rtGq5O2\",\n  \"mentor\": \"-MbkthTty3MgxKysQzNr\",\n  \"name\": \"TEST\",\n  \"nextEvents\": \"Accepted,Rejected\",\n  \"notes\": \"TEST\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"red\": \"red\",\n  \"rowKey\": \"-Mbku3Mhm4kN2YQOd2OL\",\n  \"sDate\": 1623121200000,\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"sessionLength\": 1,\n  \"state\": \"SME Approve\",\n  \"status\": \"-MT_Y0f-hgT92Kdk5APL\"\n}",
     "name": "Workflow Step > Did Session Happen? SME",
     "rowKey": "-Mbku8ARzj8QHzQbu1lO"
+  },
+  "-MdMurGM-Q4gC5dU0dVB": {
+    "_id": 77,
+    "date": 1624972686480,
+    "logDetails": "data passed is{\n  \"row\": \"-MdMulhu1-FG2pMaZYzu\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MdMurGM-Q4gC5dU0dVB"
+  },
+  "-MdMurLALZAo8HME-ikR": {
+    "_id": 78,
+    "date": 1624972686721,
+    "logDetails": "record name is\"SME->Mentor\"",
+    "name": "Workflow Log ",
+    "rowKey": "-MdMurLALZAo8HME-ikR"
+  },
+  "-MdMurtecOcWwbYpi8to": {
+    "_id": 79,
+    "date": 1624972688497,
+    "logDetails": "{\n  \"_id\": 21,\n  \"createdBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"createdDate\": 1624972663834,\n  \"group\": false,\n  \"lastEditDate\": 1624972671939,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-McJH1jn0Lu9mIFDmCs0\",\n  \"message\": \"TEST\",\n  \"name\": \"SME->Mentor\",\n  \"notificationDescription\": \"An SME has applied for a Mentor\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeMentor\": \"-MSRuyD7IQQ8u2ByVVcz\",\n  \"rowKey\": \"-MdMulhu1-FG2pMaZYzu\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Mentor Approve",
+    "rowKey": "-MdMurtecOcWwbYpi8to"
+  },
+  "-MdMus0TeovBve-e4G4A": {
+    "_id": 79,
+    "date": 1624972687897,
+    "logDetails": "{\n  \"_id\": 21,\n  \"createdBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"createdDate\": 1624972663834,\n  \"group\": false,\n  \"lastEditDate\": 1624972671939,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-McJH1jn0Lu9mIFDmCs0\",\n  \"message\": \"TEST\",\n  \"name\": \"SME->Mentor\",\n  \"notificationDescription\": \"An SME has applied for a Mentor\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeMentor\": \"-MSRuyD7IQQ8u2ByVVcz\",\n  \"rowKey\": \"-MdMulhu1-FG2pMaZYzu\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Script Task",
+    "rowKey": "-MdMus0TeovBve-e4G4A"
+  },
+  "-MdMuumYjdCzeIateXnQ": {
+    "_id": 80,
+    "date": 1624972700923,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MdMulhu1-FG2pMaZYzu\",\n  \"workflow\": \"-MS7l5yVEXqVer2WbOdY\",\n  \"grid\": \"applications\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"okFn5ag3ZmWsVrqo8QrOk8y3m1y1\",\n  \"email\": \"cw@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MdMuumYjdCzeIateXnQ"
+  },
+  "-MdMuunv-QE4Y5D2kR69": {
+    "_id": 81,
+    "date": 1624972701003,
+    "logDetails": "cw@truealtitude.co.uk clicked Approve at 2021-06-29 13:18:21 on record ID 21",
+    "name": "User Workflow Event",
+    "rowKey": "-MdMuunv-QE4Y5D2kR69",
+    "user": "okFn5ag3ZmWsVrqo8QrOk8y3m1y1",
+    "workflowName": "All Applications"
+  },
+  "-MdMuwVy2ufzXkxO5h3_": {
+    "_id": 82,
+    "date": 1624972701297,
+    "logDetails": "{\n  \"_id\": 21,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"createdBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"createdDate\": 1624972663834,\n  \"group\": false,\n  \"lastEditDate\": 1624972671939,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-McJH1jn0Lu9mIFDmCs0\",\n  \"message\": \"TEST\",\n  \"name\": \"SME->Mentor\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"notificationDescription\": \"An SME has applied for a Mentor\",\n  \"owner\": \"okFn5ag3ZmWsVrqo8QrOk8y3m1y1\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"referralTypeMentor\": \"-MSRuyD7IQQ8u2ByVVcz\",\n  \"rowKey\": \"-MdMulhu1-FG2pMaZYzu\",\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"state\": \"Mentor Approve\"\n}",
+    "name": "Workflow Step > User Task - Accepted (RESPONSE TO SME)",
+    "rowKey": "-MdMuwVy2ufzXkxO5h3_"
+  },
+  "-MdMvN7VPEzXUVJj2X7T": {
+    "_id": 83,
+    "date": 1624972821113,
+    "logDetails": "data passed is{\n  \"row\": \"-MdMv6xNntPu_92__T7j\",\n  \"workflow\": \"-MT_XSLmtVM9drCNLKMi\",\n  \"grid\": \"sessions\",\n  \"step\": \"Request\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MdMvN7VPEzXUVJj2X7T"
+  },
+  "-MdMvNAfbegORHg5bSTa": {
+    "_id": 84,
+    "date": 1624972821317,
+    "logDetails": "{\n  \"_id\": 2,\n  \"createdDate\": 1624972754934,\n  \"direction\": \"SME->Mentor\",\n  \"eDate\": 1624870800000,\n  \"group\": false,\n  \"lastEditDate\": 1624972820909,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-McJH1jn0Lu9mIFDmCs0\",\n  \"name\": \"First Session\",\n  \"notes\": \"Does homegrown work?\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"red\": \"red\",\n  \"rowKey\": \"-MdMv6xNntPu_92__T7j\",\n  \"sDate\": 1624867200000,\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"sessionLength\": 1,\n  \"state\": null\n}",
+    "name": "Workflow Step > Mentor Approve",
+    "rowKey": "-MdMvNAfbegORHg5bSTa"
+  },
+  "-MdMvRdDq4S4I0qZ8tuP": {
+    "_id": 85,
+    "date": 1624972839521,
+    "logDetails": "data passed is{\n  \"event\": \"Accepted\",\n  \"row\": \"-MdMv6xNntPu_92__T7j\",\n  \"workflow\": \"-MT_XSLmtVM9drCNLKMi\",\n  \"grid\": \"sessions\",\n  \"step\": \"Accepted\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"okFn5ag3ZmWsVrqo8QrOk8y3m1y1\",\n  \"email\": \"cw@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MdMvRdDq4S4I0qZ8tuP"
+  },
+  "-MdMvRf0l0f06cQOVYoP": {
+    "_id": 86,
+    "date": 1624972839610,
+    "logDetails": "cw@truealtitude.co.uk clicked Accepted at 2021-06-29 13:20:39 on record ID 2",
+    "name": "User Workflow Event",
+    "rowKey": "-MdMvRf0l0f06cQOVYoP",
+    "user": "okFn5ag3ZmWsVrqo8QrOk8y3m1y1",
+    "workflowName": "Sessions"
+  },
+  "-MdMvRxWcq-gv3yQd8bl": {
+    "_id": 87,
+    "date": 1624972840097,
+    "logDetails": "{\n  \"_id\": 2,\n  \"createdDate\": 1624972754934,\n  \"direction\": \"SME->Mentor\",\n  \"eDate\": 1624870800000,\n  \"group\": false,\n  \"lastEditDate\": 1624972820909,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-McJH1jn0Lu9mIFDmCs0\",\n  \"name\": \"First Session\",\n  \"nextEvents\": \"Accepted,Rejected\",\n  \"notes\": \"Does homegrown work?\",\n  \"owner\": \"okFn5ag3ZmWsVrqo8QrOk8y3m1y1\",\n  \"pitch\": \"-MMzZ2krPwl50hP5t54m\",\n  \"red\": \"red\",\n  \"rowKey\": \"-MdMv6xNntPu_92__T7j\",\n  \"sDate\": 1624867200000,\n  \"sME\": \"-MZMta3pwumGA07UlWEe\",\n  \"sessionLength\": 1,\n  \"state\": \"Mentor Approve\",\n  \"status\": \"-MT_Y0f-hgT92Kdk5APL\"\n}",
+    "name": "Workflow Step > Did Session Happen? Mentor",
+    "rowKey": "-MdMvRxWcq-gv3yQd8bl"
+  },
+  "-MdMvj-Xk8juFFCk8J5d": {
+    "_id": 88,
+    "date": 1624972906513,
+    "logDetails": "data passed is{\n  \"event\": \"Session went on as planned\",\n  \"row\": \"-MdMv6xNntPu_92__T7j\",\n  \"workflow\": \"-MT_XSLmtVM9drCNLKMi\",\n  \"grid\": \"sessions\",\n  \"step\": \"Session went on as planned\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MdMvj-Xk8juFFCk8J5d"
+  },
+  "-MdMvl9u_SH6GuOxQ7rI": {
+    "_id": 89,
+    "date": 1624972923504,
+    "logDetails": "data passed is{\n  \"event\": \"Session went on as planned\",\n  \"row\": \"-MdMv6xNntPu_92__T7j\",\n  \"workflow\": \"-MT_XSLmtVM9drCNLKMi\",\n  \"grid\": \"sessions\",\n  \"step\": \"Session went on as planned\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MdMvl9u_SH6GuOxQ7rI"
+  },
+  "-MdMvuURpJVZxkUNxvYE": {
+    "_id": 90,
+    "date": 1624972961816,
+    "logDetails": "data passed is{\n  \"event\": \"Session went on as planned\",\n  \"row\": \"-MdMv6xNntPu_92__T7j\",\n  \"workflow\": \"-MT_XSLmtVM9drCNLKMi\",\n  \"grid\": \"sessions\",\n  \"step\": \"Session went on as planned\",\n  \"dashboard\": \"-MQNIsXDAR635_Dq-25Z\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MdMvuURpJVZxkUNxvYE"
   }
 }
