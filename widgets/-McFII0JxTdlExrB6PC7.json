@@ -1,0 +1,16 @@
+{
+  "dependency": "dataGrid/investmentInProgressFiles",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 72
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "investmentInProgressFiles"
+  },
+  "tab": "-McEF7QMzCWJthdkwFrb",
+  "type": "DataGrid"
+}

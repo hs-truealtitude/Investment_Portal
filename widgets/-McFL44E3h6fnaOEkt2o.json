@@ -1,0 +1,16 @@
+{
+  "dependency": "dataGrid/completedInvestments",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 18
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "completedInvestments"
+  },
+  "tab": "-McEF7QMzCWJthdkwFrb",
+  "type": "DataGrid"
+}

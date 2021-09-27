@@ -2,6 +2,12 @@
   "displayColumn": "name",
   "isReactive": true,
   "meta": {
+    "companyProfiles": {
+      "displayName": "companyProfiles",
+      "lookUpTable": "companyProfiles",
+      "order": "5",
+      "type": "lookup"
+    },
     "createdDate": {
       "displayName": "Created Date",
       "order": "1",
@@ -22,6 +28,11 @@
       "displayName": "Last edited by",
       "order": "9",
       "type": "user"
+    },
+    "layout": {
+      "displayName": "Layout",
+      "order": 12,
+      "type": "select"
     },
     "linkedin": {
       "displayName": "Linkedin",
@@ -45,7 +56,7 @@
       "type": "user"
     },
     "profilePitcture": {
-      "displayName": "Profile Pitcture",
+      "displayName": "Profile Picture",
       "order": "3",
       "type": "profile_image"
     },
@@ -53,12 +64,6 @@
       "displayName": "Second Name",
       "order": "4",
       "type": "string"
-    },
-    "slingshotPitches": {
-      "displayName": "Slingshot Pitches",
-      "lookUpTable": "slingshotPitches",
-      "order": "5",
-      "type": "lookup"
     },
     "state": {
       "displayName": "State",
@@ -84,7 +89,7 @@
                 "type": "profile_image",
                 "name": "control_profile_image_807048",
                 "fieldName": "control_profile_image_807048",
-                "label": "Profile Pitcture",
+                "label": "Profile Picture",
                 "order": 0,
                 "defaultValue": "",
                 "value": "",
@@ -303,7 +308,8 @@
                 "propName": "jobRole",
                 "ableToAddLookUpVal": false,
                 "gridId": "teamMembersTable",
-                "description": "Please select the job role of your team member"
+                "description": "Please select the job role of your team member",
+                "lookupOpenInModalDisabled": true
               },
               {
                 "type": "datepicker",
@@ -573,7 +579,7 @@
                 "type": "lookup",
                 "name": "control_lookup_692760",
                 "fieldName": "control_lookup_692760",
-                "label": "Slingshot Pitches",
+                "label": "companyProfiles",
                 "order": 0,
                 "defaultValue": "",
                 "value": "",
@@ -610,7 +616,7 @@
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "slingshotPitches",
+                "propName": "companyProfiles",
                 "ableToAddLookUpVal": true,
                 "gridId": "teamMembersTable"
               }
@@ -622,10 +628,68 @@
         "minInstance": 1,
         "maxInstance": 0,
         "instances": []
+      },
+      {
+        "cleintKey": "hidden_section_d9a88d70-fe6b-11eb-8b02-1947c31ab3cb",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_d9a88d70-fe6b-11eb-8b02-1947c31ab3cb",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_d9a88d70-fe6b-11eb-8b02-1947c31ab3cb_row_d9a88d71-fe6b-11eb-8b02-1947c31ab3cb",
+            "controls": [
+              {
+                "type": "select",
+                "name": "control_e3c5f810-fe6b-11eb-b3ac-8169db66894f",
+                "fieldName": "control_e3c5f810-fe6b-11eb-b3ac-8169db66894f",
+                "label": "Layout",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "layout"
+              }
+            ]
+          }
+        ]
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.025866095986893267
+    "_uniqueId": 0.1867141977387723
   },
   "source": "teamMembersTable",
   "storageType": "dashboard",
@@ -633,6 +697,9 @@
   "views": {
     "teamCardView": {
       "meta": {
+        "companyProfiles": {
+          "order": "5"
+        },
         "createdDate": {
           "order": "1"
         },
@@ -644,6 +711,9 @@
         },
         "lastEditedBy": {
           "order": "9"
+        },
+        "layout": {
+          "order": 12
         },
         "linkedin": {
           "order": "2"
@@ -663,9 +733,6 @@
         },
         "secondName": {
           "order": "4"
-        },
-        "slingshotPitches": {
-          "order": "5"
         },
         "state": {
           "invisible": true,

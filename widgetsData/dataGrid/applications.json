@@ -1,178 +1,286 @@
 {
   "displayColumn": "name",
-  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Direction\",\"hidden\":false},{\"key\":\"pitch\",\"operator\":\"=\",\"value\":null,\"name\":\"Pitch\",\"hidden\":false}]}",
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Direction\",\"expression\":false,\"hidden\":false},{\"key\":\"company\",\"operator\":\"contains\",\"value\":null,\"name\":\"company\",\"expression\":false,\"hidden\":false},{\"key\":\"isComplete\",\"operator\":\"checkbox\",\"value\":null,\"name\":\"isComplete\",\"expression\":false,\"hidden\":false}]}",
   "isReactive": true,
   "meta": {
+    "accepted": {
+      "displayName": "accepted",
+      "order": 45,
+      "type": "custom"
+    },
+    "adminViewed": {
+      "displayName": "adminViewed",
+      "invisible": true,
+      "order": 0,
+      "type": "checkbox"
+    },
     "applicationStatus": {
       "displayName": "Application Status",
       "invisible": false,
       "lookUpTable": "applicationStatus",
-      "order": "1",
+      "order": 1,
       "type": "lookup"
     },
     "applicationSubmit": {
       "displayName": "",
-      "invisible": true,
-      "order": "2",
+      "order": 2,
       "startTitle": "Submit",
       "type": "workflow",
-      "workflow": "-MS7l5yVEXqVer2WbOdY"
+      "workflow": "-MgFozdW0n4sihq0holu"
     },
     "approved": {
       "displayName": "Approved",
       "invisible": false,
-      "order": "25",
+      "order": 3,
       "type": "custom"
+    },
+    "cohort": {
+      "displayName": "Cohort",
+      "filterCode": "return row.mentorOwner == rowData.mentorOwner",
+      "invisible": false,
+      "lookUpTable": "cohortData",
+      "order": 4,
+      "type": "lookup"
+    },
+    "cohortCard": {
+      "displayName": "Cohort Card",
+      "order": 5,
+      "type": "custom"
+    },
+    "cohortCompany": {
+      "displayName": "cohortCompany",
+      "filterCode": "// return row.cohort.companies.companyUser == $getUser('profileID')\r\nconst cohortCompanies = []\r\n\r\nfor (let key in rowData.$cohort.$companies || {}) {\r\n    const company = rowData.$cohort.$companies[key]\r\n\r\n    cohortCompanies.push(company.rowKey)\r\n}\r\n\r\nreturn row.owner === fbUser.uid && cohortCompanies.includes(row.rowKey)",
+      "lookUpTable": "companyProfiles",
+      "order": 6,
+      "type": "lookup"
+    },
+    "company": {
+      "displayName": "Company",
+      "filterCode": "return row.companyUser == rowData.companyUser",
+      "invisible": false,
+      "lookUpTable": "companyProfiles",
+      "onChange": "$setDataGridVal(\r\n    'applications',\r\n    `${rowData.rowKey}.companyLastEditDate`,\r\n    rowData.$company.lastEditDate\r\n)\r\n",
+      "order": 7,
+      "type": "lookup"
+    },
+    "companyCard": {
+      "displayName": "Company Card",
+      "invisible": true,
+      "order": 8,
+      "type": "custom"
+    },
+    "companyLastEditDate": {
+      "displayName": "companyLastEditDate",
+      "order": 41,
+      "type": "date"
+    },
+    "companyUser": {
+      "displayName": "Company User",
+      "invisible": false,
+      "lookUpTable": "companyUserProfiles",
+      "order": 9,
+      "type": "lookup"
+    },
+    "companyUserCard": {
+      "displayName": "Company Representative",
+      "invisible": true,
+      "order": 10,
+      "type": "custom"
+    },
+    "companyUserOwner": {
+      "displayName": "companyUserOwner",
+      "lookUpTable": "companyUserProfiles",
+      "order": 11,
+      "type": "lookup"
+    },
+    "companyWithinProgramme": {
+      "displayName": "Company Within Programme",
+      "filterCode": "// return row.programme.companies.companyUser == $getUser('profileID')\r\nconst programmeCompanies = []\r\n\r\nfor (let key in rowData.$programme.$companies || {}) {\r\n    const company = rowData.$programme.$companies[key]\r\n\r\n    programmeCompanies.push(company.rowKey)\r\n}\r\n\r\nreturn row.owner === fbUser.uid && programmeCompanies.includes(row.rowKey)",
+      "lookUpTable": "companyProfiles",
+      "order": 42,
+      "type": "lookup"
     },
     "createdBy": {
       "displayName": "Created By",
       "invisible": false,
-      "order": "10",
+      "order": 12,
       "type": "user"
     },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": false,
-      "order": "8",
+      "order": 13,
       "type": "date"
     },
     "investor": {
       "displayName": "Investor",
       "invisible": false,
       "lookUpTable": "investorProfiles",
-      "order": "3",
+      "order": 14,
       "type": "lookup"
     },
     "investorCard": {
       "displayName": "Investor Card",
       "invisible": true,
-      "order": "20",
+      "order": 15,
       "type": "custom"
+    },
+    "investorOwner": {
+      "displayName": "investorOwner",
+      "lookUpTable": "investorProfiles",
+      "order": 16,
+      "type": "lookup"
     },
     "isComplete": {
       "displayName": "isComplete",
       "invisible": false,
-      "order": "11",
+      "order": 17,
       "type": "checkbox"
     },
     "lastEditDate": {
       "displayName": "Last edit date",
       "invisible": false,
-      "order": "9",
+      "order": 18,
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
       "invisible": true,
-      "order": "16",
+      "order": 19,
       "type": "user"
+    },
+    "layout": {
+      "displayName": "Layout",
+      "order": 20,
+      "type": "select"
     },
     "mentor": {
       "displayName": "Mentor",
       "invisible": false,
       "lookUpTable": "mentors",
-      "order": "5",
+      "order": 21,
       "type": "lookup"
     },
     "mentorCard": {
       "displayName": "Mentor Card",
       "invisible": true,
-      "order": "22",
+      "order": 22,
+      "type": "custom"
+    },
+    "mentorOwner": {
+      "displayName": "mentorOwner",
+      "lookUpTable": "mentors",
+      "order": 23,
+      "type": "lookup"
+    },
+    "mentorOwnerCard": {
+      "displayName": "Mentor/Cohort Owner",
+      "order": 24,
       "type": "custom"
     },
     "messageDisplay": {
       "displayName": "Message",
       "invisible": false,
-      "order": "21",
+      "order": 25,
       "type": "custom"
     },
     "name": {
       "displayName": "Direction",
       "invisible": false,
-      "order": "0",
+      "order": 26,
       "type": "string"
     },
     "nextEvents": {
       "displayName": "Next Events",
       "invisible": false,
-      "order": "13",
+      "order": 27,
+      "type": "string"
+    },
+    "notice": {
+      "displayName": "notice",
+      "order": 43,
+      "type": "custom"
+    },
+    "noticefield": {
+      "displayName": "noticefield",
+      "order": 44,
       "type": "string"
     },
     "notificationDescription": {
       "displayName": "Notification Description",
       "invisible": false,
-      "order": "7",
+      "order": 28,
       "type": "string"
     },
     "owner": {
       "displayName": "Owner",
       "invisible": false,
-      "order": "12",
+      "order": 29,
       "type": "user"
     },
-    "pitch": {
-      "displayName": "Pitch",
-      "filterCode": "return row.sME == rowData.sME",
-      "invisible": false,
-      "lookUpTable": "slingshotPitches",
-      "order": "4",
+    "programme": {
+      "displayName": "programme",
+      "lookUpTable": "programmeData",
+      "order": 30,
       "type": "lookup"
     },
-    "pitchCard": {
-      "displayName": "Company Card",
-      "invisible": true,
-      "order": "19",
+    "programmeCard": {
+      "displayName": "Programme Card",
+      "order": 40,
       "type": "custom"
+    },
+    "programmePartner": {
+      "displayName": "Programme Partner",
+      "order": 31,
+      "type": "custom"
+    },
+    "programmePartnerOwner": {
+      "displayName": "programmePartnerOwner",
+      "lookUpTable": "programmePartnerProfiles",
+      "order": 32,
+      "type": "lookup"
+    },
+    "referralNotes": {
+      "displayName": "Referral Notes",
+      "order": 33,
+      "type": "string"
+    },
+    "referralTypeCompanyUser": {
+      "displayName": "Referral Type",
+      "invisible": false,
+      "lookUpTable": "referralTypeCompanyUser",
+      "order": 34,
+      "type": "lookup"
     },
     "referralTypeMentor": {
       "displayName": "Referral Type",
       "invisible": false,
       "lookUpTable": "referralType",
-      "order": "17",
-      "type": "lookup"
-    },
-    "referralTypeSME": {
-      "displayName": "Referral Type",
-      "invisible": false,
-      "lookUpTable": "referralTypeSME",
-      "order": "18",
+      "order": 35,
       "type": "lookup"
     },
     "rejected": {
       "displayName": "Rejected",
       "invisible": false,
-      "order": "26",
+      "order": 36,
       "type": "custom"
     },
     "responseOpened": {
       "displayName": "responseOpened",
       "invisible": false,
-      "order": "24",
+      "order": 37,
       "type": "checkbox"
-    },
-    "sME": {
-      "displayName": "SME",
-      "invisible": false,
-      "lookUpTable": "sMEProfiles",
-      "order": "6",
-      "type": "lookup"
-    },
-    "sMECard": {
-      "displayName": "Company Representative",
-      "invisible": true,
-      "order": "23",
-      "type": "custom"
     },
     "sentMessage": {
       "displayName": "Sent Message",
       "invisible": true,
-      "order": "15",
+      "order": 38,
       "type": "custom"
     },
     "state": {
       "displayName": "State",
       "invisible": false,
-      "order": "14",
+      "order": 39,
       "type": "string"
     }
   },
@@ -222,9 +330,9 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<center>\r\n<b-card>\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n\r\n  </div>\r\n  <center><img v-if=\"$getDashboardModel('mentors')[rowData.mentor] && $getDashboardModel('mentors')[rowData.mentor].profileImage && $getDashboardModel('mentors')[rowData.mentor].profileImage.url\" :src=\"$getDashboardModel('mentors')[rowData.mentor].profileImage.url\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span style=\"\" class=\"d-block mb-1\">{{rowData.$mentor.name}} {{rowData.$mentor.secondName}}</span>\r\n</h5>\r\n      <p class=\"h4 font-weight-light text-muted\"> {{truncateText(rowData.$mentor.aboutMe, 100)}} </p>\r\n\r\n\r\n        <p class=\"h4 font-weight-bold\" style=\"font-family: 'Grenette pro', sans-serif; font-size: 17px;     font-weight: 400;\"> Main Sectors: </p>\r\n          <p class=\"h4 font-weight-light\" v-for=\"item in rowData.$mentor.$mainSectors$display\">\r\n          <span style=\"font-family: 'Grenette pro', sans-serif; color: #ef4437 !important; font-size: 1em;     font-weight: 400;\">\r\n            <div class=\"rectangle\" style=\"padding: 2px; border-radius: 6px;\">\r\n              {{item}}\r\n            </div>\r\n          </span>\r\n        </p>\r\n      \r\n        <p class=\"h4 font-weight-bold\" style=\"font-family: 'Grenette pro', sans-serif; color: black; font-size: 17px;\"> Main Skills: </p>\r\n          <p class=\"h4 font-weight-light\" v-for=\"item in rowData.$mentor.$mainSkills$display\">\r\n          <span style=\"font-family: 'Grenette pro', sans-serif; color: #ef4437 !important; font-size: 1em;     font-weight: 400;\">\r\n            <div class=\"rectangle\" style=\"padding: 2px; border-radius: 6px;\">\r\n              {{item}}\r\n            </div>\r\n          </span>\r\n        </p>\r\n\r\n  \r\n    <div class=\"row justify-content-center\">\r\n   <a :href=\"rowData.$mentor.linkedInProfileLink\" target=\"_blank\">\r\n      <div v-if=\"rowData.$mentor.linkedInProfileLink\" class=\"social-icon-contain\">\r\n        <i v-if=\"rowData.$mentor.linkedInProfileLink\" style=\"padding: 5px; bottom: 0; color: white !important;\" class=\"fab fa-linkedin\"></i>\r\n      </div>\r\n      </a>\r\n    </div>\r\n    \r\n  </div>\r\n</div>\r\n</b-card>\r\n</center>",
+                "customCode": "<center v-if=\"rowData.$mentor\">\r\n<b-card class=\"mcard\">\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n\r\n  </div>\r\n  <center><img v-if=\"$getDashboardModel('mentors')[rowData.mentor] && $getDashboardModel('mentors')[rowData.mentor].profileImage && $getDashboardModel('mentors')[rowData.mentor].profileImage.url\" :src=\"$getDashboardModel('mentors')[rowData.mentor].profileImage.url\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span v-if=\"rowData.$mentor.name && rowData.$mentor.secondName\" class=\"d-block mb-1\">{{rowData.$mentor.name}} {{rowData.$mentor.secondName}}</span>\r\n    </h5>\r\n    <div style=\"height: auto;\">\r\n      <p v-if=\"rowData.$mentor.aboutMe\" class=\"\"> {{truncateText(rowData.$mentor.aboutMe, 100)}} </p>\r\n    </div>\r\n\r\n        <p class=\"h4 font-weight-bold\" style=\"font-size: 17px;     font-weight: 400;\"> Main Sectors: </p>\r\n\r\n        <div v-if=\"rowData.$mentor.mainSectors\">\r\n          <p class=\"\" v-for=\"item in rowData.$mentor.$mainSectors$display\">\r\n            <span style=\"font-size: 1em;     font-weight: 400;\">\r\n              <div class=\"rectangle\" style=\"padding: 2px; border-radius: 6px;\">\r\n                {{item}}\r\n              </div>\r\n            </span>\r\n          </p>\r\n        </div>\r\n\r\n        <p class=\"h4 font-weight-bold\" style=\"color: black; font-size: 17px;\"> Main Skills: </p>\r\n\r\n        <div v-if=\"rowData.$mentor.mainSkills\">\r\n          <p class=\"\" v-for=\"item in rowData.$mentor.$mainSkills$display\">\r\n            <span style=\"font-size: 1em;     font-weight: 400;\">\r\n              <div class=\"rectangle\" style=\"padding: 2px; border-radius: 6px;\">\r\n                {{item}}\r\n              </div>\r\n            </span>\r\n          </p>\r\n        </div>\r\n\r\n\r\n    <div v-if=\"rowData.$mentor.linkedInProfileLink\" class=\"row justify-content-center\">\r\n   <a :href=\"rowData.$mentor.linkedInProfileLink\" target=\"_blank\">\r\n      <div v-if=\"rowData.$mentor.linkedInProfileLink\" class=\"social-icon-contain\">\r\n        <i v-if=\"rowData.$mentor.linkedInProfileLink\" style=\"padding: 5px; bottom: 0;\" class=\"fab fa-linkedin\"></i>\r\n      </div>\r\n      </a>\r\n    </div>\r\n\r\n  </div>\r\n</div>\r\n</b-card>\r\n</center>\r\n",
                 "invisible": true,
-                "invisibleCondition": "$getUser('accountType') == 'Mentor' || $getUser('accountType') == 'Investor' || (rowData.name == 'Investor->SME' && $getUser('accountType') == 'SME')",
+                "invisibleCondition": " (rowData.name==\"Mentor->CompanyUser(Programme)\" && $getUser('accountType')==\"CompanyUser\") ||  (rowData.name==\"Mentor->CompanyUser(Programme)\" && $getUser('accountType')==\"Mentor\") || (rowData.name==\"CompanyUser->Mentor(Programme)\" && $getUser('accountType')==\"Mentor\") || rowData.name == \"ProgrammePartner->CompanyUser(Programme)\" || rowData.name == \"ProgrammePartner->Investor(Programme)\" || (rowData.name == \"ProgrammePartner->Mentor(Programme)\" && $getUser('accountType') == \"Mentor\") || ($getUser('accountType') == 'Mentor' && rowData.name == 'Mentor->CompanyUser(inCohort)') || rowData.name == 'CompanyUser->Mentor(inCohort)' || rowData.name == \"Investor->CompanyUser\" || (rowData.name == \"CompanyUser->Mentor\" && $getUser('accountType') == 'Mentor') || (rowData.name == 'ProgrammePartner->Mentor' && $getUser('accountType') == 'Mentor') || (rowData.name == 'Mentor->Investor' && $getUser('accountType') == \"Mentor\") || rowData.name == 'ProgrammePartner->CompanyUser' || rowData.name == 'ProgrammePartner->Investor' || (rowData.name == \"Mentor->CompanyUser\" && $getUser('accountType') ==\"Mentor\"  ) || (rowData.name == \"Mentor->Investor\" && $getUser('accountType') == 'Mentor') || (rowData.name == 'Investor->CompanyUser' && $getUser('accountType') == 'CompanyUser')",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
@@ -266,15 +374,15 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<center>\r\n  <b-card>\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n\r\n  </div>\r\n  <center><img v-if=\"$getDashboardModel('slingshotPitches')[rowData.pitch] && $getDashboardModel('slingshotPitches')[rowData.pitch].companyLogo && $getDashboardModel('slingshotPitches')[rowData.pitch].companyLogo.url\" :src=\"$getDashboardModel('slingshotPitches')[rowData.pitch].companyLogo.url\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span v-if=\"rowData.$pitch.name\" style=\"\" class=\"d-block mb-1\">{{rowData.$pitch.name}}</span>\r\n</h5>\r\n      <p class=\"h4 font-weight-light text-muted\"> {{truncateText(rowData.$pitch.aboutTheCompany, 200)}} </p>\r\n\r\n       <div class=\"row justify-content-center\">\r\n      <div style=\"padding: 5px;\" v-if=\"rowData.$pitch.website\">\r\n        <a :href=\"'https://'+rowData.$pitch.website\" target=\"_blank\">\r\n          <div class=\"social-icon-contain\">\r\n          <i style=\"padding: 5px; color: white !important;\" class=\"fas fa-globe\"></i>\r\n          </div>\r\n        </a>\r\n      </div>\r\n\r\n      <div style=\"padding: 5px;\" v-if=\"rowData.$pitch.linkedInLink\">\r\n        <a :href=\"rowData.$pitch.linkedInLink\" target=\"_blank\">\r\n          <div class=\"social-icon-contain\">\r\n          <i style=\"padding: 5px; color: white !important;\" class=\"fab fa-linkedin\"></i>\r\n          </div>\r\n        </a>\r\n      </div>\r\n    </div>\r\n    \r\n  </div>\r\n</div>\r\n</b-card>\r\n</center>",
+                "customCode": "<center v-if=\"rowData.$company\">\r\n  <b-card class=\"mcard\">\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n  </div>\r\n  <center><img v-if=\"$getDashboardModel('companyProfiles')[rowData.company] && $getDashboardModel('companyProfiles')[rowData.company].companyLogo && $getDashboardModel('companyProfiles')[rowData.company].companyLogo.url\" :src=\"$getDashboardModel('companyProfiles')[rowData.company].companyLogo.url\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span v-if=\"rowData.$company.name\" style=\"\" class=\"d-block mb-1\">{{rowData.$company.name}}</span>\r\n</h5>\r\n<div style=\"height: auto;\">\r\n      <p v-if=\"rowData.$company.aboutTheCompany\" class=\"\"> {{truncateText(rowData.$company.aboutTheCompany, 200)}} </p>\r\n</div>\r\n       <div class=\"row justify-content-center\">\r\n      <div style=\"padding: 5px;\" v-if=\"rowData.$company.website\">\r\n        <a :href=\"'https://'+rowData.$company.website\" target=\"_blank\">\r\n          <div class=\"social-icon-contain\">\r\n          <i style=\"padding: 5px;\" class=\"fas fa-globe\"></i>\r\n          </div>\r\n        </a>\r\n      </div>\r\n\r\n      <div style=\"padding: 5px;\" v-if=\"rowData.$company.linkedInLink\">\r\n        <a :href=\"rowData.$company.linkedInLink\" target=\"_blank\">\r\n          <div class=\"social-icon-contain\">\r\n          <i style=\"padding: 5px;\" class=\"fab fa-linkedin\"></i>\r\n          </div>\r\n        </a>\r\n      </div>\r\n    </div>\r\n\r\n  </div>\r\n</div>\r\n</b-card>\r\n</center>\r\n\r\n<center v-if=\"rowData.$cohortCompany\">\r\n  <b-card class=\"mcard\">\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n  </div>\r\n  <center><img v-if=\"$getDashboardModel('companyProfiles')[rowData.cohortCompany] && $getDashboardModel('companyProfiles')[rowData.cohortCompany].companyLogo && $getDashboardModel('companyProfiles')[rowData.cohortCompany].companyLogo.url\" :src=\"$getDashboardModel('companyProfiles')[rowData.cohortCompany].companyLogo.url\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span v-if=\"rowData.$cohortCompany.name\" style=\"\" class=\"d-block mb-1\">{{rowData.$cohortCompany.name}}</span>\r\n</h5>\r\n      <p v-if=\"rowData.$cohortCompany.aboutTheCompany\" class=\"\"> {{truncateText(rowData.$cohortCompany.aboutTheCompany, 200)}} </p>\r\n\r\n       <div class=\"row justify-content-center\">\r\n      <div style=\"padding: 5px;\" v-if=\"rowData.$cohortCompany.website\">\r\n        <a :href=\"'https://'+rowData.$cohortCompany.website\" target=\"_blank\">\r\n          <div class=\"social-icon-contain\">\r\n          <i style=\"padding: 5px;\" class=\"fas fa-globe\"></i>\r\n          </div>\r\n        </a>\r\n      </div>\r\n\r\n      <div style=\"padding: 5px;\" v-if=\"rowData.$cohortCompany.linkedInLink\">\r\n        <a :href=\"rowData.$cohortCompany.linkedInLink\" target=\"_blank\">\r\n          <div class=\"social-icon-contain\">\r\n          <i style=\"padding: 5px;\" class=\"fab fa-linkedin\"></i>\r\n          </div>\r\n        </a>\r\n      </div>\r\n    </div>\r\n\r\n  </div>\r\n</div>\r\n</b-card>\r\n</center>\r\n\r\n<center v-if=\"rowData.$companyWithinProgramme\">\r\n  <b-card class=\"mcard\">\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n  </div>\r\n  <center><img v-if=\"$getDashboardModel('companyProfiles')[rowData.companyWithinProgramme] && $getDashboardModel('companyProfiles')[rowData.companyWithinProgramme].companyLogo && $getDashboardModel('companyProfiles')[rowData.companyWithinProgramme].companyLogo.url\" :src=\"$getDashboardModel('companyProfiles')[rowData.companyWithinProgramme].companyLogo.url\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span v-if=\"rowData.$companyWithinProgramme.name\" style=\"\" class=\"d-block mb-1\">{{rowData.$companyWithinProgramme.name}}</span>\r\n</h5>\r\n      <p v-if=\"rowData.$companyWithinProgramme.aboutTheCompany\" class=\"\"> {{truncateText(rowData.$companyWithinProgramme.aboutTheCompany, 200)}} </p>\r\n\r\n       <div class=\"row justify-content-center\">\r\n      <div style=\"padding: 5px;\" v-if=\"rowData.$companyWithinProgramme.website\">\r\n        <a :href=\"'https://'+rowData.$companyWithinProgramme.website\" target=\"_blank\">\r\n          <div class=\"social-icon-contain\">\r\n          <i style=\"padding: 5px;\" class=\"fas fa-globe\"></i>\r\n          </div>\r\n        </a>\r\n      </div>\r\n\r\n      <div style=\"padding: 5px;\" v-if=\"rowData.$companyWithinProgramme.linkedInLink\">\r\n        <a :href=\"rowData.$companyWithinProgramme.linkedInLink\" target=\"_blank\">\r\n          <div class=\"social-icon-contain\">\r\n          <i style=\"padding: 5px;\" class=\"fab fa-linkedin\"></i>\r\n          </div>\r\n        </a>\r\n      </div>\r\n    </div>\r\n\r\n  </div>\r\n</div>\r\n</b-card>\r\n</center>\r\n",
                 "invisible": true,
-                "invisibleCondition": "(rowData.name == 'SME->Mentor' && $getUser('accountType') == 'SME')",
+                "invisibleCondition": "rowData.name == \"ProgrammePartner->Investor(Programme)\" || rowData.name == \"ProgrammePartner->Mentor(Programme)\" || rowData.name == 'ProgrammePartner->Mentor' || rowData.name == 'ProgrammePartner->Investor' || rowData.name == \"Mentor->Investor\" || rowData.name == \"Mentor->Mentor\" ",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "pitchCard",
+                "propName": "companyCard",
                 "gridId": "applications"
               },
               {
@@ -310,9 +418,9 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<center>\r\n  <b-card>\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n  </div>\r\n  <center><img :src=\"$getDashboardModel('investorProfiles')[rowData.investor].profileImage.url\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span class=\"d-block mb-1\">{{rowData.$investor.name}} {{rowData.$investor.secondName}} </span>\r\n      <small id=\"about\" class=\"h4 font-weight-light text-muted\"></small>\r\n      \r\n      <div class=\"row\" style=\"justify-content:center;\"> \r\n      <small class=\"h4 font-weight-light text-muted\">{{rowData.$investor.phoneNumber}}</small>\r\n      </div>\r\n\r\n<div class=\"row\" style=\"justify-content:center;\">\r\n      <small class=\"h4 font-weight-light text-muted\" v-for='e in rowData.$investor.$owner$display'>\r\n        <a style=\"color: #ef4437;\" :href=\"'mailto:'+e\" target=\"_blank\">{{e}}</a>\r\n      </small>\r\n</div>\r\n\r\n </h5>\r\n\r\n       <div class=\"row justify-content-center\">\r\n\r\n      <a :href=\"rowData.$investor.linkedInProfileLink\" target=\"_blank\">\r\n        <div v-if=\"rowData.$investor.linkedInProfileLink\" class=\"social-icon-contain\">\r\n        <i v-if=\"rowData.$investor.linkedInProfileLink\" style=\"padding: 5px; color: white !important;\" class=\"fab fa-linkedin\"></i>\r\n        </div>\r\n     </a>\r\n       </div>\r\n   \r\n  </div>\r\n</div>\r\n</b-card>\r\n</center>",
+                "customCode": "<center v-if=\"rowData.$investor\">\r\n  <b-card class=\"mcard\">\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n  </div>\r\n  <center><img v-if=\"rowData.$investor.profileImage\" :src=\"$getDashboardModel('investorProfiles')[rowData.investor].profileImage.url\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span v-if=\"rowData.$investor.name && rowData.$investor.secondName\" class=\"d-block mb-1\">{{rowData.$investor.name}} {{rowData.$investor.secondName}} </span>\r\n      <small id=\"about\" class=\"\"></small>\r\n </h5>\r\n\r\n       <div v-if=\"rowData.$investor.linkedInProfileLink\" class=\"row justify-content-center\">\r\n\r\n      <a :href=\"rowData.$investor.linkedInProfileLink\" target=\"_blank\">\r\n        <div v-if=\"rowData.$investor.linkedInProfileLink\" class=\"social-icon-contain\">\r\n        <i v-if=\"rowData.$investor.linkedInProfileLink\" style=\"padding: 5px;\" class=\"fab fa-linkedin\"></i>\r\n        </div>\r\n     </a>\r\n       </div>\r\n\r\n  </div>\r\n</div>\r\n</b-card>\r\n</center>\r\n",
                 "invisible": true,
-                "invisibleCondition": "$getUser('accountType') == 'Investor' || $getUser('accountType') == 'Mentor' || rowData.name == 'Mentor->SME'  || rowData.name == 'SME->Mentor'",
+                "invisibleCondition": "rowData.name==\"Mentor->CompanyUser(Programme)\" || rowData.name==\"CompanyUser->Mentor(Programme)\" || rowData.name == \"ProgrammePartner->CompanyUser(Programme)\" || rowData.name == \"ProgrammePartner->Mentor(Programme)\" || rowData.name == 'Mentor->CompanyUser(inCohort)' || rowData.name == 'CompanyUser->Mentor(inCohort)' || rowData.name == \"ProgrammePartner->CompanyUser\" ||  rowData.name == \"ProgrammePartner->Mentor\" || $getUser('accountType') == 'Investor' || rowData.name == 'Mentor->CompanyUser'  || rowData.name == 'CompanyUser->Mentor'",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
@@ -354,32 +462,292 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<center>\r\n  <b-card>\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n  </div>\r\n  <center><img :src=\"$getDashboardModel('sMEProfiles')[rowData.sME].profileImage.url\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span class=\"d-block mb-1\">{{rowData.$sME.name}} {{rowData.$sME.secondName}} </span>\r\n      <small id=\"about\" class=\"h4 font-weight-light text-muted\"></small>\r\n\r\n      <div class=\"row\" style=\"justify-content:center;\"> \r\n      <small class=\"h4 font-weight-light text-muted\">{{rowData.$sME.phoneNumber}}</small>\r\n      </div>\r\n\r\n<div class=\"row\" style=\"justify-content:center;\">\r\n      <small class=\"h4 font-weight-light text-muted\" v-for='e in rowData.$sME.$owner$display'>\r\n        <a style=\"color: #ef4437;\" :href=\"'mailto:'+e\" target=\"_blank\">{{e}}</a>\r\n      </small>\r\n</div>\r\n\r\n </h5>\r\n\r\n       <div class=\"row justify-content-center\">\r\n      <a :href=\"rowData.$sME.linkedInProfileLink\" target=\"_blank\">\r\n        <div v-if=\"rowData.$sME.linkedInProfileLink\" class=\"social-icon-contain\">\r\n        <i v-if=\"rowData.$sME.linkedInProfileLink\" style=\"padding: 5px; bottom: 0; color: white !important;\" class=\"fab fa-linkedin\"></i>\r\n        </div>\r\n      </a>\r\n       </div>\r\n   \r\n  </div>\r\n</div>\r\n</b-card>\r\n</center>",
+                "customCode": "<center v-if=\"rowData.$companyUser\">\r\n  <b-card>\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n  </div>\r\n  <center><img v-if=\"rowData.$companyUser.profileImage\" :src=\"$getDashboardModel('companyUserProfiles')[rowData.companyUser].profileImage.url\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span v-if=\"rowData.$companyUser.name && rowData.$companyUser.secondName\" class=\"d-block mb-1\">{{rowData.$companyUser.name}} {{rowData.$companyUser.secondName}} </span>\r\n      <small id=\"about\" class=\"\"></small>\r\n\r\n </h5>\r\n\r\n       <div v-if=\"rowData.$companyUser.linkedInProfileLink\" class=\"row justify-content-center\">\r\n      <a :href=\"rowData.$companyUser.linkedInProfileLink\" target=\"_blank\">\r\n        <div v-if=\"rowData.$companyUser.linkedInProfileLink\" class=\"social-icon-contain\">\r\n        <i v-if=\"rowData.$companyUser.linkedInProfileLink\" style=\"padding: 5px; bottom: 0;\" class=\"fab fa-linkedin\"></i>\r\n        </div>\r\n      </a>\r\n       </div>\r\n\r\n  </div>\r\n</div>\r\n</b-card>\r\n</center>\r\n",
                 "invisible": true,
-                "invisibleCondition": "(rowData.name == 'Investor->SME' && $getUser('accountType') == 'SME') || (rowData.name  == 'SME->Mentor' && $getUser('accountType') == 'SME') || (rowData.name  == 'Mentor->SME' && $getUser('accountType') == 'SME')",
+                "invisibleCondition": "(rowData.name==\"CompanyUser->Mentor(Programme)\" && $getUser('accountType')==\"CompanyUser\") || rowData.name == \"ProgrammePartner->Investor(Programme)\" || (rowData.name == \"ProgrammePartner->CompanyUser(Programme)\" && $getUser('accountType') ==\"CompanyUser\" ) || rowData.name == \"ProgrammePartner->Mentor(Programme)\" || ($getUser('accountType') == 'CompanyUser' && rowData.name == 'Mentor->CompanyUser(inCohort)') || ($getUser('accountType') == 'CompanyUser' && rowData.name == 'CompanyUser->Mentor(inCohort)') || rowData.name == 'ProgrammePartner->Mentor' || (rowData.name == 'ProgrammePartner->CompanyUser' && $getUser('accountType') == \"CompanyUser\") || rowData.name == 'ProgrammePartner->Investor' || rowData.name == \"Mentor->Investor\" || rowData.name == \"Mentor->Mentor\" || (rowData.name == 'Investor->CompanyUser' && $getUser('accountType') == 'CompanyUser') || (rowData.name  == 'CompanyUser->Mentor' && $getUser('accountType') == 'CompanyUser') || (rowData.name  == 'Mentor->CompanyUser' && $getUser('accountType') == 'CompanyUser')",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "sMECard",
+                "propName": "companyUserCard",
+                "gridId": "applications"
+              },
+              {
+                "type": "custom",
+                "name": "control_custom_621360",
+                "fieldName": "control_custom_621360",
+                "label": "Cohort Card",
+                "order": 4,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<b-card v-if=\"rowData.$cohort\" style=\"\" class=\"cohortCard\">\r\n  <center>\r\n\r\n\r\n    <div v-if=\"rowData.$programmePartnerOwner\" class=\"containerPP\">\r\n      <h2 v-if=\"rowData.$programmePartnerOwner\" class=\"title\">({{rowData.$cohort.cohortOwnerType}})</h2>\r\n    </div>\r\n\r\n    <div v-if=\"rowData.$mentorOwner\" class=\"containerMentor\">\r\n      <h2 v-if=\"rowData.$mentorOwner\" class=\"title\">({{rowData.$cohort.cohortOwnerType}})</h2>\r\n    </div>\r\n\r\n    <div style=\"height: auto;\" class=\"buttonContainer\">\r\n      <h1 style=\"padding-top: 20px !important;\" class=\"title\">{{rowData.$cohort.name}}</h1>\r\n      <div style=\"\">\r\n        <p style=\"margin-bottom: 20px;\" v-if=\"rowData.$cohort.cohortSummary\"> {{truncateText(rowData.$cohort.cohortSummary,200)}} </p>\r\n      </div>\r\n    </div>\r\n\r\n  </center>\r\n</b-card>\r\n",
+                "invisible": true,
+                "invisibleCondition": "rowData.name==\"Mentor->CompanyUser(Programme)\" || rowData.name==\"CompanyUser->Mentor(Programme)\" || rowData.name == \"ProgrammePartner->CompanyUser(Programme)\" || rowData.name == \"ProgrammePartner->CompanyUser(Programme)\" || rowData.name == \"ProgrammePartner->Investor(Programme)\" || rowData.name == \"ProgrammePartner->Mentor(Programme)\" || ($getUser('accountType') == 'CompanyUser' && rowData.name == 'CompanyUser->Mentor(inCohort)') || rowData.name == \"Investor->CompanyUser\" ||  (rowData.name == 'CompanyUser->Mentor' && $getUser('accountType') == 'CompanyUser') || (rowData.name == 'Mentor->CompanyUser' && $getUser('accountType') == 'Mentor')",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "cohortCard",
+                "gridId": "applications"
+              },
+              {
+                "type": "custom",
+                "name": "control_custom_638158",
+                "fieldName": "control_custom_638158",
+                "label": "Programme Partner",
+                "order": 5,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<center v-if=\"rowData.$programmePartnerOwner\">\r\n  <b-card class=\"mcard\">\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n  </div>\r\n  <center><img v-if=\"rowData.$programmePartnerOwner.profileImage\" :src=\"$getDashboardModel('programmePartnerProfiles')[rowData.programmePartnerOwner].profileImage.url\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span v-if=\"rowData.$programmePartnerOwner.name && rowData.$programmePartnerOwner.secondName\" class=\"d-block mb-1\">{{rowData.$programmePartnerOwner.name}} {{rowData.$programmePartnerOwner.secondName}} </span>\r\n      <small id=\"about\" class=\"\"></small>\r\n\r\n\r\n<div class=\"row\" style=\"justify-content:center;\" v-if=\"rowData.$programmePartnerOwner.owner\">\r\n      <small class=\"\" v-for='e in rowData.$programmePartnerOwner.$owner$display'>\r\n        <a style=\"\" :href=\"'mailto:'+e\" target=\"_blank\">{{e}}</a>\r\n      </small>\r\n</div>\r\n\r\n </h5>\r\n\r\n       <div v-if=\"rowData.$programmePartnerOwner.linkedInProfileLink\" class=\"row justify-content-center\">\r\n\r\n      <a :href=\"rowData.$programmePartnerOwner.linkedInProfileLink\" target=\"_blank\">\r\n        <div v-if=\"rowData.$programmePartnerOwner.linkedInProfileLink\" class=\"social-icon-contain\">\r\n        <i v-if=\"rowData.$programmePartnerOwner.linkedInProfileLink\" style=\"padding: 5px;\" class=\"fab fa-linkedin\"></i>\r\n        </div>\r\n     </a>\r\n       </div>\r\n\r\n  </div>\r\n</div>\r\n</b-card>\r\n</center>\r\n",
+                "invisible": true,
+                "invisibleCondition": "(rowData.name == \"ProgrammePartner->Investor(Programme)\" && $getUser('accountType') == \"ProgrammePartner\") || rowData.name==\"Mentor->CompanyUser(Programme)\" || rowData.name==\"CompanyUser->Mentor(Programme)\" || (rowData.name == \"ProgrammePartner->CompanyUser(Programme)\" && $getUser('accountType') == \"ProgrammePartner\") || (rowData.name == \"ProgrammePartner->Mentor(Programme)\" && $getUser('accountType') == \"ProgrammePartner\") || rowData.name == 'Mentor->CompanyUser(inCohort)' || rowData.name == 'CompanyUser->Mentor(inCohort)' || rowData.name == \"Investor->CompanyUser\" || rowData.name == 'CompanyUser->Mentor' || (rowData.name == 'ProgrammePartner->Mentor' && $getUser('accountType') == 'ProgrammePartner') || rowData.name == 'Mentor->CompanyUser' || rowData.name == 'Mentor->Investor' || (rowData.name == 'ProgrammePartner->CompanyUser' && $getUser('accountType') == \"ProgrammePartner\") || (rowData.programmePartnerOwner == $getUser('profileID')  && rowData.name == 'ProgrammePartner->Investor')",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "programmePartner",
+                "gridId": "applications"
+              },
+              {
+                "type": "custom",
+                "name": "control_custom_532254",
+                "fieldName": "control_custom_532254",
+                "label": "Mentor/Cohort Owner",
+                "order": 6,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<b-card v-if=\"rowData.$cohort\" style=\"\" class=\"cohortCard\">\r\n  <center>\r\n\r\n\r\n    <div v-if=\"rowData.$programmePartnerOwner\" class=\"containerPP\">\r\n      <img style=\"border-radius: 2px; \" class=\"profileImage\" v-if=\"rowData.$programmePartnerOwner && rowData.$programmePartnerOwner.profileImage\" :src=\"$getDashboardModel('programmePartnerProfiles')[rowData.programmePartnerOwner].profileImage.url\"></img>\r\n      <h2 v-if=\"rowData.$programmePartnerOwner\" class=\"title\">{{rowData.$programmePartnerOwner.name}} ({{rowData.$cohort.cohortOwnerType}})</h2>\r\n    </div>\r\n\r\n    <div v-if=\"rowData.$mentorOwner\" class=\"containerMentor\">\r\n      <img style=\"border-radius: 2px; \" class=\"profileImage\" v-if=\"rowData.$mentorOwner && rowData.$mentorOwner.profileImage\" :src=\"$getDashboardModel('mentors')[rowData.mentorOwner].profileImage.url\"></img>\r\n      <h2 v-if=\"rowData.$mentorOwner\" class=\"title\">{{rowData.$mentorOwner.name}} ({{rowData.$cohort.cohortOwnerType}})</h2>\r\n    </div>\r\n\r\n    <div style=\"margin-bottom: 20px;\" class=\"buttonContainer\">\r\n      <h1 style=\"padding-top: 20px !important;\" class=\"title\">{{rowData.$cohort.name}}</h1>\r\n      <div style=\"height: 210px;\">\r\n        <p style=\"margin-bottom: 20px;\" v-if=\"rowData.$cohort.cohortSummary\"> {{truncateText(rowData.$cohort.cohortSummary,200)}} </p>\r\n      </div>\r\n    </div>\r\n\r\n  </center>\r\n</b-card>\r\n",
+                "invisible": true,
+                "invisibleCondition": "rowData.name==\"Mentor->CompanyUser(Programme)\" || rowData.name==\"CompanyUser->Mentor(Programme)\" || rowData.name == \"ProgrammePartner->CompanyUser(Programme)\" || rowData.name == \"ProgrammePartner->Investor(Programme)\" || rowData.name == \"ProgrammePartner->Mentor(Programme)\" || rowData.name == 'Mentor->CompanyUser(inCohort)' || rowData.name == 'CompanyUser->Mentor(inCohort)' || rowData.name == 'Mentor->Investor' || rowData.name == \"Investor->CompanyUser\" ||  rowData.name == 'CompanyUser->Mentor' || rowData.name == 'ProgrammePartner->Mentor' || rowData.name == 'ProgrammePartner->Investor' || rowData.name == 'ProgrammePartner->CompanyUser' || rowData.name == 'Mentor->CompanyUser' || (rowData.name == 'Mentor->Investor' && $getUser('accountType') == \"Mentor\") ",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "mentorOwnerCard",
+                "gridId": "applications"
+              },
+              {
+                "type": "custom",
+                "name": "control_3f5d0fc0-01b3-11ec-b27d-1554fd01045d",
+                "fieldName": "control_3f5d0fc0-01b3-11ec-b27d-1554fd01045d",
+                "label": "Programme Card",
+                "order": 7,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<b-card v-if=\"rowData.$programme\">\r\n  <center style=\"\">\r\n         <div style=\"height: 100px;\">\r\n             <img style=\"height: 100px; border-radius: 2px; \" class=\"profileImage\" v-if=\"rowData.$programme.programmeLogo\" :src=\"$getDashboardModel('programmeData')[rowData.programme].programmeLogo.url\"></img>\r\n         </div>\r\n\r\n         <div style=\"height: 30px; margin-top: 20px;\" class=\"rowData.$programme justify-content-center\" >\r\n             <h2 v-if=\"rowData.$programme.name\">{{rowData.$programme.name}}</h2>\r\n         </div>\r\n\r\n         <div style=\"height: auto;\" class=\"buttonContainer\">\r\n             <p v-if=\"rowData.$programme.programmeSummary\">{{truncateText(rowData.$programme.programmeSummary,200)}}</p>\r\n         </div>\r\n\r\n         <div style=\"height: 40px;\" class=\"rowData.$programme justify-content-center\">\r\n             <h3 v-if=\"rowData.$programme.fundSize\" >Fund Size: £{{rowData.$programme.fundSize |  numeralFormat('0,0')}}</h3>\r\n         </div>\r\n\r\n  </center>\r\n</b-card>\r\n",
+                "invisible": true,
+                "invisibleCondition": "rowData.name !=\"ProgrammePartner->Mentor(Programme)\" && rowData.name !=\"Mentor->CompanyUser(Programme)\" && rowData.name != \"ProgrammePartner->Investor(Programme)\" && rowData.name != \"ProgrammePartner->CompanyUser(Programme)\" && rowData.name != \"CompanyUser->Mentor(Programme)\"",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "programmeCard",
                 "gridId": "applications"
               },
               {
                 "type": "lookup",
                 "name": "control_lookup_650003",
                 "fieldName": "control_lookup_650003",
-                "label": "Pitch",
-                "order": 4,
+                "label": "Company",
+                "order": 8,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
                 "readonly": true,
-                "readonlyCondition": "rowData.name == 'Mentor->SME' || $getUser('accountType') == 'Mentor' || $getUser('accountType') == 'Investor' || (rowData.name == 'Investor->SME'  && $getUser('accountType') == 'SME')",
+                "readonlyCondition": "(rowData.nextEvents && rowData.owner != fbUser.uid) || rowData.name == 'Mentor->CompanyUser' || $getUser('accountType') == 'Mentor' || $getUser('accountType') == 'Investor' || (rowData.name == 'Investor->CompanyUser'  && $getUser('accountType') == 'CompanyUser')",
                 "placeholder": "",
                 "labelBold": false,
                 "labelItalic": false,
                 "labelUnderline": false,
+                "required": true,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "rowData.name==\"Mentor->CompanyUser(Programme)\" || rowData.name==\"CompanyUser->Mentor(Programme)\" || rowData.name == \"ProgrammePartner->CompanyUser(Programme)\" || rowData.name == \"ProgrammePartner->Investor(Programme)\" || rowData.name == \"ProgrammePartner->Mentor(Programme)\" || rowData.name == 'Mentor->CompanyUser(inCohort)' || rowData.name == 'CompanyUser->Mentor(inCohort)' || rowData.name == 'ProgrammePartner->Mentor' || (rowData.name == 'ProgrammePartner->CompanyUser' && $getUser('accountType') == \"CompanyUser\") || $getUser('accountType') == \"ProgrammePartner\" || rowData.name == 'ProgrammePartner->Investor' ||  rowData.name == \"Mentor->Investor\" || rowData.name == \"Mentor->Mentor\" || (rowData.name == 'Mentor->CompanyUser'  && $getUser('accountType') == 'CompanyUser')|| (rowData.name == 'Investor->CompanyUser' && $getUser('accountType') == 'Investor') || (rowData.name == 'Investor->CompanyUser' && $getUser('accountType') == 'CompanyUser') || (rowData.name == 'CompanyUser->Mentor' && $getUser('accountType') == 'Mentor')",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "company",
+                "ableToAddLookUpVal": false,
+                "gridId": "applications",
+                "description": "",
+                "lookupOpenInModalDisabled": null
+              },
+              {
+                "type": "lookup",
+                "name": "control_52559590-0035-11ec-91cd-89b9f3014c7b",
+                "fieldName": "control_52559590-0035-11ec-91cd-89b9f3014c7b",
+                "label": "Company Within Cohort",
+                "order": 9,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "(rowData.nextEvents && rowData.owner != fbUser.uid) ||  rowData.name == 'Mentor->CompanyUser(inCohort)' || ($getUser('accountType') == \"Mentor\" && rowData.name == 'CompanyUser->Mentor(inCohort)')",
+                "placeholder": "",
+                "required": true,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "rowData.name != 'Mentor->CompanyUser(inCohort)' && rowData.name != 'CompanyUser->Mentor(inCohort)'",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": true,
+                "propName": "cohortCompany",
+                "ableToAddLookUpVal": false,
+                "gridId": "applications"
+              },
+              {
+                "type": "lookup",
+                "name": "control_ec5c2760-0406-11ec-8973-cf811f3b8880",
+                "fieldName": "control_ec5c2760-0406-11ec-8973-cf811f3b8880",
+                "label": "Company Within Programme",
+                "order": 10,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "(rowData.nextEvents && rowData.owner != fbUser.uid) ||  (rowData.name==\"CompanyUser->Mentor(Programme)\" && $getUser('accountType')==\"Mentor\") || rowData.name==\"Mentor->CompanyUser(Programme)\" ",
+                "placeholder": "",
                 "required": false,
                 "requiredCondition": "",
                 "isMultiLine": false,
@@ -400,13 +768,103 @@
                 "vif": "",
                 "customCode": "",
                 "invisible": true,
-                "invisibleCondition": "(rowData.name == 'Mentor->SME'  && $getUser('accountType') == 'SME')|| (rowData.name == 'Investor->SME' && $getUser('accountType') == 'Investor') || (rowData.name == 'Investor->SME' && $getUser('accountType') == 'SME') || (rowData.name == 'SME->Mentor' && $getUser('accountType') == 'Mentor')",
+                "invisibleCondition": "rowData.name!=\"CompanyUser->Mentor(Programme)\" && rowData.name!=\"Mentor->CompanyUser(Programme)\"",
                 "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "pitch",
+                "mask": "",
+                "lookupOpenInModalDisabled": true,
+                "propName": "companyWithinProgramme",
+                "ableToAddLookUpVal": false,
+                "gridId": "applications"
+              },
+              {
+                "type": "lookup",
+                "name": "control_34a55cd0-00f6-11ec-8960-f7f15b17eaa8",
+                "fieldName": "control_34a55cd0-00f6-11ec-8960-f7f15b17eaa8",
+                "label": "Programme",
+                "order": 11,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "rowData.name !=\"ProgrammePartner->Mentor(Programme)\" || rowData.name != \"ProgrammePartner->Investor(Programme)\" || rowData.name != \"ProgrammePartner->CompanyUser(Programme)\"",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "programme",
+                "ableToAddLookUpVal": false,
+                "gridId": "applications"
+              },
+              {
+                "type": "lookup",
+                "name": "control_lookup_383265",
+                "fieldName": "control_lookup_383265",
+                "label": "Cohort",
+                "order": 12,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "(rowData.nextEvents && rowData.owner != fbUser.uid) || (rowData.name ==\"Mentor->Investor\" && $getUser('accountType') == 'Investor') || rowData.$mentorOwner == null",
+                "placeholder": "",
+                "required": true,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "rowData.name==\"Mentor->CompanyUser(Programme)\" || rowData.name==\"CompanyUser->Mentor(Programme)\" || rowData.name == \"ProgrammePartner->Investor(Programme)\" || rowData.name==\"ProgrammePartner->CompanyUser(Programme)\" || rowData.name == \"ProgrammePartner->Mentor(Programme)\" || rowData.name == \"ProgrammePartner->Investor\" || rowData.name == \"Investor->CompanyUser\" || (rowData.name == \"CompanyUser->Mentor\" && $getUser('accountType') == \"CompanyUser\") || rowData.name == 'ProgrammePartner->Mentor' ||  rowData.name == 'ProgrammePartner->CompanyUser' ||   (rowData.name == \"Mentor->CompanyUser\" && $getUser('accountType') == 'CompanyUser')",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "cohort",
                 "ableToAddLookUpVal": false,
                 "gridId": "applications",
                 "description": ""
@@ -416,12 +874,12 @@
                 "name": "control_lookup_541364",
                 "fieldName": "control_lookup_541364",
                 "label": "Referral Type",
-                "order": 5,
+                "order": 13,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
                 "readonly": true,
-                "readonlyCondition": "(rowData.name == 'Mentor->SME' && $getUser('accountType') == 'SME' || (rowData.name == 'Investor->SME' && $getUser('accountType') == 'SME')) || ($getUser('accountType') == \"Mentor\" && rowData.$applicationStatus$display == \"Pending\") ",
+                "readonlyCondition": "(rowData.nextEvents && rowData.owner != fbUser.uid) || (rowData.name==\"Mentor->CompanyUser(Programme)\" && $getUser('accountType')==\"CompanyUser\") || rowData.name==\"CompanyUser->Mentor(Programme)\" || ($getUser('accountType') == \"CompanyUser\" && rowData.name == \"ProgrammePartner->CompanyUser(Programme)\") || ($getUser('accountType') == 'CompanyUser' && rowData.name == 'Mentor->CompanyUser(inCohort)') || (rowData.name == 'ProgrammePartner->CompanyUser' && $getUser('accountType') == \"CompanyUser\") || (rowData.name == 'Mentor->CompanyUser' && $getUser('accountType') == 'CompanyUser' || (rowData.name == 'Investor->CompanyUser' && $getUser('accountType') == 'CompanyUser')) || ($getUser('accountType') == \"Mentor\" && rowData.$applicationStatus$display == \"Pending\") ",
                 "placeholder": "",
                 "labelBold": false,
                 "labelItalic": false,
@@ -446,27 +904,28 @@
                 "vif": "",
                 "customCode": "",
                 "invisible": true,
-                "invisibleCondition": "rowData.name == 'SME->Mentor'",
-                "invisibleInDataGrid": false,
+                "invisibleCondition": "rowData.name==\"CompanyUser->Mentor(Programme)\" || rowData.name == \"ProgrammePartner->Investor(Programme)\" || rowData.name == \"ProgrammePartner->Mentor(Programme)\" || rowData.name == 'CompanyUser->Mentor(inCohort)' || rowData.name == 'ProgrammePartner->Mentor' || rowData.name == 'ProgrammePartner->Investor' ||  rowData.name == \"Mentor->Investor\" || rowData.name == \"Mentor->Mentor\" || rowData.name == 'CompanyUser->Mentor'",
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "referralTypeSME",
+                "propName": "referralTypeCompanyUser",
                 "ableToAddLookUpVal": false,
-                "gridId": "applications"
+                "gridId": "applications",
+                "lookupOpenInModalDisabled": null
               },
               {
                 "type": "lookup",
                 "name": "control_lookup_288783",
                 "fieldName": "control_lookup_288783",
                 "label": "Referral Type",
-                "order": 6,
+                "order": 14,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
                 "readonly": true,
-                "readonlyCondition": "$getUser('accountType') == 'Mentor'",
+                "readonlyCondition": "(rowData.nextEvents && rowData.owner != fbUser.uid) || ($getUser('accountType') == 'CompanyUser' && rowData.name == 'Mentor->CompanyUser(inCohort)') || rowData.name != 'Mentor->Mentor' && $getUser('accountType') == 'Mentor' ",
                 "placeholder": "",
                 "labelBold": false,
                 "labelItalic": false,
@@ -491,8 +950,8 @@
                 "vif": "",
                 "customCode": "",
                 "invisible": true,
-                "invisibleCondition": "rowData.name != 'SME->Mentor'",
-                "invisibleInDataGrid": false,
+                "invisibleCondition": "rowData.name == \"ProgrammePartner->Investor(Programme)\" || rowData.name == 'CompanyUser->Mentor(inCohort)' || rowData.name == 'ProgrammePartner->Investor' ||  rowData.name != 'ProgrammePartner->Mentor(Programme)' && rowData.name != 'ProgrammePartner->Mentor' && rowData.name != 'Mentor->Mentor' && rowData.name != 'CompanyUser->Mentor' ",
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -502,22 +961,19 @@
                 "gridId": "applications"
               },
               {
-                "type": "multiline_text",
-                "name": "control_multiline_text_445267",
-                "fieldName": "control_multiline_text_445267",
-                "label": "Message",
-                "order": 7,
+                "type": "text",
+                "name": "control_text_760327",
+                "fieldName": "control_text_760327",
+                "label": "Referral Notes",
+                "order": 15,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
-                "readonly": false,
-                "readonlyCondition": "$getUser('accountType') == 'Mentor' || ($getUser('accountType') == \"Mentor\" && rowData.$applicationStatus$display == \"Pending\") ",
-                "placeholder": "Message to user...",
-                "labelBold": false,
-                "labelItalic": false,
-                "labelUnderline": false,
+                "readonly": true,
+                "readonlyCondition": "($getUser('accountType') == \"Mentor\" && rowData.name==\"ProgrammePartner->Mentor(Programme)\") || (rowData.nextEvents && rowData.owner != fbUser.uid) || (rowData.name==\"Mentor->CompanyUser(Programme)\" && $getUser('accountType')==\"CompanyUser\") || rowData.name==\"CompanyUser->Mentor(Programme)\" || ($getUser('accountType') == \"CompanyUser\" && rowData.name == \"ProgrammePartner->CompanyUser(Programme)\") || ($getUser('accountType') == 'CompanyUser' && rowData.name == 'Mentor->CompanyUser(inCohort)') || (rowData.name == \"Investor->CompanyUser\" && $getUser('accountType') == 'CompanyUser') || (rowData.name == \"CompanyUser->Mentor\" && $getUser('accountType') == 'Mentor') || (rowData.name == 'ProgrammePartner->Mentor' && $getUser('accountType') == \"Mentor\") || (rowData.name == 'ProgrammePartner->CompanyUser' && $getUser('accountType') == \"CompanyUser\") || (rowData.name == \"Mentor->CompanyUser\" && $getUser('accountType') == 'CompanyUser')",
+                "placeholder": "",
                 "required": false,
-                "requiredCondition": "(rowData.name == 'Investor->SME' && $getUser('accountType') == 'SME')",
+                "requiredCondition": "",
                 "isMultiLine": false,
                 "isInteger": false,
                 "decimalPlace": 0,
@@ -536,7 +992,54 @@
                 "vif": "",
                 "customCode": "",
                 "invisible": true,
-                "invisibleCondition": "(rowData.name == 'Investor->SME' && $getUser('accountType') == 'SME') || (rowData.name == 'SME->Mentor' && $getUser('accountType') == 'Mentor') || (rowData.name == 'Mentor->SME' && $getUser('accountType') == 'SME')",
+                "invisibleCondition": "rowData.name==\"CompanyUser->Mentor(Programme)\" || rowData.name == \"ProgrammePartner->Investor(Programme)\" || rowData.name == 'CompanyUser->Mentor(inCohort)' || rowData.name == 'ProgrammePartner->Investor' ||  rowData.name == \"Mentor->Investor\"",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "referralNotes",
+                "gridId": "applications",
+                "description": "Enter any notes relevant to the user, for example, the users email who provided the referral"
+              },
+              {
+                "type": "multiline_text",
+                "name": "control_multiline_text_445267",
+                "fieldName": "control_multiline_text_445267",
+                "label": "Message",
+                "order": 16,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "(rowData.nextEvents && rowData.owner != fbUser.uid)",
+                "placeholder": "Message to user...",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "(rowData.name == 'Investor->CompanyUser' && $getUser('accountType') == 'CompanyUser')",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": " (rowData.name==\"Mentor->CompanyUser(Programme)\" && $getUser('accountType')==\"CompanyUser\") || (rowData.name==\"CompanyUser->Mentor(Programme)\" && $getUser('accountType')==\"Mentor\") || ($getUser('accountType') == \"CompanyUser\" && rowData.name == \"ProgrammePartner->CompanyUser(Programme)\") || (rowData.name == \"ProgrammePartner->Investor(Programme)\" && $getUser('accountType') == \"Investor\") || (rowData.name == \"ProgrammePartner->Mentor(Programme)\" && $getUser('accountType') == \"Mentor\") || ($getUser('accountType') == 'CompanyUser' && rowData.name == 'Mentor->CompanyUser(inCohort)') || ($getUser('accountType') == \"Mentor\" && rowData.name == 'CompanyUser->Mentor(inCohort)') || (rowData.name == 'ProgrammePartner->Mentor' && $getUser('accountType') == \"Mentor\") || (rowData.name == 'ProgrammePartner->CompanyUser' && $getUser('accountType') == \"CompanyUser\") || ($getUser('accountType') == \"Investor\" && rowData.name == 'ProgrammePartner->Investor') || (rowData.name == \"Mentor->Investor\" && $getUser('accountType') == \"Investor\") || (rowData.name == 'Investor->CompanyUser' && $getUser('accountType') == 'CompanyUser') || (rowData.name == 'CompanyUser->Mentor' && $getUser('accountType') == 'Mentor') || (rowData.name == 'Mentor->CompanyUser' && $getUser('accountType') == 'CompanyUser') ",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
@@ -551,7 +1054,7 @@
                 "name": "control_custom_62198",
                 "fieldName": "control_custom_62198",
                 "label": "Message",
-                "order": 8,
+                "order": 17,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -581,8 +1084,8 @@
                 "vif": "",
                 "customCode": "<p>{{rowData.message}}</p>",
                 "invisible": true,
-                "invisibleCondition": "(rowData.name  == 'Investor->SME' && $getUser('accountType') == 'Investor') || (rowData.name  == 'SME->Mentor' && $getUser('accountType') == 'SME') || (rowData.name  == 'Mentor->SME' && $getUser('accountType') == 'Mentor')",
-                "invisibleInDataGrid": false,
+                "invisibleCondition": "(rowData.name==\"Mentor->CompanyUser(Programme)\" && $getUser('accountType')==\"Mentor\") ||  (rowData.name==\"CompanyUser->Mentor(Programme)\" && $getUser('accountType')==\"CompanyUser\") || (rowData.name == \"ProgrammePartner->CompanyUser(Programme)\" && $getUser('accountType') == \"ProgrammePartner\") || (rowData.name == \"ProgrammePartner->Investor(Programme)\" && $getUser('accountType') == \"ProgrammePartner\") || (rowData.name == \"ProgrammePartner->Mentor(Programme)\" && $getUser('accountType') == \"ProgrammePartner\") || ($getUser('accountType') == 'Mentor' && rowData.name == 'Mentor->CompanyUser(inCohort)') ||  ($getUser('accountType') == 'CompanyUser' && rowData.name == 'CompanyUser->Mentor(inCohort)') || (rowData.name == 'ProgrammePartner->Mentor' && $getUser('accountType') == \"ProgrammePartner\") ||  (rowData.name == 'ProgrammePartner->CompanyUser' && $getUser('accountType') == \"ProgrammePartner\") || (rowData.programmePartnerOwner == $getUser('profileID')  && rowData.name == 'ProgrammePartner->Investor') || (rowData.name == \"Mentor->Investor\" && $getUser('accountType') == \"Mentor\") || (rowData.name  == 'Mentor->Mentor' && rowData.mentorOwner == $getUser('profileID')) || (rowData.name  == 'Investor->CompanyUser' && $getUser('accountType') == 'Investor') || (rowData.name  == 'CompanyUser->Mentor' && $getUser('accountType') == 'CompanyUser') || (rowData.name  == 'Mentor->CompanyUser' && $getUser('accountType') == 'Mentor')",
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -591,11 +1094,54 @@
                 "gridId": "applications"
               },
               {
+                "type": "custom",
+                "name": "control_1cd66fd0-0421-11ec-88ef-a76c50f7f0e1",
+                "fieldName": "control_1cd66fd0-0421-11ec-88ef-a76c50f7f0e1",
+                "label": "Alert:",
+                "order": 18,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<h3>{{rowData.noticefield}}</h3>",
+                "invisible": true,
+                "invisibleCondition": "$getUser('accountType') != \"Investor\"",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "notice",
+                "gridId": "applications"
+              },
+              {
                 "type": "workflow",
                 "name": "control_workflow_433100",
                 "fieldName": "control_workflow_433100",
                 "label": "",
-                "order": 9,
+                "order": 19,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -625,7 +1171,7 @@
                 "vif": "",
                 "customCode": "",
                 "invisible": true,
-                "invisibleCondition": "(rowData.nextEvents && rowData.owner != fbUser.uid) || rowData.isComplete == 'true'  || rowData.nextEvents == 'Ok' ",
+                "invisibleCondition": "(rowData.nextEvents && rowData.owner != fbUser.uid) || rowData.isComplete == true  || rowData.nextEvents == 'Ok' ",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
@@ -639,7 +1185,7 @@
                 "name": "control_custom_941764",
                 "fieldName": "control_custom_941764",
                 "label": "Sent Message",
-                "order": 10,
+                "order": 20,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -667,9 +1213,9 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<h3 style=\"color:black;\">Thanks for submitting. Please close this window and wait for a response.</h3>",
+                "customCode": "<h3 style=\"color:black;\">Thanks for submitting.</h3>",
                 "invisible": true,
-                "invisibleCondition": "!rowData.nextEvents || rowData.owner == fbUser.uid || ($getUser('accountType') == \"SME\" && rowData.$applicationStatus$display == \"Approved\") || ($getUser('accountType') == \"Mentor\" && rowData.$applicationStatus$display == \"Approved\") ",
+                "invisibleCondition": "!rowData.nextEvents || rowData.owner == fbUser.uid || (rowData.name == \"CompanyUser->Mentor\" && $getUser('accountType') == \"Mentor\") || (rowData.name == \"Mentor->CompanyUser\" && $getUser('accountType') == \"CompanyUser\") || (rowData.name == \"Mentor->Investor\" && $getUser('accountType') == \"Investor\") || (rowData.name == \"ProgrammePartner->Investor\" && $getUser('accountType') == \"Investor\") || (rowData.name == \"ProgrammePartner->CompanyUser\" && $getUser('accountType') == \"CompanyUser\") || (rowData.name == \"ProgrammePartner->Mentor\" && $getUser('accountType') == \"Mentor\") || (rowData.name == \"Investor->CompanyUser\" && $getUser('accountType') == \"CompanyUser\") || (rowData.name == \"CompanyUser->Mentor(inCohort)\" && $getUser('accountType') == \"Mentor(inCohort)\") || (rowData.name == \"Mentor->CompanyUser(inCohort)\" && $getUser('accountType') == \"CompanyUser(inCohort)\") || (rowData.name == \"ProgrammePartner->Mentor(Programme)\" && $getUser('accountType') == \"Mentor(Programme)\") || (rowData.name == \"ProgrammePartner->Investor(Programme)\" && $getUser('accountType') == \"Investor(Programme)\") || (rowData.name == \"ProgrammePartner->CompanyUser(Programme)\" && $getUser('accountType') == \"CompanyUser(Programme)\") || (rowData.name == \"CompanyUser->Mentor(Programme)\" && $getUser('accountType') == \"Mentor(Programme)\") || (rowData.name == \"Mentor->CompanyUser(Programme)\" && $getUser('accountType') == \"CompanyUser(Programme)\")",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": true,
                 "enableCustomValidation": false,
@@ -683,7 +1229,7 @@
                 "name": "control_custom_707059",
                 "fieldName": "control_custom_707059",
                 "label": "Rejected",
-                "order": 0,
+                "order": 21,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -714,7 +1260,7 @@
                 "customCode": "<h3 style=\"color:black;\">Application rejected.</h3>",
                 "invisible": true,
                 "invisibleCondition": " rowData.$applicationStatus$display != \"Rejected\"",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": true,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -724,19 +1270,16 @@
               },
               {
                 "type": "custom",
-                "name": "control_custom_96757",
-                "fieldName": "control_custom_96757",
-                "label": "Approved",
-                "order": 11,
+                "name": "control_ce3482a0-04f1-11ec-bcae-efab2b771f94",
+                "fieldName": "control_ce3482a0-04f1-11ec-bcae-efab2b771f94",
+                "label": "accepted",
+                "order": 22,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
                 "readonly": false,
                 "readonlyCondition": "",
                 "placeholder": "",
-                "labelBold": false,
-                "labelItalic": false,
-                "labelUnderline": false,
                 "required": false,
                 "requiredCondition": "",
                 "isMultiLine": false,
@@ -758,12 +1301,14 @@
                 "customCode": "<h3 style=\"color:black;\">Application approved.</h3>",
                 "invisible": true,
                 "invisibleCondition": " rowData.$applicationStatus$display != \"Approved\"",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": true,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "approved",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "accepted",
                 "gridId": "applications"
               }
             ]
@@ -788,9 +1333,9 @@
             "controls": [
               {
                 "type": "lookup",
-                "name": "control_lookup_284007",
-                "fieldName": "control_lookup_284007",
-                "label": "SME",
+                "name": "control_lookup_152748",
+                "fieldName": "control_lookup_152748",
+                "label": "Mentor",
                 "order": 0,
                 "defaultValue": "",
                 "value": "",
@@ -820,22 +1365,64 @@
                 "isChecked": false,
                 "vif": "",
                 "customCode": "",
-                "invisible": false,
-                "invisibleCondition": "$getUser('accountType') == 'SME' || $getUser('accountType') == 'Investor' || (rowData.name == 'SME->Mentor' && $getUser('accountType') == 'Mentor') || (rowData.name == 'Mentor->SME' && $getUser('accountType') == 'Mentor')",
+                "invisible": true,
+                "invisibleCondition": "$getUser('accountType') == 'CompanyUser' ||$getUser('accountType') == 'Mentor' || $getUser('accountType') == 'Investor'  || (rowData.name == 'Investor->CompanyUser' && $getUser('accountType') == 'CompanyUser')",
                 "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "sME",
+                "propName": "mentor",
                 "ableToAddLookUpVal": false,
                 "gridId": "applications"
               },
               {
+                "type": "text",
+                "name": "control_55b28f00-0421-11ec-88ef-a76c50f7f0e1",
+                "fieldName": "control_55b28f00-0421-11ec-88ef-a76c50f7f0e1",
+                "label": "noticefield",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "noticefield"
+              },
+              {
                 "type": "lookup",
-                "name": "control_lookup_152748",
-                "fieldName": "control_lookup_152748",
-                "label": "Mentor",
+                "name": "control_lookup_284007",
+                "fieldName": "control_lookup_284007",
+                "label": "Company User",
                 "order": 1,
                 "defaultValue": "",
                 "value": "",
@@ -865,14 +1452,14 @@
                 "isChecked": false,
                 "vif": "",
                 "customCode": "",
-                "invisible": true,
-                "invisibleCondition": "$getUser('accountType') == 'SME' ||$getUser('accountType') == 'Mentor' || $getUser('accountType') == 'Investor'  || (rowData.name == 'Investor->SME' && $getUser('accountType') == 'SME')",
+                "invisible": false,
+                "invisibleCondition": "$getUser('accountType') == 'CompanyUser' || $getUser('accountType') == 'Investor' || (rowData.name == 'CompanyUser->Mentor' && $getUser('accountType') == 'Mentor') || (rowData.name == 'Mentor->CompanyUser' && $getUser('accountType') == 'Mentor')",
                 "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "mentor",
+                "propName": "companyUser",
                 "ableToAddLookUpVal": false,
                 "gridId": "applications"
               },
@@ -912,12 +1499,56 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "responseOpened",
+                "gridId": "applications"
+              },
+              {
+                "type": "datepicker",
+                "name": "control_c3584040-03fe-11ec-a318-0d80a787d17b",
+                "fieldName": "control_c3584040-03fe-11ec-a318-0d80a787d17b",
+                "label": "companyLastEditDate",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
                 "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "responseOpened"
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companyLastEditDate",
+                "gridId": "applications"
               },
               {
                 "type": "checkbox",
@@ -955,7 +1586,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -1043,7 +1674,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -1087,7 +1718,7 @@
                 "customCode": "",
                 "invisible": true,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -1131,7 +1762,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -1193,7 +1824,7 @@
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
-                "readonly": true,
+                "readonly": false,
                 "readonlyCondition": "",
                 "placeholder": "",
                 "labelBold": false,
@@ -1220,7 +1851,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -1265,7 +1896,7 @@
                 "customCode": "",
                 "invisible": true,
                 "invisibleCondition": "true",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -1529,12 +2160,257 @@
                 "customCode": "",
                 "invisible": true,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "lastEditDate",
+                "gridId": "applications"
+              },
+              {
+                "type": "checkbox",
+                "name": "control_checkbox_733398",
+                "fieldName": "control_checkbox_733398",
+                "label": "adminViewed",
+                "order": 17,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "adminViewed",
+                "gridId": "applications"
+              }
+            ]
+          },
+          {
+            "name": "section_291387_row_717095",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "lookup",
+                "name": "control_lookup_423239",
+                "fieldName": "control_lookup_423239",
+                "label": "mentorOwner",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "mentorOwner",
+                "ableToAddLookUpVal": true
+              }
+            ]
+          },
+          {
+            "name": "section_291387_row_593217",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "lookup",
+                "name": "control_lookup_844089",
+                "fieldName": "control_lookup_844089",
+                "label": "investorOwner",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "investorOwner",
+                "ableToAddLookUpVal": true
+              }
+            ]
+          },
+          {
+            "name": "section_291387_row_340371",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "lookup",
+                "name": "control_lookup_500896",
+                "fieldName": "control_lookup_500896",
+                "label": "programmePartnerOwner",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "programmePartnerOwner",
+                "ableToAddLookUpVal": true,
+                "gridId": "applications"
+              }
+            ]
+          },
+          {
+            "name": "section_291387_row_326932",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "lookup",
+                "name": "control_lookup_689897",
+                "fieldName": "control_lookup_689897",
+                "label": "companyUserOwner",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companyUserOwner",
+                "ableToAddLookUpVal": true,
                 "gridId": "applications"
               }
             ]
@@ -1546,10 +2422,68 @@
         "maxInstance": 0,
         "instances": [],
         "vif": "$getUser('accountType') == \"Admin\""
+      },
+      {
+        "cleintKey": "hidden_section_d8e9aa40-fe6b-11eb-8b02-1947c31ab3cb",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_d8e9aa40-fe6b-11eb-8b02-1947c31ab3cb",
+        "order": 2,
+        "rows": [
+          {
+            "name": "hidden_section_d8e9aa40-fe6b-11eb-8b02-1947c31ab3cb_row_d8e9aa41-fe6b-11eb-8b02-1947c31ab3cb",
+            "controls": [
+              {
+                "type": "select",
+                "name": "control_da6e7580-fe6b-11eb-8b02-1947c31ab3cb",
+                "fieldName": "control_da6e7580-fe6b-11eb-8b02-1947c31ab3cb",
+                "label": "Layout",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "layout"
+              }
+            ]
+          }
+        ]
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.4539711806090425
+    "_uniqueId": 0.420034433703697
   },
   "source": "applications",
   "storageType": "dashboard",
@@ -1558,98 +2492,155 @@
     "accountNotifications": {
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"owner\",\"operator\":\"=\",\"value\":\"fbUser.uid\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true},{\"key\":\"applicationStatus\",\"operator\":\"!=\",\"value\":{\"value\":\"-MS2D3bgt4vWZpZco7Aw\",\"name\":\"Approved\"},\"name\":\"isApproved\",\"hidden\":true}]}",
       "meta": {
+        "accepted": {
+          "order": 45
+        },
+        "adminViewed": {
+          "order": 0
+        },
         "applicationStatus": {
           "invisible": false,
-          "order": "1"
+          "order": 1
         },
         "applicationSubmit": {
           "invisible": false,
-          "order": "2"
+          "order": 2
         },
         "approved": {
-          "order": 25
+          "order": 3
+        },
+        "cohort": {
+          "order": 4
+        },
+        "cohortCard": {
+          "order": 5
+        },
+        "cohortCompany": {
+          "order": 6
+        },
+        "company": {
+          "invisible": false,
+          "order": 7
+        },
+        "companyCard": {
+          "order": 8
+        },
+        "companyLastEditDate": {
+          "order": 41
+        },
+        "companyUser": {
+          "invisible": false,
+          "order": 9
+        },
+        "companyUserCard": {
+          "order": 10
+        },
+        "companyUserOwner": {
+          "order": 11
+        },
+        "companyWithinProgramme": {
+          "order": 42
         },
         "createdBy": {
-          "order": "9"
+          "order": 12
         },
         "createdDate": {
           "invisible": false,
-          "order": "7"
+          "order": 13
         },
         "investor": {
           "invisible": false,
-          "order": "3"
+          "order": 14
         },
         "investorCard": {
-          "order": 20
+          "order": 15
+        },
+        "investorOwner": {
+          "order": 16
         },
         "isComplete": {
-          "order": "10"
+          "order": 17
         },
         "lastEditDate": {
           "invisible": false,
-          "order": "8"
+          "order": 18
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "15"
+          "order": 19
+        },
+        "layout": {
+          "order": 20
         },
         "mentor": {
           "invisible": false,
-          "order": "4"
+          "order": 21
         },
         "mentorCard": {
           "order": 22
         },
+        "mentorOwner": {
+          "order": 23
+        },
+        "mentorOwnerCard": {
+          "order": 24
+        },
         "messageDisplay": {
-          "order": 21
+          "order": 25
         },
         "name": {
           "invisible": false,
-          "order": "0"
+          "order": 26
         },
         "nextEvents": {
-          "order": "12"
+          "order": 27
+        },
+        "notice": {
+          "order": 43
+        },
+        "noticefield": {
+          "order": 44
         },
         "notificationDescription": {
-          "order": "6"
+          "order": 28
         },
         "owner": {
           "invisible": false,
-          "order": "11"
+          "order": 29
         },
-        "pitch": {
-          "invisible": false,
-          "order": "16"
+        "programme": {
+          "order": 30
         },
-        "pitchCard": {
-          "order": 19
+        "programmeCard": {
+          "order": 40
+        },
+        "programmePartner": {
+          "order": 31
+        },
+        "programmePartnerOwner": {
+          "order": 32
+        },
+        "referralNotes": {
+          "order": 33
+        },
+        "referralTypeCompanyUser": {
+          "order": 34
         },
         "referralTypeMentor": {
-          "order": "17"
-        },
-        "referralTypeSME": {
-          "order": "18"
+          "order": 35
         },
         "rejected": {
-          "order": 26
+          "order": 36
         },
         "responseOpened": {
-          "order": 24
-        },
-        "sME": {
-          "invisible": false,
-          "order": "5"
-        },
-        "sMECard": {
-          "order": 23
+          "order": 37
         },
         "sentMessage": {
           "invisible": false,
-          "order": "14"
+          "order": 38
         },
         "state": {
-          "order": "13"
+          "order": 39
         }
       },
       "title": "Account Notifications",
@@ -1660,213 +2651,502 @@
       }
     },
     "mentorAndSessions": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"mentor\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"Mentor\",\"expression\":true,\"hidden\":true},{\"key\":\"applicationStatus\",\"operator\":\"=\",\"value\":{\"value\":\"-MS2D3bgt4vWZpZco7Aw\",\"name\":\"Approved\"},\"name\":\"Approved\",\"hidden\":true},{\"key\":\"isComplete\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Complete\",\"hidden\":true},{\"key\":\"name\",\"operator\":\"!=\",\"value\":\"Investor->SME\",\"name\":\"Direction Not\",\"hidden\":true}]}",
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"mentor\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"Mentor\",\"expression\":true,\"hidden\":true},{\"key\":\"applicationStatus\",\"operator\":\"=\",\"value\":{\"value\":\"-MS2D3bgt4vWZpZco7Aw\",\"name\":\"Approved\"},\"name\":\"Approved\",\"hidden\":true},{\"key\":\"isComplete\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Complete\",\"hidden\":true},{\"key\":\"name\",\"operator\":\"!=\",\"value\":\"Investor->CompanyUser\",\"name\":\"Direction Not\",\"hidden\":true}]}",
       "meta": {
+        "accepted": {
+          "order": 45
+        },
+        "adminViewed": {
+          "order": 0
+        },
         "applicationStatus": {
           "invisible": false,
-          "order": "1"
+          "order": 1
         },
         "applicationSubmit": {
           "invisible": true,
-          "order": "4"
+          "order": 2
         },
         "approved": {
-          "order": 25
+          "order": 3
+        },
+        "cohort": {
+          "order": 4
+        },
+        "cohortCard": {
+          "order": 5
+        },
+        "cohortCompany": {
+          "order": 6
+        },
+        "company": {
+          "invisible": false,
+          "order": 7
+        },
+        "companyCard": {
+          "order": 8
+        },
+        "companyLastEditDate": {
+          "order": 41
+        },
+        "companyUser": {
+          "invisible": false,
+          "order": 9
+        },
+        "companyUserCard": {
+          "order": 10
+        },
+        "companyUserOwner": {
+          "order": 11
+        },
+        "companyWithinProgramme": {
+          "order": 42
         },
         "createdBy": {
           "invisible": false,
-          "order": "2"
+          "order": 12
         },
         "createdDate": {
           "invisible": false,
-          "order": "9"
+          "order": 13
         },
         "investor": {
           "invisible": false,
-          "order": "5"
+          "order": 14
         },
         "investorCard": {
-          "order": 20
+          "order": 15
+        },
+        "investorOwner": {
+          "order": 16
         },
         "isComplete": {
           "invisible": false,
-          "order": "3"
+          "order": 17
         },
         "lastEditDate": {
           "invisible": false,
-          "order": "10"
+          "order": 18
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "16"
+          "order": 19
+        },
+        "layout": {
+          "order": 20
         },
         "mentor": {
           "invisible": false,
-          "order": "6"
+          "order": 21
         },
         "mentorCard": {
           "order": 22
         },
+        "mentorOwner": {
+          "order": 23
+        },
+        "mentorOwnerCard": {
+          "order": 24
+        },
         "messageDisplay": {
-          "order": 21
+          "order": 25
         },
         "name": {
           "invisible": false,
-          "order": "0"
+          "order": 26
         },
         "nextEvents": {
           "invisible": false,
-          "order": "12"
+          "order": 27
+        },
+        "notice": {
+          "order": 43
+        },
+        "noticefield": {
+          "order": 44
         },
         "notificationDescription": {
           "invisible": false,
-          "order": "8"
+          "order": 28
         },
         "owner": {
           "invisible": false,
-          "order": "11"
+          "order": 29
         },
-        "pitch": {
+        "programme": {
+          "order": 30
+        },
+        "programmeCard": {
+          "order": 40
+        },
+        "programmePartner": {
+          "order": 31
+        },
+        "programmePartnerOwner": {
+          "order": 32
+        },
+        "referralNotes": {
+          "order": 33
+        },
+        "referralTypeCompanyUser": {
           "invisible": false,
-          "order": "14"
-        },
-        "pitchCard": {
-          "order": 19
+          "order": 34
         },
         "referralTypeMentor": {
           "invisible": false,
-          "order": "17"
-        },
-        "referralTypeSME": {
-          "invisible": false,
-          "order": "18"
+          "order": 35
         },
         "rejected": {
-          "order": 26
+          "order": 36
         },
         "responseOpened": {
-          "order": 24
-        },
-        "sME": {
-          "invisible": false,
-          "order": "7"
-        },
-        "sMECard": {
-          "order": 23
+          "order": 37
         },
         "sentMessage": {
           "invisible": true,
-          "order": "15"
+          "order": 38
         },
         "state": {
           "invisible": false,
-          "order": "13"
+          "order": 39
         }
       },
       "title": "Mentor and Sessions"
     },
-    "myMentors": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"sME\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"SME\",\"expression\":true,\"hidden\":true},{\"key\":\"applicationStatus\",\"operator\":\"=\",\"value\":{\"value\":\"-MS2D3bgt4vWZpZco7Aw\",\"name\":\"Approved\"},\"name\":\"Approved\",\"hidden\":true},{\"key\":\"isComplete\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Complete\",\"hidden\":true},{\"key\":\"name\",\"operator\":\"!=\",\"value\":\"Investor->SME\",\"name\":\"Direction Not Investor\",\"hidden\":true}]}",
+    "myCohortCompanies": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"cohort\",\"operator\":\"=\",\"value\":\"$getUser('activeMyCohort')\",\"name\":\"Cohort\",\"expression\":true,\"hidden\":false},{\"key\":\"mentorOwner\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"mentorOwner\",\"expression\":true,\"hidden\":false},{\"key\":\"name\",\"operator\":\"=\",\"value\":\"Mentor->CompanyUser\",\"name\":\"Direction\",\"expression\":false,\"hidden\":false},{\"key\":\"approved\",\"operator\":\"=\",\"value\":\"true\",\"name\":\"Approved\",\"expression\":false,\"hidden\":false}]}",
       "meta": {
+        "accepted": {
+          "order": 45
+        },
+        "adminViewed": {
+          "invisible": true,
+          "order": 0
+        },
         "applicationStatus": {
           "invisible": false,
-          "order": "1"
+          "order": 1
         },
         "applicationSubmit": {
-          "invisible": true,
-          "order": "4"
+          "order": 2
         },
         "approved": {
-          "order": 25
+          "invisible": false,
+          "order": 3
+        },
+        "cohort": {
+          "invisible": false,
+          "order": 4
+        },
+        "cohortCard": {
+          "order": 5
+        },
+        "cohortCompany": {
+          "order": 6
+        },
+        "company": {
+          "invisible": false,
+          "order": 7
+        },
+        "companyCard": {
+          "invisible": true,
+          "order": 8
+        },
+        "companyLastEditDate": {
+          "order": 41
+        },
+        "companyUser": {
+          "invisible": false,
+          "order": 9
+        },
+        "companyUserCard": {
+          "invisible": true,
+          "order": 10
+        },
+        "companyUserOwner": {
+          "order": 11
+        },
+        "companyWithinProgramme": {
+          "order": 42
         },
         "createdBy": {
           "invisible": false,
-          "order": "2"
+          "order": 12
         },
         "createdDate": {
           "invisible": false,
-          "order": "9"
+          "order": 13
         },
         "investor": {
           "invisible": false,
-          "order": "5"
+          "order": 14
         },
         "investorCard": {
-          "order": 20
+          "invisible": true,
+          "order": 15
+        },
+        "investorOwner": {
+          "order": 16
         },
         "isComplete": {
           "invisible": false,
-          "order": "3"
+          "order": 17
         },
         "lastEditDate": {
           "invisible": false,
-          "order": "10"
+          "order": 18
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "16"
+          "order": 19
+        },
+        "layout": {
+          "order": 20
         },
         "mentor": {
           "invisible": false,
-          "order": "6"
+          "order": 21
+        },
+        "mentorCard": {
+          "invisible": true,
+          "order": 22
+        },
+        "mentorOwner": {
+          "order": 23
+        },
+        "mentorOwnerCard": {
+          "order": 24
+        },
+        "messageDisplay": {
+          "invisible": false,
+          "order": 25
+        },
+        "name": {
+          "invisible": false,
+          "order": 26
+        },
+        "nextEvents": {
+          "invisible": false,
+          "order": 27
+        },
+        "notice": {
+          "order": 43
+        },
+        "noticefield": {
+          "order": 44
+        },
+        "notificationDescription": {
+          "invisible": false,
+          "order": 28
+        },
+        "owner": {
+          "invisible": false,
+          "order": 29
+        },
+        "programme": {
+          "order": 30
+        },
+        "programmeCard": {
+          "order": 40
+        },
+        "programmePartner": {
+          "order": 31
+        },
+        "programmePartnerOwner": {
+          "order": 32
+        },
+        "referralNotes": {
+          "order": 33
+        },
+        "referralTypeCompanyUser": {
+          "invisible": false,
+          "order": 34
+        },
+        "referralTypeMentor": {
+          "invisible": false,
+          "order": 35
+        },
+        "rejected": {
+          "invisible": false,
+          "order": 36
+        },
+        "responseOpened": {
+          "invisible": false,
+          "order": 37
+        },
+        "sentMessage": {
+          "invisible": true,
+          "order": 38
+        },
+        "state": {
+          "invisible": false,
+          "order": 39
+        }
+      },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
+      "title": "My Cohort Companies"
+    },
+    "myMentors": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"companyUser\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"Company User\",\"expression\":true,\"hidden\":true},{\"key\":\"applicationStatus\",\"operator\":\"=\",\"value\":{\"value\":\"-MS2D3bgt4vWZpZco7Aw\",\"name\":\"Approved\"},\"name\":\"Approved\",\"hidden\":true},{\"key\":\"isComplete\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Complete\",\"hidden\":true},{\"key\":\"name\",\"operator\":\"!=\",\"value\":\"Investor->CompanyUser\",\"name\":\"Direction Not Investor\",\"hidden\":true}]}",
+      "meta": {
+        "accepted": {
+          "order": 45
+        },
+        "adminViewed": {
+          "order": 0
+        },
+        "applicationStatus": {
+          "invisible": false,
+          "order": 1
+        },
+        "applicationSubmit": {
+          "invisible": true,
+          "order": 2
+        },
+        "approved": {
+          "order": 3
+        },
+        "cohort": {
+          "order": 4
+        },
+        "cohortCard": {
+          "order": 5
+        },
+        "cohortCompany": {
+          "order": 6
+        },
+        "company": {
+          "invisible": false,
+          "order": 7
+        },
+        "companyCard": {
+          "order": 8
+        },
+        "companyLastEditDate": {
+          "order": 41
+        },
+        "companyUser": {
+          "invisible": false,
+          "order": 9
+        },
+        "companyUserCard": {
+          "order": 10
+        },
+        "companyUserOwner": {
+          "order": 11
+        },
+        "companyWithinProgramme": {
+          "order": 42
+        },
+        "createdBy": {
+          "invisible": false,
+          "order": 12
+        },
+        "createdDate": {
+          "invisible": false,
+          "order": 13
+        },
+        "investor": {
+          "invisible": false,
+          "order": 14
+        },
+        "investorCard": {
+          "order": 15
+        },
+        "investorOwner": {
+          "order": 16
+        },
+        "isComplete": {
+          "invisible": false,
+          "order": 17
+        },
+        "lastEditDate": {
+          "invisible": false,
+          "order": 18
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": 19
+        },
+        "layout": {
+          "order": 20
+        },
+        "mentor": {
+          "invisible": false,
+          "order": 21
         },
         "mentorCard": {
           "order": 22
         },
+        "mentorOwner": {
+          "order": 23
+        },
+        "mentorOwnerCard": {
+          "order": 24
+        },
         "messageDisplay": {
-          "order": 21
+          "order": 25
         },
         "name": {
           "invisible": false,
-          "order": "0"
+          "order": 26
         },
         "nextEvents": {
           "invisible": false,
-          "order": "12"
+          "order": 27
+        },
+        "notice": {
+          "order": 43
+        },
+        "noticefield": {
+          "order": 44
         },
         "notificationDescription": {
           "invisible": false,
-          "order": "8"
+          "order": 28
         },
         "owner": {
           "invisible": false,
-          "order": "11"
+          "order": 29
         },
-        "pitch": {
+        "programme": {
+          "order": 30
+        },
+        "programmeCard": {
+          "order": 40
+        },
+        "programmePartner": {
+          "order": 31
+        },
+        "programmePartnerOwner": {
+          "order": 32
+        },
+        "referralNotes": {
+          "order": 33
+        },
+        "referralTypeCompanyUser": {
           "invisible": false,
-          "order": "14"
-        },
-        "pitchCard": {
-          "order": 19
+          "order": 34
         },
         "referralTypeMentor": {
           "invisible": false,
-          "order": "17"
-        },
-        "referralTypeSME": {
-          "invisible": false,
-          "order": "18"
+          "order": 35
         },
         "rejected": {
-          "order": 26
+          "order": 36
         },
         "responseOpened": {
-          "order": 24
-        },
-        "sME": {
-          "invisible": false,
-          "order": "7"
-        },
-        "sMECard": {
-          "order": 23
+          "order": 37
         },
         "sentMessage": {
           "invisible": true,
-          "order": "15"
+          "order": 38
         },
         "state": {
           "invisible": false,
-          "order": "13"
+          "order": 39
         }
       },
       "title": "My Mentors"

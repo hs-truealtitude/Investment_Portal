@@ -9,8 +9,8 @@
         "id": "node1605438191735",
         "x": 63,
         "y": 121,
-        "height": 36,
-        "width": 113,
+        "height": 40,
+        "width": 99.99998910086497,
         "clazz": "startEvent",
         "label": "Start Event",
         "className": "start-event",
@@ -22,10 +22,10 @@
       },
       {
         "id": "node1605438194763",
-        "x": 315,
-        "y": 169,
-        "height": 108,
-        "width": 154,
+        "x": 384.99999999999994,
+        "y": 161.28571428571428,
+        "height": 100,
+        "width": 135.40623256138394,
         "clazz": "userTask",
         "label": "Prompt for aproval",
         "className": "user-task",
@@ -53,8 +53,8 @@
         "id": "node1605438217127",
         "x": 682,
         "y": 36,
-        "height": 108,
-        "width": 130,
+        "height": 100.00001089913505,
+        "width": 107.09376743861608,
         "clazz": "userTask",
         "label": "TA emails files",
         "className": "user-task",
@@ -82,8 +82,8 @@
         "id": "node1605438325091",
         "x": 142,
         "y": 364,
-        "height": 36,
-        "width": 159,
+        "height": 40,
+        "width": 133.17190987723214,
         "clazz": "updateRecord",
         "label": "Set status rejected",
         "className": "update-record",
@@ -99,9 +99,9 @@
       {
         "id": "node1605439431309",
         "x": 1009,
-        "y": 143,
-        "height": 78,
-        "width": 149,
+        "y": 142,
+        "height": 70.99999564034599,
+        "width": 126.07805524553572,
         "clazz": "userTask",
         "label": "Requestor gets fil",
         "className": "user-task",
@@ -124,8 +124,8 @@
         "id": "node1605439483923",
         "x": 1328,
         "y": 157,
-        "height": 36,
-        "width": 109,
+        "height": 40,
+        "width": 100,
         "clazz": "endEvent",
         "label": "End Event",
         "className": "end-event",
@@ -139,8 +139,8 @@
         "id": "node1606151357408",
         "x": 706,
         "y": 261,
-        "height": 36,
-        "width": 119,
+        "height": 40,
+        "width": 100,
         "clazz": "scriptTask",
         "label": "Script Task",
         "className": "script-task",
@@ -156,7 +156,7 @@
         "id": "node1606151594410",
         "x": 499,
         "y": 351,
-        "height": 78,
+        "height": 70.9999738420759,
         "width": 100,
         "clazz": "decision",
         "label": "Decision",
@@ -174,34 +174,31 @@
             "expression": ""
           }
         ]
+      },
+      {
+        "id": "node1630661569586",
+        "x": "144",
+        "y": "279",
+        "width": 115.85941859654018,
+        "height": 40,
+        "name": "update-record",
+        "clazz": "updateRecord",
+        "label": "Request Sent",
+        "icon": "pen",
+        "iconColor": "hsl(189, 87%, 50%)",
+        "attachment": {
+          "color": "#2dcd88",
+          "field": "documentRequests / requestSent",
+          "fieldValue": "true"
+        }
       }
     ],
     "edges": [
       {
-        "source": "node1605438191735-right",
-        "target": "node1605438194763",
-        "id": "line-1605438317123",
-        "instance": {
-          "id": "line-1605438317123",
-          "anchor": "node1605438191735-right"
-        },
-        "label": "Start Event",
-        "targetLabel": "User Task",
-        "type": {
-          "startPlug": "behind",
-          "color": "hsla(219, 79%, 66%, 1)",
-          "size": 3,
-          "path": "magnet"
-        }
-      },
-      {
         "source": "connector-outcome1605438205498",
         "target": "node1605438217127",
         "id": "line-1605438321584",
-        "instance": {
-          "id": "line-1605438321584",
-          "anchor": "connector-outcome1605438205498"
-        },
+        "instance": {},
         "label": "Approve",
         "targetLabel": "User Task",
         "type": {
@@ -215,10 +212,7 @@
         "source": "connector-outcome1605438209681",
         "target": "node1605438325091",
         "id": "line-1605438349216",
-        "instance": {
-          "id": "line-1605438349216",
-          "anchor": "connector-outcome1605438209681"
-        },
+        "instance": {},
         "label": "Reject",
         "targetLabel": "Update Record",
         "type": {
@@ -232,10 +226,7 @@
         "source": "connector-outcome1605438235864",
         "target": "node1605438194763",
         "id": "line-1605439402622",
-        "instance": {
-          "id": "line-1605439402622",
-          "anchor": "connector-outcome1605438235864"
-        },
+        "instance": {},
         "label": "Back to review",
         "targetLabel": "Prompt for aproval",
         "type": {
@@ -249,10 +240,7 @@
         "source": "connector-outcome1605438230561",
         "target": "node1605439431309",
         "id": "line-1605439481367",
-        "instance": {
-          "id": "line-1605439481367",
-          "anchor": "connector-outcome1605438230561"
-        },
+        "instance": {},
         "label": "Files Sent",
         "targetLabel": "Requestor gets fil",
         "type": {
@@ -266,10 +254,7 @@
         "source": "connector-outcome1605439463083",
         "target": "node1605439483923",
         "id": "line-1605439489080",
-        "instance": {
-          "id": "line-1605439489080",
-          "anchor": "connector-outcome1605439463083"
-        },
+        "instance": {},
         "label": "Files Receveived",
         "targetLabel": "End Event",
         "type": {
@@ -277,6 +262,44 @@
           "color": "hsla(219, 79%, 66%, 1)",
           "size": 3,
           "path": "magnet"
+        }
+      },
+      {
+        "source": "node1605438191735-right",
+        "target": "node1630661569586",
+        "endSocket": "left",
+        "id": "line-1630661588170",
+        "instance": {
+          "id": "line-1630661588170",
+          "anchor": "node1605438191735-right"
+        },
+        "label": "Start Event",
+        "targetLabel": "Request Sent",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1630661569586-right",
+        "target": "node1605438194763",
+        "endSocket": "left",
+        "id": "line-1630661590223",
+        "instance": {
+          "id": "line-1630661590223",
+          "anchor": "node1630661569586-right"
+        },
+        "label": "Request Sent",
+        "targetLabel": "Prompt for aproval",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
         }
       }
     ]

@@ -1,0 +1,1776 @@
+{
+  "displayColumn": "name",
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"=\",\"value\":null,\"name\":\"Name of Cohort\",\"expression\":false,\"hidden\":false}]}",
+  "isReactive": true,
+  "meta": {
+    "cohortOwnerType": {
+      "displayName": "Owner Account Type",
+      "invisible": false,
+      "order": "1",
+      "type": "string"
+    },
+    "cohortSummary": {
+      "displayName": "Summary of Cohort (Optional)",
+      "order": "10",
+      "type": "multiline_text"
+    },
+    "companies": {
+      "displayName": "Companies",
+      "lookUpTable": "companyProfiles",
+      "order": "8",
+      "type": "multi_lookup"
+    },
+    "companyEngagementsCount": {
+      "displayName": "companyEngagementsCount",
+      "order": 20,
+      "type": "number"
+    },
+    "companyUserOwner": {
+      "displayName": "companyUserOwner",
+      "lookUpTable": "companyUserProfiles",
+      "order": "14",
+      "type": "lookup"
+    },
+    "companyUsers": {
+      "Width": "180px",
+      "displayName": "CompanyUsers",
+      "invisible": false,
+      "lookUpTable": "companyUserProfiles",
+      "order": "2",
+      "type": "multi_lookup"
+    },
+    "createdDate": {
+      "displayName": "Created Date",
+      "invisible": true,
+      "order": "4",
+      "type": "date"
+    },
+    "investorEngagementsCount": {
+      "displayName": "investorEngagementsCount",
+      "order": 21,
+      "type": "number"
+    },
+    "investorOwner": {
+      "displayName": "investorOwner",
+      "lookUpTable": "investorProfiles",
+      "order": "12",
+      "type": "lookup"
+    },
+    "investors": {
+      "Width": "183px",
+      "displayName": "Investors",
+      "invisible": false,
+      "lookUpTable": "investorProfiles",
+      "order": "3",
+      "type": "multi_lookup"
+    },
+    "lastEditDate": {
+      "displayName": "Last edit date",
+      "invisible": true,
+      "order": "9",
+      "type": "date"
+    },
+    "lastEditedBy": {
+      "displayName": "Last edited by",
+      "invisible": true,
+      "order": "7",
+      "type": "user"
+    },
+    "layout": {
+      "displayName": "Layout",
+      "order": 17,
+      "type": "select"
+    },
+    "mentorEngagementsCount": {
+      "displayName": "mentorEngagementsCount",
+      "order": 19,
+      "type": "number"
+    },
+    "mentorOwner": {
+      "displayName": "mentorOwner",
+      "lookUpTable": "mentors",
+      "order": "11",
+      "type": "lookup"
+    },
+    "mentors": {
+      "Width": "197px",
+      "displayName": "Mentors",
+      "invisible": false,
+      "lookUpTable": "mentors",
+      "order": "16",
+      "type": "multi_lookup"
+    },
+    "name": {
+      "displayName": "Name of Cohort",
+      "invisible": false,
+      "order": "0",
+      "type": "string"
+    },
+    "nextEvents": {
+      "displayName": "Next Events",
+      "invisible": true,
+      "order": "6",
+      "type": "string"
+    },
+    "owner": {
+      "displayName": "Owner",
+      "invisible": false,
+      "order": "15",
+      "type": "user"
+    },
+    "programmePartnerOwner": {
+      "displayName": "programmePartnerOwner",
+      "lookUpTable": "programmePartnerProfiles",
+      "order": "13",
+      "type": "lookup"
+    },
+    "sessionCount": {
+      "displayName": "sessionCount",
+      "order": 18,
+      "type": "number"
+    },
+    "state": {
+      "displayName": "State",
+      "invisible": true,
+      "order": "5",
+      "type": "string"
+    },
+    "successfulInvestorEngagementsCount": {
+      "displayName": "successfulInvestorEngagementsCount",
+      "order": 22,
+      "type": "number"
+    }
+  },
+  "rowEditorFieldsForm": {
+    "sections": [
+      {
+        "name": "section_721469",
+        "label": "Create a Cohort",
+        "clientKey": "section_721469",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_721469_row_699612",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "text",
+                "name": "control_text_70567",
+                "fieldName": "control_text_70567",
+                "label": "Name of Cohort",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": true,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "name",
+                "gridId": "cohortData"
+              },
+              {
+                "type": "multiline_text",
+                "name": "control_multiline_text_164578",
+                "fieldName": "control_multiline_text_164578",
+                "label": "Summary of Cohort (Optional)",
+                "order": 1,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "cohortSummary",
+                "gridId": "cohortData"
+              }
+            ]
+          },
+          {
+            "name": "section_721469_row_707767",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "lookup",
+                "name": "control_lookup_706807",
+                "fieldName": "control_lookup_706807",
+                "label": "programmePartnerOwner",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "programmePartnerOwner",
+                "ableToAddLookUpVal": true,
+                "gridId": "cohortData"
+              }
+            ]
+          },
+          {
+            "name": "section_721469_row_513486",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "lookup",
+                "name": "control_lookup_339761",
+                "fieldName": "control_lookup_339761",
+                "label": "mentorOwner",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "mentorOwner",
+                "ableToAddLookUpVal": true,
+                "gridId": "cohortData"
+              }
+            ]
+          },
+          {
+            "name": "section_721469_row_968355",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "lookup",
+                "name": "control_lookup_193068",
+                "fieldName": "control_lookup_193068",
+                "label": "companyUserOwner",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companyUserOwner",
+                "ableToAddLookUpVal": true,
+                "gridId": "cohortData"
+              }
+            ]
+          },
+          {
+            "name": "section_721469_row_665611",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "lookup",
+                "name": "control_lookup_448667",
+                "fieldName": "control_lookup_448667",
+                "label": "investorOwner",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "investorOwner",
+                "ableToAddLookUpVal": true,
+                "gridId": "cohortData"
+              }
+            ]
+          },
+          {
+            "name": "section_721469_row_217066",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "text",
+                "name": "control_text_201551",
+                "fieldName": "control_text_201551",
+                "label": "Owner Account Type",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "cohortOwnerType",
+                "gridId": "cohortData"
+              },
+              {
+                "type": "multi_lookup",
+                "name": "control_multi_lookup_729560",
+                "fieldName": "control_multi_lookup_729560",
+                "label": "CompanyUsers",
+                "order": 1,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companyUsers",
+                "ableToAddLookUpVal": true,
+                "gridId": "cohortData"
+              },
+              {
+                "type": "multi_lookup",
+                "name": "control_multi_lookup_269891",
+                "fieldName": "control_multi_lookup_269891",
+                "label": "Investors",
+                "order": 2,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "investors",
+                "ableToAddLookUpVal": true,
+                "gridId": "cohortData"
+              },
+              {
+                "type": "user",
+                "name": "control_user_312868",
+                "fieldName": "control_user_312868",
+                "label": "Owner",
+                "order": 3,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "owner",
+                "gridId": "cohortData"
+              },
+              {
+                "type": "multi_lookup",
+                "name": "control_multi_lookup_939476",
+                "fieldName": "control_multi_lookup_939476",
+                "label": "Mentors",
+                "order": 4,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "mentors",
+                "ableToAddLookUpVal": true,
+                "gridId": "cohortData"
+              },
+              {
+                "type": "multi_lookup",
+                "name": "control_multi_lookup_238389",
+                "fieldName": "control_multi_lookup_238389",
+                "label": "Companies",
+                "order": 5,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companies",
+                "ableToAddLookUpVal": true,
+                "gridId": "cohortData"
+              },
+              {
+                "type": "datepicker",
+                "name": "control_datepicker_248046",
+                "fieldName": "control_datepicker_248046",
+                "label": "Created Date",
+                "order": 6,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "createdDate",
+                "gridId": "cohortData"
+              },
+              {
+                "type": "datepicker",
+                "name": "control_datepicker_602705",
+                "fieldName": "control_datepicker_602705",
+                "label": "Last edit date",
+                "order": 7,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": true,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "lastEditDate",
+                "gridId": "cohortData"
+              },
+              {
+                "type": "text",
+                "name": "control_text_966745",
+                "fieldName": "control_text_966745",
+                "label": "State",
+                "order": 8,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "state",
+                "gridId": "cohortData"
+              },
+              {
+                "type": "user",
+                "name": "control_user_931721",
+                "fieldName": "control_user_931721",
+                "label": "Last edited by",
+                "order": 9,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": true,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "lastEditedBy",
+                "gridId": "cohortData"
+              },
+              {
+                "type": "text",
+                "name": "control_text_455759",
+                "fieldName": "control_text_455759",
+                "label": "Next Events",
+                "order": 10,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "nextEvents",
+                "gridId": "cohortData"
+              }
+            ]
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": []
+      },
+      {
+        "cleintKey": "hidden_section_d8f54300-fe6b-11eb-8b02-1947c31ab3cb",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_d8f54300-fe6b-11eb-8b02-1947c31ab3cb",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_d8f54300-fe6b-11eb-8b02-1947c31ab3cb_row_d8f54301-fe6b-11eb-8b02-1947c31ab3cb",
+            "controls": [
+              {
+                "type": "select",
+                "name": "control_daa75fd0-fe6b-11eb-8b02-1947c31ab3cb",
+                "fieldName": "control_daa75fd0-fe6b-11eb-8b02-1947c31ab3cb",
+                "label": "Layout",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "layout"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "section_333252",
+        "label": "",
+        "clientKey": "section_333252",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_333252_row_319351",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "number",
+                "name": "control_31074740-1088-11ec-b19d-45648e573157",
+                "fieldName": "control_31074740-1088-11ec-b19d-45648e573157",
+                "label": "sessionCount",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "sessionCount",
+                "gridId": "cohortData"
+              },
+              {
+                "type": "number",
+                "name": "control_5bc24de0-1088-11ec-b19d-45648e573157",
+                "fieldName": "control_5bc24de0-1088-11ec-b19d-45648e573157",
+                "label": "companyEngagementsCount",
+                "order": 1,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companyEngagementsCount",
+                "gridId": "cohortData"
+              },
+              {
+                "type": "number",
+                "name": "control_67ebdc30-1088-11ec-b19d-45648e573157",
+                "fieldName": "control_67ebdc30-1088-11ec-b19d-45648e573157",
+                "label": "investorEngagementsCount",
+                "order": 2,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "investorEngagementsCount",
+                "gridId": "cohortData"
+              },
+              {
+                "type": "number",
+                "name": "control_517f0bc0-1088-11ec-b19d-45648e573157",
+                "fieldName": "control_517f0bc0-1088-11ec-b19d-45648e573157",
+                "label": "mentorEngagementsCount",
+                "order": 3,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "mentorEngagementsCount",
+                "gridId": "cohortData"
+              },
+              {
+                "type": "number",
+                "name": "control_72aefcb0-1088-11ec-b19d-45648e573157",
+                "fieldName": "control_72aefcb0-1088-11ec-b19d-45648e573157",
+                "label": "successfulInvestorEngagementsCount",
+                "order": 4,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "successfulInvestorEngagementsCount",
+                "gridId": "cohortData"
+              }
+            ]
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": [],
+        "vif": ""
+      }
+    ],
+    "layout": "tab",
+    "_uniqueId": 0.638151721522275
+  },
+  "source": "cohortData",
+  "storageType": "dashboard",
+  "title": "Cohort Data",
+  "views": {
+    "cohortInvolvedIn": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"=\",\"value\":null,\"name\":\"Name of Cohort\",\"expression\":false,\"hidden\":false},{\"key\":\"mentors\",\"operator\":\"in\",\"value\":\"$getUser('profileID')\",\"name\":\"Mentors\",\"expression\":true,\"hidden\":true}]}",
+      "meta": {
+        "cohortOwnerType": {
+          "invisible": false,
+          "order": "1"
+        },
+        "cohortSummary": {
+          "order": "10"
+        },
+        "companies": {
+          "order": "8"
+        },
+        "companyEngagementsCount": {
+          "order": 20
+        },
+        "companyUserOwner": {
+          "order": "14"
+        },
+        "companyUsers": {
+          "invisible": false,
+          "order": "2"
+        },
+        "createdDate": {
+          "invisible": true,
+          "order": "4"
+        },
+        "investorEngagementsCount": {
+          "order": 21
+        },
+        "investorOwner": {
+          "order": "12"
+        },
+        "investors": {
+          "invisible": false,
+          "order": "3"
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": "9"
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": "7"
+        },
+        "layout": {
+          "order": 17
+        },
+        "mentorEngagementsCount": {
+          "order": 19
+        },
+        "mentorOwner": {
+          "order": "11"
+        },
+        "mentors": {
+          "invisible": false,
+          "order": "16"
+        },
+        "name": {
+          "invisible": false,
+          "order": "0"
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": "6"
+        },
+        "owner": {
+          "invisible": false,
+          "order": "15"
+        },
+        "programmePartnerOwner": {
+          "order": "13"
+        },
+        "sessionCount": {
+          "order": 18
+        },
+        "state": {
+          "invisible": true,
+          "order": "5"
+        },
+        "successfulInvestorEngagementsCount": {
+          "order": 22
+        }
+      },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
+      "title": "Cohort Involved In - Mentors"
+    },
+    "cohortsInvolvedInCompanies": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"=\",\"value\":null,\"name\":\"Name of Cohort\",\"expression\":false,\"hidden\":false},{\"key\":\"companyUsers\",\"operator\":\"in\",\"value\":\"$getUser('profileID')\",\"name\":\"CompanyUsers\",\"expression\":true,\"hidden\":true}]}",
+      "meta": {
+        "cohortOwnerType": {
+          "invisible": false,
+          "order": "1"
+        },
+        "cohortSummary": {
+          "order": "10"
+        },
+        "companies": {
+          "order": "8"
+        },
+        "companyEngagementsCount": {
+          "order": 20
+        },
+        "companyUserOwner": {
+          "order": "14"
+        },
+        "companyUsers": {
+          "invisible": false,
+          "order": "2"
+        },
+        "createdDate": {
+          "invisible": true,
+          "order": "4"
+        },
+        "investorEngagementsCount": {
+          "order": 21
+        },
+        "investorOwner": {
+          "order": "12"
+        },
+        "investors": {
+          "invisible": false,
+          "order": "3"
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": "9"
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": "7"
+        },
+        "layout": {
+          "order": 17
+        },
+        "mentorEngagementsCount": {
+          "order": 19
+        },
+        "mentorOwner": {
+          "order": "11"
+        },
+        "mentors": {
+          "invisible": false,
+          "order": "16"
+        },
+        "name": {
+          "invisible": false,
+          "order": "0"
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": "6"
+        },
+        "owner": {
+          "invisible": false,
+          "order": "15"
+        },
+        "programmePartnerOwner": {
+          "order": "13"
+        },
+        "sessionCount": {
+          "order": 18
+        },
+        "state": {
+          "invisible": true,
+          "order": "5"
+        },
+        "successfulInvestorEngagementsCount": {
+          "order": 22
+        }
+      },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
+      "title": "Cohorts Involved In - Companies"
+    },
+    "cohortsInvolvedInInvestors": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"=\",\"value\":null,\"name\":\"Name of Cohort\",\"expression\":false,\"hidden\":false},{\"key\":\"investors\",\"operator\":\"in\",\"value\":\"$getUser('profileID')\",\"name\":\"Investors\",\"expression\":true,\"hidden\":true}]}",
+      "meta": {
+        "cohortOwnerType": {
+          "invisible": false,
+          "order": "1"
+        },
+        "cohortSummary": {
+          "order": "10"
+        },
+        "companies": {
+          "order": "8"
+        },
+        "companyEngagementsCount": {
+          "order": 20
+        },
+        "companyUserOwner": {
+          "order": "14"
+        },
+        "companyUsers": {
+          "invisible": false,
+          "order": "2"
+        },
+        "createdDate": {
+          "invisible": true,
+          "order": "4"
+        },
+        "investorEngagementsCount": {
+          "order": 21
+        },
+        "investorOwner": {
+          "order": "12"
+        },
+        "investors": {
+          "invisible": false,
+          "order": "3"
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": "9"
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": "7"
+        },
+        "layout": {
+          "order": 17
+        },
+        "mentorEngagementsCount": {
+          "order": 19
+        },
+        "mentorOwner": {
+          "order": "11"
+        },
+        "mentors": {
+          "invisible": false,
+          "order": "16"
+        },
+        "name": {
+          "invisible": false,
+          "order": "0"
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": "6"
+        },
+        "owner": {
+          "invisible": false,
+          "order": "15"
+        },
+        "programmePartnerOwner": {
+          "order": "13"
+        },
+        "sessionCount": {
+          "order": 18
+        },
+        "state": {
+          "invisible": true,
+          "order": "5"
+        },
+        "successfulInvestorEngagementsCount": {
+          "order": 22
+        }
+      },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
+      "title": "Cohorts Involved In - Investors"
+    },
+    "myCohort": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name of Cohort\",\"expression\":false,\"hidden\":false},{\"key\":\"owner\",\"operator\":\"=\",\"value\":\"fbUser.uid\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true},{\"key\":\"mentorOwner\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"mentorOwner\",\"expression\":true,\"hidden\":true}]}",
+      "meta": {
+        "cohortOwnerType": {
+          "invisible": false,
+          "order": "1"
+        },
+        "cohortSummary": {
+          "order": "10"
+        },
+        "companies": {
+          "order": "8"
+        },
+        "companyEngagementsCount": {
+          "order": 20
+        },
+        "companyUserOwner": {
+          "order": "14"
+        },
+        "companyUsers": {
+          "invisible": false,
+          "order": "2"
+        },
+        "createdDate": {
+          "invisible": true,
+          "order": "4"
+        },
+        "investorEngagementsCount": {
+          "order": 21
+        },
+        "investorOwner": {
+          "order": "12"
+        },
+        "investors": {
+          "invisible": false,
+          "order": "3"
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": "9"
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": "7"
+        },
+        "layout": {
+          "order": 17
+        },
+        "mentorEngagementsCount": {
+          "order": 19
+        },
+        "mentorOwner": {
+          "order": "11"
+        },
+        "mentors": {
+          "invisible": false,
+          "order": "16"
+        },
+        "name": {
+          "invisible": false,
+          "order": "0"
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": "6"
+        },
+        "owner": {
+          "invisible": false,
+          "order": "15"
+        },
+        "programmePartnerOwner": {
+          "order": "13"
+        },
+        "sessionCount": {
+          "order": 18
+        },
+        "state": {
+          "invisible": true,
+          "order": "5"
+        },
+        "successfulInvestorEngagementsCount": {
+          "order": 22
+        }
+      },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
+      "title": "My Cohorts - Mentor"
+    },
+    "myCohorts": {
+      "meta": {
+        "cohortOwnerType": {
+          "invisible": false,
+          "order": "1"
+        },
+        "cohortSummary": {
+          "order": "10"
+        },
+        "companies": {
+          "order": "8"
+        },
+        "companyEngagementsCount": {
+          "order": 20
+        },
+        "companyUserOwner": {
+          "order": "14"
+        },
+        "companyUsers": {
+          "invisible": false,
+          "order": "2"
+        },
+        "createdDate": {
+          "invisible": true,
+          "order": "4"
+        },
+        "investorEngagementsCount": {
+          "order": 21
+        },
+        "investorOwner": {
+          "order": "12"
+        },
+        "investors": {
+          "invisible": false,
+          "order": "3"
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": "9"
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": "7"
+        },
+        "layout": {
+          "order": 17
+        },
+        "mentorEngagementsCount": {
+          "order": 19
+        },
+        "mentorOwner": {
+          "order": "11"
+        },
+        "mentors": {
+          "invisible": false,
+          "order": "16"
+        },
+        "name": {
+          "invisible": false,
+          "order": "0"
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": "6"
+        },
+        "owner": {
+          "invisible": false,
+          "order": "15"
+        },
+        "programmePartnerOwner": {
+          "order": "13"
+        },
+        "sessionCount": {
+          "order": 18
+        },
+        "state": {
+          "invisible": true,
+          "order": "5"
+        },
+        "successfulInvestorEngagementsCount": {
+          "order": 22
+        }
+      },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
+      "title": "All Cohorts"
+    },
+    "myCohortsProgrammePartner": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name of Cohort\",\"expression\":false,\"hidden\":false},{\"key\":\"owner\",\"operator\":\"=\",\"value\":\"fbUser.uid\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true},{\"key\":\"programmePartnerOwner\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"programmePartnerOwner\",\"expression\":true,\"hidden\":true}]}",
+      "meta": {
+        "cohortOwnerType": {
+          "invisible": false,
+          "order": "1"
+        },
+        "cohortSummary": {
+          "order": "10"
+        },
+        "companies": {
+          "order": "8"
+        },
+        "companyEngagementsCount": {
+          "order": 20
+        },
+        "companyUserOwner": {
+          "order": "14"
+        },
+        "companyUsers": {
+          "invisible": false,
+          "order": "2"
+        },
+        "createdDate": {
+          "invisible": true,
+          "order": "4"
+        },
+        "investorEngagementsCount": {
+          "order": 21
+        },
+        "investorOwner": {
+          "order": "12"
+        },
+        "investors": {
+          "invisible": false,
+          "order": "3"
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": "9"
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": "7"
+        },
+        "layout": {
+          "order": 17
+        },
+        "mentorEngagementsCount": {
+          "order": 19
+        },
+        "mentorOwner": {
+          "order": "11"
+        },
+        "mentors": {
+          "invisible": false,
+          "order": "16"
+        },
+        "name": {
+          "invisible": false,
+          "order": "0"
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": "6"
+        },
+        "owner": {
+          "invisible": false,
+          "order": "15"
+        },
+        "programmePartnerOwner": {
+          "order": "13"
+        },
+        "sessionCount": {
+          "order": 18
+        },
+        "state": {
+          "invisible": true,
+          "order": "5"
+        },
+        "successfulInvestorEngagementsCount": {
+          "order": 22
+        }
+      },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
+      "title": "My Cohorts - Programme Partner"
+    }
+  }
+}

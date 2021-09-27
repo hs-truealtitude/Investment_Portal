@@ -1,0 +1,23 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 23,
+    "w": 20,
+    "x": 2,
+    "y": 3
+  },
+  "layout": {
+    "text": "B-Card",
+    "value": "b-card"
+  },
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subTab": "-MblAeWx4H4OKIEmo5qM",
+  "subtab": "-MblAeWx4H4OKIEmo5qM",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<H1 style=\"color:black;\">{{$getUser('activeCompanyName')}} - Data Room</H1>\r\n<DataGridEditRow gridId=\"companyDatarooms\" :rowKey=\"$getUser('activeDataroom')\" />",
+  "title": ""
+}

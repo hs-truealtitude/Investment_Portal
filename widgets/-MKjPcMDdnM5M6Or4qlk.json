@@ -1,18 +1,21 @@
 {
-  "dependency": "dataGrid/slingshotPitches",
+  "classes": "",
+  "dependency": "dataGrid/companyProfiles",
   "gsOptions": {
-    "h": 11,
-    "w": 24,
-    "x": 0,
+    "h": 22,
+    "w": 22,
+    "x": 1,
     "y": 2
   },
   "layout": "b-card",
-  "overflow": "height: auto",
+  "overflow": "height:auto",
   "props": {
-    "gridId": "slingshotPitches",
-    "view": "mySlingshotPitches"
+    "gridId": "companyProfiles",
+    "view": "mycompanyProfiles"
   },
+  "styles": "",
   "subtab": "-MKjPc0h4zi-RTpRfuBW",
   "tab": "-MKjLdl6pSat-QkUaIYU",
+  "title": "Company Profiles - Table View",
   "type": "DataGrid"
 }

@@ -7,10 +7,10 @@
     "nodes": [
       {
         "id": "node1611833607804",
-        "x": 86,
-        "y": 188,
-        "height": 36,
-        "width": 113,
+        "x": -1675.4285714285718,
+        "y": 405.5714285714286,
+        "height": 40,
+        "width": 101,
         "clazz": "startEvent",
         "label": "Start Event",
         "className": "start-event",
@@ -22,10 +22,10 @@
       },
       {
         "id": "node1611833612804",
-        "x": 278,
-        "y": 162,
-        "height": 139,
-        "width": 167,
+        "x": -891.7460317460324,
+        "y": 180.06831746031742,
+        "height": 330,
+        "width": 150,
         "clazz": "decision",
         "label": "Check Account Type",
         "className": "decision",
@@ -36,31 +36,73 @@
         "attachment": {},
         "outcomes": [
           {
-            "text": "SME->Mentor",
+            "text": "CompanyUser->Mentor",
             "id": "outcome1611833627559",
             "idx": 1,
-            "expression": "context.data.name == \"SME->Mentor\""
+            "expression": "context.data.name == \"CompanyUser->Mentor\""
           },
           {
-            "text": "Mentor->SME",
+            "text": "Mentor->CompanyUser",
             "id": "outcome1611833639613",
             "idx": 2,
-            "expression": "context.data.name==\"Mentor->SME\""
+            "expression": "context.data.name==\"Mentor->CompanyUser\""
           },
           {
-            "text": "Investor->SME",
+            "text": "Investor->CompanyUser",
             "id": "outcome1611833678060",
             "idx": 3,
-            "expression": "context.data.name==\"Investor->SME\""
+            "expression": "context.data.name==\"Investor->CompanyUser\""
+          },
+          {
+            "text": "Mentor->Mentor",
+            "id": "outcome1627636994562",
+            "idx": 4,
+            "expression": "context.data.name==\"Mentor->Mentor\""
+          },
+          {
+            "text": "Mentor->Investor",
+            "id": "outcome1627638683328",
+            "idx": 5,
+            "expression": "context.data.name==\"Mentor->Investor\""
+          },
+          {
+            "text": "ProgrammePartner->Investor",
+            "id": "outcome1627983063228",
+            "idx": 6,
+            "expression": "context.data.name==\"ProgrammePartner->Investor\""
+          },
+          {
+            "text": "ProgrammePartner->CompanyUser",
+            "id": "outcome1627983097658",
+            "idx": 7,
+            "expression": "context.data.name==\"ProgrammePartner->CompanyUser\""
+          },
+          {
+            "text": "ProgrammePartner->Mentor",
+            "id": "outcome1627998782153",
+            "idx": 8,
+            "expression": "context.data.name==\"ProgrammePartner->Mentor\""
+          },
+          {
+            "text": "inCohort->CompanyUser->Mentor",
+            "id": "outcome1629389508939",
+            "idx": 10,
+            "expression": "context.data.name == \"inCohort->CompanyUser->Mentor\""
+          },
+          {
+            "text": "CompanyUser->Mentor(inCohort)",
+            "id": "outcome1629447819359",
+            "idx": 10,
+            "expression": "context.data.name == \"inCohort->CompanyUser->Mentor\""
           }
         ]
       },
       {
         "id": "node1611833690100",
-        "x": 543,
-        "y": 177,
-        "height": 36,
-        "width": 203,
+        "x": -422.7142857142858,
+        "y": -354.28571428571433,
+        "height": 40,
+        "width": 201,
         "clazz": "updateRecord",
         "label": "Mentor Update Record to Pending",
         "className": "update-record",
@@ -75,10 +117,10 @@
       },
       {
         "id": "node1611833758124",
-        "x": 873,
-        "y": 113,
-        "height": 109,
-        "width": 139,
+        "x": 503,
+        "y": -392.28571428571433,
+        "height": 100,
+        "width": 151,
         "clazz": "userTask",
         "label": "Mentor Approve",
         "className": "user-task",
@@ -91,23 +133,23 @@
         },
         "outcomes": [
           {
-            "text": "Approve",
-            "id": "outcome1611833775613",
+            "text": "Approve (Add company to selected cohort)",
+            "id": "outcome1629205958642",
             "idx": 1
           },
           {
             "text": "Reject",
-            "id": "outcome1611833780588",
+            "id": "outcome1629205961866",
             "idx": 2
           }
         ]
       },
       {
         "id": "node1611833800212",
-        "x": 1174,
-        "y": 90,
-        "height": 36,
-        "width": 203,
+        "x": 1419.1904761904766,
+        "y": -369.57142857142856,
+        "height": 40,
+        "width": 200,
         "clazz": "updateRecord",
         "label": "Update Mentor Record to Approved",
         "className": "update-record",
@@ -122,10 +164,10 @@
       },
       {
         "id": "node1611833855780",
-        "x": 1177,
-        "y": 174,
-        "height": 36,
-        "width": 203,
+        "x": 1418.6666666666665,
+        "y": -315.52380952380963,
+        "height": 40,
+        "width": 200,
         "clazz": "updateRecord",
         "label": "Update Mentor Record to Rejected",
         "className": "update-record",
@@ -140,12 +182,12 @@
       },
       {
         "id": "node1611833893212",
-        "x": 543,
-        "y": 262,
-        "height": 36,
-        "width": 203,
+        "x": -422.7142857142853,
+        "y": -128.8571428571429,
+        "height": 40,
+        "width": 201,
         "clazz": "updateRecord",
-        "label": "SME Update Record to Pending",
+        "label": "Company User Update Record to Pending",
         "className": "update-record",
         "icon": {
           "name": "edit",
@@ -158,19 +200,19 @@
       },
       {
         "id": "node1611833920740",
-        "x": 879,
-        "y": 264,
-        "height": 109,
-        "width": 125,
+        "x": 497,
+        "y": -141.57142857142856,
+        "height": 100,
+        "width": 162,
         "clazz": "userTask",
-        "label": "SME Approve",
+        "label": "Company User Approve",
         "className": "user-task",
         "icon": {
           "name": "user",
           "color": "hsl(235, 71%, 65%)"
         },
         "attachment": {
-          "user": "sME.sMEProfiles.owner"
+          "user": "companyUser.companyUserProfiles.owner"
         },
         "outcomes": [
           {
@@ -187,12 +229,12 @@
       },
       {
         "id": "node1611833959036",
-        "x": 1167,
-        "y": 249,
-        "height": 36,
-        "width": 203,
+        "x": 1420.1428571428573,
+        "y": -112.80952380952374,
+        "height": 40,
+        "width": 200,
         "clazz": "updateRecord",
-        "label": "Update SME Record to Approved",
+        "label": "Update Company User Record to Approved",
         "className": "update-record",
         "icon": {
           "name": "edit",
@@ -205,12 +247,12 @@
       },
       {
         "id": "node1611833988292",
-        "x": 1194,
-        "y": 356,
-        "height": 36,
-        "width": 203,
+        "x": 1420.3809523809523,
+        "y": -2.4761904761904816,
+        "height": 40,
+        "width": 201,
         "clazz": "updateRecord",
-        "label": "Update SME Record to Rejected",
+        "label": "Update Company User Record to Rejected",
         "className": "update-record",
         "icon": {
           "name": "edit",
@@ -223,10 +265,10 @@
       },
       {
         "id": "node1612433903614",
-        "x": 545,
-        "y": 393,
-        "height": 36,
-        "width": 203,
+        "x": -429.28571428571445,
+        "y": 171.1428571428571,
+        "height": 40,
+        "width": 199,
         "clazz": "updateRecord",
         "label": "Inv Update Record to Pending",
         "className": "update-record",
@@ -241,19 +283,19 @@
       },
       {
         "id": "node1612433945262",
-        "x": 879,
-        "y": 431,
-        "height": 109,
-        "width": 145,
+        "x": 491.71428571428555,
+        "y": 154.0000000000001,
+        "height": 100,
+        "width": 184,
         "clazz": "userTask",
-        "label": "Inv SME Approve",
+        "label": "Inv Company User Approve",
         "className": "user-task",
         "icon": {
           "name": "user",
           "color": "hsl(235, 71%, 65%)"
         },
         "attachment": {
-          "user": "sME.sMEProfiles.owner"
+          "user": "companyUser.companyUserProfiles.owner"
         },
         "outcomes": [
           {
@@ -270,10 +312,10 @@
       },
       {
         "id": "node1612433984022",
-        "x": 1189,
-        "y": 443,
-        "height": 36,
-        "width": 203,
+        "x": 1421.4761904761906,
+        "y": 195.95238095238096,
+        "height": 41,
+        "width": 200,
         "clazz": "updateRecord",
         "label": "Update Investor Record to Approved",
         "className": "update-record",
@@ -288,10 +330,10 @@
       },
       {
         "id": "node1612434016566",
-        "x": 1193,
-        "y": 552,
-        "height": 36,
-        "width": 203,
+        "x": 1417.952380952381,
+        "y": 292.6666666666665,
+        "height": 40,
+        "width": 200,
         "clazz": "updateRecord",
         "label": "Update Investor Record to Rejected",
         "className": "update-record",
@@ -306,10 +348,10 @@
       },
       {
         "id": "node1612522918120",
-        "x": 158,
-        "y": 479,
-        "height": 36,
-        "width": 119,
+        "x": -1325.7142857142858,
+        "y": 405,
+        "height": 40,
+        "width": 100,
         "clazz": "scriptTask",
         "label": "Script Task",
         "className": "script-task",
@@ -318,19 +360,19 @@
           "color": "hsl(218, 54%, 20%)"
         },
         "attachment": {
-          "script": "$log('record name is' + JSON.stringify(context.data.name))"
+          "script": "$log('record name is' + JSON.stringify(context.data.name))\r\n\r\n"
         },
         "display": false,
         "dispaly": false
       },
       {
         "id": "node1612947861497",
-        "x": 2737,
-        "y": 310,
-        "height": 36,
-        "width": 203,
+        "x": 3001.4107936507944,
+        "y": 196.94027513227525,
+        "height": 41,
+        "width": 201,
         "clazz": "updateRecord",
-        "label": "Update Record to Complete SME",
+        "label": "Update Record to Complete Company User",
         "className": "update-record",
         "icon": {
           "name": "edit",
@@ -343,10 +385,10 @@
       },
       {
         "id": "node1613473404020",
-        "x": 2100,
-        "y": 178,
-        "height": 79,
-        "width": 197,
+        "x": 2558.4285714285716,
+        "y": -112.14285714285722,
+        "height": 71,
+        "width": 201,
         "clazz": "userTask",
         "label": "User Task - Accepted (RESPONSE TO MENTOR)",
         "className": "user-task",
@@ -367,10 +409,10 @@
       },
       {
         "id": "node1613473517798",
-        "x": 1728,
-        "y": 549,
-        "height": 79,
-        "width": 164,
+        "x": 1999.1904761904761,
+        "y": 451.8095238095239,
+        "height": 71,
+        "width": 142,
         "clazz": "userTask",
         "label": "User Task - Rejected",
         "className": "user-task",
@@ -391,10 +433,10 @@
       },
       {
         "id": "node1613473543170",
-        "x": 2083,
-        "y": 589,
-        "height": 36,
-        "width": 203,
+        "x": 2267.523809523809,
+        "y": 483.8571428571429,
+        "height": 41,
+        "width": 200,
         "clazz": "updateRecord",
         "label": "Notification Message - Rejected",
         "className": "update-record",
@@ -409,12 +451,12 @@
       },
       {
         "id": "node1614618844448",
-        "x": 1667,
-        "y": 199,
-        "height": 36,
-        "width": 203,
+        "x": 2097.0476190476193,
+        "y": -113.80952380952374,
+        "height": 40,
+        "width": 201,
         "clazz": "updateRecord",
-        "label": "SME Completed Application",
+        "label": "Company User Completed Application",
         "className": "update-record",
         "icon": {
           "name": "edit",
@@ -427,10 +469,10 @@
       },
       {
         "id": "node1614619444841",
-        "x": 1677,
-        "y": 77,
-        "height": 36,
-        "width": 203,
+        "x": 2096.2380952380954,
+        "y": -369.7619047619047,
+        "height": 41,
+        "width": 198,
         "clazz": "updateRecord",
         "label": "Mentor Complete Application",
         "className": "update-record",
@@ -445,19 +487,19 @@
       },
       {
         "id": "node1614774807685",
-        "x": 2226,
-        "y": 11,
-        "height": 79,
-        "width": 197,
+        "x": 2557.904761904762,
+        "y": -385.66666666666674,
+        "height": 71,
+        "width": 201,
         "clazz": "userTask",
-        "label": "User Task - Accepted (RESPONSE TO SME)",
+        "label": "User Task - Accepted (RESPONSE TO Company User)",
         "className": "user-task",
         "icon": {
           "name": "user",
           "color": "hsl(235, 71%, 65%)"
         },
         "attachment": {
-          "user": "sME.sMEProfiles.user"
+          "user": "companyUser.companyUserProfiles.user"
         },
         "outcomes": [
           {
@@ -469,10 +511,10 @@
       },
       {
         "id": "node1614775225013",
-        "x": 2089,
-        "y": 358,
-        "height": 79,
-        "width": 197,
+        "x": 2557.4285714285716,
+        "y": 305.95238095238096,
+        "height": 71,
+        "width": 201,
         "clazz": "userTask",
         "label": "User Task - Accepted (RESPONSE TO INVESTOR)",
         "className": "user-task",
@@ -493,12 +535,12 @@
       },
       {
         "id": "node1615298793681",
-        "x": 1823,
-        "y": 385,
-        "height": 36,
-        "width": 200,
+        "x": 2105.285714285714,
+        "y": 224.95238095238074,
+        "height": 40,
+        "width": 201,
         "clazz": "updateRecord",
-        "label": "SME Complete Application",
+        "label": "Company User Complete Application",
         "className": "update-record",
         "icon": {
           "name": "pen",
@@ -511,22 +553,778 @@
       },
       {
         "id": "node1615365988261",
-        "x": 1540,
-        "y": 353,
-        "height": 36,
-        "width": 205,
+        "x": 1788.7619047619048,
+        "y": 225.33333333333337,
+        "height": 40,
+        "width": 201,
         "clazz": "scriptTask",
-        "label": "Script Task - Save Pitch Investor",
+        "label": "Script Task - Save Company Investor",
         "className": "script-task",
         "icon": {
           "name": "terminal",
           "color": "hsl(218, 54%, 20%)"
         },
         "attachment": {
-          "script": "let w = await $addRow('investorAcceptedPitches', {\r\n  slingshotPitches: context.data.pitch,\r\n  investor: context.data.investor\r\n})"
+          "script": "let w = await $addRow('investorAcceptedcompanyProfiles', {\r\n  companyProfiles: context.data.company,\r\n  investor: context.data.investor\r\n})"
         },
         "display": false,
         "dispaly": false
+      },
+      {
+        "id": "node1627637019660",
+        "x": -429.71428571428567,
+        "y": 453.7142857142857,
+        "width": 200,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Mentor to Mentor Update Record to Pending",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3TANT4YEUz1kO4G'"
+        }
+      },
+      {
+        "id": "node1627637066160",
+        "x": 497,
+        "y": 423.57142857142856,
+        "width": 150,
+        "height": 100,
+        "clazz": "userTask",
+        "label": "Mentor User Approve",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "mentor.mentors.owner"
+        },
+        "outcomes": [
+          {
+            "text": "Approve",
+            "id": "outcome1627637076254",
+            "idx": 1
+          },
+          {
+            "text": "Reject",
+            "id": "outcome1627637079118",
+            "idx": 2
+          }
+        ]
+      },
+      {
+        "id": "node1627637107656",
+        "x": 1131,
+        "y": 657,
+        "width": 200,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Update Mentor User Record to Approved",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3bgt4vWZpZco7Aw'"
+        }
+      },
+      {
+        "id": "node1627637192950",
+        "x": 1131,
+        "y": 727,
+        "width": 200,
+        "height": 41,
+        "clazz": "updateRecord",
+        "label": "Update Mentor User Record to Rejected",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3kchEIGhr_88ARk'"
+        }
+      },
+      {
+        "id": "node1627637250381",
+        "x": 1447.846569312169,
+        "y": 644.5714285714286,
+        "width": 201,
+        "height": 40,
+        "clazz": "scriptTask",
+        "label": "Script Task - Add Mentor to Cohort",
+        "className": "script-task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": "// let w = await $setDataGridVal('cohortData', {\r\n//   mentors: context.data.mentor\r\n// })\r\n\r\nconst dashRef = admin.database().ref(`dashboards/${data.dashboard}`)\r\nlet mentors = (await dashRef.child(`models/cohortData/${context.data.cohort}/mentors`).once('value')).val() || ''\r\nif (!mentors.includes(context.data.mentor)) {\r\n  if (mentors) mentors += `,${context.data.mentor}`\r\n  else mentors += context.data.mentor\r\n}\r\n\r\ncreateLog(\r\n  callDash,\r\n  '',\r\n  mentors,\r\n  'cohortData',\r\n  context.data.cohort,\r\n  'mentors'\r\n)\r\n"
+        }
+      },
+      {
+        "id": "node1627638700226",
+        "x": -423.9999999999999,
+        "y": 737.1428571428573,
+        "width": 200,
+        "height": 41,
+        "clazz": "updateRecord",
+        "label": "Mentor to Investor Update Recored to Pending",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3TANT4YEUz1kO4G'"
+        }
+      },
+      {
+        "id": "node1627638740089",
+        "x": 497.4285714285711,
+        "y": 700.8571428571428,
+        "width": 201,
+        "height": 100,
+        "clazz": "userTask",
+        "label": "Investor User Approve Mentor",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "investor.investorProfiles.owner"
+        },
+        "outcomes": [
+          {
+            "text": "Approve",
+            "id": "outcome1627638763422",
+            "idx": 1
+          },
+          {
+            "text": "Reject",
+            "id": "outcome1627638767266",
+            "idx": 2
+          }
+        ]
+      },
+      {
+        "id": "node1627638773916",
+        "x": 1167.1428571428573,
+        "y": 841.5714285714284,
+        "width": 200,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Update Mentor to Investor User Record to Approved",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3bgt4vWZpZco7Aw'"
+        }
+      },
+      {
+        "id": "node1627638811992",
+        "x": 1166.5714285714284,
+        "y": 924.2857142857143,
+        "width": 200,
+        "height": 41,
+        "clazz": "updateRecord",
+        "label": "Update Mentor to Investor User Record to Rejected",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3kchEIGhr_88ARk'"
+        }
+      },
+      {
+        "id": "node1627638881233",
+        "x": 2096,
+        "y": 644.5714285714286,
+        "width": 200,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Mentor User Complete Application",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / isComplete",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1627638942188",
+        "x": 2558.511111111111,
+        "y": 736.3682539682542,
+        "width": 200,
+        "height": 71,
+        "clazz": "userTask",
+        "label": "User Task- Accepted (Response to Mentor)",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "mentorOwner.mentors.owner"
+        },
+        "outcomes": [
+          {
+            "text": "Ok",
+            "id": "outcome1627638966778",
+            "idx": 1
+          }
+        ]
+      },
+      {
+        "id": "node1627983117855",
+        "x": -424.53968253968264,
+        "y": 1023.936507936508,
+        "width": 200,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Programme Partner to Investor Update Record to Pending",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3TANT4YEUz1kO4G'"
+        }
+      },
+      {
+        "id": "node1627983146710",
+        "x": -423.8571428571429,
+        "y": 1282.1428571428573,
+        "width": 201,
+        "height": 41,
+        "clazz": "updateRecord",
+        "label": "Programme Partner to Company User Update Record to Pending",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3TANT4YEUz1kO4G'"
+        }
+      },
+      {
+        "id": "node1627983267357",
+        "x": 489.7142857142858,
+        "y": 996.2857142857143,
+        "width": 201,
+        "height": 100,
+        "clazz": "userTask",
+        "label": "Investor User to Approve Programme Partner",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "investor.investorProfiles.owner"
+        },
+        "outcomes": [
+          {
+            "text": "Approve",
+            "id": "outcome1627983289781",
+            "idx": 1
+          },
+          {
+            "text": "Reject",
+            "id": "outcome1627983292498",
+            "idx": 2
+          }
+        ]
+      },
+      {
+        "id": "node1627983340776",
+        "x": 1181.8571428571427,
+        "y": 1025.4285714285716,
+        "width": 200,
+        "height": 41,
+        "clazz": "updateRecord",
+        "label": "Update Investor User Record to Approved",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3bgt4vWZpZco7Aw'"
+        }
+      },
+      {
+        "id": "node1627983360375",
+        "x": 501.28571428571433,
+        "y": 1241.7142857142853,
+        "width": 178,
+        "height": 100,
+        "clazz": "userTask",
+        "label": "Company User to Approve",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "companyUser.companyUserProfiles.owner"
+        },
+        "outcomes": [
+          {
+            "text": "Approve",
+            "id": "outcome1627983375646",
+            "idx": 1
+          },
+          {
+            "text": "Reject",
+            "id": "outcome1627983378324",
+            "idx": 2
+          }
+        ]
+      },
+      {
+        "id": "node1627983415924",
+        "x": 1181.5714285714284,
+        "y": 1188.4285714285716,
+        "width": 200,
+        "height": 41,
+        "clazz": "updateRecord",
+        "label": "Update Company User Record to Approved",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3bgt4vWZpZco7Aw'"
+        }
+      },
+      {
+        "id": "node1627983451056",
+        "x": 1181.7142857142858,
+        "y": 1102.4285714285716,
+        "width": 200,
+        "height": 41,
+        "clazz": "updateRecord",
+        "label": "Update Investor User Record to Rejected",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3kchEIGhr_88ARk'"
+        }
+      },
+      {
+        "id": "node1627983469708",
+        "x": 1182.8571428571427,
+        "y": 1265.142857142857,
+        "width": 201,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Update Company User Record to Rejected",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3kchEIGhr_88ARk'"
+        }
+      },
+      {
+        "id": "node1627983523910",
+        "x": 2089.337777777778,
+        "y": 1026.9765925925926,
+        "width": 200,
+        "height": 41,
+        "clazz": "updateRecord",
+        "label": "Investor User Complete Application",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / isComplete",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1627983598065",
+        "x": 2081.8160000000003,
+        "y": 1182.5068783068782,
+        "width": 200,
+        "height": 41,
+        "clazz": "updateRecord",
+        "label": "Company User Complete Application",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / isComplete",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1627983679421",
+        "x": 2557.142857142857,
+        "y": 1103.3688465608464,
+        "width": 201,
+        "height": 71,
+        "clazz": "userTask",
+        "label": "User Task - Accepted (Response to Programme Partner)",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "mentorOwner.mentors.owner"
+        },
+        "outcomes": [
+          {
+            "text": "Ok",
+            "id": "outcome1627983722764",
+            "idx": 1
+          }
+        ]
+      },
+      {
+        "id": "node1627998810622",
+        "x": -430.42857142857133,
+        "y": 1555,
+        "width": 200,
+        "height": 41,
+        "clazz": "updateRecord",
+        "label": "Programme Partner to Mentor Update Record to Pending",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3TANT4YEUz1kO4G'"
+        }
+      },
+      {
+        "id": "node1627998863720",
+        "x": 498.3211428571427,
+        "y": 1524.1687619047623,
+        "width": 191,
+        "height": 100,
+        "clazz": "userTask",
+        "label": "Mentor to Approve inCohort",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "mentor.mentors.owner"
+        },
+        "outcomes": [
+          {
+            "text": "Approve",
+            "id": "outcome1627998932103",
+            "idx": 1
+          },
+          {
+            "text": "Reject",
+            "id": "outcome1627998934892",
+            "idx": 2
+          }
+        ]
+      },
+      {
+        "id": "node1627998937399",
+        "x": 1160.4284261967184,
+        "y": 1623.5312078190127,
+        "width": 200,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Update Mentor User Record to Rejected",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3kchEIGhr_88ARk'"
+        }
+      },
+      {
+        "id": "node1627998959897",
+        "x": 1182.4798896237917,
+        "y": 1383.080005809274,
+        "width": 201,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Update Mentor User Record to Accepted",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3bgt4vWZpZco7Aw'"
+        }
+      },
+      {
+        "id": "node1627999036173",
+        "x": 2082.5714285714284,
+        "y": 1360.4285714285713,
+        "width": 201,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Company User Complete Application",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / isComplete",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1628073186372",
+        "x": "4950",
+        "y": "2387",
+        "width": 101,
+        "height": 40,
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "className": "script-task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": ""
+        }
+      },
+      {
+        "id": "node1629105462389",
+        "x": 1767.857142857143,
+        "y": 1359.5714285714284,
+        "width": 200,
+        "height": 40,
+        "clazz": "scriptTask",
+        "label": "Script Task - ProgrammePartner Add Mentor to Cohort",
+        "className": "script-task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": "const dashRef = admin.database().ref(`dashboards/${data.dashboard}`)\r\nlet mentors = (await dashRef.child(`models/cohortData/${context.data.cohort}/mentors`).once('value')).val() || ''\r\nif (!mentors.includes(context.data.mentor)) {\r\n  if (mentors) mentors += `,${context.data.mentor}`\r\n  else mentors += context.data.mentor\r\n}\r\n\r\ncreateLog(\r\n  callDash,\r\n  '',\r\n  mentors,\r\n  'cohortData',\r\n  context.data.cohort,\r\n  'mentors'\r\n)"
+        }
+      },
+      {
+        "id": "node1629118346131",
+        "x": 1789.142857142857,
+        "y": 801.5714285714286,
+        "width": 201,
+        "height": 41,
+        "clazz": "scriptTask",
+        "label": "Script Task - Add Investor to Cohort",
+        "className": "script-task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": "// let w = await $setDataGridVal('cohortData', {\r\n//   investors: context.data.investor\r\n// })\r\n\r\nconst dashRef = admin.database().ref(`dashboards/${data.dashboard}`)\r\nlet investors = (await dashRef.child(`models/cohortData/${context.data.cohort}/investors`).once('value')).val() || ''\r\nif (!investors.includes(context.data.investor)) {\r\n  if (investors) investors += `,${context.data.investor}`\r\n  else investors += context.data.investor\r\n}\r\n\r\ncreateLog(\r\n  callDash,\r\n  '',\r\n  investors,\r\n  'cohortData',\r\n  context.data.cohort,\r\n  'investors'\r\n)\r\n"
+        }
+      },
+      {
+        "id": "node1629118437613",
+        "x": 2095.5714285714284,
+        "y": 866.2857142857142,
+        "width": 201,
+        "height": 41,
+        "clazz": "updateRecord",
+        "label": "Investor User Complete Application",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / isComplete",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1629205641008",
+        "x": 1788.5714285714284,
+        "y": -368.5714285714286,
+        "width": 200,
+        "height": 40,
+        "clazz": "scriptTask",
+        "label": "Script Task - Add Company to Cohort",
+        "className": "script-task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": "// let w = await $setDataGridVal('cohortData', {\r\n//   companies: context.data.company\r\n// })\r\n\r\nconst dashRef = admin.database().ref(`dashboards/${data.dashboard}`)\r\nlet companies = (await dashRef.child(`models/cohortData/${context.data.cohort}/companies`).once('value')).val() || ''\r\nif (!companies.includes(context.data.company)) {\r\n  if (companies) companies += `,${context.data.company}`\r\n  else companies += context.data.company\r\n}\r\n\r\ncreateLog(\r\n  callDash,\r\n  '',\r\n  companies,\r\n  'cohortData',\r\n  context.data.cohort,\r\n  'companies'\r\n)\r\n"
+        }
+      },
+      {
+        "id": "node1629382169237",
+        "x": 959.5714285714287,
+        "y": -355.57142857142856,
+        "width": 200,
+        "height": 40,
+        "clazz": "scriptTask",
+        "label": "Send Approval Email - Mentor->CompanyUser",
+        "className": "script-task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": "const email = await getUserEmailByUID(rowData.$mentor.owner)\r\n\r\n$log(email)\r\n$log(\"TESTING\")\r\n\r\nconsole.log(email)\r\n\r\n/*\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: Your Company Profile is now public',\r\n            text: 'Hi, \\n\\r' + 'We’re pleased to let you know your company profile ('+ rowData.name +') has been verified and is now public on the True Altitude portal. It’s time to get connecting! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi, <br/>' + '<br/> We’re pleased to let you know your company profile ('+ rowData.name +') has been verified and is now public on the True Altitude portal. It’s time to get connecting! <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n*/"
+        }
+      },
+      {
+        "id": "node1629386722309",
+        "x": -430.8095238095234,
+        "y": 1747.2857142857142,
+        "width": 201,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "CompanyUsers Update Record to Pending",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3TANT4YEUz1kO4G'"
+        }
+      },
+      {
+        "id": "node1629386783323",
+        "x": 496.71428571428555,
+        "y": 1798,
+        "width": 199,
+        "height": 100,
+        "clazz": "userTask",
+        "label": "Mentor to Approve (inCohort)",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "mentor.mentors.owner"
+        },
+        "outcomes": [
+          {
+            "text": "Approve",
+            "id": "outcome1629386811224",
+            "idx": 1
+          },
+          {
+            "text": "Reject",
+            "id": "outcome1629386813983",
+            "idx": 2
+          }
+        ]
+      },
+      {
+        "id": "node1629386824686",
+        "x": 1161.095238095238,
+        "y": 1951.4285714285716,
+        "width": 200,
+        "height": 41,
+        "clazz": "updateRecord",
+        "label": "Update Record Mentor User to Rejected",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3kchEIGhr_88ARk'"
+        }
+      },
+      {
+        "id": "node1629386859679",
+        "x": 1159.3809523809523,
+        "y": 1828.3809523809525,
+        "width": 200,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Update Record to Approved (inCohort)",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / applicationStatus",
+          "fieldValue": "'-MS2D3bgt4vWZpZco7Aw'"
+        }
+      },
+      {
+        "id": "node1629386928891",
+        "x": 2082.7142857142853,
+        "y": 1966.2857142857142,
+        "width": 200,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Company User Complete Application (inCohort)",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "applications / isComplete",
+          "fieldValue": "true"
+        }
       }
     ],
     "edges": [
@@ -534,65 +1332,39 @@
         "source": "node1611833607804-right",
         "target": "node1612522918120",
         "id": "line-1613390510995",
-        "instance": {
-          "id": "line-1613390510995",
-          "anchor": "node1611833607804-right"
-        },
+        "instance": {},
         "label": "Start Event",
         "targetLabel": "Script Task",
         "type": {
-          "startPlug": "behind",
-          "color": "hsla(219, 79%, 66%, 0.6)",
+          "startPlug": "square",
+          "color": "#e34a60",
           "size": 3,
-          "path": "magnet"
+          "path": "grid",
+          "endPlug": "arrow1"
         }
       },
       {
         "source": "node1612522918120-right",
         "target": "node1611833612804",
         "id": "line-1613390516235",
-        "instance": {
-          "id": "line-1613390516235",
-          "anchor": "node1612522918120-right"
-        },
+        "instance": {},
         "label": "Script Task",
         "targetLabel": "Check Account Type",
         "type": {
           "startPlug": "behind",
-          "color": "hsla(219, 79%, 66%, 0.6)",
+          "color": "#e34a60",
           "size": 3,
-          "path": "magnet"
-        }
-      },
-      {
-        "source": "connector-outcome1611833627559",
-        "target": "node1611833690100",
-        "id": "line-1613390520483",
-        "instance": {
-          "id": "line-1613390520483",
-          "anchor": "connector-outcome1611833627559"
-        },
-        "label": "SME->Mentor",
-        "targetLabel": "SME Update Record to Pending",
-        "expression": "context.data.name == \"SME->Mentor\"",
-        "type": {
-          "startPlug": "behind",
-          "color": "hsla(219, 79%, 66%, 0.6)",
-          "size": 3,
-          "path": "magnet"
+          "path": "grid"
         }
       },
       {
         "source": "connector-outcome1611833639613",
         "target": "node1611833893212",
         "id": "line-1613390522715",
-        "instance": {
-          "id": "line-1613390522715",
-          "anchor": "connector-outcome1611833639613"
-        },
-        "label": "Mentor->SME",
+        "instance": {},
+        "label": "Mentor->CompanyUser",
         "targetLabel": "ME Update Record to Pending",
-        "expression": "context.data.name==\"Mentor->SME\"",
+        "expression": "context.data.name==\"Mentor->CompanyUser\"",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -604,13 +1376,10 @@
         "source": "connector-outcome1611833678060",
         "target": "node1612433903614",
         "id": "line-1613390524755",
-        "instance": {
-          "id": "line-1613390524755",
-          "anchor": "connector-outcome1611833678060"
-        },
-        "label": "Investor->SME",
+        "instance": {},
+        "label": "Investor->CompanyUser",
         "targetLabel": "Inv Update Record to Pending",
-        "expression": "context.data.name==\"Investor->SME\"",
+        "expression": "context.data.name==\"Investor->CompanyUser\"",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -622,11 +1391,8 @@
         "source": "node1611833690100-right",
         "target": "node1611833758124",
         "id": "line-1613390526611",
-        "instance": {
-          "id": "line-1613390526611",
-          "anchor": "node1611833690100-right"
-        },
-        "label": "SME Update Record to Pending",
+        "instance": {},
+        "label": "Company User Update Record to Pending",
         "targetLabel": "Mentor Approve",
         "type": {
           "startPlug": "behind",
@@ -639,12 +1405,9 @@
         "source": "node1611833893212-right",
         "target": "node1611833920740",
         "id": "line-1613390528723",
-        "instance": {
-          "id": "line-1613390528723",
-          "anchor": "node1611833893212-right"
-        },
+        "instance": {},
         "label": "ME Update Record to Pending",
-        "targetLabel": "SME Approve",
+        "targetLabel": "Company User Approve",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -656,46 +1419,9 @@
         "source": "node1612433903614-right",
         "target": "node1612433945262",
         "id": "line-1613390530347",
-        "instance": {
-          "id": "line-1613390530347",
-          "anchor": "node1612433903614-right"
-        },
+        "instance": {},
         "label": "Inv Update Record to Pending",
-        "targetLabel": "Inv SME Approve",
-        "type": {
-          "startPlug": "behind",
-          "color": "hsla(219, 79%, 66%, 0.6)",
-          "size": 3,
-          "path": "magnet"
-        }
-      },
-      {
-        "source": "connector-outcome1611833775613",
-        "target": "node1611833800212",
-        "id": "line-1613390533572",
-        "instance": {
-          "id": "line-1613390533572",
-          "anchor": "connector-outcome1611833775613"
-        },
-        "label": "Approve",
-        "targetLabel": "Update Mentor Record to Approved",
-        "type": {
-          "startPlug": "behind",
-          "color": "hsla(219, 79%, 66%, 0.6)",
-          "size": 3,
-          "path": "magnet"
-        }
-      },
-      {
-        "source": "connector-outcome1611833780588",
-        "target": "node1611833855780",
-        "id": "line-1613390535397",
-        "instance": {
-          "id": "line-1613390535397",
-          "anchor": "connector-outcome1611833780588"
-        },
-        "label": "Reject",
-        "targetLabel": "Update Mentor Record to Rejected",
+        "targetLabel": "Inv Company User Approve",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -707,12 +1433,9 @@
         "source": "connector-outcome1611833935884",
         "target": "node1611833959036",
         "id": "line-1613390541723",
-        "instance": {
-          "id": "line-1613390541723",
-          "anchor": "connector-outcome1611833935884"
-        },
+        "instance": {},
         "label": "Approve",
-        "targetLabel": "Update SME Record to Approved",
+        "targetLabel": "Update Company User Record to Approved",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -724,12 +1447,9 @@
         "source": "connector-outcome1611833939844",
         "target": "node1611833988292",
         "id": "line-1613390545107",
-        "instance": {
-          "id": "line-1613390545107",
-          "anchor": "connector-outcome1611833939844"
-        },
+        "instance": {},
         "label": "Reject",
-        "targetLabel": "Update SME Record to Rejected",
+        "targetLabel": "Update Company User Record to Rejected",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -741,10 +1461,7 @@
         "source": "connector-outcome1612433969070",
         "target": "node1612433984022",
         "id": "line-1613390548019",
-        "instance": {
-          "id": "line-1613390548019",
-          "anchor": "connector-outcome1612433969070"
-        },
+        "instance": {},
         "label": "Approve",
         "targetLabel": "Update Investor Record to Approved",
         "type": {
@@ -758,10 +1475,7 @@
         "source": "connector-outcome1612433972102",
         "target": "node1612434016566",
         "id": "line-1613390551406",
-        "instance": {
-          "id": "line-1613390551406",
-          "anchor": "connector-outcome1612433972102"
-        },
+        "instance": {},
         "label": "Reject",
         "targetLabel": "Update Investor Record to Rejected",
         "type": {
@@ -775,10 +1489,7 @@
         "source": "node1611833855780-right",
         "target": "node1613473517798",
         "id": "line-1613473537485",
-        "instance": {
-          "id": "line-1613473537485",
-          "anchor": "node1611833855780-right"
-        },
+        "instance": {},
         "label": "Update Mentor Record to Rejected",
         "targetLabel": "User Task",
         "type": {
@@ -792,10 +1503,7 @@
         "source": "connector-outcome1613473525562",
         "target": "node1613473543170",
         "id": "line-1613473585930",
-        "instance": {
-          "id": "line-1613473585930",
-          "anchor": "connector-outcome1613473525562"
-        },
+        "instance": {},
         "label": "Ok",
         "targetLabel": "Notification Message - Rejected",
         "type": {
@@ -809,12 +1517,9 @@
         "source": "node1613473543170-right",
         "target": "node1612947861497",
         "id": "line-1613473588012",
-        "instance": {
-          "id": "line-1613473588012",
-          "anchor": "node1613473543170-right"
-        },
+        "instance": {},
         "label": "Notification Message - Rejected",
-        "targetLabel": "Update Record to Complete SME",
+        "targetLabel": "Update Record to Complete Company User",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -826,11 +1531,8 @@
         "source": "node1611833988292-right",
         "target": "node1613473517798",
         "id": "line-1613474344320",
-        "instance": {
-          "id": "line-1613474344320",
-          "anchor": "node1611833988292-right"
-        },
-        "label": "Update SME Record to Rejected",
+        "instance": {},
+        "label": "Update Company User Record to Rejected",
         "targetLabel": "User Task - Rejected",
         "type": {
           "startPlug": "behind",
@@ -843,29 +1545,9 @@
         "source": "node1612434016566-right",
         "target": "node1613473517798",
         "id": "line-1613474349984",
-        "instance": {
-          "id": "line-1613474349984",
-          "anchor": "node1612434016566-right"
-        },
+        "instance": {},
         "label": "Update Investor Record to Rejected",
         "targetLabel": "User Task - Rejected",
-        "type": {
-          "startPlug": "behind",
-          "color": "hsla(219, 79%, 66%, 0.6)",
-          "size": 3,
-          "path": "magnet"
-        }
-      },
-      {
-        "source": "node1611833800212-right",
-        "target": "node1614619444841",
-        "id": "line-1614619469028",
-        "instance": {
-          "id": "line-1614619469028",
-          "anchor": "node1611833800212-right"
-        },
-        "label": "Update Mentor Record to Approved",
-        "targetLabel": "Mentor Complete Application",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -877,12 +1559,9 @@
         "source": "node1611833959036-right",
         "target": "node1614618844448",
         "id": "line-1614774562537",
-        "instance": {
-          "id": "line-1614774562537",
-          "anchor": "node1611833959036-right"
-        },
-        "label": "Update SME Record to Approved",
-        "targetLabel": "SME Completed Application",
+        "instance": {},
+        "label": "Update Company User Record to Approved",
+        "targetLabel": "Company User Completed Application",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -894,12 +1573,9 @@
         "source": "node1614619444841-right",
         "target": "node1614774807685",
         "id": "line-1614774996159",
-        "instance": {
-          "id": "line-1614774996159",
-          "anchor": "node1614619444841-right"
-        },
+        "instance": {},
         "label": "Mentor Complete Application",
-        "targetLabel": "User Task - Accepted (RESPONSE TO SME)",
+        "targetLabel": "User Task - Accepted (RESPONSE TO Company User)",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -911,11 +1587,8 @@
         "source": "node1614618844448-right",
         "target": "node1613473404020",
         "id": "line-1614774997853",
-        "instance": {
-          "id": "line-1614774997853",
-          "anchor": "node1614618844448-right"
-        },
-        "label": "SME Completed Application",
+        "instance": {},
+        "label": "Company User Completed Application",
         "targetLabel": "User Task - Accepted (RESPONSE TO MENTOR)",
         "type": {
           "startPlug": "behind",
@@ -928,12 +1601,9 @@
         "source": "connector-outcome1614774820150",
         "target": "node1612947861497",
         "id": "line-1614776233598",
-        "instance": {
-          "id": "line-1614776233598",
-          "anchor": "connector-outcome1614774820150"
-        },
+        "instance": {},
         "label": "Ok",
-        "targetLabel": "Update Record to Complete SME",
+        "targetLabel": "Update Record to Complete Company User",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -945,12 +1615,9 @@
         "source": "connector-outcome1614775257070",
         "target": "node1612947861497",
         "id": "line-1614776236085",
-        "instance": {
-          "id": "line-1614776236085",
-          "anchor": "connector-outcome1614775257070"
-        },
+        "instance": {},
         "label": "Ok",
-        "targetLabel": "Update Record to Complete SME",
+        "targetLabel": "Update Record to Complete Company User",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -962,12 +1629,9 @@
         "source": "connector-outcome1613473491711",
         "target": "node1612947861497",
         "id": "line-1614776239405",
-        "instance": {
-          "id": "line-1614776239405",
-          "anchor": "connector-outcome1613473491711"
-        },
+        "instance": {},
         "label": "Ok",
-        "targetLabel": "Update Record to Complete SME",
+        "targetLabel": "Update Record to Complete Company User",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -979,11 +1643,8 @@
         "source": "node1615298793681-right",
         "target": "node1614775225013",
         "id": "line-1615298823697",
-        "instance": {
-          "id": "line-1615298823697",
-          "anchor": "node1615298793681-right"
-        },
-        "label": "SME Complete Application",
+        "instance": {},
+        "label": "Company User Complete Application",
         "targetLabel": "User Task - Accepted (RESPONSE TO INVESTOR)",
         "type": {
           "startPlug": "behind",
@@ -996,12 +1657,9 @@
         "source": "node1612433984022-right",
         "target": "node1615365988261",
         "id": "line-1615367120927",
-        "instance": {
-          "id": "line-1615367120927",
-          "anchor": "node1612433984022-right"
-        },
+        "instance": {},
         "label": "Update Investor Record to Approved",
-        "targetLabel": "Script Task - Save Pitch Investor",
+        "targetLabel": "Script Task - Save Company Investor",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
@@ -1013,20 +1671,878 @@
         "source": "node1615365988261-right",
         "target": "node1615298793681",
         "id": "line-1615367126919",
-        "instance": {
-          "id": "line-1615367126919",
-          "anchor": "node1615365988261-right"
-        },
-        "label": "Script Task - Save Pitch Investor",
-        "targetLabel": "SME Complete Application",
+        "instance": {},
+        "label": "Script Task - Save Company Investor",
+        "targetLabel": "Company User Complete Application",
         "type": {
           "startPlug": "behind",
           "color": "hsla(219, 79%, 66%, 0.6)",
           "size": 3,
           "path": "magnet"
         }
+      },
+      {
+        "source": "connector-outcome1627636994562",
+        "target": "node1627637019660",
+        "endSocket": "left",
+        "id": "line-1627637038579",
+        "instance": {},
+        "label": "Mentor->Mentor",
+        "targetLabel": "Mentor to Mentor Update Record to Pending",
+        "expression": "context.data.name==\"Mentor->Mentor\"",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627637019660-right",
+        "target": "node1627637066160",
+        "endSocket": "left",
+        "id": "line-1627637101434",
+        "instance": {},
+        "label": "Mentor to Mentor Update Record to Pending",
+        "targetLabel": "Mentor User Approve",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1627637076254",
+        "target": "node1627637107656",
+        "endSocket": "left",
+        "id": "line-1627637188494",
+        "instance": {},
+        "label": "Approve",
+        "targetLabel": "Update Mentor User Record to Approved",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1627637079118",
+        "target": "node1627637192950",
+        "endSocket": "left",
+        "id": "line-1627637230513",
+        "instance": {},
+        "label": "Reject",
+        "targetLabel": "Update Mentor User Record to Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627637107656-right",
+        "target": "node1627637250381",
+        "endSocket": "left",
+        "id": "line-1627637273623",
+        "instance": {},
+        "label": "Update Mentor User Record to Approved",
+        "targetLabel": "Script Task - Add Mentor to Cohort",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627637192950-right",
+        "target": "node1613473517798",
+        "endSocket": "left",
+        "id": "line-1627637332637",
+        "instance": {},
+        "label": "Update Mentor User Record to Rejected",
+        "targetLabel": "User Task - Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1627638683328",
+        "target": "node1627638700226",
+        "endSocket": "left",
+        "id": "line-1627638730743",
+        "instance": {},
+        "label": "Mentor->Investor",
+        "targetLabel": "Mentor to Investor Update Recored to Pending",
+        "expression": "context.data.name==\"Mentor->Investor\"",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627638700226-right",
+        "target": "node1627638740089",
+        "endSocket": "left",
+        "id": "line-1627638770981",
+        "instance": {},
+        "label": "Mentor to Investor Update Recored to Pending",
+        "targetLabel": "Investor User Approve",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1627638763422",
+        "target": "node1627638773916",
+        "endSocket": "left",
+        "id": "line-1627638790878",
+        "instance": {},
+        "label": "Approve",
+        "targetLabel": "Update Investor User Recored to Approved",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1627638767266",
+        "target": "node1627638811992",
+        "endSocket": "left",
+        "id": "line-1627638846284",
+        "instance": {},
+        "label": "Reject",
+        "targetLabel": "Update Investor User Record to Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627638811992-right",
+        "target": "node1613473517798",
+        "endSocket": "left",
+        "id": "line-1627638857166",
+        "instance": {},
+        "label": "Update Investor User Record to Rejected",
+        "targetLabel": "User Task - Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627637250381-right",
+        "target": "node1627638881233",
+        "endSocket": "left",
+        "id": "line-1627638912208",
+        "instance": {},
+        "label": "Script Task - Add Mentor to Cohort",
+        "targetLabel": "Mentor User Complete Application",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627638881233-right",
+        "target": "node1627638942188",
+        "endSocket": "left",
+        "id": "line-1627638975943",
+        "instance": {},
+        "label": "Mentor User Complete Application",
+        "targetLabel": "User Task- Accepted (Response to Mentor)",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1627638966778",
+        "target": "node1612947861497",
+        "endSocket": "left",
+        "id": "line-1627638982884",
+        "instance": {},
+        "label": "Ok",
+        "targetLabel": "Update Record to Complete Company User",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1627983063228",
+        "target": "node1627983117855",
+        "endSocket": "left",
+        "id": "line-1627983121608",
+        "instance": {},
+        "label": "ProgrammePartner->Investor",
+        "targetLabel": "Update Record",
+        "expression": "context.data.name==\"ProgrammePartner->Investor\"",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1627983097658",
+        "target": "node1627983146710",
+        "endSocket": "left",
+        "id": "line-1627983149189",
+        "instance": {},
+        "label": "ProgrammePartner->CompanyUser",
+        "targetLabel": "Update Record",
+        "expression": "context.data.name==\"ProgrammePartner->CompanyUser\"",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627983117855-right",
+        "target": "node1627983267357",
+        "endSocket": "left",
+        "id": "line-1627983283771",
+        "instance": {},
+        "label": "Programme Partner to Investor Update Record to Pending",
+        "targetLabel": "Investor User to Approve",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627983146710-right",
+        "target": "node1627983360375",
+        "endSocket": "left",
+        "id": "line-1627983371552",
+        "instance": {},
+        "label": "Programme Partner to Company User Update Record to Pending",
+        "targetLabel": "Company User to Approve",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1627983289781",
+        "target": "node1627983340776",
+        "endSocket": "left",
+        "id": "line-1627983411574",
+        "instance": {},
+        "label": "Approve",
+        "targetLabel": "Update Investor User Record to Approved",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1627983375646",
+        "target": "node1627983415924",
+        "endSocket": "left",
+        "id": "line-1627983430008",
+        "instance": {},
+        "label": "Approve",
+        "targetLabel": "Update Company User Record to Approved",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1627983292498",
+        "target": "node1627983451056",
+        "endSocket": "left",
+        "id": "line-1627983495062",
+        "instance": {},
+        "label": "Reject",
+        "targetLabel": "Update Investor User Record to Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1627983378324",
+        "target": "node1627983469708",
+        "endSocket": "left",
+        "id": "line-1627983515127",
+        "instance": {},
+        "label": "Reject",
+        "targetLabel": "Update Company User Record to Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627983340776-right",
+        "target": "node1627983523910",
+        "endSocket": "left",
+        "id": "line-1627983563722",
+        "instance": {},
+        "label": "Update Investor User Record to Approved",
+        "targetLabel": "Investor User Complete",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627983451056-right",
+        "target": "node1613473517798",
+        "endSocket": "left",
+        "id": "line-1627983572490",
+        "instance": {},
+        "label": "Update Investor User Record to Rejected",
+        "targetLabel": "User Task - Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627983469708-right",
+        "target": "node1613473517798",
+        "endSocket": "left",
+        "id": "line-1627983581411",
+        "instance": {},
+        "label": "Update Company User Record to Rejected",
+        "targetLabel": "User Task - Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627983415924-right",
+        "target": "node1627983598065",
+        "endSocket": "left",
+        "id": "line-1627983621412",
+        "instance": {},
+        "label": "Update Company User Record to Approved",
+        "targetLabel": "Company User Complete",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627983523910-right",
+        "target": "node1627983679421",
+        "endSocket": "left",
+        "id": "line-1627983752917",
+        "instance": {},
+        "label": "Investor User Complete Application",
+        "targetLabel": "User Task - Accepted (Response to Programme Partner)",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627983598065-right",
+        "target": "node1627983679421",
+        "endSocket": "left",
+        "id": "line-1627983754501",
+        "instance": {},
+        "label": "Company User Complete Application",
+        "targetLabel": "User Task - Accepted (Response to Programme Partner)",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1627998782153",
+        "target": "node1627998810622",
+        "endSocket": "left",
+        "id": "line-1627998858374",
+        "instance": {},
+        "label": "ProgrammePartner->Mentor",
+        "targetLabel": "Programme Partner to Mentor Update Record to Pending",
+        "expression": "context.data.name==\"ProgrammePartner->Mentor\"",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627998810622-right",
+        "target": "node1627998863720",
+        "endSocket": "left",
+        "id": "line-1627998887138",
+        "instance": {},
+        "label": "Programme Partner to Mentor Update Record to Pending",
+        "targetLabel": "Mentor to Approve",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1627998934892",
+        "target": "node1627998937399",
+        "endSocket": "left",
+        "id": "line-1627998957958",
+        "instance": {},
+        "label": "Reject",
+        "targetLabel": "Update Mentor User Record to Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1627998932103",
+        "target": "node1627998959897",
+        "endSocket": "left",
+        "id": "line-1627998974624",
+        "instance": {},
+        "label": "Approve",
+        "targetLabel": "Update Mentor User Record to Accepted",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627998937399-right",
+        "target": "node1613473517798",
+        "endSocket": "left",
+        "id": "line-1627999063145",
+        "instance": {},
+        "label": "Update Mentor User Record to Rejected",
+        "targetLabel": "User Task - Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627999036173-right",
+        "target": "node1627983679421",
+        "endSocket": "left",
+        "id": "line-1627999113803",
+        "instance": {},
+        "label": "Company User Complete Application",
+        "targetLabel": "User Task - Accepted (Response to Programme Partner)",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627998959897-right",
+        "target": "node1629105462389",
+        "endSocket": "left",
+        "id": "line-1629105481505",
+        "instance": {},
+        "label": "Update Mentor User Record to Accepted",
+        "targetLabel": "Script Task - ProgrammePartner Add Mentor to Cohort",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1629105462389-right",
+        "target": "node1627999036173",
+        "endSocket": "left",
+        "id": "line-1629105491284",
+        "instance": {},
+        "label": "Script Task - ProgrammePartner Add Mentor to Cohort",
+        "targetLabel": "Company User Complete Application",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627638773916-right",
+        "target": "node1629118346131",
+        "endSocket": "left",
+        "id": "line-1629118432934",
+        "instance": {},
+        "label": "Update Mentor to Investor User Record to Approved",
+        "targetLabel": "Script Task - Add Investor to Cohort",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1629118346131-right",
+        "target": "node1629118437613",
+        "endSocket": "left",
+        "id": "line-1629118474948",
+        "instance": {},
+        "label": "Script Task - Add Investor to Cohort",
+        "targetLabel": "Investor User Complete Application",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1629118437613-right",
+        "target": "node1627638942188",
+        "endSocket": "left",
+        "id": "line-1629118476953",
+        "instance": {},
+        "label": "Investor User Complete Application",
+        "targetLabel": "User Task- Accepted (Response to Mentor)",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1611833800212-right",
+        "target": "node1629205641008",
+        "endSocket": "left",
+        "id": "line-1629205746667",
+        "instance": {},
+        "label": "Update Mentor Record to Approved",
+        "targetLabel": "Script Task - Add Company to Cohort",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1629205641008-right",
+        "target": "node1614619444841",
+        "endSocket": "left",
+        "id": "line-1629205750717",
+        "instance": {},
+        "label": "Script Task - Add Company to Cohort",
+        "targetLabel": "Mentor Complete Application",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1629205961866",
+        "target": "node1611833855780",
+        "endSocket": "left",
+        "id": "line-1629205965090",
+        "instance": {},
+        "label": "Reject",
+        "targetLabel": "Update Mentor Record to Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1611833627559",
+        "target": "node1611833690100",
+        "endSocket": "left",
+        "id": "line-1629383345985",
+        "instance": {},
+        "label": "CompanyUser->Mentor",
+        "targetLabel": "Mentor Update Record to Pending",
+        "expression": "context.data.name == \"CompanyUser->Mentor\"",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1629205958642",
+        "target": "node1629382169237",
+        "endSocket": "left",
+        "id": "line-1629383351230",
+        "instance": {},
+        "label": "Approve (Add company to selected cohort)",
+        "targetLabel": "Send Email - Mentor->Company Approval",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1629382169237-right",
+        "target": "node1611833800212",
+        "endSocket": "left",
+        "id": "line-1629383534263",
+        "instance": {},
+        "label": "Send Email - Mentor->Company (Mentor Approval)",
+        "targetLabel": "Update Mentor Record to Approved",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1629386722309-right",
+        "target": "node1629386783323",
+        "endSocket": "left",
+        "id": "line-1629386818788",
+        "instance": {},
+        "label": "CompanyUser-Mentor(inCohort) - Update Recrd to Pending",
+        "targetLabel": "Mentor to Approve (inCohort)",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1629386813983",
+        "target": "node1629386824686",
+        "endSocket": "left",
+        "id": "line-1629386854206",
+        "instance": {},
+        "label": "Reject",
+        "targetLabel": "Update Record Mentor User to Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1629386811224",
+        "target": "node1629386859679",
+        "endSocket": "left",
+        "id": "line-1629386882477",
+        "instance": {},
+        "label": "Approve",
+        "targetLabel": "Update Record to Approved (inCohort)",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1629386859679-right",
+        "target": "node1629386928891",
+        "endSocket": "left",
+        "id": "line-1629386971311",
+        "instance": {},
+        "label": "Update Record to Approved (inCohort)",
+        "targetLabel": "Company User Complete Application (inCohort)",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1629386928891-right",
+        "target": "node1627983679421",
+        "endSocket": "left",
+        "id": "line-1629386973245",
+        "instance": {},
+        "label": "Company User Complete Application (inCohort)",
+        "targetLabel": "User Task - Accepted (Response to Programme Partner)",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1629386824686-right",
+        "target": "node1613473517798",
+        "endSocket": "left",
+        "id": "line-1629386982491",
+        "instance": {},
+        "label": "Update Record Mentor User to Rejected",
+        "targetLabel": "User Task - Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1629389508939",
+        "target": "node1629386722309",
+        "endSocket": "left",
+        "id": "line-1629389553480",
+        "instance": {},
+        "label": "inCohort->CompanyUser->Mentor",
+        "targetLabel": "CompanyUser-Mentor(inCohort) - Update Record to Pending",
+        "expression": "context.data.name == \"inCohort->CompanyUser->Mentor\"",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1629447819359",
+        "target": "node1629386722309",
+        "endSocket": "left",
+        "id": "line-1629447836673",
+        "instance": {},
+        "label": "CompanyUser->Mentor(inCohort)",
+        "targetLabel": "CompanyUsers Update Record to Pending",
+        "expression": "context.data.name == \"inCohort->CompanyUser->Mentor\"",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
       }
-    ]
+    ],
+    "transform": {
+      "x": 1757.8946853829912,
+      "y": -16.80450867229439,
+      "scale": 0.7885675405950233
+    }
   },
   "name": "All Applications"
 }

@@ -1,0 +1,119 @@
+{
+  "data": {
+    "metaData": {
+      "id": "",
+      "statusField": "bugsAndIssues.status.requestStatus"
+    },
+    "nodes": [
+      {
+        "id": "node1630592827676",
+        "x": 977,
+        "y": 191.00000000000003,
+        "width": 102.890625,
+        "height": 40,
+        "name": "end-event",
+        "clazz": "endEvent",
+        "label": "End Event",
+        "icon": "stop-circle",
+        "iconColor": "hsl(348, 91%, 59%)"
+      },
+      {
+        "id": "node1630592939561",
+        "x": 156.99999999999994,
+        "y": 195,
+        "width": 200,
+        "height": 40,
+        "name": "update-record",
+        "clazz": "updateRecord",
+        "label": "Update Record to Pending",
+        "icon": "pen",
+        "iconColor": "hsl(189, 87%, 50%)",
+        "attachment": {
+          "field": "bugsAndIssues / status",
+          "fieldValue": "'-MMAZ0kulxDXyGd3s74U'",
+          "color": "#fb6341"
+        }
+      },
+      {
+        "id": "node1630592979035",
+        "x": -65.00000000000003,
+        "y": 194,
+        "width": 111.46874237060547,
+        "height": 40,
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": "flag",
+        "iconColor": "hsl(154, 64%, 49%)"
+      },
+      {
+        "id": "node1630593002833",
+        "x": 461,
+        "y": 194,
+        "width": 104.53125,
+        "height": 40,
+        "name": "update-record",
+        "clazz": "updateRecord",
+        "label": "Submitted",
+        "icon": "pen",
+        "iconColor": "hsl(189, 87%, 50%)",
+        "attachment": {
+          "color": "#2dcd88",
+          "field": "bugsAndIssues / userSubmitted",
+          "fieldValue": "true"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1630592979035-right",
+        "target": "node1630592939561",
+        "endSocket": "left",
+        "id": "line-1630592982429",
+        "instance": {},
+        "label": "Start Event",
+        "targetLabel": "Update Record",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1630592939561-right",
+        "target": "node1630593002833",
+        "endSocket": "left",
+        "id": "line-1630593017067",
+        "instance": {},
+        "label": "Update Record to Pending",
+        "targetLabel": "Submitted",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1630593002833-right",
+        "target": "node1630592827676",
+        "endSocket": "left",
+        "id": "line-1630593096891",
+        "instance": {},
+        "label": "Submitted",
+        "targetLabel": "End Event",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ]
+  },
+  "name": "Submit Bug"
+}

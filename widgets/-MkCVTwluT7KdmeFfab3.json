@@ -1,0 +1,21 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 14,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "styles": "",
+  "subTab": "-MkCVTuIqi9NZ6wuyZRJ",
+  "subtab": "-MkCVTuIqi9NZ6wuyZRJ",
+  "tab": "-MVGOMA1-ifNurWKHxUf",
+  "template": "<center class=\"profileValidation thanksMessage\">\r\n\r\n\r\n  <div v-if=\"$getUser('profileID') != null && $getUser('accountType') == 'Mentor' || $getUser('accountType') == 'CompanyUser' || $getUser('accountType') == 'ProgrammePartner' || $getUser('accountType') == 'Investor'\" data-w-id=\"TextBlock 10\" style=\"opacity: 1; \" class=\"hero-text thankstext\">\r\n    <div style=\"margin-top: 15%;\" class=\"row justify-content-center\">\r\n      <span class=\"thankyou\">Thank you for creating your profile.</span>\r\n    </div>\r\n    <br>\r\n    <div class=\"row justify-content-center\">\r\n      <span style=\"font-size: 0.4em; letter-spacing: 0em;\">You'll be able to access your dashboard once your profile has been approved.</span>\r\n    </div>\r\n  </div>\r\n\r\n  <div v-if=\"$getUser('accountType') == 'NONE'\" data-w-id=\"TextBlock 10\" style=\"opacity: 1; \" class=\"hero-text\">\r\n    <br><span class=\"intro\">Investment Portal</span>\r\n    <br>\r\n    <br>\r\n    <span class=\"choose\" style=\"letter-spacing: 0em;\">Please choose your account type below</span>\r\n  </div>\r\n\r\n\r\n</center>\r\n\r\n<div style=\"display:none\">{{portalLoginFlow()}}</div>",
+  "title": ""
+}

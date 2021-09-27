@@ -12,11 +12,11 @@ return function (){
         $setCurrentSubTab('-MTBSXRo7VKGCRMOGIan','-MJq8S1suwASZ84EkCd5')
     }
 
-    if (accountType == 'SME' )
+    if (accountType == 'CompanyUser' )
     {
         $setCurrentSubTab('-MTBSZYoq9-9f1tu4YCX','-MJq8S1suwASZ84EkCd5')
     } 
-    if (accountType == 'PP' )
+    if (accountType == 'ProgrammePartner' )
     {
         $setCurrentSubTab('-MTBSaaRHir6-J4UBJuR','-MJq8S1suwASZ84EkCd5')
     } 

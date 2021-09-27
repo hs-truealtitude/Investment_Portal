@@ -1,0 +1,23 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 1,
+    "w": 24,
+    "x": 0,
+    "y": 3
+  },
+  "hidden": true,
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subTab": "-MfY4NybO1sdtmy-6T9D",
+  "subtab": "-MfY4NybO1sdtmy-6T9D",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<div class=\"row\" style=\"justify-content: center; height: 100%;  align-items: flex-end;\">\r\n  <button type=\"button\" class=\"myButton\" @click='createCohort($getUser(\"accountType\"), null , null, null, $getUser(\"profileID\"))'>\r\n    Create a Cohort\r\n    <break></break>\r\n            <i style=\"padding-left: 10px;\" class=\"far fa-plus-square\"></i>\r\n  </button>\r\n</div>",
+  "title": ""
+}

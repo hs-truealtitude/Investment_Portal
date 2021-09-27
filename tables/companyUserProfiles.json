@@ -1,0 +1,27 @@
+{
+  "-MkCt4HXbnk2U45svnTL": {
+    "_created": true,
+    "_id": 1,
+    "accType": "-MKorrb_8VyMmc1xRWzh",
+    "adminRejected": "",
+    "createdDate": 1632320641032,
+    "dateOfBirth": 1536188400000,
+    "isApproved": true,
+    "lastEditDate": 1632320674926,
+    "lastEditedBy": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "linkedInProfileLink": "https://www.linkedin.com/company/true-altitude/",
+    "location": "-MJwtgUqBjMrFNntf6GH",
+    "name": "Support",
+    "nextEvents": "Approve,Reject",
+    "owner": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "profileImage": {
+      "fileName": "ce377de0-1bb0-11ec-a291-47580e4c14f1_datagrid_profile_img.png",
+      "url": "https://firebasestorage.googleapis.com/v0/b/investment-portal---stage.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2Fce377de0-1bb0-11ec-a291-47580e4c14f1_datagrid_profile_img.png?alt=media&token=3ebd1f64-7b1c-4b05-ace8-03c43d833260"
+    },
+    "rowKey": "-MkCt4HXbnk2U45svnTL",
+    "secondName": "True Altitude",
+    "state": "Accepted",
+    "submitPressed": true,
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2"
+  }
+}

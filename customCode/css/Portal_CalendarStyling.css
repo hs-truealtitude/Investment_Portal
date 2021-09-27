@@ -1,0 +1,18 @@
+.fc-widget-header{
+    color: black !important;
+    border: black !important;
+}
+
+.fc-time-grid-event {
+    background-color: #ef4437 !important;
+}
+
+.flatpickr-day.selected{
+    background-color: #ef4437 !important;
+    border-color: black !important;
+    color: black !important;
+}
+
+.fc-time span{
+    color: black;
+}

@@ -2,6 +2,12 @@
   "displayColumn": "name",
   "isReactive": true,
   "meta": {
+    "company": {
+      "displayName": "company",
+      "lookUpTable": "companyProfiles",
+      "order": 10,
+      "type": "lookup"
+    },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": false,
@@ -26,6 +32,11 @@
       "order": "8",
       "type": "user"
     },
+    "layout": {
+      "displayName": "Layout",
+      "order": 11,
+      "type": "select"
+    },
     "name": {
       "displayName": "Name of contract",
       "invisible": false,
@@ -43,12 +54,6 @@
       "invisible": false,
       "order": "5",
       "type": "user"
-    },
-    "pitch": {
-      "displayName": "Pitch",
-      "lookUpTable": "slingshotPitches",
-      "order": 10,
-      "type": "lookup"
     },
     "startDate": {
       "displayName": "Start Date",
@@ -529,7 +534,7 @@
                 "type": "lookup",
                 "name": "control_lookup_91269",
                 "fieldName": "control_lookup_91269",
-                "label": "Pitch",
+                "label": "company",
                 "order": 0,
                 "defaultValue": "",
                 "value": "",
@@ -566,7 +571,7 @@
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "pitch",
+                "propName": "company",
                 "ableToAddLookUpVal": true,
                 "gridId": "commercialContracts"
               }
@@ -578,6 +583,64 @@
         "minInstance": 1,
         "maxInstance": 0,
         "instances": []
+      },
+      {
+        "cleintKey": "hidden_section_d8f89e60-fe6b-11eb-8b02-1947c31ab3cb",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_d8f89e60-fe6b-11eb-8b02-1947c31ab3cb",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_d8f89e60-fe6b-11eb-8b02-1947c31ab3cb_row_d8f89e61-fe6b-11eb-8b02-1947c31ab3cb",
+            "controls": [
+              {
+                "type": "select",
+                "name": "control_dab0fcc0-fe6b-11eb-8b02-1947c31ab3cb",
+                "fieldName": "control_dab0fcc0-fe6b-11eb-8b02-1947c31ab3cb",
+                "label": "Layout",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "layout"
+              }
+            ]
+          }
+        ]
       }
     ],
     "layout": "collapse",
@@ -589,6 +652,9 @@
   "views": {
     "cardList": {
       "meta": {
+        "company": {
+          "order": 10
+        },
         "createdDate": {
           "invisible": false,
           "order": "4"
@@ -605,6 +671,9 @@
           "invisible": false,
           "order": "8"
         },
+        "layout": {
+          "order": 11
+        },
         "name": {
           "invisible": false,
           "order": "0"
@@ -616,9 +685,6 @@
         "owner": {
           "invisible": false,
           "order": "5"
-        },
-        "pitch": {
-          "order": 10
         },
         "startDate": {
           "invisible": false,

@@ -1,0 +1,462 @@
+/*--Admin Dashboard Navigation Cards--
+.about {
+   $cubic: cubic-bezier(0.64, 0.01, 0.07, 1.65);
+   $transition: 0.6s $cubic;
+   $size: 40px;
+   position: fixed;
+   z-index: 10;
+   bottom: 10px;
+   right: 10px;
+   width: $size;
+   height: $size;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   transition: all 0.2s ease;
+}
+
+.content {
+   max-width: 1024px;
+   width: 100%;
+   padding: 0 4%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+   .content {
+      padding-top: 300px;
+      flex-direction: column;
+   }
+}
+
+.Ncard {
+   width: 100%;
+   max-width: 300px;
+   min-width: 200px;
+   height: 250px;
+   margin: 10px;
+   border-radius: 10px;
+   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+   border: 2px solid rgba(7, 7, 7, 0.12);
+   font-size: 16px;   
+   transition: all 0.3s ease;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background-color: white !important;
+   top: 150px;
+}
+
+.icon {
+   margin: 0 auto;
+   width: 100%;
+   height: 80px;
+   max-width:80px;
+   background: linear-gradient(90deg, #B3AB6B 0%, #B3AB6B 40%, rgba(0, 0, 0, 0.28) 60%);
+   border-radius: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   transition: all 0.8s ease;
+   background-position: 0px;
+   background-size: 200px;
+}
+
+.Ncard .title {
+   
+   width: 90%;
+   margin: 0;
+   text-align: center;
+   margin-top: 30px;
+   color: black;
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   font-family: Open Sans, sans-serif;
+
+}
+
+.Ncard .title p{
+        
+}
+
+.Ncard .text {
+   width: 70%;
+   margin: 0 auto;
+   font-size: 13px;
+   text-align: center;
+   margin-top: 20px;
+   color: black;
+   font-weight: 200;
+   letter-spacing: 2px;
+   opacity: 0;
+   max-height:0;
+   transition: all 0.3s ease;
+}
+
+.Ncard:hover {
+   height: 300px;
+}
+
+.Ncard:hover .info {
+   height: 90%;
+}
+
+.Ncard:hover .text {
+   transition: all 0.3s ease;
+   opacity: 1;
+   max-height:40px;
+}
+
+.Ncard:hover .icon {
+   background-position: -120px;
+   transition: all 0.3s ease;
+}
+
+.Ncard:hover .icon i {
+   background: black;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   opacity: 1;
+   transition: all 0.3s ease;
+}
+
+.flexbox-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+*/
+
+.navCards .content {
+   max-width: 1024px;
+   width: 100%;
+   padding: 0 4%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.navCards{
+          margin-top: -30px !important;
+
+}
+
+
+
+
+.navCards .Ncard {
+   width: 100%;
+   max-width: 300px;
+   min-width: 200px;
+   height: 400px;
+   margin: 10px;
+   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+   border: 1px solid black;
+   font-size: 16px;   
+   transition: all 0.9s ease;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background-color: #fffaf3;
+   top: 260px;
+
+}
+
+.navCards .icon {
+   margin: 0 auto;
+   width: 100%;
+   height: 80px;
+   max-width:80px;
+   background: linear-gradient(90deg, rgba(0, 0, 0, 0.28) 0%, 	rgba(0, 0, 0, 0.28) 40%, rgba(239,68,55, 80%) 60%);
+   border-radius: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   transition: all 0.8s ease;
+   background-position: 0px;
+   background-size: 200px;
+}
+
+.navCards .Ncard .title {
+   
+   width: 90%;
+   margin: 0;
+   text-align: center;
+   margin-top: 30px;
+   color: black;
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-family: "Grenette pro", sans-serif;  color: black;
+
+}
+
+.navCards .Ncard .text {
+   width: 70%;
+   margin: 0 auto;
+   font-size: 13px;
+   text-align: center;
+   margin-top: 20px;
+   color: black;
+   font-weight: 200;
+   letter-spacing: 1px;
+   opacity: 0;
+   max-height:0;
+   transition: all 0.3s ease;
+   font-family: "Grenette pro", sans-serif;
+}
+
+.navCards .Ncard:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.64);
+}
+
+.navCards .Ncard .text {
+   transition: all 0.3s ease;
+   opacity: 1;
+   max-height:40px;
+}
+
+.navCards .Ncard:hover .icon {
+   background-position: -120px;
+   transition: all 0.3s ease;
+}
+
+.navCards .Ncard:hover .icon i {
+   background: black;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   opacity: 1;
+   transition: all 0.3s ease;
+}
+
+.navCards .flexbox-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1670px) {
+   .Ncard{
+       width: 270px !important;
+   }
+}
+
+@media screen and (max-width: 1467px) {
+   .Ncard{
+       width: 250px !important;
+   }
+
+   .Ncard .text{
+       font-size: 12px !important;
+   }
+
+      .Ncard .title{
+       font-size: 13px !important;
+   }
+}
+
+@media screen and (max-width: 1370px) {
+   .Ncard{
+       width: 200px;
+   }
+      .navCards {
+      margin-top: -190px;
+   }
+}
+
+@media screen and (max-width: 1140px) and (min-width: 901px) {
+   .Ncard{
+       width: 400px;
+       height: 350px ;
+   }
+   .navCards {
+      margin-top: -190px;
+   }
+}
+
+
+
+/*------------------FRONT CARD------------------*/
+
+/*Company Name*/
+.frontcard .h3{
+    color:black !important;
+    font-size: 19px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+/*Company About*/
+.frontcard .about p{
+    color:black !important;
+}
+
+.frontcard p{
+    font-family: "Grenette pro", sans-serif !important;
+}
+
+.frontcard .rectangle{
+    font-family: "Grenette pro", sans-serif !important;
+}
+
+/*Team heading*/
+.team .h4{
+    color: black;
+    font-weight: 550 !important;
+}
+
+/*Investment Type*/
+.investment p{
+    color: black;
+    font-size: 17px;
+}
+
+.totalfundinground .h4{
+    color: black !important;
+}
+.moneyraisedtodate .h4{
+    color: black !important;
+}
+
+.card{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; 
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* On mouse-over, add a deeper shadow*/
+.card:hover {
+  box-shadow: 0px 12px 16px 2px rgba(0,0,0,0.2);
+}
+
+body{
+    background-color: white !important;
+}
+
+.card-body .card-header{
+    background-color: white !important;
+}
+
+.social-icon-contain {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 2em;
+    height: 2em;
+    padding: 0em;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: white;
+}
+
+.social-icon-contain{
+    color: black;
+}
+
+.social-icon-contain:hover {
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  background-color: #F1F1F1;
+
+}
+
+.investment .rectangle{
+    background-color: #F1F1F1 !important;   
+}
+
+.team .rectangle a{
+    color: black;
+}
+
+
+/*------------------DETAILS CARD------------------*/
+
+/*Tabs*/
+.tab-title-class {
+    color: black !important;  
+    
+    font-size: 18px;
+}
+
+/*Card Title*/
+.grid-stack-item__title{
+    padding-left: 10px;
+}
+
+.details{
+    padding-top: 15px;
+}
+
+.details.row.rectangle{
+    background-color: black !important;
+    color: black;
+}
+
+.details .row{
+    padding-left: 15px;
+    
+}
+
+.company_title{
+    
+    font-weight: 600 !important;
+}
+
+.details{
+    padding-top: 15px;
+    
+}
+
+.details .h4{
+    color: black !important;  
+    font-size: 17px;
+}
+
+.requestCard h1{
+    color: black;
+}
+
+.requestCard p{
+    color: black;
+}
+
+.requestCard a{
+    color: black;
+}
+
+.requestCard h3{
+    color: black;
+}
+
+
+.stats h2{
+    font-family: 'Grenette pro', sans-serif;
+    color: black;
+}

@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/minutesTable",
+  "gsOptions": {
+    "h": 18,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "minutesTable"
+  },
+  "subtab": "-MdR-mIxVsTyGyceRp-C",
+  "tab": "-MKjLdl6pSat-QkUaIYU",
+  "type": "DataGrid"
+}

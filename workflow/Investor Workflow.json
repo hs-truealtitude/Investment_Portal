@@ -1,0 +1,398 @@
+{
+  "data": {
+    "metaData": {
+      "id": "",
+      "statusField": "investorAcceptedcompanyProfiles.status.applicationStatus"
+    },
+    "nodes": [
+      {
+        "id": "node1629967890292",
+        "x": 38,
+        "y": 163,
+        "width": 100,
+        "height": 40,
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "className": "start-event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {}
+      },
+      {
+        "id": "node1629969088938",
+        "x": 520,
+        "y": 163,
+        "width": 178,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Update Record to Pending",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "investorAcceptedcompanyProfiles / status",
+          "fieldValue": "'-MS2D3TANT4YEUz1kO4G'"
+        }
+      },
+      {
+        "id": "node1629969123956",
+        "x": 1066,
+        "y": 133,
+        "width": 158,
+        "height": 100,
+        "clazz": "userTask",
+        "label": "Has Investor Invested?",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "companyUser.companyUserProfiles.owner"
+        },
+        "outcomes": [
+          {
+            "text": "Approve",
+            "id": "outcome1629969156409",
+            "idx": 1
+          },
+          {
+            "text": "Reject",
+            "id": "outcome1629969161702",
+            "idx": 2
+          }
+        ]
+      },
+      {
+        "id": "node1629969183650",
+        "x": 1564,
+        "y": 163,
+        "width": 200,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Update Record to Invested == True",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "investorAcceptedcompanyProfiles / investorInvested",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1629969323101",
+        "x": 2432,
+        "y": 278,
+        "width": 100,
+        "height": 40,
+        "clazz": "endEvent",
+        "label": "End Event",
+        "className": "end-event",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        },
+        "attachment": {}
+      },
+      {
+        "id": "node1629969357493",
+        "x": 1332,
+        "y": 163,
+        "width": 165,
+        "height": 40,
+        "clazz": "scriptTask",
+        "label": "Investor Approval Email",
+        "className": "script-task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": "//SEND Investor NOTIFICATION EMAIL\r\nlet dbCall = await tablesRef.child('investorProfiles/'+rowData.investor)\r\n      .once('value')\r\nlet results = dbCall.val()\r\n\r\nlet dbCall2 = await tablesRef.child('companyUserProfiles/'+rowData.companyUser)\r\n      .once('value')\r\nlet results2 = dbCall2.val()\r\n\r\nlet dbCall3 = await tablesRef.child('companyProfiles/'+rowData.companyProfiles)\r\n      .once('value')\r\nlet results3 = dbCall3.val()\r\n\r\n$log(results.owner)\r\nconst email = await getUserEmailByUID(results.owner)\r\n\r\n$log(email)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: ' + results3.name + ' has accepted your application!' ,\r\n            text: 'Hi ' + results.name + ', \\n\\r' + 'A company (' + results3.name + ') has accepted your application and has been moved to your Invested In Companies group. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results.name + ', <br/>' + '<br/> A company (' + results3.name + ') has accepted your application been moved to your Invested In Companies group. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+        }
+      },
+      {
+        "id": "node1629969464777",
+        "x": 1330,
+        "y": 217,
+        "width": 167,
+        "height": 40,
+        "clazz": "scriptTask",
+        "label": "Investor Rejection Email",
+        "className": "script-task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": "//SEND Investor NOTIFICATION EMAIL\r\nlet dbCall = await tablesRef.child('investorProfiles/'+rowData.investor)\r\n      .once('value')\r\nlet results = dbCall.val()\r\n\r\nlet dbCall2 = await tablesRef.child('companyUserProfiles/'+rowData.companyUser)\r\n      .once('value')\r\nlet results2 = dbCall2.val()\r\n\r\nlet dbCall3 = await tablesRef.child('companyProfiles/'+rowData.companyProfiles)\r\n      .once('value')\r\nlet results3 = dbCall3.val()\r\n\r\n$log(results.owner)\r\nconst email = await getUserEmailByUID(results.owner)\r\n\r\n$log(email)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: ' + results3.name + ' has rejected your application!' ,\r\n            text: 'Hi ' + results.name + ', \\n\\r' + 'A company (' + results3.name + ') has rejected your application to be moved to your Invested In Companies group. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results.name + ', <br/>' + '<br/> A company (' + results3.name + ') has rejected your application to be moved to your Invested In Companies group. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+        }
+      },
+      {
+        "id": "node1629969593579",
+        "x": 797,
+        "y": 158,
+        "width": 185,
+        "height": 40,
+        "clazz": "scriptTask",
+        "label": "Send Company Notification",
+        "className": "script-task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": "//SEND Company User NOTIFICATION EMAIL\r\nlet dbCall = await tablesRef.child('investorProfiles/'+rowData.investor)\r\n      .once('value')\r\nlet results = dbCall.val()\r\n\r\nlet dbCall2 = await tablesRef.child('companyUserProfiles/'+rowData.companyUser)\r\n      .once('value')\r\nlet results2 = dbCall2.val()\r\n\r\nlet dbCall3 = await tablesRef.child('companyProfiles/'+rowData.companyProfiles)\r\n      .once('value')\r\nlet results3 = dbCall3.val()\r\n\r\nconst email = await getUserEmailByUID(results2.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: An Investor has requested to move you to their Invested In group!',\r\n            text: 'Hi ' + results2.name + ', \\n\\r' + 'Has the Investor ' + results.name + ' invested in ' + results3.name + '? ' + 'Please click here to respond. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results2.name + ', <br/>' + '<br/> Has the Investor ' + results.name + ' invested in ' + results3.name + '? <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+        }
+      },
+      {
+        "id": "node1629969901288",
+        "x": 1584,
+        "y": 386,
+        "width": 160,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Update Record to False",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "investorAcceptedcompanyProfiles / investorInvested",
+          "fieldValue": "false"
+        }
+      },
+      {
+        "id": "node1629971473062",
+        "x": 2166,
+        "y": 248,
+        "width": 132,
+        "height": 71,
+        "clazz": "userTask",
+        "label": "Investor Response",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "investor.investorProfiles.owner"
+        },
+        "outcomes": [
+          {
+            "text": "Ok",
+            "id": "outcome1629971484665",
+            "idx": 1
+          }
+        ]
+      },
+      {
+        "id": "node1630417319658",
+        "x": 1879,
+        "y": 162,
+        "width": 197,
+        "height": 40,
+        "name": "update-record",
+        "clazz": "updateRecord",
+        "label": "Update Record To Approve",
+        "icon": "pen",
+        "iconColor": "hsl(189, 87%, 50%)",
+        "attachment": {
+          "field": "investorAcceptedcompanyProfiles / status",
+          "fieldValue": "'-MS2D3bgt4vWZpZco7Aw'"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "connector-outcome1629969156409",
+        "target": "node1629969357493",
+        "endSocket": "left",
+        "id": "line-1629969451553",
+        "instance": {},
+        "label": "Approve",
+        "targetLabel": "Investor Approval Email",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1629969357493-right",
+        "target": "node1629969183650",
+        "endSocket": "left",
+        "id": "line-1629969454345",
+        "instance": {},
+        "label": "Investor Approval Email",
+        "targetLabel": "Update Record to Invested == True",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1629969161702",
+        "target": "node1629969464777",
+        "endSocket": "left",
+        "id": "line-1629969558029",
+        "instance": {},
+        "label": "Reject",
+        "targetLabel": "Investor Rejection Email",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1629969088938-right",
+        "target": "node1629969593579",
+        "endSocket": "left",
+        "id": "line-1629969890788",
+        "instance": {},
+        "label": "Update Record to Pending",
+        "targetLabel": "Send Company Notification",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1629969593579-right",
+        "target": "node1629969123956",
+        "endSocket": "left",
+        "id": "line-1629969893114",
+        "instance": {},
+        "label": "Send Company Notification",
+        "targetLabel": "Has Investor Invested?",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1629969464777-right",
+        "target": "node1629969901288",
+        "endSocket": "left",
+        "id": "line-1629969930904",
+        "instance": {},
+        "label": "Investor Rejection Email",
+        "targetLabel": "Update Record to False",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1629969901288-right",
+        "target": "node1629971473062",
+        "endSocket": "left",
+        "id": "line-1629971509661",
+        "instance": {},
+        "label": "Update Record to False",
+        "targetLabel": "User Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1629971484665",
+        "target": "node1629969323101",
+        "endSocket": "left",
+        "id": "line-1629971511868",
+        "instance": {},
+        "label": "Ok",
+        "targetLabel": "End Event",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1629967890292-right",
+        "target": "node1629969088938",
+        "endSocket": "left",
+        "id": "line-1630064848897",
+        "instance": {},
+        "label": "Start Event",
+        "targetLabel": "Update Record to Pending",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1629969183650-right",
+        "target": "node1630417319658",
+        "endSocket": "left",
+        "id": "line-1630417460087",
+        "instance": {},
+        "label": "Update Record to Invested == True",
+        "targetLabel": "Update Record To Approve",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1630417319658-right",
+        "target": "node1629971473062",
+        "endSocket": "left",
+        "id": "line-1630417462660",
+        "instance": {},
+        "label": "Update Record To Approve",
+        "targetLabel": "Investor Response",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": 0,
+      "y": 0,
+      "scale": 0.7
+    }
+  },
+  "name": "Investor Workflow"
+}

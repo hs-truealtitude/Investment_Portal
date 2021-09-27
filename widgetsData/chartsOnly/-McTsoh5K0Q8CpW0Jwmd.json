@@ -1,0 +1,27 @@
+{
+  "renderOptions": {
+    "selectedX": [
+      "name"
+    ],
+    "selectedXValues": [
+      {
+        "text": "name",
+        "value": "name"
+      }
+    ],
+    "selectedY": [
+      {
+        "option": "sum",
+        "value": "capitalRaisedToDate"
+      }
+    ],
+    "selectedYValues": [
+      [
+        {
+          "text": "capitalRaisedToDate",
+          "value": "capitalRaisedToDate"
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+.myProfile .rectangle{
+    color: #ef4437 !important;
+}
+
+.myProfile span{
+        color: #ef4437 !important;
+}
+
+.myProfile .d-block{
+    color: black !important;
+}
+
+.myProfile{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.myProfile a{
+    color: #ef4437 !important;
+}

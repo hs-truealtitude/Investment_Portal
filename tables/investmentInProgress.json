@@ -1,0 +1,66 @@
+{
+  "-Mc8avLKzo4HoRkQRhC0": {
+    "_id": 1,
+    "createdDate": 1623658837617,
+    "group": false,
+    "lastEditDate": 1623658887452,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Deal A - i. Initial IC Report",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-Mc8avLKzo4HoRkQRhC0"
+  },
+  "-Mc8axw5bRxvVjbt-D7r": {
+    "_id": 2,
+    "createdDate": 1623658848226,
+    "group": false,
+    "lastEditDate": 1623658897614,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Deal A - ii. DD Report",
+    "rowKey": "-Mc8axw5bRxvVjbt-D7r"
+  },
+  "-Mc8ayZ8VVJuHwhIaNpd": {
+    "_id": 3,
+    "createdDate": 1623658850789,
+    "group": false,
+    "lastEditDate": 1623658939040,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Deal A - iii. Data room",
+    "rowKey": "-Mc8ayZ8VVJuHwhIaNpd"
+  },
+  "-Mc8bBYcIrPIyxPiidNu": {
+    "_id": 4,
+    "createdDate": 1623658908100,
+    "group": false,
+    "lastEditDate": 1623658942836,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Deal A - iv. Valuation Model/Report",
+    "rowKey": "-Mc8bBYcIrPIyxPiidNu"
+  },
+  "-Mc8bC9V4bmpTSTwwfnn": {
+    "_id": 5,
+    "createdDate": 1623658910588,
+    "group": false,
+    "lastEditDate": 1623658953421,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Deal A - v. MoU",
+    "rowKey": "-Mc8bC9V4bmpTSTwwfnn"
+  },
+  "-Mc8bCfmg0Wz8Zmfzkar": {
+    "_id": 6,
+    "createdDate": 1623658912718,
+    "group": false,
+    "lastEditDate": 1623658963048,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Deal A - vi. Legals",
+    "rowKey": "-Mc8bCfmg0Wz8Zmfzkar"
+  },
+  "-Mc8bP-yeojvRBgIa_9q": {
+    "_id": 7,
+    "createdDate": 1623658963226,
+    "group": false,
+    "lastEditDate": 1623658975468,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Deal A - vii. General Correspondence",
+    "rowKey": "-Mc8bP-yeojvRBgIa_9q"
+  }
+}

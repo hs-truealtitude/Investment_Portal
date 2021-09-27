@@ -1,0 +1,272 @@
+{
+  "createEvent": true,
+  "data": {
+    "metaData": {
+      "id": "",
+      "statusField": "companyUserProfiles.accType.accountType"
+    },
+    "nodes": [
+      {
+        "id": "node1626340901423",
+        "x": 327,
+        "y": 287,
+        "width": 103.77501351492747,
+        "height": 40,
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "className": "start-event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {}
+      },
+      {
+        "id": "node1626340945298",
+        "x": 675.2857142857142,
+        "y": 346.4285714285715,
+        "width": 177.687497820173,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Approve Company User",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "companyUserProfiles / isApproved",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1626786795618",
+        "x": 804,
+        "y": 495,
+        "width": 164.57505362374442,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Reject Company User",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "companyUserProfiles / adminRejected",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1626868739722",
+        "x": 1325.7142857142856,
+        "y": 345.5714285714288,
+        "width": 163.77511160714286,
+        "height": 40,
+        "clazz": "scriptTask",
+        "label": "Send Approval Email",
+        "className": "script-task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": "const email = await getUserEmailByUID(rowData.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: Your profile has been verified',\r\n            text: 'Hi ' + rowData.name + ', \\n\\r' + 'We’re pleased to let you know your profile has been verified for the True Altitude portal. It’s time to get connecting! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + rowData.name + ', <br/>' + '<br/> We’re pleased to let you know your profile has been verified for the True Altitude portal. It’s time to get connecting! <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n\r\n"
+        }
+      },
+      {
+        "id": "node1626868777001",
+        "x": 496,
+        "y": 429,
+        "width": 100,
+        "height": 99.59999084472656,
+        "clazz": "userTask",
+        "label": "User Task",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "#general"
+        },
+        "outcomes": [
+          {
+            "text": "Approve",
+            "id": "outcome1626868782407",
+            "idx": 1
+          },
+          {
+            "text": "Reject",
+            "id": "outcome1626868785936",
+            "idx": 2
+          }
+        ]
+      },
+      {
+        "id": "node1626958345032",
+        "x": 1170.142857142857,
+        "y": 528.8571428571429,
+        "width": 100,
+        "height": 40,
+        "clazz": "comment",
+        "label": "Rejected",
+        "className": "comment",
+        "icon": {
+          "name": "comment",
+          "color": "hsl(188, 78%, 41%)"
+        },
+        "attachment": {}
+      },
+      {
+        "id": "node1626958873131",
+        "x": 988.0000000000002,
+        "y": 332.57142857142856,
+        "width": 165.02496991838728,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Admin Rejected False",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "companyUserProfiles / adminRejected",
+          "fieldValue": "false"
+        }
+      },
+      {
+        "id": "node1627031230687",
+        "x": "1590",
+        "y": "407",
+        "width": 100,
+        "height": 39.999964577811106,
+        "clazz": "comment",
+        "label": "Accepted",
+        "className": "comment",
+        "icon": {
+          "name": "comment",
+          "color": "hsl(188, 78%, 41%)"
+        },
+        "attachment": {}
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1626340901423-right",
+        "target": "node1626868777001",
+        "endSocket": "left",
+        "id": "line-1626868789712",
+        "instance": {},
+        "label": "Start Event",
+        "targetLabel": "User Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1626868782407",
+        "target": "node1626340945298",
+        "endSocket": "left",
+        "id": "line-1626868791954",
+        "instance": {},
+        "label": "Approve",
+        "targetLabel": "Approve Company User",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1626868785936",
+        "target": "node1626786795618",
+        "endSocket": "left",
+        "id": "line-1626868793652",
+        "instance": {},
+        "label": "Reject",
+        "targetLabel": "Reject Company User",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1626786795618-right",
+        "target": "node1626958345032",
+        "endSocket": "left",
+        "id": "line-1626958351999",
+        "instance": {},
+        "label": "Reject Company User",
+        "targetLabel": "Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1626340945298-right",
+        "target": "node1626958873131",
+        "endSocket": "left",
+        "id": "line-1626958913924",
+        "instance": {},
+        "label": "Approve Company User",
+        "targetLabel": "Admin Rejected False",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1626958873131-right",
+        "target": "node1626868739722",
+        "endSocket": "left",
+        "id": "line-1626958915881",
+        "instance": {},
+        "label": "Admin Rejected False",
+        "targetLabel": "Send Approval Email",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1626868739722-right",
+        "target": "node1627031230687",
+        "endSocket": "left",
+        "id": "line-1627031232680",
+        "instance": {},
+        "label": "Send Approval Email",
+        "targetLabel": "Comment",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ]
+  },
+  "name": "Approve Company User",
+  "scheduled": false
+}

@@ -1,5 +1,5 @@
 {
-  "dependency": "dataGrid/sMEs",
+  "dependency": "dataGrid/companyUsers",
   "gsOptions": {
     "h": 18,
     "w": 24,
@@ -9,7 +9,7 @@
   "layout": "b-card",
   "overflow": "height: auto",
   "props": {
-    "gridId": "sMEs"
+    "gridId": "companyUsers"
   },
   "tab": "-MRUkGcjzCn_tLNtnbcx",
   "type": "DataGrid"

@@ -1,0 +1,20 @@
+{
+  "classes": "",
+  "dependency": "charts/-MdHwR-ezXKG1orUszFK",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 10,
+    "w": 24,
+    "x": 0,
+    "y": 41
+  },
+  "layout": "b-card",
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-Mciffu8116Yf5oVvpLJ",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<Chart v-if=\"$getGrid('companyProfiles')\" chartId=\"-MdHwR-ezXKG1orUszFK\" :rData=\"$getGrid('companyProfiles')\" :widgetKey=\"widgetKey\" gridId=\"companyProfiles\" />",
+  "title": "Investment valuation, Valuation at next round, and Valuation at latest round"
+}

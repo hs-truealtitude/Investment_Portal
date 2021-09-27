@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 39,
+    "w": 20,
+    "x": 2,
+    "y": 1
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "height:auto",
+  "perPage": 2,
+  "styles": "",
+  "subTab": "-McTOHdSHbPgOnUt6Tdt",
+  "subtab": "-McTOHdSHbPgOnUt6Tdt",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<H1 style=\"color:black;\">{{$getUser('activeCompanyName')}} - Data Room</H1>\r\n<DataGridEditRow gridId=\"companyDatarooms\" :rowKey=\"$getUser('activeDataroom')\" />",
+  "title": ""
+}

@@ -1,0 +1,153 @@
+{
+  "displayColumn": "name",
+  "isReactive": true,
+  "meta": {
+    "lastEditDate": {
+      "displayName": "Last edit date",
+      "invisible": true,
+      "order": 0,
+      "type": "date"
+    },
+    "layout": {
+      "displayName": "Layout",
+      "order": 2,
+      "type": "select"
+    },
+    "name": {
+      "Width": "710px",
+      "displayName": "Name",
+      "invisible": false,
+      "order": 1,
+      "type": "string"
+    }
+  },
+  "rowEditorFieldsForm": {
+    "sections": [
+      {
+        "name": "section_111597",
+        "label": "",
+        "clientKey": "section_111597",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_111597_row_739606",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "text",
+                "name": "control_39485fb2-10a7-11ec-a83f-45108f888a23",
+                "fieldName": "control_39485fb2-10a7-11ec-a83f-45108f888a23",
+                "label": "Name",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "name",
+                "gridId": "companyStage"
+              },
+              {
+                "type": "select",
+                "name": "control_2e626260-1ac2-11ec-a8d1-69a815e4059c",
+                "fieldName": "control_2e626260-1ac2-11ec-a8d1-69a815e4059c",
+                "label": "Layout",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "layout"
+              }
+            ]
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": []
+      },
+      {
+        "cleintKey": "hidden_section_39485fb0-10a7-11ec-a83f-45108f888a23",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_39485fb0-10a7-11ec-a83f-45108f888a23",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_39485fb0-10a7-11ec-a83f-45108f888a23_row_39485fb1-10a7-11ec-a83f-45108f888a23",
+            "controls": []
+          }
+        ]
+      }
+    ],
+    "layout": "collapse",
+    "_uniqueId": 0.30943285383483654
+  },
+  "source": "companyStage",
+  "storageType": "dashboard",
+  "title": "Company Stage"
+}

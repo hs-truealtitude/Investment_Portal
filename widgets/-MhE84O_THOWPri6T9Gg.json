@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/workpackages",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 202
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "workpackages"
+  },
+  "subtab": "-MhE84Ln0vJD29qUO2Gv",
+  "tab": "-MKjMm1cJNwP3sVETeGP",
+  "type": "DataGrid"
+}

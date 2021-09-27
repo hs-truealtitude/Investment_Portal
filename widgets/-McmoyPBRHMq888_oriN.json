@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/companyTypes",
+  "gsOptions": {
+    "h": 18,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "companyTypes"
+  },
+  "subtab": "-McmoSZ2dQFfCvpx_AAf",
+  "tab": "-MKjMRUUg4_Q6hNfvyso",
+  "type": "DataGrid"
+}

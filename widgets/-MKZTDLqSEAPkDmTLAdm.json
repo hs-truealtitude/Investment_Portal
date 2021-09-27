@@ -12,6 +12,6 @@
   "perPage": 2,
   "styles": "",
   "tab": "-MJq8S1suwASZ84EkCd5",
-  "template": "<center>\r\n  <div data-w-id=\"TextBlock 10\" style=\"opacity: 1; padding-top: 20%;\" class=\"hero-text\">\r\n\r\n    <span style=\" color: #ef4437; font-size: 2em; line-height: 1.7; font-weight: 300; letter-spacing: 0em;     font-family: 'Grenette pro', sans-serif;\" class=\"hero-text-small\">Thank you for creating your profile.</span>\r\n\r\n    <br>\r\n    <span style=\" font-size: 1.8em; letter-spacing: 0em;     font-family: 'Grenette pro', sans-serif;\">You'll be able to access your dashboard once your profile has been approved.</span>\r\n\r\n  </div>\r\n</center>\r\n  <div style=\"display:none\">{{portalLoginFlow()}}</div>",
+  "template": "<center class=\"thanksMessage\">\r\n  <div data-w-id=\"TextBlock 10\" style=\"opacity: 1; padding-top: 20%;\" class=\"hero-text\">\r\n\r\n    <span style=\"  font-size: 2em; line-height: 1.7; font-weight: 300; letter-spacing: 0em;     \" class=\"hero-text-small\">Thank you for creating your profile.</span>\r\n\r\n    <br>\r\n    <span style=\" font-size: 1.8em; letter-spacing: 0em;     \">You'll be able to access your dashboard once your profile has been approved.</span>\r\n\r\n  </div>\r\n</center>\r\n  <div style=\"display:none\">{{portalLoginFlow()}}</div>",
   "title": ""
 }

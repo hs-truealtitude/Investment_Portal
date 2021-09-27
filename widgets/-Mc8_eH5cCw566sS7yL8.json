@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/dataroomDocumentGroup",
+  "gsOptions": {
+    "h": 18,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "dataroomDocumentGroup"
+  },
+  "subtab": "-Mc8_eCJS18Yz5tEZmFe",
+  "tab": "-MKjMRUUg4_Q6hNfvyso",
+  "type": "DataGrid"
+}

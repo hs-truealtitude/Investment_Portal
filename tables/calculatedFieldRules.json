@@ -1,0 +1,18 @@
+{
+  "-Mf37UlSH2DY8NL2jXc3": {
+    "_id": 1,
+    "createdDate": 1626788199139,
+    "expression": "rowData.owner",
+    "groupBy": "",
+    "lastEditDate": 1626857837076,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "rowData.owner",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-Mf37UlSH2DY8NL2jXc3",
+    "sourceField": "",
+    "sourceTable": "companyUserProfiles",
+    "targetField": "email",
+    "targetTable": "companyUserProfiles",
+    "type": "expression"
+  }
+}

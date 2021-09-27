@@ -13,6 +13,6 @@
   "styles": "",
   "subtab": "-MTB_p0KnCBD83k4lTzc",
   "tab": "-MJq8S1suwASZ84EkCd5",
-  "template": "<div class=\"row\" style=\"height: 100%; justify-content: center; align-items: flex-end;\">\r\n  <button style=\"margin-left:12px;  margin-top:12px; color: white;\" class=\"btn btn-primary\" @click='$setCurrentSubTab(\"-MTBSU70t54vJ304W7zH\",\"-MJq8S1suwASZ84EkCd5\")'>\r\n    <i class=\"fas fa-arrow-circle-left\"></i>\r\n  <break></break>\r\n    Back\r\n  </button>\r\n</div>",
+  "template": "<div class=\"row fixed-bottom\" style=\"height: 100%; justify-content: center; align-items: flex-end;\">\r\n  <button style=\"margin-left:12px;  margin-top:12px; color: white;\" class=\"btn btn-primary\" @click='$setCurrentSubTab(\"-MTBSU70t54vJ304W7zH\",\"-MJq8S1suwASZ84EkCd5\")'>\r\n    <i class=\"fas fa-arrow-circle-left\"></i>\r\n  <break></break>\r\n    Back\r\n  </button>\r\n</div>",
   "title": ""
 }

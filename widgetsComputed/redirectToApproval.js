@@ -1,4 +1,5 @@
-return async function  () {
+return function  () {
 
         $setCurrentTab('-MVGOMA1-ifNurWKHxUf')
+
 }

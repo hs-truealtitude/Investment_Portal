@@ -2,6 +2,13 @@
   "displayColumn": "name",
   "isReactive": true,
   "meta": {
+    "company": {
+      "displayName": "company",
+      "invisible": false,
+      "lookUpTable": "companyProfiles",
+      "order": "1",
+      "type": "lookup"
+    },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": false,
@@ -27,6 +34,11 @@
       "order": "7",
       "type": "user"
     },
+    "layout": {
+      "displayName": "Layout",
+      "order": 10,
+      "type": "select"
+    },
     "message": {
       "displayName": "Message",
       "invisible": false,
@@ -50,13 +62,6 @@
       "invisible": false,
       "order": "4",
       "type": "user"
-    },
-    "pitch": {
-      "displayName": "Pitch",
-      "invisible": false,
-      "lookUpTable": "slingshotPitches",
-      "order": "1",
-      "type": "lookup"
     },
     "state": {
       "displayName": "State",
@@ -126,7 +131,7 @@
                 "type": "lookup",
                 "name": "control_lookup_253197",
                 "fieldName": "control_lookup_253197",
-                "label": "Pitch",
+                "label": "company",
                 "order": 1,
                 "defaultValue": "",
                 "value": "",
@@ -163,7 +168,7 @@
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "pitch",
+                "propName": "company",
                 "ableToAddLookUpVal": true,
                 "gridId": "interest"
               },
@@ -528,6 +533,64 @@
         "minInstance": 1,
         "maxInstance": 0,
         "instances": []
+      },
+      {
+        "cleintKey": "hidden_section_d9346ee0-fe6b-11eb-8b02-1947c31ab3cb",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_d9346ee0-fe6b-11eb-8b02-1947c31ab3cb",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_d9346ee0-fe6b-11eb-8b02-1947c31ab3cb_row_d9346ee1-fe6b-11eb-8b02-1947c31ab3cb",
+            "controls": [
+              {
+                "type": "select",
+                "name": "control_db67f0b0-fe6b-11eb-8b02-1947c31ab3cb",
+                "fieldName": "control_db67f0b0-fe6b-11eb-8b02-1947c31ab3cb",
+                "label": "Layout",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "layout"
+              }
+            ]
+          }
+        ]
       }
     ],
     "layout": "collapse",

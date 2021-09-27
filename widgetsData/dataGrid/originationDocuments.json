@@ -1,0 +1,198 @@
+{
+  "displayColumn": "name",
+  "isReactive": true,
+  "meta": {
+    "layout": {
+      "displayName": "Layout",
+      "order": 0,
+      "type": "select"
+    },
+    "name": {
+      "Width": "261px",
+      "displayName": "Name",
+      "order": 1,
+      "type": "string"
+    },
+    "originationFiles_instance": {
+      "dataGrid": "originationFiles",
+      "displayName": "Origination Files",
+      "filterColumn": "documentType",
+      "order": 2,
+      "type": "datagrid"
+    }
+  },
+  "rowEditorFieldsForm": {
+    "sections": [
+      {
+        "name": "section_732977",
+        "label": "",
+        "clientKey": "section_732977",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_732977_row_624634",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "text",
+                "name": "control_text_377595",
+                "fieldName": "control_text_377595",
+                "label": "Name",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "name",
+                "gridId": "originationDocuments"
+              }
+            ]
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": []
+      },
+      {
+        "cleintKey": "hidden_section_d9678cd0-fe6b-11eb-8b02-1947c31ab3cb",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_d9678cd0-fe6b-11eb-8b02-1947c31ab3cb",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_d9678cd0-fe6b-11eb-8b02-1947c31ab3cb_row_d9678cd1-fe6b-11eb-8b02-1947c31ab3cb",
+            "controls": [
+              {
+                "type": "datagrid",
+                "name": "control_datagrid_741623",
+                "fieldName": "control_datagrid_741623",
+                "label": "Origination Files",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "originationFiles_instance"
+              },
+              {
+                "type": "select",
+                "name": "control_e331a750-fe6b-11eb-b3ac-8169db66894f",
+                "fieldName": "control_e331a750-fe6b-11eb-b3ac-8169db66894f",
+                "label": "Layout",
+                "order": 1,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [
+                  {
+                    "id": "",
+                    "text": ""
+                  }
+                ],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "layout",
+                "gridId": "originationDocuments"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "layout": "collapse",
+    "_uniqueId": 0.33778115619925253
+  },
+  "source": "originationDocuments",
+  "storageType": "dashboard",
+  "title": "Origination documents"
+}
