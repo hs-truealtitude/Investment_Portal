@@ -1,0 +1,104 @@
+{
+  "-MiaBel_rEYOwgJYHCXg": {
+    "_id": 8,
+    "companyProfiles": "-MNwrDHaFOpGKE6yT3qn",
+    "companyUser": "-MhrtQTk4czRxcLTHG_r",
+    "investor": "-Mia1p4b9UP-6rDjyDQL",
+    "rowKey": "-MiaBel_rEYOwgJYHCXg"
+  },
+  "-MiurIwci_Vw5xGFbNbZ": {
+    "_id": 9,
+    "companyProfiles": "-MMzZ2krPwl50hP5t54m",
+    "companyUser": "-Mi6aUlBZiDGXLScGNbX",
+    "investor": "-MZMzJ-vwa9AN37lJLoF",
+    "investorInvested": true,
+    "lastEditDate": 1631182391526,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "nextEvents": "Ok",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "responseOpened": true,
+    "rowKey": "-MiurIwci_Vw5xGFbNbZ",
+    "state": "Investor Response",
+    "status": "-MS2D3bgt4vWZpZco7Aw"
+  },
+  "-MivlPT2IuA1T4tEYpe0": {
+    "_id": 11,
+    "companyProfiles": "-MNwrDHaFOpGKE6yT3qn",
+    "companyUser": "-MhrtQTk4czRxcLTHG_r",
+    "investor": "-MZMzJ-vwa9AN37lJLoF",
+    "rowKey": "-MivlPT2IuA1T4tEYpe0"
+  },
+  "-MivlnCMbyEw-0JkdD4o": {
+    "_id": 12,
+    "companyProfiles": "-MNwwmbS6JoOq9qymT7i",
+    "companyUser": "-MhrtQTk4czRxcLTHG_r",
+    "investor": "-Mi6BjH6tLvq0ocv5Su7",
+    "investorInvested": true,
+    "lastEditDate": 1631004279990,
+    "lastEditedBy": "4VdfqWdNO2bFKyiK4KtTGporyGh2",
+    "nextEvents": "Ok",
+    "owner": "4VdfqWdNO2bFKyiK4KtTGporyGh2",
+    "responseOpened": true,
+    "rowKey": "-MivlnCMbyEw-0JkdD4o",
+    "state": "Investor Response",
+    "status": "-MS2D3bgt4vWZpZco7Aw"
+  },
+  "-MivmQr6_Z6Ze1DCs4UZ": {
+    "_id": 13,
+    "companyProfiles": "-MNwrDHaFOpGKE6yT3qn",
+    "companyUser": "-MhrtQTk4czRxcLTHG_r",
+    "investor": "-Mi6BjH6tLvq0ocv5Su7",
+    "investorInvested": true,
+    "lastEditDate": 1631003161941,
+    "lastEditedBy": "4VdfqWdNO2bFKyiK4KtTGporyGh2",
+    "nextEvents": "Ok",
+    "owner": "4VdfqWdNO2bFKyiK4KtTGporyGh2",
+    "responseOpened": true,
+    "rowKey": "-MivmQr6_Z6Ze1DCs4UZ",
+    "state": "Investor Response",
+    "status": "-MS2D3bgt4vWZpZco7Aw"
+  },
+  "-MizVH_l0H1Zck_4zI0s": {
+    "_id": 14,
+    "companyProfiles": "-MNwrDHaFOpGKE6yT3qn",
+    "companyUser": "-MhrtQTk4czRxcLTHG_r",
+    "investor": "-Mi6BjH6tLvq0ocv5Su7",
+    "rowKey": "-MizVH_l0H1Zck_4zI0s"
+  },
+  "-Mize-AqyHl2i142Q2eT": {
+    "_id": 15,
+    "companyProfiles": "-MMzZ2krPwl50hP5t54m",
+    "companyUser": "-Mi6aUlBZiDGXLScGNbX",
+    "investor": "-Mi6BjH6tLvq0ocv5Su7",
+    "rowKey": "-Mize-AqyHl2i142Q2eT"
+  },
+  "-MjF4vEVsahX3_dCu2-K": {
+    "_id": 16,
+    "companyProfiles": "-Mi6gLD1ehCkUOxG6XAr",
+    "companyUser": "-Mi6aUlBZiDGXLScGNbX",
+    "investor": "-MZMzJ-vwa9AN37lJLoF",
+    "investorInvested": true,
+    "lastEditDate": 1631283850472,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "nextEvents": "Ok",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "responseOpened": true,
+    "rowKey": "-MjF4vEVsahX3_dCu2-K",
+    "state": "Investor Response",
+    "status": "-MS2D3bgt4vWZpZco7Aw"
+  },
+  "-MjcrgOM3gC_nmTe8pud": {
+    "_id": 17,
+    "companyProfiles": "-Mi6gLD1ehCkUOxG6XAr",
+    "companyUser": "-Mi6aUlBZiDGXLScGNbX",
+    "investor": "-MZMzJ-vwa9AN37lJLoF",
+    "rowKey": "-MjcrgOM3gC_nmTe8pud"
+  },
+  "-Mjn67ctAScxLUtbMuI0": {
+    "_id": 18,
+    "companyProfiles": "-MNZ-kKtSmZQuN7gqgFt",
+    "companyUser": "-MhrtQTk4czRxcLTHG_r",
+    "investor": "-MZMzJ-vwa9AN37lJLoF",
+    "rowKey": "-Mjn67ctAScxLUtbMuI0"
+  }
+}

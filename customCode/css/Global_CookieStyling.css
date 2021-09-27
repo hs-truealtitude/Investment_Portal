@@ -1,0 +1,40 @@
+/*Cookie Popup Message*/
+
+.cookie-container{
+    position: fixed;
+    bottom: 0;
+    z-index: 4000;
+    left: 0;
+    right: 0;
+    background-color: #fffaf3;
+    box-shadow: 0px 10px 5px #888, 0px -1px 4px #888;
+    padding: 0 32px;
+    
+    display: block;
+}
+
+.cookie-container p{
+    margin-top: 5px;
+}
+
+.cookie-container a{
+    color: #ef4437;
+}
+
+.cookie-button{
+    background-color: #fffaf3;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	height:38px;
+	width:180px;
+    
+    margin-bottom: 10px; 
+}
+
+.cookie-button:hover {
+    color:#000000;
+    background-color: #ef4437;
+    border: 1px solid black !important;
+}

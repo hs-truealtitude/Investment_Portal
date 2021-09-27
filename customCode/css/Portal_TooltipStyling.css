@@ -1,0 +1,88 @@
+/* Tooltip text */
+.bug .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+    right: 0px;
+
+}
+
+.bug:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 20px;
+
+}
+
+/* Tooltip text */
+.admin .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+      right: 0px;
+
+}
+
+.admin:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 20px;
+}
+
+/* Tooltip text */
+.dev .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+      right: 0px;
+
+}
+
+.dev:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 20px;
+}
+
+/* Tooltip text */
+.userManagement .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+      right: 50px;
+
+}
+
+.userManagement:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 20px;
+}

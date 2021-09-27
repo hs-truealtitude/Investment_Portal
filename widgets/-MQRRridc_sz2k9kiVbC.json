@@ -2,10 +2,10 @@
   "classes": "",
   "detailTemplate": "",
   "gsOptions": {
-    "h": 3,
+    "h": 2,
     "w": 24,
     "x": 0,
-    "y": 0
+    "y": 1
   },
   "offSet": 0,
   "overflow": "",
@@ -13,6 +13,6 @@
   "styles": "",
   "subtab": "-MPe1NvKBqudPSIy-W_g",
   "tab": "-MJq8S1suwASZ84EkCd5",
-  "template": "<div class=\"row\" style=\"height: 100%; justify-content: center; align-items: flex-end;\">\r\n        <button style=\"font-family: 'Grenette pro', sans-serif; font-size: 15px;\" class=\"myButton\" \r\n  @click='$setCurrentSubTab(\"-MR0b-cKrUEPkudH1B0x\",\"-MJq8S1suwASZ84EkCd5\")'>\r\n    <i class=\"fas fa-arrow-circle-left\"></i>\r\n    <break></break>\r\n    Menu\r\n  </button>\r\n</div>",
+  "template": "<div class=\"row fixed-bottom\" style=\"height: 100%; justify-content: center; align-items: flex-end;\">\r\n        <button style=\" font-size: 15px;\" class=\"myButton\" \r\n  @click='$setCurrentSubTab(\"-MR0b-cKrUEPkudH1B0x\",\"-MJq8S1suwASZ84EkCd5\")'>\r\n    <i class=\"fas fa-arrow-circle-left\"></i>\r\n    <break></break>\r\n    Back\r\n  </button>\r\n</div>",
   "title": ""
 }

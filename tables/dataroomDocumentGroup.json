@@ -1,0 +1,57 @@
+{
+  "-Mc8_fBtx6_esGLYnzyZ": {
+    "_id": 1,
+    "createdDate": 1623658509333,
+    "group": false,
+    "lastEditDate": 1623658549720,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Fund Set-Up Documents",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-Mc8_fBtx6_esGLYnzyZ"
+  },
+  "-Mc8_iGRafnFgUP7Yykc": {
+    "_id": 2,
+    "createdDate": 1623658521912,
+    "group": false,
+    "lastEditDate": 1623658554936,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Origination Documents",
+    "rowKey": "-Mc8_iGRafnFgUP7Yykc"
+  },
+  "-Mc8_inlkHPt1kWXlYdH": {
+    "_id": 3,
+    "createdDate": 1623658524109,
+    "group": false,
+    "lastEditDate": 1623658563803,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Investment In Progress",
+    "rowKey": "-Mc8_inlkHPt1kWXlYdH"
+  },
+  "-Mc8_jLEvFz32FlPhjc_": {
+    "_id": 4,
+    "createdDate": 1623658526315,
+    "group": false,
+    "lastEditDate": 1623658572210,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Archived Investments",
+    "rowKey": "-Mc8_jLEvFz32FlPhjc_"
+  },
+  "-Mc8_jsk8BwyPUe2Z2OQ": {
+    "_id": 5,
+    "createdDate": 1623658528524,
+    "group": false,
+    "lastEditDate": 1623658578090,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Completed Investments",
+    "rowKey": "-Mc8_jsk8BwyPUe2Z2OQ"
+  },
+  "-Mc8_w1JxOBTh3oaeIrS": {
+    "_id": 6,
+    "createdDate": 1623658578288,
+    "group": false,
+    "lastEditDate": 1623658592137,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Admin & Finance",
+    "rowKey": "-Mc8_w1JxOBTh3oaeIrS"
+  }
+}

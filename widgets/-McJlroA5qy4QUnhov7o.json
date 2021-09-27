@@ -1,0 +1,16 @@
+{
+  "dependency": "dataGrid/archivedInvestments",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 90
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "archivedInvestments"
+  },
+  "tab": "-McEF7QMzCWJthdkwFrb",
+  "type": "DataGrid"
+}

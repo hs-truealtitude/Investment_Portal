@@ -1,5 +1,5 @@
 {
-  "dataProvider": "pitches",
+  "dataProvider": "companyProfiles",
   "name": "Form",
   "options": "{\"rowFields\":[\"aboutBusiness\"],\"columnFields\":[],\"calcColumn\":{\"name\":\"aboutBusiness\",\"expression\":\"aboutBusiness\"},\"operation\":\"SUM\",\"currentColor\":{\"label\":\"red\",\"val\":\"rgba(254 , 119 , 123)\"},\"showSettings\":true,\"showSQLSettings\":null,\"showFilterSettings\":false,\"conditionGroup\":{\"condition\":\" AND \",\"rules\":[]},\"highlightAsHeatmap\":false,\"isFill\":false}"
 }

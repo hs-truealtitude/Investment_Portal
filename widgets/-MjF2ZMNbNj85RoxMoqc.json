@@ -1,0 +1,29 @@
+{
+  "classes": "",
+  "columnMaxWidth": "350",
+  "columnMinWidth": "350",
+  "container": "-MjF2EVJhHIl65tJ9Knw",
+  "dataSource": "investorAcceptedcompanyProfiles",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 7,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "itemsPerPage": 10,
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "height:auto",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MhO8szWWg3gN09r_4LV",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<div v-if='row.$investor && row.$companyProfiles' class=\"card-body frontcard\">\r\n\r\n  <button style=\" font-size: 15px; position: absolute; left: 20px; top: 20px; width: 40px;\" class=\"myButton\" @click=\"removeAcceptedCompany(row.rowKey)\"><i class=\"fas fa-user-slash\"></i></button>\r\n  </b-button>\r\n\r\n  <div style=\"padding-top: 10px;\">\r\n    <center style=\"height: 100px;\"><img v-if=\"row.$companyProfiles && row.$companyProfiles.companyLogo\" :src=\"$getDashboardModel('companyProfiles')[row.companyProfiles].companyLogo.url\" style=\"border-radius: 15px; max-width:100px;  \" /> </center>\r\n  </div>\r\n\r\n\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span v-if=\"row.$companyProfiles && row.$companyProfiles.name\" class=\"d-block mb-1\" style=\"font-size: 20px; color:black;\">{{truncateText(row.$companyProfiles.name,26)}}</span>\r\n      <small id=\"about\" class=\"h4 font-weight-light text-muted\"></small>\r\n    </h5>\r\n    <div style=\"height: 450px;\">\r\n      <p v-if=\"row.$companyProfiles && row.$companyProfiles.aboutTheCompany\" class=\"h4 font-weight-light about\" style=\"height: 120px; padding-bottom: 30px; color:black;\">{{truncateText(row.$companyProfiles.aboutTheCompany, 200)}}</p>\r\n\r\n\r\n      <div class=\"team\" style=\"padding-bottom: 10px;\">\r\n        <p class=\"h4 font-weight-bold\" style=\"color: black; font-size: 17px;\"> Team Members: </p>\r\n\r\n        <p class=\"h4 font-weight-light\" v-if=\"i < 3\" v-for=\"member, i in filterBy($getGrid('teamMembersTable'), row.$companyProfiles.rowKey, 'companyProfiles') \">\r\n          <span style=\"font-size: 1em;     font-weight: 400;\">\r\n            <div class=\"rectangle\" style=\"padding: 2px; border-radius: 6px;\">\r\n              <a :href=\"member.linkedin\" target=\"_blank\">\r\n                {{member.name}}\r\n\r\n                {{member.secondName}}\r\n                <span v-if=\"member.$jobRole$display\"> - </span>\r\n                {{member.$jobRole$display}}\r\n              </a>\r\n            </div>\r\n          </span>\r\n        </p>\r\n      </div>\r\n\r\n      <div class=\"investment\" style=\"height: 70px; padding: 40px; margin-top: 5px;\">\r\n        <div style=\"\" v-if=\"row.$companyProfiles && row.$companyProfiles.fundraisingStage\">\r\n          <p v-if=\"row.$companyProfiles.fundraisingStage\" class=\"h4 font-weight-bold\"> Fundraising Stage: </p>\r\n          <div class=\"rectangle\" style=\"padding: 2px; border-radius: 6px;\">\r\n            <span v-if=\"row.$companyProfiles.fundraisingStage\"> {{row.$companyProfiles.$fundraisingStage$display}} </span>\r\n          </div>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"totalfundinground\" style=\"height: 20px; padding-top: 40px;\">\r\n        <div v-if=\"row.$companyProfiles && row.$companyProfiles.totalFundingRound \">\r\n          <p class=\"h4 font-weight-bold\" style=\"color: black;\"> Total Funding Round: £{{row.$companyProfiles.totalFundingRound |  numeralFormat('0,0') }} </p>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"moneyraisedtodate\" style=\"height: 20px; padding-top: 30px; padding-bottom: 30px;\">\r\n        <div v-if=\"row.$companyProfiles && row.$companyProfiles.capitalRaisedToDate \">\r\n          <p class=\"h4 font-weight-bold\" style=\"color: black;\"> Money Raised to date: £{{row.$companyProfiles.capitalRaisedToDate |  numeralFormat('0,0') }} </p>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"row justify-content-center\">\r\n        <div style=\"padding: 5px;\" v-if=\"row.$companyProfiles && row.$companyProfiles.website\">\r\n          <a :href=\"'https://'+row.$companyProfiles.website\" target=\"_blank\">\r\n            <div class=\"social-icon-contain\">\r\n              <i style=\"padding: 5px;\" class=\"fas fa-globe\"></i>\r\n            </div>\r\n          </a>\r\n        </div>\r\n\r\n        <div style=\"padding: 5px;\" v-if=\"row.$companyProfiles && row.$companyProfiles.linkedInLink\">\r\n          <a :href=\"row.$companyProfiles.linkedInLink\" target=\"_blank\">\r\n            <div class=\"social-icon-contain\">\r\n              <i style=\"padding: 5px;\" class=\"fab fa-linkedin\"></i>\r\n            </div>\r\n          </a>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <center style=\" margin-top: 220px !important;\">\r\n      <b-button class=\" btn-sm\" variant='primary' @click=\"$dgShowEditRowModal('investorAcceptedcompanyProfiles', row.rowKey);\">\r\n        Have you Invested?\r\n      </b-button>\r\n    </center>\r\n\r\n  </div>\r\n</div>",
+  "title": "",
+  "type": "card-list",
+  "viewOfGrid": "investorView",
+  "widthType": "minAndMaxWidth"
+}

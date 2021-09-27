@@ -1,0 +1,29 @@
+{
+  "-McEGz_rHxQAepKldDZi": {
+    "_id": 2,
+    "createdDate": 1623754012252,
+    "dataroomDocumentGroup": "-Mc8_inlkHPt1kWXlYdH",
+    "group": false,
+    "lastEditDate": 1623754013560,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-McEGz_rHxQAepKldDZi"
+  },
+  "-McEPOnpDB4GG09cyZm4": {
+    "_id": 12,
+    "createdDate": 1623756216902,
+    "group": false,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-McEPOnpDB4GG09cyZm4"
+  },
+  "-McEYE9IY8S3es3SEcG2": {
+    "_id": 14,
+    "createdDate": 1623758532587,
+    "group": false,
+    "lastEditDate": 1623758532600,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "owner": "-McE8ruvMK7n_LXB-THN",
+    "rowKey": "-McEYE9IY8S3es3SEcG2"
+  }
+}

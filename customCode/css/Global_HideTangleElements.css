@@ -1,0 +1,18 @@
+/*Chat Box*/
+.sc-launcher{
+    display: none;
+}
+
+/*Form Comments*/
+.RowComments {
+    display: none !important;
+}
+
+.draggableItem {
+    z-index: 1000 !important;
+}
+
+/*Background Color Fix*/
+.splitpanes__pane {
+    background-color: #fffaf3!important;
+}

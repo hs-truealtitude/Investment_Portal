@@ -1,0 +1,284 @@
+{
+  "-McJIcqzO6NQgxEStbY6": {
+    "_id": 1,
+    "description": "This group allows the user to have permissions to see ALL company data rooms",
+    "group": false,
+    "lastEditDate": 1623838372431,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Dataroom Admin",
+    "rowKey": "-McJIcqzO6NQgxEStbY6"
+  },
+  "-Mcj6pX4Vop4iOhhXDrX": {
+    "_id": 2,
+    "name": "TEST COMPANY",
+    "rowKey": "-Mcj6pX4Vop4iOhhXDrX"
+  },
+  "-McoFqmzrUft_Qgn3OGQ": {
+    "_id": 4,
+    "name": "Warner Patch",
+    "rowKey": "-McoFqmzrUft_Qgn3OGQ"
+  },
+  "-McoFsu1DReCK_FyTenA": {
+    "_id": 5,
+    "name": "Warner Patch",
+    "rowKey": "-McoFsu1DReCK_FyTenA"
+  },
+  "-Mct_XdU2YZDvOoM1FnR": {
+    "_id": 11,
+    "name": "TEST",
+    "rowKey": "-Mct_XdU2YZDvOoM1FnR"
+  },
+  "-MdNDdsg2gL1BxA9b4ML": {
+    "_id": 12,
+    "name": "RoboK Ltd",
+    "rowKey": "-MdNDdsg2gL1BxA9b4ML"
+  },
+  "-MdNECqZK2Y691_hyiw_": {
+    "_id": 13,
+    "name": "Imperium Drive",
+    "rowKey": "-MdNECqZK2Y691_hyiw_"
+  },
+  "-MdNEHGplRyGuxj5nhU6": {
+    "_id": 14,
+    "name": "Fotech",
+    "rowKey": "-MdNEHGplRyGuxj5nhU6"
+  },
+  "-MdRwqsRzFLFsnYimSWd": {
+    "_id": 15,
+    "name": "TEST COMPANY ",
+    "rowKey": "-MdRwqsRzFLFsnYimSWd"
+  },
+  "-MdRxlEC5mhtpWqup8ud": {
+    "_id": 16,
+    "name": "TEST MINUTES AND DATAROOM",
+    "rowKey": "-MdRxlEC5mhtpWqup8ud"
+  },
+  "-MdRzYs7LfXp2lkgqlAz": {
+    "_id": 17,
+    "name": "TEST COMPPPP",
+    "rowKey": "-MdRzYs7LfXp2lkgqlAz"
+  },
+  "-MdWUJpARWwOvrfl1A7q": {
+    "_id": 18,
+    "name": "DELETE ME",
+    "rowKey": "-MdWUJpARWwOvrfl1A7q"
+  },
+  "-MdWXMhIrEwTsPMAQ1Nk": {
+    "_id": 19,
+    "name": "Assetz Capital",
+    "rowKey": "-MdWXMhIrEwTsPMAQ1Nk"
+  },
+  "-MdWXRQMvcrx667qnwuN": {
+    "_id": 20,
+    "name": "ALE",
+    "rowKey": "-MdWXRQMvcrx667qnwuN"
+  },
+  "-MdWXUPImLMUz56qrFgG": {
+    "_id": 21,
+    "name": "Novastone",
+    "rowKey": "-MdWXUPImLMUz56qrFgG"
+  },
+  "-Me4ug6XkozobExjlYgB": {
+    "_id": 22,
+    "name": "TEST",
+    "rowKey": "-Me4ug6XkozobExjlYgB"
+  },
+  "-MfIE1H7TFSiVMPebrEa": {
+    "_id": 23,
+    "name": "TEST COMPANY",
+    "rowKey": "-MfIE1H7TFSiVMPebrEa"
+  },
+  "-MfXdyKVPhcLuu55VcJ9": {
+    "_id": 24,
+    "name": "TEST",
+    "rowKey": "-MfXdyKVPhcLuu55VcJ9"
+  },
+  "-Mg5TJ7ebrCAg8npz3yE": {
+    "_id": 25,
+    "name": "COHORT COMP",
+    "rowKey": "-Mg5TJ7ebrCAg8npz3yE"
+  },
+  "-Mg6AcUTykjptUH9sD3b": {
+    "_id": 26,
+    "name": "Planet Pledge",
+    "rowKey": "-Mg6AcUTykjptUH9sD3b"
+  },
+  "-MgG1ZqdB8S6dXyuj4tY": {
+    "_id": 27,
+    "name": "PLUG COMPANY",
+    "rowKey": "-MgG1ZqdB8S6dXyuj4tY"
+  },
+  "-MgG2QXZ_LFDQA3ebcpl": {
+    "_id": 28,
+    "name": "PLUGGED IN COMPANY",
+    "rowKey": "-MgG2QXZ_LFDQA3ebcpl"
+  },
+  "-MhmfBo4O2L0pmaE-E0M": {
+    "_id": 29,
+    "name": "TEST",
+    "rowKey": "-MhmfBo4O2L0pmaE-E0M"
+  },
+  "-MhraxKI3uI1OP3ewuGe": {
+    "_id": 30,
+    "rowKey": "-MhraxKI3uI1OP3ewuGe"
+  },
+  "-Mhrb8n-RXXVMI8aGYbm": {
+    "_id": 31,
+    "name": "TEST 22",
+    "rowKey": "-Mhrb8n-RXXVMI8aGYbm"
+  },
+  "-Mhrv_pAK8g7C_53-Q7E": {
+    "_id": 32,
+    "name": "TEST EMAIL COMPANY",
+    "rowKey": "-Mhrv_pAK8g7C_53-Q7E"
+  },
+  "-Mhs2BbSyi1sjYrb1XNm": {
+    "_id": 33,
+    "name": "TEST EMAIL COMPPP",
+    "rowKey": "-Mhs2BbSyi1sjYrb1XNm"
+  },
+  "-Mi6rBnhpN_BE_ju-qBF": {
+    "_id": 34,
+    "name": "Gameworld",
+    "rowKey": "-Mi6rBnhpN_BE_ju-qBF"
+  },
+  "-Mi_y39mi_itxAq1hxs3": {
+    "_id": 35,
+    "name": "Now Wireless Ltd",
+    "rowKey": "-Mi_y39mi_itxAq1hxs3"
+  },
+  "-MiaXo9anxObMdIaa9Lw": {
+    "_id": 36,
+    "name": "hhhh",
+    "rowKey": "-MiaXo9anxObMdIaa9Lw"
+  },
+  "-MizTsofiC1rlxk_auDn": {
+    "_id": 37,
+    "rowKey": "-MizTsofiC1rlxk_auDn"
+  },
+  "-Mj8oMjix6ry0zzkdqpF": {
+    "_id": 38,
+    "name": "retrerterteertretrtertrtertetretretrtertetrtrrettretreerttreretrtertertetretreetertretreterrte",
+    "rowKey": "-Mj8oMjix6ry0zzkdqpF"
+  },
+  "-MjA9T3XXB4fGlG5IQDL": {
+    "_id": 39,
+    "name": "retrerterteertretrtertrtertetretretrtertetrtrrettretreerttreretrtertertetretreetertretreterrte",
+    "rowKey": "-MjA9T3XXB4fGlG5IQDL"
+  },
+  "-MjAQ3QBLRi01HFzcjX_": {
+    "_id": 40,
+    "name": "TEST COMPANY999",
+    "rowKey": "-MjAQ3QBLRi01HFzcjX_"
+  },
+  "-MjEsNefLiDTYLhvAeeD": {
+    "_id": 41,
+    "name": "dawwawaddwa",
+    "rowKey": "-MjEsNefLiDTYLhvAeeD"
+  },
+  "-MjEsd4UA2e1wjExJS1Q": {
+    "_id": 42,
+    "name": "TEST",
+    "rowKey": "-MjEsd4UA2e1wjExJS1Q"
+  },
+  "-MjEsteHwJbDThR-z2W_": {
+    "_id": 43,
+    "name": "TEST",
+    "rowKey": "-MjEsteHwJbDThR-z2W_"
+  },
+  "-MjEtI15ikhP69v3OA3T": {
+    "_id": 44,
+    "name": "tgrdgrdgrd",
+    "rowKey": "-MjEtI15ikhP69v3OA3T"
+  },
+  "-MjEtRdcHDgGAHMrJ2EC": {
+    "_id": 45,
+    "name": "TEST",
+    "rowKey": "-MjEtRdcHDgGAHMrJ2EC"
+  },
+  "-MjEtbEp0rJOULp1Yoxp": {
+    "_id": 46,
+    "name": "Huboo",
+    "rowKey": "-MjEtbEp0rJOULp1Yoxp"
+  },
+  "-MjEthtUbyWcjW-0PyH2": {
+    "_id": 47,
+    "name": "TEST 4543534",
+    "rowKey": "-MjEthtUbyWcjW-0PyH2"
+  },
+  "-MjEu6zkQNWm2iq3cWuN": {
+    "_id": 48,
+    "name": "feseffesf",
+    "rowKey": "-MjEu6zkQNWm2iq3cWuN"
+  },
+  "-MjTfDsCRWLRWbd7Vsgh": {
+    "_id": 49,
+    "name": "NBFEEFES",
+    "rowKey": "-MjTfDsCRWLRWbd7Vsgh"
+  },
+  "-MjUJ5q-rsGuBGKP4B5U": {
+    "_id": 50,
+    "name": "TEST",
+    "rowKey": "-MjUJ5q-rsGuBGKP4B5U"
+  },
+  "-MkHoW972D4yOBFJpHQs": {
+    "_id": 51,
+    "name": "Findaa Technology Ltd",
+    "rowKey": "-MkHoW972D4yOBFJpHQs"
+  },
+  "-MkHoYHtmU4v_4US97yx": {
+    "_id": 52,
+    "name": "RoboK Ltd",
+    "rowKey": "-MkHoYHtmU4v_4US97yx"
+  },
+  "-MkHo_QnOgzMu5Ijaksx": {
+    "_id": 53,
+    "name": "Imperium Drive",
+    "rowKey": "-MkHo_QnOgzMu5Ijaksx"
+  },
+  "-MkHobn86q-FvgmTUMpK": {
+    "_id": 54,
+    "name": "Fotech",
+    "rowKey": "-MkHobn86q-FvgmTUMpK"
+  },
+  "-MkHodaNNZ9V-QCO6Zbd": {
+    "_id": 55,
+    "name": "BriteYellow Limited",
+    "rowKey": "-MkHodaNNZ9V-QCO6Zbd"
+  },
+  "-MkHofPQgoWKT73BsmWD": {
+    "_id": 56,
+    "name": "Now Wireless Ltd",
+    "rowKey": "-MkHofPQgoWKT73BsmWD"
+  },
+  "-MkHoh6WI1sHm-pqber0": {
+    "_id": 57,
+    "name": "Alchera Technologies",
+    "rowKey": "-MkHoh6WI1sHm-pqber0"
+  },
+  "-MkHoj5JdIDQT6KCf2Wm": {
+    "_id": 58,
+    "name": "Level Five Supplies",
+    "rowKey": "-MkHoj5JdIDQT6KCf2Wm"
+  },
+  "-MkHoxTdNZjAbQmnAkBa": {
+    "_id": 59,
+    "name": "Concirrus",
+    "rowKey": "-MkHoxTdNZjAbQmnAkBa"
+  },
+  "-MkHp-uVAT7Kh821IYqk": {
+    "_id": 60,
+    "name": "Funding Xchange",
+    "rowKey": "-MkHp-uVAT7Kh821IYqk"
+  },
+  "-MkHp1cQhnZSVFEYw2-v": {
+    "_id": 61,
+    "name": "Thought Machine",
+    "rowKey": "-MkHp1cQhnZSVFEYw2-v"
+  },
+  "-MkHp3CxEtay2S8CRLKG": {
+    "_id": 62,
+    "name": "Gophr",
+    "rowKey": "-MkHp3CxEtay2S8CRLKG"
+  }
+}

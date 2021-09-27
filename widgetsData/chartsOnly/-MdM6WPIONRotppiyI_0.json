@@ -1,0 +1,36 @@
+{
+  "filter": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"companyType\",\"operator\":\"=\",\"value\":{\"value\":\"-Mcmp2PkF7eyGvjKlgbf\",\"name\":\"Portfolio Company\"},\"name\":\"CompanyType\",\"hidden\":true}]}",
+  "isLabels": true,
+  "isOutlabels": false,
+  "isPercents": true,
+  "renderOptions": {
+    "selectedX": [
+      "$fundraisingStage$display"
+    ],
+    "selectedXValues": [
+      {
+        "text": "fundraisingStage",
+        "value": "$fundraisingStage$display"
+      }
+    ],
+    "selectedY": [
+      {
+        "option": "sum",
+        "value": "$count"
+      }
+    ],
+    "selectedYValues": [
+      [
+        {
+          "text": "$count",
+          "value": "$count"
+        },
+        {
+          "text": "Sum",
+          "value": "sum"
+        }
+      ]
+    ]
+  },
+  "type": "pie"
+}

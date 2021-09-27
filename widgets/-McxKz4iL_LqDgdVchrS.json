@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 10,
+    "w": 24,
+    "x": 0,
+    "y": 2
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subTab": "-Mciffu8116Yf5oVvpLJ",
+  "subtab": "-Mciffu8116Yf5oVvpLJ",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "\r\n    <input style=\"margin: 12px;\" class=\"touch\" type=\"radio\" v-for=\"company in getCompanies\" :key=\"company.id\" name=\"position\" />\r\n\r\n\r\n  <main id=\"carousel\">\r\n    <div v-for=\"company in getCompanies\" :key=\"company.id\" class=\"item\">\r\n    <center>  \r\n      <div v-if=\"company\" class=\"container\">\r\n        <img v-if=\"company.companyLogo\" class=\"companylogo\" :src=\"company.companyLogo.url\" style=\"border-radius: 15px; max-width:100px;  \" /> \r\n        <h2 v-if=\"company.name\" style=\"padding-top: 10px; color: black;\" >{{company.name}}</h2>\r\n        <span v-if=\"company.aboutTheCompany\" style=\"font-size: 14px;\" >{{truncateText(company.aboutTheCompany,150)}}</span>\r\n\r\n        <div style=\"padding-top: 15px;\">\r\n          <div class=\"rectangle\" style=\"border-radius: 6px; background: #c6b477 !important;\">\r\n           <span style=\"padding-bottom: 5px; font-size: 14px; color: white !important;\">Location: {{company.$location$display}}</span>\r\n          </div>\r\n        </div>  \r\n\r\n        <div style=\"padding-top: 10px;\">\r\n          <div class=\"rectangle\" style=\"border-radius: 6px; background: #c6b477 !important;\">\r\n          <span v-if=\"company.fundsDeployed\" style=\"font-size: 14px; color: white !important; font-weight: 500; \" >Funds Deployed: £{{company.fundsDeployed |  numeralFormat('0,0') }}</span>\r\n          </div>\r\n        </div>  \r\n\r\n        <div style=\"padding-top: 10px;\">\r\n          <div class=\"rectangle\" style=\"border-radius: 6px; background: #c6b477 !important;\">\r\n          <span v-if=\"company.fundraisingStage\" style=\"font-size: 14px; color: white !important; font-weight: 500; margin-top: -10px; \" > {{company.$fundraisingStage$display}}</span>\r\n          </div>\r\n        </div>  \r\n\r\n          </br>\r\n        </div>   \r\n        \r\n      </div>\r\n      </div>\r\n    </center>\r\n  <main>\r\n",
+  "title": "Portfolio Companies"
+}

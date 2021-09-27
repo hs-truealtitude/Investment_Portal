@@ -1,0 +1,21 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 11,
+    "w": 20,
+    "x": 2,
+    "y": 0
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MfY0EbaZX6XWjZu1p6r",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<center class=\"welcome\" style=\"margin-top: 130px;\"><h1 style=\"font-size: 50px;\">Welcome {{$getUser('activeUserFirstName')}}</h1></center>\r\n\r\n<div style=\"margin-top: -200px;\" class=\"navCards\">\r\n\r\n<div class=\"flexbox-container\">\r\n\r\n\r\n\r\n  <div class=\"Ncard flexbox-item flexbox-item-1\" @click='$setCurrentSubTab(\"-MPe0NxYQploLstsV54u\",\"-MJq8S1suwASZ84EkCd5\")'>\r\n    <div class=\"icon\"><i class=\"gg-search\"></i></div>\r\n    <p class=\"title\">View all Your Mentors</p>\r\n    <p class=\"text\">Here you can discover mentors and their offerings</p>\r\n\r\n  </div>\r\n\r\n  <div class=\"Ncard flexbox-item flexbox-item-2\" @click='$setCurrentSubTab(\"-MfY3pV-fvW0uCQqFuxI\",\"-MJq8S1suwASZ84EkCd5\"); $setUser(\"activeProgrammeRowKey\", null); $setUser(\"activeCohortRowKey\", null);'>\r\n    <div class=\"icon\"><i class=\"gg-briefcase\"></i></div>\r\n    <p class=\"title\">My Programmes</p>\r\n    <p class=\"text\">Here are all the programmes you are a part of</p>\r\n  </div>\r\n\r\n  <div class=\"Ncard flexbox-item flexbox-item-3\" @click='$setCurrentSubTab(\"-MLb4VOxEfZKqJNookL4\",\"-MJq8S1suwASZ84EkCd5\")'>\r\n    <div class=\"icon\"><i class=\"gg-home\"></i></div>\r\n    <p class=\"title\">My Company Portal</p>\r\n    <p class=\"text\">Here you can search, create and edit your company profiles</p>\r\n  </div>\r\n\r\n  <div class=\"Ncard flexbox-item flexbox-item-1\" @click='$setCurrentSubTab(\"-MfY3lVWXksahN-Ll4Xh\",\"-MJq8S1suwASZ84EkCd5\"); $setUser(\"activeProgrammeRowKey\", null); $setUser(\"activeCohortRowKey\", null);'>\r\n    <div class=\"icon\"><i style=\"margin-bottom: 5px; margin-right: 1px;\" class=\"gg-user\"></i><i class=\"gg-user\"></i><i style=\"margin-left: 1px; margin-bottom: 5px;\" class=\"gg-user\"></i></div>\r\n    <p class=\"title\">My Cohorts</p>\r\n    <p class=\"text\">Here you can view all of the cohorts you are a part of</p>\r\n  </div>\r\n\r\n\r\n\r\n</div>\r\n</div>",
+  "title": ""
+}

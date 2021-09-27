@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 12,
+    "w": 16,
+    "x": 4,
+    "y": 1
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subTab": "-MdRptqtQ9MhYCJqjlQk",
+  "subtab": "-MdRptqtQ9MhYCJqjlQk",
+  "tab": "-MKjLdl6pSat-QkUaIYU",
+  "template": "<H1 style=\"color:black;\">{{$getUser('activeCompanyName')}} - Minutes Room</H1>\r\n<DataGridEditRow gridId=\"minutesTable\" :rowKey=\"$getUser('activeMinutesRoom')\" />",
+  "title": ""
+}

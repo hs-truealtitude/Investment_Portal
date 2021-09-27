@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/days",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "days"
+  },
+  "subtab": "-Mk6Z49Z1xqK5y-zn3Gx",
+  "tab": "-MKjMRUUg4_Q6hNfvyso",
+  "type": "DataGrid"
+}

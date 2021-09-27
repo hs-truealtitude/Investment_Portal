@@ -2,6 +2,13 @@
   "displayColumn": "name",
   "isReactive": true,
   "meta": {
+    "company": {
+      "displayName": "company",
+      "invisible": false,
+      "lookUpTable": "companyProfiles",
+      "order": "9",
+      "type": "lookup"
+    },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": true,
@@ -19,6 +26,11 @@
       "invisible": true,
       "order": "5",
       "type": "user"
+    },
+    "layout": {
+      "displayName": "Layout",
+      "order": 10,
+      "type": "select"
     },
     "name": {
       "displayName": "News Title",
@@ -49,13 +61,6 @@
       "invisible": true,
       "order": "2",
       "type": "user"
-    },
-    "pitch": {
-      "displayName": "Pitch",
-      "invisible": false,
-      "lookUpTable": "slingshotPitches",
-      "order": "9",
-      "type": "lookup"
     },
     "state": {
       "displayName": "State",
@@ -434,7 +439,7 @@
                 "type": "lookup",
                 "name": "control_lookup_623175",
                 "fieldName": "control_lookup_623175",
-                "label": "Pitch",
+                "label": "company",
                 "order": 7,
                 "defaultValue": "",
                 "value": "",
@@ -471,7 +476,7 @@
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "pitch",
+                "propName": "company",
                 "ableToAddLookUpVal": true,
                 "gridId": "news"
               },
@@ -527,6 +532,64 @@
         "minInstance": 1,
         "maxInstance": 0,
         "instances": []
+      },
+      {
+        "cleintKey": "hidden_section_d961e780-fe6b-11eb-8b02-1947c31ab3cb",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_d961e780-fe6b-11eb-8b02-1947c31ab3cb",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_d961e780-fe6b-11eb-8b02-1947c31ab3cb_row_d961e781-fe6b-11eb-8b02-1947c31ab3cb",
+            "controls": [
+              {
+                "type": "select",
+                "name": "control_e3234f70-fe6b-11eb-b3ac-8169db66894f",
+                "fieldName": "control_e3234f70-fe6b-11eb-b3ac-8169db66894f",
+                "label": "Layout",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "layout"
+              }
+            ]
+          }
+        ]
       }
     ],
     "layout": "collapse",
@@ -543,6 +606,10 @@
   "views": {
     "allNews": {
       "meta": {
+        "company": {
+          "invisible": false,
+          "order": "9"
+        },
         "createdDate": {
           "invisible": true,
           "order": "1"
@@ -554,6 +621,9 @@
         "lastEditedBy": {
           "invisible": true,
           "order": "5"
+        },
+        "layout": {
+          "order": 10
         },
         "name": {
           "invisible": false,
@@ -574,10 +644,6 @@
         "owner": {
           "invisible": true,
           "order": "2"
-        },
-        "pitch": {
-          "invisible": false,
-          "order": "9"
         },
         "state": {
           "invisible": true,

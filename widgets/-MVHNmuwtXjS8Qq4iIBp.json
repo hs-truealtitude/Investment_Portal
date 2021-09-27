@@ -8,13 +8,15 @@
     "y": 3
   },
   "hidden": true,
-  "layout": "b-card",
+  "layout": {
+    "text": "Standard"
+  },
   "offSet": 0,
   "overflow": "height:auto",
   "perPage": 2,
   "styles": "",
   "subtab": "-MVHMvYtBCMU0F17kIwK",
   "tab": "-MJq8S1suwASZ84EkCd5",
-  "template": "<DataGridEditRow gridId=\"slingshotPitches\" :rowKey=\"$getUser('activeSlingshotPitch')\" />",
-  "title": "Edit Pitch"
+  "template": "<DataGridEditRow gridId=\"companyProfiles\" :rowKey=\"$getUser('activecompanyProfile')\" />",
+  "title": "Edit Company Profile"
 }

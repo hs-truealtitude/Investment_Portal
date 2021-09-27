@@ -1,0 +1,56 @@
+{
+  "-Mc8cN4RpmKuAnvsvaTX": {
+    "_id": 1,
+    "createdDate": 1623659217464,
+    "group": false,
+    "lastEditDate": 1623659242929,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Drawdowns",
+    "rowKey": "-Mc8cN4RpmKuAnvsvaTX"
+  },
+  "-Mc8cPMLR_VlwBigtdtE": {
+    "_id": 2,
+    "createdDate": 1623659226802,
+    "group": false,
+    "lastEditDate": 1623659248688,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "GP fees",
+    "rowKey": "-Mc8cPMLR_VlwBigtdtE"
+  },
+  "-Mc8cPnFAP-JweljmptU": {
+    "_id": 3,
+    "createdDate": 1623659228588,
+    "group": false,
+    "lastEditDate": 1623659255012,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Remittances",
+    "rowKey": "-Mc8cPnFAP-JweljmptU"
+  },
+  "-Mc8cQFIFQ3hd36_CnXn": {
+    "_id": 4,
+    "createdDate": 1623659230447,
+    "group": false,
+    "lastEditDate": 1623659266473,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Fund financial statements",
+    "rowKey": "-Mc8cQFIFQ3hd36_CnXn"
+  },
+  "-Mc8cQgwsvRU229UCyM7": {
+    "_id": 5,
+    "createdDate": 1623659232280,
+    "group": false,
+    "lastEditDate": 1623659273273,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Overall fund reports",
+    "rowKey": "-Mc8cQgwsvRU229UCyM7"
+  },
+  "-Mc8cR7yw91bHgWdN3MO": {
+    "_id": 6,
+    "createdDate": 1623659234074,
+    "group": false,
+    "lastEditDate": 1623659281112,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "General documents",
+    "rowKey": "-Mc8cR7yw91bHgWdN3MO"
+  }
+}

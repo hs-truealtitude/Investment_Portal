@@ -1,0 +1,29 @@
+{
+  "-McmoztLNiwNio3sHebk": {
+    "_id": 1,
+    "createdDate": 1624350391433,
+    "lastEditDate": 1624350415108,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Opportunity",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-McmoztLNiwNio3sHebk"
+  },
+  "-Mcmp1t35mpOhFn-nqvP": {
+    "_id": 2,
+    "createdDate": 1624350403702,
+    "lastEditDate": 1624350421906,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Qualified Deal",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-Mcmp1t35mpOhFn-nqvP"
+  },
+  "-Mcmp2PkF7eyGvjKlgbf": {
+    "_id": 3,
+    "createdDate": 1624350405858,
+    "lastEditDate": 1624350433592,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Portfolio Company",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-Mcmp2PkF7eyGvjKlgbf"
+  }
+}

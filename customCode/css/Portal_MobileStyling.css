@@ -1,0 +1,352 @@
+.nav-menu-link-box {
+    width: 300px;
+}
+.fullCalendar__viewControls{
+    flex-wrap: wrap
+}
+
+
+
+@media only screen and (max-width: 1920px) {
+    .nav-menu-link-box {
+
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1660px) {
+
+    .nav-menu-link {
+        font-size: 15px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .nav-menu-link {
+        font-size: 13px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+    .nav-menu-link-box {
+        width: 150px;
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .nav-menu-link-box {
+        width: 100px;
+    }
+
+    .nav-logo-text{
+        font-size: 0.9em !important
+    }
+
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .nav-logo-text {
+        font-size: 0.7em !important
+    }
+
+
+    .nav-menu-link-box {
+        width: 16.5vw !important;
+    }
+    
+    #hovernotif {
+        /*position: absolute;*/
+    }
+
+        .welcome h1{
+        margin-top: -70px;
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media only screen and (max-width: 770px) {
+    .cohortData h1{
+        font-size: 20px;
+    }
+    .cohortData h2{
+        font-size: 20px;
+    }
+    .cohortData h3{
+        font-size: 20px;
+    }
+    #widget-MjcsFw8ydIqFMjigkXU{
+        margin-top: 100px !important;
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+
+    .nav-logo-text {
+        font-size: 0.7em !important
+    }
+
+
+    .nav-logo-text{
+                display: none !important
+
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .nav-logo-text-lite{
+        visibility: hidden !important;
+        position: relative;
+    }
+
+    .nav-logo-text {
+        visibility: hidden !important;
+        position: relative;
+    }
+
+    .detailCard{
+        padding: 0 !important;
+    }
+
+    .card-body{
+        padding: 0px;
+    }
+    .card-header{
+        margin-top:50px;
+    }
+
+    .nav-logo.right.ui{
+        margin-right: 0px !important;
+    }
+    
+    .nav-logo.right.ui.notif:hover{
+        right: 0px ;
+        background: inherit;
+    }
+    #hovernotif:hover{
+        width: 250px;
+    }
+    #hovernotif:hover  .gg-bell{
+        margin-top: 6px;
+    }
+    #notifc{
+        font-size: 13px !important;
+    }
+
+    .nav-logo-text::after{
+        font-size: 11px !important;
+    }
+
+    .widget-card-list__item .card{
+        min-width: 100% !important;
+        max-width: 100% !important;
+        padding-bottom: 10px !important;
+    }
+
+    .modal-header{
+        height: 40px !important;
+    }
+
+    /* .investment{
+        padding-top: 115px !important;
+    } */
+
+    /* .team{
+        padding-top: 40px !important;
+    } */
+
+    .about{
+        overflow-y: scroll;
+        height: 100px;
+    }
+
+    .company_title{
+        font-size: 15px !important;
+    }
+
+    .detail_image{
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Cohort */
+    .titleContainer{
+        height: 45px !important;
+    }
+
+    .tab-title-class {
+        font-size: 15px !important;
+    }
+
+    .apply{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bg{
+    display: none;
+    }
+
+    /*Form Tabs Styling*/
+    .guiSectionItem .nav-tabs a{
+    font-size: 0.9em !important;
+    }
+    .welcome h1{
+        margin-top: -70px;
+        margin-bottom: 30px;
+    }
+
+    .nav-menu-link-box {
+        width: 16.5vw !important;
+    }
+
+    .nav-menu-link{
+        font-size: 1.1em !important;
+    }
+
+    .dbtn{
+        line-height: 1 !important;
+    }
+
+    .bl{
+        font-size: 0.9em !important;
+    }
+
+    .center.fade-in h1{
+        font-size: 1.6em;
+    }
+
+    .grid-stack-item__wrapper{
+        margin: 0 15px 0 20px;
+    }
+
+    .widget-card-list__item{
+        width: 100% !important;
+    }
+
+    .application_button{
+        margin: auto !important;
+        margin: 15px !important;
+    }
+
+    .alert-warning h3{
+        font-size: 9px;
+    }
+
+    .myProfile .btn-warning{
+        margin-top: -20px !important;
+    }
+
+    .grid-stack-item__wrapper h4{
+        font-size: 19px !important;
+    }
+
+    #widget-MjcsFw8ydIqFMjigkXU{
+        margin-top: 200px !important;
+    }
+
+}
+
+@media only screen and (max-width: 560px) {
+
+
+    .cohortCard .profileCard{
+        width: 365px !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .nav-logo.right.ui.notif:hover{
+        background: inherit;
+    }
+
+    .welcome h1{
+        margin-top: -70px;
+        margin-bottom: 30px;
+        font-size: 2.0em !important;
+    }
+
+    .nav-menu-link-box {
+        width: 16.5vw !important;
+    }
+
+    .nav-menu-link{
+        font-size: 0.9em !important;
+    }
+
+    .myButton{
+        font-size: 10px !important;
+        width: 120px;
+    }
+
+    .cohortCard .profileCard{
+        width: 235px !important;
+    }
+
+        #widget-MjcsFw8ydIqFMjigkXU{
+        margin-top: 300px !important;
+    }
+
+}
+
+@media only screen and (max-width: 461px) {
+    #hovernotif:hover{
+        width: 190px;
+    }
+
+    .bug{
+        display: none !important;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    #hovernotif:hover{
+        width: 170px;
+    }
+
+    .nav-top-contain .notif:hover .notNotif{
+        display: none !important;
+    }
+
+    .titleContainer{
+        height: 60px !important;
+    }
+
+            #widget-MjcsFw8ydIqFMjigkXU{
+        margin-top: 500px !important;
+    }
+
+}
+
+@media only screen and (max-width: 300px) {
+    .nav-logo.right.w-nav-brand.w--current{
+        display: none !important;
+    }
+
+    .nav-logo-text {
+        visibility: hidden !important;
+        position: relative;
+    }
+
+
+}

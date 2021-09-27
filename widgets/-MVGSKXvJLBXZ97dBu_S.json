@@ -5,7 +5,7 @@
     "h": 9,
     "w": 24,
     "x": 0,
-    "y": 2
+    "y": 1
   },
   "offSet": 0,
   "overflow": "overflow:hidden",
@@ -13,6 +13,6 @@
   "styles": "",
   "subtab": "-MVGSFAeqMzmj9TyxT6b",
   "tab": "-MVGOMA1-ifNurWKHxUf",
-  "template": "  <div v-if=\"$getUser('profileID') != null && $getUser('accountType') == 'Mentor' || $getUser('accountType') == 'SME' || $getUser('accountType') == 'PP' || $getUser('accountType') == 'Investor'\" data-w-id=\"TextBlock 10\" style=\"opacity: 1; padding-top: 20%;\" class=\"hero-text\">\r\n    <span class=\"hero-text-small\">Thank you for creating your profile.</span>\r\n    <br>\r\n    <span style=\"font-size: 0.4em; letter-spacing: 0em;\">You'll be able to access your dashboard once your profile has been approved.</span>\r\n  </div>\r\n\r\n<div v-if=\"$getUser('accountType') == 'NONE' || $getUser('accountType') != 'SME' || $getUser('accountType') != 'Investor' || $getUser('accountType') != 'PP' || $getUser('accountType') == 'Mentor' \" data-w-id=\"TextBlock 10\" style=\"opacity: 1; padding-top: 20%;\" class=\"hero-text\">\r\n  <span class=\"hero-text-small\">True Altitude</span>\r\n  <br>Investment Portal\r\n  <br>\r\n  <br>\r\n  <span style=\"font-size: 0.4em; letter-spacing: 0em;\">Please choose your account type below</span>\r\n</div>\r\n\r\n\r\n\r\n<div style=\"display:none\">{{redirectToApprovalPage()}}</div>",
+  "template": "<center>\r\n\r\n\r\n\r\n  <div v-if=\"($getUser('profileID') != null && $getUser('accountType') == 'Mentor') || ($getUser('profileID') != null && $getUser('accountType') == 'CompanyUser') || ($getUser('profileID') != null && $getUser('accountType') == 'ProgrammePartner') || ($getUser('profileID') != null && $getUser('accountType') == 'Investor')\" data-w-id=\"TextBlock 10\" style=\"opacity: 1; padding-top: 20%;\" class=\"hero-text thankstext\">\r\n<div v-if=\"$getUser('profileID') != null && currentTab == '-MVGOMA1-ifNurWKHxUf'\" class=\"row \" style=\"height: 100%; justify-content: center; align-items: flex-end;\">\r\n  <button style=\" font-size: 15px;\" class=\"myButton\" @click='deleteOldProfile(); setAccountTypeNone(); $setCurrentSubTab(\"-MVGSFAeqMzmj9TyxT6b\",\"-MVGOMA1-ifNurWKHxUf\")'>\r\n    <i class=\"fas fa-arrow-circle-left\"></i>\r\n    <break></break>\r\n    Delete profile & start again\r\n  </button>\r\n</div>\r\n\r\n    \r\n    <span class=\"AlreadyRegistered hero-text-small\">Thank you for creating your profile.</span>\r\n    <br>\r\n    <span style=\"thanks font-size: 0.4em; letter-spacing: 0em;\">You'll be able to access your dashboard once your profile has been approved.</span>\r\n  </div>\r\n\r\n<div v-if=\"$getUser('accountType') == 'NONE' || $getUser('accountType') != 'CompanyUser' || $getUser('accountType') != 'Investor' || $getUser('accountType') != 'ProgrammePartner' || $getUser('accountType') == 'Mentor' \" data-w-id=\"TextBlock 10\" style=\"opacity: 1; \" class=\"hero-text\">\r\n  <br><span class=\"intro\">Investment Portal</span>\r\n  <br>\r\n  <br>\r\n  <span class=\"choose\" style=\"letter-spacing: 0em;    color: #ef4437;\">Please choose your account type below</span>\r\n</div>\r\n\r\n\r\n</center>\r\n\r\n  <!--<div style=\"display:none\">{{portalLoginFlow()}}</div> -->",
   "title": ""
 }

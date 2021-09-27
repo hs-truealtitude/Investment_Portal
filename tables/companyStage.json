@@ -1,0 +1,29 @@
+{
+  "-Mj4Ym8u3Z1TxqoIC8GP": {
+    "_id": 1,
+    "createdDate": 1631107096729,
+    "lastEditDate": 1631107275519,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Early Stage (Aspects of your business are mostly undefined, some defined)",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-Mj4Ym8u3Z1TxqoIC8GP"
+  },
+  "-Mj4YnxePT2J_qutJSci": {
+    "_id": 2,
+    "createdDate": 1631107104137,
+    "lastEditDate": 1631107294185,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Late Stage (Aspects of your business are mostly defined)",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-Mj4YnxePT2J_qutJSci"
+  },
+  "-Mj4Yo92FOe9owFR_Iws": {
+    "_id": 3,
+    "createdDate": 1631107104930,
+    "lastEditDate": 1631107305780,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Established (The business is well defined)",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-Mj4Yo92FOe9owFR_Iws"
+  }
+}

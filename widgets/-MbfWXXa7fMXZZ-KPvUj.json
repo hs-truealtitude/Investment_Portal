@@ -1,0 +1,21 @@
+{
+  "classes": "",
+  "dependency": "chartsOnly/-MbfWXU_rE15y8snDzGN",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 10,
+    "w": 18,
+    "x": 3,
+    "y": 4
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MMkiJKDLeU1Mz8JWLqA",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<ChartOnly chartId=\"-MbfWXU_rE15y8snDzGN\" :rData=\"$getGrid('companyProfiles')\" :widgetKey=\"widgetKey\" gridId=\"companyProfiles\" />",
+  "title": "Minimum Investment"
+}

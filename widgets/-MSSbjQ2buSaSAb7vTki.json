@@ -1,15 +1,15 @@
 {
   "gsOptions": {
-    "h": 18,
-    "w": 24,
-    "x": 0,
+    "h": 14,
+    "w": 22,
+    "x": 1,
     "y": 2
   },
   "layout": "b-card",
   "overflow": "height: auto",
   "props": {
-    "gridId": "sMEProfiles",
-    "view": "sMEApproval"
+    "gridId": "companyUserProfiles",
+    "view": "companyUserApproval"
   },
   "subtab": "-MSSGDpHjJs8sZRFptJ2",
   "tab": "-MKUwx1XmgWmAYvLK_wz",

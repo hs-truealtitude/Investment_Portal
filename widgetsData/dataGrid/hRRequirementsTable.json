@@ -2,6 +2,12 @@
   "displayColumn": "name",
   "isReactive": true,
   "meta": {
+    "companyProfiles": {
+      "displayName": "companyProfiles",
+      "lookUpTable": "companyProfiles",
+      "order": 8,
+      "type": "lookup"
+    },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": false,
@@ -19,6 +25,11 @@
       "invisible": false,
       "order": "6",
       "type": "user"
+    },
+    "layout": {
+      "displayName": "Layout",
+      "order": 9,
+      "type": "select"
     },
     "name": {
       "displayName": "Requirement",
@@ -43,12 +54,6 @@
       "invisible": false,
       "lookUpTable": "hRType",
       "order": "1",
-      "type": "lookup"
-    },
-    "slingshotPitches": {
-      "displayName": "slingshotPitches",
-      "lookUpTable": "slingshotPitches",
-      "order": 8,
       "type": "lookup"
     },
     "state": {
@@ -428,7 +433,7 @@
                 "type": "lookup",
                 "name": "control_lookup_481825",
                 "fieldName": "control_lookup_481825",
-                "label": "slingshotPitches",
+                "label": "companyProfiles",
                 "order": 0,
                 "defaultValue": "",
                 "value": "",
@@ -465,7 +470,7 @@
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "slingshotPitches",
+                "propName": "companyProfiles",
                 "ableToAddLookUpVal": true,
                 "gridId": "hRRequirementsTable"
               }
@@ -477,6 +482,64 @@
         "minInstance": 1,
         "maxInstance": 0,
         "instances": []
+      },
+      {
+        "cleintKey": "hidden_section_d92f65d0-fe6b-11eb-8b02-1947c31ab3cb",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_d92f65d0-fe6b-11eb-8b02-1947c31ab3cb",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_d92f65d0-fe6b-11eb-8b02-1947c31ab3cb_row_d92f65d1-fe6b-11eb-8b02-1947c31ab3cb",
+            "controls": [
+              {
+                "type": "select",
+                "name": "control_db533030-fe6b-11eb-8b02-1947c31ab3cb",
+                "fieldName": "control_db533030-fe6b-11eb-8b02-1947c31ab3cb",
+                "label": "Layout",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "layout"
+              }
+            ]
+          }
+        ]
       }
     ],
     "layout": "collapse",
@@ -488,6 +551,9 @@
   "views": {
     "cardView": {
       "meta": {
+        "companyProfiles": {
+          "order": 8
+        },
         "createdDate": {
           "invisible": false,
           "order": "2"
@@ -499,6 +565,9 @@
         "lastEditedBy": {
           "invisible": false,
           "order": "6"
+        },
+        "layout": {
+          "order": 9
         },
         "name": {
           "invisible": false,
@@ -515,9 +584,6 @@
         "requirementType": {
           "invisible": false,
           "order": "1"
-        },
-        "slingshotPitches": {
-          "order": 8
         },
         "state": {
           "invisible": true,

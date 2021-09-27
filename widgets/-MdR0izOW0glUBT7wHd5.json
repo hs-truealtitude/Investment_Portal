@@ -1,0 +1,16 @@
+{
+  "dependency": "dataGrid/boardMeetingMinutes",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 108
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "boardMeetingMinutes"
+  },
+  "tab": "-McEF7QMzCWJthdkwFrb",
+  "type": "DataGrid"
+}

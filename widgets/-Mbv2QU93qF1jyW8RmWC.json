@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/companyDatarooms",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "companyDatarooms"
+  },
+  "subtab": "-Mbv2QPCIgEqFU_Rv4Pb",
+  "tab": "-MKjLdl6pSat-QkUaIYU",
+  "type": "DataGrid"
+}

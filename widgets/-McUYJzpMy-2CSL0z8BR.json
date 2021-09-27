@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 8,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "height:auto",
+  "perPage": 2,
+  "styles": "",
+  "subTab": "-McUNBb_vlrPYviL4Nee",
+  "subtab": "-McUNBb_vlrPYviL4Nee",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<div class=\"navCards\">\r\n<div class=\"content\">\r\n  <div class=\"Ncard\" @click='$setCurrentSubTab(\"-Mciffu8116Yf5oVvpLJ\", \"-MKUwx1XmgWmAYvLK_wz\")'>\r\n<i class=\"gg-database\"></i>\r\n    <p class=\"title\">LP Report</p>\r\n    <p class=\"text\">Custom Dashboard</p>\r\n  </div>\r\n\r\n</div>\r\n</div>",
+  "title": ""
+}

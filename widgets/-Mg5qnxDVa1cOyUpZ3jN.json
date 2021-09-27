@@ -1,0 +1,23 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 7,
+    "w": 24,
+    "x": 0,
+    "y": 650
+  },
+  "hidden": true,
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "height:auto",
+  "perPage": 2,
+  "styles": "",
+  "subTab": "-Mg5qT8KC-5We8sSEnHJ",
+  "subtab": "-Mg5qT8KC-5We8sSEnHJ",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<div class=\"row\" style=\"height: 100%; justify-content: center; align-items: flex-end;\">\r\n        <button style=\" font-size: 15px;\" class=\"myButton\" \r\n  @click='$setCurrentSubTab(\"-MPe1UmfUG2Oh10CnZjs\",\"-MJq8S1suwASZ84EkCd5\")'>\r\n    <i class=\"fas fa-arrow-circle-left\"></i>\r\n  <break></break>\r\n    Back\r\n  </button>\r\n</div>\r\n\r\n\r\n\r\n<div class=\"row justify-content-center\" style=\"padding-bottom:1%;\">\r\n  <h1 style=\" color:black;\"> {{$getUser('activeCompanyName')}} & {{$getUser('activeCompanyOwnerName')}} {{$getUser('activeCompanyOwnerSecondName')}} </h1>\r\n</div>\r\n\r\n<b-card>\r\n  <FullCalendar v-if='$getUser(\"filterCompanyUser\")' calendarId=\"-MVpai9ZhxoM_tJK6Q4D\" />\r\n</b-card>",
+  "title": ""
+}

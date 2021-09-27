@@ -1,0 +1,16 @@
+{
+  "dependency": "dataGrid/programmeData",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "programmeData"
+  },
+  "tab": "-MciimgycOKhGT32h6jZ",
+  "type": "DataGrid"
+}

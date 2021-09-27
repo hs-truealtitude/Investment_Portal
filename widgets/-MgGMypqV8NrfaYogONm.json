@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 1,
+    "w": 24,
+    "x": 0,
+    "y": 3
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "height:auto",
+  "perPage": 2,
+  "styles": "",
+  "subTab": "-MPe1UmfUG2Oh10CnZjs",
+  "subtab": "-MPe1UmfUG2Oh10CnZjs",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<div class=\"row\" style=\"height: 100%; justify-content: center; align-items: flex-end;\">\r\n  <button style=\"margin-right: 10px;\" type=\"button\" class=\"myButton\" @click='$setCurrentSubTab(\"-MW49Z1H3IKgqYwA-yLg\",\"-MJq8S1suwASZ84EkCd5\")'>\r\n  My  Booked Sessions\r\n    <break></break>\r\n  </button>\r\n\r\n  <button type=\"button\" class=\"myButton\" @click='createCohort($getUser(\"accountType\"), null , $getUser(\"profileID\"), null, null)'>\r\n    Create a Cohort\r\n    <break></break>\r\n    <i style=\"padding-left: 10px;\" class=\"far fa-plus-square\"></i>\r\n  </button>\r\n</div>",
+  "title": ""
+}

@@ -2,12 +2,14 @@
   "classes": "",
   "detailTemplate": "",
   "gsOptions": {
-    "h": 2,
+    "h": 1,
     "w": 16,
     "x": 4,
     "y": 0
   },
+  "offSet": 0,
   "overflow": "",
+  "perPage": 2,
   "styles": "",
   "subtab": "-MVGPMeqvw0Ux3xl4eNE",
   "tab": "-MVGOMA1-ifNurWKHxUf",

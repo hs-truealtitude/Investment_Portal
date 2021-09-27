@@ -2,13 +2,13 @@
   "classes": "",
   "columnMaxWidth": "330",
   "columnMinWidth": "330",
-  "dataSource": "slingshotPitches",
+  "dataSource": "companyProfiles",
   "detailTemplate": "",
   "gsOptions": {
     "h": 10,
     "w": 19,
     "x": 3,
-    "y": 7
+    "y": 1005
   },
   "hidden": true,
   "offSet": 0,
@@ -17,7 +17,7 @@
   "styles": "",
   "subtab": "-MPe1A3nbtf8VlPG3BiK",
   "tab": "-MJq8S1suwASZ84EkCd5",
-  "template": "  <div v-if=\"row.numberOfCommercialTrials\">\r\n    <center><img v-if=\"row.companyLogo\" :src=\"row.companyLogo.url\" style=\"border-radius: 15px; max-width:70px  \" /> </center>\r\n    <a href=\"#!\">\r\n    </a>\r\n    <div class=\"pt-4 text-center\">\r\n      <h5 class=\"h3 title\">\r\n        <span style=\"color:black; font-family: 'Grenette pro', sans-serif !important;\" class=\"d-block mb-1\">{{row.name}}</span>\r\n        <p style=\"color:black; font-family: 'Grenette pro', sans-serif !important;\">Commercial Trials Secured: {{row.numberOfCommercialTrials}}</p>\r\n    </div>\r\n  </div>",
+  "template": "  <div v-if=\"row.numberOfCommercialTrials\">\r\n    <center><img v-if=\"row.companyLogo\" :src=\"row.companyLogo.url\" style=\"border-radius: 15px; max-width:70px  \" /> </center>\r\n    <a href=\"#!\">\r\n    </a>\r\n    <div class=\"pt-4 text-center\">\r\n      <h5 class=\"h3 title\">\r\n        <span style=\"color:black; \" class=\"d-block mb-1\">{{row.name}}</span>\r\n        <p style=\"color:black; \">Commercial Trials Secured: {{row.numberOfCommercialTrials}}</p>\r\n    </div>\r\n  </div>",
   "title": "Number of Commercial Trials",
   "type": "card-list",
   "viewOfGrid": "Default",

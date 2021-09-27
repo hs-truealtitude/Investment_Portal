@@ -2,16 +2,20 @@
   "classes": "",
   "detailTemplate": "",
   "gsOptions": {
-    "h": 37,
+    "h": 17,
     "w": 16,
     "x": 4,
     "y": 3
   },
-  "layout": "b-card",
-  "overflow": "",
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "height: auto;",
+  "perPage": 2,
   "styles": "",
   "subtab": "-MTB_p0KnCBD83k4lTzc",
   "tab": "-MJq8S1suwASZ84EkCd5",
   "template": "<DataGridEditRow gridId=\"mentors\" :rowKey=\"$getUser('profileID')\" />",
-  "title": ""
+  "title": "Edit My Mentor Profile"
 }

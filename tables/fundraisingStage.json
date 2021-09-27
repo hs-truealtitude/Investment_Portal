@@ -1,0 +1,65 @@
+{
+  "-McsFYLJZglgUGg9W2gO": {
+    "_id": 1,
+    "createdDate": 1624441499816,
+    "lastEditDate": 1624441622159,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Early Stage - Seed",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-McsFYLJZglgUGg9W2gO"
+  },
+  "-McsFYwbrogiEez46jnD": {
+    "_id": 2,
+    "createdDate": 1624441502267,
+    "lastEditDate": 1624441634838,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Early Stage - Pre-Series A",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-McsFYwbrogiEez46jnD"
+  },
+  "-McsFc5B-u-biUtwlEka": {
+    "_id": 3,
+    "createdDate": 1624441519264,
+    "lastEditDate": 1624441648114,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Early Stage - Series A",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-McsFc5B-u-biUtwlEka"
+  },
+  "-McsFfY1P8Wq3_4riwkp": {
+    "_id": 4,
+    "createdDate": 1624441533399,
+    "lastEditDate": 1624441654078,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Series B",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-McsFfY1P8Wq3_4riwkp"
+  },
+  "-McsFg4zrQ-u9adzjPfu": {
+    "_id": 5,
+    "createdDate": 1624441535635,
+    "lastEditDate": 1624441658097,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Series C",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-McsFg4zrQ-u9adzjPfu"
+  },
+  "-McsFxlQOtniNk7DdwCc": {
+    "_id": 6,
+    "createdDate": 1624441608047,
+    "lastEditDate": 1624441663105,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Series D",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-McsFxlQOtniNk7DdwCc"
+  },
+  "-McsGAnYTmNjAg3kGvX3": {
+    "_id": 7,
+    "createdDate": 1624441665527,
+    "lastEditDate": 1624441692028,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Series E",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-McsGAnYTmNjAg3kGvX3"
+  }
+}

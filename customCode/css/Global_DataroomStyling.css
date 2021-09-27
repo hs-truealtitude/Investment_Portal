@@ -1,0 +1,79 @@
+.form-block .block-bottom{
+    visibility: hidden;
+}
+
+.controlElement{
+    margin-bottom: 13px;
+}
+
+.row .form-control-label{
+    margin-top: 20px !important;
+}
+
+.guiSectionItem .nav-tabs .active {
+font-weight: bold !important;
+}
+
+.head-table {
+visibility: hidden;
+}
+
+.card{
+        border: 0px solid rgba(0, 0, 0, 0.2);
+}
+
+.nav-item a{
+    color: black !important;
+}
+
+.nav-item .active{
+    border-bottom: 2px solid black !important;
+}
+
+.collapseFormItem .title {
+    visibility: hidden;
+    display: none;
+}
+
+.form-control-label span{
+    color: black;
+}
+
+/* Dataroom Form Border */
+.widgetContent .dataGridEditRow{
+  border: 1px solid black;
+}
+
+/* Dataroom Cards - No Border */
+.dataGridEditRow .noEditDataGridCard{
+      border: 0px solid black !important;
+}
+
+.widgetContent h1{
+    letter-spacing: 2px;
+    
+    font-weight: 400 !important;
+    color: black !important;
+}
+
+.widgetContent span{
+    color: black;
+}
+
+.widgetContent .rowItem legend{
+    color: black !important;
+}
+
+.modal-body .ml-auto{
+    display: none;
+}
+
+.dataGridEditRow ._isViewTemplate{
+          border: 0px solid black !important;
+
+}
+
+.data-grid__table-wrapper .card{
+              border: 0px solid black !important;
+
+}

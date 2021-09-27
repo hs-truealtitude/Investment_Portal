@@ -5,15 +5,17 @@
     "h": 18,
     "w": 16,
     "x": 4,
-    "y": 2
+    "y": 1
   },
-  "layout": "b-card",
+  "layout": {
+    "text": "Standard"
+  },
   "offSet": 0,
   "overflow": "",
   "perPage": 2,
   "styles": "",
   "subtab": "-MVGPQly6PCb183y6WaH",
   "tab": "-MVGOMA1-ifNurWKHxUf",
-  "template": "<div style=\"display:none\">{{portalLoginFlow()}}</div>\r\n<DataGridEditRow gridId=\"sMEProfiles\" :rowKey=\"$getUser('profileID')\" />",
-  "title": ""
+  "template": "<DataGridEditRow gridId=\"companyUserProfiles\" :rowKey=\"$getUser('profileID')\" />",
+  "title": "Create your Company User profile"
 }

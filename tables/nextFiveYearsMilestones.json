@@ -1,6 +1,7 @@
 {
   "-MMej7T29aafi7FTq73A": {
     "_id": 1,
+    "companyProfiles": "-MLCLEhZkPjwRU01IsN-",
     "completed": true,
     "createdDate": 1605961022458,
     "description": "Millionaires",
@@ -9,12 +10,12 @@
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "name": "Biggest company in the world",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "pitches": "-MLCLEhZkPjwRU01IsN-",
     "rowKey": "-MMej7T29aafi7FTq73A",
     "targetCompletionDate": 1700092800000
   },
   "-MMeoh_SC7y5nl09q8_3": {
     "_id": 2,
+    "companyProfiles": "-MK5dBcWS1nJR4zsCZ50",
     "createdDate": 1605962485204,
     "description": "fsfefs",
     "group": false,
@@ -22,24 +23,24 @@
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "name": "bbbb",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "pitches": "-MK5dBcWS1nJR4zsCZ50",
     "rowKey": "-MMeoh_SC7y5nl09q8_3",
     "targetCompletionDate": 1606521600000
   },
   "-MMfd2g4pxz8Njvi1f64": {
     "_id": 3,
+    "companyProfiles": "-MK5dBcWS1nJR4zsCZ50",
     "description": "test desc",
     "group": false,
     "lastEditDate": 1605976653000,
     "lastEditedBy": "IExbYiRgRLdw4BMqAJyB9omEhov1",
     "name": "test milestone",
     "owner": "IExbYiRgRLdw4BMqAJyB9omEhov1",
-    "pitches": "-MK5dBcWS1nJR4zsCZ50",
     "rowKey": "-MMfd2g4pxz8Njvi1f64",
     "targetCompletionDate": 1606348800000
   },
   "-MMgpniE-48Hjb0_K-vF": {
     "_id": 4,
+    "companyProfiles": "-MKjORFqLDZfJIqKSSZ6",
     "createdDate": 1605996329726,
     "description": "Hire around 20 developers, 20....",
     "group": false,
@@ -48,11 +49,11 @@
     "name": "To hire more staff",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "rowKey": "-MMgpniE-48Hjb0_K-vF",
-    "slingshotPitches": "-MKjORFqLDZfJIqKSSZ6",
     "targetCompletionDate": 1605996329726
   },
   "-MMgpsXRDsVOiX2y3orS": {
     "_id": 5,
+    "companyProfiles": "-MKswWMazpqzKu-5Dwt9",
     "createdDate": 1605996349451,
     "description": "dsadsd",
     "group": false,
@@ -61,11 +62,11 @@
     "name": "Best every",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "rowKey": "-MMgpsXRDsVOiX2y3orS",
-    "slingshotPitches": "-MKswWMazpqzKu-5Dwt9",
     "targetCompletionDate": 1605996349451
   },
   "-MNwvb3fLzwD1AGhhZAi": {
     "_id": 6,
+    "companyProfiles": "-MNZ-kKtSmZQuN7gqgFt",
     "completed": false,
     "createdDate": 1607340028217,
     "group": false,
@@ -73,23 +74,23 @@
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "name": "Gaining outside investment",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
-    "rowKey": "-MNwvb3fLzwD1AGhhZAi",
-    "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt"
+    "rowKey": "-MNwvb3fLzwD1AGhhZAi"
   },
   "-MNwvfEsw5VlV39i2rNp": {
     "_id": 7,
+    "companyProfiles": "-MNZ-kKtSmZQuN7gqgFt",
     "completed": false,
     "createdDate": 1607340045317,
     "group": false,
-    "lastEditDate": 1618484085799,
+    "lastEditDate": 1625648045637,
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "name": "Gaining Govt. technology grants",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
-    "rowKey": "-MNwvfEsw5VlV39i2rNp",
-    "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt"
+    "rowKey": "-MNwvfEsw5VlV39i2rNp"
   },
   "-MNwvs3TcBJcsVl6k_fg": {
     "_id": 8,
+    "companyProfiles": "-MNZ-kKtSmZQuN7gqgFt",
     "completed": false,
     "createdDate": 1607340097835,
     "group": false,
@@ -97,11 +98,11 @@
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "name": "Securing large commercial contracts and exponentially increasing revenue every year",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
-    "rowKey": "-MNwvs3TcBJcsVl6k_fg",
-    "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt"
+    "rowKey": "-MNwvs3TcBJcsVl6k_fg"
   },
   "-MNwvwByDSCQRasPzuxr": {
     "_id": 9,
+    "companyProfiles": "-MNZ-kKtSmZQuN7gqgFt",
     "completed": false,
     "createdDate": 1607340114763,
     "group": false,
@@ -109,44 +110,44 @@
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "name": "Refining the technology and production",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
-    "rowKey": "-MNwvwByDSCQRasPzuxr",
-    "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt"
+    "rowKey": "-MNwvwByDSCQRasPzuxr"
   },
   "-MNwvytFIJ9YKycv7ndZ": {
     "_id": 10,
+    "companyProfiles": "-MNZ-kKtSmZQuN7gqgFt",
     "createdDate": 1607340125790,
     "group": false,
     "lastEditDate": 1607340191000,
     "lastEditedBy": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "name": "Building out the technology and business development teams",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
-    "rowKey": "-MNwvytFIJ9YKycv7ndZ",
-    "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt"
+    "rowKey": "-MNwvytFIJ9YKycv7ndZ"
   },
   "-MNww1NMhrPJUTx2NsJd": {
     "_id": 11,
+    "companyProfiles": "-MNZ-kKtSmZQuN7gqgFt",
     "createdDate": 1607340140069,
     "group": false,
     "lastEditDate": 1607340192000,
     "lastEditedBy": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "name": "Achieving global growth",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
-    "rowKey": "-MNww1NMhrPJUTx2NsJd",
-    "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt"
+    "rowKey": "-MNww1NMhrPJUTx2NsJd"
   },
   "-MNww46bngjIBKl7sI-3": {
     "_id": 12,
+    "companyProfiles": "-MNZ-kKtSmZQuN7gqgFt",
     "createdDate": 1607340151285,
     "group": false,
     "lastEditDate": 1607340193000,
     "lastEditedBy": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "name": "Gaining extensive marketing/PR coverage",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
-    "rowKey": "-MNww46bngjIBKl7sI-3",
-    "slingshotPitches": "-MNZ-kKtSmZQuN7gqgFt"
+    "rowKey": "-MNww46bngjIBKl7sI-3"
   },
   "-MOf3z9ASAvTo60kgi9f": {
     "_id": 14,
+    "companyProfiles": "-MOb6mnS4-QZeNA3NQEL",
     "createdDate": 1608114238146,
     "group": false,
     "lastEditDate": 1608114291000,
@@ -154,11 +155,11 @@
     "name": "Global scaled business",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "rowKey": "-MOf3z9ASAvTo60kgi9f",
-    "slingshotPitches": "-MOb6mnS4-QZeNA3NQEL",
     "targetCompletionDate": 1764547200000
   },
   "-MOf40Z_nG4Lc6qbE1Xi": {
     "_id": 15,
+    "companyProfiles": "-MOb6mnS4-QZeNA3NQEL",
     "createdDate": 1608114248028,
     "group": false,
     "lastEditDate": 1608114302000,
@@ -166,11 +167,11 @@
     "name": "Revenue of > 25M GBP",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "rowKey": "-MOf40Z_nG4Lc6qbE1Xi",
-    "slingshotPitches": "-MOb6mnS4-QZeNA3NQEL",
     "targetCompletionDate": 1764547200000
   },
   "-MOf9iraq76RG2u3FwET": {
     "_id": 16,
+    "companyProfiles": "-MNwwmbS6JoOq9qymT7i",
     "createdDate": 1608115744286,
     "group": false,
     "lastEditDate": 1608121060000,
@@ -178,11 +179,11 @@
     "name": "Obtain all necessary permits for trials at MK",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "rowKey": "-MOf9iraq76RG2u3FwET",
-    "slingshotPitches": "-MNwwmbS6JoOq9qymT7i",
     "targetCompletionDate": 1609372800000
   },
   "-MOf9lgAaO2d1XCUIH_0": {
     "_id": 17,
+    "companyProfiles": "-MNwwmbS6JoOq9qymT7i",
     "createdDate": 1608115755843,
     "group": false,
     "lastEditDate": 1608121074000,
@@ -190,11 +191,11 @@
     "name": "Demonstration on live 5G networks at MK",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "rowKey": "-MOf9lgAaO2d1XCUIH_0",
-    "slingshotPitches": "-MNwwmbS6JoOq9qymT7i",
     "targetCompletionDate": 1617145200000
   },
   "-MOf9nu3AaZ_3i2UNgE4": {
     "_id": 18,
+    "companyProfiles": "-MNwwmbS6JoOq9qymT7i",
     "createdDate": 1608115764924,
     "group": false,
     "lastEditDate": 1608121087000,
@@ -202,11 +203,11 @@
     "name": "Raise match funding £150k (SEIS approved) (also open to overfunding)",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "rowKey": "-MOf9nu3AaZ_3i2UNgE4",
-    "slingshotPitches": "-MNwwmbS6JoOq9qymT7i",
     "targetCompletionDate": 1614297600000
   },
   "-MOf9qRInd4AScI2t-Nk": {
     "_id": 19,
+    "companyProfiles": "-MNwwmbS6JoOq9qymT7i",
     "createdDate": 1608115775306,
     "group": false,
     "lastEditDate": 1608121101000,
@@ -214,11 +215,11 @@
     "name": "Start the certification of our teleoperation technology in the UK",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "rowKey": "-MOf9qRInd4AScI2t-Nk",
-    "slingshotPitches": "-MNwwmbS6JoOq9qymT7i",
     "targetCompletionDate": 1617145200000
   },
   "-MOl0SbYSCw0Cl4-1gHd": {
     "_id": 20,
+    "companyProfiles": "-MNwrDHaFOpGKE6yT3qn",
     "createdDate": 1608213977586,
     "group": false,
     "lastEditDate": 1608218311000,
@@ -226,11 +227,11 @@
     "name": "Product-Market Fit: gain additional commercial traction & validation with RoboK’s 3D perception software solutions for low-power computing platforms",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "rowKey": "-MOl0SbYSCw0Cl4-1gHd",
-    "slingshotPitches": "-MNwrDHaFOpGKE6yT3qn",
     "targetCompletionDate": 1619737200000
   },
   "-MOl0TS7PaWjRfRTIxMu": {
     "_id": 21,
+    "companyProfiles": "-MNwrDHaFOpGKE6yT3qn",
     "createdDate": 1608213981015,
     "group": false,
     "lastEditDate": 1608218337000,
@@ -238,11 +239,11 @@
     "name": "Product validation (related to the Product-Market Fit): repeatable technical/product delivery, reduce NRE for future customers",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "rowKey": "-MOl0TS7PaWjRfRTIxMu",
-    "slingshotPitches": "-MNwrDHaFOpGKE6yT3qn",
     "targetCompletionDate": 1619737200000
   },
   "-MOl0VAXAR7A18mT_Owe": {
     "_id": 22,
+    "companyProfiles": "-MNwrDHaFOpGKE6yT3qn",
     "createdDate": 1608213988080,
     "group": false,
     "lastEditDate": 1608218366000,
@@ -250,11 +251,11 @@
     "name": "Scale-up funding ready: raise Seed+/Series A investment (Summer 2021)",
     "owner": "WvoWzj1MoaNA4LVdzI4NekfNZyk2",
     "rowKey": "-MOl0VAXAR7A18mT_Owe",
-    "slingshotPitches": "-MNwrDHaFOpGKE6yT3qn",
     "targetCompletionDate": 1625007600000
   },
   "-MYEyJ-APMx3otEyooDQ": {
     "_id": 23,
+    "companyProfiles": "-MMzZ2krPwl50hP5t54m",
     "completed": false,
     "createdDate": 1618396920533,
     "description": "FDA",
@@ -264,11 +265,11 @@
     "name": "CE Marking -FDA",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "rowKey": "-MYEyJ-APMx3otEyooDQ",
-    "slingshotPitches": "-MMzZ2krPwl50hP5t54m",
     "targetCompletionDate": "01/06/2022, 00:00"
   },
   "-MYQ6a2PqqU1liyo_mEV": {
     "_id": 24,
+    "companyProfiles": "-MMzZ2krPwl50hP5t54m",
     "createdDate": 1618583904022,
     "group": false,
     "lastEditDate": 1618583917157,
@@ -276,7 +277,26 @@
     "name": "Clinical Study",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "rowKey": "-MYQ6a2PqqU1liyo_mEV",
-    "slingshotPitches": "-MMzZ2krPwl50hP5t54m",
     "targetCompletionDate": 1618583904022
+  },
+  "-Me-AhdM-VdJU5wOxrRr": {
+    "_id": 25,
+    "companyProfiles": "-MNZ-kKtSmZQuN7gqgFt",
+    "createdDate": 1625648191238,
+    "lastEditDate": 1625648191269,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-Me-AhdM-VdJU5wOxrRr",
+    "targetCompletionDate": 1625648191238
+  },
+  "-Me-Aj2HpU3njR8Ctx3e": {
+    "_id": 26,
+    "companyProfiles": "-MNZ-kKtSmZQuN7gqgFt",
+    "createdDate": 1625648196993,
+    "lastEditDate": 1625648197018,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-Me-Aj2HpU3njR8Ctx3e",
+    "targetCompletionDate": 1625648196994
   }
 }

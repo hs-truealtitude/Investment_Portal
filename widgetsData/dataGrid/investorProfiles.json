@@ -1,24 +1,47 @@
 {
   "displayColumn": "name",
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"=\",\"value\":null,\"name\":\"First Name\",\"hidden\":false},{\"key\":\"secondName\",\"operator\":\"=\",\"value\":null,\"name\":\"Second Name\",\"hidden\":false},{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"IsApproved\",\"hidden\":true}]}",
   "isReactive": true,
   "meta": {
-    "address": {
-      "displayName": "Address",
-      "invisible": true,
-      "order": "12",
+    "aboutMe": {
+      "displayName": "About Me",
+      "order": 23,
       "type": "multiline_text"
+    },
+    "accType": {
+      "displayName": "accType",
+      "lookUpTable": "accountType",
+      "order": "16",
+      "type": "lookup"
+    },
+    "adminRejected": {
+      "displayName": "adminRejected",
+      "order": 18,
+      "type": "checkbox"
+    },
+    "approvalMessage1": {
+      "displayName": "approvalMessage1",
+      "order": 19,
+      "type": "custom"
     },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": false,
-      "order": "14",
+      "order": "5",
       "type": "date"
     },
     "dateOfBirth": {
       "displayName": "Date of Birth",
       "invisible": true,
-      "order": "8",
+      "order": "14",
       "type": "date"
+    },
+    "investorApproval": {
+      "displayName": "Investor Approval",
+      "order": "17",
+      "startTitle": "Begin Investor Approval Process",
+      "type": "workflow",
+      "workflow": "-MeyOVXiZSSm-ZjkMCqL"
     },
     "isApproved": {
       "displayName": "IsApproved",
@@ -29,32 +52,37 @@
     "lastEditDate": {
       "displayName": "Last edit date",
       "invisible": true,
-      "order": "3",
+      "order": "9",
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
       "invisible": true,
-      "order": "2",
+      "order": "8",
       "type": "user"
+    },
+    "layout": {
+      "displayName": "Layout",
+      "order": 22,
+      "type": "select"
     },
     "linkedInProfileLink": {
       "displayName": "LinkedIn Profile",
       "invisible": true,
-      "order": "10",
+      "order": "2",
       "type": "string"
     },
     "location": {
       "displayName": "Location",
       "invisible": true,
       "lookUpTable": "country",
-      "order": "4",
+      "order": "10",
       "type": "lookup"
     },
     "name": {
       "displayName": "First Name",
       "invisible": false,
-      "order": "6",
+      "order": "12",
       "type": "string"
     },
     "nextEvents": {
@@ -66,51 +94,66 @@
     "owner": {
       "displayName": "Owner",
       "invisible": false,
-      "order": "13",
+      "order": "4",
       "type": "user"
     },
     "phoneNumber": {
       "displayName": "Contact Number",
       "invisible": true,
-      "order": "11",
+      "order": "3",
       "type": "phone"
     },
     "profileImage": {
       "displayName": "Profile Image",
       "invisible": false,
-      "order": "5",
+      "order": "11",
       "type": "profile_image"
     },
     "secondName": {
       "displayName": "Second Name",
       "invisible": false,
-      "order": "9",
+      "order": "15",
       "type": "string"
     },
     "state": {
       "displayName": "State",
       "invisible": true,
-      "order": "15",
+      "order": "6",
       "type": "string"
     },
     "submit": {
       "displayName": "",
       "invisible": true,
-      "order": "7",
+      "order": "13",
       "type": "custom"
+    },
+    "submitPressed": {
+      "displayName": "submitPressed",
+      "order": 24,
+      "type": "checkbox"
     },
     "user": {
       "displayName": "User",
       "invisible": true,
-      "order": "16",
+      "order": "7",
       "type": "user"
+    },
+    "userApproval": {
+      "displayName": "userApproval",
+      "order": 20,
+      "type": "custom"
+    },
+    "userRejected": {
+      "displayName": "userRejected",
+      "order": 21,
+      "type": "custom"
     }
   },
   "rowEditorFieldsForm": {
     "sections": [
       {
         "name": "section_35622",
-        "label": "Investor Profile",
+        "label": "Investor User Profile",
         "clientKey": "section_35622",
         "order": 0,
         "rows": [
@@ -120,55 +163,11 @@
             "order": 0,
             "controls": [
               {
-                "type": "checkbox",
-                "name": "control_checkbox_927592",
-                "fieldName": "control_checkbox_927592",
-                "label": "IsApproved",
-                "order": 0,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-12",
-                "readonly": false,
-                "readonlyCondition": "",
-                "placeholder": "",
-                "labelBold": false,
-                "labelItalic": false,
-                "labelUnderline": false,
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "isTodayValueCreated": true,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isCurrentUser": false,
-                "isCurrentUserOwner": true,
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": true,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "propName": "isApproved",
-                "gridId": "investorProfiles"
-              },
-              {
                 "type": "profile_image",
                 "name": "control_profile_image_383673",
                 "fieldName": "control_profile_image_383673",
                 "label": "Profile Image",
-                "order": 1,
+                "order": 0,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -212,12 +211,12 @@
                 "name": "control_text_206536",
                 "fieldName": "control_text_206536",
                 "label": "First Name",
-                "order": 2,
+                "order": 1,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
-                "readonly": false,
-                "readonlyCondition": "",
+                "readonly": true,
+                "readonlyCondition": "rowData.owner != fbUser.uid",
                 "placeholder": "",
                 "labelBold": false,
                 "labelItalic": false,
@@ -256,11 +255,11 @@
                 "name": "control_f4451022-5b20-11eb-8553-f5f20da525b3_",
                 "fieldName": "control_f4451022-5b20-11eb-8553-f5f20da525b3_",
                 "label": "Second Name",
-                "order": 3,
+                "order": 2,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
-                "readonly": false,
+                "readonly": true,
                 "labelBold": false,
                 "labelItalic": false,
                 "labelUnderline": false,
@@ -284,7 +283,51 @@
                 "invisible": null,
                 "invisibleInDataGrid": null,
                 "invisibleLabel": null,
-                "enableCustomValidation": null
+                "enableCustomValidation": null,
+                "readonlyCondition": "rowData.owner != fbUser.uid"
+              },
+              {
+                "type": "multiline_text",
+                "name": "control_4e190e10-0019-11ec-9e2a-cd4342be8f95",
+                "fieldName": "control_4e190e10-0019-11ec-9e2a-cd4342be8f95",
+                "label": "About Me",
+                "order": 3,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "aboutMe",
+                "gridId": "investorProfiles"
               },
               {
                 "type": "datepicker",
@@ -295,7 +338,7 @@
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
-                "readonly": false,
+                "readonly": true,
                 "labelBold": false,
                 "labelItalic": false,
                 "labelUnderline": false,
@@ -319,7 +362,8 @@
                 "invisible": null,
                 "invisibleLabel": null,
                 "invisibleInDataGrid": true,
-                "format": "DD/MM/YYYY"
+                "format": "DD/MM/YYYY",
+                "readonlyCondition": "rowData.owner != fbUser.uid"
               },
               {
                 "type": "text",
@@ -330,7 +374,7 @@
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
-                "readonly": false,
+                "readonly": true,
                 "labelBold": false,
                 "labelItalic": false,
                 "labelUnderline": false,
@@ -355,7 +399,8 @@
                 "invisibleLabel": null,
                 "invisibleInDataGrid": true,
                 "enableCustomValidation": null,
-                "description": "Please paste a link like the following: https://www.linkedin.com/company/true-altitude"
+                "description": "Please paste a link like the following: https://www.linkedin.com/company/true-altitude",
+                "readonlyCondition": "rowData.owner != fbUser.uid"
               },
               {
                 "type": "phone",
@@ -366,11 +411,11 @@
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
-                "readonly": false,
+                "readonly": true,
                 "labelBold": false,
                 "labelItalic": false,
                 "labelUnderline": false,
-                "required": true,
+                "required": false,
                 "isMultiLine": false,
                 "isInteger": false,
                 "decimalPlace": 0,
@@ -390,51 +435,20 @@
                 "invisible": null,
                 "invisibleInDataGrid": true,
                 "invisibleLabel": null,
-                "mask": "99999999999"
-              },
-              {
-                "type": "multiline_text",
-                "name": "control_f4451025-5b20-11eb-8553-f5f20da525b3_",
-                "fieldName": "control_f4451025-5b20-11eb-8553-f5f20da525b3_",
-                "label": "Address",
-                "order": 7,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-12",
-                "readonly": false,
-                "labelBold": false,
-                "labelItalic": false,
-                "labelUnderline": false,
-                "required": false,
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "propName": "address",
-                "gridId": "investorProfiles",
-                "invisibleInDataGrid": true
+                "mask": "99999999999",
+                "readonlyCondition": "rowData.owner != fbUser.uid"
               },
               {
                 "type": "lookup",
                 "name": "control_lookup_57121",
                 "fieldName": "control_lookup_57121",
                 "label": "Location",
-                "order": 8,
+                "order": 7,
                 "defaultValue": "-MJwtgUqBjMrFNntf6GH",
                 "value": "",
                 "className": "col-md-12",
-                "readonly": false,
-                "readonlyCondition": "",
+                "readonly": true,
+                "readonlyCondition": "rowData.owner != fbUser.uid",
                 "placeholder": "",
                 "labelBold": false,
                 "labelItalic": false,
@@ -470,6 +484,50 @@
                 "gridId": "investorProfiles"
               },
               {
+                "type": "checkbox",
+                "name": "control_a9b014a0-1b9c-11ec-9f55-47977d4fbbfc",
+                "fieldName": "control_a9b014a0-1b9c-11ec-9f55-47977d4fbbfc",
+                "label": "I have entered correct & valid details",
+                "order": 8,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "rowData.isApproved == true",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "submitPressed",
+                "gridId": "investorProfiles",
+                "description": "Check this box to ensure your profile is processed."
+              },
+              {
                 "type": "custom",
                 "name": "control_custom_216139",
                 "fieldName": "control_custom_216139",
@@ -502,9 +560,9 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<center>\r\n<button class=\"btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n      hideBack()\r\n      redirectToApproval()\r\n  \t}\r\n\t}\"        \r\n> \r\nSubmit\r\n</button>\r\n</center>\r\n",
-                "invisible": false,
-                "invisibleCondition": "",
+                "customCode": "<center>\r\n<button class=\"btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n      setActiveUserName(rowData.name, rowData.secondName)\r\n      hideBack()\r\n      redirectToApproval()\r\n  \t}\r\n\t}\"        \r\n> \r\nSubmit\r\n</button>\r\n</center>",
+                "invisible": true,
+                "invisibleCondition": "rowData.owner != fbUser.uid || rowData.submitPressed != true",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
@@ -534,11 +592,55 @@
             "order": 0,
             "controls": [
               {
+                "type": "lookup",
+                "name": "control_lookup_502541",
+                "fieldName": "control_lookup_502541",
+                "label": "accType",
+                "order": 0,
+                "defaultValue": "-MKorfvV-56oTz-K9J3t",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": true,
+                "propName": "accType",
+                "ableToAddLookUpVal": false,
+                "gridId": "investorProfiles"
+              },
+              {
                 "type": "text",
                 "name": "control_text_122088",
                 "fieldName": "control_text_122088",
                 "label": "Next Events",
-                "order": 0,
+                "order": 1,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -582,7 +684,7 @@
                 "name": "control_user_194181",
                 "fieldName": "control_user_194181",
                 "label": "Last edited by",
-                "order": 1,
+                "order": 2,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -622,11 +724,98 @@
                 "gridId": "investorProfiles"
               },
               {
+                "type": "checkbox",
+                "name": "control_checkbox_927592",
+                "fieldName": "control_checkbox_927592",
+                "label": "IsApproved",
+                "order": 3,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "isApproved",
+                "gridId": "investorProfiles"
+              },
+              {
+                "type": "checkbox",
+                "name": "control_checkbox_873201",
+                "fieldName": "control_checkbox_873201",
+                "label": "adminRejected",
+                "order": 4,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "adminRejected",
+                "gridId": "investorProfiles"
+              },
+              {
                 "type": "user",
                 "name": "control_user_784410",
                 "fieldName": "control_user_784410",
                 "label": "Owner",
-                "order": 2,
+                "order": 5,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -670,7 +859,7 @@
                 "name": "control_datepicker_953856",
                 "fieldName": "control_datepicker_953856",
                 "label": "Created Date",
-                "order": 3,
+                "order": 6,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -714,7 +903,7 @@
                 "name": "control_datepicker_615361",
                 "fieldName": "control_datepicker_615361",
                 "label": "Last edit date",
-                "order": 4,
+                "order": 7,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -758,7 +947,7 @@
                 "name": "control_text_309792",
                 "fieldName": "control_text_309792",
                 "label": "State",
-                "order": 5,
+                "order": 8,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -802,7 +991,7 @@
                 "name": "control_user_564542",
                 "fieldName": "control_user_564542",
                 "label": "User",
-                "order": 6,
+                "order": 9,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -850,84 +1039,462 @@
         "maxInstance": 0,
         "instances": [],
         "vif": "$getUser('accountType') == 'ADMIN'"
+      },
+      {
+        "name": "section_295238",
+        "label": "Investor User Approval",
+        "clientKey": "section_295238",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_295238_row_464069",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "custom",
+                "name": "control_custom_420880",
+                "fieldName": "control_custom_420880",
+                "label": "approvalMessage1",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<span>Click the button below to begin the process. You can either: </span> \r\n<li> Approve the user (this will send an email and allow the user to access their dashboard) </li>\r\n<li> Reject the user (this will add them to the rejected list and they won't be able to access the portal dashboards) </li>",
+                "invisible": true,
+                "invisibleCondition": "rowData.state == \"Accepted\" || rowData.state == \"Rejected\"",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "approvalMessage1",
+                "gridId": "investorProfiles"
+              },
+              {
+                "type": "custom",
+                "name": "control_custom_722738",
+                "fieldName": "control_custom_722738",
+                "label": "userApproval",
+                "order": 1,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<span>User Approved.</span>",
+                "invisible": true,
+                "invisibleCondition": "rowData.state != \"Accepted\"",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "userApproval",
+                "gridId": "investorProfiles"
+              },
+              {
+                "type": "custom",
+                "name": "control_custom_347768",
+                "fieldName": "control_custom_347768",
+                "label": "userRejected",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<span>User Rejected.</span>",
+                "invisible": true,
+                "invisibleCondition": "rowData.state != \"Rejected\"",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "userRejected",
+                "gridId": "investorProfiles"
+              },
+              {
+                "type": "workflow",
+                "name": "control_workflow_775991",
+                "fieldName": "control_workflow_775991",
+                "label": "Investor Approval",
+                "order": 2,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "rowData.owner != fbUser.uid",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "investorApproval",
+                "gridId": "investorProfiles"
+              }
+            ]
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": [],
+        "vif": "rowData.owner != fbUser.uid"
+      },
+      {
+        "cleintKey": "hidden_section_d9490850-fe6b-11eb-8b02-1947c31ab3cb",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_d9490850-fe6b-11eb-8b02-1947c31ab3cb",
+        "order": 3,
+        "rows": [
+          {
+            "name": "hidden_section_d9490850-fe6b-11eb-8b02-1947c31ab3cb_row_d9490851-fe6b-11eb-8b02-1947c31ab3cb",
+            "controls": [
+              {
+                "type": "select",
+                "name": "control_e2ea6520-fe6b-11eb-b3ac-8169db66894f",
+                "fieldName": "control_e2ea6520-fe6b-11eb-b3ac-8169db66894f",
+                "label": "Layout",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "layout"
+              }
+            ]
+          }
+        ]
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.04954130641537957
+    "_uniqueId": 0.3869730646057232
   },
   "source": "investorProfiles",
   "storageType": "dashboard",
   "title": "Investor Profiles",
   "views": {
-    "investorApproval": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"IsApproved\",\"hidden\":true}]}",
+    "approvedInvestors": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"=\",\"value\":null,\"name\":\"First Name\",\"expression\":false,\"hidden\":false},{\"key\":\"secondName\",\"operator\":\"=\",\"value\":null,\"name\":\"Second Name\",\"expression\":false,\"hidden\":false},{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"IsApproved\",\"expression\":false,\"hidden\":true},{\"key\":\"name\",\"operator\":\"not null\",\"value\":null,\"name\":\"First Name\",\"expression\":false,\"hidden\":true}]}",
       "meta": {
-        "address": {
-          "invisible": false,
-          "order": "13"
+        "aboutMe": {
+          "order": 23
+        },
+        "accType": {
+          "order": "16"
+        },
+        "adminRejected": {
+          "order": 18
+        },
+        "approvalMessage1": {
+          "order": 19
         },
         "createdDate": {
           "invisible": false,
-          "order": "8"
+          "order": "5"
         },
         "dateOfBirth": {
-          "invisible": false,
-          "order": "9"
+          "invisible": true,
+          "order": "14"
+        },
+        "investorApproval": {
+          "order": "17"
         },
         "isApproved": {
-          "invisible": false,
+          "invisible": true,
           "order": "0"
         },
         "lastEditDate": {
-          "invisible": false,
-          "order": "4"
+          "invisible": true,
+          "order": "9"
         },
         "lastEditedBy": {
-          "invisible": false,
-          "order": "3"
+          "invisible": true,
+          "order": "8"
+        },
+        "layout": {
+          "order": 22
         },
         "linkedInProfileLink": {
-          "invisible": false,
-          "order": "11"
-        },
-        "location": {
-          "invisible": false,
-          "order": "5"
-        },
-        "name": {
-          "invisible": false,
-          "order": "1"
-        },
-        "nextEvents": {
           "invisible": true,
           "order": "2"
         },
-        "owner": {
-          "invisible": false,
-          "order": "14"
+        "location": {
+          "invisible": true,
+          "order": "10"
         },
-        "phoneNumber": {
+        "name": {
           "invisible": false,
           "order": "12"
         },
+        "nextEvents": {
+          "invisible": true,
+          "order": "1"
+        },
+        "owner": {
+          "invisible": false,
+          "order": "4"
+        },
+        "phoneNumber": {
+          "invisible": true,
+          "order": "3"
+        },
         "profileImage": {
           "invisible": false,
-          "order": "6"
+          "order": "11"
         },
         "secondName": {
           "invisible": false,
-          "order": "10"
+          "order": "15"
         },
         "state": {
           "invisible": true,
-          "order": "15"
+          "order": "6"
         },
         "submit": {
           "invisible": true,
-          "order": "7"
+          "order": "13"
+        },
+        "submitPressed": {
+          "order": 24
         },
         "user": {
+          "invisible": true,
+          "order": "7"
+        },
+        "userApproval": {
+          "order": 20
+        },
+        "userRejected": {
+          "order": 21
+        }
+      },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
+      "title": "Approved Investors"
+    },
+    "investorApproval": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"IsApproved\",\"expression\":false,\"hidden\":true}]}",
+      "meta": {
+        "aboutMe": {
+          "order": 23
+        },
+        "accType": {
+          "invisible": true,
+          "order": 11
+        },
+        "adminRejected": {
+          "invisible": false,
+          "order": 1
+        },
+        "approvalMessage1": {
+          "order": 19
+        },
+        "createdDate": {
+          "invisible": false,
+          "order": 5
+        },
+        "dateOfBirth": {
+          "invisible": true,
+          "order": 9
+        },
+        "investorApproval": {
+          "invisible": true,
+          "order": 12
+        },
+        "isApproved": {
+          "invisible": false,
+          "order": 0
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": 18
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": 17
+        },
+        "layout": {
+          "order": 22
+        },
+        "linkedInProfileLink": {
+          "invisible": true,
+          "order": 13
+        },
+        "location": {
+          "invisible": true,
+          "order": 7
+        },
+        "name": {
+          "invisible": false,
+          "order": 3
+        },
+        "nextEvents": {
+          "invisible": true,
           "order": 16
+        },
+        "owner": {
+          "invisible": false,
+          "order": 6
+        },
+        "phoneNumber": {
+          "invisible": true,
+          "order": 14
+        },
+        "profileImage": {
+          "invisible": false,
+          "order": 2
+        },
+        "secondName": {
+          "invisible": false,
+          "order": 4
+        },
+        "state": {
+          "invisible": true,
+          "order": 15
+        },
+        "submit": {
+          "invisible": true,
+          "order": 8
+        },
+        "submitPressed": {
+          "order": 24
+        },
+        "user": {
+          "invisible": true,
+          "order": 10
+        },
+        "userApproval": {
+          "order": 20
+        },
+        "userRejected": {
+          "order": 21
         }
       },
       "roles": [
@@ -938,17 +1505,28 @@
     "myProfile": {
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"owner\",\"operator\":\"=\",\"value\":\"fbUser.uid\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true}]}",
       "meta": {
-        "address": {
-          "invisible": false,
-          "order": "13"
+        "aboutMe": {
+          "order": 23
+        },
+        "accType": {
+          "order": "16"
+        },
+        "adminRejected": {
+          "order": 18
+        },
+        "approvalMessage1": {
+          "order": 19
         },
         "createdDate": {
           "invisible": false,
-          "order": "8"
+          "order": "13"
         },
         "dateOfBirth": {
           "invisible": false,
-          "order": "9"
+          "order": "14"
+        },
+        "investorApproval": {
+          "order": "17"
         },
         "isApproved": {
           "invisible": false,
@@ -956,19 +1534,22 @@
         },
         "lastEditDate": {
           "invisible": false,
-          "order": "4"
+          "order": "9"
         },
         "lastEditedBy": {
           "invisible": false,
-          "order": "3"
+          "order": "8"
+        },
+        "layout": {
+          "order": 22
         },
         "linkedInProfileLink": {
           "invisible": false,
-          "order": "11"
+          "order": "3"
         },
         "location": {
           "invisible": false,
-          "order": "5"
+          "order": "10"
         },
         "name": {
           "invisible": false,
@@ -976,40 +1557,149 @@
         },
         "nextEvents": {
           "invisible": true,
-          "order": "2"
+          "order": "7"
         },
         "owner": {
           "invisible": false,
-          "order": "14"
+          "order": "5"
         },
         "phoneNumber": {
           "invisible": false,
-          "order": "12"
+          "order": "4"
         },
         "profileImage": {
           "invisible": false,
-          "order": "6"
+          "order": "11"
         },
         "secondName": {
           "invisible": false,
-          "order": "10"
+          "order": "2"
         },
         "state": {
           "invisible": true,
-          "order": "15"
+          "order": "6"
         },
         "submit": {
           "invisible": true,
-          "order": "7"
+          "order": "12"
+        },
+        "submitPressed": {
+          "order": 24
         },
         "user": {
-          "order": 16
+          "order": "15"
+        },
+        "userApproval": {
+          "order": 20
+        },
+        "userRejected": {
+          "order": 21
         }
       },
       "roles": [
         "-MXvgvmptAXJEl738FcF"
       ],
       "title": "My Profile"
+    },
+    "viewAllInvestors": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"=\",\"value\":null,\"name\":\"First Name\",\"hidden\":false},{\"key\":\"secondName\",\"operator\":\"=\",\"value\":null,\"name\":\"Second Name\",\"hidden\":false},{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"IsApproved\",\"hidden\":true}]}",
+      "meta": {
+        "aboutMe": {
+          "order": 23
+        },
+        "accType": {
+          "order": "16"
+        },
+        "adminRejected": {
+          "order": 18
+        },
+        "approvalMessage1": {
+          "order": 19
+        },
+        "createdDate": {
+          "invisible": false,
+          "order": "5"
+        },
+        "dateOfBirth": {
+          "invisible": true,
+          "order": "14"
+        },
+        "investorApproval": {
+          "order": "17"
+        },
+        "isApproved": {
+          "invisible": true,
+          "order": "0"
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": "9"
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": "8"
+        },
+        "layout": {
+          "order": 22
+        },
+        "linkedInProfileLink": {
+          "invisible": true,
+          "order": "2"
+        },
+        "location": {
+          "invisible": true,
+          "order": "10"
+        },
+        "name": {
+          "invisible": false,
+          "order": "12"
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": "1"
+        },
+        "owner": {
+          "invisible": false,
+          "order": "4"
+        },
+        "phoneNumber": {
+          "invisible": true,
+          "order": "3"
+        },
+        "profileImage": {
+          "invisible": false,
+          "order": "11"
+        },
+        "secondName": {
+          "invisible": false,
+          "order": "15"
+        },
+        "state": {
+          "invisible": true,
+          "order": "6"
+        },
+        "submit": {
+          "invisible": true,
+          "order": "13"
+        },
+        "submitPressed": {
+          "order": 24
+        },
+        "user": {
+          "invisible": true,
+          "order": "7"
+        },
+        "userApproval": {
+          "order": 20
+        },
+        "userRejected": {
+          "order": 21
+        }
+      },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
+      "title": "View All Investors"
     }
   }
 }
