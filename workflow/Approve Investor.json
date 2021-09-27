@@ -1,0 +1,270 @@
+{
+  "data": {
+    "metaData": {
+      "id": "",
+      "statusField": "investorProfiles.accType.accountType"
+    },
+    "nodes": [
+      {
+        "id": "node1626340901423",
+        "x": 326.00000000000006,
+        "y": 282.42857142857144,
+        "width": 103.76560756138393,
+        "height": 40,
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "className": "start-event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {}
+      },
+      {
+        "id": "node1626340919903",
+        "x": 564.1428571428572,
+        "y": 322,
+        "width": 99.99995640345983,
+        "height": 100,
+        "clazz": "userTask",
+        "label": "User Task",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "#general"
+        },
+        "outcomes": [
+          {
+            "text": "Approve",
+            "id": "outcome1626340936248",
+            "idx": 1
+          },
+          {
+            "text": "Reject",
+            "id": "outcome1626949248961",
+            "idx": 2
+          }
+        ]
+      },
+      {
+        "id": "node1626340945298",
+        "x": 902.4285714285716,
+        "y": 352.42857142857144,
+        "width": 140.40623256138394,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Approve Investor",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "investorProfiles / isApproved",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1626949252265",
+        "x": 1421.142857142857,
+        "y": 370,
+        "width": 163.7656947544643,
+        "height": 40,
+        "clazz": "scriptTask",
+        "label": "Send Approval Email",
+        "className": "script-task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": "const email = await getUserEmailByUID(rowData.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: Your profile has been verified',\r\n            text: 'Hi ' + rowData.name + ', \\n\\r' + 'We’re pleased to let you know your profile has been verified for the True Altitude portal. It’s time to get connecting! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + rowData.name + ', <br/>' + '<br/> We’re pleased to let you know your profile has been verified for the True Altitude portal. It’s time to get connecting! <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n\r\n"
+        }
+      },
+      {
+        "id": "node1626949271500",
+        "x": 896.5714285714284,
+        "y": 465.28571428571433,
+        "width": 127.28123256138393,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Reject Investor",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "investorProfiles / adminRejected",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1626959257040",
+        "x": 1165.142857142857,
+        "y": 276.28571428571433,
+        "width": 165.0156947544643,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Admin Rejected False",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "investorProfiles / adminRejected",
+          "fieldValue": "false"
+        }
+      },
+      {
+        "id": "node1626959295277",
+        "x": 1134.2857142857142,
+        "y": 472.142857142857,
+        "width": 100,
+        "height": 40,
+        "clazz": "comment",
+        "label": "Rejected",
+        "className": "comment",
+        "icon": {
+          "name": "comment",
+          "color": "hsl(188, 78%, 41%)"
+        },
+        "attachment": {}
+      },
+      {
+        "id": "node1627032149717",
+        "x": 1700,
+        "y": 369.71428571428567,
+        "width": 100,
+        "height": 40,
+        "clazz": "comment",
+        "label": "Accepted",
+        "className": "comment",
+        "icon": {
+          "name": "comment",
+          "color": "hsl(188, 78%, 41%)"
+        },
+        "attachment": {}
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1626340901423-right",
+        "target": "node1626340919903",
+        "endSocket": "left",
+        "id": "line-1626949243558",
+        "instance": {},
+        "label": "Start Event",
+        "targetLabel": "User Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1626340936248",
+        "target": "node1626340945298",
+        "endSocket": "left",
+        "id": "line-1626949244676",
+        "instance": {},
+        "label": "Approve",
+        "targetLabel": "Approve Investor",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1626949248961",
+        "target": "node1626949271500",
+        "endSocket": "left",
+        "id": "line-1626949288334",
+        "instance": {},
+        "label": "Reject",
+        "targetLabel": "Reject Investor",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1626340945298-right",
+        "target": "node1626959257040",
+        "endSocket": "left",
+        "id": "line-1626959281000",
+        "instance": {},
+        "label": "Approve Investor",
+        "targetLabel": "Admin Rejected False",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1626959257040-right",
+        "target": "node1626949252265",
+        "endSocket": "left",
+        "id": "line-1626959285820",
+        "instance": {},
+        "label": "Admin Rejected False",
+        "targetLabel": "Send Approval Email",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1626949271500-right",
+        "target": "node1626959295277",
+        "endSocket": "left",
+        "id": "line-1626959305599",
+        "instance": {},
+        "label": "Reject Investor",
+        "targetLabel": "Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1626949252265-right",
+        "target": "node1627032149717",
+        "endSocket": "left",
+        "id": "line-1627032157980",
+        "instance": {},
+        "label": "Send Approval Email",
+        "targetLabel": "Accepted",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ]
+  },
+  "name": "Approve Investor"
+}

@@ -2,6 +2,18 @@
   "displayColumn": "name",
   "isReactive": true,
   "meta": {
+    "companyProfiles": {
+      "displayName": "companyProfiles",
+      "invisible": true,
+      "lookUpTable": "companyProfiles",
+      "order": "2",
+      "type": "lookup"
+    },
+    "completed": {
+      "displayName": "Is the milestone completed?",
+      "order": 10,
+      "type": "checkbox"
+    },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": true,
@@ -26,6 +38,11 @@
       "order": "6",
       "type": "user"
     },
+    "layout": {
+      "displayName": "Layout",
+      "order": 11,
+      "type": "select"
+    },
     "name": {
       "displayName": "Milestone",
       "invisible": false,
@@ -43,13 +60,6 @@
       "invisible": true,
       "order": "3",
       "type": "user"
-    },
-    "slingshotPitches": {
-      "displayName": "Slingshot Pitches",
-      "invisible": true,
-      "lookUpTable": "slingshotPitches",
-      "order": "2",
-      "type": "lookup"
     },
     "state": {
       "displayName": "State",
@@ -168,6 +178,48 @@
                 "description": "Please enter the description of your milestone"
               },
               {
+                "type": "checkbox",
+                "name": "control_checkbox_483360",
+                "fieldName": "control_checkbox_483360",
+                "label": "Is the milestone completed?",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "propName": "completed",
+                "gridId": "milestones"
+              },
+              {
                 "type": "datepicker",
                 "name": "control_datepicker_156382",
                 "fieldName": "control_datepicker_156382",
@@ -217,7 +269,7 @@
                 "name": "control_datepicker_774409",
                 "fieldName": "control_datepicker_774409",
                 "label": "Created Date",
-                "order": 4,
+                "order": 3,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -261,7 +313,7 @@
                 "name": "control_user_123661",
                 "fieldName": "control_user_123661",
                 "label": "Owner",
-                "order": 5,
+                "order": 4,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -305,7 +357,7 @@
                 "name": "control_text_680573",
                 "fieldName": "control_text_680573",
                 "label": "State",
-                "order": 6,
+                "order": 5,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -349,7 +401,7 @@
                 "name": "control_text_357506",
                 "fieldName": "control_text_357506",
                 "label": "Next Events",
-                "order": 7,
+                "order": 6,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -393,7 +445,7 @@
                 "name": "control_user_4930",
                 "fieldName": "control_user_4930",
                 "label": "Last edited by",
-                "order": 8,
+                "order": 7,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -437,7 +489,7 @@
                 "name": "control_datepicker_287891",
                 "fieldName": "control_datepicker_287891",
                 "label": "Last edit date",
-                "order": 9,
+                "order": 8,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -480,8 +532,8 @@
                 "type": "lookup",
                 "name": "control_lookup_197631",
                 "fieldName": "control_lookup_197631",
-                "label": "Slingshot Pitches",
-                "order": 11,
+                "label": "companyProfiles",
+                "order": 9,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-6",
@@ -517,7 +569,7 @@
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "slingshotPitches",
+                "propName": "companyProfiles",
                 "ableToAddLookUpVal": true,
                 "gridId": "milestones"
               }
@@ -529,17 +581,82 @@
         "minInstance": 1,
         "maxInstance": 0,
         "instances": []
+      },
+      {
+        "cleintKey": "hidden_section_d95cb760-fe6b-11eb-8b02-1947c31ab3cb",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_d95cb760-fe6b-11eb-8b02-1947c31ab3cb",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_d95cb760-fe6b-11eb-8b02-1947c31ab3cb_row_d95cb761-fe6b-11eb-8b02-1947c31ab3cb",
+            "controls": [
+              {
+                "type": "select",
+                "name": "control_e315e1f0-fe6b-11eb-b3ac-8169db66894f",
+                "fieldName": "control_e315e1f0-fe6b-11eb-b3ac-8169db66894f",
+                "label": "Layout",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "layout"
+              }
+            ]
+          }
+        ]
       }
     ],
     "layout": "collapse",
-    "_uniqueId": 0.8148484908359397
+    "_uniqueId": 0.3459306804750988
   },
   "source": "milestones",
   "storageType": "dashboard",
   "title": "Milestones",
   "views": {
-    "investmentView": {
+    "company": {
       "meta": {
+        "companyProfiles": {
+          "invisible": true,
+          "order": "2"
+        },
+        "completed": {
+          "order": 10
+        },
         "createdDate": {
           "invisible": true,
           "order": "1"
@@ -556,6 +673,9 @@
           "invisible": true,
           "order": "6"
         },
+        "layout": {
+          "order": 11
+        },
         "name": {
           "invisible": false,
           "order": "0"
@@ -568,9 +688,61 @@
           "invisible": true,
           "order": "3"
         },
-        "slingshotPitches": {
+        "state": {
+          "invisible": true,
+          "order": "4"
+        },
+        "targetCompletionDate": {
+          "invisible": false,
+          "order": "9"
+        }
+      },
+      "title": "Company View",
+      "viewTemplate": {
+        "colsPerRow": "1",
+        "maxWidth": "300",
+        "type": "card-list"
+      }
+    },
+    "investmentView": {
+      "meta": {
+        "companyProfiles": {
           "invisible": true,
           "order": "2"
+        },
+        "completed": {
+          "order": 10
+        },
+        "createdDate": {
+          "invisible": true,
+          "order": "1"
+        },
+        "description": {
+          "invisible": false,
+          "order": "8"
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": "7"
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": "6"
+        },
+        "layout": {
+          "order": 11
+        },
+        "name": {
+          "invisible": false,
+          "order": "0"
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": "5"
+        },
+        "owner": {
+          "invisible": true,
+          "order": "3"
         },
         "state": {
           "invisible": true,
@@ -582,56 +754,6 @@
         }
       },
       "title": "Investment View"
-    },
-    "slingshot": {
-      "meta": {
-        "createdDate": {
-          "invisible": true,
-          "order": "1"
-        },
-        "description": {
-          "invisible": false,
-          "order": "8"
-        },
-        "lastEditDate": {
-          "invisible": true,
-          "order": "7"
-        },
-        "lastEditedBy": {
-          "invisible": true,
-          "order": "6"
-        },
-        "name": {
-          "invisible": false,
-          "order": "0"
-        },
-        "nextEvents": {
-          "invisible": true,
-          "order": "5"
-        },
-        "owner": {
-          "invisible": true,
-          "order": "3"
-        },
-        "slingshotPitches": {
-          "invisible": true,
-          "order": "2"
-        },
-        "state": {
-          "invisible": true,
-          "order": "4"
-        },
-        "targetCompletionDate": {
-          "invisible": false,
-          "order": "9"
-        }
-      },
-      "title": "Slingshot",
-      "viewTemplate": {
-        "colsPerRow": "1",
-        "maxWidth": "300",
-        "type": "card-list"
-      }
     }
   }
 }

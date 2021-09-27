@@ -1,5 +1,5 @@
 {
-  "dependency": "dataGrid/referralTypeSME",
+  "dependency": "dataGrid/referralTypeCompanyUser",
   "gsOptions": {
     "h": 18,
     "w": 24,
@@ -9,7 +9,7 @@
   "layout": "b-card",
   "overflow": "height: auto",
   "props": {
-    "gridId": "referralTypeSME"
+    "gridId": "referralTypeCompanyUser"
   },
   "subtab": "-MSXrAuNVj8ba_HL-ytR",
   "tab": "-MKjMRUUg4_Q6hNfvyso",

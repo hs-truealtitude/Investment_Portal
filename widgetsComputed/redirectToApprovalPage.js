@@ -43,11 +43,11 @@ return async function  () {
 
         }
 
-        //SME
-        if(accountType == 'SME'){
+        //CompanyUser
+        if(accountType == 'CompanyUser'){
 
-            let activeSMEProfile = $getDashboardModel('sMEProfiles')[$getUser('profileID')]
-            let isApprovedS = activeSMEProfile.isApproved
+            let activeCompanyUserProfile = $getDashboardModel('companyUserProfiles')[$getUser('profileID')]
+            let isApprovedS = activeCompanyUserProfile.isApproved
 
             if(isApprovedS == true){
                 $setCurrentSubTab('-MKUrGgnB0UOnhJlhCjv','-MJq8S1suwASZ84EkCd5')
@@ -61,7 +61,7 @@ return async function  () {
         }
 
         //PROGRAMME PARTNER
-        if(accountType == 'PP'){
+        if(accountType == 'ProgrammePartner'){
       
             let activePPProfile = $getDashboardModel('programmePartnerProfiles')[$getUser('profileID')]
             let isApprovedP = activePPProfile.isApproved 

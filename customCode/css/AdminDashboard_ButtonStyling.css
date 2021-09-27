@@ -1,0 +1,93 @@
+/*Global button styling with the class - myButton*/
+.myButton {
+            background-color: #fffaf3 !important;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family: 'Grenette pro', sans-serif;
+	font-size:18px;
+	padding: 5px;
+	text-decoration:none;
+	height:38px;
+	width:180px;
+
+}
+
+.myButton:hover {
+	background-color:#ef4437;
+	color:#000000;
+	}
+
+.myButton:hover .far{
+	color: green!important;
+}
+
+
+/*Tangle Buttons*/
+.widgetContent button{
+            background-color: #fffaf3 !important;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family: 'Grenette pro', sans-serif;
+	font-size:18px;
+	padding: 5px;
+	text-decoration:none;
+
+}
+
+.widgetContent button span{
+	color:#000000 !important;
+}
+
+.widgetContent button:hover{
+	background-color: #F1F1F1 !important;
+	border:0px solid #000000 !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.widgetContent button svg#add-expense{
+	color: black !important;
+}
+
+button{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+}
+
+button:hover{
+	background-color: #F1F1F1 !important;
+	border:0px solid #000000 !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+}
+
+.dbtn{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+}
+
+.dbtn:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0) !important;
+}
+
+/*Card list page selection buttons*/
+.pagination .active .page-link {
+	color: white !important;
+	background: #c6b477 !important;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3) !important;
+}
+
+/*Tangle Card Toggle Button*/
+.b-dropdown button{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0) !important;
+}
+
+/*Datagrid Add Card Button*/
+.controlElement .data-grid__wrapper button{
+	background-color: white !important;
+}
+
+/*Invite Buttons*/
+.inviteButtons button{
+	width: 90px !important;
+}

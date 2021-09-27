@@ -1,0 +1,58 @@
+{
+  "-Mk6Z9eq2kcnPIGC5SO_": {
+    "_id": 1,
+    "createdDate": 1632214495204,
+    "lastEditDate": 1632214500708,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Monday",
+    "rowKey": "-Mk6Z9eq2kcnPIGC5SO_"
+  },
+  "-Mk6ZAFKq4GFf-NUINbC": {
+    "_id": 2,
+    "createdDate": 1632214497603,
+    "lastEditDate": 1632214504601,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Tuesday",
+    "rowKey": "-Mk6ZAFKq4GFf-NUINbC"
+  },
+  "-Mk6ZATt4YWM_d-lZ4SF": {
+    "_id": 3,
+    "createdDate": 1632214498535,
+    "lastEditDate": 1632214507377,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Wednesday",
+    "rowKey": "-Mk6ZATt4YWM_d-lZ4SF"
+  },
+  "-Mk6ZCg2jHZpTf46mcNN": {
+    "_id": 4,
+    "createdDate": 1632214507569,
+    "lastEditDate": 1632214510769,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Thursday",
+    "rowKey": "-Mk6ZCg2jHZpTf46mcNN"
+  },
+  "-Mk6ZDVehGAHQL8yStCL": {
+    "_id": 5,
+    "createdDate": 1632214510936,
+    "lastEditDate": 1632214515021,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Friday",
+    "rowKey": "-Mk6ZDVehGAHQL8yStCL"
+  },
+  "-Mk6ZEY65ewdu8WKqCOf": {
+    "_id": 6,
+    "createdDate": 1632214515189,
+    "lastEditDate": 1632214518756,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Saturday",
+    "rowKey": "-Mk6ZEY65ewdu8WKqCOf"
+  },
+  "-Mk6ZFSVst_-AW176f3k": {
+    "_id": 7,
+    "createdDate": 1632214518926,
+    "lastEditDate": 1632214522408,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "Sunday",
+    "rowKey": "-Mk6ZFSVst_-AW176f3k"
+  }
+}

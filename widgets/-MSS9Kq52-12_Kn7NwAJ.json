@@ -1,18 +1,18 @@
 {
   "classes": "",
+  "detailTemplate": "",
   "gsOptions": {
-    "h": 5,
-    "w": 15,
-    "x": 4,
-    "y": 2
+    "h": 8,
+    "w": 24,
+    "x": 0,
+    "y": 0
   },
-  "layout": "",
   "offSet": 0,
-  "overflow": "",
+  "overflow": "height:auto",
   "perPage": 2,
   "styles": "",
   "subtab": "-MSS8Qq3X5Knrz4I6FLi",
   "tab": "-MKUwx1XmgWmAYvLK_wz",
-  "template": "<center>\r\n  <button type=\"button\" class=\"btn btn-success\" @click='$setCurrentSubTab(\"-MSSGA39TgrXo61gq-zJ\",\"-MKUwx1XmgWmAYvLK_wz\")'>Mentors</button>\r\n  <button type=\"button\" class=\"btn btn-danger\" @click='$setCurrentSubTab(\"-MSSGBoDqOdUXq8acqFc\",\"-MKUwx1XmgWmAYvLK_wz\")'>Investors</button>\r\n  <button type=\"button\" class=\"btn btn-warning\" @click='$setCurrentSubTab(\"-MSSGHFX-vR4Au5gFDVQ\",\"-MKUwx1XmgWmAYvLK_wz\")'>Programme Partners</button>\r\n  <button type=\"button\" class=\"btn btn-primary\" @click='$setCurrentSubTab(\"-MSSGDpHjJs8sZRFptJ2\",\"-MKUwx1XmgWmAYvLK_wz\")'>SMEs</button>\r\n\r\n</center>",
+  "template": "<div class=\"navCards\">\r\n<div class=\"content\">\r\n  <div class=\"Ncard\" @click='$setCurrentSubTab(\"-MSSGDpHjJs8sZRFptJ2\",\"-MKUwx1XmgWmAYvLK_wz\")'>\r\n    <i class=\"fas fa-user-plus fa-lg\"></i>\r\n    <p class=\"title\">Company Users</p>\r\n    <p class=\"text\">View, edit or approve.</p>\r\n  </div>\r\n\r\n  <div class=\"Ncard\" @click='$setCurrentSubTab(\"-MSSGA39TgrXo61gq-zJ\",\"-MKUwx1XmgWmAYvLK_wz\")'>\r\n    <i class=\"fas fa-handshake fa-lg\"></i>\r\n    <p class=\"title\">Mentors</p>\r\n    <p class=\"text\">View, edit or approve.</p>\r\n  </div>\r\n\r\n  <div class=\"Ncard\" @click='$setCurrentSubTab(\"-MSSGBoDqOdUXq8acqFc\",\"-MKUwx1XmgWmAYvLK_wz\")'>\r\n    <i class=\"fas fa-user fa-lg\"></i>\r\n    <p class=\"title\">Investors</p>\r\n    <p class=\"text\">View, edit or approve.</p>\r\n  </div>\r\n\r\n  <div class=\"Ncard\" @click='$setCurrentSubTab(\"-MSSGHFX-vR4Au5gFDVQ\",\"-MKUwx1XmgWmAYvLK_wz\")'>\r\n    <i class=\"fas fa-user-tie fa-lg\"></i>\r\n    <p class=\"title\">Programme Partners</p>\r\n    <p class=\"text\">View, edit or approve.</p>\r\n  </div>\r\n\r\n</div>\r\n</div>\r\n",
   "title": ""
 }

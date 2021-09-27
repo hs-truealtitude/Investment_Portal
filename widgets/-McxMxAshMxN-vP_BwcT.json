@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 2,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subTab": "-Mciffu8116Yf5oVvpLJ",
+  "subtab": "-Mciffu8116Yf5oVvpLJ",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<center style=\"padding-top: 30px;\"><h1 style=\"letter-spacing: 1px; font-size:30px;color:black !important;\">LP Reporting Dashboard</h1></center>",
+  "title": ""
+}

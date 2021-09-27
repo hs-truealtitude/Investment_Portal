@@ -6,12 +6,14 @@
     "h": 10,
     "w": 18,
     "x": 3,
-    "y": 27
+    "y": 1025
   },
+  "offSet": 0,
   "overflow": "",
+  "perPage": 2,
   "styles": "",
   "subtab": "-MPe1A3nbtf8VlPG3BiK",
   "tab": "-MJq8S1suwASZ84EkCd5",
-  "template": "<ChartOnly chartId=\"-MYtkx30MaiUdk_ZXj8s\" :rData=\"$getGrid('slingshotPitches')\" :widgetKey=\"widgetKey\" gridId=\"slingshotPitches\" />",
+  "template": "<ChartOnly chartId=\"-MYtkx30MaiUdk_ZXj8s\" :rData=\"$getGrid('companyProfiles')\" :widgetKey=\"widgetKey\" gridId=\"companyProfiles\" />",
   "title": "Grant Funding"
 }

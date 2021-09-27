@@ -11,19 +11,17 @@ return async function  () {
         if(accountType == 'Investor'){
            
             let activeInvestorProfile = $getDashboardModel('investorProfiles')[$getUser('profileID')]
-
-            console.log(activeInvestorProfile)
-
             let isApprovedI = activeInvestorProfile.isApproved
             
             if(isApprovedI == true){
-                console.log(accountType, 'account approved')
                 $setCurrentSubTab('-MLb4VOxEfZKqJNookL4','-MJq8S1suwASZ84EkCd5')
+
                 return null
                 console.log(accountType, 'account approved')
             } 
             else{
-                redirectToApproval()
+                return null
+                //redirectToApproval()
               }
         }
         
@@ -35,32 +33,36 @@ return async function  () {
 
             if(isApprovedM == true){
                 $setCurrentSubTab('-MR0b-cKrUEPkudH1B0x','-MJq8S1suwASZ84EkCd5')
+
                 return null
             } 
             else{
-                redirectToApproval()
+                return null
+                //redirectToApproval()
             }
 
         }
 
-        //SME
-        if(accountType == 'SME'){
+        //CompanyUser
+        if(accountType == 'CompanyUser'){
 
-            let activeSMEProfile = $getDashboardModel('sMEProfiles')[$getUser('profileID')]
-            let isApprovedS = activeSMEProfile.isApproved
+            let activeCompanyUserProfile = $getDashboardModel('companyUserProfiles')[$getUser('profileID')]
+            let isApprovedS = activeCompanyUserProfile.isApproved
 
             if(isApprovedS == true){
-                $setCurrentSubTab('-MKUrGgnB0UOnhJlhCjv','-MJq8S1suwASZ84EkCd5')
+                $setCurrentSubTab('-MfY0EbaZX6XWjZu1p6r','-MJq8S1suwASZ84EkCd5')
+
                 return null
             } 
             else{
-                redirectToApproval()
+                return null
+                //redirectToApproval()
             }
 
         }
 
         //PROGRAMME PARTNER
-        if(accountType == 'PP'){
+        if(accountType == 'ProgrammePartner'){
       
             let activePPProfile = $getDashboardModel('programmePartnerProfiles')[$getUser('profileID')]
             let isApprovedP = activePPProfile.isApproved 
@@ -70,7 +72,8 @@ return async function  () {
                 return null
             } 
             else{
-                redirectToApproval()
+                return null
+                //redirectToApproval()
             }
         }
     }

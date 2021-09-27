@@ -1,17 +1,20 @@
 {
   "classes": "noscroll",
+  "detailTemplate": "",
   "gsOptions": {
-    "h": 3,
-    "w": 15,
-    "x": 4,
+    "h": 11,
+    "w": 24,
+    "x": 0,
     "y": 0
   },
-  "layout": "",
+  "layout": {
+    "text": "Standard"
+  },
   "offSet": 0,
-  "overflow": "overflow:hidden",
+  "overflow": "height: auto;",
   "perPage": 2,
   "styles": "",
   "tab": "-MKUwx1XmgWmAYvLK_wz",
-  "template": "<center>\n  <h1 style=\"font-weight: bold;\">Investment Portal</h1>\n  <h3> Admin Dashboard </h3>\n\n\n\n</center>",
+  "template": "<center style=\"margin-top: 150px; \n                position: absolute;\n                margin-left: auto;\n                margin-right: auto;\n                left: 0;\n                right: 0;\n                text-align: center;\n \">\n  <h1 style=\"color:black !important;   font-family: 'Grenette pro', sans-serif; letter-spacing: 6px; font-size: 2.9em;   text-decoration: underline;  text-decoration-color:#ef4437;\">\n    Admin Dashboard\n  </h1>\n</center>\n\n<div class=\"navCards\">\n  <div class=\"flexbox-container\">\n\n    <div class=\"Ncard flexbox-item flexbox-item-1\" @click='$setCurrentSubTab(\"-ManBx-upN_l-5JyU1WT\",\"-MKjLdl6pSat-QkUaIYU\")'>\n      <div class=\"icon\"><i class=\"gg-database\"></i></div>\n      <p class=\"title\">Company Cards & Data</p>\n      <p class=\"text\">Click to view all companies within the database.</p>\n    </div>\n\n    <div class=\"Ncard flexbox-item flexbox-item-2\" @click='$setCurrentSubTab(\"-Mb61JFGNknXNp5uP1r9\",\"-MKUwx1XmgWmAYvLK_wz\")'>\n      <div class=\"icon\"><i class=\"gg-align-bottom\"></i></div>\n      <p class=\"title\">Metrics & Charts</p>\n      <p class=\"text\">View/edit metrics and charts.</p>\n    </div>\n\n    <div class=\"Ncard flexbox-item flexbox-item-3\" @click='$setCurrentSubTab(\"-MSS8Qq3X5Knrz4I6FLi\",\"-MKUwx1XmgWmAYvLK_wz\")'>\n      <div class=\"icon\"><i class=\"gg-user\"></i></div>\n      <p class=\"title\">Manage & View Profiles</p>\n      <p class=\"text\">View and approve accounts.</p>\n    </div>\n\n    <div class=\"Ncard flexbox-item flexbox-item-3\" @click='$setCurrentSubTab(\"-MjFfoo9xiWiA2TizFEH\",\"-MKUwx1XmgWmAYvLK_wz\")'>\n      <div class=\"icon\"><i class=\"gg-arrow-top-right-r\"></i></div>\n      <p class=\"title\">Data requests</p>\n      <p class=\"text\">View all data requests from investor and mentor users</p>\n    </div>\n\n\n  </div>\n</div>",
   "title": ""
 }

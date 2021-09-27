@@ -1,8 +1,8 @@
-return function  (pitch) {
+return function  (company) {
 
-    let savedPitches = $getGrid('savedPitches')
+    let savedcompanyProfiles = $getGrid('savedcompanyProfiles')
 
-    let filteredSaved = savedPitches.filter(saved=> saved.owner == fbUser.uid && saved.pitches == pitch);
+    let filteredSaved = savedcompanyProfiles.filter(saved=> saved.owner == fbUser.uid && saved.companyProfiles == company);
 
 
     if (filteredSaved[0]){

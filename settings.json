@@ -1,6 +1,7 @@
 {
   "regional": {
     "currency": "£",
-    "date": "DD/MM/YYYY, HH:mm"
+    "date": "DD/MM/YYYY, HH:mm",
+    "time": "MM/DD/YYYY, HH:mm"
   }
 }

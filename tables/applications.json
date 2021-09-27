@@ -1,0 +1,19 @@
+{
+  "-MkC764TcoRWW68T50hk": {
+    "_id": 1,
+    "cohort": "-MkC5vn4vltyiBU06llr",
+    "company": "-MMzZ2krPwl50hP5t54m",
+    "companyLastEditDate": 1632302420726,
+    "companyUser": "-MkBfhgu8NyiGbJT6SFP",
+    "createdBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "createdDate": 1632307803127,
+    "lastEditDate": 1632307903761,
+    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "name": "ProgrammePartner->CompanyUser",
+    "notificationDescription": "A Programme Partner has applied for Warner Patch to be a part of their cohort",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "programmePartnerOwner": "-MkBl5HhLxRWaiPiPXiA",
+    "referralTypeCompanyUser": "-MSXrH_xpojUkTnzBsPK",
+    "rowKey": "-MkC764TcoRWW68T50hk"
+  }
+}

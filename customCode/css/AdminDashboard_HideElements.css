@@ -1,0 +1,58 @@
+.b-sidebar-footer{
+    display: none;
+}
+
+
+/*Admin notifications - Hiding Modal Elements*/
+
+.dataGridEditRow .ml-auto{
+    display: none;
+}
+.d-flex .btn-md{
+    display: none;
+}
+.modal-header .modal-title{
+    display: none;
+}
+.modal-content .btn-danger{
+    display: none;
+}
+
+.dgRowPreview .input-group-append{
+    display: none !important;
+}
+
+.dgRowPreview .dgRowPreview__footer{
+    display: none !important;
+
+}
+
+.sidenav.navbar {
+    display: none !important;
+}
+.appNav._navInSideBar {
+    display: none !important;
+}
+
+.sidebarMobileTrigger{
+        display: none !important;
+}
+
+.toolsPanel{
+
+}
+
+.g-sidenav-pinned .sidenav.fixed-left + .main-content{
+    margin-left: 0px !important;
+}
+
+.sidenav.navbar {
+    display: none !important;
+}
+.appNav._navInSideBar {
+    display: none !important;
+}
+
+.navbar-vertical.navbar-expand-xs.fixed-left + .main-content{
+    margin-left: 0px;
+}

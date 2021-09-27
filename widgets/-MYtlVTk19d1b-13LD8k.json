@@ -6,12 +6,14 @@
     "h": 10,
     "w": 18,
     "x": 3,
-    "y": 37
+    "y": 1045
   },
+  "offSet": 0,
   "overflow": "",
+  "perPage": 2,
   "styles": "",
   "subtab": "-MPe1A3nbtf8VlPG3BiK",
   "tab": "-MJq8S1suwASZ84EkCd5",
-  "template": "<ChartOnly chartId=\"-MYtlVDZ8R5S4fYb7cgL\" :rData=\"$getGrid('slingshotPitches')\" :widgetKey=\"widgetKey\" gridId=\"slingshotPitches\" />",
+  "template": "<ChartOnly chartId=\"-MYtlVDZ8R5S4fYb7cgL\" :rData=\"$getGrid('companyProfiles')\" :widgetKey=\"widgetKey\" gridId=\"companyProfiles\" />",
   "title": "Jobs Generated Throughout Programme"
 }

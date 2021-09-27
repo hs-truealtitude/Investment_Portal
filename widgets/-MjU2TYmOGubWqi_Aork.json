@@ -1,0 +1,23 @@
+{
+  "autoHeight": true,
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 5,
+    "w": 22,
+    "x": 1,
+    "y": 3
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "height: auto;",
+  "perPage": 2,
+  "styles": "",
+  "subTab": "-Mj-lY7Z-9q7r9RJK069",
+  "subtab": "-Mj-lY7Z-9q7r9RJK069",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<div class=\"cohortData\" style=\"border-bottom: 2px solid black;\">\r\n  <center>\r\n    <h1 style=\"margin-top: 20px; text-decoration: underline;  font-size: 2.8em;  text-decoration-color: #ef4437;;\">{{$getUser('activeProgrammeName')}}</h1>\r\n  </center>\r\n\r\n  <div class=\"row\" style=\"margin-top: 60px; color:black; \">\r\n\r\n    <div class=\"col\">\r\n      <center>\r\n        <h1> Investors </h1>\r\n        <h1 style=\"font-size: 2.5em; color:black;\">{{programmeCountInvestors()}}</h1>\r\n      </center>\r\n    </div>\r\n\r\n    <div class=\"col\">\r\n      <center>\r\n        <h1> Companies </h1>\r\n        <h1 style=\"font-size: 2.5em;\">{{programmeCountCompanies()}}</h1>\r\n      </center>\r\n    </div>\r\n\r\n    <div class=\"col\">\r\n      <center>\r\n        <h1> Company Represenatives </h1>\r\n        <h1 style=\"font-size: 2.5em;\">{{programmeCountCompanyUsers()}}</h1>\r\n      </center>\r\n    </div>\r\n\r\n    <div v-if=\"$getUser('accountType') == 'ProgrammePartner'\" class=\"col\">\r\n      <center>\r\n        <h1> Mentors </h1>\r\n        <h1 style=\"font-size: 2.5em;\">{{programmeCountMentors()}}</h1>\r\n      </center>\r\n    </div>\r\n\r\n  </div>\r\n\r\n</div>",
+  "title": ""
+}

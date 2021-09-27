@@ -1,0 +1,189 @@
+<div class="bg">
+   <img v-if="currentTab === '-MKUwx1XmgWmAYvLK_wz' || currentSubTab === '-ManBx-upN_l-5JyU1WT'" src="https://uploads-ssl.webflow.com/6019829c6923fb7e4774c0bc/60253f9a0f7b98af540d19a9_hero-sky.jpg" loading="lazy" sizes="100vw" srcset="https://uploads-ssl.webflow.com/6019829c6923fb7e4774c0bc/60253f9a0f7b98af540d19a9_hero-sky-p-500.jpeg 500w, https://uploads-ssl.webflow.com/6019829c6923fb7e4774c0bc/60253f9a0f7b98af540d19a9_hero-sky-p-800.jpeg 800w, https://uploads-ssl.webflow.com/6019829c6923fb7e4774c0bc/60253f9a0f7b98af540d19a9_hero-sky-p-1600.jpeg 1600w, https://uploads-ssl.webflow.com/6019829c6923fb7e4774c0bc/60253f9a0f7b98af540d19a9_hero-sky-p-2000.jpeg 2000w, https://uploads-ssl.webflow.com/6019829c6923fb7e4774c0bc/60253f9a0f7b98af540d19a9_hero-sky.jpg 2400w" alt="" class="hero-sky-img"> 
+</div>
+<div class="body-border-contain">
+   <div class="border-top"></div>
+   <div class="border-bottom"></div>
+</div>
+<div class="nav-top-contain">
+   <div class="backToPortal" v-if="currentTab === '-MKUwx1XmgWmAYvLK_wz' && currentSubTab !== '-MMfBzmUm97eKjJeXhqA' && currentSubTab !== '-Mb61JFGNknXNp5uP1r9' && currentSubTab !== '-MSS8Qq3X5Knrz4I6FLi' && currentSubTab !== '-MMjYuXoo21454Y2IYpK' && currentSubTab !== '-MMkiJKDLeU1Mz8JWLqA' && currentSubTab !== '-MSSGDpHjJs8sZRFptJ2' && currentSubTab !== '-MSSGA39TgrXo61gq-zJ' && currentSubTab !== '-MSSGBoDqOdUXq8acqFc' && currentSubTab !== '-MSSGHFX-vR4Au5gFDVQ' && currentSubTab !== '-McTOHdSHbPgOnUt6Tdt'  && currentSubTab !== '-McUNBb_vlrPYviL4Nee' && currentSubTab !== '-Mciffu8116Yf5oVvpLJ'  && currentSubTab !== '-MjFfoo9xiWiA2TizFEH'">
+      <div v-if="$getUser('accountType') != 'AdminOnly'">
+         <div @click="$setCurrentTab('-MJq8S1suwASZ84EkCd5')" class="nav-logo right ui">
+            <i class="gg-chevron-left"></i>
+            <div class="nav-logo-text" style=" font-size: 18px" >Portal</div>
+         </div>
+      </div>
+   </div>
+   <div class="backToAdminDashboard" v-if="currentSubTab === '-ManBx-upN_l-5JyU1WT' || currentSubTab === '-Mb61JFGNknXNp5uP1r9' || currentSubTab === '-MjFfoo9xiWiA2TizFEH' || currentSubTab === '-MSS8Qq3X5Knrz4I6FLi' || currentSubTab === '-McUNBb_vlrPYviL4Nee' ">
+      <div @click="$setCurrentTab('-MKUwx1XmgWmAYvLK_wz')" class="nav-logo right ui">
+         <i class="gg-chevron-left"></i>
+         <div class="nav-logo-text" style=" font-size: 18px" >Back</div>
+      </div>
+   </div>
+   <div class="backToCompanyDataSelection" v-if="currentSubTab === '-MMfBzmUm97eKjJeXhqA' || currentSubTab === '-MKjPc0h4zi-RTpRfuBW' || currentSubTab === '-MbpSZy4E65b7xh5epuE'">
+      <div @click="$setCurrentSubTab('-ManBx-upN_l-5JyU1WT', '-MKjLdl6pSat-QkUaIYU')" class="nav-logo right ui">
+         <i class="gg-chevron-left"></i>
+         <div class="nav-logo-text" style=" font-size: 18px" >Back</div>
+      </div>
+   </div>
+   <div class="backToMetricSelection" v-if="currentSubTab === '-MMjYuXoo21454Y2IYpK' || currentSubTab === '-MMkiJKDLeU1Mz8JWLqA'">
+      <div @click="$setCurrentSubTab('-Mb61JFGNknXNp5uP1r9', '-MKUwx1XmgWmAYvLK_wz')" class="nav-logo right ui">
+         <i class="gg-chevron-left"></i>
+         <div class="nav-logo-text" style=" font-size: 18px" >Back</div>
+      </div>
+   </div>
+   <div class="backToAccountSelection" v-if="currentSubTab === '-MSSGDpHjJs8sZRFptJ2' || currentSubTab === '-MSSGA39TgrXo61gq-zJ' || currentSubTab === '-MSSGBoDqOdUXq8acqFc' || currentSubTab === '-MSSGHFX-vR4Au5gFDVQ'">
+      <div @click="$setCurrentSubTab('-MSS8Qq3X5Knrz4I6FLi', '-MKUwx1XmgWmAYvLK_wz')" class="nav-logo right ui">
+         <i class="gg-chevron-left"></i>
+         <div class="nav-logo-text" style=" font-size: 18px" >Back</div>
+      </div>
+   </div>
+   <div class="backToCompanyCards" v-if="currentSubTab === '-McTOHdSHbPgOnUt6Tdt' || currentSubTab === '-MdRptqtQ9MhYCJqjlQk'">
+      <div @click="$setCurrentSubTab('-MMfBzmUm97eKjJeXhqA', '-MKUwx1XmgWmAYvLK_wz')" class="nav-logo right ui">
+         <i class="gg-chevron-left"></i>
+         <div class="nav-logo-text" style=" font-size: 18px" >Back</div>
+      </div>
+   </div>
+   <div class="backToResportingSelection" v-if="currentSubTab === '-Mciffu8116Yf5oVvpLJ'">
+      <div @click="$setCurrentSubTab('-McUNBb_vlrPYviL4Nee', '-MKUwx1XmgWmAYvLK_wz')" class="nav-logo right ui">
+         <i class="gg-chevron-left"></i>
+         <div class="nav-logo-text" style=" font-size: 18px" >Back</div>
+      </div>
+   </div>
+   <div class="justify-content-center">
+      <ul class="menu" style="">
+         <!--Account Approval Notifications -->
+         <li class="notiftitle">
+            <a class="menusection" href="#" :data-bubble="AdminNotifications_AccountApprovalCount">
+               <span class="type"> Account Approval </span>
+               <div class="accountApproval">
+                  <div class="notifications__dropdown">
+                     <!--CompanyUser Account Approval Notifications-->
+         <li class="CompanyUserapproval oneline" v-for='row in AdminNotifications_CompanyUserApproval' @click="$store.commit('setDataGridRowPreview', {
+            gridId: 'companyUserProfiles',
+            rowKey: row.rowKey,
+            })">
+         <span v-if="row.accType && row.name && row.secondName" class="text" >{{row.$accType$display}} - {{row.name}} {{truncateText(row.secondName,10)}}</span>
+         </li>
+         <!--Mentor Account Approval Notifications-->
+         <li class="Mentorapproval oneline" v-for='row in AdminNotifications_MentorApproval' @click="$store.commit('setDataGridRowPreview', {
+            gridId: 'mentors',
+            rowKey: row.rowKey,
+            })">
+         <span v-if="row.accType && row.name && row.secondName" class="text" >{{row.$accType$display}} - {{row.name}} {{truncateText(row.secondName,10)}}</span>
+         </li>
+         <!--Investor Account Approval Notifications-->
+         <li class="Investorapproval oneline" v-for='row in AdminNotifications_InvestorApproval' @click="$store.commit('setDataGridRowPreview', {
+            gridId: 'investorProfiles',
+            rowKey: row.rowKey,
+            })">
+         <span v-if="row.$accType && row.name && row.secondName" class="text" >{{row.$accType$display}} - {{row.name}} {{truncateText(row.secondName,10)}}</span>
+         </li>
+         <!--ProgrammePartner Account Approval Notifications-->
+         <li class="PPapproval twoline" style="" v-for='row in AdminNotifications_PPApproval' @click="$store.commit('setDataGridRowPreview', {
+            gridId: 'programmePartnerProfiles',
+            rowKey: row.rowKey,
+            })">
+         <span v-if="row.$accType && row.name && row.secondName" class="text" >{{row.$accType$display}} - {{row.name}} {{truncateText(row.secondName,10)}}</span>
+         </li>
+         </div>
+         </div>
+         </a>
+         </li>
+         <!--Company Approval Notifications -->
+         <li class="notiftitle">
+            <a class="menusection" href="#" :data-bubble="AdminNotifications_CompanyApprovalCount">
+               <span class="type"> Company Approval </span>
+               <div class="companyApproval">
+                  <div class="notifications__dropdown">
+                     <!--CompanyUser Account Approval Notifications-->
+         <li class="companyApprove oneline" v-for='row in AdminNotifications_CompanyApproval' @click="$store.commit('setDataGridRowPreview', {
+            gridId: 'companyProfiles',
+            rowKey: row.rowKey,
+            })">
+         <span v-if="row.name" class="text" >{{truncateText(row.name,26)}} </span>
+         </li>
+         </div>
+         </div>
+         </a>
+         </li>
+         <li class="notiftitle">
+            <a class="menusection" href="#" :data-bubble="AdminNotifications_MentorEngagements_Count">
+               <span class="type"> Mentor Engagements </span>
+               <div class="mentorEngagements">
+                  <div class="notifications__dropdown">
+                     <!--Applications Notifications (Mentor->CompanyUser) -->
+         <li class="threeline" style="" v-for='row in AdminNotifications_MentorEngagements_Applications_MentortoCompanyUser' @click="$setDataGridVal('applications', `${row.rowKey}.adminViewed`, true); $store.commit('setDataGridRowPreview', {
+            gridId: 'applications',
+            rowKey: row.rowKey,
+            })">
+         <span v-if="row.mentorOwner && row.companyUser" class="text" >Connection: {{truncateText(row.$mentorOwner.name,10)}} (Mentor) with {{truncateText(row.$companyUser.name,10)}} (CompanyUser)  </span>
+         </li>
+         <!--Applications Notifications (CompanyUser->Mentor) -->
+         <li class="threeline" style="" v-for='row in AdminNotifications_MentorEngagements_Applications_CompanyUsertoMentor' @click="$setDataGridVal('applications', `${row.rowKey}.adminViewed`, true); $store.commit('setDataGridRowPreview', {
+            gridId: 'applications',
+            rowKey: row.rowKey,
+            })">
+         <span v-if="row.companyUser && row.mentor" class="text">Connection: {{truncateText(row.$companyUser.name,10)}} (CompanyUser) with {{truncateText(row.$mentor.name,10)}} (Mentor)   </span>
+         </li>
+         <!--Session Notifications (Mentor->CompanyUser) -->
+         <li class="threeline" style="" v-for='row in AdminNotifications_MentorEngagements_Sessions_MentortoCompanyUser' @click="$setDataGridVal('sessions', `${row.rowKey}.adminViewed`, true); $store.commit('setDataGridRowPreview', {
+            gridId: 'sessions',
+            rowKey: row.rowKey,
+            })">
+         <span v-if="row.mentor && row.companyUser" class="text">Booking: {{truncateText(row.$mentor.name,10)}} (Mentor) with {{truncateText(row.$companyUser.name,10)}} (CompanyUser)  </span>
+         </li>
+         <!--Session Notifications (CompanyUser->Mentor) -->
+         <li class="threeline" style="" v-for='row in AdminNotifications_MentorEngagements_Sessions_CompanyUsertoMentor' @click="$setDataGridVal('sessions', `${row.rowKey}.adminViewed`, true); $store.commit('setDataGridRowPreview', {
+            gridId: 'sessions',
+            rowKey: row.rowKey,
+            })">
+         <span v-if="row.companyUser && row.mentor" class="text">Booking: {{truncateText(row.$companyUser.name,10)}} (CompanyUser) with {{truncateText(row.$mentor.name,10)}} (Mentor)   </span>
+         </li>
+         <li v-if="AdminNotifications_MentorEngagements_Count != 0">
+         <center><span @click="AdminNotifications_clearMentorEngagements(); AdminNotifications_clearMentorSessions();">Clear All</span></center>
+         </li>
+         </div>
+         </div>
+         </a>
+         </li>
+         <li class="notiftitle">
+            <a class="menusection" href="#" :data-bubble="AdminNotifications_InvestorEngagements_Count">
+               <span class="type"> Investor Engagements </span>
+               <div class="investorEngagements">
+                  <div class="notifications__dropdown">
+                     <!--CompanyUser Account Approval Notifications-->
+         <li class="investorList threeline" style="" v-for='row in AdminNotifications_InvestorEngagements' @click="$setDataGridVal('applications', `${row.rowKey}.adminViewed`, true); $store.commit('setDataGridRowPreview', {
+            gridId: 'applications',
+            rowKey: row.rowKey,
+            })">
+         <span v-if="row.investor && row.companyUser" class="text" >Connection: {{row.$investor.name}} (Investor) with {{row.$companyUser.name}} (CompanyUser) </span>
+         </li>
+         <li v-if="AdminNotifications_InvestorEngagements_Count != 0">
+         <center><span @click="AdminNotifications_clearInvestorEngagements();">Clear All</span></center>
+         </li>
+         </div>
+         </div>
+         </a>
+         </li>
+      </ul>
+   </div>
+   <div class="row">
+      <div class="nav-logo right ui userManagement">
+         <div v-if="userRoles && userRoles.includes('Admin')">
+            <a @click="$setCurrentSubTab('-Mk2LRrt-B_UIktKpDNh','-MKUwx1XmgWmAYvLK_wz')" target="_blank">
+            <i class="gg-user-list"></i>
+            <span class="tooltiptext">User Management</span>
+            </a>
+         </div>
+      </div>
+      <div class="nav-logo right ui end dev">
+         <div v-if="userRoles && userRoles.includes('Developer')">
+            <a @click="$setCurrentTab('-MRosDn6SYo3LCxaAq4i')" target="_blank">
+            <i class="gg-code-slash"></i> 
+            <span class="tooltiptext">Developer Access (Tangle)</span>
+            </a>
+         </div>
+      </div>
+   </div>
+</div>

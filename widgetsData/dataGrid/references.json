@@ -7,6 +7,18 @@
       "order": "4",
       "type": "string"
     },
+    "companyProfile": {
+      "displayName": "company profile",
+      "invisible": true,
+      "lookUpTable": "companyProfiles",
+      "order": "3",
+      "type": "lookup"
+    },
+    "layout": {
+      "displayName": "Layout",
+      "order": 5,
+      "type": "select"
+    },
     "name": {
       "displayName": "Name",
       "order": "0",
@@ -17,13 +29,6 @@
       "invisible": true,
       "order": "2",
       "type": "string"
-    },
-    "slingshotPitch": {
-      "displayName": "Slingshot Pitch",
-      "invisible": true,
-      "lookUpTable": "slingshotPitches",
-      "order": "3",
-      "type": "lookup"
     },
     "state": {
       "displayName": "State",
@@ -217,7 +222,7 @@
                 "type": "lookup",
                 "name": "control_lookup_103972",
                 "fieldName": "control_lookup_103972",
-                "label": "Slingshot Pitch",
+                "label": "company profile",
                 "order": 4,
                 "defaultValue": "",
                 "value": "",
@@ -254,7 +259,7 @@
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "slingshotPitch",
+                "propName": "companyProfile",
                 "ableToAddLookUpVal": true,
                 "gridId": "references"
               }
@@ -272,6 +277,64 @@
         "minInstance": 1,
         "maxInstance": 0,
         "instances": []
+      },
+      {
+        "cleintKey": "hidden_section_d97fcfc0-fe6b-11eb-8b02-1947c31ab3cb",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_d97fcfc0-fe6b-11eb-8b02-1947c31ab3cb",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_d97fcfc0-fe6b-11eb-8b02-1947c31ab3cb_row_d97fcfc1-fe6b-11eb-8b02-1947c31ab3cb",
+            "controls": [
+              {
+                "type": "select",
+                "name": "control_e3747cb0-fe6b-11eb-b3ac-8169db66894f",
+                "fieldName": "control_e3747cb0-fe6b-11eb-b3ac-8169db66894f",
+                "label": "Layout",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "layout"
+              }
+            ]
+          }
+        ]
       }
     ],
     "layout": "tab",
@@ -286,15 +349,18 @@
         "company": {
           "order": "4"
         },
+        "companyProfile": {
+          "order": "3"
+        },
+        "layout": {
+          "order": 5
+        },
         "name": {
           "order": "0"
         },
         "nextEvents": {
           "invisible": true,
           "order": "2"
-        },
-        "slingshotPitch": {
-          "order": "3"
         },
         "state": {
           "invisible": true,

@@ -5,7 +5,7 @@
     "h": 4,
     "w": 6,
     "x": 9,
-    "y": 3
+    "y": 1001
   },
   "offSet": 0,
   "overflow": "",
@@ -13,6 +13,6 @@
   "styles": "",
   "subtab": "-MPe1A3nbtf8VlPG3BiK",
   "tab": "-MJq8S1suwASZ84EkCd5",
-  "template": "<center>\r\n  <i class=\"fas fa-handshake fa-4x\"></i>\r\n\r\n  <h2 style=\"color:black; font-family: 'Grenette pro', sans-serif !important;\"> Mentor Introductions </h2>\r\n  <h1 style=\"font-weight: bold; color:black; font-family: 'Grenette pro', sans-serif !important;\">{{mentorInteractionsCount()}}</h1>\r\n</center>",
+  "template": "<center>\r\n  <i class=\"fas fa-handshake fa-4x\"></i>\r\n\r\n  <h2 style=\"color:black; \"> Mentor Introductions </h2>\r\n  <h1 style=\"font-weight: bold; color:black; \">{{mentorInteractionsCount()}}</h1>\r\n</center>",
   "title": ""
 }

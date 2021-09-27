@@ -7,11 +7,15 @@
     "x": 4,
     "y": 3
   },
-  "layout": "b-card",
-  "overflow": "",
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "height:auto",
+  "perPage": 2,
   "styles": "",
   "subtab": "-MTBaL8BTycvh1K_uOK4",
   "tab": "-MJq8S1suwASZ84EkCd5",
-  "template": "<DataGridEditRow gridId=\"sMEProfiles\" :rowKey=\"$getUser('profileID')\" />",
-  "title": ""
+  "template": "<DataGridEditRow gridId=\"companyUserProfiles\" :rowKey=\"$getUser('profileID')\" />",
+  "title": "Edit My Company User Profile"
 }

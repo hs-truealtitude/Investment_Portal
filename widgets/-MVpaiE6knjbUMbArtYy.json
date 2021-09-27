@@ -6,9 +6,11 @@
     "h": 36,
     "w": 24,
     "x": 0,
-    "y": 21
+    "y": 20
   },
   "layout": "b-card",
+  "offSet": 0,
+  "perPage": 2,
   "subtab": "-MSYNWd6tL020aH6OsCH",
   "tab": "-MKjMm1cJNwP3sVETeGP",
   "template": "<FullCalendar calendarId=\"-MVpai9ZhxoM_tJK6Q4D\" />"

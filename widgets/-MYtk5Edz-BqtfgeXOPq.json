@@ -6,12 +6,14 @@
     "h": 10,
     "w": 18,
     "x": 3,
-    "y": 37
+    "y": 1035
   },
+  "offSet": 0,
   "overflow": "",
+  "perPage": 2,
   "styles": "",
   "subtab": "-MPe1A3nbtf8VlPG3BiK",
   "tab": "-MJq8S1suwASZ84EkCd5",
-  "template": "<ChartOnly chartId=\"-MYtk5-fqnm7KXtH_qhy\" :rData=\"$getGrid('slingshotPitches')\" :widgetKey=\"widgetKey\" gridId=\"slingshotPitches\" />",
+  "template": "<ChartOnly chartId=\"-MYtk5-fqnm7KXtH_qhy\" :rData=\"$getGrid('companyProfiles')\" :widgetKey=\"widgetKey\" gridId=\"companyProfiles\" />",
   "title": "Investment Raised"
 }

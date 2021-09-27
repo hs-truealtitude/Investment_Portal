@@ -1,0 +1,14 @@
+{
+  "dependency": "posts/-MdWanQOz8avhUE_QTmg",
+  "gsOptions": {
+    "h": 6,
+    "w": 12,
+    "x": 0,
+    "y": 22
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "subtab": "-Mciffu8116Yf5oVvpLJ",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<PostsWidget widget-key=\"-MdWanQOz8avhUE_QTmg\" />"
+}

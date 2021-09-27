@@ -1,0 +1,32 @@
+{
+  "classes": "",
+  "containerTabs": [
+    {
+      "key": "-MjTTfFTBEkpBUyiK0lS",
+      "title": "My Booked Sessions"
+    },
+    {
+      "key": "-MjTUO1AGYCMcVtjbQBB",
+      "title": "Post Session Feedback/Reviews"
+    },
+    {
+      "key": "-MjZHGkKLBSiZcaF0b35",
+      "title": "Old/Previous Sessions"
+    }
+  ],
+  "gsOptions": {
+    "h": 16,
+    "w": 22,
+    "x": 1,
+    "y": 9
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "overflow": "height:auto",
+  "styles": "",
+  "subtab": "-MW49Z1H3IKgqYwA-yLg",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "title": "",
+  "type": "container"
+}

@@ -1,0 +1,88 @@
+/*Page numbers for card list*/
+.pagination a{
+    color: black;
+    font-size: 18px !important;
+    border: 1px solid black !important;
+    background-color: #fffaf3;
+}
+
+.page-item.disabled .page-link {
+    background-color: #fffaf3;
+}
+
+/*Reset button*/
+.data-grid__filterReset button{
+    background-color: #ef4437 !important;
+}
+
+/*Dropdown Styling*/
+.form-control{
+    border: 1px solid black;
+}
+
+.vs__dropdown-toggle {
+    border: 1px solid black;
+}
+.vs__dropdown-menu {
+}
+
+.badge-secondary{
+    background-color: #fffaf3 !important;
+}
+.tVSelectDropdown__selected {
+    color: #ef4437;
+    vertical-align: -2px;
+}
+
+/*
+.widget-card-list .card{
+     border: 1px solid grey;
+}
+8?
+/* For Nav Elements */
+.guiSectionItem .nav-tabs.active {
+  font-weight: bold !important;
+}
+
+.card-header .nav-tabs .active{
+    text-decoration: underline !important;
+    text-decoration-color: #ef4437 !important;;
+}
+
+ /*Widget Margin Bottom */
+ .dashboard__content{
+     margin-bottom: 60px !important;
+ }
+
+ .widgetContent{
+     margin-bottom: 60px !important;
+ }
+ 
+
+
+/* Hide container Element Admin Elements  */ 
+.containerWidget__titleMenu svg{
+    display: none !important;
+}
+
+.containerWidget .add-tab svg{
+    display: none !important;
+}
+ 
+.containerWidget .dropdown {
+    display: none;
+}
+
+.containerWidget__controls{
+    display: none;
+}
+
+.rowItem .controlElement{
+        background-color: #fffaf3 !important;
+}
+
+.dg-lookup-control a{
+    color: white;
+}
+
+

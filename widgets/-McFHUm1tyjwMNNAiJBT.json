@@ -1,0 +1,16 @@
+{
+  "dependency": "dataGrid/originationFiles",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 54
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "originationFiles"
+  },
+  "tab": "-McEF7QMzCWJthdkwFrb",
+  "type": "DataGrid"
+}

@@ -6,17 +6,17 @@ rows = $getGrid('applications').filter(row => row.owner == fbUser.uid && row.isC
 
 if (accountType == 'Mentor')
 {
-    rows = $getGrid('applications').filter(row => row.name == 'SME->Mentor' && row.applicationStatus != 'Complete')  
+    rows = $getGrid('applications').filter(row => row.name == 'CompanyUser->Mentor' && row.applicationStatus != 'Complete')  
 }
 
 if (accountType == 'Investor')
 {
-    rows = $getGrid('applications').filter(row => row.name == 'Investor->SME' && row.applicationStatus != 'Complete')  
+    rows = $getGrid('applications').filter(row => row.name == 'Investor->CompanyUser' && row.applicationStatus != 'Complete')  
 }
 
-if (accountType == 'SME' )
+if (accountType == 'CompanyUser' )
 {
-    rows = $getGrid('applications').filter(row => row.name == 'Mentor->SME' && row.applicationStatus != 'Complete')  
+    rows = $getGrid('applications').filter(row => row.name == 'Mentor->CompanyUser' && row.applicationStatus != 'Complete')  
 }*/ 
 
 return rows

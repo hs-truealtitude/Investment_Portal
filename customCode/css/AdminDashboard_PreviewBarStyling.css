@@ -1,0 +1,91 @@
+/*Color*/
+#dgRowPreview {
+    background:  #fffaf3 !important;
+}
+
+#dgRowPreview strong{
+        font-family: 'Grenette pro', sans-serif !important;
+}
+
+#dgRowPreview .nav-item a{
+            font-family: 'Grenette pro', sans-serif !important;
+color: black;
+}
+
+.dgRowPreview .guiSectionItem .nav-tabs .active {
+    border-bottom: 2px solid red !important;
+    color: #007bff;
+}
+
+#dgRowPreview .controlItem{
+        background:  #fffaf3 !important;
+
+}
+
+.data-grid__table-wrapper .card{
+}
+
+/*Placement*/
+.dgRowPreview legend{
+    color:black;
+    padding-top: 6px !important;
+}
+
+.b-sidebar{
+    background-color: #fffaf3 !important;
+}
+
+.dgRowPreview .profileImageWrapper button{
+    display: none;
+}
+
+.dgRowPreview .card{
+        border: 0px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.dgRowPreview span{
+    color: black;
+}
+
+.dgRowPreview li{
+    color: black;
+}
+
+.dgRowPreview .dataGridEditRow .btn-danger{
+    display: none;
+}
+
+.dgRowPreview .dataGridEditRow .btn-primary{
+    display: none;
+} 
+
+.dgRowPreview .dataGridEditRow .field__description{
+    display: none;
+} 
+
+.dgRowPreview .dataGridEditRow .filesControl svg{
+    display: none;
+} 
+.dgRowPreview .dataGridEditRow .filesControl span{
+    display: none;
+} 
+
+.dgRowPreview .nav-tabs{
+    padding-bottom: 20px;
+}
+
+.dgRowPreview .guiSectionItem .nav-tabs .active {
+    border-bottom: 2px solid #007bff;;
+    color: #007bff;;
+}
+
+.dgRowPreview .btn-success:hover{
+    background-color: green !important;
+}
+.dgRowPreview .btn-warning:hover{
+    background-color:orangered !important;
+}
+
+.splitpanes__pane{
+    z-index: 10;
+}

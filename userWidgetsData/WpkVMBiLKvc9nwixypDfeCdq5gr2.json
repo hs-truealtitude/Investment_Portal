@@ -1,14 +1,21 @@
 {
-  "accountType": "SME",
-  "activeSlingshotPitch": "-M_0YDh7-yqsV4NBE7w0",
+  "accountType": "CompanyUser",
+  "activeCompanyName": "Fotech",
+  "activeUserFirstName": "Support",
+  "activeUserSecondName": "True Altitude",
+  "activecompanyProfile": "-MdH4I_P_fhAMrweJKPg",
   "applications_lastViews": "",
+  "companyDisclaimerRead": "true",
+  "companyProfiles_lastViews": "rejectCompanies",
+  "companyUserProfiles_lastViews": "companyUserApproval",
   "cookieConsent": "true",
+  "filterCompany": "-MMzZ2krPwl50hP5t54m",
+  "filterCompanyUser": "-MZMta3pwumGA07UlWEe",
   "filterMentor": "-MZSG7lgSWJYuL6D1E_3",
-  "filterPitch": "-MMzZ2krPwl50hP5t54m",
-  "filterSME": "-MZMta3pwumGA07UlWEe",
   "hideBack": "YES",
   "investorProfiles_lastViews": "investorApproval",
-  "profileID": "-MZMta3pwumGA07UlWEe",
-  "sessionDirection": "SME->Mentor",
-  "slingshotPitches_lastViews": "adminView"
+  "mentors_lastViews": "mentorApproval",
+  "profileID": "-MkCt4HXbnk2U45svnTL",
+  "programmePartnerProfiles_lastViews": "",
+  "sessionDirection": "CompanyUser->Mentor"
 }

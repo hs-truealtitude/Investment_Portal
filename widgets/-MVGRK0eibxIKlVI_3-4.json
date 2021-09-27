@@ -5,15 +5,17 @@
     "h": 17,
     "w": 16,
     "x": 4,
-    "y": 2
+    "y": 1
   },
-  "layout": "b-card",
+  "layout": {
+    "text": "Standard"
+  },
   "offSet": 0,
   "overflow": "",
   "perPage": 2,
   "styles": "",
   "subtab": "-MVGPWkCqsquh0_f0Xb1",
   "tab": "-MVGOMA1-ifNurWKHxUf",
-  "template": "<div style=\"display:none\">{{portalLoginFlow()}}</div>\r\n<DataGridEditRow gridId=\"investorProfiles\" :rowKey=\"$getUser('profileID')\" />",
-  "title": ""
+  "template": "<DataGridEditRow gridId=\"investorProfiles\" :rowKey=\"$getUser('profileID')\" />",
+  "title": "Create your Investor profile"
 }

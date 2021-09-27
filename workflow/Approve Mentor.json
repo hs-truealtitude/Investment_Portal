@@ -1,0 +1,270 @@
+{
+  "data": {
+    "metaData": {
+      "id": "",
+      "statusField": "mentors.status.sessionStatus"
+    },
+    "nodes": [
+      {
+        "id": "node1626340901423",
+        "x": 326.00000000000006,
+        "y": 282.42857142857144,
+        "width": 103.77501351492747,
+        "height": 40,
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "className": "start-event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {}
+      },
+      {
+        "id": "node1626340919903",
+        "x": 562.7142857142858,
+        "y": 322.42857142857144,
+        "width": 100,
+        "height": 99.60003444126674,
+        "clazz": "userTask",
+        "label": "User Task",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "#general"
+        },
+        "outcomes": [
+          {
+            "text": "Approve",
+            "id": "outcome1626340936248",
+            "idx": 1
+          },
+          {
+            "text": "Reject",
+            "id": "outcome1626870406539",
+            "idx": 2
+          }
+        ]
+      },
+      {
+        "id": "node1626870374569",
+        "x": 1337.2857142857147,
+        "y": 306.5714285714286,
+        "width": 138.96260942731587,
+        "height": 40,
+        "clazz": "scriptTask",
+        "label": "Approve Mentor",
+        "className": "script-task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": "const email = await getUserEmailByUID(rowData.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: Your profile has been verified',\r\n            text: 'Hi ' + rowData.name + ', \\n\\r' + 'We’re pleased to let you know your profile has been verified for the True Altitude portal. It’s time to get connecting! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + rowData.name + ', <br/>' + '<br/> We’re pleased to let you know your profile has been verified for the True Altitude portal. It’s time to get connecting! <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n\r\n"
+        }
+      },
+      {
+        "id": "node1626945758298",
+        "x": 792.4285714285716,
+        "y": 477.7142857142857,
+        "width": 121.85003008161273,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Reject Mentor",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "mentors / adminRejected",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1626959102586",
+        "x": 1054,
+        "y": 307.14285714285717,
+        "width": 165.02496991838728,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Admin Rejected False",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "mentors / adminRejected",
+          "fieldValue": "false"
+        }
+      },
+      {
+        "id": "node1627032100083",
+        "x": "1024",
+        "y": "540",
+        "width": 100,
+        "height": 40,
+        "clazz": "comment",
+        "label": "Rejected",
+        "className": "comment",
+        "icon": {
+          "name": "comment",
+          "color": "hsl(188, 78%, 41%)"
+        },
+        "attachment": {}
+      },
+      {
+        "id": "node1627032112133",
+        "x": "1566",
+        "y": "364",
+        "width": 100,
+        "height": 40,
+        "clazz": "comment",
+        "label": "Accepted",
+        "className": "comment",
+        "icon": {
+          "name": "comment",
+          "color": "hsl(188, 78%, 41%)"
+        },
+        "attachment": {}
+      },
+      {
+        "id": "node1627034105253",
+        "x": 790.8571428571429,
+        "y": 313.42857142857144,
+        "width": 125.78752790178572,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Update Record",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "mentors / isApproved",
+          "fieldValue": "true"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1626340901423-right",
+        "target": "node1626340919903",
+        "endSocket": "left",
+        "id": "line-1627033135398",
+        "instance": {},
+        "label": "Start Event",
+        "targetLabel": "User Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1626959102586-right",
+        "target": "node1626870374569",
+        "endSocket": "left",
+        "id": "line-1627033140387",
+        "instance": {},
+        "label": "Admin Rejected False",
+        "targetLabel": "Approve Mentor",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1626870374569-right",
+        "target": "node1627032112133",
+        "endSocket": "left",
+        "id": "line-1627033142822",
+        "instance": {},
+        "label": "Approve Mentor",
+        "targetLabel": "Accepted",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1626870406539",
+        "target": "node1626945758298",
+        "endSocket": "left",
+        "id": "line-1627033144960",
+        "instance": {},
+        "label": "Reject",
+        "targetLabel": "Reject Mentor",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1626945758298-right",
+        "target": "node1627032100083",
+        "endSocket": "top",
+        "id": "line-1627033146550",
+        "instance": {},
+        "label": "Reject Mentor",
+        "targetLabel": "Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1626340936248",
+        "target": "node1627034105253",
+        "endSocket": "left",
+        "id": "line-1627034129437",
+        "instance": {},
+        "label": "Approve",
+        "targetLabel": "Update Record",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1627034105253-right",
+        "target": "node1626959102586",
+        "endSocket": "left",
+        "id": "line-1627034130720",
+        "instance": {},
+        "label": "Update Record",
+        "targetLabel": "Admin Rejected False",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ]
+  },
+  "name": "Approve Mentor"
+}

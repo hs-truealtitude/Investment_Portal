@@ -1,0 +1,21 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 12,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "height:auto",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-ManBx-upN_l-5JyU1WT",
+  "tab": "-MKjLdl6pSat-QkUaIYU",
+  "template": "<div class=\"navCards\">\r\n<div class=\"content\">\r\n\r\n  <div class=\"Ncard flexbox-item flexbox-item-1\" @click='$setCurrentSubTab(\"-MMfBzmUm97eKjJeXhqA\",\"-MKUwx1XmgWmAYvLK_wz\")'>\r\n    <div class=\"icon\"><i class=\"gg-browse\"></i></div>\r\n    <p class=\"title\">View Data - Card View</p>\r\n    <p class=\"text\">Click to view all companies within the database.</p>\r\n  </div>\r\n\r\n  <div class=\"Ncard flexbox-item flexbox-item-2\" @click='$setCurrentSubTab(\"-MKjPc0h4zi-RTpRfuBW\",\"-MKjLdl6pSat-QkUaIYU\")'>\r\n    <div class=\"icon\"><i class=\"gg-drive\"></i></div>\r\n    <p class=\"title\">View Data - Table View</p>\r\n    <p class=\"text\">View, edit and delete data.</p>\r\n  </div>\r\n\r\n</div>\r\n</div>",
+  "title": ""
+}

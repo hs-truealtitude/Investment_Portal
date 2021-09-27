@@ -1,16 +1,12 @@
 {
-  "-MYtTVYP-HWb6Ty2Ehld": {
+  "-M_z5cJ7MxgPRLNaZFa_": {
     "_id": 1,
-    "createdDate": 1619093227546,
-    "endDate": 1619737200000,
+    "company": "-M_z5W36J6Xx-77FKljZ",
+    "createdDate": 1621335115448,
     "group": false,
-    "lastEditDate": 1619093268565,
+    "lastEditDate": 1621335115594,
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "name": "Test Contract 1",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "pitch": "-MNZ-kKtSmZQuN7gqgFt",
-    "rowKey": "-MYtTVYP-HWb6Ty2Ehld",
-    "startDate": 1617231600000,
-    "value": 1500
+    "rowKey": "-M_z5cJ7MxgPRLNaZFa_"
   }
 }

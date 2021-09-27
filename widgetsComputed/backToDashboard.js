@@ -12,12 +12,12 @@ return function (){
         $setCurrentSubTab("-MLb4VOxEfZKqJNookL4","-MJq8S1suwASZ84EkCd5")    
     }
 
-    if (accountType == 'SME' )
+    if (accountType == 'CompanyUser' )
     {
-        $setCurrentSubTab("-MKUrGgnB0UOnhJlhCjv","-MJq8S1suwASZ84EkCd5")   
+        $setCurrentSubTab("-MfY0EbaZX6XWjZu1p6r","-MJq8S1suwASZ84EkCd5")   
     }
 
-    if (accountType == 'PP' )
+    if (accountType == 'ProgrammePartner' )
     {
         $setCurrentSubTab("-MPe0oZfJimFYsv9gy53","-MJq8S1suwASZ84EkCd5")   
     }

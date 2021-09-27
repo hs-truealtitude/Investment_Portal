@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/adminAndFinance",
+  "gsOptions": {
+    "h": 18,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "adminAndFinance"
+  },
+  "subtab": "-Mc8cJ3fPyAEVTTdKOUD",
+  "tab": "-MKjMRUUg4_Q6hNfvyso",
+  "type": "DataGrid"
+}

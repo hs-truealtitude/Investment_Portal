@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/issueType",
+  "gsOptions": {
+    "h": 18,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "issueType"
+  },
+  "subtab": "-Mi5nbeeUUQ3MzpDpJfn",
+  "tab": "-MKjMRUUg4_Q6hNfvyso",
+  "type": "DataGrid"
+}

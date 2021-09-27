@@ -1,0 +1,20 @@
+{
+  "classes": "",
+  "dependency": "chartsOnly/-MdM6WPIONRotppiyI_0",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 10,
+    "w": 12,
+    "x": 12,
+    "y": 12
+  },
+  "layout": "b-card",
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-Mciffu8116Yf5oVvpLJ",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<ChartOnly chartId=\"-MdM6WPIONRotppiyI_0\" :rData=\"$getGrid('companyProfiles')\" :widgetKey=\"widgetKey\" gridId=\"companyProfiles\" />",
+  "title": "Fundraising Stages"
+}
