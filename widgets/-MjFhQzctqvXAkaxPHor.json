@@ -1,0 +1,27 @@
+{
+  "classes": "",
+  "columnMaxWidth": "300",
+  "columnMinWidth": "300",
+  "dataSource": "documentRequests",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 13,
+    "w": 20,
+    "x": 2,
+    "y": 1
+  },
+  "itemsPerPage": 20,
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "height:auto",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MjFfoo9xiWiA2TizFEH",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<div class=\"requestCard frontCard\">\n\n  <center>\n    <div v-if=\"row.$investor\">\n    <img v-if=\"row.$investor && row.$investor.profileImage\"  :src=\"$getDashboardModel('investorProfiles')[row.$investor.rowKey].profileImage.url\" style=\"border-radius: 15px; width:90px; padding: 5px; vertical-align:middle; margin-top: 10px;\" /></img>\n    <h1 v-if=\"row.$investor\">Investor: {{row.$investor.name}}</h1>\n    </div>\n\n    <div v-if=\"row.$mentor\">\n    <img v-if=\"row.$mentor && row.$mentor.profileImage\"  :src=\"$getDashboardModel('mentors')[row.$mentor.rowKey].profileImage.url\" style=\"border-radius: 15px; width:90px; padding: 5px; vertical-align:middle; margin-top: 10px;\" /></img>\n    <h1 v-if=\"row.$mentor\">Mentor: {{row.$mentor.name}}</h1>\n    </div>\n\n    <div class=\"row\" style=\"justify-content:center;\" v-if=\"row.$investor && row.$investor.owner\">\n      <small class=\"h4 font-weight-light \" v-for='e in row.$investor.$owner$display'>\n        <p>Investor Email:\n        <a style=\"\" :href=\"'mailto:'+e\" target=\"_blank\">{{e}}</a>\n        </p>\n      </small>\n    </div>\n\n    <div class=\"row\" style=\"justify-content:center;\" v-if=\"row.$mentor && row.$mentor.owner\">\n      <small class=\"h4 font-weight-light \" v-for='e in row.$mentor.$owner$display'>\n        <p>Mentor Email:\n        <a style=\"\" :href=\"'mailto:'+e\" target=\"_blank\">{{e}}</a>\n        </p>\n      </small>\n    </div>\n\n    <center><img class=\"companylogo\" v-if=\"row.$companyProfiles.companyLogo\" :src=\"row.$companyProfiles.companyLogo.url\" style=\"border-radius: 15px; max-width:70px;  \" /> </center>\n    <h3 style=\"margin-top: 10px;\" v-if=\"row.$companyProfiles\">Requesting the data of {{row.$companyProfiles.name}}</h3>\n\n  <button style=\"top: 10px; position: absolute; left: 10px;width: 40px;\" class=\"myButton\" @click=\"requestSent(row.rowKey)\"><i class=\"fas fa-check\"></i></button>\n  </b-button>\n\n\n  </center>\n\n</div>",
+  "title": "Document Requests",
+  "type": "card-list",
+  "widthType": "minAndMaxWidth"
+}

@@ -1,0 +1,16 @@
+{
+  "dependency": "dataGrid/cohortData",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "cohortData"
+  },
+  "tab": "-MfcFEjCN5v3buwGB5F2",
+  "type": "DataGrid"
+}

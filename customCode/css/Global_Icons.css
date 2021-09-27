@@ -1,0 +1,7 @@
+.social-icon-contain i{
+    color: white;
+}
+
+.social-icon-contain:hover{
+    background-color: #ef4437 !important;
+    }

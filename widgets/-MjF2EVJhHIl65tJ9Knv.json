@@ -1,0 +1,28 @@
+{
+  "classes": "",
+  "containerTabs": [
+    {
+      "key": "-MjF2EVJhHIl65tJ9Knw",
+      "title": "Accepted/Engaged With Companies"
+    },
+    {
+      "key": "-MjF2SG1wrAlpM_aFLUU",
+      "title": "Invested In Companies"
+    }
+  ],
+  "gsOptions": {
+    "h": 27,
+    "w": 22,
+    "x": 1,
+    "y": 3
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "overflow": "height:auto",
+  "styles": "",
+  "subtab": "-MhO8szWWg3gN09r_4LV",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "title": "",
+  "type": "container"
+}

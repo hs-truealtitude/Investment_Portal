@@ -3,9 +3,9 @@
     "_id": 1,
     "createdDate": 1613390147701,
     "group": false,
-    "lastEditDate": 1613390153000,
+    "lastEditDate": 1631012022165,
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "name": "Accepted",
+    "name": "Accept",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "rowKey": "-MT_Xz9l8P0BnRSUB8fb"
   },
@@ -13,9 +13,9 @@
     "_id": 2,
     "createdDate": 1613390153616,
     "group": false,
-    "lastEditDate": 1613390157000,
+    "lastEditDate": 1631012023638,
     "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "name": "Rejected",
+    "name": "Reject",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "rowKey": "-MT_Y-bB3Tef-JAlj2G0"
   },

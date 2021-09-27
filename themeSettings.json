@@ -1,7 +1,8 @@
 {
   "cardOutlineTheme": "none",
   "cardStyle": "none",
-  "leftNavBarTheme": "none",
+  "dataGridTheme": "striped",
+  "leftNavBarTheme": "white",
   "leftNavStyle": "extra_dark",
   "navBarTheme": "dark",
   "navPlacement": "sidebar"

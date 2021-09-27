@@ -1,0 +1,21 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 9,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "height:auto",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-Mb61JFGNknXNp5uP1r9",
+  "tab": "-MKUwx1XmgWmAYvLK_wz",
+  "template": "<div class=\"navCards\">\r\n<div class=\"content\">\r\n  <div class=\"Ncard\" @click='$setCurrentSubTab(\"-MMjYuXoo21454Y2IYpK\",\"-MKUwx1XmgWmAYvLK_wz\")'>\r\n    <div class=\"icon\"><i style=\"margin-top: -5%; margin-left: 9%;\" class=\"gg-chart\"></i></div>\r\n    <p class=\"title\">Company Specific Metrics</p>\r\n    <p class=\"text\">Click to view specific company data & metrics.</p>\r\n  </div>\r\n\r\n  <div class=\"Ncard\" @click='$setCurrentSubTab(\"-MMkiJKDLeU1Mz8JWLqA\",\"-MKUwx1XmgWmAYvLK_wz\")'>\r\n    <div class=\"icon\"><i class=\"gg-align-bottom\"></i></div>\r\n    <p class=\"title\">General Metrics</p>\r\n    <p class=\"text\">View all company metrics and charts.</p>\r\n  </div>\r\n\r\n  <div class=\"Ncard flexbox-item flexbox-item-4\" @click='$setCurrentSubTab(\"-McUNBb_vlrPYviL4Nee\",\"-MKUwx1XmgWmAYvLK_wz\")'>\r\n    <div class=\"icon\"><i class=\"gg-today\"></i></div>\r\n    <p class=\"title\">Reporting Dashboards</p>\r\n    <p class=\"text\">View and edit reporting dashboards. </p>\r\n  </div>\r\n\r\n</div>\r\n</div>",
+  "title": ""
+}

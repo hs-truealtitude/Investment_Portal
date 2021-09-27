@@ -3,15 +3,17 @@
   "dependency": "chartsOnly/-MYtKqhAoEx1rsBAWMbn",
   "detailTemplate": "",
   "gsOptions": {
-    "h": 9,
-    "w": 20,
+    "h": 11,
+    "w": 18,
     "x": 3,
-    "y": 6
+    "y": 14
   },
+  "offSet": 0,
   "overflow": "",
+  "perPage": 2,
   "styles": "",
   "subtab": "-MMkiJKDLeU1Mz8JWLqA",
   "tab": "-MKUwx1XmgWmAYvLK_wz",
-  "template": "<ChartOnly chartId=\"-MYtKqhAoEx1rsBAWMbn\" :rData=\"$getGrid('slingshotPitches')\" :widgetKey=\"widgetKey\" gridId=\"slingshotPitches\" />",
-  "title": "Investment Raised"
+  "template": "<ChartOnly chartId=\"-MYtKqhAoEx1rsBAWMbn\" :rData=\"$getGrid('companyProfiles')\" :widgetKey=\"widgetKey\" gridId=\"companyProfiles\" />",
+  "title": "Capital Raised"
 }

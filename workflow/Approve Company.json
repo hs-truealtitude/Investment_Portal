@@ -1,0 +1,237 @@
+{
+  "createEvent": false,
+  "data": {
+    "metaData": {
+      "id": "",
+      "statusField": "companyProfiles.access.publicOrPrivate"
+    },
+    "nodes": [
+      {
+        "id": "node1626339397872",
+        "x": 437.2857142857142,
+        "y": 340.1428571428572,
+        "width": 131.61251613071988,
+        "height": 99.59999084472656,
+        "clazz": "userTask",
+        "label": "Admin Approval",
+        "className": "user-task",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "#general"
+        },
+        "outcomes": [
+          {
+            "text": "Approve",
+            "id": "outcome1626339427463",
+            "idx": 1
+          },
+          {
+            "text": "Reject",
+            "id": "outcome1626783888576",
+            "idx": 2
+          }
+        ]
+      },
+      {
+        "id": "node1626339787476",
+        "x": 787.2857142857143,
+        "y": 330.57142857142856,
+        "width": 195.92500959123885,
+        "height": 40,
+        "clazz": "updateRecord",
+        "label": "Update Company to Public",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "companyProfiles / access",
+          "fieldValue": "'-MKjNiLMpbGAZI8h2lhK'"
+        }
+      },
+      {
+        "id": "node1626339852332",
+        "x": 1133.4285714285713,
+        "y": 329.7142857142857,
+        "width": 200,
+        "height": 40,
+        "clazz": "scriptTask",
+        "label": "Send Mail to Company Profile Owner",
+        "className": "script-task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": "const email = await getUserEmailByUID(rowData.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: Your Company Profile is now public',\r\n            text: 'Hi, \\n\\r' + 'We’re pleased to let you know your company profile ('+ rowData.name +') has been verified and is now public on the True Altitude portal. It’s time to get connecting! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi, <br/>' + '<br/> We’re pleased to let you know your company profile ('+ rowData.name +') has been verified and is now public on the True Altitude portal. It’s time to get connecting! <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+        }
+      },
+      {
+        "id": "node1626783895260",
+        "x": 755.2857142857142,
+        "y": 431.1428571428571,
+        "width": 200,
+        "height": 40.0000354221889,
+        "clazz": "updateRecord",
+        "label": "Update Company To Rejected",
+        "className": "update-record",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "companyProfiles / adminRejected",
+          "fieldValue": "true"
+        }
+      },
+      {
+        "id": "node1626784071175",
+        "x": 167.64550264550266,
+        "y": 247.8730158730159,
+        "width": 103.77501351492747,
+        "height": 40,
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "className": "start-event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {}
+      },
+      {
+        "id": "node1627036559139",
+        "x": "1471",
+        "y": "404",
+        "width": 100,
+        "height": 39.999964577811106,
+        "clazz": "comment",
+        "label": "Accepted",
+        "className": "comment",
+        "icon": {
+          "name": "comment",
+          "color": "hsl(188, 78%, 41%)"
+        },
+        "attachment": {}
+      },
+      {
+        "id": "node1627036570134",
+        "x": 1064.5714285714287,
+        "y": 462.1428571428571,
+        "width": 100,
+        "height": 40,
+        "clazz": "comment",
+        "label": "Rejected",
+        "className": "comment",
+        "icon": {
+          "name": "comment",
+          "color": "hsl(188, 78%, 41%)"
+        },
+        "attachment": {}
+      }
+    ],
+    "edges": [
+      {
+        "source": "connector-outcome1626339427463",
+        "target": "node1626339787476",
+        "endSocket": "left",
+        "id": "line-1626339813991",
+        "instance": {},
+        "label": "Approve",
+        "targetLabel": "Update Company to Public",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1626339787476-right",
+        "target": "node1626339852332",
+        "endSocket": "left",
+        "id": "line-1626339860760",
+        "instance": {},
+        "label": "Update Company to Public",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1626783888576",
+        "target": "node1626783895260",
+        "endSocket": "left",
+        "id": "line-1626783898312",
+        "instance": {},
+        "label": "Reject",
+        "targetLabel": "Update Record",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1626339852332-right",
+        "target": "node1627036559139",
+        "endSocket": "left",
+        "id": "line-1627036561878",
+        "instance": {},
+        "label": "Send Mail to Company Profile Owner",
+        "targetLabel": "Comment",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1626783895260-right",
+        "target": "node1627036570134",
+        "endSocket": "left",
+        "id": "line-1627036577617",
+        "instance": {},
+        "label": "Update Company To Rejected",
+        "targetLabel": "Rejected",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1626784071175-right",
+        "target": "node1626339397872",
+        "endSocket": "right",
+        "id": "line-1627037878538",
+        "instance": {},
+        "label": "Start Event",
+        "targetLabel": "Admin Approval",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ]
+  },
+  "name": "Approve Company"
+}

@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 1,
+    "w": 24,
+    "x": 0,
+    "y": 3
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subTab": "-MfY4b3y_0CfqBQLrq8n",
+  "subtab": "-MfY4b3y_0CfqBQLrq8n",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<div class=\"row\" style=\"justify-content: center; height: 100%;  align-items: flex-end;\">\r\n  <button type=\"button\" class=\"myButton\" @click='createProgramme($getUser(\"profileID\"))'>\r\n    Create a Programme\r\n    <i style=\"padding-left: 1px;\" class=\"far fa-plus-square\"></i>\r\n  </button>\r\n</div>",
+  "title": ""
+}

@@ -1,5 +1,5 @@
 {
-  "dependency": "dataGrid/sMEProfiles",
+  "dependency": "dataGrid/companyUserProfiles",
   "gsOptions": {
     "h": 18,
     "w": 24,
@@ -9,7 +9,7 @@
   "layout": "b-card",
   "overflow": "height: auto",
   "props": {
-    "gridId": "sMEProfiles"
+    "gridId": "companyUserProfiles"
   },
   "subtab": "-MRUpVlTv14ii_WrPndH",
   "tab": "-MRUkGcjzCn_tLNtnbcx",

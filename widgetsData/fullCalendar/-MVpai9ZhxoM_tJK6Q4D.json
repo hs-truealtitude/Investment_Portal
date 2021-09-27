@@ -3,12 +3,10 @@
   "dataSource": "sessions",
   "displayMode": "timeGridWeek",
   "durationField": "sessionLength",
+  "enableNameTemplate": false,
   "endField": "eDate",
-  "filter": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isBooked\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Booked?\",\"hidden\":true},{\"key\":\"rejected\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"Is Rejected?\",\"hidden\":true},{\"key\":\"sME\",\"operator\":\"=\",\"value\":\"$getUser('filterSME')\",\"name\":\"SME = SME\",\"expression\":true,\"hidden\":true},{\"key\":\"mentor\",\"operator\":\"=\",\"value\":\"$getUser('filterMentor')\",\"name\":\"Mentor = Mentor\",\"expression\":true,\"hidden\":true},{\"key\":\"pitch\",\"operator\":\"=\",\"value\":\"$getUser('filterPitch')\",\"name\":\"Pitch = Pitch\",\"expression\":true,\"hidden\":true}]}",
+  "filter": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isBooked\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Booked?\",\"expression\":false,\"hidden\":true},{\"key\":\"rejected\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"Is Rejected?\",\"expression\":false,\"hidden\":true},{\"key\":\"companyUser\",\"operator\":\"=\",\"value\":\"$getUser('filterCompanyUser')\",\"name\":\"Company User = Company User\",\"expression\":true,\"hidden\":true},{\"key\":\"mentor\",\"operator\":\"=\",\"value\":\"$getUser('filterMentor')\",\"name\":\"Mentor = Mentor\",\"expression\":true,\"hidden\":true},{\"key\":\"company\",\"operator\":\"=\",\"value\":\"$getUser('filterCompany')\",\"name\":\"company = company\",\"expression\":true,\"hidden\":true}]}",
   "nameField": "name",
-  "rowLabelFormat": {
-    "week": "hA"
-  },
   "startField": "sDate",
   "userField": "owner"
 }

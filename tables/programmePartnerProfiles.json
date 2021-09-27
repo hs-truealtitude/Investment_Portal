@@ -1,13 +1,24 @@
 {
-  "-MdMkVwh9176gQJadeEV": {
+  "-MkCrUeakAp1NI5Pf-Il": {
     "_created": true,
     "_id": 1,
-    "createdDate": 1624969973638,
-    "group": false,
-    "lastEditDate": 1624969973638,
-    "lastEditedBy": "gzYyMtxqjPd2TE5mbZcvQGINq932",
+    "accType": "-MeUR6iI2KSBaz6MwM6U",
+    "createdDate": 1632320224767,
+    "dateOfBirth": 1504825200000,
+    "isApproved": true,
+    "lastEditDate": 1632320308031,
+    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "linkedInProfileLink": "https://www.linkedin.com/company/true-altitude/",
     "location": "-MJwtgUqBjMrFNntf6GH",
-    "owner": "gzYyMtxqjPd2TE5mbZcvQGINq932",
-    "rowKey": "-MdMkVwh9176gQJadeEV"
+    "name": "Dev",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "profileImage": {
+      "fileName": "cbc031c0-1baf-11ec-87ae-25d6cb15bab7_datagrid_profile_img.png",
+      "url": "https://firebasestorage.googleapis.com/v0/b/investment-portal---stage.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2Fcbc031c0-1baf-11ec-87ae-25d6cb15bab7_datagrid_profile_img.png?alt=media&token=effb0226-d8d7-4f95-9e48-c15b70ccca33"
+    },
+    "rowKey": "-MkCrUeakAp1NI5Pf-Il",
+    "secondName": "True Altitude",
+    "submitPressed": true,
+    "user": "kcqPKqzwdwaerATjysdgpyqIp0R2"
   }
 }

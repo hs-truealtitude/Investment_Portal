@@ -2,10 +2,10 @@
   "classes": "",
   "detailTemplate": "",
   "gsOptions": {
-    "h": 4,
-    "w": 5,
-    "x": 2,
-    "y": 2
+    "h": 3,
+    "w": 24,
+    "x": 0,
+    "y": 1
   },
   "offSet": 0,
   "overflow": "",
@@ -13,6 +13,6 @@
   "styles": "",
   "subtab": "-MMkiJKDLeU1Mz8JWLqA",
   "tab": "-MKUwx1XmgWmAYvLK_wz",
-  "template": "<center>\r\n  <i style=\"color:black;\" class=\"fas fa-handshake fa-4x\"></i>\r\n\r\n  <h2> SME Introductions </h2>\r\n  <h1 style=\"font-weight: bold;\">{{smeInteractionsCount()}}</h1>\r\n</center>",
+  "template": "<div class=\"row stats\" style=\"color:black;\">\r\n\r\n  <div class=\"col\">\r\n    <center>\r\n      <i style=\"color:black;\" class=\"fas fa-handshake fa-4x\"></i>\r\n      <h2> CompanyUser Introductions </h2>\r\n      <h1 style=\"\">{{companyUserInteractionsCount()}}</h1>\r\n    </center>\r\n  </div>\r\n\r\n  <div class=\"col\">\r\n    <center>\r\n      <i style=\"color:black;\" class=\"fas fa-handshake fa-4x\"></i>\r\n      <h2> Mentor Introductions </h2>\r\n      <h1 style=\"\">{{mentorInteractionsCount()}}</h1>\r\n    </center>\r\n  </div>\r\n\r\n  <div class=\"col\">\r\n<center>\r\n  <i style=\"color:black;\" class=\"fas fa-handshake fa-4x\"></i>\r\n\r\n  <h2> Investor Introductions </h2>\r\n  <h1 style=\"color:black;\">{{investorInteractionsCount()}}</h1>\r\n</center>\r\n  </div>\r\n\r\n\r\n</div>",
   "title": ""
 }

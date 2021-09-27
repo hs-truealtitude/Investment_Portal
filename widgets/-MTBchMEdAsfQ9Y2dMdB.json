@@ -2,16 +2,20 @@
   "classes": "",
   "detailTemplate": "",
   "gsOptions": {
-    "h": 19,
+    "h": 15,
     "w": 16,
     "x": 4,
     "y": 3
   },
-  "layout": "b-card",
-  "overflow": "",
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "height:auto",
+  "perPage": 2,
   "styles": "",
   "subtab": "-MTBaTKGIcwibyRfP6Un",
   "tab": "-MJq8S1suwASZ84EkCd5",
   "template": "<DataGridEditRow gridId=\"programmePartnerProfiles\" :rowKey=\"$getUser('profileID')\" />",
-  "title": ""
+  "title": "Edit My Programme Partner Profile"
 }

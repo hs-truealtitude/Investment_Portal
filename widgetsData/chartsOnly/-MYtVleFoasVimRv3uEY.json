@@ -1,5 +1,5 @@
 {
-  "filter": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"access\",\"operator\":\"=\",\"value\":{\"value\":\"-MKjNiLMpbGAZI8h2lhK\",\"name\":\"Public\"},\"name\":\"Access\",\"hidden\":true}]}",
+  "filter": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"access\",\"operator\":\"=\",\"value\":{\"value\":\"-MKjNiLMpbGAZI8h2lhK\",\"name\":\"Public\"},\"name\":\"Access\",\"hidden\":true},{\"key\":\"companyType\",\"operator\":\"=\",\"value\":{\"value\":\"-Mcmp1t35mpOhFn-nqvP\",\"name\":\"Qualified Deal\"},\"name\":\"CompanyType\",\"hidden\":true}]}",
   "renderOptions": {
     "selectedX": [
       "name"

@@ -1,0 +1,10 @@
+.sidenav.navbar {
+    display: none !important;
+}
+.appNav._navInSideBar {
+    display: none !important;
+}
+
+.navbar-vertical.navbar-expand-xs.fixed-left + .main-content{
+    margin-left: 0px;
+}

@@ -1,0 +1,1379 @@
+{
+  "displayColumn": "name",
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Programme Name\",\"expression\":false,\"hidden\":false}]}",
+  "isReactive": true,
+  "meta": {
+    "companies": {
+      "displayName": "companies",
+      "lookUpTable": "companyProfiles",
+      "order": 0,
+      "type": "multi_lookup"
+    },
+    "companyEngagementsCount": {
+      "displayName": "companyEngagementsCount",
+      "order": 17,
+      "type": "number"
+    },
+    "companyUsers": {
+      "displayName": "companyUsers",
+      "lookUpTable": "companyUserProfiles",
+      "order": 15,
+      "type": "multi_lookup"
+    },
+    "createdDate": {
+      "displayName": "Created Date",
+      "invisible": true,
+      "order": 1,
+      "type": "date"
+    },
+    "fundSize": {
+      "Width": "176px",
+      "displayName": "Fund Size",
+      "invisible": false,
+      "order": 2,
+      "priceFormat": true,
+      "type": "number"
+    },
+    "investorEngagementsCount": {
+      "displayName": "investorEngagementsCount",
+      "order": 18,
+      "type": "number"
+    },
+    "investors": {
+      "displayName": "Investors",
+      "lookUpTable": "investorProfiles",
+      "order": 3,
+      "type": "multi_lookup"
+    },
+    "lastEditDate": {
+      "displayName": "Last edit date",
+      "invisible": true,
+      "order": 4,
+      "type": "date"
+    },
+    "lastEditedBy": {
+      "displayName": "Last edited by",
+      "invisible": true,
+      "order": 5,
+      "type": "user"
+    },
+    "layout": {
+      "displayName": "Layout",
+      "order": 6,
+      "type": "select"
+    },
+    "mentorEngagementsCount": {
+      "displayName": "mentorEngagementsCount",
+      "order": 19,
+      "type": "number"
+    },
+    "mentors": {
+      "displayName": "mentors",
+      "lookUpTable": "mentors",
+      "order": 7,
+      "type": "multi_lookup"
+    },
+    "name": {
+      "Width": "309px",
+      "displayName": "Programme Name",
+      "invisible": false,
+      "order": 8,
+      "type": "string"
+    },
+    "nextEvents": {
+      "displayName": "Next Events",
+      "invisible": true,
+      "order": 9,
+      "type": "string"
+    },
+    "owner": {
+      "displayName": "Owner",
+      "invisible": true,
+      "order": 10,
+      "type": "user"
+    },
+    "programmeLogo": {
+      "displayName": "programmeLogo",
+      "order": 11,
+      "type": "profile_image"
+    },
+    "programmeObjectives": {
+      "displayName": "Programme Objectives",
+      "order": 21,
+      "type": "multiline_text"
+    },
+    "programmePartner": {
+      "displayName": "Programme Partner",
+      "invisible": false,
+      "lookUpTable": "programmePartnerProfiles",
+      "order": 12,
+      "type": "lookup"
+    },
+    "programmeSummary": {
+      "displayName": "Programme Summary",
+      "order": 13,
+      "type": "multiline_text"
+    },
+    "sessionCount": {
+      "displayName": "sessionCount",
+      "order": 16,
+      "type": "number"
+    },
+    "state": {
+      "displayName": "State",
+      "invisible": true,
+      "order": 14,
+      "type": "string"
+    },
+    "successfulInvestorEngagementsCount": {
+      "displayName": "successfulInvestorEngagementsCount",
+      "order": 20,
+      "type": "number"
+    }
+  },
+  "rowEditorFieldsForm": {
+    "sections": [
+      {
+        "name": "section_423102",
+        "label": "Create a Programme",
+        "clientKey": "section_423102",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_423102_row_878903",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "profile_image",
+                "name": "control_7c192330-003d-11ec-b685-9b259248cb72",
+                "fieldName": "control_7c192330-003d-11ec-b685-9b259248cb72",
+                "label": "Programme Logo (Optional)",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "programmeLogo",
+                "gridId": "programmeData"
+              },
+              {
+                "type": "text",
+                "name": "control_text_196072",
+                "fieldName": "control_text_196072",
+                "label": "Programme Name",
+                "order": 1,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "name",
+                "gridId": "programmeData"
+              },
+              {
+                "type": "multiline_text",
+                "name": "control_a84a2800-003d-11ec-b685-9b259248cb72",
+                "fieldName": "control_a84a2800-003d-11ec-b685-9b259248cb72",
+                "label": "Programme Summary",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "programmeSummary",
+                "gridId": "programmeData"
+              },
+              {
+                "type": "multiline_text",
+                "name": "control_988df8d0-1490-11ec-bae9-41c1eaf6a783",
+                "fieldName": "control_988df8d0-1490-11ec-bae9-41c1eaf6a783",
+                "label": "Programme Objectives",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "programmeObjectives",
+                "gridId": "programmeData"
+              },
+              {
+                "type": "number",
+                "name": "control_number_752117",
+                "fieldName": "control_number_752117",
+                "label": "Budget Size (Optional)",
+                "order": 2,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "fundSize",
+                "gridId": "programmeData",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "name": "section_423102_row_444591",
+            "label": "",
+            "order": 0,
+            "controls": []
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": []
+      },
+      {
+        "cleintKey": "hidden_section_d971c600-fe6b-11eb-8b02-1947c31ab3cb",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_d971c600-fe6b-11eb-8b02-1947c31ab3cb",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_d971c600-fe6b-11eb-8b02-1947c31ab3cb_row_d971c601-fe6b-11eb-8b02-1947c31ab3cb",
+            "controls": [
+              {
+                "type": "multi_lookup",
+                "name": "control_9e6f0090-03ed-11ec-8861-178be41fbf0b",
+                "fieldName": "control_9e6f0090-03ed-11ec-8861-178be41fbf0b",
+                "label": "companies",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companies",
+                "ableToAddLookUpVal": true
+              },
+              {
+                "type": "multi_lookup",
+                "name": "control_0d201bd0-01b1-11ec-97dd-79a5fb81a7a2",
+                "fieldName": "control_0d201bd0-01b1-11ec-97dd-79a5fb81a7a2",
+                "label": "Investors",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "investors",
+                "ableToAddLookUpVal": true,
+                "gridId": "programmeData"
+              },
+              {
+                "type": "multi_lookup",
+                "name": "control_c25d2720-03ed-11ec-8861-178be41fbf0b",
+                "fieldName": "control_c25d2720-03ed-11ec-8861-178be41fbf0b",
+                "label": "companyUsers",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companyUsers",
+                "ableToAddLookUpVal": true,
+                "gridId": "programmeData"
+              },
+              {
+                "type": "multi_lookup",
+                "name": "control_889a9f90-03ed-11ec-8861-178be41fbf0b",
+                "fieldName": "control_889a9f90-03ed-11ec-8861-178be41fbf0b",
+                "label": "mentors",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "mentors",
+                "ableToAddLookUpVal": true
+              },
+              {
+                "type": "text",
+                "name": "control_text_778474",
+                "fieldName": "control_text_778474",
+                "label": "State",
+                "order": 4,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "state"
+              },
+              {
+                "type": "datepicker",
+                "name": "control_datepicker_924771",
+                "fieldName": "control_datepicker_924771",
+                "label": "Last edit date",
+                "order": 5,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": true,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "lastEditDate"
+              },
+              {
+                "type": "user",
+                "name": "control_user_471283",
+                "fieldName": "control_user_471283",
+                "label": "Owner",
+                "order": 6,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "owner",
+                "gridId": "programmeData"
+              },
+              {
+                "type": "datepicker",
+                "name": "control_datepicker_885772",
+                "fieldName": "control_datepicker_885772",
+                "label": "Created Date",
+                "order": 7,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "createdDate"
+              },
+              {
+                "type": "text",
+                "name": "control_text_364645",
+                "fieldName": "control_text_364645",
+                "label": "Next Events",
+                "order": 8,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "nextEvents"
+              },
+              {
+                "type": "user",
+                "name": "control_user_157627",
+                "fieldName": "control_user_157627",
+                "label": "Last edited by",
+                "order": 9,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": true,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "lastEditedBy"
+              }
+            ]
+          },
+          {
+            "name": "hidden_section_d971c600-fe6b-11eb-8b02-1947c31ab3cb_row_968170",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "number",
+                "name": "control_168d3560-148d-11ec-bfd5-17a6e39fd0c3",
+                "fieldName": "control_168d3560-148d-11ec-bfd5-17a6e39fd0c3",
+                "label": "sessionCount",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "sessionCount",
+                "gridId": "programmeData"
+              },
+              {
+                "type": "number",
+                "name": "control_2211d120-148d-11ec-bfd5-17a6e39fd0c3",
+                "fieldName": "control_2211d120-148d-11ec-bfd5-17a6e39fd0c3",
+                "label": "companyEngagementsCount",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companyEngagementsCount",
+                "gridId": "programmeData"
+              },
+              {
+                "type": "number",
+                "name": "control_2aed45e0-148d-11ec-bfd5-17a6e39fd0c3",
+                "fieldName": "control_2aed45e0-148d-11ec-bfd5-17a6e39fd0c3",
+                "label": "investorEngagementsCount",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "investorEngagementsCount",
+                "gridId": "programmeData"
+              },
+              {
+                "type": "number",
+                "name": "control_3a106520-148d-11ec-bfd5-17a6e39fd0c3",
+                "fieldName": "control_3a106520-148d-11ec-bfd5-17a6e39fd0c3",
+                "label": "successfulInvestorEngagementsCount",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "successfulInvestorEngagementsCount",
+                "gridId": "programmeData"
+              },
+              {
+                "type": "number",
+                "name": "control_33845ea0-148d-11ec-bfd5-17a6e39fd0c3",
+                "fieldName": "control_33845ea0-148d-11ec-bfd5-17a6e39fd0c3",
+                "label": "mentorEngagementsCount",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "mentorEngagementsCount",
+                "gridId": "programmeData"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "layout": "tab",
+    "_uniqueId": 0.4363981098461365
+  },
+  "source": "programmeData",
+  "storageType": "dashboard",
+  "title": "Programmes",
+  "views": {
+    "myProgrammes": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Programme Name\",\"expression\":false,\"hidden\":false},{\"key\":\"owner\",\"operator\":\"=\",\"value\":\"fbUser.uid\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true}]}",
+      "meta": {
+        "companies": {
+          "invisible": false,
+          "order": 2
+        },
+        "companyEngagementsCount": {
+          "order": 17
+        },
+        "companyUsers": {
+          "invisible": false,
+          "order": 8
+        },
+        "createdDate": {
+          "invisible": true,
+          "order": 9
+        },
+        "fundSize": {
+          "invisible": false,
+          "order": 1
+        },
+        "investorEngagementsCount": {
+          "order": 18
+        },
+        "investors": {
+          "invisible": false,
+          "order": 3
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": 10
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": 11
+        },
+        "layout": {
+          "invisible": false,
+          "order": 4
+        },
+        "mentorEngagementsCount": {
+          "order": 19
+        },
+        "mentors": {
+          "invisible": false,
+          "order": 5
+        },
+        "name": {
+          "invisible": false,
+          "order": 0
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": 12
+        },
+        "owner": {
+          "invisible": true,
+          "order": 13
+        },
+        "programmeLogo": {
+          "invisible": false,
+          "order": 6
+        },
+        "programmeObjectives": {
+          "order": 21
+        },
+        "programmePartner": {
+          "invisible": true,
+          "order": 14
+        },
+        "programmeSummary": {
+          "invisible": false,
+          "order": 7
+        },
+        "sessionCount": {
+          "order": 16
+        },
+        "state": {
+          "invisible": true,
+          "order": 15
+        },
+        "successfulInvestorEngagementsCount": {
+          "order": 20
+        }
+      },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
+      "title": "My Programmes"
+    },
+    "programmesInvolvedInCompanyUsers": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Programme Name\",\"expression\":false,\"hidden\":false},{\"key\":\"companyUsers\",\"operator\":\"in\",\"value\":\"$getUser('profileID')\",\"name\":\"companyUsers\",\"expression\":true,\"hidden\":true}]}",
+      "meta": {
+        "companies": {
+          "order": 0
+        },
+        "companyEngagementsCount": {
+          "order": 17
+        },
+        "companyUsers": {
+          "order": 15
+        },
+        "createdDate": {
+          "invisible": true,
+          "order": 1
+        },
+        "fundSize": {
+          "invisible": false,
+          "order": 2
+        },
+        "investorEngagementsCount": {
+          "order": 18
+        },
+        "investors": {
+          "order": 3
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": 4
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": 5
+        },
+        "layout": {
+          "order": 6
+        },
+        "mentorEngagementsCount": {
+          "order": 19
+        },
+        "mentors": {
+          "order": 7
+        },
+        "name": {
+          "invisible": false,
+          "order": 8
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": 9
+        },
+        "owner": {
+          "invisible": true,
+          "order": 10
+        },
+        "programmeLogo": {
+          "order": 11
+        },
+        "programmeObjectives": {
+          "order": 21
+        },
+        "programmePartner": {
+          "invisible": false,
+          "order": 12
+        },
+        "programmeSummary": {
+          "order": 13
+        },
+        "sessionCount": {
+          "order": 16
+        },
+        "state": {
+          "invisible": true,
+          "order": 14
+        },
+        "successfulInvestorEngagementsCount": {
+          "order": 20
+        }
+      },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
+      "title": "Programmes Involved In - Company Users"
+    },
+    "programmesInvolvedInInvestors": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Programme Name\",\"expression\":false,\"hidden\":false},{\"key\":\"investors\",\"operator\":\"in\",\"value\":\"$getUser('profileID')\",\"name\":\"Investors\",\"expression\":true,\"hidden\":true}]}",
+      "meta": {
+        "companies": {
+          "order": 0
+        },
+        "companyEngagementsCount": {
+          "order": 17
+        },
+        "companyUsers": {
+          "order": 15
+        },
+        "createdDate": {
+          "invisible": true,
+          "order": 1
+        },
+        "fundSize": {
+          "invisible": false,
+          "order": 2
+        },
+        "investorEngagementsCount": {
+          "order": 18
+        },
+        "investors": {
+          "order": 3
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": 4
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": 5
+        },
+        "layout": {
+          "order": 6
+        },
+        "mentorEngagementsCount": {
+          "order": 19
+        },
+        "mentors": {
+          "order": 7
+        },
+        "name": {
+          "invisible": false,
+          "order": 8
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": 9
+        },
+        "owner": {
+          "invisible": true,
+          "order": 10
+        },
+        "programmeLogo": {
+          "order": 11
+        },
+        "programmeObjectives": {
+          "order": 21
+        },
+        "programmePartner": {
+          "invisible": false,
+          "order": 12
+        },
+        "programmeSummary": {
+          "order": 13
+        },
+        "sessionCount": {
+          "order": 16
+        },
+        "state": {
+          "invisible": true,
+          "order": 14
+        },
+        "successfulInvestorEngagementsCount": {
+          "order": 20
+        }
+      },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
+      "title": "Programmes Involved In - Investors"
+    },
+    "programmesInvolvedInMentors": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Programme Name\",\"expression\":false,\"hidden\":false},{\"key\":\"mentors\",\"operator\":\"in\",\"value\":\"$getUser('profileID')\",\"name\":\"mentors\",\"expression\":true,\"hidden\":true}]}",
+      "meta": {
+        "companies": {
+          "order": 0
+        },
+        "companyEngagementsCount": {
+          "order": 17
+        },
+        "companyUsers": {
+          "order": 15
+        },
+        "createdDate": {
+          "invisible": true,
+          "order": 1
+        },
+        "fundSize": {
+          "invisible": false,
+          "order": 2
+        },
+        "investorEngagementsCount": {
+          "order": 18
+        },
+        "investors": {
+          "order": 3
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": 4
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": 5
+        },
+        "layout": {
+          "order": 6
+        },
+        "mentorEngagementsCount": {
+          "order": 19
+        },
+        "mentors": {
+          "order": 7
+        },
+        "name": {
+          "invisible": false,
+          "order": 8
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": 9
+        },
+        "owner": {
+          "invisible": true,
+          "order": 10
+        },
+        "programmeLogo": {
+          "order": 11
+        },
+        "programmeObjectives": {
+          "order": 21
+        },
+        "programmePartner": {
+          "invisible": false,
+          "order": 12
+        },
+        "programmeSummary": {
+          "order": 13
+        },
+        "sessionCount": {
+          "order": 16
+        },
+        "state": {
+          "invisible": true,
+          "order": 14
+        },
+        "successfulInvestorEngagementsCount": {
+          "order": 20
+        }
+      },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
+      "title": "Programmes Involved In - Mentors"
+    }
+  }
+}

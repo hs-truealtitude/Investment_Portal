@@ -1,0 +1,216 @@
+.modal-body .ml-auto{
+        display: none !important;
+}
+
+.modal-title{
+        display: none;
+}
+
+.controlElement .mcard{
+        border:1px solid 	#696969	 !important;
+
+}
+
+.modal-content a{
+        color: #ef4437 !important
+}
+
+.modal-content img{
+        border-radius: 15px !important;
+}
+
+.dataGridEditRow .toggle-wrapper{
+        height: 30px !important;
+}
+
+.modal-header{
+        background-color: #fffaf3;
+        border-bottom: 0px solid rgba(0, 0, 0, 0.05);
+}
+
+.modal-content .invalid-feedback{
+        background-color: #fffaf3;
+
+}
+
+header{
+        height: 10px;
+
+}
+
+.form-builder-root .title{
+        font-size:1.3rem;
+
+}
+
+.modal-header button{
+        color:black !important;
+}
+
+.modal-body{
+        border-radius: 5px;
+        background-color: #fffaf3;
+}
+
+.modal-content .guiSectionItem{
+        background-color: #fffaf3;
+}
+.modal-content .formEdit .controlItem{
+        background-color: #fffaf3 !important;
+}
+.modal-content .dataGridEditRow{
+        background-color: #fffaf3 !important;
+}
+
+.modal-body span{/*
+       color:#000000 !important;       
+}*/
+
+.modal-body .title{
+        color:#000000 !important;
+}
+
+.modal-body h5 span{
+        font-size:20px !important;
+}
+
+.modal-body .form-block span{
+        font-size:15px;
+}
+
+.modal-body p{
+        color:#000000 !important;
+}
+
+.modal-body .multiselect__single{
+        font-family: 'Grenette pro', sans-serif !important;   
+
+}
+
+.modal-body .h4{
+        color:#000000 !important;
+}
+
+.modal-content .modal-header{
+        display: none !important;
+}
+
+.modal-body{
+        font-family: 'Grenette pro', sans-serif !important;   
+}
+
+
+.modal-body .form-control-label{
+        font-family: 'Grenette pro', sans-serif !important;   
+        color:#000000 !important;
+
+}
+
+.modal-body input{
+                font-family: 'Grenette pro', sans-serif !important;   
+font-size: 15px;
+}
+
+.modal-body .fab{
+        color:white !important
+}
+
+.modal-body textarea{
+          border: 1px solid black !important;
+}
+
+.modal-body input{
+          border: 1px solid black !important;
+
+}
+
+.modal-body .fas{
+        color:white !important
+}
+
+.modal-body textarea{
+        font-family: 'Grenette pro', sans-serif !important;   
+        height: 100px;
+        font-size:15px;
+        color:#000000 !important;
+}
+
+.modal-body multiselect{
+        font-family: 'Grenette pro', sans-serif !important;   
+}
+
+.multiselect__option--highlight {
+    background-color: #ef4437 !important;
+}
+
+.multiselect__option--selected {
+    background-color: #f59595 !important;
+    color: black !important;
+}
+
+.modal-body button{
+        background-color: #fffaf3 !important;
+	border:1px solid #000000 !important;
+        color:#000000 !important;
+        font-family: 'Grenette pro', sans-serif !important;
+        border-radius: 0px;
+        font-size:16px;
+        box-shadow: 0px 0px;
+}
+
+.btn{
+        background-color: #fffaf3 !important;
+	border:1px solid #000000 !important;
+        color:#000000 !important;
+        font-family: 'Grenette pro', sans-serif !important;
+        border-radius: 0px;
+        font-size:16px;
+        box-shadow: 0px 0px;
+}
+
+.card-body p{
+        font-family: 'Grenette pro', sans-serif !important;
+}
+
+.card-body small{
+        font-family: 'Grenette pro', sans-serif !important;
+}
+
+.modal-body button span{
+	color:#000000 !important;
+}
+
+.modal-body button:hover{
+	background-color:#ef4437 !important;
+	color:#000000 !important;
+	border:1px solid #000000 !important;
+        box-shadow: 0px 0px;
+}
+
+.modal-body i{
+        color:#000000 !important;
+
+}
+
+.input-group-append button{
+        display: none !important;
+}
+
+.flatpickr-calendar.hasTime.animate.showTimeInput.open.arrowBottom{
+        background-color: #fffaf3;
+	border:1px solid #000000 !important;
+        font-family: 'Grenette pro', sans-serif !important;
+}
+
+.modal-content .card{
+        border:1px solid #696969 !important;
+
+}
+
+.modal-content i{
+color: white !important;
+}
+
+.modal-content .card-body{
+        padding: 10px;
+}

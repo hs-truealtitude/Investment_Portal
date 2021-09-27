@@ -1,0 +1,21 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 2,
+    "w": 24,
+    "x": 0,
+    "y": 1
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "overflow:hidden",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MPe0NxYQploLstsV54u",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<div class=\"row fixed-bottom\" style=\"justify-content: center; height: 100%;  align-items: flex-end;\">\r\n  <button style=\"margin-right: 10px;\" type=\"button\" class=\"myButton\" @click='$setCurrentSubTab(\"-MQNav_HFaMuZMGgOjr3\",\"-MJq8S1suwASZ84EkCd5\")'>\r\n    My Mentors\r\n    <break></break>\r\n  </button>",
+  "title": ""
+}

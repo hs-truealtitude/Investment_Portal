@@ -1,0 +1,109 @@
+{
+  "data": {
+    "metaData": {
+      "id": "",
+      "statusField": "sessions.status.sessionStatus"
+    },
+    "nodes": [
+      {
+        "id": "node1631526984264",
+        "x": 345,
+        "y": 174,
+        "width": 103.76565551757812,
+        "height": 40,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": "flag",
+        "iconColor": "hsl(154, 64%, 49%)"
+      },
+      {
+        "id": "node1631618858744",
+        "x": 540,
+        "y": 174,
+        "width": 200,
+        "height": 40,
+        "attachment": {
+          "field": "sessions / companyUserReviewGiven",
+          "fieldValue": "true"
+        },
+        "name": "update-record",
+        "clazz": "updateRecord",
+        "label": "Company User Review Given",
+        "icon": "pen",
+        "iconColor": "hsl(189, 87%, 50%)"
+      },
+      {
+        "id": "node1631619850221",
+        "x": 842,
+        "y": 154,
+        "width": 137.875,
+        "height": 71,
+        "attachment": {
+          "user": "mentor.mentors.owner"
+        },
+        "name": "user-task",
+        "clazz": "userTask",
+        "label": "Submit Feedback",
+        "icon": "user",
+        "iconColor": "hsl(235, 71%, 65%)",
+        "outcomes": [
+          {
+            "text": "Submit",
+            "id": "outcome1631619879393",
+            "idx": 1
+          }
+        ]
+      },
+      {
+        "id": "node1631620358509",
+        "x": 1125,
+        "y": 192,
+        "width": 100,
+        "height": 40,
+        "attachment": {},
+        "name": "end-event",
+        "clazz": "endEvent",
+        "label": "End Event",
+        "icon": "stop-circle",
+        "iconColor": "hsl(348, 91%, 59%)"
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1631618858744-right",
+        "target": "node1631619850221",
+        "endSocket": "left",
+        "id": "line-1631619881576",
+        "instance": {},
+        "label": "Company User Review Given",
+        "targetLabel": "Submit Feedback",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1631619879393",
+        "target": "node1631620358509",
+        "endSocket": "bottom",
+        "id": "line-1631620359983",
+        "instance": {},
+        "label": "Submit",
+        "targetLabel": "End Event",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ]
+  },
+  "name": "LeaveReview"
+}

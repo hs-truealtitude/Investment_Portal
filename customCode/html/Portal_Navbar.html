@@ -1,0 +1,260 @@
+<div class="body-border-contain">
+<div class="border-top">
+   <div class="border-bottom"></div>
+   <div class="border-left"></div>
+   <div class="border-right"></div>
+   <center>
+      <div class="" style="">
+         <!--<WorkspaceLogo width="350" height="85"/>-->
+      </div>
+   </center>
+</div>
+<div class="nav-top-contain">
+   <div class="nav-logo left w-nav-brand w--current" style="margin-left: auto; margin-right:auto;">
+      <div v-if="$getUser('accountType') != 'CompanyUser' || currentSubTab === '-MfY0EbaZX6XWjZu1p6r'" class="nav-logo-text">True Altitude - Investment Portal</div>
+      <div v-if="currentSubTab !== '-MfY0EbaZX6XWjZu1p6r' && $getUser('accountType') === 'CompanyUser'" class="backToAdminDashboard" @click="backToStartMenu();">
+         <div class="nav-logo right ui">
+            <i class="gg-chevron-left"></i>
+            <div class="nav-logo-text" style="font-size: 18px">Menu</div>
+         </div>
+      </div>
+   </div>
+   <div>
+      <!-- NOTIFICATIONS -->
+      <div id="hovernotif" class="nav-logo right ui notif">
+         <span v-if="notificationCount > 0" class="dot"></span>
+         <span style="width: auto;" id="notifc" class="num">{{notificationCount}} Notification(s)</span>
+         <div class="box">
+            <div class="notifications">
+               <i class="fa fa-bell"></i>
+               <ul>
+                  <!-- 
+                     //VIEWING ALL NOTIFS (NOT NEEDED)    
+                     <li class="icon">
+                         <span class="text" @click='$setCurrentSubTab("-MSbUoT--6X8CjMwlOQ3","-MJq8S1suwASZ84EkCd5")'>View All Notifications</span>
+                     </li>
+                     
+                     //SETTING NOTIF STATUS (IF NEEDED)
+                     $setDataGridVal('applications', `${row.rowKey}.isComplete`, true);
+                     -->
+               </ul>
+               <div class="notifications__dropdown">
+                  <!-- Notifications Sent -->
+                  <li class="icon"
+                     v-for='row in notificationList'
+                     @click="$dgShowEditRowModal('applications', row.rowKey);" >
+                     <span class="text" v-if="row.notificationDescription" >{{row.notificationDescription}}</span>
+                  </li>
+                  <!-- CompanyUser Notifications Response -->
+                  <li class="icon"
+                     v-for='row in notificationListResponseCompanyUser'
+                     @click="redirectToCompanyUserorMentorPage(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true);" >
+                     <span class="text" v-if="row.$companyUser && row.$company && row.$companyUser.name && row.$companyUser.secondName && row.$company.name" >{{row.$companyUser.name}} {{row.$companyUser.secondName}} ({{row.$company.name}}) has accepted your cohort invite</span>
+                  </li>
+                  <!-- Investor->CompanyUser Notifications Response -->
+                  <li class="icon"
+                     v-for='row in notificationListResponseCompanyUserToInvestor'
+                     @click="redirectInvestorToEngagedWithPage(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true);" >
+                     <span class="text" v-if="row.$companyUser && row.$company && row.$companyUser.name && row.$companyUser.secondName && row.$company.name" >{{row.$companyUser.name}} {{row.$companyUser.secondName}} ({{row.$company.name}}) has accepted your application</span>
+                  </li>
+                  <!-- CompanyUser Notifications Response(in Cohort) -->
+                  <li class="icon"
+                     v-for='row in notificationListResponseCompanyUserInCohort'
+                     @click="redirectToCompanyUserorMentorPage(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true);" >
+                     <span class="text" v-if="row.$companyUser && row.$companyUser.name && row.$companyUser.secondName && row.$cohortCompany.name">{{row.$companyUser.name}} {{row.$companyUser.secondName}} ({{row.$cohortCompany.name}}) has accepted your application within the {{row.$cohort.name}} (cohort)</span>
+                  </li>
+                  <!-- Mentor Notifications Response -->
+                  <li class="icon"
+                     v-for='row in notificationListResponseMentor'
+                     @click="$setDataGridVal('applications', `${row.rowKey}.responseOpened`, true); redirectToCompanyUserorMentorPage();" >
+                     <span class="text" v-if="row.$mentor && row.$mentor.name && row.$mentor.secondName">Mentor ({{row.$mentor.name}} {{row.$mentor.secondName}}) has accepted your application </span>
+                  </li>
+                  <!-- Mentor Notifications Response (in Cohort) -->
+                  <li class="icon"
+                     v-for='row in notificationListResponseMentorInCohort'
+                     @click="$setDataGridVal('applications', `${row.rowKey}.responseOpened`, true); redirectToCompanyUserorMentorPage();" >
+                     <span class="text" v-if="row.$mentor && row.$mentor.name && row.$mentor.secondName">Mentor ({{row.$mentor.name}} {{row.$mentor.secondName}}) has accepted your application </span>
+                  </li>
+                  <!-- Investor Notifications Response -->
+                  <li class="icon"
+                     v-for='row in notificationListResponseInvestor'
+                     @click="redirectToCompanyUserorMentorPage(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true);" >
+                     <span class="text" v-if="row.$investor.name && row.$investor.secondName">{{row.$investor.name}} {{row.$investor.secondName}} has accepted your cohort invite</span>
+                  </li>
+                  <!-- Investor->Company User Application Response -->
+                  <li class="icon"
+                     v-for='row in notificationListResponseInvestor'
+                     @click="redirectToCompanyUserorMentorPage(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true);" >
+                     <span class="text" v-if="row.$investor.name && row.$investor.secondName">{{row.$investor.name}} {{row.$investor.secondName}} has accepted your cohort invite</span>
+                  </li>
+                  <!-- Investor->CompanyUser (Invested In) Notifications -->
+                  <li class="icon"
+                     v-for='row in notificationListResponseInvestorInvestedIn'
+                     @click="$dgShowEditRowModal('investorAcceptedcompanyProfiles', row.rowKey);" >
+                     <span class="text" v-if="row.$investor.name && row.$investor.secondName">{{row.$investor.name}} {{row.$investor.secondName}} (an Investor you are engaged with) has requested to showcase you in their invested in portfolio</span>
+                  </li>
+                  <!-- Investor->CompanyUser (Invested In) Notifications Response -->
+                  <li class="icon"
+                     v-for='row in notificationListResponseInvestorInvestedInResponse'
+                     @click="redirectInvestorToEngagedWithPage(); $setDataGridVal('investorAcceptedcompanyProfiles', `${row.rowKey}.responseOpened`, true);" >
+                     <span class="text" v-if="row.$companyUser.name">{{row.$companyUser.name}} {{row.$companyUser.secondName}} ({{row.$companyProfiles.name}}) has approved your 'invested in' request.</span>
+                  </li>
+                  <!-- Mentor Notifications Response (Programme) -->
+                  <li class="icon"
+                     v-for='row in notificationListResponseMentorProgramme'
+                     @click="$setDataGridVal('applications', `${row.rowKey}.responseOpened`, true); redirectToMyProgrammes();" >
+                     <span class="text" v-if="row.$mentor.name && row.$mentor.secondName">Mentor ({{row.$mentor.name}} {{row.$mentor.secondName}}) has accepted your programme invitation </span>
+                  </li>
+                  <!-- Investor Notifications Response (Programme) -->
+                  <li class="icon"
+                     v-for='row in notificationListResponseInvestorProgramme'
+                     @click="redirectToMyProgrammes(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true);" >
+                     <span class="text" v-if="row.$investor.name && row.$investor.secondName">{{row.$investor.name}} {{row.$investor.secondName}} has accepted your programme invitation </span>
+                  </li>
+                  <!-- CompanyUser Notifications Response (Programme) -->
+                  <li class="icon"
+                     v-for='row in notificationListResponseCompanyUserProgramme'
+                     @click="redirectToMyProgrammes(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true);" >
+                     <span class="text" v-if="row.$companyUser.name && row.$companyUser.secondName && row.$company.name" >{{row.$companyUser.name}} {{row.$companyUser.secondName}} ({{row.$company.name}}) has accepted your programme invitation </span>
+                  </li>
+                  <!-- Company->Mentor Notifications Response (in Programme) -->
+                  <li class="icon"
+                     v-for='row in notificationListResponseMentorInProgramme'
+                     @click="$setDataGridVal('applications', `${row.rowKey}.responseOpened`, true); redirectToMyProgrammes();" >
+                     <span class="text" v-if="row.$mentor.name && row.$mentor.secondName">Mentor ({{row.$mentor.name}} {{row.$mentor.secondName}}) has accepted your application within the {{row.$programme.name}} programme  </span>
+                  </li>
+                  <!-- Mentor->Company Notifications Response (in Programme) -->
+                  <li class="icon"
+                     v-for='row in notificationListResponseCompanyUserInProgramme'
+                     @click="$setDataGridVal('applications', `${row.rowKey}.responseOpened`, true); redirectToMyProgrammes();" >
+                     <span class="text" v-if="row.$companyUser && row.$companyUser.name && row.$companyUser.secondName"> ({{row.$companyUser.name}} {{row.$companyUser.secondName}}) has accepted your application within the {{row.$programme.name}} programme  </span>
+                  </li>
+                  <!-- Session request sent to CompanyUser-->
+                  <li class="icon"
+                     v-for='row in notificationListSessionCompanyUser'
+                     @click="$dgShowEditRowModal('sessions', row.rowKey);" >
+                     <span class="text" v-if="row.$mentor.name && row.$mentor.secondName">{{row.$mentor.name}} {{row.$mentor.secondName}} (Mentor) has requested to book a session with you </span>
+                  </li>
+                  <!-- Session request response to mentor -->
+                  <li class="icon"
+                     v-for='row in notificationListSessionResponseToMentor'
+                     @click="$setDataGridVal('sessions', `${row.rowKey}.notifComplete`, true); redirectToMyBookedSessions();" >
+                     <span class="text" >{{row.$companyUser.name}} {{row.$companyUser.secondName}} ({{row.$company.name}}) has accepted your session booking </span>
+                  </li>
+                  <!-- Session request sent to Mentor-->
+                  <li class="icon"
+                     v-for='row in notificationListSessionMentor'
+                     @click="$dgShowEditRowModal('sessions', row.rowKey);" >
+                     <span class="text" >{{row.$companyUser.name}} {{row.$companyUser.secondName}} ({{row.$company.name}}) has requested to book a session with you </span>
+                  </li>
+                  <!-- Session request response to CompanyUser -->
+                  <li class="icon"
+                     v-for='row in notificationListSessionResponseToCompanyUser'
+                     @click="$setDataGridVal('sessions', `${row.rowKey}.notifComplete`, true); redirectToMyBookedSessions();" >
+                     <span class="text" >{{row.$mentor.name}} {{row.$mentor.secondName}} (Mentor) has accepted your session booking </span>
+                  </li>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="nav-logo right ui notNotif">
+      <a @click="backToDashboard()" target="_blank">
+      <i class="fas fa-home"></i>
+      </a>
+   </div>
+   <div class="nav-logo right ui notNotif">
+      <a @click="directAccountViewProfile()" target="_blank">
+      <i style=""class="fas fa-user"></i>
+      </a>
+   </div>
+   <div class="nav-logo right ui notNotif bug  end">
+      <a @click="giveFeedback()" target="_blank">
+      <span class="tooltiptext">Report an issue or bug</span>
+      <i class="fas fa-bug">
+      </a>
+   </div>
+   <div v-if="userRoles && userRoles.includes('Admin')" class="nav-logo right ui admin">
+      <a @click="$setCurrentTab('-MKUwx1XmgWmAYvLK_wz')" target="_blank">
+      <i class="fas fa-database"></i>
+      <span class="tooltiptext">Admin dashboard (manage your portal)</span>
+      </a>
+   </div>
+</div>
+<div  class="nav-bottom-contain">
+   <div data-w-id="639316c0-3f07-ae05-7551-93879e5f39bf" class="nav-menu-icon-contain">
+      <a href="#" class="nav-menu-link menu w-button">Menu</a>
+      <a href="#" class="nav-menu-link close w-button"></a>
+   </div>
+   <!--CompanyUser NAV-->
+   <div v-if="currentSubTab !== '-MfY2XJrlxkv3Z_iyJ5U' && currentSubTab !== '-MfY0EbaZX6XWjZu1p6r' && currentSubTab !== '-MfY2Rx8FCJBAzBmbLv3' && currentSubTab !== '-MfY2bmp0bNsXfULP4nX' && $getUser('accountType') == 'CompanyUser'" class="nav-menu-contain">
+      <div class="nav-menu-link-box start">
+         <a @click='$setCurrentSubTab("-MLDOWbGZ37NZOzh9Ww6","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">View All Companies</a>
+      </div>
+      <div class="nav-menu-link-box">
+         <a @click="createCompany()" class="nav-menu-link w-button">Create a Company</a>
+      </div>
+      <div class="nav-menu-link-box end">
+         <a @click='$setCurrentSubTab("-MLDOQHlSF7Jjjhq6aHE","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">My Company Profiles</a>
+      </div>
+      <!--
+         <div class="nav-menu-link-box end mentorAndSession">
+             <div class="dropup">
+                 <button class="dbtn">Mentors & Sessions 
+                     <i style="padding-left: 5%;" class="fas fa-chevron-up"></i>
+                 </button>
+             </div>
+                 <div class="dropup-content">
+                     <a @click='$setCurrentSubTab("-MW45c7ybX9RB28zFYPM","-MJq8S1suwASZ84EkCd5")' class="bl">Leave Reviews</a>
+                     <a @click='$setCurrentSubTab("-MW45ehLM2LrwcrP_xZ7","-MJq8S1suwASZ84EkCd5")' class="bl">My Sessions</a>
+                     <a @click='$setCurrentSubTab("-MQNav_HFaMuZMGgOjr3","-MJq8S1suwASZ84EkCd5")' class="bl">My Mentors </a>
+                 </div>
+         </div>
+         -->
+   </div>
+   <!--MENTOR NAV-->
+   <div v-if="$getUser('accountType') == 'Mentor'" class="nav-menu-contain">
+      <div class="nav-menu-link-box start">
+         <a @click='$setCurrentSubTab("-MPe1NvKBqudPSIy-W_g","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">View All Companies</a>
+      </div>
+      <div class="nav-menu-link-box">
+         <a @click='$setCurrentSubTab("-MPe1UmfUG2Oh10CnZjs","-MJq8S1suwASZ84EkCd5"); $setUser("activeProgrammeRowKey", null); $setUser("activeCohortRowKey", null);' class="nav-menu-link w-button">My Cohorts</a>
+      </div>
+      <div class="nav-menu-link-box">
+         <a @click='$setCurrentSubTab("-MfY8-yevTsCuA6PiH4x","-MJq8S1suwASZ84EkCd5"); $setUser("activeCohortRowKey", null); $setUser("activeProgrammeRowKey", null);' class="nav-menu-link w-button">My Programmes</a>
+      </div>
+      <div class="nav-menu-link-box end">
+         <a @click='$setCurrentSubTab("-MW49Z1H3IKgqYwA-yLg","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">My Booked Sessions</a>
+      </div>
+   </div>
+   <!--INVESTOR NAV-->
+   <div v-if="$getUser('accountType') == 'Investor'" class="nav-menu-contain">
+      <div class="nav-menu-link-box start">
+         <a @click='$setCurrentSubTab("-MMB2hmdqCdl_1QjwUXk","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">View All Companies</a>
+      </div>
+      <div class="nav-menu-link-box">
+         <a @click='$setCurrentSubTab("-MMBK_vCD0he4dNLSMs4","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">Saved Companies</a>
+      </div>
+      <div class="nav-menu-link-box">
+         <a @click='$setCurrentSubTab("-MhO8szWWg3gN09r_4LV","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">Engagements</a>
+      </div>
+      <div class="nav-menu-link-box">
+         <a @click='$setCurrentSubTab("-MfY36v8JUZR_vyMLwG5","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">My Cohorts</a>
+      </div>
+      <div class="nav-menu-link-box end">
+         <a @click='$setCurrentSubTab("-MVR769td35nAd71y7X2","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">My Programmes</a>
+      </div>
+   </div>
+   <!--ProgrammePartner NAV-->
+   <div v-if="$getUser('accountType') == 'ProgrammePartner'" class="nav-menu-contain">
+      <div class="nav-menu-link-box start">
+         <a @click='$setCurrentSubTab("-MPe0weI-_Kq4ptqiVg0","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">View All Companies</a>
+      </div>
+      <div class="nav-menu-link-box">
+         <a @click='$setCurrentSubTab("-MfY4NybO1sdtmy-6T9D","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">My Cohorts</a>
+      </div>
+      <div class="nav-menu-link-box end">
+         <a @click='$setCurrentSubTab("-MfY4b3y_0CfqBQLrq8n","-MJq8S1suwASZ84EkCd5")' class="nav-menu-link w-button">My Programmes</a>
+      </div>
+   </div>
+</div>

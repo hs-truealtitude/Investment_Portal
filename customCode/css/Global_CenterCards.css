@@ -1,0 +1,19 @@
+/*This centers the card lists on all devices including mobile*/
+
+@media screen and (max-width: 768px) {
+    .companyProfilesList .widget-card-list__item {
+        width: 100% !important;
+    }
+}
+
+.widget-card-list__item .card{
+    height: 100%;
+}
+
+.widget-card-list__item{
+    padding-left: 15px;
+}
+.widget-card-list{
+    justify-content: center !important;
+}
+

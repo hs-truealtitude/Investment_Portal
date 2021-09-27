@@ -1,10 +1,15 @@
 {
-  "accountType": "Investor",
+  "accountType": "ProgrammePartner",
+  "activeCohort": "-MkN02dFvThmtXb5ay1Y",
+  "activeMyCohort": "-MkMg8glSFZJ69s8TjDY",
+  "activeMyProgramme": "-MkMhkfQMxOd_4eOdSEg",
   "commercialContracts_lastViews": "",
+  "companyProfiles_lastViews": "filteredCardList",
+  "companyUserProfiles_lastViews": "",
   "cookieConsent": "true",
   "hideBack": "YES",
-  "investorProfiles_lastViews": "",
-  "mentors_lastViews": "",
-  "profileID": "-MZMzJ-vwa9AN37lJLoF",
-  "slingshotPitches_lastViews": "approvePitches"
+  "investorProfiles_lastViews": "approvedInvestors",
+  "mentors_lastViews": "mentorApproval",
+  "profileID": "-MkCrUeakAp1NI5Pf-Il",
+  "programmePartnerProfiles_lastViews": ""
 }

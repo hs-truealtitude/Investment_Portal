@@ -1,0 +1,28 @@
+{
+  "classes": "",
+  "containerTabs": [
+    {
+      "key": "-MjEufGk6vbxtFbgHqk2",
+      "title": "My Cohorts"
+    },
+    {
+      "key": "-MjEvQgmiqm6erelcqSV",
+      "title": "Cohorts Involved In"
+    }
+  ],
+  "gsOptions": {
+    "h": 27,
+    "w": 22,
+    "x": 1,
+    "y": 4
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "overflow": "height:auto",
+  "styles": "",
+  "subtab": "-MPe1UmfUG2Oh10CnZjs",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "title": "",
+  "type": "container"
+}

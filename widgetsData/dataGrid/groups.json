@@ -1,0 +1,304 @@
+{
+  "displayColumn": "name",
+  "fromCore": true,
+  "isReactive": true,
+  "meta": {
+    "adminAndFinanceFiles_instance": {
+      "dataGrid": "adminAndFinanceFiles",
+      "displayName": "Admin and Finance Files",
+      "filterColumn": "group",
+      "order": 11,
+      "type": "datagrid"
+    },
+    "archivedInvestments_instance": {
+      "dataGrid": "archivedInvestments",
+      "displayName": "Archived Investments",
+      "filterColumn": "group",
+      "order": 10,
+      "type": "datagrid"
+    },
+    "companyDatarooms_instance": {
+      "dataGrid": "companyDatarooms",
+      "displayName": "CompanyDatarooms",
+      "filterColumn": "group",
+      "order": 10,
+      "type": "datagrid"
+    },
+    "completedInvestments_instance": {
+      "dataGrid": "completedInvestments",
+      "displayName": "Completed Investments",
+      "filterColumn": "groups",
+      "order": 9,
+      "type": "datagrid"
+    },
+    "description": {
+      "Width": "609px",
+      "displayName": "Description",
+      "inherited": true,
+      "invisible": false,
+      "order": 1,
+      "type": "multiline_text"
+    },
+    "fundSetUpFile_instance": {
+      "dataGrid": "fundSetUpFile",
+      "displayName": "Fund Set Up File",
+      "filterColumn": "groups",
+      "order": 6,
+      "type": "datagrid"
+    },
+    "fundSetUpFiles_instance": {
+      "dataGrid": "fundSetUpFiles",
+      "displayName": "Fund set up files",
+      "filterColumn": "groups",
+      "order": 5,
+      "type": "datagrid"
+    },
+    "investmentInProgressFiles_instance": {
+      "dataGrid": "investmentInProgressFiles",
+      "displayName": "Investment In Progress Files",
+      "filterColumn": "groups",
+      "order": 8,
+      "type": "datagrid"
+    },
+    "layout": {
+      "displayName": "Layout",
+      "order": 12,
+      "type": "select"
+    },
+    "name": {
+      "Width": "272px",
+      "displayName": "Name",
+      "inherited": true,
+      "invisible": false,
+      "order": 0,
+      "type": "string"
+    },
+    "nextEvents": {
+      "displayName": "Next Events",
+      "inherited": true,
+      "invisible": true,
+      "order": 2,
+      "type": "string"
+    },
+    "originationFiles_instance": {
+      "dataGrid": "originationFiles",
+      "displayName": "Origination Files",
+      "filterColumn": "groups",
+      "order": 7,
+      "type": "datagrid"
+    },
+    "state": {
+      "displayName": "State",
+      "inherited": true,
+      "invisible": true,
+      "order": 3,
+      "type": "string"
+    }
+  },
+  "rowEditorFieldsForm": {
+    "sections": [
+      {
+        "name": "section_90239",
+        "label": "",
+        "clientKey": "section_90239",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_90239_row_660345",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "text",
+                "name": "control_text_439457",
+                "fieldName": "control_text_439457",
+                "label": "Name",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "propName": "name"
+              },
+              {
+                "type": "text",
+                "name": "control_text_335422",
+                "fieldName": "control_text_335422",
+                "label": "State",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "propName": "state"
+              },
+              {
+                "type": "text",
+                "name": "control_text_675301",
+                "fieldName": "control_text_675301",
+                "label": "Next Events",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "propName": "nextEvents"
+              },
+              {
+                "type": "multiline_text",
+                "name": "control_multiline_text_783345",
+                "fieldName": "control_multiline_text_783345",
+                "label": "Description",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": false,
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "propName": "description"
+              }
+            ]
+          }
+        ],
+        "labelPosition": "left",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": []
+      },
+      {
+        "cleintKey": "hidden_section_d92c5890-fe6b-11eb-8b02-1947c31ab3cb",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_d92c5890-fe6b-11eb-8b02-1947c31ab3cb",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_d92c5890-fe6b-11eb-8b02-1947c31ab3cb_row_d92c5891-fe6b-11eb-8b02-1947c31ab3cb",
+            "controls": [
+              {
+                "type": "select",
+                "name": "control_db491e10-fe6b-11eb-8b02-1947c31ab3cb",
+                "fieldName": "control_db491e10-fe6b-11eb-8b02-1947c31ab3cb",
+                "label": "Layout",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "layout"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "layout": "collapse"
+  },
+  "source": "groups",
+  "storageType": "dashboard",
+  "title": "Groups"
+}

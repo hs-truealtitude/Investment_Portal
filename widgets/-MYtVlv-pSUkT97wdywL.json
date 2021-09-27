@@ -4,14 +4,16 @@
   "detailTemplate": "",
   "gsOptions": {
     "h": 10,
-    "w": 20,
+    "w": 18,
     "x": 3,
-    "y": 15
+    "y": 34
   },
+  "offSet": 0,
   "overflow": "",
+  "perPage": 2,
   "styles": "",
   "subtab": "-MMkiJKDLeU1Mz8JWLqA",
   "tab": "-MKUwx1XmgWmAYvLK_wz",
-  "template": "<ChartOnly chartId=\"-MYtVleFoasVimRv3uEY\" :rData=\"$getGrid('slingshotPitches')\" :widgetKey=\"widgetKey\" gridId=\"slingshotPitches\" />",
-  "title": "Jobs Generated Throughout Programme"
+  "template": "<ChartOnly chartId=\"-MYtVleFoasVimRv3uEY\" :rData=\"$getGrid('companyProfiles')\" :widgetKey=\"widgetKey\" gridId=\"companyProfiles\" />",
+  "title": "Jobs Generated During Investment Rounds"
 }

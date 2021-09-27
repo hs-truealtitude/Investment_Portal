@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/bugsAndIssues",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 220
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "bugsAndIssues"
+  },
+  "subtab": "-Mi1vp6UQxUUd8blL6TF",
+  "tab": "-MKjMm1cJNwP3sVETeGP",
+  "type": "DataGrid"
+}

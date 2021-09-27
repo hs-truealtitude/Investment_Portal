@@ -1,0 +1,44 @@
+h3{
+    font-family: 'Grenette pro', sans-serif !important;
+    color:black;
+}
+
+h2{
+    font-family: 'Grenette pro', sans-serif !important;
+    color: black;
+}
+h1{
+    font-family: 'Grenette pro', sans-serif !important;
+    color: black;
+}
+span{
+    font-family: 'Grenette pro', sans-serif !important;
+    color: black;
+}
+legend{
+    font-family: 'Grenette pro', sans-serif !important;
+    color: black;
+    font-size: 15px !important;
+}
+
+.filterItem__label{
+        font-family: 'Grenette pro', sans-serif !important;
+    color: black !important;
+}
+
+p{
+    font-family: 'Grenette pro', sans-serif !important;
+    color: black;
+}
+
+.thanksMessage span{
+    color: #ef4437;
+}
+
+.thanksMessage .hero-text-small{
+    color: black;
+}
+
+.thanksMessage .intro{
+    color: black;
+}

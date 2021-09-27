@@ -1,10 +1,10 @@
 {
   "accountType": "Mentor",
   "cookieConsent": "true",
-  "filterMentor": "-MbkthTty3MgxKysQzNr",
-  "filterPitch": "-MMzZ2krPwl50hP5t54m",
-  "filterSME": "-MZMta3pwumGA07UlWEe",
+  "filterCompany": "-MMzZ2krPwl50hP5t54m",
+  "filterCompanyUser": "-MZMta3pwumGA07UlWEe",
+  "filterMentor": "-MZSG7lgSWJYuL6D1E_3",
   "hideBack": "YES",
-  "profileID": "-MbkthTty3MgxKysQzNr",
-  "sessionDirection": "Mentor->SME"
+  "profileID": "-MZSG7lgSWJYuL6D1E_3",
+  "sessionDirection": "Mentor->CompanyUser"
 }

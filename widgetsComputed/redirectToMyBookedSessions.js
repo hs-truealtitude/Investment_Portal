@@ -8,8 +8,8 @@ return async function  () {
 
         }
 
-        //SME
-        if(accountType == 'SME'){
+        //CompanyUser
+        if(accountType == 'CompanyUser'){
             $setCurrentSubTab('-MW45ehLM2LrwcrP_xZ7','-MJq8S1suwASZ84EkCd5')
 
         }

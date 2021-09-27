@@ -1,0 +1,146 @@
+{
+  "displayColumn": "name",
+  "isReactive": true,
+  "meta": {
+    "layout": {
+      "displayName": "Layout",
+      "order": 1,
+      "type": "select"
+    },
+    "name": {
+      "Width": "399px",
+      "displayName": "Name",
+      "order": 0,
+      "type": "string"
+    }
+  },
+  "rowEditorFieldsForm": {
+    "sections": [
+      {
+        "name": "section_741016",
+        "label": "",
+        "clientKey": "section_741016",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_741016_row_304353",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "text",
+                "name": "control_f5ad4872-0713-11ec-9855-4585af1f7c85",
+                "fieldName": "control_f5ad4872-0713-11ec-9855-4585af1f7c85",
+                "label": "Name",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "name",
+                "gridId": "issueType"
+              },
+              {
+                "type": "select",
+                "name": "control_2e7945c0-1ac2-11ec-a8d1-69a815e4059c",
+                "fieldName": "control_2e7945c0-1ac2-11ec-a8d1-69a815e4059c",
+                "label": "Layout",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "layout"
+              }
+            ]
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": []
+      },
+      {
+        "cleintKey": "hidden_section_f5ad4870-0713-11ec-9855-4585af1f7c85",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_f5ad4870-0713-11ec-9855-4585af1f7c85",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_f5ad4870-0713-11ec-9855-4585af1f7c85_row_f5ad4871-0713-11ec-9855-4585af1f7c85",
+            "controls": []
+          }
+        ]
+      }
+    ],
+    "layout": "collapse",
+    "_uniqueId": 0.8951765358000041
+  },
+  "source": "issueType",
+  "storageType": "dashboard",
+  "title": "IssueType"
+}

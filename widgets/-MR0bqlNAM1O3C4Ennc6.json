@@ -1,7 +1,7 @@
 {
   "classes": "",
   "gsOptions": {
-    "h": 12,
+    "h": 9,
     "w": 24,
     "x": 0,
     "y": 0
@@ -13,6 +13,6 @@
   "styles": "",
   "subtab": "-MR0b-cKrUEPkudH1B0x",
   "tab": "-MJq8S1suwASZ84EkCd5",
-  "template": "<div class=\"center fade-in\" >\r\n\r\n    <h1 v-if=\"$getUser('accountType') == 'SME'\" style=\"font-family: 'Grenette pro', sans-serif;\"> Company Dashboard </h1>\r\n    <h1 v-if=\"$getUser('accountType') == 'Investor'\" style=\"font-family: 'Grenette pro', sans-serif;\"> Investor Dashboard </h1>\r\n    <h1 v-if=\"$getUser('accountType') == 'Mentor'\" style=\"font-family: 'Grenette pro', sans-serif;\"> Mentor Dashboard </h1>\r\n    <h1 v-if=\"$getUser('accountType') == 'PP'\" style=\"font-family: 'Grenette pro', sans-serif;\"> PP Dashboard </h1>\r\n\r\n\r\n</div>",
+  "template": "<div class=\"center fade-in\" >\r\n\r\n    <h1 v-if=\"$getUser('accountType') == 'CompanyUser'\" style=\"\"> Company Dashboard </h1>\r\n    <h1 v-if=\"$getUser('accountType') == 'Investor'\" style=\"\"> Investor Dashboard </h1>\r\n    <h1 v-if=\"$getUser('accountType') == 'Mentor'\" style=\"\"> Mentor Dashboard </h1>\r\n    <h1 v-if=\"$getUser('accountType') == 'ProgrammePartner'\" style=\"\"> ProgrammePartner Dashboard </h1>\r\n\r\n\r\n</div>",
   "title": ""
 }

@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 2,
+    "w": 24,
+    "x": 0,
+    "y": 1
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "",
+  "perPage": 2,
+  "styles": "",
+  "subTab": "-MfY3lVWXksahN-Ll4Xh",
+  "subtab": "-MfY3lVWXksahN-Ll4Xh",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<div class=\"row  fixed-bottom\" style=\"justify-content: center; height: 100%;  align-items: flex-end;\">\r\n  <button style=\"margin-right: 10px;\" type=\"button\" class=\"myButton\" @click='$setCurrentSubTab(\"-MW45ehLM2LrwcrP_xZ7\",\"-MJq8S1suwASZ84EkCd5\")'>\r\n    My Booked Sessions\r\n    <break></break>\r\n  </button>",
+  "title": ""
+}

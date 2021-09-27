@@ -1,6 +1,7 @@
 {
   "-MYFaDmz5uVSrssUPtvT": {
     "_id": 1,
+    "company": "-MYF_nPYwb_zCLYf4hiA",
     "createdDate": 1618407386219,
     "group": false,
     "lastEditDate": 1618407402576,
@@ -9,11 +10,11 @@
     "newsDescription": "TEST",
     "newsLink": "www.test.com",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "pitch": "-MYF_nPYwb_zCLYf4hiA",
     "rowKey": "-MYFaDmz5uVSrssUPtvT"
   },
   "-MYFoDlac1dSPxXm_3T4": {
     "_id": 4,
+    "company": "-MNZ-kKtSmZQuN7gqgFt",
     "createdDate": 1618411056147,
     "group": false,
     "lastEditDate": 1620296951976,
@@ -22,7 +23,102 @@
     "newsDescription": "LinkedIn Post",
     "newsLink": "www.linkedin.com/posts/findaa-tech_the-impact-of-artificial-intelligence-on-activity-6723894367381147648-YsP8",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "pitch": "-MNZ-kKtSmZQuN7gqgFt",
     "rowKey": "-MYFoDlac1dSPxXm_3T4"
+  },
+  "-M_yXXE0PGSK1abnScyM": {
+    "_id": 5,
+    "company": "-M_yW4gVQfcoqOw4rORX",
+    "createdDate": 1621325653198,
+    "group": false,
+    "lastEditDate": 1621325658120,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "TTT",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-M_yXXE0PGSK1abnScyM"
+  },
+  "-M_yY-O7gh6RwMUXI6iW": {
+    "_id": 6,
+    "company": "-M_yW4gVQfcoqOw4rORX",
+    "createdDate": 1621325776725,
+    "group": false,
+    "lastEditDate": 1621325776894,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-M_yY-O7gh6RwMUXI6iW"
+  },
+  "-M_yZ359-31b2rt9WFc5": {
+    "_id": 7,
+    "company": "-M_yZ-tgvhe1qvfTWgXN",
+    "createdDate": 1621326054043,
+    "group": false,
+    "lastEditDate": 1621326060495,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "TEST",
+    "newsDescription": "TEST",
+    "newsLink": "TEST",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-M_yZ359-31b2rt9WFc5"
+  },
+  "-M_y_2Ifxrdh8GZw9ax5": {
+    "_id": 8,
+    "company": "-M_y_-kuwqhGN2uyqF3N",
+    "createdDate": 1621326312963,
+    "group": false,
+    "lastEditDate": 1621326317873,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "TEST",
+    "newsDescription": "TEST",
+    "newsLink": "TEST",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-M_y_2Ifxrdh8GZw9ax5"
+  },
+  "-M_ycXX0ddbDZGVOsdgH": {
+    "_id": 9,
+    "company": "-M_yc2C3DMw3QObmm4cI",
+    "createdDate": 1621327225038,
+    "group": false,
+    "lastEditDate": 1621327249312,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "test 1",
+    "newsDescription": "test desc",
+    "newsLink": "http://some.link",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-M_ycXX0ddbDZGVOsdgH"
+  },
+  "-M_yckv7mN28mg2QOcuO": {
+    "_id": 10,
+    "company": "-M_yc2C3DMw3QObmm4cI",
+    "createdDate": 1621327284003,
+    "group": false,
+    "lastEditDate": 1621327300695,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "test 2",
+    "newsDescription": "test 2 desc",
+    "newsLink": "http://some.link",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-M_yckv7mN28mg2QOcuO"
+  },
+  "-M_z5Jtsfv4SmTtvW7T_": {
+    "_id": 11,
+    "company": "-M_z5H47PclPmoR4ek51",
+    "createdDate": 1621335035877,
+    "group": false,
+    "lastEditDate": 1621335036033,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-M_z5Jtsfv4SmTtvW7T_"
+  },
+  "-M_z5KnOk5aDfsme4CVT": {
+    "_id": 12,
+    "company": "-M_z5H47PclPmoR4ek51",
+    "createdDate": 1621335039558,
+    "group": false,
+    "lastEditDate": 1621335045136,
+    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "name": "TEST",
+    "newsDescription": "TEST",
+    "newsLink": "TEST",
+    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
+    "rowKey": "-M_z5KnOk5aDfsme4CVT"
   }
 }
