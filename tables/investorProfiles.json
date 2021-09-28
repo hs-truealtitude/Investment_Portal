@@ -1,0 +1,37 @@
+{
+  "-Mkg-f_7mFwHYvgGe9eg": {
+    "_created": true,
+    "_id": 1,
+    "accType": "-MKorfvV-56oTz-K9J3t",
+    "createdDate": 1632825949100,
+    "lastEditDate": 1632825949100,
+    "lastEditedBy": "uDC5lXfVx6R84N2mkvHNHHc8YPJ3",
+    "location": "-MJwtgUqBjMrFNntf6GH",
+    "owner": "uDC5lXfVx6R84N2mkvHNHHc8YPJ3",
+    "rowKey": "-Mkg-f_7mFwHYvgGe9eg",
+    "user": "uDC5lXfVx6R84N2mkvHNHHc8YPJ3"
+  },
+  "-MkgQFPSJvbJAlRYI6k1": {
+    "_created": true,
+    "_id": 2,
+    "aboutMe": "wefsfesfesfe",
+    "accType": "-MKorfvV-56oTz-K9J3t",
+    "adminRejected": "",
+    "createdDate": 1632832916103,
+    "dateOfBirth": 653180400000,
+    "isApproved": true,
+    "lastEditDate": 1632832935607,
+    "lastEditedBy": "zJJXwKYVQ4QQUTNza8Q26UwViNo1",
+    "linkedInProfileLink": "www.google.com",
+    "location": "-MJwtgUqBjMrFNntf6GH",
+    "name": "TEST",
+    "nextEvents": "Approve,Reject",
+    "owner": "zJJXwKYVQ4QQUTNza8Q26UwViNo1",
+    "phoneNumber": "932940423",
+    "rowKey": "-MkgQFPSJvbJAlRYI6k1",
+    "secondName": "Investor",
+    "state": "Accepted",
+    "submitPressed": true,
+    "user": "zJJXwKYVQ4QQUTNza8Q26UwViNo1"
+  }
+}
