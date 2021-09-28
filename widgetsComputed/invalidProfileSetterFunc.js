@@ -65,6 +65,7 @@ return function(){
         }
         else{
             console.log("Validated Profile")
+        
         }
 
     }
