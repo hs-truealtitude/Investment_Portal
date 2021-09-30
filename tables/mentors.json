@@ -75,17 +75,5 @@
     "state": "Accepted",
     "submitPressed": true,
     "user": "CypJ8ya1pBTgz6oi0nxwSJgdEjF2"
-  },
-  "-MkgAZlm5HW6Pv4dVnY4": {
-    "_created": true,
-    "_id": 7,
-    "accType": "-MeUR8pnRtHhdp26LXsL",
-    "createdDate": 1632828803377,
-    "lastEditDate": 1632828803377,
-    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
-    "location": "-MJwtgUqBjMrFNntf6GH",
-    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
-    "rowKey": "-MkgAZlm5HW6Pv4dVnY4",
-    "user": "kcqPKqzwdwaerATjysdgpyqIp0R2"
   }
 }

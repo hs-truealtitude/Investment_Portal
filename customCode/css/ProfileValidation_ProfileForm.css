@@ -216,3 +216,14 @@ font-size: 0.85rem;
                 background-color: #ef4437!important;
 
 }
+
+.v-select{
+    background-color: white;
+
+}
+
+.tVSelect__selectTrigger{
+    border: solid 1px;
+    border-radius: 5px;
+}
+

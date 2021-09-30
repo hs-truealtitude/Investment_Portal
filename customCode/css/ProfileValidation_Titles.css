@@ -1,0 +1,27 @@
+
+.hero-text-container{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 1000px;
+    height: 200px;
+}
+
+.hero-text-container h1{
+    color:black;
+    font-size: 5em;
+    letter-spacing: 0.05em;
+    text-align: center;
+    font-family: 'Grenette pro', sans-serif !important;   
+}
+
+.hero-text-container h2{
+    color:black;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    text-align: center;
+    font-family: 'Grenette pro', sans-serif !important;   
+}

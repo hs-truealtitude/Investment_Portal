@@ -156,3 +156,7 @@
 .vs__dropdown-menu .vs__dropdown-option--highlight{
     background: #ef4437;
 }
+
+.v-select{
+    background-color: white;
+}

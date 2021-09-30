@@ -414,7 +414,7 @@
                 "fieldName": "control_datepicker_561522",
                 "label": "Date of Birth",
                 "order": 3,
-                "defaultValue": "",
+                "defaultValue": "01/01/2003",
                 "value": "",
                 "className": "col-md-12",
                 "readonly": true,
@@ -2051,7 +2051,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.2884953347604311
+    "_uniqueId": 0.6587370035243851
   },
   "source": "mentors",
   "storageType": "dashboard",
