@@ -122,6 +122,11 @@ font-size: 0.85rem;
     color: #ef4437;
 }
 
+.dg-lookup-control{
+        background-color: #fffaf3 !important;
+
+}
+
 .rowItem .controlElement{
     font-family: 'Grenette pro', sans-serif !important;
     font-size: 0.85rem;
@@ -196,18 +201,29 @@ font-size: 0.85rem;
 }
 
 .tVSelectDropdown{
-    background-color: #fffaf3 !important;
+    background-color: white !important;
 }
 
 .tVSelectDropdown__search{
-    background-color: #fffaf3 !important;
+    background-color: white !important;
 }
 
 .tVSelectDropdown__itemsList a{
-        background-color: #fffaf3 !important;
+    background-color: white !important;
 }
 
 .tVSelectDropdown__itemsList a:hover{
                 background-color: #ef4437!important;
 
 }
+
+.v-select{
+    background-color: white;
+
+}
+
+.tVSelect__selectTrigger{
+    border: solid 1px;
+    border-radius: 5px;
+}
+

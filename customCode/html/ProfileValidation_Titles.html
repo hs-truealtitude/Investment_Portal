@@ -1,0 +1,18 @@
+  <div v-if="currentSubTab === '-MVGSFAeqMzmj9TyxT6b'" class="hero-text-container">
+    <div class="thankstext" v-if="($getUser('profileID') != null && $getUser('accountType') == 'Mentor') || ($getUser('profileID') != null && $getUser('accountType') == 'CompanyUser') || ($getUser('profileID') != null && $getUser('accountType') == 'ProgrammePartner') || ($getUser('profileID') != null && $getUser('accountType') == 'Investor')" data-w-id="TextBlock 10" style="" >
+      <div v-if="$getUser('profileID') != null && currentTab == '-MVGOMA1-ifNurWKHxUf'" class="row " style="">
+        <button style=" font-size: 15px;" class="myButton" @click='deleteOldProfile(); setAccountTypeNone(); $setCurrentSubTab("-MVGSFAeqMzmj9TyxT6b","-MVGOMA1-ifNurWKHxUf")'>
+        <i class="fas fa-arrow-circle-left"></i>
+        <break></break>
+        Delete profile & start again
+        </button>
+      </div>
+      <h1 class="AlreadyRegistered hero-text-small">Thank you for creating your profile.</h1>
+      <h2 style="thanks font-size: 0.4em; letter-spacing: 0em;">You'll be able to access your dashboard once your profile has been approved.</h2>
+    </div>
+
+    <div class="hero-text" v-if="$getUser('accountType') == 'NONE' || $getUser('accountType') != 'CompanyUser' || $getUser('accountType') != 'Investor' || $getUser('accountType') != 'ProgrammePartner' || $getUser('accountType') == 'Mentor' " data-w-id="TextBlock 10" style="" >
+      <h1 class="">Investment Portal</h1>
+      <h2 class="" style="color: #ef4437;">Please choose your account type below</h2>
+    </div>
+  </div>
