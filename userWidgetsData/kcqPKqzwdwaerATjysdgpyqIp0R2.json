@@ -1,15 +1,18 @@
 {
   "accountType": "ProgrammePartner",
   "activeCohort": "-MkN02dFvThmtXb5ay1Y",
-  "activeMyCohort": "-MkMg8glSFZJ69s8TjDY",
+  "activeMyCohort": "-MkN02dFvThmtXb5ay1Y",
   "activeMyProgramme": "-MkMhkfQMxOd_4eOdSEg",
+  "activeProgramme": "-MkMhkfQMxOd_4eOdSEg",
+  "activeUserFirstName": "Dev",
+  "activeUserSecondName": "True Altitude",
   "commercialContracts_lastViews": "",
   "companyProfiles_lastViews": "filteredCardList",
   "companyUserProfiles_lastViews": "",
   "cookieConsent": "true",
   "hideBack": "YES",
   "investorProfiles_lastViews": "approvedInvestors",
-  "mentors_lastViews": "mentorApproval",
+  "mentors_lastViews": "approvedMentors",
   "profileID": "-MkCrUeakAp1NI5Pf-Il",
   "programmePartnerProfiles_lastViews": ""
 }

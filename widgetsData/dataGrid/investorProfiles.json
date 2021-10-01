@@ -109,6 +109,11 @@
       "order": "11",
       "type": "profile_image"
     },
+    "saveButton": {
+      "displayName": "saveButton",
+      "order": 25,
+      "type": "custom"
+    },
     "secondName": {
       "displayName": "Second Name",
       "invisible": false,
@@ -562,13 +567,56 @@
                 "vif": "",
                 "customCode": "<center>\r\n<button class=\"btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n      setActiveUserName(rowData.name, rowData.secondName)\r\n      hideBack()\r\n      redirectToApproval()\r\n  \t}\r\n\t}\"        \r\n> \r\nSubmit\r\n</button>\r\n</center>",
                 "invisible": true,
-                "invisibleCondition": "rowData.owner != fbUser.uid || rowData.submitPressed != true",
+                "invisibleCondition": "rowData.isApproved == true || rowData.owner != fbUser.uid || rowData.submitPressed != true",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "submit",
+                "gridId": "investorProfiles"
+              },
+              {
+                "type": "custom",
+                "name": "control_10967c60-2046-11ec-be38-6d48a01c71d3",
+                "fieldName": "control_10967c60-2046-11ec-be38-6d48a01c71d3",
+                "label": "saveButton",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<center>\r\n<button class=\"btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n      setActiveUserName(rowData.name, rowData.secondName)\r\n      $setCurrentSubTab('-MPe0oZfJimFYsv9gy53','-MJq8S1suwASZ84EkCd5')\r\n\r\n  \t}\r\n\t}\"        \r\n> \r\nSave\r\n</button>\r\n</center>",
+                "invisible": true,
+                "invisibleCondition": "rowData.isApproved != true",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "saveButton",
                 "gridId": "investorProfiles"
               }
             ]
@@ -1293,7 +1341,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.3869730646057232
+    "_uniqueId": 0.1768873544491787
   },
   "source": "investorProfiles",
   "storageType": "dashboard",
@@ -1367,6 +1415,9 @@
         "profileImage": {
           "invisible": false,
           "order": "11"
+        },
+        "saveButton": {
+          "order": 25
         },
         "secondName": {
           "invisible": false,
@@ -1471,6 +1522,9 @@
           "invisible": false,
           "order": 2
         },
+        "saveButton": {
+          "order": 25
+        },
         "secondName": {
           "invisible": false,
           "order": 4
@@ -1571,6 +1625,9 @@
           "invisible": false,
           "order": "11"
         },
+        "saveButton": {
+          "order": 25
+        },
         "secondName": {
           "invisible": false,
           "order": "2"
@@ -1669,6 +1726,9 @@
         "profileImage": {
           "invisible": false,
           "order": "11"
+        },
+        "saveButton": {
+          "order": 25
         },
         "secondName": {
           "invisible": false,

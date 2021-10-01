@@ -19,7 +19,7 @@
     "adminRejected": {
       "displayName": "adminRejected",
       "invisible": false,
-      "order": 1,
+      "order": 5,
       "type": "checkbox"
     },
     "approvalMessage1": {
@@ -38,7 +38,7 @@
     "createdDate": {
       "displayName": "Created Date",
       "invisible": false,
-      "order": 2,
+      "order": 3,
       "type": "date"
     },
     "dateOfBirth": {
@@ -95,7 +95,7 @@
       "displayName": "Location",
       "invisible": false,
       "lookUpTable": "country",
-      "order": 6,
+      "order": 7,
       "type": "lookup"
     },
     "mainSectors": {
@@ -131,7 +131,7 @@
     "name": {
       "displayName": "name",
       "invisible": false,
-      "order": 4,
+      "order": 1,
       "type": "string"
     },
     "next": {
@@ -155,7 +155,7 @@
     "owner": {
       "displayName": "Owner",
       "invisible": false,
-      "order": 7,
+      "order": 4,
       "type": "user"
     },
     "phoneNumber": {
@@ -167,13 +167,19 @@
     "profileImage": {
       "displayName": "profileImage",
       "invisible": false,
-      "order": 3,
+      "order": 6,
       "type": "profile_image"
+    },
+    "saveButton": {
+      "displayName": "saveButton",
+      "invisible": true,
+      "order": 40,
+      "type": "custom"
     },
     "secondName": {
       "displayName": "secondName",
       "invisible": false,
-      "order": 5,
+      "order": 2,
       "type": "string"
     },
     "sectors": {
@@ -211,8 +217,15 @@
     },
     "submitPressed": {
       "displayName": "submitPressed",
-      "order": 37,
+      "invisible": true,
+      "order": 36,
       "type": "checkbox"
+    },
+    "submitTitle": {
+      "displayName": "submitTitle",
+      "invisible": true,
+      "order": 39,
+      "type": "custom"
     },
     "timeAvailableNotes": {
       "displayName": "timeAvailableNotes",
@@ -236,6 +249,18 @@
       "displayName": "userRejected",
       "invisible": true,
       "order": 23,
+      "type": "custom"
+    },
+    "wizard1": {
+      "displayName": "wizard1",
+      "invisible": true,
+      "order": 37,
+      "type": "custom"
+    },
+    "wizard2": {
+      "displayName": "wizard2",
+      "invisible": true,
+      "order": 38,
       "type": "custom"
     },
     "workPackages": {
@@ -524,7 +549,7 @@
                 "fieldName": "control_lookup_806487",
                 "label": "Location",
                 "order": 0,
-                "defaultValue": "",
+                "defaultValue": "-MJwtgUqBjMrFNntf6GH",
                 "value": "",
                 "className": "col-md-12",
                 "readonly": true,
@@ -560,6 +585,49 @@
                 "lookupOpenInModalDisabled": false,
                 "propName": "location",
                 "ableToAddLookUpVal": true,
+                "gridId": "mentors"
+              },
+              {
+                "type": "custom",
+                "name": "control_66215f80-1fa9-11ec-81dc-d1f28c8e0135",
+                "fieldName": "control_66215f80-1fa9-11ec-81dc-d1f28c8e0135",
+                "label": "wizard1",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<button class=\"float-right btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n    \t$dgFormGoToTab('Mentor Details')\r\n  \t}\r\n\t}\"        \r\n        > \r\nNext\r\n</button>",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "wizard1",
                 "gridId": "mentors"
               }
             ]
@@ -1399,6 +1467,49 @@
                 "invisible": null,
                 "invisibleLabel": false,
                 "readonlyCondition": "rowData.owner != fbUser.uid"
+              },
+              {
+                "type": "custom",
+                "name": "control_7f497f60-1fa9-11ec-81dc-d1f28c8e0135",
+                "fieldName": "control_7f497f60-1fa9-11ec-81dc-d1f28c8e0135",
+                "label": "wizard2",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<button class=\"float-left btn btn-primary\"\r\n@click=\"$dgFormGoToTab('Company Info')\"> \r\nBack\r\n</button>\r\n\r\n<button class=\"float-right btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n    \t$dgFormGoToTab('Milestones')\r\n  \t}\r\n\t}\"        \r\n        > \r\nNext\r\n</button>",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "wizard2",
+                "gridId": "mentors"
               }
             ]
           }
@@ -1412,7 +1523,7 @@
       },
       {
         "name": "section_17335",
-        "label": "Work Packages",
+        "label": "Work Packages & Profile Submission",
         "clientKey": "section_17335",
         "order": 2,
         "rows": [
@@ -1422,11 +1533,54 @@
             "order": 0,
             "controls": [
               {
+                "type": "custom",
+                "name": "control_15adaad0-fe94-11eb-82de-91b84c7099a7",
+                "fieldName": "control_15adaad0-fe94-11eb-82de-91b84c7099a7",
+                "label": "note",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<h3> Work packages are optional and can be added at a later date. Adding work packages can be done by editing your profile. </h3>",
+                "invisible": true,
+                "invisibleCondition": "rowData.isApproved == true",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "note",
+                "gridId": "mentors"
+              },
+              {
                 "type": "datagrid",
                 "name": "control_4c2e9f20-fe98-11eb-82de-91b84c7099a7",
                 "fieldName": "control_4c2e9f20-fe98-11eb-82de-91b84c7099a7",
                 "label": "Work Packages",
-                "order": 0,
+                "order": 1,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -1467,10 +1621,10 @@
               },
               {
                 "type": "custom",
-                "name": "control_15adaad0-fe94-11eb-82de-91b84c7099a7",
-                "fieldName": "control_15adaad0-fe94-11eb-82de-91b84c7099a7",
-                "label": "note",
-                "order": 1,
+                "name": "control_83e38470-1faa-11ec-81dc-d1f28c8e0135",
+                "fieldName": "control_83e38470-1faa-11ec-81dc-d1f28c8e0135",
+                "label": "submitTitle",
+                "order": 2,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -1495,9 +1649,9 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<h3> Work packages are optional and can be added at a later date. Adding work packages can be done by editing your profile. </h3>",
-                "invisible": true,
-                "invisibleCondition": "rowData.isApproved == true",
+                "customCode": "<h3>Submit Profile</h3>",
+                "invisible": false,
+                "invisibleCondition": "",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": true,
                 "enableCustomValidation": false,
@@ -1505,7 +1659,7 @@
                 "customValidationErrorMessage": "",
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
-                "propName": "note",
+                "propName": "submitTitle",
                 "gridId": "mentors"
               },
               {
@@ -1513,7 +1667,7 @@
                 "name": "control_a060f680-1b9c-11ec-9f55-47977d4fbbfc",
                 "fieldName": "control_a060f680-1b9c-11ec-9f55-47977d4fbbfc",
                 "label": "I have entered correct & valid details",
-                "order": 2,
+                "order": 3,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -1557,7 +1711,7 @@
                 "name": "control_custom_136703",
                 "fieldName": "control_custom_136703",
                 "label": "",
-                "order": 3,
+                "order": 4,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
@@ -1587,13 +1741,56 @@
                 "vif": "",
                 "customCode": "<center>\r\n<button class=\"btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n      setActiveUserName(rowData.name, rowData.secondName)\r\n      hideBack()\r\n      redirectToApproval()\r\n  \t}\r\n\t}\"        \r\n> \r\nSubmit\r\n</button>\r\n</center>",
                 "invisible": true,
-                "invisibleCondition": "rowData.owner != fbUser.uid || rowData.submitPressed != true",
+                "invisibleCondition": "rowData.isApproved == true || rowData.owner != fbUser.uid || rowData.submitPressed != true",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "submit",
+                "gridId": "mentors"
+              },
+              {
+                "type": "custom",
+                "name": "control_61efae60-2046-11ec-be38-6d48a01c71d3",
+                "fieldName": "control_61efae60-2046-11ec-be38-6d48a01c71d3",
+                "label": "saveButton",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<center>\r\n<button class=\"btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n      setActiveUserName(rowData.name, rowData.secondName)\r\n      $setCurrentSubTab('-MPe0oZfJimFYsv9gy53','-MJq8S1suwASZ84EkCd5')\r\n\r\n  \t}\r\n\t}\"        \r\n> \r\nSave\r\n</button>\r\n</center>",
+                "invisible": true,
+                "invisibleCondition": "rowData.isApproved != true",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "saveButton",
                 "gridId": "mentors"
               }
             ]
@@ -1859,7 +2056,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.28900709014998016
+    "_uniqueId": 0.2884953347604311
   },
   "source": "mentors",
   "storageType": "dashboard",
@@ -1870,11 +2067,11 @@
       "meta": {
         "aboutMe": {
           "invisible": true,
-          "order": 18
+          "order": 21
         },
         "accType": {
           "invisible": true,
-          "order": 20
+          "order": 23
         },
         "adminRejected": {
           "invisible": false,
@@ -1882,11 +2079,11 @@
         },
         "approvalMessage1": {
           "invisible": true,
-          "order": 13
+          "order": 16
         },
         "companyStage": {
           "invisible": true,
-          "order": 15
+          "order": 18
         },
         "createdDate": {
           "invisible": false,
@@ -1894,14 +2091,15 @@
         },
         "dateOfBirth": {
           "invisible": true,
-          "order": 10
+          "order": 13
         },
         "daysAvailable": {
-          "order": 35
+          "invisible": false,
+          "order": 10
         },
         "interests": {
           "invisible": true,
-          "order": 22
+          "order": 25
         },
         "isApproved": {
           "invisible": false,
@@ -1909,18 +2107,19 @@
         },
         "lastEditDate": {
           "invisible": true,
-          "order": 30
+          "order": 33
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": 25
+          "order": 28
         },
         "layout": {
-          "order": 32
+          "invisible": false,
+          "order": 9
         },
         "linkedInProfileLink": {
           "invisible": true,
-          "order": 11
+          "order": 14
         },
         "location": {
           "invisible": false,
@@ -1928,84 +2127,103 @@
         },
         "mainSectors": {
           "invisible": true,
-          "order": 21
+          "order": 24
         },
         "mainSkills": {
           "invisible": true,
-          "order": 28
+          "order": 31
         },
         "mentorApprove": {
           "invisible": true,
-          "order": 29
+          "order": 32
         },
         "name": {
           "invisible": false,
-          "order": 5
+          "order": 2
         },
         "next": {
           "invisible": false,
-          "order": 4
+          "order": 5
         },
         "nextEvents": {
           "invisible": true,
-          "order": 27
+          "order": 30
         },
         "note": {
-          "order": 33
+          "invisible": true,
+          "order": 34
         },
         "owner": {
           "invisible": false,
-          "order": 3
+          "order": 4
         },
         "phoneNumber": {
           "invisible": true,
-          "order": 12
+          "order": 15
         },
         "profileImage": {
           "invisible": false,
           "order": 6
         },
+        "saveButton": {
+          "invisible": true,
+          "order": 39
+        },
         "secondName": {
           "invisible": false,
-          "order": 2
+          "order": 3
         },
         "sectors": {
           "invisible": true,
-          "order": 9
+          "order": 12
         },
         "skills": {
           "invisible": true,
-          "order": 23
+          "order": 26
         },
         "state": {
           "invisible": true,
-          "order": 26
+          "order": 29
         },
         "status": {
           "invisible": true,
-          "order": 17
+          "order": 20
         },
         "submit": {
           "invisible": true,
-          "order": 24
+          "order": 27
         },
         "submitPressed": {
-          "order": 37
+          "invisible": true,
+          "order": 35
+        },
+        "submitTitle": {
+          "invisible": true,
+          "order": 38
         },
         "timeAvailableNotes": {
-          "order": 36
+          "invisible": false,
+          "order": 11
         },
         "user": {
           "invisible": true,
-          "order": 19
+          "order": 22
         },
         "userApproval": {
           "invisible": true,
-          "order": 14
+          "order": 17
         },
         "userRejected": {
           "invisible": true,
-          "order": 16
+          "order": 19
+        },
+        "wizard1": {
+          "invisible": true,
+          "order": 36
+        },
+        "wizard2": {
+          "invisible": true,
+          "order": 37
         },
         "workPackages": {
           "order": 34
@@ -2119,6 +2337,9 @@
           "invisible": false,
           "order": 2
         },
+        "saveButton": {
+          "order": 41
+        },
         "secondName": {
           "invisible": false,
           "order": 3
@@ -2147,6 +2368,9 @@
           "invisible": true,
           "order": 35
         },
+        "submitTitle": {
+          "order": 40
+        },
         "timeAvailableNotes": {
           "invisible": false,
           "order": 8
@@ -2162,6 +2386,12 @@
         "userRejected": {
           "invisible": true,
           "order": 18
+        },
+        "wizard1": {
+          "order": 38
+        },
+        "wizard2": {
+          "order": 39
         },
         "workPackages": {
           "order": 34
@@ -2257,6 +2487,9 @@
         "profileImage": {
           "order": "16"
         },
+        "saveButton": {
+          "order": 41
+        },
         "secondName": {
           "order": "17"
         },
@@ -2282,6 +2515,9 @@
         "submitPressed": {
           "order": 37
         },
+        "submitTitle": {
+          "order": 40
+        },
         "timeAvailableNotes": {
           "order": 36
         },
@@ -2293,6 +2529,12 @@
         },
         "userRejected": {
           "order": "20"
+        },
+        "wizard1": {
+          "order": 38
+        },
+        "wizard2": {
+          "order": 39
         },
         "workPackages": {
           "order": 34
@@ -2409,6 +2651,9 @@
           "invisible": false,
           "order": 3
         },
+        "saveButton": {
+          "order": 41
+        },
         "secondName": {
           "invisible": false,
           "order": 5
@@ -2436,6 +2681,9 @@
         "submitPressed": {
           "order": 37
         },
+        "submitTitle": {
+          "order": 40
+        },
         "timeAvailableNotes": {
           "order": 36
         },
@@ -2450,6 +2698,12 @@
         "userRejected": {
           "invisible": true,
           "order": 21
+        },
+        "wizard1": {
+          "order": 38
+        },
+        "wizard2": {
+          "order": 39
         },
         "workPackages": {
           "order": 34

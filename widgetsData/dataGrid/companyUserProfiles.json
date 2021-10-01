@@ -102,6 +102,11 @@
       "order": 0,
       "type": "profile_image"
     },
+    "saveButton": {
+      "displayName": "saveButton",
+      "order": 23,
+      "type": "custom"
+    },
     "secondName": {
       "displayName": "Second Name",
       "invisible": false,
@@ -513,13 +518,56 @@
                 "vif": "",
                 "customCode": "<center>\r\n<button class=\"btn btn-primary\"\r\n\r\n\r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n      hideBack()\r\n      setActiveUserName(rowData.name, rowData.secondName)\r\n      redirectToApproval()\r\n  \t}\r\n\t}\"\r\n>\r\nSubmit\r\n</button>\r\n</center>\r\n",
                 "invisible": true,
-                "invisibleCondition": "rowData.owner != fbUser.uid  || rowData.submitPressed != true",
+                "invisibleCondition": "rowData.isApproved == true || rowData.owner != fbUser.uid  || rowData.submitPressed != true",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "propName": "submit",
+                "gridId": "companyUserProfiles"
+              },
+              {
+                "type": "custom",
+                "name": "control_a69e6240-2046-11ec-be38-6d48a01c71d3",
+                "fieldName": "control_a69e6240-2046-11ec-be38-6d48a01c71d3",
+                "label": "saveButton",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<center>\r\n<button class=\"btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n      setActiveUserName(rowData.name, rowData.secondName)\r\n      $setCurrentSubTab('-MPe0oZfJimFYsv9gy53','-MJq8S1suwASZ84EkCd5')\r\n\r\n  \t}\r\n\t}\"        \r\n> \r\nSave\r\n</button>\r\n</center>",
+                "invisible": true,
+                "invisibleCondition": "rowData.isApproved != true",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "saveButton",
                 "gridId": "companyUserProfiles"
               }
             ]
@@ -1186,7 +1234,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.03088931772240522
+    "_uniqueId": 0.39219196328544115
   },
   "source": "companyUserProfiles",
   "storageType": "dashboard",
@@ -1251,6 +1299,9 @@
         },
         "profileImage": {
           "order": "9"
+        },
+        "saveButton": {
+          "order": 23
         },
         "secondName": {
           "invisible": false,
@@ -1342,6 +1393,9 @@
         },
         "profileImage": {
           "order": "9"
+        },
+        "saveButton": {
+          "order": 23
         },
         "secondName": {
           "invisible": false,
