@@ -99,7 +99,7 @@
                 "customCode": "\r\n<div class=\"cohortData\" style=\"border: 2px solid black;\">\r\n\r\n  <center>\r\n    <h1 style=\"margin-top: 15px; text-decoration: underline;  text-decoration-color: #ef4437;\" v-if=\"$getUser('selectedMentorName') && $getUser('selectedMentorSecondName')\">{{$getUser('selectedMentorName')}} {{$getUser('selectedMentorSecondName')}}</h1>\r\n\r\n  </center>\r\n\r\n  <div class=\"row\" style=\"margin: 60px; color:black; \">\r\n\r\n    <div class=\"col\">\r\n      <center>\r\n        <i class=\"fas fa-user-clock fa-2x\"></i>\r\n        <h2>Sessions Booked</h2>\r\n        <h1>{{selectedMentorCountTotalSessions()}}</h1>\r\n      </center>\r\n    </div>\r\n\r\n    <div class=\"col\">\r\n      <center>\r\n        <i class=\"fas fa-hourglass-end fa-2x\"></i>\r\n        <h2>Total Session Hours</h2>\r\n        <h1>{{selectedMentorCountTotalSessionsHours()}} hours</h1>\r\n      </center>\r\n    </div>\r\n\r\n    <div class=\"col\">\r\n      <center>\r\n        <i class=\"fas fa-hand-holding fa-2x\"></i>\r\n        <h2>Initial Company Engagements</h2>\r\n        <h1>{{selectedMentorCountCompanyEngagements()}}</h1>\r\n      </center>\r\n    </div>\r\n\r\n  </div>\r\n\r\n</div>\r\n",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": true,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
