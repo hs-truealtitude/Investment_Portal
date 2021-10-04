@@ -115,7 +115,8 @@ button{
 }
 body {
     background: url("https://i.postimg.cc/rscCL64G/TA-Illustration-Full-Resolution.jpg") no-repeat 0 0 fixed;
-    background-size: cover;
+
+        background-size: cover;
     background-repeat:   no-repeat;
         -webkit-background-size: cover;
        -moz-background-size: cover;

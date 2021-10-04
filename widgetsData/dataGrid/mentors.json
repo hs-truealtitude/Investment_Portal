@@ -19,7 +19,7 @@
     "adminRejected": {
       "displayName": "adminRejected",
       "invisible": false,
-      "order": 5,
+      "order": 1,
       "type": "checkbox"
     },
     "approvalMessage1": {
@@ -38,7 +38,7 @@
     "createdDate": {
       "displayName": "Created Date",
       "invisible": false,
-      "order": 3,
+      "order": 2,
       "type": "date"
     },
     "dateOfBirth": {
@@ -95,7 +95,7 @@
       "displayName": "Location",
       "invisible": false,
       "lookUpTable": "country",
-      "order": 7,
+      "order": 6,
       "type": "lookup"
     },
     "mainSectors": {
@@ -131,7 +131,7 @@
     "name": {
       "displayName": "name",
       "invisible": false,
-      "order": 1,
+      "order": 4,
       "type": "string"
     },
     "next": {
@@ -155,7 +155,7 @@
     "owner": {
       "displayName": "Owner",
       "invisible": false,
-      "order": 4,
+      "order": 7,
       "type": "user"
     },
     "phoneNumber": {
@@ -167,19 +167,18 @@
     "profileImage": {
       "displayName": "profileImage",
       "invisible": false,
-      "order": 6,
+      "order": 3,
       "type": "profile_image"
     },
     "saveButton": {
       "displayName": "saveButton",
-      "invisible": true,
-      "order": 40,
+      "order": 41,
       "type": "custom"
     },
     "secondName": {
       "displayName": "secondName",
       "invisible": false,
-      "order": 2,
+      "order": 5,
       "type": "string"
     },
     "sectors": {
@@ -217,14 +216,12 @@
     },
     "submitPressed": {
       "displayName": "submitPressed",
-      "invisible": true,
-      "order": 36,
+      "order": 37,
       "type": "checkbox"
     },
     "submitTitle": {
       "displayName": "submitTitle",
-      "invisible": true,
-      "order": 39,
+      "order": 40,
       "type": "custom"
     },
     "timeAvailableNotes": {
@@ -253,14 +250,12 @@
     },
     "wizard1": {
       "displayName": "wizard1",
-      "invisible": true,
-      "order": 37,
+      "order": 38,
       "type": "custom"
     },
     "wizard2": {
       "displayName": "wizard2",
-      "invisible": true,
-      "order": 38,
+      "order": 39,
       "type": "custom"
     },
     "workPackages": {
@@ -419,7 +414,7 @@
                 "fieldName": "control_datepicker_561522",
                 "label": "Date of Birth",
                 "order": 3,
-                "defaultValue": "",
+                "defaultValue": "01/01/2003",
                 "value": "",
                 "className": "col-md-12",
                 "readonly": true,
@@ -498,7 +493,8 @@
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
                 "propName": "linkedInProfileLink",
-                "gridId": "mentors"
+                "gridId": "mentors",
+                "description": "Enter a valid LinkedIn link like the following: https://www.linkedin.com/company/true-altitude"
               },
               {
                 "type": "phone",
@@ -2056,7 +2052,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.2884953347604311
+    "_uniqueId": 0.6587370035243851
   },
   "source": "mentors",
   "storageType": "dashboard",
@@ -2067,11 +2063,11 @@
       "meta": {
         "aboutMe": {
           "invisible": true,
-          "order": 21
+          "order": 18
         },
         "accType": {
           "invisible": true,
-          "order": 23
+          "order": 20
         },
         "adminRejected": {
           "invisible": false,
@@ -2079,11 +2075,11 @@
         },
         "approvalMessage1": {
           "invisible": true,
-          "order": 16
+          "order": 13
         },
         "companyStage": {
           "invisible": true,
-          "order": 18
+          "order": 15
         },
         "createdDate": {
           "invisible": false,
@@ -2091,15 +2087,14 @@
         },
         "dateOfBirth": {
           "invisible": true,
-          "order": 13
+          "order": 10
         },
         "daysAvailable": {
-          "invisible": false,
-          "order": 10
+          "order": 35
         },
         "interests": {
           "invisible": true,
-          "order": 25
+          "order": 22
         },
         "isApproved": {
           "invisible": false,
@@ -2107,19 +2102,18 @@
         },
         "lastEditDate": {
           "invisible": true,
-          "order": 33
+          "order": 30
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": 28
+          "order": 25
         },
         "layout": {
-          "invisible": false,
-          "order": 9
+          "order": 32
         },
         "linkedInProfileLink": {
           "invisible": true,
-          "order": 14
+          "order": 11
         },
         "location": {
           "invisible": false,
@@ -2127,103 +2121,96 @@
         },
         "mainSectors": {
           "invisible": true,
-          "order": 24
+          "order": 21
         },
         "mainSkills": {
           "invisible": true,
-          "order": 31
+          "order": 28
         },
         "mentorApprove": {
           "invisible": true,
-          "order": 32
+          "order": 29
         },
         "name": {
           "invisible": false,
-          "order": 2
+          "order": 5
         },
         "next": {
           "invisible": false,
-          "order": 5
+          "order": 4
         },
         "nextEvents": {
           "invisible": true,
-          "order": 30
+          "order": 27
         },
         "note": {
-          "invisible": true,
-          "order": 34
+          "order": 33
         },
         "owner": {
           "invisible": false,
-          "order": 4
+          "order": 3
         },
         "phoneNumber": {
           "invisible": true,
-          "order": 15
+          "order": 12
         },
         "profileImage": {
           "invisible": false,
           "order": 6
         },
         "saveButton": {
-          "invisible": true,
-          "order": 39
+          "order": 41
         },
         "secondName": {
           "invisible": false,
-          "order": 3
+          "order": 2
         },
         "sectors": {
           "invisible": true,
-          "order": 12
+          "order": 9
         },
         "skills": {
           "invisible": true,
-          "order": 26
+          "order": 23
         },
         "state": {
           "invisible": true,
-          "order": 29
+          "order": 26
         },
         "status": {
           "invisible": true,
-          "order": 20
+          "order": 17
         },
         "submit": {
           "invisible": true,
-          "order": 27
+          "order": 24
         },
         "submitPressed": {
-          "invisible": true,
-          "order": 35
+          "order": 37
         },
         "submitTitle": {
-          "invisible": true,
-          "order": 38
+          "order": 40
         },
         "timeAvailableNotes": {
-          "invisible": false,
-          "order": 11
+          "order": 36
         },
         "user": {
           "invisible": true,
-          "order": 22
+          "order": 19
         },
         "userApproval": {
           "invisible": true,
-          "order": 17
+          "order": 14
         },
         "userRejected": {
           "invisible": true,
-          "order": 19
+          "order": 16
         },
         "wizard1": {
-          "invisible": true,
-          "order": 36
+          "order": 38
         },
         "wizard2": {
-          "invisible": true,
-          "order": 37
+          "order": 39
         },
         "workPackages": {
           "order": 34
