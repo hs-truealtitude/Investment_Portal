@@ -493,7 +493,8 @@
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
                 "propName": "linkedInProfileLink",
-                "gridId": "mentors"
+                "gridId": "mentors",
+                "description": "Enter a valid LinkedIn link like the following: https://www.linkedin.com/company/true-altitude"
               },
               {
                 "type": "phone",

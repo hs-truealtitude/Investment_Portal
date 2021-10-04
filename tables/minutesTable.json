@@ -466,25 +466,5 @@
     "name": "Gophr",
     "owner": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
     "rowKey": "-MkHp3GjBduW3klaw_oz"
-  },
-  "-MkqRVklb47HZSi0gA4g": {
-    "_id": 48,
-    "createdDate": 1633001015962,
-    "group": "-McJIcqzO6NQgxEStbY6,-MkqRVgl0XblxHLyEXHE",
-    "lastEditDate": 1633001015962,
-    "lastEditedBy": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
-    "name": "TEST",
-    "owner": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
-    "rowKey": "-MkqRVklb47HZSi0gA4g"
-  },
-  "-MkvLBXCY8r2CHYfJcLY": {
-    "_id": 49,
-    "createdDate": 1633083246619,
-    "group": "-McJIcqzO6NQgxEStbY6,-MkvLBSxbh6jp1Vl08bL",
-    "lastEditDate": 1633083246619,
-    "lastEditedBy": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
-    "name": "DEV COMPANY TEST",
-    "owner": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
-    "rowKey": "-MkvLBXCY8r2CHYfJcLY"
   }
 }

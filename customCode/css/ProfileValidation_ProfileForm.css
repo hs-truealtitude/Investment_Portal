@@ -23,6 +23,22 @@ font-weight: bold !important;
     font-size: 15px;
 }
 
+.data-grid__wrapper{
+    display: none !important;
+}
+
+.data-grid__addRowTrigger{
+    display: none !important;
+}
+
+.data-grid__table-wrapper input{
+    display: none;
+}
+
+.btn i:not(:last-child), .btn svg:not(:last-child) {
+    color: black !important;
+}
+
 .dataGridEditRow textarea{
     border: 1px solid black !important;
             font-family: 'Grenette pro', sans-serif !important; 
