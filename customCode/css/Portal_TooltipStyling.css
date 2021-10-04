@@ -86,3 +86,28 @@
   visibility: visible;
   margin-top: 20px;
 }
+
+
+/* Tooltip text */
+.h3 i .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 400;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+      right: 0px;
+
+}
+
+.h3 i:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 20px;
+}
