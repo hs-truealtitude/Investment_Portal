@@ -9,23 +9,12 @@
 }
 
 .navCards{
-          margin-top: -250px !important;
-
+    margin-top: -250px !important;
 }
 
 
 @media screen and (max-width: 900px) {
-      .navCards {
-      margin-top: -300px !important;
-      }
-         .Ncard{
-       width: 400px;
-       height: 350px;
-   }
-.welcome h1 {
-    margin-top: -70px;
-    margin-bottom: 30px;
-}
+
 }
 
 .navCards .Ncard {
@@ -127,51 +116,22 @@
 }
 
 @media screen and (max-width: 1140px) and (min-width: 1046px) {
-   .Ncard{
-       width: 400px;
-       height: 350px ;
-   }
-   .navCards {
-      margin-top: -190px;
-   }
+
 }
 
 @media screen and (max-width: 1140px) and (min-width: 901px) {
-   .Ncard{
-       width: 400px;
-       height: 350px ;
-   }
-   .navCards {
-      margin-top: -190px;
-   }
+
 }
 
 @media screen and (max-width: 1370px) {
-   .Ncard{
-       width: 200px;
-   }
-      .navCards {
-      margin-top: -190px;
-   }
+
 }
 
 @media screen and (max-width: 1467px) {
-   .Ncard{
-       width: 250px !important;
-   }
 
-   .Ncard .text{
-       font-size: 12px !important;
-   }
-
-      .Ncard .title{
-       font-size: 13px !important;
-   }
 }
 
 @media screen and (max-width: 1670px) {
-   .Ncard{
-       width: 270px !important;
-   }
+
 }
 

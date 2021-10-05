@@ -9,70 +9,6 @@
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "rowKey": "-McoGaYYiPNiVFHJSQsH"
   },
-  "-MdqLg2HWLh_2yGAh2hE": {
-    "_id": 10,
-    "cdataroom": "-MdWXMkBNbz0Euzx4biq",
-    "createdDate": 1625483297046,
-    "description": "....",
-    "documentType": "-Mc8aVEnJO0k0t20Y-PH",
-    "lastEditDate": 1625483314224,
-    "lastEditedBy": "hVZ0UGsZ4dfJSLxO6AE4ggutXFd2",
-    "name": "Contract 1",
-    "owner": "hVZ0UGsZ4dfJSLxO6AE4ggutXFd2",
-    "rowKey": "-MdqLg2HWLh_2yGAh2hE",
-    "upload": [
-      {
-        "id": "55f03f60-dd81-11eb-8779-b58b98d6538b_output-onlinepngtools (7).png",
-        "name": "output-onlinepngtools (7).png"
-      }
-    ]
-  },
-  "-MdqO3_hSZM9eLAJQGVg": {
-    "_id": 11,
-    "cdataroom": "-MdWXMkBNbz0Euzx4biq",
-    "createdDate": 1625483921853,
-    "description": "...\n",
-    "documentType": "-Mc8aQLZxHwgd3fuQo7E",
-    "lastEditDate": 1625483932501,
-    "lastEditedBy": "hVZ0UGsZ4dfJSLxO6AE4ggutXFd2",
-    "name": "Document 1",
-    "owner": "hVZ0UGsZ4dfJSLxO6AE4ggutXFd2",
-    "rowKey": "-MdqO3_hSZM9eLAJQGVg"
-  },
-  "-MdvPszwfdzGznnJOlHT": {
-    "_id": 12,
-    "cdataroom": "-MdWXMkBNbz0Euzx4biq",
-    "createdDate": 1625568284561,
-    "description": "...",
-    "documentType": "-Mc8aXCH3ckffd--5mN3",
-    "lastEditDate": 1632403426348,
-    "lastEditedBy": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
-    "name": "Document Test",
-    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "rowKey": "-MdvPszwfdzGznnJOlHT"
-  },
-  "-Me-ToAo_b7EEwSu_y4M": {
-    "_id": 13,
-    "cdataroom": "-MdWXRUUK9QEeRUWu_xR",
-    "createdDate": 1625653197998,
-    "documentType": "-Mc8aQLZxHwgd3fuQo7E",
-    "lastEditDate": 1625751324573,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "name": "TEST",
-    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "rowKey": "-Me-ToAo_b7EEwSu_y4M"
-  },
-  "-Me5K3QEeQ9xnVDVdwMG": {
-    "_id": 14,
-    "cdataroom": "-MdWXRUUK9QEeRUWu_xR",
-    "createdDate": 1625751308286,
-    "documentType": "-Mc8aVEnJO0k0t20Y-PH",
-    "lastEditDate": 1625751311216,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "name": "TEST GROUP",
-    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "rowKey": "-Me5K3QEeQ9xnVDVdwMG"
-  },
   "-Mhrb-wk5cNbr_iXqPqO": {
     "_id": 16,
     "cdataroom": "-MhraxM8ma1cd3kakHVn",
@@ -90,17 +26,6 @@
         "name": "user_noimage.png"
       }
     ]
-  },
-  "-MjEtdtb3MgaZ6Bhj7W0": {
-    "_id": 18,
-    "cdataroom": "-MjEtbGdRhzJkuwZeRfz",
-    "createdDate": 1631280604230,
-    "documentType": "-Mc8aQLZxHwgd3fuQo7E",
-    "lastEditDate": 1631280609730,
-    "lastEditedBy": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "name": "TEST2",
-    "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
-    "rowKey": "-MjEtdtb3MgaZ6Bhj7W0"
   },
   "-Mjhs1C-JzRRXLLYv0Br": {
     "_id": 19,

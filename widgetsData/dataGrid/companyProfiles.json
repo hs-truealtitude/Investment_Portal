@@ -1865,7 +1865,7 @@
                 "labelBold": false,
                 "labelItalic": false,
                 "labelUnderline": false,
-                "required": true,
+                "required": false,
                 "requiredCondition": "",
                 "isMultiLine": false,
                 "isInteger": false,

@@ -5,6 +5,10 @@
     flex-wrap: wrap
 }
 
+.foregroundContainer{
+    margin-top: 440px;
+}
+
 @media only screen and (max-width: 1920px) {
     .nav-menu-link-box {
     }
@@ -17,7 +21,11 @@
     .nav-menu-link {
         font-size: 15px !important;
     }
+    .foregroundContainer{
+        margin-top: 480px;
+    }
 }
+
 
 @media only screen and (max-width: 1400px) {
     .nav-menu-link {
