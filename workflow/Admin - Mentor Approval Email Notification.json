@@ -1,0 +1,65 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-MljoMYuoZcatITpKHyV",
+      "statusField": "mentors.status.sessionStatus"
+    },
+    "nodes": [
+      {
+        "id": "node1633963580490",
+        "x": -129.14,
+        "y": 106.89,
+        "width": 104,
+        "height": 40,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1633963594066",
+        "x": 216.54,
+        "y": 106.77,
+        "width": 107,
+        "height": 40,
+        "attachment": {
+          "script": "const msg = {\r\n            to: 'portal@truealtitude.co.uk',\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: Mentor account waiting for Approval!',\r\n            text: 'Hi ' + results.name + ', \\n\\r' + 'There are mentor(s) waiting for approval! Please click here to login. Login with support@truealtitude.co.uk. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results.name + ', <br/>' + '<br/> There are mentor(s) waiting for approval! Login with support@truealtitude.co.uk. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Send Email",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1633963580490-right",
+        "target": "node1633963594066",
+        "endSocket": "left",
+        "id": "line-1633963611655",
+        "label": "Start Event",
+        "targetLabel": "Send Email",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": 443.0723018102286,
+      "y": 235.1701028892918,
+      "scale": 1.0248699850951326
+    }
+  },
+  "name": "Admin - Mentor Approval Email Notification"
+}

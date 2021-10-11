@@ -658,6 +658,10 @@ body{
     padding-left: 10px;
 }
 
+.profileCard p{
+    color:black;
+}
+
 /*------------------SESSION CARD------------------*/
 .sessionCard .date span{
     color: #ef4437;
