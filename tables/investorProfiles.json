@@ -1,0 +1,48 @@
+{
+  "-MlAO973DLUSZMgW2ksD": {
+    "_created": true,
+    "_id": 1,
+    "aboutMe": "Investment Director at True Altitude where Harrison sources and executes funding opportunities from Seed-Series B.\n\nDiverse background in the technology industry, from scaling a FinTech startup, to driving digital transformation in major global financial institutions. Previous experience at Xinja, Australia’s first neo-bank, and working within IBM’s Strategic Deals team for £10m+ deals in Financial Services, constructing, selling and negotiating multi-year strategic relationships",
+    "accType": "-MKorfvV-56oTz-K9J3t",
+    "adminRejected": "",
+    "createdDate": 1633352458765,
+    "dateOfBirth": 964825200000,
+    "isApproved": true,
+    "lastEditDate": 1633374987594,
+    "lastEditedBy": "Q37VVEqcqUV1D6Fn6l5radpdc2F3",
+    "linkedInProfileLink": "https://www.linkedin.com/in/harrison-emmett-lee",
+    "location": "-MJwtgUqBjMrFNntf6GH",
+    "name": "Harrison",
+    "nextEvents": "Approve,Reject",
+    "owner": "Q37VVEqcqUV1D6Fn6l5radpdc2F3",
+    "phoneNumber": "07866499855",
+    "profileImage": {
+      "fileName": "26be3a10-2513-11ec-bfe2-bfd8a422e9ac_datagrid_profile_img.png",
+      "url": "https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F26be3a10-2513-11ec-bfe2-bfd8a422e9ac_datagrid_profile_img.png?alt=media&token=18f0bd63-4b9b-4ab3-985a-883bcb3443a0"
+    },
+    "rowKey": "-MlAO973DLUSZMgW2ksD",
+    "secondName": "Emmett-Lee",
+    "state": "Accepted",
+    "submitPressed": true,
+    "user": "Q37VVEqcqUV1D6Fn6l5radpdc2F3"
+  },
+  "-MlOtOBOQFRXrfvBNrV2": {
+    "_created": true,
+    "_id": 2,
+    "accType": "-MKorfvV-56oTz-K9J3t",
+    "adminRejected": "",
+    "createdDate": 1633595790152,
+    "dateOfBirth": "01/01/2003",
+    "isApproved": true,
+    "lastEditDate": 1633595798620,
+    "lastEditedBy": "AsUNZDDYKIQQbX4GOi0X4gy6nrj2",
+    "location": "-MJwtgUqBjMrFNntf6GH",
+    "name": "Charlie",
+    "nextEvents": "Approve,Reject",
+    "owner": "AsUNZDDYKIQQbX4GOi0X4gy6nrj2",
+    "rowKey": "-MlOtOBOQFRXrfvBNrV2",
+    "secondName": "Winckworth",
+    "state": "Accepted",
+    "user": "AsUNZDDYKIQQbX4GOi0X4gy6nrj2"
+  }
+}
