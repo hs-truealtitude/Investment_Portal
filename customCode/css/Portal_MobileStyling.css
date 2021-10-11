@@ -5,31 +5,35 @@
     flex-wrap: wrap
 }
 
-
+.foregroundContainer{
+    margin-top: 440px;
+}
 
 @media only screen and (max-width: 1920px) {
     .nav-menu-link-box {
-
     }
+
 
 
 }
 
-
 @media only screen and (max-width: 1660px) {
-
     .nav-menu-link {
         font-size: 15px !important;
     }
+    .foregroundContainer{
+        margin-top: 480px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
 
 }
 
 @media only screen and (max-width: 1400px) {
-
     .nav-menu-link {
         font-size: 13px !important;
     }
-
 }
 
 @media only screen and (max-width: 1300px) {
@@ -39,6 +43,24 @@
     }
 }
 
+@media only screen and (max-width: 1000px) {
+    .dashboardText h1{
+        font-size: 3em;
+        text-align: center;
+        font-family: 'Grenette pro', sans-serif !important;   
+    }
+
+    .dashboardText {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: auto;
+        height: 200px;
+    }
+}
 
 @media only screen and (max-width: 900px) {
     .nav-menu-link-box {
@@ -49,6 +71,8 @@
         font-size: 0.9em !important
     }
 
+    .foregroundContainer img{
+    }
 
 }
 
@@ -88,6 +112,10 @@
     #widget-MjcsFw8ydIqFMjigkXU{
         margin-top: 100px !important;
     }
+    .dashboardText h1{
+        font-size: 2.5em;
+    }
+
 
 }
 
@@ -268,7 +296,10 @@
     .cohortCard .profileCard{
         width: 365px !important;
     }
+.foregroundContainer{
+    background-position: 55% 50%;
 
+}
 
 }
 
@@ -304,6 +335,9 @@
         #widget-MjcsFw8ydIqFMjigkXU{
         margin-top: 300px !important;
     }
+    .dashboardText h1{
+        font-size: 2em;
+    }
 
 }
 
@@ -336,6 +370,16 @@
         margin-top: 500px !important;
     }
 
+    .dashboardText h1{
+        font-size: 1.8em;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .dashboardText h1{
+        font-size: 1.2em;
+    }
 }
 
 @media only screen and (max-width: 300px) {
@@ -347,6 +391,8 @@
         visibility: hidden !important;
         position: relative;
     }
+
+
 
 
 }

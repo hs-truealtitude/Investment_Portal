@@ -414,7 +414,7 @@
                 "fieldName": "control_datepicker_561522",
                 "label": "Date of Birth",
                 "order": 3,
-                "defaultValue": "",
+                "defaultValue": "01/01/2003",
                 "value": "",
                 "className": "col-md-12",
                 "readonly": true,
@@ -493,7 +493,8 @@
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
                 "propName": "linkedInProfileLink",
-                "gridId": "mentors"
+                "gridId": "mentors",
+                "description": "Enter a valid LinkedIn link like the following: https://www.linkedin.com/company/true-altitude"
               },
               {
                 "type": "phone",
@@ -1493,7 +1494,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<button class=\"float-left btn btn-primary\"\r\n@click=\"$dgFormGoToTab('Company Info')\"> \r\nBack\r\n</button>\r\n\r\n<button class=\"float-right btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n    \t$dgFormGoToTab('Milestones')\r\n  \t}\r\n\t}\"        \r\n        > \r\nNext\r\n</button>",
+                "customCode": "<button class=\"float-left btn btn-primary\"\r\n@click=\"$dgFormGoToTab('Company Info')\"> \r\nBack\r\n</button>\r\n\r\n<button class=\"float-right btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n    \t$dgFormGoToTab('Work Packages & Profile Submission')\r\n  \t}\r\n\t}\"        \r\n        > \r\nNext\r\n</button>",
                 "invisible": false,
                 "invisibleCondition": "",
                 "invisibleInDataGrid": true,
@@ -2051,7 +2052,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.2884953347604311
+    "_uniqueId": 0.6587370035243851
   },
   "source": "mentors",
   "storageType": "dashboard",

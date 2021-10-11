@@ -291,7 +291,7 @@
                 "fieldName": "control_e1b95501-5b21-11eb-8553-f5f20da525b3_",
                 "label": "Date of Birth",
                 "order": 3,
-                "defaultValue": "",
+                "defaultValue": "01/01/2003",
                 "value": "",
                 "className": "col-md-12",
                 "readonly": true,
