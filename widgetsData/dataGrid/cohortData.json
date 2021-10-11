@@ -6,29 +6,34 @@
     "cohortOwnerType": {
       "displayName": "Owner Account Type",
       "invisible": false,
-      "order": "1",
+      "order": 0,
       "type": "string"
     },
     "cohortSummary": {
       "displayName": "Summary of Cohort (Optional)",
-      "order": "10",
+      "order": 1,
       "type": "multiline_text"
+    },
+    "cohortTitle": {
+      "displayName": "cohortTitle",
+      "order": 24,
+      "type": "custom"
     },
     "companies": {
       "displayName": "Companies",
       "lookUpTable": "companyProfiles",
-      "order": "8",
+      "order": 2,
       "type": "multi_lookup"
     },
     "companyEngagementsCount": {
       "displayName": "companyEngagementsCount",
-      "order": 20,
+      "order": 3,
       "type": "number"
     },
     "companyUserOwner": {
       "displayName": "companyUserOwner",
       "lookUpTable": "companyUserProfiles",
-      "order": "14",
+      "order": 4,
       "type": "lookup"
     },
     "companyUsers": {
@@ -36,24 +41,24 @@
       "displayName": "CompanyUsers",
       "invisible": false,
       "lookUpTable": "companyUserProfiles",
-      "order": "2",
+      "order": 5,
       "type": "multi_lookup"
     },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": true,
-      "order": "4",
+      "order": 6,
       "type": "date"
     },
     "investorEngagementsCount": {
       "displayName": "investorEngagementsCount",
-      "order": 21,
+      "order": 7,
       "type": "number"
     },
     "investorOwner": {
       "displayName": "investorOwner",
       "lookUpTable": "investorProfiles",
-      "order": "12",
+      "order": 8,
       "type": "lookup"
     },
     "investors": {
@@ -61,35 +66,35 @@
       "displayName": "Investors",
       "invisible": false,
       "lookUpTable": "investorProfiles",
-      "order": "3",
+      "order": 9,
       "type": "multi_lookup"
     },
     "lastEditDate": {
       "displayName": "Last edit date",
       "invisible": true,
-      "order": "9",
+      "order": 10,
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
       "invisible": true,
-      "order": "7",
+      "order": 11,
       "type": "user"
     },
     "layout": {
       "displayName": "Layout",
-      "order": 17,
+      "order": 12,
       "type": "select"
     },
     "mentorEngagementsCount": {
       "displayName": "mentorEngagementsCount",
-      "order": 19,
+      "order": 13,
       "type": "number"
     },
     "mentorOwner": {
       "displayName": "mentorOwner",
       "lookUpTable": "mentors",
-      "order": "11",
+      "order": 14,
       "type": "lookup"
     },
     "mentors": {
@@ -97,42 +102,54 @@
       "displayName": "Mentors",
       "invisible": false,
       "lookUpTable": "mentors",
-      "order": "16",
+      "order": 15,
       "type": "multi_lookup"
     },
     "name": {
       "displayName": "Name of Cohort",
       "invisible": false,
-      "order": "0",
+      "order": 16,
       "type": "string"
     },
     "nextEvents": {
       "displayName": "Next Events",
       "invisible": true,
-      "order": "6",
+      "order": 17,
       "type": "string"
     },
     "owner": {
       "displayName": "Owner",
       "invisible": false,
-      "order": "15",
+      "order": 18,
       "type": "user"
     },
     "programmePartnerOwner": {
       "displayName": "programmePartnerOwner",
       "lookUpTable": "programmePartnerProfiles",
-      "order": "13",
+      "order": 19,
       "type": "lookup"
+    },
+    "programmes": {
+      "displayName": "Programmes",
+      "filterCode": "return row.owner == rowData.owner\r\n\r\n//return row.programmePartnerOwner == rowData.programmeParter\r\n",
+      "lookUpTable": "programmeData",
+      "order": 23,
+      "type": "multi_lookup"
+    },
+    "programmesTitle": {
+      "displayName": "programmesTitle",
+      "order": 25,
+      "type": "custom"
     },
     "sessionCount": {
       "displayName": "sessionCount",
-      "order": 18,
+      "order": 20,
       "type": "number"
     },
     "state": {
       "displayName": "State",
       "invisible": true,
-      "order": "5",
+      "order": 21,
       "type": "string"
     },
     "successfulInvestorEngagementsCount": {
@@ -154,6 +171,49 @@
             "label": "",
             "order": 0,
             "controls": [
+              {
+                "type": "custom",
+                "name": "control_71ca97c0-25df-11ec-bb9a-3ff70ce0d383",
+                "fieldName": "control_71ca97c0-25df-11ec-bb9a-3ff70ce0d383",
+                "label": "cohortTitle",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<h2>Cohort Details</h2>",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "cohortTitle",
+                "gridId": "cohortData"
+              },
               {
                 "type": "text",
                 "name": "control_text_70567",
@@ -238,6 +298,93 @@
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
                 "propName": "cohortSummary",
+                "gridId": "cohortData"
+              },
+              {
+                "type": "custom",
+                "name": "control_8a53b880-25df-11ec-bb9a-3ff70ce0d383",
+                "fieldName": "control_8a53b880-25df-11ec-bb9a-3ff70ce0d383",
+                "label": "programmesTitle",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<h2>Add to Programme(s)</h2>",
+                "invisible": true,
+                "invisibleCondition": "$getUser('accountType') != \"ProgrammePartner\"",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "programmesTitle",
+                "gridId": "cohortData"
+              },
+              {
+                "type": "multi_lookup",
+                "name": "control_a49ab3b0-25d0-11ec-984c-73c6a67e3b2f",
+                "fieldName": "control_a49ab3b0-25d0-11ec-984c-73c6a67e3b2f",
+                "label": "Is this cohort a part of any programmes you manage?",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "$getUser('accountType') != \"ProgrammePartner\"",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "programmes",
+                "ableToAddLookUpVal": false,
                 "gridId": "cohortData"
               }
             ]
@@ -1233,7 +1380,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.638151721522275
+    "_uniqueId": 0.35333215821588193
   },
   "source": "cohortData",
   "storageType": "dashboard",
@@ -1244,80 +1391,89 @@
       "meta": {
         "cohortOwnerType": {
           "invisible": false,
-          "order": "1"
+          "order": 0
         },
         "cohortSummary": {
-          "order": "10"
+          "order": 1
+        },
+        "cohortTitle": {
+          "order": 24
         },
         "companies": {
-          "order": "8"
+          "order": 2
         },
         "companyEngagementsCount": {
-          "order": 20
+          "order": 3
         },
         "companyUserOwner": {
-          "order": "14"
+          "order": 4
         },
         "companyUsers": {
           "invisible": false,
-          "order": "2"
+          "order": 5
         },
         "createdDate": {
           "invisible": true,
-          "order": "4"
+          "order": 6
         },
         "investorEngagementsCount": {
-          "order": 21
+          "order": 7
         },
         "investorOwner": {
-          "order": "12"
+          "order": 8
         },
         "investors": {
           "invisible": false,
-          "order": "3"
+          "order": 9
         },
         "lastEditDate": {
           "invisible": true,
-          "order": "9"
+          "order": 10
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "7"
+          "order": 11
         },
         "layout": {
-          "order": 17
+          "order": 12
         },
         "mentorEngagementsCount": {
-          "order": 19
+          "order": 13
         },
         "mentorOwner": {
-          "order": "11"
+          "order": 14
         },
         "mentors": {
           "invisible": false,
-          "order": "16"
+          "order": 15
         },
         "name": {
           "invisible": false,
-          "order": "0"
+          "order": 16
         },
         "nextEvents": {
           "invisible": true,
-          "order": "6"
+          "order": 17
         },
         "owner": {
           "invisible": false,
-          "order": "15"
+          "order": 18
         },
         "programmePartnerOwner": {
-          "order": "13"
+          "order": 19
+        },
+        "programmes": {
+          "order": 23
+        },
+        "programmesTitle": {
+          "order": 25
         },
         "sessionCount": {
-          "order": 18
+          "order": 20
         },
         "state": {
           "invisible": true,
-          "order": "5"
+          "order": 21
         },
         "successfulInvestorEngagementsCount": {
           "order": 22
@@ -1333,80 +1489,89 @@
       "meta": {
         "cohortOwnerType": {
           "invisible": false,
-          "order": "1"
+          "order": 0
         },
         "cohortSummary": {
-          "order": "10"
+          "order": 1
+        },
+        "cohortTitle": {
+          "order": 24
         },
         "companies": {
-          "order": "8"
+          "order": 2
         },
         "companyEngagementsCount": {
-          "order": 20
+          "order": 3
         },
         "companyUserOwner": {
-          "order": "14"
+          "order": 4
         },
         "companyUsers": {
           "invisible": false,
-          "order": "2"
+          "order": 5
         },
         "createdDate": {
           "invisible": true,
-          "order": "4"
+          "order": 6
         },
         "investorEngagementsCount": {
-          "order": 21
+          "order": 7
         },
         "investorOwner": {
-          "order": "12"
+          "order": 8
         },
         "investors": {
           "invisible": false,
-          "order": "3"
+          "order": 9
         },
         "lastEditDate": {
           "invisible": true,
-          "order": "9"
+          "order": 10
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "7"
+          "order": 11
         },
         "layout": {
-          "order": 17
+          "order": 12
         },
         "mentorEngagementsCount": {
-          "order": 19
+          "order": 13
         },
         "mentorOwner": {
-          "order": "11"
+          "order": 14
         },
         "mentors": {
           "invisible": false,
-          "order": "16"
+          "order": 15
         },
         "name": {
           "invisible": false,
-          "order": "0"
+          "order": 16
         },
         "nextEvents": {
           "invisible": true,
-          "order": "6"
+          "order": 17
         },
         "owner": {
           "invisible": false,
-          "order": "15"
+          "order": 18
         },
         "programmePartnerOwner": {
-          "order": "13"
+          "order": 19
+        },
+        "programmes": {
+          "order": 23
+        },
+        "programmesTitle": {
+          "order": 25
         },
         "sessionCount": {
-          "order": 18
+          "order": 20
         },
         "state": {
           "invisible": true,
-          "order": "5"
+          "order": 21
         },
         "successfulInvestorEngagementsCount": {
           "order": 22
@@ -1422,80 +1587,89 @@
       "meta": {
         "cohortOwnerType": {
           "invisible": false,
-          "order": "1"
+          "order": 0
         },
         "cohortSummary": {
-          "order": "10"
+          "order": 1
+        },
+        "cohortTitle": {
+          "order": 24
         },
         "companies": {
-          "order": "8"
+          "order": 2
         },
         "companyEngagementsCount": {
-          "order": 20
+          "order": 3
         },
         "companyUserOwner": {
-          "order": "14"
+          "order": 4
         },
         "companyUsers": {
           "invisible": false,
-          "order": "2"
+          "order": 5
         },
         "createdDate": {
           "invisible": true,
-          "order": "4"
+          "order": 6
         },
         "investorEngagementsCount": {
-          "order": 21
+          "order": 7
         },
         "investorOwner": {
-          "order": "12"
+          "order": 8
         },
         "investors": {
           "invisible": false,
-          "order": "3"
+          "order": 9
         },
         "lastEditDate": {
           "invisible": true,
-          "order": "9"
+          "order": 10
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "7"
+          "order": 11
         },
         "layout": {
-          "order": 17
+          "order": 12
         },
         "mentorEngagementsCount": {
-          "order": 19
+          "order": 13
         },
         "mentorOwner": {
-          "order": "11"
+          "order": 14
         },
         "mentors": {
           "invisible": false,
-          "order": "16"
+          "order": 15
         },
         "name": {
           "invisible": false,
-          "order": "0"
+          "order": 16
         },
         "nextEvents": {
           "invisible": true,
-          "order": "6"
+          "order": 17
         },
         "owner": {
           "invisible": false,
-          "order": "15"
+          "order": 18
         },
         "programmePartnerOwner": {
-          "order": "13"
+          "order": 19
+        },
+        "programmes": {
+          "order": 23
+        },
+        "programmesTitle": {
+          "order": 25
         },
         "sessionCount": {
-          "order": 18
+          "order": 20
         },
         "state": {
           "invisible": true,
-          "order": "5"
+          "order": 21
         },
         "successfulInvestorEngagementsCount": {
           "order": 22
@@ -1511,80 +1685,89 @@
       "meta": {
         "cohortOwnerType": {
           "invisible": false,
-          "order": "1"
+          "order": 0
         },
         "cohortSummary": {
-          "order": "10"
+          "order": 1
+        },
+        "cohortTitle": {
+          "order": 24
         },
         "companies": {
-          "order": "8"
+          "order": 2
         },
         "companyEngagementsCount": {
-          "order": 20
+          "order": 3
         },
         "companyUserOwner": {
-          "order": "14"
+          "order": 4
         },
         "companyUsers": {
           "invisible": false,
-          "order": "2"
+          "order": 5
         },
         "createdDate": {
           "invisible": true,
-          "order": "4"
+          "order": 6
         },
         "investorEngagementsCount": {
-          "order": 21
+          "order": 7
         },
         "investorOwner": {
-          "order": "12"
+          "order": 8
         },
         "investors": {
           "invisible": false,
-          "order": "3"
+          "order": 9
         },
         "lastEditDate": {
           "invisible": true,
-          "order": "9"
+          "order": 10
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "7"
+          "order": 11
         },
         "layout": {
-          "order": 17
+          "order": 12
         },
         "mentorEngagementsCount": {
-          "order": 19
+          "order": 13
         },
         "mentorOwner": {
-          "order": "11"
+          "order": 14
         },
         "mentors": {
           "invisible": false,
-          "order": "16"
+          "order": 15
         },
         "name": {
           "invisible": false,
-          "order": "0"
+          "order": 16
         },
         "nextEvents": {
           "invisible": true,
-          "order": "6"
+          "order": 17
         },
         "owner": {
           "invisible": false,
-          "order": "15"
+          "order": 18
         },
         "programmePartnerOwner": {
-          "order": "13"
+          "order": 19
+        },
+        "programmes": {
+          "order": 23
+        },
+        "programmesTitle": {
+          "order": 25
         },
         "sessionCount": {
-          "order": 18
+          "order": 20
         },
         "state": {
           "invisible": true,
-          "order": "5"
+          "order": 21
         },
         "successfulInvestorEngagementsCount": {
           "order": 22
@@ -1599,80 +1782,89 @@
       "meta": {
         "cohortOwnerType": {
           "invisible": false,
-          "order": "1"
+          "order": 0
         },
         "cohortSummary": {
-          "order": "10"
+          "order": 1
+        },
+        "cohortTitle": {
+          "order": 24
         },
         "companies": {
-          "order": "8"
+          "order": 2
         },
         "companyEngagementsCount": {
-          "order": 20
+          "order": 3
         },
         "companyUserOwner": {
-          "order": "14"
+          "order": 4
         },
         "companyUsers": {
           "invisible": false,
-          "order": "2"
+          "order": 5
         },
         "createdDate": {
           "invisible": true,
-          "order": "4"
+          "order": 6
         },
         "investorEngagementsCount": {
-          "order": 21
+          "order": 7
         },
         "investorOwner": {
-          "order": "12"
+          "order": 8
         },
         "investors": {
           "invisible": false,
-          "order": "3"
+          "order": 9
         },
         "lastEditDate": {
           "invisible": true,
-          "order": "9"
+          "order": 10
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "7"
+          "order": 11
         },
         "layout": {
-          "order": 17
+          "order": 12
         },
         "mentorEngagementsCount": {
-          "order": 19
+          "order": 13
         },
         "mentorOwner": {
-          "order": "11"
+          "order": 14
         },
         "mentors": {
           "invisible": false,
-          "order": "16"
+          "order": 15
         },
         "name": {
           "invisible": false,
-          "order": "0"
+          "order": 16
         },
         "nextEvents": {
           "invisible": true,
-          "order": "6"
+          "order": 17
         },
         "owner": {
           "invisible": false,
-          "order": "15"
+          "order": 18
         },
         "programmePartnerOwner": {
-          "order": "13"
+          "order": 19
+        },
+        "programmes": {
+          "order": 23
+        },
+        "programmesTitle": {
+          "order": 25
         },
         "sessionCount": {
-          "order": 18
+          "order": 20
         },
         "state": {
           "invisible": true,
-          "order": "5"
+          "order": 21
         },
         "successfulInvestorEngagementsCount": {
           "order": 22
@@ -1688,80 +1880,89 @@
       "meta": {
         "cohortOwnerType": {
           "invisible": false,
-          "order": "1"
+          "order": 0
         },
         "cohortSummary": {
-          "order": "10"
+          "order": 1
+        },
+        "cohortTitle": {
+          "order": 24
         },
         "companies": {
-          "order": "8"
+          "order": 2
         },
         "companyEngagementsCount": {
-          "order": 20
+          "order": 3
         },
         "companyUserOwner": {
-          "order": "14"
+          "order": 4
         },
         "companyUsers": {
           "invisible": false,
-          "order": "2"
+          "order": 5
         },
         "createdDate": {
           "invisible": true,
-          "order": "4"
+          "order": 6
         },
         "investorEngagementsCount": {
-          "order": 21
+          "order": 7
         },
         "investorOwner": {
-          "order": "12"
+          "order": 8
         },
         "investors": {
           "invisible": false,
-          "order": "3"
+          "order": 9
         },
         "lastEditDate": {
           "invisible": true,
-          "order": "9"
+          "order": 10
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "7"
+          "order": 11
         },
         "layout": {
-          "order": 17
+          "order": 12
         },
         "mentorEngagementsCount": {
-          "order": 19
+          "order": 13
         },
         "mentorOwner": {
-          "order": "11"
+          "order": 14
         },
         "mentors": {
           "invisible": false,
-          "order": "16"
+          "order": 15
         },
         "name": {
           "invisible": false,
-          "order": "0"
+          "order": 16
         },
         "nextEvents": {
           "invisible": true,
-          "order": "6"
+          "order": 17
         },
         "owner": {
           "invisible": false,
-          "order": "15"
+          "order": 18
         },
         "programmePartnerOwner": {
-          "order": "13"
+          "order": 19
+        },
+        "programmes": {
+          "order": 23
+        },
+        "programmesTitle": {
+          "order": 25
         },
         "sessionCount": {
-          "order": 18
+          "order": 20
         },
         "state": {
           "invisible": true,
-          "order": "5"
+          "order": 21
         },
         "successfulInvestorEngagementsCount": {
           "order": 22

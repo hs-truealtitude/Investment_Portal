@@ -1,15 +1,14 @@
 return function  () {
 
-//Get the row (programme)
-    let programmeRow = []
-    programmeRow = $dataGrid('programmeData')[$getUser('activeMyProgramme')]
-
-//Counter
-    let statCounter = programmeRow.mentorEngagementsCount
+    //Get cohort rows (within programme)
+    let cohortsInProgramme = []
+    cohortsInProgramme = $getGrid('cohortData').filter(row => (row.programmes || '').includes($getUser('selectedProgramme')))
 
 //Get Number of Stats
     let total = 0
-    total = $getGrid('applications').filter(row => row.programme == $getUser('activeMyProgramme') && row.name == "Mentor->CompanyUser(Programme)").length 
+    for (i = 0; i < cohortsInProgramme.length; i++){
+        total = total + $getGrid('applications').filter(row => row.cohort == cohortsInProgramme[i].rowKey && row.name == "Mentor->CompanyUser(inCohort)").length 
+    }
 
 //Apply new rows to stat counter
     
@@ -17,8 +16,7 @@ return function  () {
         return 0
     }
     else{
-        statCounter = statCounter + total
-        return statCounter
+        return total
 
     }
 

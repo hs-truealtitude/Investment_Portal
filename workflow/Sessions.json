@@ -7,10 +7,10 @@
     "nodes": [
       {
         "id": "node1613390014244",
-        "x": 78,
-        "y": 435,
-        "height": 40,
-        "width": 100,
+        "x": -143.42,
+        "y": 441.29,
+        "height": 41,
+        "width": 104,
         "clazz": "startEvent",
         "label": "Start Event",
         "className": "start-event",
@@ -22,8 +22,8 @@
       },
       {
         "id": "node1613390095196",
-        "x": 562.4285714285714,
-        "y": 276,
+        "x": 318.36,
+        "y": 272.48,
         "height": 40,
         "width": 200,
         "clazz": "updateRecord",
@@ -43,7 +43,7 @@
         "x": 842,
         "y": 242,
         "height": 100,
-        "width": 161.671875,
+        "width": 176,
         "clazz": "userTask",
         "label": "Company User Approve",
         "className": "user-task",
@@ -71,8 +71,8 @@
         "id": "node1613390394011",
         "x": 1018,
         "y": 181,
-        "height": 40,
-        "width": 200,
+        "height": 41,
+        "width": 201,
         "clazz": "updateRecord",
         "label": "Company User Update Session Record to Approved",
         "className": "update-record",
@@ -89,8 +89,8 @@
         "id": "node1613390736043",
         "x": 1060,
         "y": 342,
-        "height": 39.999969482421875,
-        "width": 200,
+        "height": 41,
+        "width": 201,
         "clazz": "updateRecord",
         "label": "Company User Update Session Record to Rejected",
         "className": "update-record",
@@ -105,10 +105,10 @@
       },
       {
         "id": "node1613390905626",
-        "x": 1352,
-        "y": 169,
+        "x": 1176.13,
+        "y": 76.16,
         "height": 40,
-        "width": 200,
+        "width": 201,
         "clazz": "updateRecord",
         "label": "Company User Update Record to Booked",
         "className": "update-record",
@@ -154,8 +154,8 @@
         "id": "node1613463588574",
         "x": 2042,
         "y": 116,
-        "height": 40,
-        "width": 180.796875,
+        "height": 41,
+        "width": 199,
         "clazz": "updateRecord",
         "label": "Session Went On Company",
         "className": "update-record",
@@ -170,9 +170,9 @@
       },
       {
         "id": "node1615807978814",
-        "x": 1404,
-        "y": 358,
-        "height": 39.999969482421875,
+        "x": 1398.28,
+        "y": 330.28,
+        "height": 40,
         "width": 200,
         "clazz": "updateRecord",
         "label": "Company User Update Record to Rejected",
@@ -191,7 +191,7 @@
         "x": 2143.4285714285716,
         "y": 281,
         "height": 40,
-        "width": 180.46875,
+        "width": 197,
         "clazz": "updateRecord",
         "label": "Update Record to Rejected",
         "className": "update-record",
@@ -206,10 +206,10 @@
       },
       {
         "id": "node1615900642216",
-        "x": 571,
-        "y": 466,
+        "x": 325.67,
+        "y": 475.32,
         "height": 40,
-        "width": 200,
+        "width": 201,
         "clazz": "updateRecord",
         "label": "Update Record to Pending MENTOR APPROVE",
         "className": "update-record",
@@ -226,8 +226,8 @@
         "id": "node1615907920654",
         "x": 863,
         "y": 412,
-        "height": 100,
-        "width": 118.953125,
+        "height": 101,
+        "width": 133,
         "clazz": "userTask",
         "label": "Mentor Approve",
         "className": "user-task",
@@ -256,7 +256,7 @@
         "x": 1099,
         "y": 512,
         "height": 40,
-        "width": 200,
+        "width": 201,
         "clazz": "updateRecord",
         "label": "Mentor Update Session Record to Approved",
         "className": "update-record",
@@ -271,9 +271,9 @@
       },
       {
         "id": "node1615908052024",
-        "x": 1412,
-        "y": 515,
-        "height": 40,
+        "x": 1413.26,
+        "y": 512.48,
+        "height": 41,
         "width": 200,
         "clazz": "updateRecord",
         "label": "Mentor Update Record to Booked",
@@ -292,7 +292,7 @@
         "x": 1767,
         "y": 475,
         "height": 100,
-        "width": 191.984375,
+        "width": 200,
         "clazz": "userTask",
         "label": "Did Session Happen? Mentor",
         "className": "user-task",
@@ -320,8 +320,8 @@
         "id": "node1615908140334",
         "x": 2094.714285714286,
         "y": 465.57142857142856,
-        "height": 40,
-        "width": 168.75,
+        "height": 41,
+        "width": 185,
         "clazz": "updateRecord",
         "label": "Session Went On Mentor",
         "className": "update-record",
@@ -338,8 +338,8 @@
         "id": "node1615908165648",
         "x": 2080,
         "y": 566,
-        "height": 40,
-        "width": 180.46875,
+        "height": 41,
+        "width": 197,
         "clazz": "updateRecord",
         "label": "Update Record to Rejected",
         "className": "update-record",
@@ -356,8 +356,8 @@
         "id": "node1615909073571",
         "x": 1099,
         "y": 637,
-        "height": 40,
-        "width": 200,
+        "height": 41,
+        "width": 201,
         "clazz": "updateRecord",
         "label": "Mentor Update Session Record to Rejected",
         "className": "update-record",
@@ -374,7 +374,7 @@
         "id": "node1615909129991",
         "x": 1463,
         "y": 648,
-        "height": 40,
+        "height": 41,
         "width": 200,
         "clazz": "updateRecord",
         "label": "Mentor Update Record to Rejected",
@@ -390,10 +390,10 @@
       },
       {
         "id": "node1615980663486",
-        "x": 338,
-        "y": 321,
-        "height": 99.99996948242188,
-        "width": 149.28125,
+        "x": 86.38,
+        "y": 329.29,
+        "height": 100,
+        "width": 150,
         "clazz": "decision",
         "label": "Check Direction",
         "className": "decision",
@@ -421,8 +421,8 @@
         "id": "node1616155675538",
         "x": 2443,
         "y": 276,
-        "height": 40,
-        "width": 200,
+        "height": 41,
+        "width": 201,
         "clazz": "updateRecord",
         "label": "Update Record Status to Rejected",
         "className": "update-record",
@@ -440,7 +440,7 @@
         "x": 2366,
         "y": 570,
         "height": 40,
-        "width": 200,
+        "width": 201,
         "clazz": "updateRecord",
         "label": "Update Record status to rejected",
         "className": "update-record",
@@ -457,7 +457,7 @@
         "id": "node1631620447259",
         "x": 2260,
         "y": 144,
-        "width": 137.875,
+        "width": 124,
         "height": 71,
         "attachment": {
           "user": "mentor.mentors.owner"
@@ -479,8 +479,8 @@
         "id": "node1631620487844",
         "x": 2552,
         "y": 169,
-        "width": 200,
-        "height": 40,
+        "width": 192,
+        "height": 41,
         "attachment": {
           "field": "sessions / companyUserReviewGiven",
           "fieldValue": "true"
@@ -495,7 +495,7 @@
         "id": "node1631620530726",
         "x": 2323,
         "y": 434,
-        "width": 123.921875,
+        "width": 110,
         "height": 71,
         "attachment": {
           "user": "mentor.mentors.owner"
@@ -517,7 +517,7 @@
         "id": "node1631620557279",
         "x": 2566,
         "y": 442,
-        "width": 195.515625,
+        "width": 180,
         "height": 40,
         "attachment": {
           "field": "sessions / mentorUserReviewGiven",
@@ -528,6 +528,74 @@
         "label": "Mentor User Review Given",
         "icon": "pen",
         "iconColor": "hsl(189, 87%, 50%)"
+      },
+      {
+        "id": "node1633958637498",
+        "x": 568.04,
+        "y": 169.2,
+        "width": 201,
+        "height": 40,
+        "attachment": {
+          "script": "//SEND COMPANY USER NOTIFICATION EMAIL\r\nlet dbCall = await tablesRef.child('companyUserProfiles/'+rowData.companyUser)\r\n      .once('value')\r\nlet results = dbCall.val()\r\n\r\n$log(results.owner)\r\n\r\nconst email = await getUserEmailByUID(results.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: You have a booking request to respond to!',\r\n            text: 'Hi ' + results.name + ', \\n\\r' + 'You have a session booking request from a mentor on our portal! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results.name + ', <br/>' + '<br/> You have a session booking request from a mentor on our portal! Please check your portal notifications to respond. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Email Task (Mentor-CompanyUser)",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1633959329261",
+        "x": 600.75,
+        "y": 394.4,
+        "width": 201,
+        "height": 40,
+        "attachment": {
+          "script": "//SEND COMPANY USER NOTIFICATION EMAIL\r\nlet dbCall = await tablesRef.child('mentors/'+rowData.mentor)\r\n      .once('value')\r\nlet results = dbCall.val()\r\n\r\n$log(results.owner)\r\n\r\nconst email = await getUserEmailByUID(results.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: You have a booking request to respond to!',\r\n            text: 'Hi ' + results.name + ', \\n\\r' + 'You have a session booking request from a company user on our portal! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results.name + ', <br/>' + '<br/> You have a session booking request from a company user on our portal! Please check your portal notifications to respond. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Email Task  (Company User->Mentor)",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1633959446104",
+        "x": 1462.03,
+        "y": 57.71,
+        "width": 201,
+        "height": 40,
+        "attachment": {
+          "script": "let dbCall = await tablesRef.child('mentors/'+rowData.mentor)\r\n      .once('value')\r\nlet results = dbCall.val()\r\n\r\n$log(results.owner)\r\n\r\nconst email = await getUserEmailByUID(results.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: Your booking request has been approved!',\r\n            text: 'Hi ' + results.name + ', \\n\\r' + 'You booking request has been approved by a company user! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results.name + ', <br/>' + '<br/> You booking request has been approved by a company user! Please check your portal notifications to respond. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Email Task (Mentor->CompanyUser) Response",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1633959638767",
+        "x": 1565.45,
+        "y": 412.01,
+        "width": 201,
+        "height": 41,
+        "attachment": {
+          "script": "//SEND COMPANY USER NOTIFICATION EMAIL\r\nlet dbCall = await tablesRef.child('companyUserProfiles/'+rowData.companyUser)\r\n      .once('value')\r\nlet results = dbCall.val()\r\n\r\n$log(results.owner)\r\n\r\nconst email = await getUserEmailByUID(results.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: Your booking request has been approved!',\r\n            text: 'Hi ' + results.name + ', \\n\\r' + 'You booking request has been approved by a mentor! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results.name + ', <br/>' + '<br/> You booking request has been approved by a mentor! Please check your portal notifications to respond. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Email Task (CompanyUser->Mentor) Response",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
       }
     ],
     "edges": [
@@ -556,22 +624,6 @@
         "label": "Mentor->CompanyUser",
         "targetLabel": "Update Record to Pending Company User APPROVE",
         "expression": "context.data.direction == \"Mentor->CompanyUser\"",
-        "type": {
-          "startPlug": "behind",
-          "color": "#5e73e4",
-          "size": 2,
-          "path": "grid",
-          "dash": null
-        }
-      },
-      {
-        "source": "node1613390095196-right",
-        "target": "node1613390323051",
-        "endSocket": "left",
-        "id": "line-1631013994704",
-        "instance": {},
-        "label": "Update Record to Pending Company User APPROVE",
-        "targetLabel": "Company User Approve",
         "type": {
           "startPlug": "behind",
           "color": "#5e73e4",
@@ -645,22 +697,6 @@
         }
       },
       {
-        "source": "node1613390905626-right",
-        "target": "node1613463136747",
-        "endSocket": "left",
-        "id": "line-1631014007717",
-        "instance": {},
-        "label": "Company User Update Record to Booked",
-        "targetLabel": "Did Session Happen? Company User",
-        "type": {
-          "startPlug": "behind",
-          "color": "#5e73e4",
-          "size": 2,
-          "path": "grid",
-          "dash": null
-        }
-      },
-      {
         "source": "connector-outcome1613463200440",
         "target": "node1615808033582",
         "endSocket": "left",
@@ -701,22 +737,6 @@
         "label": "CompanyUser->Mentor",
         "targetLabel": "Update Record to Pending MENTOR APPROVE",
         "expression": "context.data.direction == \"CompanyUser->Mentor\"",
-        "type": {
-          "startPlug": "behind",
-          "color": "#5e73e4",
-          "size": 2,
-          "path": "grid",
-          "dash": null
-        }
-      },
-      {
-        "source": "node1615900642216-right",
-        "target": "node1615907920654",
-        "endSocket": "left",
-        "id": "line-1631014021473",
-        "instance": {},
-        "label": "Update Record to Pending MENTOR APPROVE",
-        "targetLabel": "Mentor Approve",
         "type": {
           "startPlug": "behind",
           "color": "#5e73e4",
@@ -781,22 +801,6 @@
         "instance": {},
         "label": "Mentor Update Session Record to Rejected",
         "targetLabel": "Mentor Update Record to Rejected",
-        "type": {
-          "startPlug": "behind",
-          "color": "#5e73e4",
-          "size": 2,
-          "path": "grid",
-          "dash": null
-        }
-      },
-      {
-        "source": "node1615908052024-right",
-        "target": "node1615908105291",
-        "endSocket": "left",
-        "id": "line-1631014030735",
-        "instance": {},
-        "label": "Mentor Update Record to Booked",
-        "targetLabel": "Did Session Happen? Mentor",
         "type": {
           "startPlug": "behind",
           "color": "#5e73e4",
@@ -932,8 +936,133 @@
           "path": "grid",
           "dash": null
         }
+      },
+      {
+        "source": "node1613390095196-right",
+        "target": "node1633958637498",
+        "endSocket": "left",
+        "id": "line-1633958724322",
+        "label": "Update Record to Pending Company User APPROVE",
+        "targetLabel": "Email Task (Mentor-CompanyUser)",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1633958637498-right",
+        "target": "node1613390323051",
+        "endSocket": "left",
+        "id": "line-1633958727119",
+        "label": "Email Task (Mentor-CompanyUser)",
+        "targetLabel": "Company User Approve",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1615900642216-right",
+        "target": "node1633959329261",
+        "endSocket": "left",
+        "id": "line-1633959380001",
+        "label": "Update Record to Pending MENTOR APPROVE",
+        "targetLabel": "Email Task  (Company User->Mentor)",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1633959329261-right",
+        "target": "node1615907920654",
+        "endSocket": "left",
+        "id": "line-1633959382895",
+        "label": "Email Task  (Company User->Mentor)",
+        "targetLabel": "Mentor Approve",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1613390905626-right",
+        "target": "node1633959446104",
+        "endSocket": "left",
+        "id": "line-1633959467004",
+        "label": "Company User Update Record to Booked",
+        "targetLabel": "Email Task (Mentor->CompanyUser) Response",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1633959446104-right",
+        "target": "node1613463136747",
+        "endSocket": "left",
+        "id": "line-1633959468881",
+        "label": "Email Task (Mentor->CompanyUser) Response",
+        "targetLabel": "Did Session Happen? Company User",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1615908052024-right",
+        "target": "node1633959638767",
+        "endSocket": "left",
+        "id": "line-1633959774085",
+        "label": "Mentor Update Record to Booked",
+        "targetLabel": "Email Task (CompanyUser->Mentor) Response",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1633959638767-right",
+        "target": "node1615908105291",
+        "endSocket": "left",
+        "id": "line-1633959775605",
+        "label": "Email Task (CompanyUser->Mentor) Response",
+        "targetLabel": "Did Session Happen? Mentor",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
       }
-    ]
+    ],
+    "transform": {
+      "x": 595.4906165030661,
+      "y": 220.12799045731225,
+      "scale": 0.79485568504816
+    }
   },
   "name": "Sessions",
   "scheduled": false

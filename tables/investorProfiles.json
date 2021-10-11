@@ -1,0 +1,68 @@
+{
+  "-MlPcYZrAVenISnWST4B": {
+    "_created": true,
+    "_id": 1,
+    "aboutMe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "accType": "-MKorfvV-56oTz-K9J3t",
+    "adminRejected": "",
+    "createdDate": 1633608153914,
+    "dateOfBirth": "01/01/2003",
+    "isApproved": true,
+    "lastEditDate": 1633608260747,
+    "lastEditedBy": "r9ZEudSX8OSSXibhs2wzcP6teff1",
+    "linkedInProfileLink": "www.google.com",
+    "location": "-MJwtgUqBjMrFNntf6GH",
+    "name": "Investor",
+    "nextEvents": "Approve,Reject",
+    "owner": "r9ZEudSX8OSSXibhs2wzcP6teff1",
+    "profileImage": {
+      "fileName": "7ddf81f0-2766-11ec-b42c-9b756cc2fbcd_datagrid_profile_img.png",
+      "url": "https://firebasestorage.googleapis.com/v0/b/investment-portal---dev.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F7ddf81f0-2766-11ec-b42c-9b756cc2fbcd_datagrid_profile_img.png?alt=media&token=8516c877-2013-4d4b-bd3f-db96618b2279"
+    },
+    "rowKey": "-MlPcYZrAVenISnWST4B",
+    "secondName": "Test",
+    "state": "Accepted",
+    "submitPressed": true,
+    "user": "r9ZEudSX8OSSXibhs2wzcP6teff1"
+  },
+  "-MliPBRnfiRbQiexzj7d": {
+    "_id": 2,
+    "accType": "-MKorfvV-56oTz-K9J3t",
+    "createdDate": 1633939934499,
+    "dateOfBirth": "01/01/2003",
+    "isApproved": true,
+    "lastEditDate": 1633939978204,
+    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "location": "-MJwtgUqBjMrFNntf6GH",
+    "name": "Investor",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "profileImage": {
+      "fileName": "08cd43e0-2a6b-11ec-a71a-cb17da752514_datagrid_profile_img.png",
+      "url": "https://firebasestorage.googleapis.com/v0/b/investment-portal---dev.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F08cd43e0-2a6b-11ec-a71a-cb17da752514_datagrid_profile_img.png?alt=media&token=8722550c-601e-4175-8df5-4f0e8ad990f5"
+    },
+    "rowKey": "-MliPBRnfiRbQiexzj7d",
+    "secondName": "Test",
+    "submitPressed": true,
+    "user": "kcqPKqzwdwaerATjysdgpyqIp0R2"
+  },
+  "-MljMHFVvStSxafE-_uH": {
+    "_created": true,
+    "_id": 3,
+    "accType": "-MKorfvV-56oTz-K9J3t",
+    "adminRejected": "",
+    "createdDate": 1633955947814,
+    "dateOfBirth": "01/01/2003",
+    "isApproved": true,
+    "lastEditDate": 1633955956669,
+    "lastEditedBy": "pLxCNzY5y2Me4NbST5Xfywsel6o1",
+    "location": "-MJwtgUqBjMrFNntf6GH",
+    "name": "Test",
+    "nextEvents": "Approve,Reject",
+    "owner": "pLxCNzY5y2Me4NbST5Xfywsel6o1",
+    "rowKey": "-MljMHFVvStSxafE-_uH",
+    "secondName": "Investor :)",
+    "state": "Accepted",
+    "submitPressed": true,
+    "user": "pLxCNzY5y2Me4NbST5Xfywsel6o1"
+  }
+}

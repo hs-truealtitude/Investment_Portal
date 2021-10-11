@@ -1,25 +1,20 @@
 return function  () {
 
-//Get the row (programme)
-    let programmeRow = []
-    programmeRow = $dataGrid('programmeData')[$getUser('activeMyProgramme')]
-
-//Counter
-    let statCounter = programmeRow.sessionCount
+    //Get cohort rows (within programme)
+    let cohortsInProgramme = []
+    cohortsInProgramme = $getGrid('cohortData').filter(row => (row.programmes || '').includes($getUser('selectedProgramme')))
 
 //Get Number of Stats
     let total = 0
-    total = $getGrid('sessions').filter(row => row.programme == $getUser('activeMyProgramme') && (row.direction == "Mentor->CompanyUser" || row.direction == "CompanyUser->Mentor") && row.isBooked == true).length 
-
+    for (i = 0; i < cohortsInProgramme.length; i++){
+        total = total + $getGrid('sessions').filter(row => row.cohort == cohortsInProgramme[i].rowKey && (row.direction == "Mentor->CompanyUser" || row.direction == "CompanyUser->Mentor") && row.isBooked == true).length 
+    }
 //Apply new rows to stat counter
     
     if(total == 0){
         return 0
     }
     else{
-        statCounter = statCounter + total
-        return statCounter
-
+        return total
     }
-
 }

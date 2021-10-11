@@ -1,12 +1,13 @@
 return function  () {
 
-    let programmeRow = []
-    //Get the row (programme)
-    programmeRow = $dataGrid('programmeData')[$getUser('activeMyProgramme')]
+    //Get cohort rows (within programme)
+    let cohortsInProgramme = []
+    cohortsInProgramme = $getGrid('cohortData').filter(row => (row.programmes || '').includes($getUser('selectedProgramme')))
 
     let total = 0
-    //GET $COMPANIES Multi-lookup count/length 
-    total = Object.keys(programmeRow.$investors || {}).length
+    for (i = 0; i < cohortsInProgramme.length; i++){
+        total = total + Object.keys(cohortsInProgramme[i].$investors || {}).length
+    }
 
 return total
 }
