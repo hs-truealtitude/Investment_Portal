@@ -1018,9 +1018,7 @@
   },
   "-MfY3pbDLDDmNucJPSQ3": {
     "_id": 183,
-    "lastEditDate": 1633697094112,
-    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
-    "name": "Company User - View Investors",
+    "name": "Company User - My Programmes",
     "parent": "-MJq8S5uBs1u_yM3euO7",
     "rowKey": "-MfY3pbDLDDmNucJPSQ3",
     "tabKey": "-MfY3pV-fvW0uCQqFuxI"
@@ -1233,19 +1231,5 @@
     "parent": "-MVGOMKuIh-googB6Tth",
     "rowKey": "-MkgGHd-3sS8y6TC3L6f",
     "tabKey": "-MkgGHWtRIeTVlF3i0od"
-  },
-  "-MlPC7DfcLQyHziFUzQM": {
-    "_id": 216,
-    "name": "CohortStatsModal",
-    "parent": "-MKjMm5YwO4Q3EH68G_M",
-    "rowKey": "-MlPC7DfcLQyHziFUzQM",
-    "tabKey": "-MlPC77jFWHA2Ba06arC"
-  },
-  "-MlUS9jrkDTrOz01LF2A": {
-    "_id": 217,
-    "name": "ViewProgrammeModal",
-    "parent": "-MKjMm5YwO4Q3EH68G_M",
-    "rowKey": "-MlUS9jrkDTrOz01LF2A",
-    "tabKey": "-MlUS9cusHeFp8E2wkMd"
   }
 }

@@ -23,25 +23,5 @@
     "state": "Accepted",
     "submitPressed": true,
     "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2"
-  },
-  "-MljXF6G63UPM7N4Ex70": {
-    "_created": true,
-    "_id": 2,
-    "accType": "-MKorrb_8VyMmc1xRWzh",
-    "adminRejected": "",
-    "createdDate": 1633958822669,
-    "dateOfBirth": "01/01/2003",
-    "isApproved": true,
-    "lastEditDate": 1633958833057,
-    "lastEditedBy": "ikXhm0aqehRy2VDS85c2a8uZ1aC2",
-    "location": "-MJwtgUqBjMrFNntf6GH",
-    "name": "Hayden",
-    "nextEvents": "Approve,Reject",
-    "owner": "ikXhm0aqehRy2VDS85c2a8uZ1aC2",
-    "rowKey": "-MljXF6G63UPM7N4Ex70",
-    "secondName": "Sherwood",
-    "state": "Accepted",
-    "submitPressed": true,
-    "user": "ikXhm0aqehRy2VDS85c2a8uZ1aC2"
   }
 }
