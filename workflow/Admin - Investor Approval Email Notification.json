@@ -1,0 +1,65 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-Mlo58fY9-NK17rfKG44",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1634036048207",
+        "x": -274.2516911879959,
+        "y": 172.0204978031106,
+        "width": 104,
+        "height": 40,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1634036050205",
+        "x": 15.54,
+        "y": 173.8,
+        "width": 105,
+        "height": 40,
+        "attachment": {
+          "script": "const msg = {\r\n            to: 'portal@truealtitude.co.uk',\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: URGENT - Investor account(s) waiting for Approval!',\r\n            text: 'Hi Portal Admin \\n\\r' + 'There are Investor(s) waiting for approval! Please click here to login. Login with support@truealtitude.co.uk. portal.truealtitude.co.uk',\r\n            html: 'Hi Portal Admin, <br/>' + '<br/> There are Investor(s) waiting for approval! Login with support@truealtitude.co.uk. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Email Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1634036048207-right",
+        "target": "node1634036050205",
+        "endSocket": "left",
+        "id": "line-1634036064177",
+        "label": "Start Event",
+        "targetLabel": "Email Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": 522.0723018102286,
+      "y": 79.1701028892918,
+      "scale": 1.0248699850951326
+    }
+  },
+  "name": "Admin - Investor Approval Email Notification"
+}

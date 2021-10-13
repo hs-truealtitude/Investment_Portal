@@ -310,6 +310,16 @@ body{
     height: 130px;
 }
 
+.cohortCard .dot{
+    top: 20px;
+    right: 120px;
+    width: 15px;
+    height: 15px;
+    -webkit-box-shadow:0 0 10px #ef4437;
+    -moz-box-shadow: 0 0 10px #ef4437; 
+    box-shadow:0 0 10px #ef4437;
+}
+
 @media (max-width: 600px){
     .cohortCard .buttonContainer{
         height: 220px !important;

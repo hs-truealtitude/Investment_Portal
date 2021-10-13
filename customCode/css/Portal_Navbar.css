@@ -275,9 +275,9 @@ body {
 .nav-logo.right a {
     height: 100%;
     width: 100%;
-
-
 }
+
+
 
 .nav-logo.right a i {
     height: 100%;
@@ -417,6 +417,10 @@ img {
 .nav-logo.right.ui:hover {
         background-color: #ef4437;
     cursor: pointer;
+}
+
+.nav-top-contain{
+    height: 30px;
 }
 
 .nav-logo.right.ui.notif:hover {

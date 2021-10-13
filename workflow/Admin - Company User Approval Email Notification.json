@@ -1,0 +1,65 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-Mlo58fY9-NK17rfKG44",
+      "statusField": "mentors.status.sessionStatus"
+    },
+    "nodes": [
+      {
+        "id": "node1634035839908",
+        "x": -277.18,
+        "y": 135.89,
+        "width": 104,
+        "height": 41,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1634035841534",
+        "x": -43,
+        "y": 135.92,
+        "width": 106,
+        "height": 40,
+        "attachment": {
+          "script": "const msg = {\r\n            to: 'portal@truealtitude.co.uk',\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: URGENT - Company User account(s) waiting for Approval!',\r\n            text: 'Hi Portal Admin \\n\\r' + 'There are company user(s) waiting for approval! Please click here to login. Login with support@truealtitude.co.uk. portal.truealtitude.co.uk',\r\n            html: 'Hi Portal Admin, <br/>' + '<br/> There are company user(s) waiting for approval! Login with support@truealtitude.co.uk. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Email Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1634035839908-right",
+        "target": "node1634035841534",
+        "endSocket": "left",
+        "id": "line-1634035888828",
+        "label": "Start Event",
+        "targetLabel": "Email Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": 315.0723018102286,
+      "y": -113.8298971107082,
+      "scale": 1.0248699850951326
+    }
+  },
+  "name": "Admin - Company User Approval Email Notification"
+}

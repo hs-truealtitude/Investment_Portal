@@ -12,14 +12,11 @@
 @media only screen and (max-width: 1920px) {
     .nav-menu-link-box {
     }
-
-
-
 }
 
 @media only screen and (max-width: 1660px) {
     .nav-menu-link {
-        font-size: 15px !important;
+        font-size: 14px !important;
     }
     .foregroundContainer{
         margin-top: 480px;

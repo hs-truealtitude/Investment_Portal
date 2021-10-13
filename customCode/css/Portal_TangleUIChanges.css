@@ -45,8 +45,7 @@
 }
 
 .card-header .nav-tabs .active{
-    text-decoration: underline !important;
-    text-decoration-color: #ef4437 !important;;
+
 }
 
  /*Widget Margin Bottom */
@@ -60,7 +59,7 @@
  
 
 
-/* Hide container Element Admin Elements  
+/* Hide container Element Admin Elements  */ 
 
 
 
@@ -88,4 +87,3 @@
     color: white;
 }
 
-*/ 
