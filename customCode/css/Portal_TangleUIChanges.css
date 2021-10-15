@@ -59,9 +59,7 @@
  
 
 
-/* Hide container Element Admin Elements  */ 
-
-
+/* Hide container Element Admin Elements 
 
 .containerWidget__titleMenu svg{
     display: none !important;
@@ -86,4 +84,4 @@
 .dg-lookup-control a{
     color: white;
 }
-
+ */ 

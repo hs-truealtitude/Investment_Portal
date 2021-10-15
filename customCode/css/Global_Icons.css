@@ -5,3 +5,14 @@
 .social-icon-contain:hover{
     background-color: #ef4437 !important;
     }
+
+.card-body .fa-user{
+    color: #ef4437 !important;
+    opacity: 50%;
+    margin-top: 15px;
+}
+
+.cohortCard .fa-user{
+    color: #ef4437 !important;
+    opacity: 50%;
+}

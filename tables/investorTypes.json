@@ -1,0 +1,74 @@
+{
+  "-MlyLiS499d5V94qk0wD": {
+    "_id": 1,
+    "createdDate": 1634207458545,
+    "lastEditDate": 1634207506671,
+    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "name": "VC",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-MlyLiS499d5V94qk0wD"
+  },
+  "-MlyLigQlz9iMttP-MZB": {
+    "_id": 2,
+    "createdDate": 1634207459528,
+    "lastEditDate": 1634207515315,
+    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "name": "Angel",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-MlyLigQlz9iMttP-MZB"
+  },
+  "-MlyLiyhkRofnR4zU7uZ": {
+    "_id": 3,
+    "createdDate": 1634207460697,
+    "lastEditDate": 1634207520100,
+    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "name": "S/EIS Fund",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-MlyLiyhkRofnR4zU7uZ"
+  },
+  "-MlyLuETo2EUyjkQFIHN": {
+    "_id": 4,
+    "createdDate": 1634207506827,
+    "lastEditDate": 1634207525900,
+    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "name": "Equipment Finance",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-MlyLuETo2EUyjkQFIHN"
+  },
+  "-MlyLuOWsU259Fq4_GZz": {
+    "_id": 5,
+    "createdDate": 1634207507469,
+    "lastEditDate": 1634207531263,
+    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "name": "Venture Debt",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-MlyLuOWsU259Fq4_GZz"
+  },
+  "-MlyLuYDYrXCfTDQPJuO": {
+    "_id": 6,
+    "createdDate": 1634207508091,
+    "lastEditDate": 1634207534309,
+    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "name": "HEI",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-MlyLuYDYrXCfTDQPJuO"
+  },
+  "-MlyLufy-mPm-49we6ZE": {
+    "_id": 7,
+    "createdDate": 1634207508650,
+    "lastEditDate": 1634207542577,
+    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "name": "Corporate VC",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-MlyLufy-mPm-49we6ZE"
+  },
+  "-MlyLuuu1XOaNWk4dqaO": {
+    "_id": 8,
+    "createdDate": 1634207509606,
+    "lastEditDate": 1634207549500,
+    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "name": "Licensing Investor",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-MlyLuuu1XOaNWk4dqaO"
+  }
+}

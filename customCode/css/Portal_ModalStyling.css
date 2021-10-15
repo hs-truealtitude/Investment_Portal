@@ -219,3 +219,7 @@ color: white !important;
 .modal-content .card-body{
         padding: 10px;
 }
+
+.tabContainer{
+        margin-top: 20px !important;
+}

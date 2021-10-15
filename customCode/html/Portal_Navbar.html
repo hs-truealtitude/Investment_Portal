@@ -78,15 +78,15 @@
                   <!-- Investor Notifications Response -->
                   <li class="icon"
                      v-for='row in notificationListResponseInvestor'
-                     @click="redirectToCompanyUserorMentorPage(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true);" >
+                     @click="redirectToCompanyUserorMentorPage(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true); $setUser('unreadNotif', row.$cohort.rowKey);" >
                      <span class="text" v-if="row.$investor.name && row.$investor.secondName">{{row.$investor.name}} {{row.$investor.secondName}} has accepted your cohort invite</span>
                   </li>
-                  <!-- Investor->Company User Application Response -->
+                  <!-- Investor->Company User Application Response 
                   <li class="icon"
                      v-for='row in notificationListResponseInvestor'
                      @click="redirectToCompanyUserorMentorPage(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true);" >
                      <span class="text" v-if="row.$investor.name && row.$investor.secondName">{{row.$investor.name}} {{row.$investor.secondName}} has accepted your cohort invite</span>
-                  </li>
+                  </li>-->
                   <!-- Investor->CompanyUser (Invested In) Notifications -->
                   <li class="icon"
                      v-for='row in notificationListResponseInvestorInvestedIn'

@@ -1231,5 +1231,33 @@
     "parent": "-MVGOMKuIh-googB6Tth",
     "rowKey": "-MkgGHd-3sS8y6TC3L6f",
     "tabKey": "-MkgGHWtRIeTVlF3i0od"
+  },
+  "-MltbCmfE0yV3ltXKW5t": {
+    "_id": 216,
+    "name": "ViewProfileAndStatsModal",
+    "parent": "-MKjMm5YwO4Q3EH68G_M",
+    "rowKey": "-MltbCmfE0yV3ltXKW5t",
+    "tabKey": "-MltbCgz6IJjO3YC9gjX"
+  },
+  "-MlyLhCEGVY8n_NnX7AZ": {
+    "_id": 217,
+    "name": "Investor Type",
+    "parent": "-MKjMRYLakxQ3PwoiHv-",
+    "rowKey": "-MlyLhCEGVY8n_NnX7AZ",
+    "tabKey": "-MlyLh7HgI34_3rPxEJH"
+  },
+  "-MlyMLZB3h5s3VE_UOdd": {
+    "_id": 218,
+    "name": "Indirect Investor Types",
+    "parent": "-MKjMRYLakxQ3PwoiHv-",
+    "rowKey": "-MlyMLZB3h5s3VE_UOdd",
+    "tabKey": "-MlyMLU1CO8ChYWAhlDO"
+  },
+  "-Mm2cGNoeoYZwJ8e1l79": {
+    "_id": 219,
+    "name": "ViewInvestorAndStatsModal",
+    "parent": "-MKjMm5YwO4Q3EH68G_M",
+    "rowKey": "-Mm2cGNoeoYZwJ8e1l79",
+    "tabKey": "-Mm2cG6dgchfnmQCw8dW"
   }
 }

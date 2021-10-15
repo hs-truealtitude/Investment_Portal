@@ -19,10 +19,14 @@
   "-MlOjOtSjVSaWIUPk_C3": {
     "_id": 2,
     "createdDate": 1633593169961,
-    "lastEditDate": 1634028569893,
+    "lastEditDate": 1634217078311,
     "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
     "name": "Programme 1",
     "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "programmeLogo": {
+      "fileName": "379f6950-2cf0-11ec-b430-a1db57640f26_datagrid_profile_img.png",
+      "url": "https://firebasestorage.googleapis.com/v0/b/investment-portal---dev.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F379f6950-2cf0-11ec-b430-a1db57640f26_datagrid_profile_img.png?alt=media&token=36d19908-7e49-419a-bc1c-160eb75dc5a4"
+    },
     "programmeObjectives": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "programmePartner": "-MkCrUeakAp1NI5Pf-Il",
     "programmeSummary": "TEST Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
