@@ -43,12 +43,6 @@
       "type": "workflow",
       "workflow": "-MeyOVXiZSSm-ZjkMCqL"
     },
-    "investorTypes": {
-      "displayName": "Investor Types",
-      "lookUpTable": "investorTypes",
-      "order": 26,
-      "type": "multi_lookup"
-    },
     "isApproved": {
       "displayName": "IsApproved",
       "invisible": true,
@@ -298,51 +292,6 @@
                 "readonlyCondition": "rowData.owner != fbUser.uid"
               },
               {
-                "type": "multi_lookup",
-                "name": "control_60cb82a0-2cdc-11ec-a2f7-879f75befbaf",
-                "fieldName": "control_60cb82a0-2cdc-11ec-a2f7-879f75befbaf",
-                "label": "What is your Investor Types(s)?",
-                "order": 0,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-12",
-                "readonly": true,
-                "readonlyCondition": "rowData.owner != fbUser.uid",
-                "placeholder": "",
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "isTodayValueCreated": true,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isCurrentUser": false,
-                "isCurrentUserOwner": true,
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": false,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "mask": "",
-                "lookupOpenInModalDisabled": true,
-                "propName": "investorTypes",
-                "ableToAddLookUpVal": false,
-                "gridId": "investorProfiles",
-                "description": "Choose all that are applicable."
-              },
-              {
                 "type": "multiline_text",
                 "name": "control_4e190e10-0019-11ec-9e2a-cd4342be8f95",
                 "fieldName": "control_4e190e10-0019-11ec-9e2a-cd4342be8f95",
@@ -351,8 +300,8 @@
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
-                "readonly": true,
-                "readonlyCondition": "rowData.owner != fbUser.uid",
+                "readonly": false,
+                "readonlyCondition": "",
                 "placeholder": "",
                 "required": false,
                 "requiredCondition": "",
@@ -1392,7 +1341,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.9041074050058027
+    "_uniqueId": 0.1768873544491787
   },
   "source": "investorProfiles",
   "storageType": "dashboard",
@@ -1423,9 +1372,6 @@
         },
         "investorApproval": {
           "order": "17"
-        },
-        "investorTypes": {
-          "order": 26
         },
         "isApproved": {
           "invisible": true,
@@ -1533,9 +1479,6 @@
           "invisible": true,
           "order": 12
         },
-        "investorTypes": {
-          "order": 26
-        },
         "isApproved": {
           "invisible": false,
           "order": 0
@@ -1639,9 +1582,6 @@
         "investorApproval": {
           "order": "17"
         },
-        "investorTypes": {
-          "order": 26
-        },
         "isApproved": {
           "invisible": false,
           "order": "0"
@@ -1743,9 +1683,6 @@
         },
         "investorApproval": {
           "order": "17"
-        },
-        "investorTypes": {
-          "order": 26
         },
         "isApproved": {
           "invisible": true,

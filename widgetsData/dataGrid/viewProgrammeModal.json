@@ -205,15 +205,14 @@
                 "customCode": "",
                 "invisible": true,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
-                "propName": "nextEvents",
-                "gridId": "viewProgrammeModal"
+                "propName": "nextEvents"
               },
               {
                 "type": "text",
@@ -255,8 +254,7 @@
                 "customValidationErrorMessage": "",
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
-                "propName": "name",
-                "gridId": "viewProgrammeModal"
+                "propName": "name"
               },
               {
                 "type": "select",
@@ -291,15 +289,14 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
-                "propName": "layout",
-                "gridId": "viewProgrammeModal"
+                "propName": "layout"
               },
               {
                 "type": "user",
@@ -334,15 +331,14 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
-                "propName": "owner",
-                "gridId": "viewProgrammeModal"
+                "propName": "owner"
               },
               {
                 "type": "datepicker",

@@ -54,12 +54,6 @@
       "order": 9,
       "type": "multi_lookup"
     },
-    "indirectInvestorType": {
-      "displayName": "Indirect Investor Type",
-      "lookUpTable": "indirectInvestorTypes",
-      "order": 42,
-      "type": "multi_lookup"
-    },
     "interests": {
       "displayName": "Interests",
       "invisible": true,
@@ -457,51 +451,6 @@
                 "propName": "dateOfBirth",
                 "gridId": "mentors",
                 "format": "DD/MM/YYYY"
-              },
-              {
-                "type": "multi_lookup",
-                "name": "control_cca1d2a0-2cdb-11ec-a2f7-879f75befbaf",
-                "fieldName": "control_cca1d2a0-2cdb-11ec-a2f7-879f75befbaf",
-                "label": "What is your Indirect Investor Type(s)?",
-                "order": 0,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-12",
-                "readonly": true,
-                "readonlyCondition": "rowData.owner != fbUser.uid",
-                "placeholder": "",
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "isTodayValueCreated": true,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isCurrentUser": false,
-                "isCurrentUserOwner": true,
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": false,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "mask": "",
-                "lookupOpenInModalDisabled": true,
-                "propName": "indirectInvestorType",
-                "ableToAddLookUpVal": false,
-                "gridId": "mentors",
-                "description": "An indirect investor give their services in exchange for equity or funding, based on success or completion of services only."
               },
               {
                 "type": "text",
@@ -2103,7 +2052,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.3687627264890272
+    "_uniqueId": 0.6587370035243851
   },
   "source": "mentors",
   "storageType": "dashboard",
@@ -2142,9 +2091,6 @@
         },
         "daysAvailable": {
           "order": 35
-        },
-        "indirectInvestorType": {
-          "order": 42
         },
         "interests": {
           "invisible": true,
@@ -2310,9 +2256,6 @@
           "invisible": false,
           "order": 7
         },
-        "indirectInvestorType": {
-          "order": 42
-        },
         "interests": {
           "invisible": true,
           "order": 22
@@ -2476,9 +2419,6 @@
         "daysAvailable": {
           "order": 35
         },
-        "indirectInvestorType": {
-          "order": 42
-        },
         "interests": {
           "invisible": false,
           "order": "24"
@@ -2625,9 +2565,6 @@
         },
         "daysAvailable": {
           "order": 35
-        },
-        "indirectInvestorType": {
-          "order": 42
         },
         "interests": {
           "invisible": true,

@@ -310,10 +310,6 @@ body{
     height: 130px;
 }
 
-.cohortCard p{
-    color: black !important;
-}
-
 .cohortCard .dot{
     top: 20px;
     right: 120px;

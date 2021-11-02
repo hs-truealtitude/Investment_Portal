@@ -26,51 +26,27 @@
     "submitPressed": true,
     "user": "Q37VVEqcqUV1D6Fn6l5radpdc2F3"
   },
-  "-MlOtOBOQFRXrfvBNrV2": {
+  "-MlxrG_ldj3-1kjy6umI": {
     "_created": true,
     "_id": 2,
+    "aboutMe": "General Counsel of  True Altitude, with a background in IP, commercial, disputes, and privacy law. I also enjoy angel investing and supporting those early stage businesses however I can. ",
     "accType": "-MKorfvV-56oTz-K9J3t",
     "adminRejected": "",
-    "createdDate": 1633595790152,
-    "dateOfBirth": "01/01/2003",
+    "createdDate": 1634199214526,
+    "dateOfBirth": 273452400000,
     "isApproved": true,
-    "lastEditDate": 1633595798620,
+    "lastEditDate": 1634199416587,
     "lastEditedBy": "AsUNZDDYKIQQbX4GOi0X4gy6nrj2",
+    "linkedInProfileLink": "https://www.linkedin.com/in/charliewinckworth/",
     "location": "-MJwtgUqBjMrFNntf6GH",
     "name": "Charlie",
     "nextEvents": "Approve,Reject",
     "owner": "AsUNZDDYKIQQbX4GOi0X4gy6nrj2",
-    "rowKey": "-MlOtOBOQFRXrfvBNrV2",
+    "phoneNumber": "07976244732",
+    "rowKey": "-MlxrG_ldj3-1kjy6umI",
     "secondName": "Winckworth",
     "state": "Accepted",
-    "user": "AsUNZDDYKIQQbX4GOi0X4gy6nrj2"
-  },
-  "-Mm2QWdw3OhBjftTCVVQ": {
-    "_created": true,
-    "_id": 3,
-    "aboutMe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "accType": "-MKorfvV-56oTz-K9J3t",
-    "adminRejected": "",
-    "createdDate": 1634292604269,
-    "dateOfBirth": "01/01/2003",
-    "investorTypes": "-MlyLigQlz9iMttP-MZB",
-    "isApproved": true,
-    "lastEditDate": 1634294171113,
-    "lastEditedBy": "RezzRvH9N2b12MwMmYCPedN1lro1",
-    "linkedInProfileLink": "www.google.com",
-    "location": "-MJwtgUqBjMrFNntf6GH",
-    "name": "Test",
-    "nextEvents": "Approve,Reject",
-    "owner": "RezzRvH9N2b12MwMmYCPedN1lro1",
-    "phoneNumber": "07347323737",
-    "profileImage": {
-      "fileName": "1b14ad80-2da0-11ec-bf2e-93e300da376a_datagrid_profile_img.png",
-      "url": "https://firebasestorage.googleapis.com/v0/b/investment-portal---dev.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F1b14ad80-2da0-11ec-bf2e-93e300da376a_datagrid_profile_img.png?alt=media&token=98dd4ad6-c24b-4856-9b79-ba5e10b7a3b3"
-    },
-    "rowKey": "-Mm2QWdw3OhBjftTCVVQ",
-    "secondName": "Investor",
-    "state": "Accepted",
     "submitPressed": true,
-    "user": "RezzRvH9N2b12MwMmYCPedN1lro1"
+    "user": "AsUNZDDYKIQQbX4GOi0X4gy6nrj2"
   }
 }

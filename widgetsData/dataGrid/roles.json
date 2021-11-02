@@ -30,7 +30,7 @@
       "type": "string"
     },
     "pages": {
-      "Width": "677px",
+      "Width": "880px",
       "displayName": "Pages",
       "inherited": true,
       "invisible": false,
