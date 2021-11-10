@@ -2,11 +2,11 @@
   "accountType": "ProgrammePartner",
   "activeCohort": "-MmNYTDaxDVVZ26cgTNj",
   "activeMyCohort": "-MmNiuxqJTAGAF3H7pnO",
-  "activeMyProgramme": "-MmNYNw7JRDYnX6l93sA",
+  "activeMyProgramme": "-MnzUY_9M7zWcBrNNVvm",
   "activeProgramme": "-MlOjOtSjVSaWIUPk_C3",
-  "activeProgrammeName": "TEST",
+  "activeProgrammeName": "Demo",
   "commercialContracts_lastViews": "",
-  "companyProfiles_lastViews": "filteredCardList",
+  "companyProfiles_lastViews": "approvecompanyProfiles",
   "companyUserProfiles_lastViews": "",
   "cookieConsent": "true",
   "hideBack": "YES",
@@ -17,5 +17,5 @@
   "selectedMentor": "-Mkfn84Y347ep7mCQiGb",
   "selectedMentorName": "Lemon",
   "selectedMentorSecondName": "TEST",
-  "selectedProgramme": "-MmNYNw7JRDYnX6l93sA"
+  "selectedProgramme": "-MnzUY_9M7zWcBrNNVvm"
 }
