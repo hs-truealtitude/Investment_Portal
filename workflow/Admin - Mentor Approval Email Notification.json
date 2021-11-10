@@ -1,4 +1,5 @@
 {
+  "createEvent": true,
   "data": {
     "metaData": {
       "id": "-MljoMYuoZcatITpKHyV",
@@ -22,12 +23,12 @@
       },
       {
         "id": "node1633963594066",
-        "x": 216.54,
+        "x": 202.88,
         "y": 106.77,
         "width": 107,
         "height": 40,
         "attachment": {
-          "script": "const msg = {\r\n            to: 'portal@truealtitude.co.uk',\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: Mentor account waiting for Approval!',\r\n            text: 'Hi ' + results.name + ', \\n\\r' + 'There are mentor(s) waiting for approval! Please click here to login. Login with support@truealtitude.co.uk. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results.name + ', <br/>' + '<br/> There are mentor(s) waiting for approval! Login with support@truealtitude.co.uk. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+          "script": "const msg = {\r\n            to: 'portal@truealtitude.co.uk',\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: URGENT - Mentor account(s) waiting for Approval!',\r\n            text: 'Hi Portal Admin \\n\\r' + 'There are mentor(s) waiting for approval! Please click here to login. Login with support@truealtitude.co.uk. portal.truealtitude.co.uk',\r\n            html: 'Hi Portal Admin, <br/>' + '<br/> There are mentor(s) waiting for approval! Login with support@truealtitude.co.uk. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
         },
         "name": "script-task",
         "clazz": "scriptTask",
@@ -56,10 +57,11 @@
       }
     ],
     "transform": {
-      "x": 443.0723018102286,
-      "y": 235.1701028892918,
+      "x": 367.0723018102286,
+      "y": 127.1701028892918,
       "scale": 1.0248699850951326
     }
   },
-  "name": "Admin - Mentor Approval Email Notification"
+  "name": "Admin - Mentor Approval Email Notification",
+  "scheduled": false
 }

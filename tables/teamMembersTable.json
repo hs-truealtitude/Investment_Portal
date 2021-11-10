@@ -791,5 +791,53 @@
     "lastEditedBy": "f9v0OITMyEa9qwZLqh5q98NLDGQ2",
     "owner": "f9v0OITMyEa9qwZLqh5q98NLDGQ2",
     "rowKey": "-MjcygsNi3FpkcbXqgg1"
+  },
+  "-Mo4brh15MEv3kgMe3Ps": {
+    "_id": 85,
+    "companyProfiles": "-Mo4WRVE65KC-P6RUfdu",
+    "createdDate": 1636476876964,
+    "jobRole": "-MRK9mj0vIeouN-MO4MR",
+    "lastEditDate": 1636476924733,
+    "lastEditedBy": "I1ycoGu35LRR1VIkUHp9kmCSGAk2",
+    "linkedin": "https://www.linkedin.com/in/jittesj%C3%B6s%C3%A4ter/",
+    "name": "Jitte",
+    "owner": "I1ycoGu35LRR1VIkUHp9kmCSGAk2",
+    "rowKey": "-Mo4brh15MEv3kgMe3Ps",
+    "secondName": "Sjösäter"
+  },
+  "-Mo4c3eg7iNP2DYdYmHi": {
+    "_id": 86,
+    "companyProfiles": "-Mo4WRVE65KC-P6RUfdu",
+    "createdDate": 1636476930061,
+    "jobRole": "-MRK9yMtECrx5htaxWIM",
+    "lastEditDate": 1636476946837,
+    "lastEditedBy": "I1ycoGu35LRR1VIkUHp9kmCSGAk2",
+    "name": "Assi ",
+    "owner": "I1ycoGu35LRR1VIkUHp9kmCSGAk2",
+    "rowKey": "-Mo4c3eg7iNP2DYdYmHi",
+    "secondName": "Süer "
+  },
+  "-Mo4c9vBgu5d7DMqFSHz": {
+    "_id": 87,
+    "companyProfiles": "-Mo4WRVE65KC-P6RUfdu",
+    "createdDate": 1636476955693,
+    "jobRole": "-MRKAX1MnKyocbiwgbJc",
+    "lastEditDate": 1636476993617,
+    "lastEditedBy": "I1ycoGu35LRR1VIkUHp9kmCSGAk2",
+    "name": "Marella",
+    "owner": "I1ycoGu35LRR1VIkUHp9kmCSGAk2",
+    "rowKey": "-Mo4c9vBgu5d7DMqFSHz",
+    "secondName": "Mura"
+  },
+  "-Mo4cNUQ2ToJR32h9WJt": {
+    "_id": 88,
+    "companyProfiles": "-Mo4WRVE65KC-P6RUfdu",
+    "createdDate": 1636477011260,
+    "lastEditDate": 1636477034338,
+    "lastEditedBy": "I1ycoGu35LRR1VIkUHp9kmCSGAk2",
+    "name": "Marcus",
+    "owner": "I1ycoGu35LRR1VIkUHp9kmCSGAk2",
+    "rowKey": "-Mo4cNUQ2ToJR32h9WJt",
+    "secondName": " "
   }
 }

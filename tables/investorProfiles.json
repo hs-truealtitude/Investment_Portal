@@ -1,68 +1,52 @@
 {
-  "-MlPcYZrAVenISnWST4B": {
+  "-MlAO973DLUSZMgW2ksD": {
     "_created": true,
     "_id": 1,
-    "aboutMe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "aboutMe": "Investment Director at True Altitude where Harrison sources and executes funding opportunities from Seed-Series B.\n\nDiverse background in the technology industry, from scaling a FinTech startup, to driving digital transformation in major global financial institutions. Previous experience at Xinja, Australia’s first neo-bank, and working within IBM’s Strategic Deals team for £10m+ deals in Financial Services, constructing, selling and negotiating multi-year strategic relationships",
     "accType": "-MKorfvV-56oTz-K9J3t",
     "adminRejected": "",
-    "createdDate": 1633608153914,
-    "dateOfBirth": "01/01/2003",
+    "createdDate": 1633352458765,
+    "dateOfBirth": 964825200000,
     "isApproved": true,
-    "lastEditDate": 1633608260747,
-    "lastEditedBy": "r9ZEudSX8OSSXibhs2wzcP6teff1",
-    "linkedInProfileLink": "www.google.com",
+    "lastEditDate": 1633374987594,
+    "lastEditedBy": "Q37VVEqcqUV1D6Fn6l5radpdc2F3",
+    "linkedInProfileLink": "https://www.linkedin.com/in/harrison-emmett-lee",
     "location": "-MJwtgUqBjMrFNntf6GH",
-    "name": "Investor",
+    "name": "Harrison",
     "nextEvents": "Approve,Reject",
-    "owner": "r9ZEudSX8OSSXibhs2wzcP6teff1",
+    "owner": "Q37VVEqcqUV1D6Fn6l5radpdc2F3",
+    "phoneNumber": "07866499855",
     "profileImage": {
-      "fileName": "7ddf81f0-2766-11ec-b42c-9b756cc2fbcd_datagrid_profile_img.png",
-      "url": "https://firebasestorage.googleapis.com/v0/b/investment-portal---dev.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F7ddf81f0-2766-11ec-b42c-9b756cc2fbcd_datagrid_profile_img.png?alt=media&token=8516c877-2013-4d4b-bd3f-db96618b2279"
+      "fileName": "26be3a10-2513-11ec-bfe2-bfd8a422e9ac_datagrid_profile_img.png",
+      "url": "https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F26be3a10-2513-11ec-bfe2-bfd8a422e9ac_datagrid_profile_img.png?alt=media&token=18f0bd63-4b9b-4ab3-985a-883bcb3443a0"
     },
-    "rowKey": "-MlPcYZrAVenISnWST4B",
-    "secondName": "Test",
+    "rowKey": "-MlAO973DLUSZMgW2ksD",
+    "secondName": "Emmett-Lee",
     "state": "Accepted",
     "submitPressed": true,
-    "user": "r9ZEudSX8OSSXibhs2wzcP6teff1"
+    "user": "Q37VVEqcqUV1D6Fn6l5radpdc2F3"
   },
-  "-MliPBRnfiRbQiexzj7d": {
-    "_id": 2,
-    "accType": "-MKorfvV-56oTz-K9J3t",
-    "createdDate": 1633939934499,
-    "dateOfBirth": "01/01/2003",
-    "isApproved": true,
-    "lastEditDate": 1633939978204,
-    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
-    "location": "-MJwtgUqBjMrFNntf6GH",
-    "name": "Investor",
-    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
-    "profileImage": {
-      "fileName": "08cd43e0-2a6b-11ec-a71a-cb17da752514_datagrid_profile_img.png",
-      "url": "https://firebasestorage.googleapis.com/v0/b/investment-portal---dev.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F08cd43e0-2a6b-11ec-a71a-cb17da752514_datagrid_profile_img.png?alt=media&token=8722550c-601e-4175-8df5-4f0e8ad990f5"
-    },
-    "rowKey": "-MliPBRnfiRbQiexzj7d",
-    "secondName": "Test",
-    "submitPressed": true,
-    "user": "kcqPKqzwdwaerATjysdgpyqIp0R2"
-  },
-  "-MljMHFVvStSxafE-_uH": {
+  "-MlxrG_ldj3-1kjy6umI": {
     "_created": true,
-    "_id": 3,
+    "_id": 2,
+    "aboutMe": "General Counsel of  True Altitude, with a background in IP, commercial, disputes, and privacy law. I also enjoy angel investing and supporting those early stage businesses however I can. ",
     "accType": "-MKorfvV-56oTz-K9J3t",
     "adminRejected": "",
-    "createdDate": 1633955947814,
-    "dateOfBirth": "01/01/2003",
+    "createdDate": 1634199214526,
+    "dateOfBirth": 273452400000,
     "isApproved": true,
-    "lastEditDate": 1633955956669,
-    "lastEditedBy": "pLxCNzY5y2Me4NbST5Xfywsel6o1",
+    "lastEditDate": 1634199416587,
+    "lastEditedBy": "AsUNZDDYKIQQbX4GOi0X4gy6nrj2",
+    "linkedInProfileLink": "https://www.linkedin.com/in/charliewinckworth/",
     "location": "-MJwtgUqBjMrFNntf6GH",
-    "name": "Test",
+    "name": "Charlie",
     "nextEvents": "Approve,Reject",
-    "owner": "pLxCNzY5y2Me4NbST5Xfywsel6o1",
-    "rowKey": "-MljMHFVvStSxafE-_uH",
-    "secondName": "Investor :)",
+    "owner": "AsUNZDDYKIQQbX4GOi0X4gy6nrj2",
+    "phoneNumber": "07976244732",
+    "rowKey": "-MlxrG_ldj3-1kjy6umI",
+    "secondName": "Winckworth",
     "state": "Accepted",
     "submitPressed": true,
-    "user": "pLxCNzY5y2Me4NbST5Xfywsel6o1"
+    "user": "AsUNZDDYKIQQbX4GOi0X4gy6nrj2"
   }
 }

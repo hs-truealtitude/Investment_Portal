@@ -61,10 +61,6 @@
         $setCurrentTab('-MVGOMA1-ifNurWKHxUf')
       }
     }
-
-
-
-
   }
 
   //ADMIN ONLY TEMPORARY FIX

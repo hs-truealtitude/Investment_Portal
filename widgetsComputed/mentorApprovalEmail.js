@@ -1,6 +1,6 @@
 return function(){
     console.log("TEST")
 
-    this.$wfGetData('-MljoMYuoZcatITpKHyV')
+   this.$wfCall('-MljoMYuoZcatITpKHyV')
 return null
 }

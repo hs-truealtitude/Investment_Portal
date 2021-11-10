@@ -169,6 +169,10 @@ font-size: 15px;
         box-shadow: 0px 0px;
 }
 
+.btn:hover{
+        background-color: red !important;
+}
+
 .card-body p{
         font-family: 'Grenette pro', sans-serif !important;
 }
