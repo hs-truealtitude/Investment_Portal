@@ -1,10 +1,11 @@
-return function  () {
+return function  (programmeKey) {
 
     let cohortsInProgramme = []
     //Get the row (Cohort)
-    cohortsInProgramme = $getGrid('cohortData').filter(row => (row.programmes || '').includes($getUser('selectedProgramme')))
+    cohortsInProgramme = $getGrid('cohortData').filter(row => (row.programmes || '').includes(programmeKey))
 
 return cohortsInProgramme
+
 }
 
 

@@ -1,13 +1,13 @@
-/*When milestones are being displayed*/
-
+/* Company milestones styling */
 .rm {
     all: revert;
-  }
+}
 
 ul.timeline {
     list-style-type: none;
     position: relative;
 }
+
 ul.timeline:before {
     content: ' ';
     background: #696969;
@@ -18,10 +18,12 @@ ul.timeline:before {
     height: 100%;
     z-index: 1;
 }
+
 .timeRow {
     margin: 20px 0;
     padding-left: 20px;
 }
+
 .timeRow:before {
     content: ' ';
     background: #fffaf3;
@@ -39,6 +41,7 @@ ul.timeline:before {
     margin: 20px 0;
     padding-left: 20px;
 }
+
 .timeRowRed:before {
     content: ' ';
     background: #fffaf3;

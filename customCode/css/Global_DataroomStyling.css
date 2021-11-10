@@ -1,3 +1,4 @@
+/* Company dataroom pages styling */
 .form-block .block-bottom{
     visibility: hidden;
 }
@@ -11,15 +12,15 @@
 }
 
 .guiSectionItem .nav-tabs .active {
-font-weight: bold !important;
+    font-weight: bold !important;
 }
 
 .head-table {
-visibility: hidden;
+    visibility: hidden;
 }
 
 .card{
-        border: 0px solid rgba(0, 0, 0, 0.2);
+    border: 0px solid rgba(0, 0, 0, 0.2);
 }
 
 .nav-item a{
@@ -41,17 +42,16 @@ visibility: hidden;
 
 /* Dataroom Form Border */
 .widgetContent .dataGridEditRow{
-  border: 1px solid black;
+    border: 1px solid black;
 }
 
 /* Dataroom Cards - No Border */
 .dataGridEditRow .noEditDataGridCard{
-      border: 0px solid black !important;
+    border: 0px solid black !important;
 }
 
 .widgetContent h1{
     letter-spacing: 2px;
-    
     font-weight: 400 !important;
     color: black !important;
 }
@@ -69,11 +69,9 @@ visibility: hidden;
 }
 
 .dataGridEditRow ._isViewTemplate{
-          border: 0px solid black !important;
-
+    border: 0px solid black !important;
 }
 
 .data-grid__table-wrapper .card{
-              border: 0px solid black !important;
-
+    border: 0px solid black !important;
 }

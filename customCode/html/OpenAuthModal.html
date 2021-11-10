@@ -1,0 +1,19 @@
+  <b-modal class="openAuthModal" id="openAuthModal" title="Your link">
+    <h1 style="padding-top: -100px;" class="">Your link:</h1>
+    <p> This is a referral link. Use this to invite new users to the portal. </p>
+    <p> Please note: If you would like to test this link, please open it in a different broswer as it may sign you out of your current session. </p>
+    
+    <div class="linkTextContainer">
+      <p id="linkText" class="linkText">
+
+      {{$getUser('activeGeneratedLink')}}
+
+      </p>
+    </div>
+    
+    <button @click="textCopied('linkText')" id="textCopied" class="myButton">Copy link
+      <i  style="margin-left: 5px !important;" class="fas fa-copy"></i>
+    </button>
+
+
+  </b-modal>

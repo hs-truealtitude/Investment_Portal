@@ -1,3 +1,4 @@
+/* Force add card Tangle UI */
 .dashboard__content,
 .dashboard__content button,
 .dashboard__content input,
@@ -13,21 +14,20 @@
 .dashboard__content {
     padding-top: 0;
 }
+
 .dashboard {
     margin-top: 0 !important;
 }
-.sidenav.navbar {
-    //display: none !important;
-}
+
 .dashboard__wrapper {
     margin-left: 0 !important;
     padding-bottom: 0 !important;
 }
 
-
 .sidenav{
     display: none !important;
 }
+
 .topNavigation:before {
     content: '';
     position: absolute;
@@ -43,22 +43,26 @@
     background-position-x: center;
     background-size: cover;
 }
+
 .custom-logo-link {
     transition: opacity .2s ease-in-out;
     margin-left: 28%;
 }
+
 .custom-logo-link:hover {
     opacity: .7;
 }
+
 .sidebarMobileTrigger {
     display: none !important;
 }
+
 .dashboard__wrapper._navInSideBar .dashboard__content {
     padding: 0;
 }
+
 .sc-launcher{
     display: none !important;
-
 }
 
 .logomark {
@@ -74,8 +78,8 @@
 }
 
 .splitpanes__pane{
-z-index: 1000;
-border: 1px solid whitesmoke;
+    z-index: 1000;
+    border: 1px solid whitesmoke;
 }
 
 .i-success{
@@ -83,5 +87,4 @@ border: 1px solid whitesmoke;
     z-index: 1000;
     position: fixed;
     margin-top: -6px;
-
 }

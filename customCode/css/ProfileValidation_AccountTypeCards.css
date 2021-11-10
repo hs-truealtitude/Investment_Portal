@@ -1,0 +1,48 @@
+#cardContainer{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 650px;
+    height: 100px;
+    z-index: 2;
+    display: none;
+    animation: fadeInAnimation ease 1s !important;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.cardContainer .typeDescription{
+    margin-top: 120px;   
+    background-color: #fffaf3;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+@media only screen and (max-width: 1100px) {
+    #cardContainer{
+        width: 80%;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #cardContainer li{
+        font-size: 11px;
+    }
+    #cardContainer h1{
+        font-size: 14px;
+    }
+}
+

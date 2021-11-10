@@ -1,8 +1,8 @@
-/*This centers the card lists on all devices including mobile*/
+/*This attempts to center the card lists on all devices including mobile*/
 
 @media screen and (max-width: 768px) {
     .companyProfilesList .widget-card-list__item {
-        width: 100% !important;
+    width: 100% !important;
     }
 }
 

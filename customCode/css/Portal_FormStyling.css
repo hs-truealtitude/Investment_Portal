@@ -1,10 +1,15 @@
+/* Tangle form component styling */
 .dataGridEditRow{
     background-color: #fffaf3 !important;
     border: 1px solid black !important;
 }
 
+.card-header{
+    background-color: #fffaf3 !important;
+}
+
 .dataGridEditRow .badge-wrapper{
-        background-color: #fffaf3 !important;
+    background-color: #fffaf3 !important;
 }
 
 .dataGridEditRow .badge-wrapper a{
@@ -16,7 +21,10 @@
     font-family: 'Grenette pro', sans-serif !important; 
     color: black !important;   
     border-radius: 0px !important;
+}
 
+.dataGridEditRow .invalid-feedback{
+    background-color: #fffaf3 !important;
 }
 
 .dataGridEditRow input{
@@ -24,8 +32,9 @@
     border-radius: 0px !important;
     font-family: 'Grenette pro', sans-serif !important; 
     color: black !important;   
-            background-color: white !important;
+    background-color: white !important;
 }
+
 .dg-lookup-control{
     background-color: white !important;
     border-radius: 0px !important;
@@ -54,20 +63,11 @@
     border-bottom: 2px solid #ef4437 !important;
 }
 
-/*
-.form-builder-root span{
-    font-family: 'Grenette pro', sans-serif !important; 
-    font-size: 0.85rem;
-    color: black !important;  
-
-}*/
-
 .controlItem{
     background-color: #fffaf3 !important;
 }
 
 .form-block input{
-    /* max-height: 30px; */
     margin-bottom: 0px;
 } 
 
@@ -147,10 +147,7 @@
 }
 
 .grid-stack-item-content h-100 ._hasTitle{
- display: none;
-}
-
-.vs__dropdown-menu{
+    display: none;
 }
 
 .vs__dropdown-menu .vs__dropdown-option--highlight{
@@ -159,4 +156,9 @@
 
 .v-select{
     background-color: white;
+}
+
+/*Tangle Tabs Styling*/
+.tangle-tabs .card-header .nav-item .nav-link.active:before{
+    background-color: #ef4437 !important;
 }

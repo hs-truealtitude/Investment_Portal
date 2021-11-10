@@ -34,34 +34,24 @@
     vertical-align: -2px;
 }
 
-/*
-.widget-card-list .card{
-     border: 1px solid grey;
-}
-8?
+
 /* For Nav Elements */
 .guiSectionItem .nav-tabs.active {
   font-weight: bold !important;
 }
 
-.card-header .nav-tabs .active{
-
+/*Widget Margin Bottom */
+.dashboard__content{
+    margin-bottom: 60px !important;
 }
 
- /*Widget Margin Bottom */
- .dashboard__content{
-     margin-bottom: 60px !important;
- }
-
- .widgetContent{
-     margin-bottom: 60px !important;
- }
+.widgetContent{
+    margin-bottom: 60px !important;
+}
  
 
 
-/* Hide container Element Admin Elements  */ 
-
-
+/* Hide container Element Admin Elements
 
 .containerWidget__titleMenu svg{
     display: none !important;
@@ -86,4 +76,8 @@
 .dg-lookup-control a{
     color: white;
 }
+
+ */
+
+
 

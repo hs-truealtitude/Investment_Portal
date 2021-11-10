@@ -78,15 +78,15 @@
                   <!-- Investor Notifications Response -->
                   <li class="icon"
                      v-for='row in notificationListResponseInvestor'
-                     @click="redirectToCompanyUserorMentorPage(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true);" >
+                     @click="redirectToCompanyUserorMentorPage(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true); $setUser('unreadNotif', row.$cohort.rowKey);" >
                      <span class="text" v-if="row.$investor.name && row.$investor.secondName">{{row.$investor.name}} {{row.$investor.secondName}} has accepted your cohort invite</span>
                   </li>
-                  <!-- Investor->Company User Application Response -->
+                  <!-- Investor->Company User Application Response 
                   <li class="icon"
                      v-for='row in notificationListResponseInvestor'
                      @click="redirectToCompanyUserorMentorPage(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true);" >
                      <span class="text" v-if="row.$investor.name && row.$investor.secondName">{{row.$investor.name}} {{row.$investor.secondName}} has accepted your cohort invite</span>
-                  </li>
+                  </li>-->
                   <!-- Investor->CompanyUser (Invested In) Notifications -->
                   <li class="icon"
                      v-for='row in notificationListResponseInvestorInvestedIn'
@@ -160,18 +160,24 @@
    </div>
    <div class="nav-logo right ui notNotif">
       <a @click="backToDashboard()" target="_blank">
-      <i class="fas fa-home"></i>
+        <i class="fas fa-home"></i>
       </a>
    </div>
    <div class="nav-logo right ui notNotif">
-      <a @click="directAccountViewProfile()" target="_blank">
-      <i style=""class="fas fa-user"></i>
+      <a class="profileHover" @click="directAccountViewProfile()" target="_blank">
+        <i style=""class="fas fa-user"></i>
+        <div class="profileDropdown">
+            <ul style="height: 100%;" class="profileMenu">
+                <li @click="directAccountViewProfile()" class="viewProfile"><p> My Profile </p></li>
+                <li @click='$signOut()' class="signOut"><p> Sign Out </p></li>
+            </ul>
+        </div>
       </a>
    </div>
    <div class="nav-logo right ui notNotif bug  end">
       <a @click="giveFeedback()" target="_blank">
       <span class="tooltiptext">Report an issue or bug</span>
-      <i class="fas fa-bug">
+        <i class="fas fa-bug">
       </a>
    </div>
    <div v-if="userRoles && userRoles.includes('Admin')" class="nav-logo right ui admin">

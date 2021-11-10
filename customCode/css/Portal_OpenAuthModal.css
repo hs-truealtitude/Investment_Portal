@@ -1,0 +1,30 @@
+#openAuthModal .show .btn-secondary{
+    display: none !important;
+}
+
+.modal-header{
+    height: auto;
+}
+
+#openAuthModal .modal-footer{
+    display: none !important;
+}
+
+
+#openAuthModal #textCopied{
+    width: 100%;
+}
+
+#openAuthModal .linkTextContainer{
+    background-color: white;
+    padding: 8px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+
+#openAuthModal .linkText{
+    padding: 5px;
+    word-wrap: break-word;
+}
+

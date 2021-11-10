@@ -1,0 +1,65 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-Mo91EglrHxayllA7DaV",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1636550917516",
+        "x": 743.9699633613151,
+        "y": 274.48482929721763,
+        "width": 104,
+        "height": 41,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1636550920286",
+        "x": 1001.8784162493121,
+        "y": 273.22673928312986,
+        "width": 107,
+        "height": 40,
+        "attachment": {
+          "script": "const authLinkGenerated = await generateAuthLink({\r\n    redirectUrl: '/dashboard/-MhsbxHaHHybrPYZ2mCu?tab=-MmIIsHE-irxCHjAxrNf&subtab=-Mo91VFTl9tL264ib_vW',\r\n    origin: data.origin,\r\n    rowKey: data.rowKey,\r\n})\r\n\r\nconst { user } = authLinkGenerated\r\n\r\nif (user) {\r\n    await addUser({\r\n      uid: user.uid,\r\n      dashboard: data.dashboard,\r\n      rules: { read: true },\r\n    })\r\n}\r\n\r\ncontext.data.authLinkGenerated = authLinkGenerated\r\n\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1636550917516-right",
+        "target": "node1636550920286",
+        "endSocket": "left",
+        "id": "line-1636550926485",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": -624.7711600332351,
+      "y": -70.53031115763577,
+      "scale": 0.8469999938409639
+    }
+  },
+  "name": "generateAuthLink_DetailedCompany"
+}

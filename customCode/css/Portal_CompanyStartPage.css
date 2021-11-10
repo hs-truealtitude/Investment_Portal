@@ -1,3 +1,4 @@
+/* Company User Landing page */
 .companyNavContainer {
     position: absolute;
     margin: auto;
@@ -9,6 +10,7 @@
     height: 200px;
 }
 
+/* Mobile styling */
 @media only screen and (max-width: 1600px) {
 .companyNavContainer .Ncard{
     width: 250px !important;
@@ -39,8 +41,5 @@
 }
 .companyNavContainer{
     margin-bottom: 300px !important;
-
 }
-
-
 }
