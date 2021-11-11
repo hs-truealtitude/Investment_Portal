@@ -1,5 +1,16 @@
+/* Tangle modal styling */
 .modal-body .ml-auto{
         display: none !important;
+}
+
+.modal-content .card-header{
+    background-color: #fffaf3;
+}
+
+
+.modal-content .nav-link{
+    font-family: 'Grenette pro', sans-serif !important;
+    color: black;
 }
 
 .modal-title{
@@ -27,6 +38,7 @@
         background-color: #fffaf3;
         border-bottom: 0px solid rgba(0, 0, 0, 0.05);
 }
+
 
 .modal-content .invalid-feedback{
         background-color: #fffaf3;
@@ -168,6 +180,10 @@ font-size: 15px;
         box-shadow: 0px 0px;
 }
 
+.btn:hover{
+        background-color: red !important;
+}
+
 .card-body p{
         font-family: 'Grenette pro', sans-serif !important;
 }
@@ -213,4 +229,8 @@ color: white !important;
 
 .modal-content .card-body{
         padding: 10px;
+}
+
+.tabContainer{
+        margin-top: 20px !important;
 }

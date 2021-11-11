@@ -11,7 +11,7 @@
     "text": "Standard"
   },
   "offSet": 0,
-  "overflow": "height:auto",
+  "overflow": "height: auto;",
   "perPage": 2,
   "styles": "",
   "subtab": "-MTBaTKGIcwibyRfP6Un",

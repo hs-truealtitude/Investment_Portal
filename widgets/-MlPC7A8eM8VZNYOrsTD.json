@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/cohortStatsModal",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "cohortStatsModal"
+  },
+  "subtab": "-MlPC77jFWHA2Ba06arC",
+  "tab": "-MKjMm1cJNwP3sVETeGP",
+  "type": "DataGrid"
+}

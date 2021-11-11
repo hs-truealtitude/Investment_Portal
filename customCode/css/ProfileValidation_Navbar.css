@@ -193,10 +193,10 @@ body {
 .nav-logo.left.w--current {
     cursor: pointer;
 }
+
 .nav-logo.left {
     border-right: 1px solid #000;
     cursor: pointer;
-
 }
 
 .nav-logo-text {
@@ -219,8 +219,6 @@ body {
     letter-spacing: 0.05em;
 }
 
-
-
 .nav-logo {
     display: -webkit-box;
     display: -webkit-flex;
@@ -240,6 +238,7 @@ body {
     -ms-flex-pack: start !important;
     justify-content: flex-start !important;
 }
+
 .w-nav-brand {
     position: relative;
     float: left;
@@ -383,10 +382,6 @@ img {
     cursor: pointer;
 }
 
-.nav-logo.right.ui.notif{
-    
-}
-
 .nav-logo-text{
     border-right: 1px solid #000;
 }
@@ -400,11 +395,9 @@ img {
     object-fit: cover;
 }
 
-
 element.style {
     opacity: 1;
 }
-
 
 .nav-logo-text.back:hover {
     background-color: #ef4437;
@@ -422,7 +415,6 @@ element.style {
     border-right: 1px solid #000;
     background-color: #fffaf3;
 }
-
 
 .border-right {
     position: fixed;

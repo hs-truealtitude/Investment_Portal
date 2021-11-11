@@ -3,7 +3,7 @@
   "classes": "",
   "detailTemplate": "",
   "gsOptions": {
-    "h": 8,
+    "h": 2,
     "w": 20,
     "x": 2,
     "y": 3
@@ -17,6 +17,6 @@
   "styles": "",
   "subtab": "-Mj-Q3txJ5KcUXArNJy5",
   "tab": "-MJq8S1suwASZ84EkCd5",
-  "template": "<div class=\"cohortData\" style=\"border-bottom: 2px solid black;\">\r\n  <center>\r\n    <h1 style=\"margin-top: 20px; text-decoration: underline;  font-size: 2.8em;  text-decoration-color: #ef4437;;\">{{$getUser('activeCohortName')}}</h1>\r\n  </center>\r\n\r\n  <div class=\"row\" style=\"margin-top: 60px; color:black; \">\r\n\r\n    <div class=\"col\">\r\n      <center>\r\n        <h1> Investors </h1>\r\n        <h1 style=\"font-size: 2.5em; color:black;\">{{cohortCountInvestors()}}</h1>\r\n      </center>\r\n    </div>\r\n\r\n    <div class=\"col\">\r\n      <center>\r\n        <h1> Companies </h1>\r\n        <h1 style=\"font-size: 2.5em;\">{{cohortCountCompanies()}}</h1>\r\n      </center>\r\n    </div>\r\n\r\n    <div class=\"col\">\r\n      <center>\r\n        <h1> Company Representatives </h1>\r\n        <h1 style=\"font-size: 2.5em;\">{{cohortCountCompanyUsers()}}</h1>\r\n      </center>\r\n    </div>\r\n\r\n    <div v-if=\"$getUser('accountType') == 'ProgrammePartner'\" class=\"col\">\r\n      <center>\r\n        <h1> Mentors </h1>\r\n        <h1 style=\"font-size: 2.5em;\">{{cohortCountMentors()}}</h1>\r\n      </center>\r\n    </div>\r\n\r\n  </div>\r\n\r\n</div>",
+  "template": "<div class=\"cohortData\" style=\"border-bottom: 2px solid black;\">\r\n  <center>\r\n    <h1 style=\"margin-top: 20px; text-decoration: underline;  font-size: 2.8em;  text-decoration-color: #ef4437;;\">{{$getUser('activeCohortName')}}</h1>\r\n  </center>\r\n\r\n  <div class=\"row\" style=\"margin-top: 60px; color:black; \">\r\n\r\n    <div class=\"col\">\r\n      <center>\r\n        <h1> Investors </h1>\r\n        <h1 style=\"font-size: 2.5em; color:black;\">{{cohortCountInvestors()}}</h1>\r\n      </center>\r\n    </div>\r\n\r\n    <div class=\"col\">\r\n      <center>\r\n        <h1> Companies </h1>\r\n        <h1 style=\"font-size: 2.5em;\">{{cohortCountCompanies()}}</h1>\r\n      </center>\r\n    </div>\r\n\r\n    <div v-if=\"$getUser('accountType') == 'ProgrammePartner'\" class=\"col\">\r\n      <center>\r\n        <h1> Mentors </h1>\r\n        <h1 style=\"font-size: 2.5em;\">{{cohortCountMentors()}}</h1>\r\n      </center>\r\n    </div>\r\n\r\n  </div>\r\n\r\n</div>",
   "title": ""
 }

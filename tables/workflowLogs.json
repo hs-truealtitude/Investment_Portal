@@ -1867,5 +1867,1601 @@
     "logDetails": "{\n  \"_created\": true,\n  \"_id\": 1,\n  \"accType\": \"-MeUR8pnRtHhdp26LXsL\",\n  \"adminRejected\": \"\",\n  \"createdDate\": 1632908300795,\n  \"dateOfBirth\": 564969600000,\n  \"isApproved\": false,\n  \"lastEditDate\": 1633592979328,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/jack-lomax-25946664/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Jack\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"owner\": \"SG3ADsdWXbSmPaeWD4Fpr5ZA6VA2\",\n  \"rowKey\": \"-MkkuobO2fYiq-HAHv_T\",\n  \"secondName\": \"Lomax\",\n  \"state\": \"Accepted\",\n  \"submitPressed\": true,\n  \"user\": \"SG3ADsdWXbSmPaeWD4Fpr5ZA6VA2\"\n}",
     "name": "Workflow Step > Accepted",
     "rowKey": "-MljUR8AY2FH-RHksFc1"
+  },
+  "-MljyX8UOsyjQuviylxS": {
+    "_id": 234,
+    "date": 1633966236425,
+    "logDetails": "data passed is{\n  \"row\": \"-MljyV-n4nX3N432BlQ5\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MljyX8UOsyjQuviylxS"
+  },
+  "-MljyXEm-I3bxVfENaHS": {
+    "_id": 235,
+    "date": 1633966236948,
+    "logDetails": "{\n  \"_id\": 13,\n  \"cohort\": \"-MljxGRM_mohf6d2A3kz\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1633966227989,\n  \"lastEditDate\": 1633966231567,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"dwadwa\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"referralNotes\": \"wdaawd\",\n  \"referralTypeCompanyUser\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MljyV-n4nX3N432BlQ5\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Email Task - ProgrammePartner->CompanyUser - Notify Company User (Cohort Invite)",
+    "rowKey": "-MljyXEm-I3bxVfENaHS"
+  },
+  "-MljyXEn-ZH5x_fYypbl": {
+    "_id": 235,
+    "date": 1633966236862,
+    "logDetails": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "name": "Workflow Log ",
+    "rowKey": "-MljyXEn-ZH5x_fYypbl"
+  },
+  "-MljyXIMCUTYKMpzKMs6": {
+    "_id": 236,
+    "date": 1633966237176,
+    "logDetails": "{\n  \"_id\": 13,\n  \"cohort\": \"-MljxGRM_mohf6d2A3kz\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1633966227989,\n  \"lastEditDate\": 1633966231567,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"dwadwa\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"referralNotes\": \"wdaawd\",\n  \"referralTypeCompanyUser\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MljyV-n4nX3N432BlQ5\",\n  \"state\": null\n}",
+    "name": "Workflow Step > ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)",
+    "rowKey": "-MljyXIMCUTYKMpzKMs6"
+  },
+  "-Mljy_M5OvyHaTyQnn56": {
+    "_id": 237,
+    "date": 1633966247473,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MljyV-n4nX3N432BlQ5\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mljy_M5OvyHaTyQnn56"
+  },
+  "-Mljy_RQYxTMuMbg0FPd": {
+    "_id": 238,
+    "date": 1633966249464,
+    "logDetails": "support@truealtitude.co.uk clicked Approve at 2021-10-11 15:30:49 on record ID 13",
+    "name": "User Workflow Event",
+    "rowKey": "-Mljy_RQYxTMuMbg0FPd",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "All Applications & Invites"
+  },
+  "-Mljy_UIyw9h8APqVnjK": {
+    "_id": 239,
+    "date": 1633966249865,
+    "logDetails": "{\n  \"_id\": 13,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-MljxGRM_mohf6d2A3kz\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1633966227989,\n  \"lastEditDate\": 1633966231567,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"dwadwa\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"referralNotes\": \"wdaawd\",\n  \"referralTypeCompanyUser\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MljyV-n4nX3N432BlQ5\",\n  \"state\": \"ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)\"\n}",
+    "name": "Workflow Step > Email Task - ProgrammePartner->CompanyUser - Approval Notif",
+    "rowKey": "-Mljy_UIyw9h8APqVnjK"
+  },
+  "-Mljy_U_NR4COGOONNPa": {
+    "_id": 240,
+    "date": 1633966249956,
+    "logDetails": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "name": "Workflow Log ",
+    "rowKey": "-Mljy_U_NR4COGOONNPa"
+  },
+  "-Mljy_XfVF0m8VJWwEGo": {
+    "_id": 241,
+    "date": 1633966250097,
+    "logDetails": "dev@truealtitude.co.uk",
+    "name": "Workflow Log ",
+    "rowKey": "-Mljy_XfVF0m8VJWwEGo"
+  },
+  "-Mljy_bE0oiLxnz8e6B0": {
+    "_id": 242,
+    "date": 1633966250455,
+    "logDetails": "{\n  \"_id\": 13,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-MljxGRM_mohf6d2A3kz\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1633966227989,\n  \"lastEditDate\": 1633966231567,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"dwadwa\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"referralNotes\": \"wdaawd\",\n  \"referralTypeCompanyUser\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MljyV-n4nX3N432BlQ5\",\n  \"state\": \"ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)\"\n}",
+    "name": "Workflow Step > Script Task - Add Company",
+    "rowKey": "-Mljy_bE0oiLxnz8e6B0"
+  },
+  "-Mljy_bE0oiLxnz8e6B1": {
+    "_id": 242,
+    "date": 1633966250431,
+    "logDetails": "{\n  \"_id\": 13,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-MljxGRM_mohf6d2A3kz\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1633966227989,\n  \"lastEditDate\": 1633966231567,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"dwadwa\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"referralNotes\": \"wdaawd\",\n  \"referralTypeCompanyUser\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MljyV-n4nX3N432BlQ5\",\n  \"state\": \"ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)\"\n}",
+    "name": "Workflow Step > Script Task - Add Company Users",
+    "rowKey": "-Mljy_bE0oiLxnz8e6B1"
+  },
+  "-Mljy_cmCXgWSdrnYlBg": {
+    "_id": 243,
+    "date": 1633966250552,
+    "logDetails": "{\n  \"_id\": 13,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-MljxGRM_mohf6d2A3kz\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1633966227989,\n  \"lastEditDate\": 1633966231567,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"message\": \"dwadwa\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"referralNotes\": \"wdaawd\",\n  \"referralTypeCompanyUser\": \"-MSXrKzs0kSChqr0t8WS\",\n  \"rowKey\": \"-MljyV-n4nX3N432BlQ5\",\n  \"state\": \"ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)\"\n}",
+    "name": "Workflow Step > ProgrammePartner - Response",
+    "rowKey": "-Mljy_cmCXgWSdrnYlBg"
+  },
+  "-MlnhBd23yeaePkUpnn-": {
+    "_id": 244,
+    "date": 1634028800621,
+    "logDetails": "data passed is{\n  \"row\": \"-Mlnh9kYZYcNmOzkLiri\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MlnhBd23yeaePkUpnn-"
+  },
+  "-MlnhBmHopzW7cEgWub0": {
+    "_id": 245,
+    "date": 1634028801269,
+    "logDetails": "{\n  \"_id\": 14,\n  \"cohort\": \"-MljxGRM_mohf6d2A3kz\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1634028792372,\n  \"lastEditDate\": 1634028792372,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"mentor\": \"-MkkuobO2fYiq-HAHv_T\",\n  \"name\": \"ProgrammePartner->Mentor\",\n  \"notificationDescription\": \"A Programme Partner wants you to be a part of their cohort\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"rowKey\": \"-Mlnh9kYZYcNmOzkLiri\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Email Task - ProgrammePartner->Mentor - Notify Mentor",
+    "rowKey": "-MlnhBmHopzW7cEgWub0"
+  },
+  "-MlnhBmIDKcW9rB9KzGa": {
+    "_id": 245,
+    "date": 1634028801249,
+    "logDetails": "SG3ADsdWXbSmPaeWD4Fpr5ZA6VA2",
+    "name": "Workflow Log ",
+    "rowKey": "-MlnhBmIDKcW9rB9KzGa"
+  },
+  "-MlnhBsewhMght0DMr5I": {
+    "_id": 246,
+    "date": 1634028801752,
+    "logDetails": "{\n  \"_id\": 14,\n  \"cohort\": \"-MljxGRM_mohf6d2A3kz\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1634028792372,\n  \"lastEditDate\": 1634028792372,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"mentor\": \"-MkkuobO2fYiq-HAHv_T\",\n  \"name\": \"ProgrammePartner->Mentor\",\n  \"notificationDescription\": \"A Programme Partner wants you to be a part of their cohort\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"rowKey\": \"-Mlnh9kYZYcNmOzkLiri\",\n  \"state\": null\n}",
+    "name": "Workflow Step > ProgrammePartner->Mentor -  Mentor Approve",
+    "rowKey": "-MlnhBsewhMght0DMr5I"
+  },
+  "-MlnhEl-s-cmR4X1iPuo": {
+    "_id": 247,
+    "date": 1634028813289,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-Mlnh9kYZYcNmOzkLiri\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"SG3ADsdWXbSmPaeWD4Fpr5ZA6VA2\",\n  \"email\": \"jl@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MlnhEl-s-cmR4X1iPuo"
+  },
+  "-MlnhEsOON-iP49Mjo_5": {
+    "_id": 248,
+    "date": 1634028813482,
+    "logDetails": "jl@truealtitude.co.uk clicked Approve at 2021-10-12 08:53:33 on record ID 14",
+    "name": "User Workflow Event",
+    "rowKey": "-MlnhEsOON-iP49Mjo_5",
+    "user": "SG3ADsdWXbSmPaeWD4Fpr5ZA6VA2",
+    "workflowName": "All Applications & Invites"
+  },
+  "-MlnhEsdqwkFKX8S6bDL": {
+    "_id": 249,
+    "date": 1634028813864,
+    "logDetails": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "name": "Workflow Log ",
+    "rowKey": "-MlnhEsdqwkFKX8S6bDL"
+  },
+  "-MlnhEsdqwkFKX8S6bDM": {
+    "_id": 249,
+    "date": 1634028813858,
+    "logDetails": "{\n  \"_id\": 14,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-MljxGRM_mohf6d2A3kz\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1634028792372,\n  \"lastEditDate\": 1634028792372,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"mentor\": \"-MkkuobO2fYiq-HAHv_T\",\n  \"name\": \"ProgrammePartner->Mentor\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner wants you to be a part of their cohort\",\n  \"owner\": \"SG3ADsdWXbSmPaeWD4Fpr5ZA6VA2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"rowKey\": \"-Mlnh9kYZYcNmOzkLiri\",\n  \"state\": \"ProgrammePartner->Mentor -  Mentor Approve\"\n}",
+    "name": "Workflow Step > Email Task - ProgrammePartner->Mentor - Approval Notif",
+    "rowKey": "-MlnhEsdqwkFKX8S6bDM"
+  },
+  "-MlnhEuRDF3yOMbLL1c1": {
+    "_id": 250,
+    "date": 1634028813928,
+    "logDetails": "dev@truealtitude.co.uk",
+    "name": "Workflow Log ",
+    "rowKey": "-MlnhEuRDF3yOMbLL1c1"
+  },
+  "-MlnhEzC2_e0plLfg29m": {
+    "_id": 251,
+    "date": 1634028814261,
+    "logDetails": "{\n  \"_id\": 14,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-MljxGRM_mohf6d2A3kz\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1634028792372,\n  \"lastEditDate\": 1634028792372,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"mentor\": \"-MkkuobO2fYiq-HAHv_T\",\n  \"name\": \"ProgrammePartner->Mentor\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner wants you to be a part of their cohort\",\n  \"owner\": \"SG3ADsdWXbSmPaeWD4Fpr5ZA6VA2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"rowKey\": \"-Mlnh9kYZYcNmOzkLiri\",\n  \"state\": \"ProgrammePartner->Mentor -  Mentor Approve\"\n}",
+    "name": "Workflow Step > Script Task = Add Mentor",
+    "rowKey": "-MlnhEzC2_e0plLfg29m"
+  },
+  "-MlnhF-irghVFIeqsccM": {
+    "_id": 252,
+    "date": 1634028814382,
+    "logDetails": "{\n  \"_id\": 14,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-MljxGRM_mohf6d2A3kz\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1634028792372,\n  \"lastEditDate\": 1634028792372,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"mentor\": \"-MkkuobO2fYiq-HAHv_T\",\n  \"name\": \"ProgrammePartner->Mentor\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner wants you to be a part of their cohort\",\n  \"owner\": \"SG3ADsdWXbSmPaeWD4Fpr5ZA6VA2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"rowKey\": \"-Mlnh9kYZYcNmOzkLiri\",\n  \"state\": \"ProgrammePartner->Mentor -  Mentor Approve\"\n}",
+    "name": "Workflow Step > ProgrammePartner - Response",
+    "rowKey": "-MlnhF-irghVFIeqsccM"
+  },
+  "-Mlsq2HWyfKVt-fFAZ1G": {
+    "_id": 253,
+    "date": 1634115007564,
+    "logDetails": "data passed is{\n  \"event\": \"Reject\",\n  \"row\": \"-MlKtw6rv9RlcAsCwNGG\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Reject\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mlsq2HWyfKVt-fFAZ1G"
+  },
+  "-Mlsq2Nrr0tqWlMp7OjT": {
+    "_id": 254,
+    "date": 1634115007761,
+    "logDetails": "support@truealtitude.co.uk clicked Reject at 2021-10-13 08:50:07 on record ID 11",
+    "name": "User Workflow Event",
+    "rowKey": "-Mlsq2Nrr0tqWlMp7OjT",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "All Applications & Invites"
+  },
+  "-Mlsq2PRHTE6YHZicEqa": {
+    "_id": 255,
+    "date": 1634115008157,
+    "logDetails": "{\n  \"_id\": 11,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"company\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"companyLastEditDate\": 1633528358388,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"SQ6S3GNIk7XpjepQesuGjjUhgwN2\",\n  \"createdDate\": 1633528823850,\n  \"lastEditDate\": 1633528824083,\n  \"lastEditedBy\": \"SQ6S3GNIk7XpjepQesuGjjUhgwN2\",\n  \"name\": \"ProgrammePartner->CompanyUser(Programme)\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Findaa Technology Ltd to be a part of their programme\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programme\": \"-MlKqgI8s9-Xk06Kv0HQ\",\n  \"programmePartnerOwner\": \"-MlKqNsZDMn2hcGNZeKG\",\n  \"rowKey\": \"-MlKtw6rv9RlcAsCwNGG\",\n  \"state\": \"Programme - CompanyUser Approve\"\n}",
+    "name": "Workflow Step > User Task - Rejected",
+    "rowKey": "-Mlsq2PRHTE6YHZicEqa"
+  },
+  "-Mlsq50cXF1oLbd46OKR": {
+    "_id": 256,
+    "date": 1634115018819,
+    "logDetails": "data passed is{\n  \"event\": \"Reject\",\n  \"row\": \"-MlKsUKef7611AJ21PPZ\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Reject\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mlsq50cXF1oLbd46OKR"
+  },
+  "-Mlsq58MI6aFc6a8zeMV": {
+    "_id": 257,
+    "date": 1634115018998,
+    "logDetails": "support@truealtitude.co.uk clicked Reject at 2021-10-13 08:50:18 on record ID 7",
+    "name": "User Workflow Event",
+    "rowKey": "-Mlsq58MI6aFc6a8zeMV",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "All Applications & Invites"
+  },
+  "-Mlsq59tynU1USRsIVkv": {
+    "_id": 258,
+    "date": 1634115019480,
+    "logDetails": "{\n  \"_id\": 7,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-MlKs3L2GzLcwwKr4iut\",\n  \"company\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"companyLastEditDate\": 1633528358000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"createdDate\": 1633528442337,\n  \"lastEditDate\": 1633528478651,\n  \"lastEditedBy\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"mentorOwner\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"message\": \"Mentored Leo (founder) in CRL labs\",\n  \"name\": \"Mentor->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Mentor has applied for Findaa Technology Ltd to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"referralNotes\": \"Referred from Anneza \",\n  \"referralTypeCompanyUser\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MlKsUKef7611AJ21PPZ\",\n  \"state\": \"Company User Approve Cohort Invite\"\n}",
+    "name": "Workflow Step > User Task - Rejected",
+    "rowKey": "-Mlsq59tynU1USRsIVkv"
+  },
+  "-Mlsq73uTIN9p_5DAQGu": {
+    "_id": 259,
+    "date": 1634115027096,
+    "logDetails": "data passed is{\n  \"event\": \"Reject\",\n  \"row\": \"-MlKtu_I-ZZrNF2pUw8u\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Reject\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mlsq73uTIN9p_5DAQGu"
+  },
+  "-Mlsq75EpTHYrCddvSUY": {
+    "_id": 260,
+    "date": 1634115027293,
+    "logDetails": "support@truealtitude.co.uk clicked Reject at 2021-10-13 08:50:27 on record ID 10",
+    "name": "User Workflow Event",
+    "rowKey": "-Mlsq75EpTHYrCddvSUY",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "All Applications & Invites"
+  },
+  "-Mlsq75YITioJRYNw2HS": {
+    "_id": 261,
+    "date": 1634115027363,
+    "logDetails": "{\n  \"_id\": 10,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"SQ6S3GNIk7XpjepQesuGjjUhgwN2\",\n  \"createdDate\": 1633528817543,\n  \"lastEditDate\": 1633528817811,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"name\": \"ProgrammePartner->CompanyUser(Programme)\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their programme\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programme\": \"-MlKqgI8s9-Xk06Kv0HQ\",\n  \"programmePartnerOwner\": \"-MlKqNsZDMn2hcGNZeKG\",\n  \"rowKey\": \"-MlKtu_I-ZZrNF2pUw8u\",\n  \"state\": \"Programme - CompanyUser Approve\"\n}",
+    "name": "Workflow Step > User Task - Rejected",
+    "rowKey": "-Mlsq75YITioJRYNw2HS"
+  },
+  "-MlsqkRmHpibB_-rEWNl": {
+    "_id": 262,
+    "date": 1634115192519,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"4OZfzNOTiObDfi75pVPYpScLMve2\",\n  \"email\": \"hs@truealtitude.co.uk\",\n  \"workflow\": \"-Mlo58fY9-NK17rfKG44\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MlsqkRmHpibB_-rEWNl"
+  },
+  "-MlxbQW5mdLUzF8X-2AR": {
+    "_id": 263,
+    "date": 1634195060945,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"OEDcPQwBYnOYjrVNbvyWQJ4bRfI2\",\n  \"email\": \"dk@truealtitude.co.uk\",\n  \"workflow\": \"-MljoMYuoZcatITpKHyV\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MlxbQW5mdLUzF8X-2AR"
+  },
+  "-MlxbQXOPatc-_0CLeiX": {
+    "_id": 263,
+    "date": 1634195060989,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"OEDcPQwBYnOYjrVNbvyWQJ4bRfI2\",\n  \"email\": \"dk@truealtitude.co.uk\",\n  \"workflow\": \"-MljoMYuoZcatITpKHyV\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MlxbQXOPatc-_0CLeiX"
+  },
+  "-MlxnzdJ8f4Fhb4Q_0rB": {
+    "_id": 264,
+    "date": 1634198354529,
+    "logDetails": "data passed is{\n  \"row\": \"-Mlx_z8F5hhN2tZm-Zq6\",\n  \"workflow\": \"-MeyOSEvs0lCWgaoyWNv\",\n  \"grid\": \"mentors\",\n  \"step\": \"Begin Mentor Approval/Reject Process\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MlxnzdJ8f4Fhb4Q_0rB"
+  },
+  "-MlxnzhmTnbbJqJ-cl7o": {
+    "_id": 265,
+    "date": 1634198354884,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 7,\n  \"aboutMe\": \"Finance Director, Venture Debt expert.\",\n  \"accType\": \"-MeUR8pnRtHhdp26LXsL\",\n  \"companyStage\": \"-MJwuS_MMSm4BvWL1xyy,-MJwuUL9eDbeIxJlWiPk,-MJwuVXzPoJGnpAVqAhc\",\n  \"createdDate\": 1634194683575,\n  \"dateOfBirth\": 613342800000,\n  \"daysAvailable\": \"-Mk6Z9eq2kcnPIGC5SO_,-Mk6ZAFKq4GFf-NUINbC,-Mk6ZATt4YWM_d-lZ4SF,-Mk6ZCg2jHZpTf46mcNN\",\n  \"interests\": \"-MlKkj6hIjldph64G6NH\",\n  \"lastEditDate\": 1634195053124,\n  \"lastEditedBy\": \"OEDcPQwBYnOYjrVNbvyWQJ4bRfI2\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"mainSectors\": \"-MJwpJhF1iY-UR3G3abZ,-MJwpRsNJS8wINoe-p1l,-MlKkj6hIjldph64G6NH\",\n  \"mainSkills\": \"-MRUer0dPsjht-bQeUwd,-MST75tz3jsqilRppBTq,-MRKBJ8m4BJhAEwpGneX\",\n  \"name\": \"Dorian \",\n  \"owner\": \"OEDcPQwBYnOYjrVNbvyWQJ4bRfI2\",\n  \"rowKey\": \"-Mlx_z8F5hhN2tZm-Zq6\",\n  \"secondName\": \"Kouider \",\n  \"sectors\": \"-MlKkj6hIjldph64G6NH\",\n  \"skills\": \"-MRKBLMd2oUdf1gDlzDf,-MRKBbOtnCBghwvpwM9C,-MST6xZHpgy9c66Yzl4Z\",\n  \"submitPressed\": true,\n  \"user\": \"OEDcPQwBYnOYjrVNbvyWQJ4bRfI2\",\n  \"state\": null\n}",
+    "name": "Workflow Step > User Task",
+    "rowKey": "-MlxnzhmTnbbJqJ-cl7o"
+  },
+  "-Mlxo6zDga4Khm2OoGN4": {
+    "_id": 266,
+    "date": 1634198385368,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-Mlx_z8F5hhN2tZm-Zq6\",\n  \"workflow\": \"-MeyOSEvs0lCWgaoyWNv\",\n  \"grid\": \"mentors\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mlxo6zDga4Khm2OoGN4"
+  },
+  "-Mlxo72lMZIr8WzLbOGg": {
+    "_id": 267,
+    "date": 1634198389051,
+    "logDetails": "support@truealtitude.co.uk clicked Approve at 2021-10-14 07:59:49 on record ID 7",
+    "name": "User Workflow Event",
+    "rowKey": "-Mlxo72lMZIr8WzLbOGg",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "Approve Mentor"
+  },
+  "-Mlxo74BG7U2NGmmWDSC": {
+    "_id": 268,
+    "date": 1634198389268,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 7,\n  \"aboutMe\": \"Finance Director, Venture Debt expert.\",\n  \"accType\": \"-MeUR8pnRtHhdp26LXsL\",\n  \"companyStage\": \"-MJwuS_MMSm4BvWL1xyy,-MJwuUL9eDbeIxJlWiPk,-MJwuVXzPoJGnpAVqAhc\",\n  \"createdDate\": 1634194683575,\n  \"dateOfBirth\": 613342800000,\n  \"daysAvailable\": \"-Mk6Z9eq2kcnPIGC5SO_,-Mk6ZAFKq4GFf-NUINbC,-Mk6ZATt4YWM_d-lZ4SF,-Mk6ZCg2jHZpTf46mcNN\",\n  \"interests\": \"-MlKkj6hIjldph64G6NH\",\n  \"lastEditDate\": 1634195053124,\n  \"lastEditedBy\": \"OEDcPQwBYnOYjrVNbvyWQJ4bRfI2\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"mainSectors\": \"-MJwpJhF1iY-UR3G3abZ,-MJwpRsNJS8wINoe-p1l,-MlKkj6hIjldph64G6NH\",\n  \"mainSkills\": \"-MRUer0dPsjht-bQeUwd,-MST75tz3jsqilRppBTq,-MRKBJ8m4BJhAEwpGneX\",\n  \"name\": \"Dorian \",\n  \"nextEvents\": \"Reject,Approve\",\n  \"owner\": \"OEDcPQwBYnOYjrVNbvyWQJ4bRfI2\",\n  \"rowKey\": \"-Mlx_z8F5hhN2tZm-Zq6\",\n  \"secondName\": \"Kouider \",\n  \"sectors\": \"-MlKkj6hIjldph64G6NH\",\n  \"skills\": \"-MRKBLMd2oUdf1gDlzDf,-MRKBbOtnCBghwvpwM9C,-MST6xZHpgy9c66Yzl4Z\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"OEDcPQwBYnOYjrVNbvyWQJ4bRfI2\"\n}",
+    "name": "Workflow Step > Approve Mentor",
+    "rowKey": "-Mlxo74BG7U2NGmmWDSC"
+  },
+  "-Mlxo7DJbWNnFBEkEuyg": {
+    "_id": 269,
+    "date": 1634198389927,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 7,\n  \"aboutMe\": \"Finance Director, Venture Debt expert.\",\n  \"accType\": \"-MeUR8pnRtHhdp26LXsL\",\n  \"companyStage\": \"-MJwuS_MMSm4BvWL1xyy,-MJwuUL9eDbeIxJlWiPk,-MJwuVXzPoJGnpAVqAhc\",\n  \"createdDate\": 1634194683575,\n  \"dateOfBirth\": 613342800000,\n  \"daysAvailable\": \"-Mk6Z9eq2kcnPIGC5SO_,-Mk6ZAFKq4GFf-NUINbC,-Mk6ZATt4YWM_d-lZ4SF,-Mk6ZCg2jHZpTf46mcNN\",\n  \"interests\": \"-MlKkj6hIjldph64G6NH\",\n  \"lastEditDate\": 1634195053124,\n  \"lastEditedBy\": \"OEDcPQwBYnOYjrVNbvyWQJ4bRfI2\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"mainSectors\": \"-MJwpJhF1iY-UR3G3abZ,-MJwpRsNJS8wINoe-p1l,-MlKkj6hIjldph64G6NH\",\n  \"mainSkills\": \"-MRUer0dPsjht-bQeUwd,-MST75tz3jsqilRppBTq,-MRKBJ8m4BJhAEwpGneX\",\n  \"name\": \"Dorian \",\n  \"nextEvents\": \"Reject,Approve\",\n  \"owner\": \"OEDcPQwBYnOYjrVNbvyWQJ4bRfI2\",\n  \"rowKey\": \"-Mlx_z8F5hhN2tZm-Zq6\",\n  \"secondName\": \"Kouider \",\n  \"sectors\": \"-MlKkj6hIjldph64G6NH\",\n  \"skills\": \"-MRKBLMd2oUdf1gDlzDf,-MRKBbOtnCBghwvpwM9C,-MST6xZHpgy9c66Yzl4Z\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"OEDcPQwBYnOYjrVNbvyWQJ4bRfI2\"\n}",
+    "name": "Workflow Step > Accepted",
+    "rowKey": "-Mlxo7DJbWNnFBEkEuyg"
+  },
+  "-Mlxs39NKvxLYnW5hKVe": {
+    "_id": 270,
+    "date": 1634199421535,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"AsUNZDDYKIQQbX4GOi0X4gy6nrj2\",\n  \"email\": \"charlie@japes.com\",\n  \"workflow\": \"-Mlo58fY9-NK17rfKG44\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mlxs39NKvxLYnW5hKVe"
+  },
+  "-MlxsEv28Nx5BfKFLVK4": {
+    "_id": 271,
+    "date": 1634199469710,
+    "logDetails": "data passed is{\n  \"row\": \"-MlxrG_ldj3-1kjy6umI\",\n  \"workflow\": \"-MeyOVXiZSSm-ZjkMCqL\",\n  \"grid\": \"investorProfiles\",\n  \"step\": \"Begin Investor Approval Process\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MlxsEv28Nx5BfKFLVK4"
+  },
+  "-MlxsEzVjzUlnlcmxIf7": {
+    "_id": 272,
+    "date": 1634199469976,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 2,\n  \"aboutMe\": \"General Counsel of  True Altitude, with a background in IP, commercial, disputes, and privacy law. I also enjoy angel investing and supporting those early stage businesses however I can. \",\n  \"accType\": \"-MKorfvV-56oTz-K9J3t\",\n  \"createdDate\": 1634199214526,\n  \"dateOfBirth\": 273452400000,\n  \"lastEditDate\": 1634199416587,\n  \"lastEditedBy\": \"AsUNZDDYKIQQbX4GOi0X4gy6nrj2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/charliewinckworth/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Charlie\",\n  \"owner\": \"AsUNZDDYKIQQbX4GOi0X4gy6nrj2\",\n  \"phoneNumber\": \"07976244732\",\n  \"rowKey\": \"-MlxrG_ldj3-1kjy6umI\",\n  \"secondName\": \"Winckworth\",\n  \"submitPressed\": true,\n  \"user\": \"AsUNZDDYKIQQbX4GOi0X4gy6nrj2\",\n  \"state\": null\n}",
+    "name": "Workflow Step > User Task",
+    "rowKey": "-MlxsEzVjzUlnlcmxIf7"
+  },
+  "-MlxsGIUf0UL7qOl-saL": {
+    "_id": 273,
+    "date": 1634199475304,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MlxrG_ldj3-1kjy6umI\",\n  \"workflow\": \"-MeyOVXiZSSm-ZjkMCqL\",\n  \"grid\": \"investorProfiles\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MlxsGIUf0UL7qOl-saL"
+  },
+  "-MlxsGJHq3e4XE1XPQH3": {
+    "_id": 274,
+    "date": 1634199475446,
+    "logDetails": "support@truealtitude.co.uk clicked Approve at 2021-10-14 08:17:55 on record ID 2",
+    "name": "User Workflow Event",
+    "rowKey": "-MlxsGJHq3e4XE1XPQH3",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "Approve Investor"
+  },
+  "-MlxsGJVhfbAuKWe0omX": {
+    "_id": 275,
+    "date": 1634199475487,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 2,\n  \"aboutMe\": \"General Counsel of  True Altitude, with a background in IP, commercial, disputes, and privacy law. I also enjoy angel investing and supporting those early stage businesses however I can. \",\n  \"accType\": \"-MKorfvV-56oTz-K9J3t\",\n  \"createdDate\": 1634199214526,\n  \"dateOfBirth\": 273452400000,\n  \"lastEditDate\": 1634199416587,\n  \"lastEditedBy\": \"AsUNZDDYKIQQbX4GOi0X4gy6nrj2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/charliewinckworth/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Charlie\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"AsUNZDDYKIQQbX4GOi0X4gy6nrj2\",\n  \"phoneNumber\": \"07976244732\",\n  \"rowKey\": \"-MlxrG_ldj3-1kjy6umI\",\n  \"secondName\": \"Winckworth\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"AsUNZDDYKIQQbX4GOi0X4gy6nrj2\"\n}",
+    "name": "Workflow Step > Send Approval Email",
+    "rowKey": "-MlxsGJVhfbAuKWe0omX"
+  },
+  "-MlxsGXMMkNfLct4FzYF": {
+    "_id": 276,
+    "date": 1634199476376,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 2,\n  \"aboutMe\": \"General Counsel of  True Altitude, with a background in IP, commercial, disputes, and privacy law. I also enjoy angel investing and supporting those early stage businesses however I can. \",\n  \"accType\": \"-MKorfvV-56oTz-K9J3t\",\n  \"createdDate\": 1634199214526,\n  \"dateOfBirth\": 273452400000,\n  \"lastEditDate\": 1634199416587,\n  \"lastEditedBy\": \"AsUNZDDYKIQQbX4GOi0X4gy6nrj2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/charliewinckworth/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Charlie\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"AsUNZDDYKIQQbX4GOi0X4gy6nrj2\",\n  \"phoneNumber\": \"07976244732\",\n  \"rowKey\": \"-MlxrG_ldj3-1kjy6umI\",\n  \"secondName\": \"Winckworth\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"AsUNZDDYKIQQbX4GOi0X4gy6nrj2\"\n}",
+    "name": "Workflow Step > Accepted",
+    "rowKey": "-MlxsGXMMkNfLct4FzYF"
+  },
+  "-MmNamEAEaWHSH7EMWC6": {
+    "_id": 277,
+    "date": 1634647876449,
+    "logDetails": "data passed is{\n  \"row\": \"-MmNaiLp5C3ytbpUZVOx\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MmNamEAEaWHSH7EMWC6"
+  },
+  "-MmNamFVcfC7sFe1osKR": {
+    "_id": 278,
+    "date": 1634647876643,
+    "logDetails": "{\n  \"_id\": 18,\n  \"cohort\": \"-MmNYTDaxDVVZ26cgTNj\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1634647860576,\n  \"lastEditDate\": 1634647866690,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"referralNotes\": \"cohorttest@email.com\",\n  \"referralTypeCompanyUser\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MmNaiLp5C3ytbpUZVOx\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Email Task - ProgrammePartner->CompanyUser - Notify Company User (Cohort Invite)",
+    "rowKey": "-MmNamFVcfC7sFe1osKR"
+  },
+  "-MmNamFWRXmNWW67Aj4e": {
+    "_id": 278,
+    "date": 1634647876636,
+    "logDetails": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "name": "Workflow Log ",
+    "rowKey": "-MmNamFWRXmNWW67Aj4e"
+  },
+  "-MmNamOK-pWyedwLCwB-": {
+    "_id": 279,
+    "date": 1634647877204,
+    "logDetails": "{\n  \"_id\": 18,\n  \"cohort\": \"-MmNYTDaxDVVZ26cgTNj\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1634647860576,\n  \"lastEditDate\": 1634647866690,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"referralNotes\": \"cohorttest@email.com\",\n  \"referralTypeCompanyUser\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MmNaiLp5C3ytbpUZVOx\",\n  \"state\": null\n}",
+    "name": "Workflow Step > ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)",
+    "rowKey": "-MmNamOK-pWyedwLCwB-"
+  },
+  "-MmNavbuLMwjjJwOZ2d9": {
+    "_id": 280,
+    "date": 1634647914924,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MmNaiLp5C3ytbpUZVOx\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MmNavbuLMwjjJwOZ2d9"
+  },
+  "-MmNavdDOI-cmAI8XrnB": {
+    "_id": 281,
+    "date": 1634647915031,
+    "logDetails": "support@truealtitude.co.uk clicked Approve at 2021-10-19 12:51:55 on record ID 18",
+    "name": "User Workflow Event",
+    "rowKey": "-MmNavdDOI-cmAI8XrnB",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "All Applications & Invites"
+  },
+  "-MmNavdW6mDTQ2cvRU3d": {
+    "_id": 282,
+    "date": 1634647915103,
+    "logDetails": "{\n  \"_id\": 18,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-MmNYTDaxDVVZ26cgTNj\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1634647860576,\n  \"lastEditDate\": 1634647866690,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"referralNotes\": \"cohorttest@email.com\",\n  \"referralTypeCompanyUser\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MmNaiLp5C3ytbpUZVOx\",\n  \"state\": \"ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)\"\n}",
+    "name": "Workflow Step > Email Task - ProgrammePartner->CompanyUser - Approval Notif",
+    "rowKey": "-MmNavdW6mDTQ2cvRU3d"
+  },
+  "-MmNavdniWcThAGwZ0xO": {
+    "_id": 283,
+    "date": 1634647915118,
+    "logDetails": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "name": "Workflow Log ",
+    "rowKey": "-MmNavdniWcThAGwZ0xO"
+  },
+  "-MmNavex8HfM6_STZRdN": {
+    "_id": 284,
+    "date": 1634647915188,
+    "logDetails": "dev@truealtitude.co.uk",
+    "name": "Workflow Log ",
+    "rowKey": "-MmNavex8HfM6_STZRdN"
+  },
+  "-MmNavsMzDomyNhsQHar": {
+    "_id": 285,
+    "date": 1634647916061,
+    "logDetails": "{\n  \"_id\": 18,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-MmNYTDaxDVVZ26cgTNj\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1634647860576,\n  \"lastEditDate\": 1634647866690,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"referralNotes\": \"cohorttest@email.com\",\n  \"referralTypeCompanyUser\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MmNaiLp5C3ytbpUZVOx\",\n  \"state\": \"ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)\"\n}",
+    "name": "Workflow Step > Script Task - Add Company",
+    "rowKey": "-MmNavsMzDomyNhsQHar"
+  },
+  "-MmNavsNvrzxHVTQcwhI": {
+    "_id": 285,
+    "date": 1634647916051,
+    "logDetails": "{\n  \"_id\": 18,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-MmNYTDaxDVVZ26cgTNj\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1634647860576,\n  \"lastEditDate\": 1634647866690,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"referralNotes\": \"cohorttest@email.com\",\n  \"referralTypeCompanyUser\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MmNaiLp5C3ytbpUZVOx\",\n  \"state\": \"ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)\"\n}",
+    "name": "Workflow Step > Script Task - Add Company Users",
+    "rowKey": "-MmNavsNvrzxHVTQcwhI"
+  },
+  "-MmNavsix_FWubmzDDxX": {
+    "_id": 286,
+    "date": 1634647916080,
+    "logDetails": "{\n  \"_id\": 18,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-MmNYTDaxDVVZ26cgTNj\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1634647860576,\n  \"lastEditDate\": 1634647866690,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"referralNotes\": \"cohorttest@email.com\",\n  \"referralTypeCompanyUser\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MmNaiLp5C3ytbpUZVOx\",\n  \"state\": \"ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)\"\n}",
+    "name": "Workflow Step > ProgrammePartner - Response",
+    "rowKey": "-MmNavsix_FWubmzDDxX"
+  },
+  "-Mn5d5VsW7HclykJiJGM": {
+    "_id": 287,
+    "date": 1635420235708,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"email\": \"arnold.drivedaddy@gmail.com\",\n  \"workflow\": \"-Mlo5B4AymUxnVnF2YBv\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mn5d5VsW7HclykJiJGM"
+  },
+  "-Mn5d79IOzMFY6iUUxZN": {
+    "_id": 288,
+    "date": 1635420242499,
+    "logDetails": "data passed is{\n  \"row\": \"-Mn5brk8wT4KzCU903_I\",\n  \"workflow\": \"-MeyOT_KD684ba9L19Fy\",\n  \"grid\": \"programmePartnerProfiles\",\n  \"step\": \"Begin Programme Partner Approval Process\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mn5d79IOzMFY6iUUxZN"
+  },
+  "-Mn5d7A6J4KFr0z9sdZ8": {
+    "_id": 289,
+    "date": 1635420242633,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 3,\n  \"accType\": \"-MeUR6iI2KSBaz6MwM6U\",\n  \"createdDate\": 1635419913253,\n  \"dateOfBirth\": 568684800000,\n  \"lastEditDate\": 1635420224017,\n  \"lastEditedBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Arnold\",\n  \"owner\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"profileImage\": {\n    \"fileName\": \"549171b0-37e1-11ec-ae29-5380ef6ec905_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F549171b0-37e1-11ec-ae29-5380ef6ec905_datagrid_profile_img.png?alt=media&token=f6c615dc-7cd6-4c3f-9686-63acbcf5e066\"\n  },\n  \"rowKey\": \"-Mn5brk8wT4KzCU903_I\",\n  \"secondName\": \"du Toit\",\n  \"submitPressed\": true,\n  \"user\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"state\": null\n}",
+    "name": "Workflow Step > User Task",
+    "rowKey": "-Mn5d7A6J4KFr0z9sdZ8"
+  },
+  "-Mn5d7hwcLDxzUsszP2z": {
+    "_id": 290,
+    "date": 1635420244711,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-Mn5brk8wT4KzCU903_I\",\n  \"workflow\": \"-MeyOT_KD684ba9L19Fy\",\n  \"grid\": \"programmePartnerProfiles\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mn5d7hwcLDxzUsszP2z"
+  },
+  "-Mn5d7mPKsbLm6iVLvse": {
+    "_id": 291,
+    "date": 1635420244958,
+    "logDetails": "support@truealtitude.co.uk clicked Approve at 2021-10-28 11:24:04 on record ID 3",
+    "name": "User Workflow Event",
+    "rowKey": "-Mn5d7mPKsbLm6iVLvse",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "Approve ProgrammePartner"
+  },
+  "-Mn5d7nyux7j08DWQvqC": {
+    "_id": 292,
+    "date": 1635420245167,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 3,\n  \"accType\": \"-MeUR6iI2KSBaz6MwM6U\",\n  \"createdDate\": 1635419913253,\n  \"dateOfBirth\": 568684800000,\n  \"lastEditDate\": 1635420224017,\n  \"lastEditedBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Arnold\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"profileImage\": {\n    \"fileName\": \"549171b0-37e1-11ec-ae29-5380ef6ec905_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F549171b0-37e1-11ec-ae29-5380ef6ec905_datagrid_profile_img.png?alt=media&token=f6c615dc-7cd6-4c3f-9686-63acbcf5e066\"\n  },\n  \"rowKey\": \"-Mn5brk8wT4KzCU903_I\",\n  \"secondName\": \"du Toit\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\"\n}",
+    "name": "Workflow Step > Send Approval Email",
+    "rowKey": "-Mn5d7nyux7j08DWQvqC"
+  },
+  "-Mn5d7tPFzXBOuA5t10N": {
+    "_id": 293,
+    "date": 1635420245595,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 3,\n  \"accType\": \"-MeUR6iI2KSBaz6MwM6U\",\n  \"createdDate\": 1635419913253,\n  \"dateOfBirth\": 568684800000,\n  \"lastEditDate\": 1635420224017,\n  \"lastEditedBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Arnold\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"profileImage\": {\n    \"fileName\": \"549171b0-37e1-11ec-ae29-5380ef6ec905_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F549171b0-37e1-11ec-ae29-5380ef6ec905_datagrid_profile_img.png?alt=media&token=f6c615dc-7cd6-4c3f-9686-63acbcf5e066\"\n  },\n  \"rowKey\": \"-Mn5brk8wT4KzCU903_I\",\n  \"secondName\": \"du Toit\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\"\n}",
+    "name": "Workflow Step > Accepted",
+    "rowKey": "-Mn5d7tPFzXBOuA5t10N"
+  },
+  "-Mn6HpXTyMS8qTGfskPw": {
+    "_id": 294,
+    "date": 1635431176286,
+    "logDetails": "data passed is{\n  \"row\": \"-Mn6HPDEtUjH7YOxrvlz\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"email\": \"arnold.drivedaddy@gmail.com\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mn6HpXTyMS8qTGfskPw"
+  },
+  "-Mn6HpeLAj6ibKtx-6bP": {
+    "_id": 295,
+    "date": 1635431176858,
+    "logDetails": "{\n  \"_id\": 18,\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"createdBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"createdDate\": 1635431064692,\n  \"lastEditDate\": 1635431170284,\n  \"lastEditedBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"message\": \"Please join this cohort as you are the lead mentor\",\n  \"name\": \"ProgrammePartner->Mentor\",\n  \"notificationDescription\": \"A Programme Partner wants you to be a part of their cohort\",\n  \"owner\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"programmePartnerOwner\": \"-Mn5brk8wT4KzCU903_I\",\n  \"referralTypeMentor\": \"-MSRv2egcs7cS-Cfap-1\",\n  \"rowKey\": \"-Mn6HPDEtUjH7YOxrvlz\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Email Task - ProgrammePartner->Mentor - Notify Mentor",
+    "rowKey": "-Mn6HpeLAj6ibKtx-6bP"
+  },
+  "-Mn6HpeMobY2BxBhTSPi": {
+    "_id": 295,
+    "date": 1635431176770,
+    "logDetails": "LWr4221JJxeNn8zKr4JfIxr45Qz2",
+    "name": "Workflow Log ",
+    "rowKey": "-Mn6HpeMobY2BxBhTSPi"
+  },
+  "-Mn6HpnYujXi6LCwAR5c": {
+    "_id": 296,
+    "date": 1635431177378,
+    "logDetails": "{\n  \"_id\": 18,\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"createdBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"createdDate\": 1635431064692,\n  \"lastEditDate\": 1635431170284,\n  \"lastEditedBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"message\": \"Please join this cohort as you are the lead mentor\",\n  \"name\": \"ProgrammePartner->Mentor\",\n  \"notificationDescription\": \"A Programme Partner wants you to be a part of their cohort\",\n  \"owner\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"programmePartnerOwner\": \"-Mn5brk8wT4KzCU903_I\",\n  \"referralTypeMentor\": \"-MSRv2egcs7cS-Cfap-1\",\n  \"rowKey\": \"-Mn6HPDEtUjH7YOxrvlz\",\n  \"state\": null\n}",
+    "name": "Workflow Step > ProgrammePartner->Mentor -  Mentor Approve",
+    "rowKey": "-Mn6HpnYujXi6LCwAR5c"
+  },
+  "-Mn6HqNerOazlCFxHetY": {
+    "_id": 297,
+    "date": 1635431179716,
+    "logDetails": "data passed is{\n  \"row\": \"-Mn6HPDEtUjH7YOxrvlz\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"email\": \"arnold.drivedaddy@gmail.com\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mn6HqNerOazlCFxHetY"
+  },
+  "-Mn6HqP9WlCVEELtpS_1": {
+    "_id": 298,
+    "date": 1635431179917,
+    "logDetails": "{\n  \"_id\": 18,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"createdBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"createdDate\": 1635431064692,\n  \"lastEditDate\": 1635431170284,\n  \"lastEditedBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"message\": \"Please join this cohort as you are the lead mentor\",\n  \"name\": \"ProgrammePartner->Mentor\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner wants you to be a part of their cohort\",\n  \"owner\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"programmePartnerOwner\": \"-Mn5brk8wT4KzCU903_I\",\n  \"referralTypeMentor\": \"-MSRv2egcs7cS-Cfap-1\",\n  \"rowKey\": \"-Mn6HPDEtUjH7YOxrvlz\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Email Task - ProgrammePartner->Mentor - Notify Mentor",
+    "rowKey": "-Mn6HqP9WlCVEELtpS_1"
+  },
+  "-Mn6HqP9WlCVEELtpS_2": {
+    "_id": 298,
+    "date": 1635431179909,
+    "logDetails": "LWr4221JJxeNn8zKr4JfIxr45Qz2",
+    "name": "Workflow Log ",
+    "rowKey": "-Mn6HqP9WlCVEELtpS_2"
+  },
+  "-Mn6HqWPsCb6gMwRJhpH": {
+    "_id": 299,
+    "date": 1635431180379,
+    "logDetails": "{\n  \"_id\": 18,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"createdBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"createdDate\": 1635431064692,\n  \"lastEditDate\": 1635431170284,\n  \"lastEditedBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"message\": \"Please join this cohort as you are the lead mentor\",\n  \"name\": \"ProgrammePartner->Mentor\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner wants you to be a part of their cohort\",\n  \"owner\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"programmePartnerOwner\": \"-Mn5brk8wT4KzCU903_I\",\n  \"referralTypeMentor\": \"-MSRv2egcs7cS-Cfap-1\",\n  \"rowKey\": \"-Mn6HPDEtUjH7YOxrvlz\",\n  \"state\": null\n}",
+    "name": "Workflow Step > ProgrammePartner->Mentor -  Mentor Approve",
+    "rowKey": "-Mn6HqWPsCb6gMwRJhpH"
+  },
+  "-Mn6ODIIY37Sf_TKpyaE": {
+    "_id": 300,
+    "date": 1635432850560,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-Mn6HPDEtUjH7YOxrvlz\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"email\": \"adt@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mn6ODIIY37Sf_TKpyaE"
+  },
+  "-Mn6ODOjXys0sV63P6bG": {
+    "_id": 301,
+    "date": 1635432850754,
+    "logDetails": "adt@truealtitude.co.uk clicked Approve at 2021-10-28 14:54:10 on record ID 18",
+    "name": "User Workflow Event",
+    "rowKey": "-Mn6ODOjXys0sV63P6bG",
+    "user": "LWr4221JJxeNn8zKr4JfIxr45Qz2",
+    "workflowName": "All Applications & Invites"
+  },
+  "-Mn6ODQDbt7cJf85FIQf": {
+    "_id": 302,
+    "date": 1635432851153,
+    "logDetails": "ByqTEl2I7EhnEZhHArQWCIxb3A03",
+    "name": "Workflow Log ",
+    "rowKey": "-Mn6ODQDbt7cJf85FIQf"
+  },
+  "-Mn6ODQEYGhJAaZhQs97": {
+    "_id": 302,
+    "date": 1635432851076,
+    "logDetails": "{\n  \"_id\": 18,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"createdBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"createdDate\": 1635431064692,\n  \"lastEditDate\": 1635431170284,\n  \"lastEditedBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"message\": \"Please join this cohort as you are the lead mentor\",\n  \"name\": \"ProgrammePartner->Mentor\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner wants you to be a part of their cohort\",\n  \"owner\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"programmePartnerOwner\": \"-Mn5brk8wT4KzCU903_I\",\n  \"referralTypeMentor\": \"-MSRv2egcs7cS-Cfap-1\",\n  \"rowKey\": \"-Mn6HPDEtUjH7YOxrvlz\",\n  \"state\": \"ProgrammePartner->Mentor -  Mentor Approve\"\n}",
+    "name": "Workflow Step > Email Task - ProgrammePartner->Mentor - Approval Notif",
+    "rowKey": "-Mn6ODQEYGhJAaZhQs97"
+  },
+  "-Mn6ODTGeff5t30U0-Fl": {
+    "_id": 303,
+    "date": 1635432851300,
+    "logDetails": "arnold.drivedaddy@gmail.com",
+    "name": "Workflow Log ",
+    "rowKey": "-Mn6ODTGeff5t30U0-Fl"
+  },
+  "-Mn6ODa7n3SzhHjINls7": {
+    "_id": 304,
+    "date": 1635432851850,
+    "logDetails": "{\n  \"_id\": 18,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"createdBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"createdDate\": 1635431064692,\n  \"lastEditDate\": 1635431170284,\n  \"lastEditedBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"message\": \"Please join this cohort as you are the lead mentor\",\n  \"name\": \"ProgrammePartner->Mentor\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner wants you to be a part of their cohort\",\n  \"owner\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"programmePartnerOwner\": \"-Mn5brk8wT4KzCU903_I\",\n  \"referralTypeMentor\": \"-MSRv2egcs7cS-Cfap-1\",\n  \"rowKey\": \"-Mn6HPDEtUjH7YOxrvlz\",\n  \"state\": \"ProgrammePartner->Mentor -  Mentor Approve\"\n}",
+    "name": "Workflow Step > Script Task = Add Mentor",
+    "rowKey": "-Mn6ODa7n3SzhHjINls7"
+  },
+  "-Mn6ODaLnJrv_UCpPjfC": {
+    "_id": 305,
+    "date": 1635432851867,
+    "logDetails": "{\n  \"_id\": 18,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"createdBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"createdDate\": 1635431064692,\n  \"lastEditDate\": 1635431170284,\n  \"lastEditedBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"message\": \"Please join this cohort as you are the lead mentor\",\n  \"name\": \"ProgrammePartner->Mentor\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner wants you to be a part of their cohort\",\n  \"owner\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"programmePartnerOwner\": \"-Mn5brk8wT4KzCU903_I\",\n  \"referralTypeMentor\": \"-MSRv2egcs7cS-Cfap-1\",\n  \"rowKey\": \"-Mn6HPDEtUjH7YOxrvlz\",\n  \"state\": \"ProgrammePartner->Mentor -  Mentor Approve\"\n}",
+    "name": "Workflow Step > ProgrammePartner - Response",
+    "rowKey": "-Mn6ODaLnJrv_UCpPjfC"
+  },
+  "-Mn6oF7emnXHuzF7Vau8": {
+    "_id": 306,
+    "date": 1635439936029,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"email\": \"jitte@spher.app\",\n  \"workflow\": \"-Mlo57EwY5hz-8OWjFZT\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mn6oF7emnXHuzF7Vau8"
+  },
+  "-MnA8QGdrA5KccpXJLQZ": {
+    "_id": 307,
+    "date": 1635495818289,
+    "logDetails": "data passed is{\n  \"row\": \"-Mn6neqopjJWx3lNB8ms\",\n  \"workflow\": \"-MedT1sM22jmBEzmCbVN\",\n  \"grid\": \"companyUserProfiles\",\n  \"step\": \"Begin Company User Approval/Reject Process\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnA8QGdrA5KccpXJLQZ"
+  },
+  "-MnA8QJkjlHmxeG8lWBG": {
+    "_id": 308,
+    "date": 1635495818477,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 2,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1635439783744,\n  \"dateOfBirth\": \"01/01/2003\",\n  \"lastEditDate\": 1635439927188,\n  \"lastEditedBy\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/company/spherapp/?viewAsMember=true\",\n  \"location\": \"-McPSU3HJ2LmCZf7WYmL\",\n  \"name\": \"Jitte\",\n  \"owner\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"phoneNumber\": \"00467657878\",\n  \"rowKey\": \"-Mn6neqopjJWx3lNB8ms\",\n  \"secondName\": \"Sjösäter\",\n  \"submitPressed\": true,\n  \"user\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"state\": null\n}",
+    "name": "Workflow Step > User Task",
+    "rowKey": "-MnA8QJkjlHmxeG8lWBG"
+  },
+  "-MnA8RkgPiC0SeCf4bLb": {
+    "_id": 309,
+    "date": 1635495824321,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-Mn6neqopjJWx3lNB8ms\",\n  \"workflow\": \"-MedT1sM22jmBEzmCbVN\",\n  \"grid\": \"companyUserProfiles\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnA8RkgPiC0SeCf4bLb"
+  },
+  "-MnA8RldT4lQr0GsnIwC": {
+    "_id": 310,
+    "date": 1635495824459,
+    "logDetails": "support@truealtitude.co.uk clicked Approve at 2021-10-29 08:23:44 on record ID 2",
+    "name": "User Workflow Event",
+    "rowKey": "-MnA8RldT4lQr0GsnIwC",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "Approve Company User"
+  },
+  "-MnA8RlrLyfqCdRxnlse": {
+    "_id": 311,
+    "date": 1635495824504,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 2,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1635439783744,\n  \"dateOfBirth\": \"01/01/2003\",\n  \"lastEditDate\": 1635439927188,\n  \"lastEditedBy\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/company/spherapp/?viewAsMember=true\",\n  \"location\": \"-McPSU3HJ2LmCZf7WYmL\",\n  \"name\": \"Jitte\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"phoneNumber\": \"00467657878\",\n  \"rowKey\": \"-Mn6neqopjJWx3lNB8ms\",\n  \"secondName\": \"Sjösäter\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\"\n}",
+    "name": "Workflow Step > Send Approval Email",
+    "rowKey": "-MnA8RlrLyfqCdRxnlse"
+  },
+  "-MnA8RrSXIG1rCjE84Ya": {
+    "_id": 312,
+    "date": 1635495824861,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 2,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1635439783744,\n  \"dateOfBirth\": \"01/01/2003\",\n  \"lastEditDate\": 1635439927188,\n  \"lastEditedBy\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/company/spherapp/?viewAsMember=true\",\n  \"location\": \"-McPSU3HJ2LmCZf7WYmL\",\n  \"name\": \"Jitte\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"phoneNumber\": \"00467657878\",\n  \"rowKey\": \"-Mn6neqopjJWx3lNB8ms\",\n  \"secondName\": \"Sjösäter\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\"\n}",
+    "name": "Workflow Step > Accepted",
+    "rowKey": "-MnA8RrSXIG1rCjE84Ya"
+  },
+  "-MnBJRDiBJEtGKhf0gVc": {
+    "_id": 313,
+    "date": 1635515483033,
+    "logDetails": "data passed is{\n  \"row\": \"-MnBJMEFTsjvqPzQxJ48\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"email\": \"arnold.drivedaddy@gmail.com\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnBJRDiBJEtGKhf0gVc"
+  },
+  "-MnBJRLXV9Ny_lJ2JCEo": {
+    "_id": 314,
+    "date": 1635515483557,
+    "logDetails": "{\n  \"_id\": 19,\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"createdDate\": 1635515462627,\n  \"lastEditDate\": 1635515474186,\n  \"lastEditedBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"programmePartnerOwner\": \"-Mn5brk8wT4KzCU903_I\",\n  \"referralTypeCompanyUser\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MnBJMEFTsjvqPzQxJ48\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Email Task - ProgrammePartner->CompanyUser - Notify Company User (Cohort Invite)",
+    "rowKey": "-MnBJRLXV9Ny_lJ2JCEo"
+  },
+  "-MnBJRLYZTkz87Cpw71z": {
+    "_id": 314,
+    "date": 1635515483465,
+    "logDetails": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "name": "Workflow Log ",
+    "rowKey": "-MnBJRLYZTkz87Cpw71z"
+  },
+  "-MnBJRQ4vaUBdOgooenA": {
+    "_id": 315,
+    "date": 1635515483813,
+    "logDetails": "{\n  \"_id\": 19,\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"createdDate\": 1635515462627,\n  \"lastEditDate\": 1635515474186,\n  \"lastEditedBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"programmePartnerOwner\": \"-Mn5brk8wT4KzCU903_I\",\n  \"referralTypeCompanyUser\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MnBJMEFTsjvqPzQxJ48\",\n  \"state\": null\n}",
+    "name": "Workflow Step > ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)",
+    "rowKey": "-MnBJRQ4vaUBdOgooenA"
+  },
+  "-MnBJcr54G3hQQuvksnG": {
+    "_id": 316,
+    "date": 1635515534720,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MnBJMEFTsjvqPzQxJ48\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnBJcr54G3hQQuvksnG"
+  },
+  "-MnBJczCr0LFJCTSv2e1": {
+    "_id": 317,
+    "date": 1635515534908,
+    "logDetails": "support@truealtitude.co.uk clicked Approve at 2021-10-29 13:52:14 on record ID 19",
+    "name": "User Workflow Event",
+    "rowKey": "-MnBJczCr0LFJCTSv2e1",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "All Applications & Invites"
+  },
+  "-MnBJd90YeZkBiQPTAWt": {
+    "_id": 318,
+    "date": 1635515535601,
+    "logDetails": "{\n  \"_id\": 19,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"createdDate\": 1635515462627,\n  \"lastEditDate\": 1635515474186,\n  \"lastEditedBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programmePartnerOwner\": \"-Mn5brk8wT4KzCU903_I\",\n  \"referralTypeCompanyUser\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MnBJMEFTsjvqPzQxJ48\",\n  \"state\": \"ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)\"\n}",
+    "name": "Workflow Step > Email Task - ProgrammePartner->CompanyUser - Approval Notif",
+    "rowKey": "-MnBJd90YeZkBiQPTAWt"
+  },
+  "-MnBJdDW-HJOCRmDn65o": {
+    "_id": 319,
+    "date": 1635515536202,
+    "logDetails": "ByqTEl2I7EhnEZhHArQWCIxb3A03",
+    "name": "Workflow Log ",
+    "rowKey": "-MnBJdDW-HJOCRmDn65o"
+  },
+  "-MnBJdFGahB0Eo-bKqho": {
+    "_id": 320,
+    "date": 1635515536397,
+    "logDetails": "arnold.drivedaddy@gmail.com",
+    "name": "Workflow Log ",
+    "rowKey": "-MnBJdFGahB0Eo-bKqho"
+  },
+  "-MnBJdN03D-QXAaUFlqn": {
+    "_id": 321,
+    "date": 1635515536907,
+    "logDetails": "{\n  \"_id\": 19,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"createdDate\": 1635515462627,\n  \"lastEditDate\": 1635515474186,\n  \"lastEditedBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programmePartnerOwner\": \"-Mn5brk8wT4KzCU903_I\",\n  \"referralTypeCompanyUser\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MnBJMEFTsjvqPzQxJ48\",\n  \"state\": \"ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)\"\n}",
+    "name": "Workflow Step > Script Task - Add Company",
+    "rowKey": "-MnBJdN03D-QXAaUFlqn"
+  },
+  "-MnBJdN1vWgzikNOY-m_": {
+    "_id": 321,
+    "date": 1635515536893,
+    "logDetails": "{\n  \"_id\": 19,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"createdDate\": 1635515462627,\n  \"lastEditDate\": 1635515474186,\n  \"lastEditedBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programmePartnerOwner\": \"-Mn5brk8wT4KzCU903_I\",\n  \"referralTypeCompanyUser\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MnBJMEFTsjvqPzQxJ48\",\n  \"state\": \"ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)\"\n}",
+    "name": "Workflow Step > Script Task - Add Company Users",
+    "rowKey": "-MnBJdN1vWgzikNOY-m_"
+  },
+  "-MnBJdQA8BQAmN0uJte0": {
+    "_id": 322,
+    "date": 1635515537009,
+    "logDetails": "{\n  \"_id\": 19,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"createdDate\": 1635515462627,\n  \"lastEditDate\": 1635515474186,\n  \"lastEditedBy\": \"ByqTEl2I7EhnEZhHArQWCIxb3A03\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programmePartnerOwner\": \"-Mn5brk8wT4KzCU903_I\",\n  \"referralTypeCompanyUser\": \"-MSXrH_xpojUkTnzBsPK\",\n  \"rowKey\": \"-MnBJMEFTsjvqPzQxJ48\",\n  \"state\": \"ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)\"\n}",
+    "name": "Workflow Step > ProgrammePartner - Response",
+    "rowKey": "-MnBJdQA8BQAmN0uJte0"
+  },
+  "-MnBJr4OwhS0Bv3C-U3c": {
+    "_id": 323,
+    "date": 1635515592967,
+    "logDetails": "data passed is{\n  \"row\": \"-MnBJpRkRq0gFV1jpQoy\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnBJr4OwhS0Bv3C-U3c"
+  },
+  "-MnBJrCHat7ED3zy1c1I": {
+    "_id": 324,
+    "date": 1635515593562,
+    "logDetails": "{\n  \"_id\": 21,\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"cohortCompany\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"createdDate\": 1635515586405,\n  \"lastEditDate\": 1635515592085,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"message\": \"TEST\",\n  \"name\": \"CompanyUser->Mentor(inCohort)\",\n  \"notificationDescription\": \"A company user has applied for you to be their mentor (within a cohort)\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"rowKey\": \"-MnBJpRkRq0gFV1jpQoy\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Email Task - CompanyUser->Mentor(inCohort) -Notify Mentor",
+    "rowKey": "-MnBJrCHat7ED3zy1c1I"
+  },
+  "-MnBJrCI7EfEuQmDjOwS": {
+    "_id": 324,
+    "date": 1635515593553,
+    "logDetails": "LWr4221JJxeNn8zKr4JfIxr45Qz2",
+    "name": "Workflow Log ",
+    "rowKey": "-MnBJrCI7EfEuQmDjOwS"
+  },
+  "-MnBJrFLc0DSFdPKaA4l": {
+    "_id": 325,
+    "date": 1635515593714,
+    "logDetails": "adt@truealtitude.co.uk",
+    "name": "Workflow Log ",
+    "rowKey": "-MnBJrFLc0DSFdPKaA4l"
+  },
+  "-MnBJrJrZEbJbwfuoieo": {
+    "_id": 326,
+    "date": 1635515593989,
+    "logDetails": "{\n  \"_id\": 21,\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"cohortCompany\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"createdDate\": 1635515586405,\n  \"lastEditDate\": 1635515592085,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"message\": \"TEST\",\n  \"name\": \"CompanyUser->Mentor(inCohort)\",\n  \"notificationDescription\": \"A company user has applied for you to be their mentor (within a cohort)\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"rowKey\": \"-MnBJpRkRq0gFV1jpQoy\",\n  \"state\": null\n}",
+    "name": "Workflow Step > CompanyUser->Mentor(inCohort) - Mentor Approve",
+    "rowKey": "-MnBJrJrZEbJbwfuoieo"
+  },
+  "-MnBJtVp2eNUwWtRynaW": {
+    "_id": 327,
+    "date": 1635515602844,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MnBJpRkRq0gFV1jpQoy\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"email\": \"adt@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnBJtVp2eNUwWtRynaW"
+  },
+  "-MnBJtb5wzvO3-ZZcMir": {
+    "_id": 328,
+    "date": 1635515603106,
+    "logDetails": "adt@truealtitude.co.uk clicked Approve at 2021-10-29 13:53:23 on record ID 21",
+    "name": "User Workflow Event",
+    "rowKey": "-MnBJtb5wzvO3-ZZcMir",
+    "user": "LWr4221JJxeNn8zKr4JfIxr45Qz2",
+    "workflowName": "All Applications & Invites"
+  },
+  "-MnBJtcd6HwXsW52rCSP": {
+    "_id": 329,
+    "date": 1635515603494,
+    "logDetails": "{\n  \"_id\": 21,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"cohortCompany\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"createdDate\": 1635515586405,\n  \"lastEditDate\": 1635515592085,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"message\": \"TEST\",\n  \"name\": \"CompanyUser->Mentor(inCohort)\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A company user has applied for you to be their mentor (within a cohort)\",\n  \"owner\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"rowKey\": \"-MnBJpRkRq0gFV1jpQoy\",\n  \"state\": \"CompanyUser->Mentor(inCohort) - Mentor Approve\"\n}",
+    "name": "Workflow Step > Email Task - CompanyUser->Mentor(inCohort) - Approval Notif",
+    "rowKey": "-MnBJtcd6HwXsW52rCSP"
+  },
+  "-MnBJte9To6Oc9eDEkb5": {
+    "_id": 330,
+    "date": 1635515603508,
+    "logDetails": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "name": "Workflow Log ",
+    "rowKey": "-MnBJte9To6Oc9eDEkb5"
+  },
+  "-MnBJtft7kb-VupOxqWy": {
+    "_id": 331,
+    "date": 1635515603698,
+    "logDetails": "support@truealtitude.co.uk",
+    "name": "Workflow Log ",
+    "rowKey": "-MnBJtft7kb-VupOxqWy"
+  },
+  "-MnBJtnhuzix-Ag0JM8R": {
+    "_id": 332,
+    "date": 1635515604207,
+    "logDetails": "{\n  \"_id\": 21,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"cohortCompany\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"createdDate\": 1635515586405,\n  \"lastEditDate\": 1635515592085,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"message\": \"TEST\",\n  \"name\": \"CompanyUser->Mentor(inCohort)\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A company user has applied for you to be their mentor (within a cohort)\",\n  \"owner\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"rowKey\": \"-MnBJpRkRq0gFV1jpQoy\",\n  \"state\": \"CompanyUser->Mentor(inCohort) - Mentor Approve\"\n}",
+    "name": "Workflow Step > CompanyUser - Response",
+    "rowKey": "-MnBJtnhuzix-Ag0JM8R"
+  },
+  "-MnBK9iMle8YTMeU4Ags": {
+    "_id": 333,
+    "date": 1635515673405,
+    "logDetails": "data passed is{\n  \"row\": \"-MnBK1-HXPG6Gn6Eie60\",\n  \"workflow\": \"-MT_XSLmtVM9drCNLKMi\",\n  \"grid\": \"sessions\",\n  \"step\": \"Request\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnBK9iMle8YTMeU4Ags"
+  },
+  "-MnBK9mza5OA6l0lXoOF": {
+    "_id": 334,
+    "date": 1635515673709,
+    "logDetails": "{\n  \"_id\": 181,\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"direction\": \"CompanyUser->Mentor\",\n  \"eDate\": 1635332400000,\n  \"lastEditDate\": 1635515672071,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"name\": \"TEST\",\n  \"notes\": \"Introduction\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programme\": \"null\",\n  \"rowKey\": \"-MnBK1-HXPG6Gn6Eie60\",\n  \"sDate\": 1635328800000,\n  \"sessionLength\": 1,\n  \"state\": null\n}",
+    "name": "Workflow Step > Email Task  (Company User->Mentor)",
+    "rowKey": "-MnBK9mza5OA6l0lXoOF"
+  },
+  "-MnBK9n-vG9QCrL03WD_": {
+    "_id": 334,
+    "date": 1635515673703,
+    "logDetails": "LWr4221JJxeNn8zKr4JfIxr45Qz2",
+    "name": "Workflow Log ",
+    "rowKey": "-MnBK9n-vG9QCrL03WD_"
+  },
+  "-MnBK9tCHxA0CIfq_wfB": {
+    "_id": 335,
+    "date": 1635515674145,
+    "logDetails": "{\n  \"_id\": 181,\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"direction\": \"CompanyUser->Mentor\",\n  \"eDate\": 1635332400000,\n  \"lastEditDate\": 1635515672071,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"name\": \"TEST\",\n  \"notes\": \"Introduction\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programme\": \"null\",\n  \"rowKey\": \"-MnBK1-HXPG6Gn6Eie60\",\n  \"sDate\": 1635328800000,\n  \"sessionLength\": 1,\n  \"state\": null\n}",
+    "name": "Workflow Step > Mentor Approve",
+    "rowKey": "-MnBK9tCHxA0CIfq_wfB"
+  },
+  "-MnCAiPlGn1Qsu3gXjRd": {
+    "_id": 336,
+    "date": 1635529975425,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"email\": \"gary.wong@kctechnology.co.uk\",\n  \"workflow\": \"-Mlo57EwY5hz-8OWjFZT\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnCAiPlGn1Qsu3gXjRd"
+  },
+  "-MnQOs-dOoyvE_-Y3IiI": {
+    "_id": 337,
+    "date": 1635768565726,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"email\": \"gary.wong@kctechnology.co.uk\",\n  \"workflow\": \"-Mlo57EwY5hz-8OWjFZT\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnQOs-dOoyvE_-Y3IiI"
+  },
+  "-MnVJhQgRxY_lhf06HG0": {
+    "_id": 338,
+    "date": 1635851097818,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"5O3d6LzEizfZvAYirdQkpyDK5Us2\",\n  \"email\": \"demoprogrammepartner@email.com\",\n  \"workflow\": \"-Mlo5B4AymUxnVnF2YBv\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnVJhQgRxY_lhf06HG0"
+  },
+  "-MnVJiKgz1YAi-_qJGZg": {
+    "_id": 339,
+    "date": 1635851101481,
+    "logDetails": "data passed is{\n  \"row\": \"-MnVJYSUpAoLMvDHTaAW\",\n  \"workflow\": \"-MeyOT_KD684ba9L19Fy\",\n  \"grid\": \"programmePartnerProfiles\",\n  \"step\": \"Begin Programme Partner Approval Process\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnVJiKgz1YAi-_qJGZg"
+  },
+  "-MnVJiO4PblD68nAJDcq": {
+    "_id": 340,
+    "date": 1635851101769,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 4,\n  \"accType\": \"-MeUR6iI2KSBaz6MwM6U\",\n  \"createdDate\": 1635851057679,\n  \"lastEditDate\": 1635851088765,\n  \"lastEditedBy\": \"5O3d6LzEizfZvAYirdQkpyDK5Us2\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Demo\",\n  \"owner\": \"5O3d6LzEizfZvAYirdQkpyDK5Us2\",\n  \"profileImage\": {\n    \"fileName\": \"b140e4b0-3bcc-11ec-bc6c-9f880c41a156_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2Fb140e4b0-3bcc-11ec-bc6c-9f880c41a156_datagrid_profile_img.png?alt=media&token=6766904c-9a4f-437f-9984-fa59f0db52b1\"\n  },\n  \"rowKey\": \"-MnVJYSUpAoLMvDHTaAW\",\n  \"secondName\": \"Programme Partner\",\n  \"submitPressed\": true,\n  \"user\": \"5O3d6LzEizfZvAYirdQkpyDK5Us2\",\n  \"state\": null\n}",
+    "name": "Workflow Step > User Task",
+    "rowKey": "-MnVJiO4PblD68nAJDcq"
+  },
+  "-MnVJkm4M_tPxj6ams1j": {
+    "_id": 341,
+    "date": 1635851110760,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MnVJYSUpAoLMvDHTaAW\",\n  \"workflow\": \"-MeyOT_KD684ba9L19Fy\",\n  \"grid\": \"programmePartnerProfiles\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnVJkm4M_tPxj6ams1j"
+  },
+  "-MnVJkpCPwfW_800_oN-": {
+    "_id": 342,
+    "date": 1635851111606,
+    "logDetails": "support@truealtitude.co.uk clicked Approve at 2021-11-02 11:05:11 on record ID 4",
+    "name": "User Workflow Event",
+    "rowKey": "-MnVJkpCPwfW_800_oN-",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "Approve ProgrammePartner"
+  },
+  "-MnVJkpLQWztugHAbyFc": {
+    "_id": 343,
+    "date": 1635851111798,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 4,\n  \"accType\": \"-MeUR6iI2KSBaz6MwM6U\",\n  \"createdDate\": 1635851057679,\n  \"lastEditDate\": 1635851088765,\n  \"lastEditedBy\": \"5O3d6LzEizfZvAYirdQkpyDK5Us2\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Demo\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"5O3d6LzEizfZvAYirdQkpyDK5Us2\",\n  \"profileImage\": {\n    \"fileName\": \"b140e4b0-3bcc-11ec-bc6c-9f880c41a156_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2Fb140e4b0-3bcc-11ec-bc6c-9f880c41a156_datagrid_profile_img.png?alt=media&token=6766904c-9a4f-437f-9984-fa59f0db52b1\"\n  },\n  \"rowKey\": \"-MnVJYSUpAoLMvDHTaAW\",\n  \"secondName\": \"Programme Partner\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"5O3d6LzEizfZvAYirdQkpyDK5Us2\"\n}",
+    "name": "Workflow Step > Send Approval Email",
+    "rowKey": "-MnVJkpLQWztugHAbyFc"
+  },
+  "-MnVJktk_-KOcA11BY6-": {
+    "_id": 344,
+    "date": 1635851112082,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 4,\n  \"accType\": \"-MeUR6iI2KSBaz6MwM6U\",\n  \"createdDate\": 1635851057679,\n  \"lastEditDate\": 1635851088765,\n  \"lastEditedBy\": \"5O3d6LzEizfZvAYirdQkpyDK5Us2\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Demo\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"5O3d6LzEizfZvAYirdQkpyDK5Us2\",\n  \"profileImage\": {\n    \"fileName\": \"b140e4b0-3bcc-11ec-bc6c-9f880c41a156_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2Fb140e4b0-3bcc-11ec-bc6c-9f880c41a156_datagrid_profile_img.png?alt=media&token=6766904c-9a4f-437f-9984-fa59f0db52b1\"\n  },\n  \"rowKey\": \"-MnVJYSUpAoLMvDHTaAW\",\n  \"secondName\": \"Programme Partner\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"5O3d6LzEizfZvAYirdQkpyDK5Us2\"\n}",
+    "name": "Workflow Step > Accepted",
+    "rowKey": "-MnVJktk_-KOcA11BY6-"
+  },
+  "-MnVKpnmkBsEyOm-fojS": {
+    "_id": 345,
+    "date": 1635851394331,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"w5X7O3SKChceASnyn15NjDxlOZb2\",\n  \"email\": \"democompany@email.com\",\n  \"workflow\": \"-Mlo57EwY5hz-8OWjFZT\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnVKpnmkBsEyOm-fojS"
+  },
+  "-MnVKqonqKFQNWAltxUb": {
+    "_id": 346,
+    "date": 1635851398398,
+    "logDetails": "data passed is{\n  \"row\": \"-MnVK_GpJ-V4-Tq1Anph\",\n  \"workflow\": \"-MedT1sM22jmBEzmCbVN\",\n  \"grid\": \"companyUserProfiles\",\n  \"step\": \"Begin Company User Approval/Reject Process\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnVKqonqKFQNWAltxUb"
+  },
+  "-MnVKqs6yJ8Ij8JnHNDe": {
+    "_id": 347,
+    "date": 1635851398663,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 7,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1635851327271,\n  \"dateOfBirth\": \"01/01/2003\",\n  \"lastEditDate\": 1635851392147,\n  \"lastEditedBy\": \"w5X7O3SKChceASnyn15NjDxlOZb2\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Demo\",\n  \"owner\": \"w5X7O3SKChceASnyn15NjDxlOZb2\",\n  \"profileImage\": {\n    \"fileName\": \"658740e0-3bcd-11ec-bc6c-9f880c41a156_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F658740e0-3bcd-11ec-bc6c-9f880c41a156_datagrid_profile_img.png?alt=media&token=3389e437-7252-4f6a-b8b7-648ad6a9b65d\"\n  },\n  \"rowKey\": \"-MnVK_GpJ-V4-Tq1Anph\",\n  \"secondName\": \"Company Account\",\n  \"submitPressed\": true,\n  \"user\": \"w5X7O3SKChceASnyn15NjDxlOZb2\",\n  \"state\": null\n}",
+    "name": "Workflow Step > User Task",
+    "rowKey": "-MnVKqs6yJ8Ij8JnHNDe"
+  },
+  "-MnVKrGn_LJiGR8SPEtQ": {
+    "_id": 348,
+    "date": 1635851400215,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MnVK_GpJ-V4-Tq1Anph\",\n  \"workflow\": \"-MedT1sM22jmBEzmCbVN\",\n  \"grid\": \"companyUserProfiles\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnVKrGn_LJiGR8SPEtQ"
+  },
+  "-MnVKrLU3k_sl-XcCkK2": {
+    "_id": 349,
+    "date": 1635851400411,
+    "logDetails": "support@truealtitude.co.uk clicked Approve at 2021-11-02 11:10:00 on record ID 7",
+    "name": "User Workflow Event",
+    "rowKey": "-MnVKrLU3k_sl-XcCkK2",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "Approve Company User"
+  },
+  "-MnVKrMyzjgS4RZ7cD5X": {
+    "_id": 350,
+    "date": 1635851400616,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 7,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1635851327271,\n  \"dateOfBirth\": \"01/01/2003\",\n  \"lastEditDate\": 1635851392147,\n  \"lastEditedBy\": \"w5X7O3SKChceASnyn15NjDxlOZb2\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Demo\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"w5X7O3SKChceASnyn15NjDxlOZb2\",\n  \"profileImage\": {\n    \"fileName\": \"658740e0-3bcd-11ec-bc6c-9f880c41a156_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F658740e0-3bcd-11ec-bc6c-9f880c41a156_datagrid_profile_img.png?alt=media&token=3389e437-7252-4f6a-b8b7-648ad6a9b65d\"\n  },\n  \"rowKey\": \"-MnVK_GpJ-V4-Tq1Anph\",\n  \"secondName\": \"Company Account\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"w5X7O3SKChceASnyn15NjDxlOZb2\"\n}",
+    "name": "Workflow Step > Send Approval Email",
+    "rowKey": "-MnVKrMyzjgS4RZ7cD5X"
+  },
+  "-MnVKrSENlPrZaEIDsh0": {
+    "_id": 351,
+    "date": 1635851401039,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 7,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1635851327271,\n  \"dateOfBirth\": \"01/01/2003\",\n  \"lastEditDate\": 1635851392147,\n  \"lastEditedBy\": \"w5X7O3SKChceASnyn15NjDxlOZb2\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Demo\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"w5X7O3SKChceASnyn15NjDxlOZb2\",\n  \"profileImage\": {\n    \"fileName\": \"658740e0-3bcd-11ec-bc6c-9f880c41a156_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F658740e0-3bcd-11ec-bc6c-9f880c41a156_datagrid_profile_img.png?alt=media&token=3389e437-7252-4f6a-b8b7-648ad6a9b65d\"\n  },\n  \"rowKey\": \"-MnVK_GpJ-V4-Tq1Anph\",\n  \"secondName\": \"Company Account\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"w5X7O3SKChceASnyn15NjDxlOZb2\"\n}",
+    "name": "Workflow Step > Accepted",
+    "rowKey": "-MnVKrSENlPrZaEIDsh0"
+  },
+  "-MnzO37mYNyLoTjddaey": {
+    "_id": 352,
+    "date": 1636372332966,
+    "logDetails": "data passed is{\n  \"row\": \"-MnelQ2guYY08qWk7JeW\",\n  \"workflow\": \"-MedN7Vn9ij25cqx_kLN\",\n  \"grid\": \"companyProfiles\",\n  \"step\": \"Begin Reject or Approve Company Process\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnzO37mYNyLoTjddaey"
+  },
+  "-MnzO38Zv_tKQGvVWYF3": {
+    "_id": 353,
+    "date": 1636372333161,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 31,\n  \"access\": \"-MKjNhCeEjTtfQL8X6vn\",\n  \"companyLogo\": {\n    \"fileName\": \"0a8544a0-3d65-11ec-8bd8-61b32015079c_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F0a8544a0-3d65-11ec-8bd8-61b32015079c_datagrid_profile_img.png?alt=media&token=064dbc60-3e18-4340-a5a4-d229512aa433\"\n  },\n  \"companyStage\": \"-Mj4YnxePT2J_qutJSci\",\n  \"companyUser\": \"-MnQOfxdrXi1fdrV3PEB\",\n  \"createdDate\": 1636026398451,\n  \"lastEditDate\": 1636026506147,\n  \"lastEditedBy\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"KC Technology Limited\",\n  \"owner\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"programme\": \"-MciioUSZ8C-CC1gVlBK\",\n  \"rowKey\": \"-MnelQ2guYY08qWk7JeW\",\n  \"user\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"website\": \"www.kctechnology.co.uk\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Admin Approval",
+    "rowKey": "-MnzO38Zv_tKQGvVWYF3"
+  },
+  "-MnzO7j3arWSjTOYo-62": {
+    "_id": 354,
+    "date": 1636372352018,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MnelQ2guYY08qWk7JeW\",\n  \"workflow\": \"-MedN7Vn9ij25cqx_kLN\",\n  \"grid\": \"companyProfiles\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnzO7j3arWSjTOYo-62"
+  },
+  "-MnzO7jpUYM2Alp8qPZi": {
+    "_id": 355,
+    "date": 1636372352085,
+    "logDetails": "dev@truealtitude.co.uk clicked Approve at 2021-11-08 11:52:32 on record ID 31",
+    "name": "User Workflow Event",
+    "rowKey": "-MnzO7jpUYM2Alp8qPZi",
+    "user": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "workflowName": "Approve Company"
+  },
+  "-MnzO7k068_eujciiGyP": {
+    "_id": 356,
+    "date": 1636372352122,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 31,\n  \"access\": \"-MKjNhCeEjTtfQL8X6vn\",\n  \"companyLogo\": {\n    \"fileName\": \"0a8544a0-3d65-11ec-8bd8-61b32015079c_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F0a8544a0-3d65-11ec-8bd8-61b32015079c_datagrid_profile_img.png?alt=media&token=064dbc60-3e18-4340-a5a4-d229512aa433\"\n  },\n  \"companyStage\": \"-Mj4YnxePT2J_qutJSci\",\n  \"companyUser\": \"-MnQOfxdrXi1fdrV3PEB\",\n  \"createdDate\": 1636026398451,\n  \"lastEditDate\": 1636026506147,\n  \"lastEditedBy\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"KC Technology Limited\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"programme\": \"-MciioUSZ8C-CC1gVlBK\",\n  \"rowKey\": \"-MnelQ2guYY08qWk7JeW\",\n  \"state\": \"Admin Approval\",\n  \"user\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"website\": \"www.kctechnology.co.uk\"\n}",
+    "name": "Workflow Step > Send Mail to Company Profile Owner",
+    "rowKey": "-MnzO7k068_eujciiGyP"
+  },
+  "-MnzO7qUx-WoQik5bwxO": {
+    "_id": 357,
+    "date": 1636372352537,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 31,\n  \"access\": \"-MKjNhCeEjTtfQL8X6vn\",\n  \"companyLogo\": {\n    \"fileName\": \"0a8544a0-3d65-11ec-8bd8-61b32015079c_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F0a8544a0-3d65-11ec-8bd8-61b32015079c_datagrid_profile_img.png?alt=media&token=064dbc60-3e18-4340-a5a4-d229512aa433\"\n  },\n  \"companyStage\": \"-Mj4YnxePT2J_qutJSci\",\n  \"companyUser\": \"-MnQOfxdrXi1fdrV3PEB\",\n  \"createdDate\": 1636026398451,\n  \"lastEditDate\": 1636026506147,\n  \"lastEditedBy\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"KC Technology Limited\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"programme\": \"-MciioUSZ8C-CC1gVlBK\",\n  \"rowKey\": \"-MnelQ2guYY08qWk7JeW\",\n  \"state\": \"Admin Approval\",\n  \"user\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"website\": \"www.kctechnology.co.uk\"\n}",
+    "name": "Workflow Step > Accepted",
+    "rowKey": "-MnzO7qUx-WoQik5bwxO"
+  },
+  "-MnzO8vshBbqJ_bZty0y": {
+    "_id": 358,
+    "date": 1636372356795,
+    "logDetails": "data passed is{\n  \"event\": \"Accept\",\n  \"row\": \"-MnBK1-HXPG6Gn6Eie60\",\n  \"workflow\": \"-MT_XSLmtVM9drCNLKMi\",\n  \"grid\": \"sessions\",\n  \"step\": \"Accept\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"email\": \"adt@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnzO8vshBbqJ_bZty0y"
+  },
+  "-MnzO9-cQISrf4gjkkwJ": {
+    "_id": 359,
+    "date": 1636372356965,
+    "logDetails": "adt@truealtitude.co.uk clicked Accept at 2021-11-08 11:52:36 on record ID 181",
+    "name": "User Workflow Event",
+    "rowKey": "-MnzO9-cQISrf4gjkkwJ",
+    "user": "LWr4221JJxeNn8zKr4JfIxr45Qz2",
+    "workflowName": "Sessions"
+  },
+  "-MnzO91Eog4dKTPrXaMD": {
+    "_id": 360,
+    "date": 1636372357262,
+    "logDetails": "{\n  \"_id\": 181,\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"direction\": \"CompanyUser->Mentor\",\n  \"eDate\": 1635332400000,\n  \"lastEditDate\": 1635515672071,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"name\": \"TEST\",\n  \"nextEvents\": \"Accept,Reject\",\n  \"notes\": \"Introduction\",\n  \"owner\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"programme\": \"null\",\n  \"rowKey\": \"-MnBK1-HXPG6Gn6Eie60\",\n  \"sDate\": 1635328800000,\n  \"sessionLength\": 1,\n  \"state\": \"Mentor Approve\",\n  \"status\": \"-MT_Y0f-hgT92Kdk5APL\"\n}",
+    "name": "Workflow Step > Email Task (CompanyUser->Mentor) Response",
+    "rowKey": "-MnzO91Eog4dKTPrXaMD"
+  },
+  "-MnzO91Eog4dKTPrXaME": {
+    "_id": 360,
+    "date": 1636372357173,
+    "logDetails": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "name": "Workflow Log ",
+    "rowKey": "-MnzO91Eog4dKTPrXaME"
+  },
+  "-MnzO9BqpkIFighBmWTx": {
+    "_id": 361,
+    "date": 1636372357943,
+    "logDetails": "{\n  \"_id\": 181,\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"direction\": \"CompanyUser->Mentor\",\n  \"eDate\": 1635332400000,\n  \"lastEditDate\": 1635515672071,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"name\": \"TEST\",\n  \"nextEvents\": \"Accept,Reject\",\n  \"notes\": \"Introduction\",\n  \"owner\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"programme\": \"null\",\n  \"rowKey\": \"-MnBK1-HXPG6Gn6Eie60\",\n  \"sDate\": 1635328800000,\n  \"sessionLength\": 1,\n  \"state\": \"Mentor Approve\",\n  \"status\": \"-MT_Y0f-hgT92Kdk5APL\"\n}",
+    "name": "Workflow Step > Did Session Happen? Mentor",
+    "rowKey": "-MnzO9BqpkIFighBmWTx"
+  },
+  "-MnzTj_gfFGHL-B5LlsT": {
+    "_id": 362,
+    "date": 1636373821755,
+    "logDetails": "data passed is{\n  \"row\": \"-MnzTg0_D6josHo5MAon\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"email\": \"adt@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnzTj_gfFGHL-B5LlsT"
+  },
+  "-MnzTjir4rPtb-sNVD4P": {
+    "_id": 363,
+    "date": 1636373822317,
+    "logDetails": "{\n  \"_id\": 19,\n  \"cohort\": \"-Mn5_hVFYKPmuLKdb4kc\",\n  \"company\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"companyLastEditDate\": 1633528358000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"createdDate\": 1636373805274,\n  \"lastEditDate\": 1636373807828,\n  \"lastEditedBy\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"mentorOwner\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"name\": \"Mentor->CompanyUser\",\n  \"notificationDescription\": \"A Mentor has applied for Findaa Technology Ltd to be a part of their cohort\",\n  \"owner\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"rowKey\": \"-MnzTg0_D6josHo5MAon\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Email Task - Mentor->CompanyUser -Notify Company User",
+    "rowKey": "-MnzTjir4rPtb-sNVD4P"
+  },
+  "-MnzTjish7vrm8LExdLk": {
+    "_id": 363,
+    "date": 1636373822303,
+    "logDetails": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "name": "Workflow Log ",
+    "rowKey": "-MnzTjish7vrm8LExdLk"
+  },
+  "-MnzTjwzEaM02BrJd8W4": {
+    "_id": 364,
+    "date": 1636373823294,
+    "logDetails": "{\n  \"_id\": 19,\n  \"cohort\": \"-Mn5_hVFYKPmuLKdb4kc\",\n  \"company\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"companyLastEditDate\": 1633528358000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"createdDate\": 1636373805274,\n  \"lastEditDate\": 1636373807828,\n  \"lastEditedBy\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"mentorOwner\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"name\": \"Mentor->CompanyUser\",\n  \"notificationDescription\": \"A Mentor has applied for Findaa Technology Ltd to be a part of their cohort\",\n  \"owner\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"rowKey\": \"-MnzTg0_D6josHo5MAon\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Company User Approve Cohort Invite",
+    "rowKey": "-MnzTjwzEaM02BrJd8W4"
+  },
+  "-MnzTsho1lnUE27CoEUw": {
+    "_id": 365,
+    "date": 1636373859087,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MnzTg0_D6josHo5MAon\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnzTsho1lnUE27CoEUw"
+  },
+  "-MnzTsizHGiTbq9rmvnl": {
+    "_id": 366,
+    "date": 1636373859217,
+    "logDetails": "support@truealtitude.co.uk clicked Approve at 2021-11-08 12:17:39 on record ID 19",
+    "name": "User Workflow Event",
+    "rowKey": "-MnzTsizHGiTbq9rmvnl",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "All Applications & Invites"
+  },
+  "-MnzTsjU_Tq8o9Bavr4l": {
+    "_id": 367,
+    "date": 1636373859294,
+    "logDetails": "{\n  \"_id\": 19,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-Mn5_hVFYKPmuLKdb4kc\",\n  \"company\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"companyLastEditDate\": 1633528358000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"createdDate\": 1636373805274,\n  \"lastEditDate\": 1636373807828,\n  \"lastEditedBy\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"mentorOwner\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"name\": \"Mentor->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Mentor has applied for Findaa Technology Ltd to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"rowKey\": \"-MnzTg0_D6josHo5MAon\",\n  \"state\": \"Company User Approve Cohort Invite\"\n}",
+    "name": "Workflow Step > Email Task - Mentor->CompanyUser - Approval Notif",
+    "rowKey": "-MnzTsjU_Tq8o9Bavr4l"
+  },
+  "-MnzTsjuiNC6DpDvMvDa": {
+    "_id": 368,
+    "date": 1636373859321,
+    "logDetails": "LWr4221JJxeNn8zKr4JfIxr45Qz2",
+    "name": "Workflow Log ",
+    "rowKey": "-MnzTsjuiNC6DpDvMvDa"
+  },
+  "-MnzTskjMFeqDJA0-NNw": {
+    "_id": 369,
+    "date": 1636373859374,
+    "logDetails": "adt@truealtitude.co.uk",
+    "name": "Workflow Log ",
+    "rowKey": "-MnzTskjMFeqDJA0-NNw"
+  },
+  "-MnzTsqND0eBdwV3nbhv": {
+    "_id": 370,
+    "date": 1636373859746,
+    "logDetails": "{\n  \"_id\": 19,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-Mn5_hVFYKPmuLKdb4kc\",\n  \"company\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"companyLastEditDate\": 1633528358000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"createdDate\": 1636373805274,\n  \"lastEditDate\": 1636373807828,\n  \"lastEditedBy\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"mentorOwner\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"name\": \"Mentor->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Mentor has applied for Findaa Technology Ltd to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"rowKey\": \"-MnzTg0_D6josHo5MAon\",\n  \"state\": \"Company User Approve Cohort Invite\"\n}",
+    "name": "Workflow Step > Script Task - Add Company to Cohort",
+    "rowKey": "-MnzTsqND0eBdwV3nbhv"
+  },
+  "-MnzTsqND0eBdwV3nbhw": {
+    "_id": 370,
+    "date": 1636373859736,
+    "logDetails": "{\n  \"_id\": 19,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-Mn5_hVFYKPmuLKdb4kc\",\n  \"company\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"companyLastEditDate\": 1633528358000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"createdDate\": 1636373805274,\n  \"lastEditDate\": 1636373807828,\n  \"lastEditedBy\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"mentorOwner\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"name\": \"Mentor->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Mentor has applied for Findaa Technology Ltd to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"rowKey\": \"-MnzTg0_D6josHo5MAon\",\n  \"state\": \"Company User Approve Cohort Invite\"\n}",
+    "name": "Workflow Step > Script Task - Add Company User to Cohort",
+    "rowKey": "-MnzTsqND0eBdwV3nbhw"
+  },
+  "-MnzTsr12KAFkGnWpBk5": {
+    "_id": 371,
+    "date": 1636373859777,
+    "logDetails": "{\n  \"_id\": 19,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-Mn5_hVFYKPmuLKdb4kc\",\n  \"company\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"companyLastEditDate\": 1633528358000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"createdDate\": 1636373805274,\n  \"lastEditDate\": 1636373807828,\n  \"lastEditedBy\": \"SjZYZlQxFVRMG1c1RIVp315cYpg1\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"mentorOwner\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"name\": \"Mentor->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Mentor has applied for Findaa Technology Ltd to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"rowKey\": \"-MnzTg0_D6josHo5MAon\",\n  \"state\": \"Company User Approve Cohort Invite\"\n}",
+    "name": "Workflow Step > MentorOwner - Response",
+    "rowKey": "-MnzTsr12KAFkGnWpBk5"
+  },
+  "-MnzU429dlkCwfTIPiWY": {
+    "_id": 372,
+    "date": 1636373909613,
+    "logDetails": "data passed is{\n  \"row\": \"-MnzU1xsViATU7nrG-Gm\",\n  \"workflow\": \"-MT_XSLmtVM9drCNLKMi\",\n  \"grid\": \"sessions\",\n  \"step\": \"Request\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnzU429dlkCwfTIPiWY"
+  },
+  "-MnzU48BFSA60Pii0cM1": {
+    "_id": 373,
+    "date": 1636373910094,
+    "logDetails": "{\n  \"_id\": 183,\n  \"cohort\": \"-Mn5_hVFYKPmuLKdb4kc\",\n  \"company\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"direction\": \"CompanyUser->Mentor\",\n  \"eDate\": 1636722000000,\n  \"lastEditDate\": 1636373908264,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"name\": \"Demo\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programme\": \"null\",\n  \"rowKey\": \"-MnzU1xsViATU7nrG-Gm\",\n  \"sDate\": 1636718400000,\n  \"sessionLength\": 1,\n  \"state\": null\n}",
+    "name": "Workflow Step > Email Task  (Company User->Mentor)",
+    "rowKey": "-MnzU48BFSA60Pii0cM1"
+  },
+  "-MnzU48DkZqcJeNj61vk": {
+    "_id": 373,
+    "date": 1636373910002,
+    "logDetails": "LWr4221JJxeNn8zKr4JfIxr45Qz2",
+    "name": "Workflow Log ",
+    "rowKey": "-MnzU48DkZqcJeNj61vk"
+  },
+  "-MnzU4HbuqvwNXrNgPZQ": {
+    "_id": 374,
+    "date": 1636373910695,
+    "logDetails": "{\n  \"_id\": 183,\n  \"cohort\": \"-Mn5_hVFYKPmuLKdb4kc\",\n  \"company\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"direction\": \"CompanyUser->Mentor\",\n  \"eDate\": 1636722000000,\n  \"lastEditDate\": 1636373908264,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"name\": \"Demo\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programme\": \"null\",\n  \"rowKey\": \"-MnzU1xsViATU7nrG-Gm\",\n  \"sDate\": 1636718400000,\n  \"sessionLength\": 1,\n  \"state\": null\n}",
+    "name": "Workflow Step > Mentor Approve",
+    "rowKey": "-MnzU4HbuqvwNXrNgPZQ"
+  },
+  "-MnzUHne0Lb0wyQ_OZZQ": {
+    "_id": 375,
+    "date": 1636373965982,
+    "logDetails": "data passed is{\n  \"event\": \"Accept\",\n  \"row\": \"-MnzU1xsViATU7nrG-Gm\",\n  \"workflow\": \"-MT_XSLmtVM9drCNLKMi\",\n  \"grid\": \"sessions\",\n  \"step\": \"Accept\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"email\": \"adt@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnzUHne0Lb0wyQ_OZZQ"
+  },
+  "-MnzUHqtSUVfJPksPpjM": {
+    "_id": 376,
+    "date": 1636373966159,
+    "logDetails": "adt@truealtitude.co.uk clicked Accept at 2021-11-08 12:19:26 on record ID 183",
+    "name": "User Workflow Event",
+    "rowKey": "-MnzUHqtSUVfJPksPpjM",
+    "user": "LWr4221JJxeNn8zKr4JfIxr45Qz2",
+    "workflowName": "Sessions"
+  },
+  "-MnzUHsQADIZQdl64acU": {
+    "_id": 377,
+    "date": 1636373966364,
+    "logDetails": "{\n  \"_id\": 183,\n  \"cohort\": \"-Mn5_hVFYKPmuLKdb4kc\",\n  \"company\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"direction\": \"CompanyUser->Mentor\",\n  \"eDate\": 1636722000000,\n  \"lastEditDate\": 1636373908264,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"name\": \"Demo\",\n  \"nextEvents\": \"Accept,Reject\",\n  \"owner\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"programme\": \"null\",\n  \"rowKey\": \"-MnzU1xsViATU7nrG-Gm\",\n  \"sDate\": 1636718400000,\n  \"sessionLength\": 1,\n  \"state\": \"Mentor Approve\",\n  \"status\": \"-MT_Y0f-hgT92Kdk5APL\"\n}",
+    "name": "Workflow Step > Email Task (CompanyUser->Mentor) Response",
+    "rowKey": "-MnzUHsQADIZQdl64acU"
+  },
+  "-MnzUHsRX35fwFwJFN69": {
+    "_id": 377,
+    "date": 1636373966355,
+    "logDetails": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "name": "Workflow Log ",
+    "rowKey": "-MnzUHsRX35fwFwJFN69"
+  },
+  "-MnzUI2Ou2SEmbAXwFvE": {
+    "_id": 378,
+    "date": 1636373967061,
+    "logDetails": "{\n  \"_id\": 183,\n  \"cohort\": \"-Mn5_hVFYKPmuLKdb4kc\",\n  \"company\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"direction\": \"CompanyUser->Mentor\",\n  \"eDate\": 1636722000000,\n  \"lastEditDate\": 1636373908264,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"name\": \"Demo\",\n  \"nextEvents\": \"Accept,Reject\",\n  \"owner\": \"LWr4221JJxeNn8zKr4JfIxr45Qz2\",\n  \"programme\": \"null\",\n  \"rowKey\": \"-MnzU1xsViATU7nrG-Gm\",\n  \"sDate\": 1636718400000,\n  \"sessionLength\": 1,\n  \"state\": \"Mentor Approve\",\n  \"status\": \"-MT_Y0f-hgT92Kdk5APL\"\n}",
+    "name": "Workflow Step > Did Session Happen? Mentor",
+    "rowKey": "-MnzUI2Ou2SEmbAXwFvE"
+  },
+  "-MnzUgSxX2J1RBHoflxY": {
+    "_id": 379,
+    "date": 1636374071055,
+    "logDetails": "data passed is{\n  \"event\": \"Session went on as planned\",\n  \"row\": \"-MnzU1xsViATU7nrG-Gm\",\n  \"workflow\": \"-MT_XSLmtVM9drCNLKMi\",\n  \"grid\": \"sessions\",\n  \"step\": \"Session went on as planned\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MnzUgSxX2J1RBHoflxY"
+  },
+  "-MnzUgXghBxgy_pW-i_P": {
+    "_id": 380,
+    "date": 1636374071269,
+    "logDetails": "support@truealtitude.co.uk clicked Session went on as planned at 2021-11-08 12:21:11 on record ID 183",
+    "name": "User Workflow Event",
+    "rowKey": "-MnzUgXghBxgy_pW-i_P",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "Sessions"
+  },
+  "-MnzUgZH_31p_Q1TUr0-": {
+    "_id": 381,
+    "date": 1636374071572,
+    "logDetails": "{\n  \"_id\": 183,\n  \"cohort\": \"-Mn5_hVFYKPmuLKdb4kc\",\n  \"company\": \"-MNZ-kKtSmZQuN7gqgFt\",\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"direction\": \"CompanyUser->Mentor\",\n  \"eDate\": 1636722000000,\n  \"isBooked\": true,\n  \"lastEditDate\": 1636373908264,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"name\": \"Demo\",\n  \"nextEvents\": \"Session went on as planned,Session did not happen\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programme\": \"null\",\n  \"rowKey\": \"-MnzU1xsViATU7nrG-Gm\",\n  \"sDate\": 1636718400000,\n  \"sessionLength\": 1,\n  \"state\": \"Did Session Happen? Mentor\",\n  \"status\": \"-MT_Xz9l8P0BnRSUB8fb\"\n}",
+    "name": "Workflow Step > Submit Review",
+    "rowKey": "-MnzUgZH_31p_Q1TUr0-"
+  },
+  "-Mo3UhaALQtUyBsuD5kv": {
+    "_id": 382,
+    "date": 1636457961768,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"Q0YhuV938EdCkYXmXWeNC27wfyl2\",\n  \"email\": \"emma.mee@allia.org.uk\",\n  \"workflow\": \"-Mlo5B4AymUxnVnF2YBv\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mo3UhaALQtUyBsuD5kv"
+  },
+  "-Mo4EXvmKJV-vz9MHmbs": {
+    "_id": 383,
+    "date": 1636470501029,
+    "logDetails": "data passed is{\n  \"row\": \"-Mo306kfzBpi77ySVH8W\",\n  \"workflow\": \"-MeyOT_KD684ba9L19Fy\",\n  \"grid\": \"programmePartnerProfiles\",\n  \"step\": \"Begin Programme Partner Approval Process\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mo4EXvmKJV-vz9MHmbs"
+  },
+  "-Mo4EY-B4e4iwS7wBP0f": {
+    "_id": 384,
+    "date": 1636470501315,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 5,\n  \"accType\": \"-MeUR6iI2KSBaz6MwM6U\",\n  \"createdDate\": 1636449942988,\n  \"dateOfBirth\": 325983600000,\n  \"lastEditDate\": 1636457955494,\n  \"lastEditedBy\": \"Q0YhuV938EdCkYXmXWeNC27wfyl2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/emma-mee-3024588/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Emma\",\n  \"owner\": \"Q0YhuV938EdCkYXmXWeNC27wfyl2\",\n  \"phoneNumber\": \"0770339978\",\n  \"profileImage\": {\n    \"fileName\": \"d1910840-4143-11ec-8f02-85a47ac4e604_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2Fd1910840-4143-11ec-8f02-85a47ac4e604_datagrid_profile_img.png?alt=media&token=830cc71a-7769-4113-9226-97ff7922f231\"\n  },\n  \"rowKey\": \"-Mo306kfzBpi77ySVH8W\",\n  \"secondName\": \"Mee\",\n  \"submitPressed\": true,\n  \"user\": \"Q0YhuV938EdCkYXmXWeNC27wfyl2\",\n  \"state\": null\n}",
+    "name": "Workflow Step > User Task",
+    "rowKey": "-Mo4EY-B4e4iwS7wBP0f"
+  },
+  "-Mo4EZOfBlSpdQeGE5SI": {
+    "_id": 385,
+    "date": 1636470507017,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-Mo306kfzBpi77ySVH8W\",\n  \"workflow\": \"-MeyOT_KD684ba9L19Fy\",\n  \"grid\": \"programmePartnerProfiles\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mo4EZOfBlSpdQeGE5SI"
+  },
+  "-Mo4EZPPA1kGPk5mnkoh": {
+    "_id": 386,
+    "date": 1636470507139,
+    "logDetails": "dev@truealtitude.co.uk clicked Approve at 2021-11-09 15:08:27 on record ID 5",
+    "name": "User Workflow Event",
+    "rowKey": "-Mo4EZPPA1kGPk5mnkoh",
+    "user": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "workflowName": "Approve ProgrammePartner"
+  },
+  "-Mo4EZPd75RHn1ai4vNX": {
+    "_id": 387,
+    "date": 1636470507177,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 5,\n  \"accType\": \"-MeUR6iI2KSBaz6MwM6U\",\n  \"createdDate\": 1636449942988,\n  \"dateOfBirth\": 325983600000,\n  \"lastEditDate\": 1636457955494,\n  \"lastEditedBy\": \"Q0YhuV938EdCkYXmXWeNC27wfyl2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/emma-mee-3024588/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Emma\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"Q0YhuV938EdCkYXmXWeNC27wfyl2\",\n  \"phoneNumber\": \"0770339978\",\n  \"profileImage\": {\n    \"fileName\": \"d1910840-4143-11ec-8f02-85a47ac4e604_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2Fd1910840-4143-11ec-8f02-85a47ac4e604_datagrid_profile_img.png?alt=media&token=830cc71a-7769-4113-9226-97ff7922f231\"\n  },\n  \"rowKey\": \"-Mo306kfzBpi77ySVH8W\",\n  \"secondName\": \"Mee\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"Q0YhuV938EdCkYXmXWeNC27wfyl2\"\n}",
+    "name": "Workflow Step > Send Approval Email",
+    "rowKey": "-Mo4EZPd75RHn1ai4vNX"
+  },
+  "-Mo4EZSwFiKO_usJ74dt": {
+    "_id": 388,
+    "date": 1636470507391,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 5,\n  \"accType\": \"-MeUR6iI2KSBaz6MwM6U\",\n  \"createdDate\": 1636449942988,\n  \"dateOfBirth\": 325983600000,\n  \"lastEditDate\": 1636457955494,\n  \"lastEditedBy\": \"Q0YhuV938EdCkYXmXWeNC27wfyl2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/emma-mee-3024588/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Emma\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"Q0YhuV938EdCkYXmXWeNC27wfyl2\",\n  \"phoneNumber\": \"0770339978\",\n  \"profileImage\": {\n    \"fileName\": \"d1910840-4143-11ec-8f02-85a47ac4e604_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2Fd1910840-4143-11ec-8f02-85a47ac4e604_datagrid_profile_img.png?alt=media&token=830cc71a-7769-4113-9226-97ff7922f231\"\n  },\n  \"rowKey\": \"-Mo306kfzBpi77ySVH8W\",\n  \"secondName\": \"Mee\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"Q0YhuV938EdCkYXmXWeNC27wfyl2\"\n}",
+    "name": "Workflow Step > Accepted",
+    "rowKey": "-Mo4EZSwFiKO_usJ74dt"
+  },
+  "-Mo84dopNaIm3uwVLxN4": {
+    "_id": 389,
+    "date": 1636535016733,
+    "logDetails": "data passed is{\n  \"row\": \"-Mo4oq3GYKknXwV42Ya3\",\n  \"workflow\": \"-MedT1sM22jmBEzmCbVN\",\n  \"grid\": \"companyUserProfiles\",\n  \"step\": \"Begin Company User Approval/Reject Process\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mo84dopNaIm3uwVLxN4"
+  },
+  "-Mo84dsN841sD2ItQSuU": {
+    "_id": 390,
+    "date": 1636535016986,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 8,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1636480278657,\n  \"dateOfBirth\": 851472000000,\n  \"lastEditDate\": 1636480335875,\n  \"lastEditedBy\": \"weRs9wW8JIRdNXs7AmcL5g2jctq1\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/tash-grossman-58670790/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Tash\",\n  \"owner\": \"weRs9wW8JIRdNXs7AmcL5g2jctq1\",\n  \"phoneNumber\": \"07985315438\",\n  \"profileImage\": {\n    \"fileName\": \"acdfb2c0-4185-11ec-9dd8-018890b29b89_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2Facdfb2c0-4185-11ec-9dd8-018890b29b89_datagrid_profile_img.png?alt=media&token=e024c0a3-0bf9-4437-a26c-73143f2858c1\"\n  },\n  \"rowKey\": \"-Mo4oq3GYKknXwV42Ya3\",\n  \"secondName\": \"Grossman\",\n  \"submitPressed\": true,\n  \"user\": \"weRs9wW8JIRdNXs7AmcL5g2jctq1\",\n  \"state\": null\n}",
+    "name": "Workflow Step > User Task",
+    "rowKey": "-Mo84dsN841sD2ItQSuU"
+  },
+  "-Mo84fhZg_tZYWG03tUZ": {
+    "_id": 391,
+    "date": 1636535024426,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-Mo4oq3GYKknXwV42Ya3\",\n  \"workflow\": \"-MedT1sM22jmBEzmCbVN\",\n  \"grid\": \"companyUserProfiles\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mo84fhZg_tZYWG03tUZ"
+  },
+  "-Mo84fiUaH1p-IjN7zoY": {
+    "_id": 392,
+    "date": 1636535024511,
+    "logDetails": "dev@truealtitude.co.uk clicked Approve at 2021-11-10 09:03:44 on record ID 8",
+    "name": "User Workflow Event",
+    "rowKey": "-Mo84fiUaH1p-IjN7zoY",
+    "user": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "workflowName": "Approve Company User"
+  },
+  "-Mo84fifIBBmz-DfDi7s": {
+    "_id": 393,
+    "date": 1636535024555,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 8,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1636480278657,\n  \"dateOfBirth\": 851472000000,\n  \"lastEditDate\": 1636480335875,\n  \"lastEditedBy\": \"weRs9wW8JIRdNXs7AmcL5g2jctq1\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/tash-grossman-58670790/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Tash\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"weRs9wW8JIRdNXs7AmcL5g2jctq1\",\n  \"phoneNumber\": \"07985315438\",\n  \"profileImage\": {\n    \"fileName\": \"acdfb2c0-4185-11ec-9dd8-018890b29b89_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2Facdfb2c0-4185-11ec-9dd8-018890b29b89_datagrid_profile_img.png?alt=media&token=e024c0a3-0bf9-4437-a26c-73143f2858c1\"\n  },\n  \"rowKey\": \"-Mo4oq3GYKknXwV42Ya3\",\n  \"secondName\": \"Grossman\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"weRs9wW8JIRdNXs7AmcL5g2jctq1\"\n}",
+    "name": "Workflow Step > Send Approval Email",
+    "rowKey": "-Mo84fifIBBmz-DfDi7s"
+  },
+  "-Mo84fs9IjspCbftZ0BJ": {
+    "_id": 394,
+    "date": 1636535025164,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 8,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1636480278657,\n  \"dateOfBirth\": 851472000000,\n  \"lastEditDate\": 1636480335875,\n  \"lastEditedBy\": \"weRs9wW8JIRdNXs7AmcL5g2jctq1\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/tash-grossman-58670790/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Tash\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"weRs9wW8JIRdNXs7AmcL5g2jctq1\",\n  \"phoneNumber\": \"07985315438\",\n  \"profileImage\": {\n    \"fileName\": \"acdfb2c0-4185-11ec-9dd8-018890b29b89_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2Facdfb2c0-4185-11ec-9dd8-018890b29b89_datagrid_profile_img.png?alt=media&token=e024c0a3-0bf9-4437-a26c-73143f2858c1\"\n  },\n  \"rowKey\": \"-Mo4oq3GYKknXwV42Ya3\",\n  \"secondName\": \"Grossman\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"weRs9wW8JIRdNXs7AmcL5g2jctq1\"\n}",
+    "name": "Workflow Step > Accepted",
+    "rowKey": "-Mo84fs9IjspCbftZ0BJ"
+  },
+  "-Mo8xujymHeo70rH18eH": {
+    "_id": 395,
+    "date": 1636549765968,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"jU01klRYbBNxeeqVzgGlO1KwRhf2\",\n  \"email\": \"ieva@aequem.com\",\n  \"workflow\": \"-Mlo57EwY5hz-8OWjFZT\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mo8xujymHeo70rH18eH"
+  },
+  "-Mo8z0iJX8_6eSaPR14P": {
+    "_id": 396,
+    "date": 1636550056765,
+    "logDetails": "data passed is{\n  \"row\": \"-Mo8xX6zo60LfjKBaCAn\",\n  \"workflow\": \"-MedT1sM22jmBEzmCbVN\",\n  \"grid\": \"companyUserProfiles\",\n  \"step\": \"Begin Company User Approval/Reject Process\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mo8z0iJX8_6eSaPR14P"
+  },
+  "-Mo8z0lZTPsUWZZVMIXf": {
+    "_id": 397,
+    "date": 1636550057058,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 9,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1636549665347,\n  \"dateOfBirth\": 582760800000,\n  \"lastEditDate\": 1636549761017,\n  \"lastEditedBy\": \"jU01klRYbBNxeeqVzgGlO1KwRhf2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/ieva-balciute\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Ieva\",\n  \"owner\": \"jU01klRYbBNxeeqVzgGlO1KwRhf2\",\n  \"phoneNumber\": \"07925222140\",\n  \"rowKey\": \"-Mo8xX6zo60LfjKBaCAn\",\n  \"secondName\": \"Balciute\",\n  \"submitPressed\": true,\n  \"user\": \"jU01klRYbBNxeeqVzgGlO1KwRhf2\",\n  \"state\": null\n}",
+    "name": "Workflow Step > User Task",
+    "rowKey": "-Mo8z0lZTPsUWZZVMIXf"
+  },
+  "-Mo8z2YvD4uTmDjeqAll": {
+    "_id": 398,
+    "date": 1636550064341,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-Mo8xX6zo60LfjKBaCAn\",\n  \"workflow\": \"-MedT1sM22jmBEzmCbVN\",\n  \"grid\": \"companyUserProfiles\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mo8z2YvD4uTmDjeqAll"
+  },
+  "-Mo8z2ZpXUeTti7Oi7VO": {
+    "_id": 399,
+    "date": 1636550064403,
+    "logDetails": "dev@truealtitude.co.uk clicked Approve at 2021-11-10 13:14:24 on record ID 9",
+    "name": "User Workflow Event",
+    "rowKey": "-Mo8z2ZpXUeTti7Oi7VO",
+    "user": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "workflowName": "Approve Company User"
+  },
+  "-Mo8z2_GwA-3zzZ4JznG": {
+    "_id": 400,
+    "date": 1636550064457,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 9,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1636549665347,\n  \"dateOfBirth\": 582760800000,\n  \"lastEditDate\": 1636549761017,\n  \"lastEditedBy\": \"jU01klRYbBNxeeqVzgGlO1KwRhf2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/ieva-balciute\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Ieva\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"jU01klRYbBNxeeqVzgGlO1KwRhf2\",\n  \"phoneNumber\": \"07925222140\",\n  \"rowKey\": \"-Mo8xX6zo60LfjKBaCAn\",\n  \"secondName\": \"Balciute\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"jU01klRYbBNxeeqVzgGlO1KwRhf2\"\n}",
+    "name": "Workflow Step > Send Approval Email",
+    "rowKey": "-Mo8z2_GwA-3zzZ4JznG"
+  },
+  "-Mo8z2fktuKmTGW3_yX5": {
+    "_id": 401,
+    "date": 1636550064880,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 9,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1636549665347,\n  \"dateOfBirth\": 582760800000,\n  \"lastEditDate\": 1636549761017,\n  \"lastEditedBy\": \"jU01klRYbBNxeeqVzgGlO1KwRhf2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/ieva-balciute\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Ieva\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"jU01klRYbBNxeeqVzgGlO1KwRhf2\",\n  \"phoneNumber\": \"07925222140\",\n  \"rowKey\": \"-Mo8xX6zo60LfjKBaCAn\",\n  \"secondName\": \"Balciute\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"jU01klRYbBNxeeqVzgGlO1KwRhf2\"\n}",
+    "name": "Workflow Step > Accepted",
+    "rowKey": "-Mo8z2fktuKmTGW3_yX5"
+  },
+  "-Mo8z6yz1ZbQlrL6VlI-": {
+    "_id": 402,
+    "date": 1636550082417,
+    "logDetails": "data passed is{\n  \"row\": \"-Mo4WRVE65KC-P6RUfdu\",\n  \"workflow\": \"-MedN7Vn9ij25cqx_kLN\",\n  \"grid\": \"companyProfiles\",\n  \"step\": \"Begin Reject or Approve Company Process\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mo8z6yz1ZbQlrL6VlI-"
+  },
+  "-Mo8z71AjBDternxTXmF": {
+    "_id": 403,
+    "date": 1636550082702,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 34,\n  \"aboutTheCompany\": \"When womxns demand, create safer cities. \",\n  \"access\": \"-MKjNhCeEjTtfQL8X6vn\",\n  \"capitalAlreadyRaisedForCurrentFundingRound\": 0,\n  \"commitmentClosingDate\": 1636412400000,\n  \"companyEmail\": \"jitte@spher.app\",\n  \"companyStage\": \"-Mj4Ym8u3Z1TxqoIC8GP\",\n  \"companySummary\": \"Bui\",\n  \"companyUser\": \"-Mn6neqopjJWx3lNB8ms\",\n  \"createdDate\": 1636475192724,\n  \"dealProjectName\": \"Spher\",\n  \"eISSEIS\": \"-MLS0PM2_MiUpBx79hus\",\n  \"employeeAmount\": 6,\n  \"howManyInteractionsToMeetProjection\": 1,\n  \"howManySignedLOIMOUHOT\": 1,\n  \"investmentType\": \"-MJwrRzvTYcmfAzDXOBr\",\n  \"lastEditDate\": 1636476787044,\n  \"lastEditedBy\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"linkedInLink\": \"http://linkedin.com/company/spherapp/\",\n  \"location\": \"-McPSU3HJ2LmCZf7WYmL\",\n  \"mobileNumber\": \"0046765788783\",\n  \"name\": \"Spher AB\",\n  \"numberOfInteractionsCommercialOpportunities\": 1,\n  \"numberOfJobsGenerated\": 1,\n  \"owner\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"preMoneyValuationOfCurrentRound\": 0.01,\n  \"predictedEmployeesHired1Year\": 8,\n  \"predictedEmployeesHired2Years\": 30,\n  \"predictedEmployeesHired3Years\": 80,\n  \"predictedEmployeesHired5Years\": 150,\n  \"productGrowthOtherIndustries\": \"-MJwpN4gJCTp1FKh19il,-MJwq8R7ncqPZIkQx7Yv\",\n  \"programme\": \"-MciioUSZ8C-CC1gVlBK\",\n  \"rowKey\": \"-Mo4WRVE65KC-P6RUfdu\",\n  \"startDate\": 1609455600000,\n  \"targetCompletionDate\": 1636671600000,\n  \"targetInvestorsForDealMarketing\": \"-MJwqn2Z0YuPiwbl5aXz,-MJwqpFnWeprNVZHUHZG,-MLS13bHi_KwowF7uIZF\",\n  \"testbedHigherEducationJobs\": 0,\n  \"user\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"website\": \"www.spher.app\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Admin Approval",
+    "rowKey": "-Mo8z71AjBDternxTXmF"
+  },
+  "-Mo8z89us7x1IwdzK2y2": {
+    "_id": 404,
+    "date": 1636550087065,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-Mo4WRVE65KC-P6RUfdu\",\n  \"workflow\": \"-MedN7Vn9ij25cqx_kLN\",\n  \"grid\": \"companyProfiles\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mo8z89us7x1IwdzK2y2"
+  },
+  "-Mo8z8EU3Vd-aro2nySY": {
+    "_id": 405,
+    "date": 1636550087455,
+    "logDetails": "dev@truealtitude.co.uk clicked Approve at 2021-11-10 13:14:47 on record ID 34",
+    "name": "User Workflow Event",
+    "rowKey": "-Mo8z8EU3Vd-aro2nySY",
+    "user": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "workflowName": "Approve Company"
+  },
+  "-Mo8z8EiGNuGlEAYkUVC": {
+    "_id": 406,
+    "date": 1636550087655,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 34,\n  \"aboutTheCompany\": \"When womxns demand, create safer cities. \",\n  \"access\": \"-MKjNhCeEjTtfQL8X6vn\",\n  \"capitalAlreadyRaisedForCurrentFundingRound\": 0,\n  \"commitmentClosingDate\": 1636412400000,\n  \"companyEmail\": \"jitte@spher.app\",\n  \"companyStage\": \"-Mj4Ym8u3Z1TxqoIC8GP\",\n  \"companySummary\": \"Bui\",\n  \"companyUser\": \"-Mn6neqopjJWx3lNB8ms\",\n  \"createdDate\": 1636475192724,\n  \"dealProjectName\": \"Spher\",\n  \"eISSEIS\": \"-MLS0PM2_MiUpBx79hus\",\n  \"employeeAmount\": 6,\n  \"howManyInteractionsToMeetProjection\": 1,\n  \"howManySignedLOIMOUHOT\": 1,\n  \"investmentType\": \"-MJwrRzvTYcmfAzDXOBr\",\n  \"lastEditDate\": 1636476787044,\n  \"lastEditedBy\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"linkedInLink\": \"http://linkedin.com/company/spherapp/\",\n  \"location\": \"-McPSU3HJ2LmCZf7WYmL\",\n  \"mobileNumber\": \"0046765788783\",\n  \"name\": \"Spher AB\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"numberOfInteractionsCommercialOpportunities\": 1,\n  \"numberOfJobsGenerated\": 1,\n  \"owner\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"preMoneyValuationOfCurrentRound\": 0.01,\n  \"predictedEmployeesHired1Year\": 8,\n  \"predictedEmployeesHired2Years\": 30,\n  \"predictedEmployeesHired3Years\": 80,\n  \"predictedEmployeesHired5Years\": 150,\n  \"productGrowthOtherIndustries\": \"-MJwpN4gJCTp1FKh19il,-MJwq8R7ncqPZIkQx7Yv\",\n  \"programme\": \"-MciioUSZ8C-CC1gVlBK\",\n  \"rowKey\": \"-Mo4WRVE65KC-P6RUfdu\",\n  \"startDate\": 1609455600000,\n  \"state\": \"Admin Approval\",\n  \"targetCompletionDate\": 1636671600000,\n  \"targetInvestorsForDealMarketing\": \"-MJwqn2Z0YuPiwbl5aXz,-MJwqpFnWeprNVZHUHZG,-MLS13bHi_KwowF7uIZF\",\n  \"testbedHigherEducationJobs\": 0,\n  \"user\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"website\": \"www.spher.app\"\n}",
+    "name": "Workflow Step > Send Mail to Company Profile Owner",
+    "rowKey": "-Mo8z8EiGNuGlEAYkUVC"
+  },
+  "-Mo8z8OJLr8yghb8tNt5": {
+    "_id": 407,
+    "date": 1636550088276,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 34,\n  \"aboutTheCompany\": \"When womxns demand, create safer cities. \",\n  \"access\": \"-MKjNhCeEjTtfQL8X6vn\",\n  \"capitalAlreadyRaisedForCurrentFundingRound\": 0,\n  \"commitmentClosingDate\": 1636412400000,\n  \"companyEmail\": \"jitte@spher.app\",\n  \"companyStage\": \"-Mj4Ym8u3Z1TxqoIC8GP\",\n  \"companySummary\": \"Bui\",\n  \"companyUser\": \"-Mn6neqopjJWx3lNB8ms\",\n  \"createdDate\": 1636475192724,\n  \"dealProjectName\": \"Spher\",\n  \"eISSEIS\": \"-MLS0PM2_MiUpBx79hus\",\n  \"employeeAmount\": 6,\n  \"howManyInteractionsToMeetProjection\": 1,\n  \"howManySignedLOIMOUHOT\": 1,\n  \"investmentType\": \"-MJwrRzvTYcmfAzDXOBr\",\n  \"lastEditDate\": 1636476787044,\n  \"lastEditedBy\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"linkedInLink\": \"http://linkedin.com/company/spherapp/\",\n  \"location\": \"-McPSU3HJ2LmCZf7WYmL\",\n  \"mobileNumber\": \"0046765788783\",\n  \"name\": \"Spher AB\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"numberOfInteractionsCommercialOpportunities\": 1,\n  \"numberOfJobsGenerated\": 1,\n  \"owner\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"preMoneyValuationOfCurrentRound\": 0.01,\n  \"predictedEmployeesHired1Year\": 8,\n  \"predictedEmployeesHired2Years\": 30,\n  \"predictedEmployeesHired3Years\": 80,\n  \"predictedEmployeesHired5Years\": 150,\n  \"productGrowthOtherIndustries\": \"-MJwpN4gJCTp1FKh19il,-MJwq8R7ncqPZIkQx7Yv\",\n  \"programme\": \"-MciioUSZ8C-CC1gVlBK\",\n  \"rowKey\": \"-Mo4WRVE65KC-P6RUfdu\",\n  \"startDate\": 1609455600000,\n  \"state\": \"Admin Approval\",\n  \"targetCompletionDate\": 1636671600000,\n  \"targetInvestorsForDealMarketing\": \"-MJwqn2Z0YuPiwbl5aXz,-MJwqpFnWeprNVZHUHZG,-MLS13bHi_KwowF7uIZF\",\n  \"testbedHigherEducationJobs\": 0,\n  \"user\": \"I1ycoGu35LRR1VIkUHp9kmCSGAk2\",\n  \"website\": \"www.spher.app\"\n}",
+    "name": "Workflow Step > Accepted",
+    "rowKey": "-Mo8z8OJLr8yghb8tNt5"
+  },
+  "-Mo9Q4VaunwVcKRkmoLY": {
+    "_id": 408,
+    "date": 1636557412288,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"email\": \"azhar@educationequation.co.uk\",\n  \"workflow\": \"-Mlo57EwY5hz-8OWjFZT\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mo9Q4VaunwVcKRkmoLY"
+  },
+  "-Mo9YMle0uzlPnjtlhwp": {
+    "_id": 409,
+    "date": 1636559584333,
+    "logDetails": "data passed is{\n  \"row\": \"-Mo9PWCRSHISfaI0V6YW\",\n  \"workflow\": \"-MedT1sM22jmBEzmCbVN\",\n  \"grid\": \"companyUserProfiles\",\n  \"step\": \"Begin Company User Approval/Reject Process\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mo9YMle0uzlPnjtlhwp"
+  },
+  "-Mo9YMoybd1AMw9VnwRu": {
+    "_id": 410,
+    "date": 1636559584572,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 10,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1636557264752,\n  \"dateOfBirth\": 878342400000,\n  \"lastEditDate\": 1636557396819,\n  \"lastEditedBy\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/azhar-haris/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Azhar\",\n  \"owner\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"phoneNumber\": \"07387072731\",\n  \"profileImage\": {\n    \"fileName\": \"2e26da30-4239-11ec-9d1b-d7a84ec0a786_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F2e26da30-4239-11ec-9d1b-d7a84ec0a786_datagrid_profile_img.png?alt=media&token=95dd976c-55a5-4107-99b8-4de98d94f24a\"\n  },\n  \"rowKey\": \"-Mo9PWCRSHISfaI0V6YW\",\n  \"secondName\": \"Haris\",\n  \"submitPressed\": true,\n  \"user\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"state\": null\n}",
+    "name": "Workflow Step > User Task",
+    "rowKey": "-Mo9YMoybd1AMw9VnwRu"
+  },
+  "-Mo9YOGM5vpQjTiLxYJj": {
+    "_id": 411,
+    "date": 1636559590358,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-Mo9PWCRSHISfaI0V6YW\",\n  \"workflow\": \"-MedT1sM22jmBEzmCbVN\",\n  \"grid\": \"companyUserProfiles\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mo9YOGM5vpQjTiLxYJj"
+  },
+  "-Mo9YOHD85hW-OQNVtq6": {
+    "_id": 412,
+    "date": 1636559590509,
+    "logDetails": "dev@truealtitude.co.uk clicked Approve at 2021-11-10 15:53:10 on record ID 10",
+    "name": "User Workflow Event",
+    "rowKey": "-Mo9YOHD85hW-OQNVtq6",
+    "user": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "workflowName": "Approve Company User"
+  },
+  "-Mo9YOHWfItlBEBXNr9J": {
+    "_id": 413,
+    "date": 1636559590558,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 10,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1636557264752,\n  \"dateOfBirth\": 878342400000,\n  \"lastEditDate\": 1636557396819,\n  \"lastEditedBy\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/azhar-haris/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Azhar\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"phoneNumber\": \"07387072731\",\n  \"profileImage\": {\n    \"fileName\": \"2e26da30-4239-11ec-9d1b-d7a84ec0a786_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F2e26da30-4239-11ec-9d1b-d7a84ec0a786_datagrid_profile_img.png?alt=media&token=95dd976c-55a5-4107-99b8-4de98d94f24a\"\n  },\n  \"rowKey\": \"-Mo9PWCRSHISfaI0V6YW\",\n  \"secondName\": \"Haris\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\"\n}",
+    "name": "Workflow Step > Send Approval Email",
+    "rowKey": "-Mo9YOHWfItlBEBXNr9J"
+  },
+  "-Mo9YOSHoRGr9olbLH-5": {
+    "_id": 414,
+    "date": 1636559591250,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 10,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1636557264752,\n  \"dateOfBirth\": 878342400000,\n  \"lastEditDate\": 1636557396819,\n  \"lastEditedBy\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/azhar-haris/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Azhar\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"phoneNumber\": \"07387072731\",\n  \"profileImage\": {\n    \"fileName\": \"2e26da30-4239-11ec-9d1b-d7a84ec0a786_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F2e26da30-4239-11ec-9d1b-d7a84ec0a786_datagrid_profile_img.png?alt=media&token=95dd976c-55a5-4107-99b8-4de98d94f24a\"\n  },\n  \"rowKey\": \"-Mo9PWCRSHISfaI0V6YW\",\n  \"secondName\": \"Haris\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\"\n}",
+    "name": "Workflow Step > Accepted",
+    "rowKey": "-Mo9YOSHoRGr9olbLH-5"
+  },
+  "-MoApmWaX0zsYpuiXI1l": {
+    "_id": 415,
+    "date": 1636581189663,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"4qsCscFStpgCtXOcFHQjTPGERsR2\",\n  \"email\": \"adriendalais@gmail.com\",\n  \"origin\": \"https://portal.truealtitude.co.uk\",\n  \"workflow\": \"-Mlo57EwY5hz-8OWjFZT\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MoApmWaX0zsYpuiXI1l"
+  },
+  "-MoD1_zlLivkKUFSqw0T": {
+    "_id": 416,
+    "date": 1636618100622,
+    "logDetails": "data passed is{\n  \"row\": \"-Mo9YIEWdIXM0_UkQ-Q6\",\n  \"workflow\": \"-MedT1sM22jmBEzmCbVN\",\n  \"grid\": \"companyUserProfiles\",\n  \"step\": \"Begin Company User Approval/Reject Process\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MoD1_zlLivkKUFSqw0T"
+  },
+  "-MoD1a-codL1AHd3TDoC": {
+    "_id": 417,
+    "date": 1636618100778,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 11,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1636559567336,\n  \"dateOfBirth\": 366332400000,\n  \"lastEditDate\": 1636567097842,\n  \"lastEditedBy\": \"7yEt2kbPnpT0r6D6i0D1COM3WJ22\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/rayreyreynolds/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Ray\",\n  \"owner\": \"7yEt2kbPnpT0r6D6i0D1COM3WJ22\",\n  \"phoneNumber\": \"07446847846\",\n  \"rowKey\": \"-Mo9YIEWdIXM0_UkQ-Q6\",\n  \"secondName\": \"Reynolds\",\n  \"submitPressed\": true,\n  \"user\": \"7yEt2kbPnpT0r6D6i0D1COM3WJ22\",\n  \"state\": null\n}",
+    "name": "Workflow Step > User Task",
+    "rowKey": "-MoD1a-codL1AHd3TDoC"
+  },
+  "-MoD1bW8aqyweBX598iE": {
+    "_id": 418,
+    "date": 1636618106911,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-Mo9YIEWdIXM0_UkQ-Q6\",\n  \"workflow\": \"-MedT1sM22jmBEzmCbVN\",\n  \"grid\": \"companyUserProfiles\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MoD1bW8aqyweBX598iE"
+  },
+  "-MoD1b_iVVSOPA_p66IW": {
+    "_id": 419,
+    "date": 1636618107057,
+    "logDetails": "dev@truealtitude.co.uk clicked Approve at 2021-11-11 08:08:27 on record ID 11",
+    "name": "User Workflow Event",
+    "rowKey": "-MoD1b_iVVSOPA_p66IW",
+    "user": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "workflowName": "Approve Company User"
+  },
+  "-MoD1b_wI11JHMUdd4BR": {
+    "_id": 420,
+    "date": 1636618107261,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 11,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1636559567336,\n  \"dateOfBirth\": 366332400000,\n  \"lastEditDate\": 1636567097842,\n  \"lastEditedBy\": \"7yEt2kbPnpT0r6D6i0D1COM3WJ22\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/rayreyreynolds/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Ray\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"7yEt2kbPnpT0r6D6i0D1COM3WJ22\",\n  \"phoneNumber\": \"07446847846\",\n  \"rowKey\": \"-Mo9YIEWdIXM0_UkQ-Q6\",\n  \"secondName\": \"Reynolds\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"7yEt2kbPnpT0r6D6i0D1COM3WJ22\"\n}",
+    "name": "Workflow Step > Send Approval Email",
+    "rowKey": "-MoD1b_wI11JHMUdd4BR"
+  },
+  "-MoD1bjIwxQFwSZjQ7bQ": {
+    "_id": 421,
+    "date": 1636618107865,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 11,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1636559567336,\n  \"dateOfBirth\": 366332400000,\n  \"lastEditDate\": 1636567097842,\n  \"lastEditedBy\": \"7yEt2kbPnpT0r6D6i0D1COM3WJ22\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/rayreyreynolds/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Ray\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"7yEt2kbPnpT0r6D6i0D1COM3WJ22\",\n  \"phoneNumber\": \"07446847846\",\n  \"rowKey\": \"-Mo9YIEWdIXM0_UkQ-Q6\",\n  \"secondName\": \"Reynolds\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"7yEt2kbPnpT0r6D6i0D1COM3WJ22\"\n}",
+    "name": "Workflow Step > Accepted",
+    "rowKey": "-MoD1bjIwxQFwSZjQ7bQ"
+  },
+  "-MoD1dN1L3Kqr7mRyUIc": {
+    "_id": 422,
+    "date": 1636618114503,
+    "logDetails": "data passed is{\n  \"row\": \"-MoAooaLRA_32-Vr5taV\",\n  \"workflow\": \"-MedT1sM22jmBEzmCbVN\",\n  \"grid\": \"companyUserProfiles\",\n  \"step\": \"Begin Company User Approval/Reject Process\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MoD1dN1L3Kqr7mRyUIc"
+  },
+  "-MoD1dQLRMwLk1EA7Uyo": {
+    "_id": 423,
+    "date": 1636618114772,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 12,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1636580936185,\n  \"dateOfBirth\": 880934400000,\n  \"lastEditDate\": 1636581140755,\n  \"lastEditedBy\": \"4qsCscFStpgCtXOcFHQjTPGERsR2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/company/75047143/admin/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Adrien\",\n  \"owner\": \"4qsCscFStpgCtXOcFHQjTPGERsR2\",\n  \"phoneNumber\": \"07423706353\",\n  \"profileImage\": {\n    \"fileName\": \"3cd20550-4270-11ec-b713-eb0947bd0728_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F3cd20550-4270-11ec-b713-eb0947bd0728_datagrid_profile_img.png?alt=media&token=b1ec66e7-e7fe-4405-ac48-d752a0e3184a\"\n  },\n  \"rowKey\": \"-MoAooaLRA_32-Vr5taV\",\n  \"secondName\": \"Dalais\",\n  \"submitPressed\": true,\n  \"user\": \"4qsCscFStpgCtXOcFHQjTPGERsR2\",\n  \"state\": null\n}",
+    "name": "Workflow Step > User Task",
+    "rowKey": "-MoD1dQLRMwLk1EA7Uyo"
+  },
+  "-MoD1eyvJ2dXfXYHexVE": {
+    "_id": 424,
+    "date": 1636618120973,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MoAooaLRA_32-Vr5taV\",\n  \"workflow\": \"-MedT1sM22jmBEzmCbVN\",\n  \"grid\": \"companyUserProfiles\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MoD1eyvJ2dXfXYHexVE"
+  },
+  "-MoD1f1O8OzacMEhW0JC": {
+    "_id": 425,
+    "date": 1636618121256,
+    "logDetails": "dev@truealtitude.co.uk clicked Approve at 2021-11-11 08:08:41 on record ID 12",
+    "name": "User Workflow Event",
+    "rowKey": "-MoD1f1O8OzacMEhW0JC",
+    "user": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "workflowName": "Approve Company User"
+  },
+  "-MoD1f2kR-DxhsjOle-L": {
+    "_id": 426,
+    "date": 1636618121387,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 12,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1636580936185,\n  \"dateOfBirth\": 880934400000,\n  \"lastEditDate\": 1636581140755,\n  \"lastEditedBy\": \"4qsCscFStpgCtXOcFHQjTPGERsR2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/company/75047143/admin/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Adrien\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"4qsCscFStpgCtXOcFHQjTPGERsR2\",\n  \"phoneNumber\": \"07423706353\",\n  \"profileImage\": {\n    \"fileName\": \"3cd20550-4270-11ec-b713-eb0947bd0728_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F3cd20550-4270-11ec-b713-eb0947bd0728_datagrid_profile_img.png?alt=media&token=b1ec66e7-e7fe-4405-ac48-d752a0e3184a\"\n  },\n  \"rowKey\": \"-MoAooaLRA_32-Vr5taV\",\n  \"secondName\": \"Dalais\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"4qsCscFStpgCtXOcFHQjTPGERsR2\"\n}",
+    "name": "Workflow Step > Send Approval Email",
+    "rowKey": "-MoD1f2kR-DxhsjOle-L"
+  },
+  "-MoD1fBEiCtILXo5ui2J": {
+    "_id": 427,
+    "date": 1636618122005,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 12,\n  \"accType\": \"-MKorrb_8VyMmc1xRWzh\",\n  \"createdDate\": 1636580936185,\n  \"dateOfBirth\": 880934400000,\n  \"lastEditDate\": 1636581140755,\n  \"lastEditedBy\": \"4qsCscFStpgCtXOcFHQjTPGERsR2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/company/75047143/admin/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Adrien\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"owner\": \"4qsCscFStpgCtXOcFHQjTPGERsR2\",\n  \"phoneNumber\": \"07423706353\",\n  \"profileImage\": {\n    \"fileName\": \"3cd20550-4270-11ec-b713-eb0947bd0728_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F3cd20550-4270-11ec-b713-eb0947bd0728_datagrid_profile_img.png?alt=media&token=b1ec66e7-e7fe-4405-ac48-d752a0e3184a\"\n  },\n  \"rowKey\": \"-MoAooaLRA_32-Vr5taV\",\n  \"secondName\": \"Dalais\",\n  \"state\": \"User Task\",\n  \"submitPressed\": true,\n  \"user\": \"4qsCscFStpgCtXOcFHQjTPGERsR2\"\n}",
+    "name": "Workflow Step > Accepted",
+    "rowKey": "-MoD1fBEiCtILXo5ui2J"
+  },
+  "-MoDC_o3B8Rx6iZ0NzPe": {
+    "_id": 428,
+    "date": 1636620983552,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\",\n  \"origin\": \"https://portal.truealtitude.co.uk\",\n  \"workflow\": \"-MnjgEGfJWPubWOaoZ9L\",\n  \"rowKey\": \"-MnzXlj41Z2d2dAF8igY\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MoDC_o3B8Rx6iZ0NzPe"
+  },
+  "-MoDc8V4pk1ehOgwTh83": {
+    "_id": 429,
+    "date": 1636627945411,
+    "logDetails": "data passed is{\n  \"row\": \"-MoDQq4qYI-y9f1aTgvv\",\n  \"workflow\": \"-MedN7Vn9ij25cqx_kLN\",\n  \"grid\": \"companyProfiles\",\n  \"step\": \"Begin Reject or Approve Company Process\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MoDc8V4pk1ehOgwTh83"
+  },
+  "-MoDc8Vtsmf4hEamPy3d": {
+    "_id": 430,
+    "date": 1636627945528,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 38,\n  \"aboutTheCompany\": \"We are an early stage ed-tech company that is revolutionising the education industry by making higher quality, targetted tutoring available at just 1/3 of the market price.  Our 6-1 tutoring approach enables lessons to cost parents just £10-12, significantly undercutting competitors whilst retaining quality with a world class tutor. \\n\\nOur free online platform breaks down learning in a more granular and modular approach than previously seen in the industry, across GCSE & A-level for 14-18 year olds. Our spec driven tutoring approach, embedded with our cheaper pricing aims to deliver a more effective option for students to achieve better grades and for more parents to afford tutoring.\",\n  \"access\": \"-MKjNhCeEjTtfQL8X6vn\",\n  \"companyEmail\": \"azhar@educationequation.co.uk\",\n  \"companyLogo\": {\n    \"fileName\": \"9e4b0ad0-42d8-11ec-8cf2-1d7c31694262_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F9e4b0ad0-42d8-11ec-8cf2-1d7c31694262_datagrid_profile_img.png?alt=media&token=f9e0a78d-fbcc-40bf-b90d-59517cae61c1\"\n  },\n  \"companyStage\": \"-Mj4Ym8u3Z1TxqoIC8GP,-Mj4Yo92FOe9owFR_Iws\",\n  \"companyUser\": \"-Mo9PWCRSHISfaI0V6YW\",\n  \"createdDate\": 1636624721954,\n  \"employeeAmount\": 3,\n  \"howManyInteractionsToMeetProjection\": 10,\n  \"howManySignedLOIMOUHOT\": 0,\n  \"jobsGeneratedThroughoutProgramme\": 3,\n  \"lastEditDate\": 1636626427396,\n  \"lastEditedBy\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"linkedInLink\": \"https://www.linkedin.com/in/azhar-haris/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"mobileNumber\": \"+447387072731\",\n  \"name\": \"Education Equation\",\n  \"news\": \"N/A\",\n  \"numberOfInteractionsCommercialOpportunities\": 0,\n  \"numberOfJobsGenerated\": 3,\n  \"owner\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"permanentHigherEducationJobs\": 3,\n  \"permanentProfessionalJobs\": 0,\n  \"predictedEmployeesHired1Year\": 3,\n  \"predictedEmployeesHired2Years\": 10,\n  \"predictedEmployeesHired3Years\": 15,\n  \"predictedEmployeesHired5Years\": 25,\n  \"productGrowthOtherIndustries\": \"-MJwpRsNJS8wINoe-p1l,-MJwpVtSdOlT80E6Sbfs\",\n  \"programme\": \"-MciioUSZ8C-CC1gVlBK\",\n  \"rowKey\": \"-MoDQq4qYI-y9f1aTgvv\",\n  \"startDate\": 1617663600000,\n  \"testbedHigherEducationJobs\": 0,\n  \"testbedProfessionalJobs\": 3,\n  \"user\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"website\": \"https://educationequation.co.uk/\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Admin Approval",
+    "rowKey": "-MoDc8Vtsmf4hEamPy3d"
+  },
+  "-MoDcB-r98N4fIo7rBnR": {
+    "_id": 431,
+    "date": 1636627955738,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MoDQq4qYI-y9f1aTgvv\",\n  \"workflow\": \"-MedN7Vn9ij25cqx_kLN\",\n  \"grid\": \"companyProfiles\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MoDcB-r98N4fIo7rBnR"
+  },
+  "-MoDcB4H98tDhZDd6IqX": {
+    "_id": 432,
+    "date": 1636627955867,
+    "logDetails": "dev@truealtitude.co.uk clicked Approve at 2021-11-11 10:52:35 on record ID 38",
+    "name": "User Workflow Event",
+    "rowKey": "-MoDcB4H98tDhZDd6IqX",
+    "user": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "workflowName": "Approve Company"
+  },
+  "-MoDcB4TxTpdzYZkb9fz": {
+    "_id": 433,
+    "date": 1636627956060,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 38,\n  \"aboutTheCompany\": \"We are an early stage ed-tech company that is revolutionising the education industry by making higher quality, targetted tutoring available at just 1/3 of the market price.  Our 6-1 tutoring approach enables lessons to cost parents just £10-12, significantly undercutting competitors whilst retaining quality with a world class tutor. \\n\\nOur free online platform breaks down learning in a more granular and modular approach than previously seen in the industry, across GCSE & A-level for 14-18 year olds. Our spec driven tutoring approach, embedded with our cheaper pricing aims to deliver a more effective option for students to achieve better grades and for more parents to afford tutoring.\",\n  \"access\": \"-MKjNhCeEjTtfQL8X6vn\",\n  \"companyEmail\": \"azhar@educationequation.co.uk\",\n  \"companyLogo\": {\n    \"fileName\": \"9e4b0ad0-42d8-11ec-8cf2-1d7c31694262_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F9e4b0ad0-42d8-11ec-8cf2-1d7c31694262_datagrid_profile_img.png?alt=media&token=f9e0a78d-fbcc-40bf-b90d-59517cae61c1\"\n  },\n  \"companyStage\": \"-Mj4Ym8u3Z1TxqoIC8GP,-Mj4Yo92FOe9owFR_Iws\",\n  \"companyUser\": \"-Mo9PWCRSHISfaI0V6YW\",\n  \"createdDate\": 1636624721954,\n  \"employeeAmount\": 3,\n  \"howManyInteractionsToMeetProjection\": 10,\n  \"howManySignedLOIMOUHOT\": 0,\n  \"jobsGeneratedThroughoutProgramme\": 3,\n  \"lastEditDate\": 1636626427396,\n  \"lastEditedBy\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"linkedInLink\": \"https://www.linkedin.com/in/azhar-haris/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"mobileNumber\": \"+447387072731\",\n  \"name\": \"Education Equation\",\n  \"news\": \"N/A\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"numberOfInteractionsCommercialOpportunities\": 0,\n  \"numberOfJobsGenerated\": 3,\n  \"owner\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"permanentHigherEducationJobs\": 3,\n  \"permanentProfessionalJobs\": 0,\n  \"predictedEmployeesHired1Year\": 3,\n  \"predictedEmployeesHired2Years\": 10,\n  \"predictedEmployeesHired3Years\": 15,\n  \"predictedEmployeesHired5Years\": 25,\n  \"productGrowthOtherIndustries\": \"-MJwpRsNJS8wINoe-p1l,-MJwpVtSdOlT80E6Sbfs\",\n  \"programme\": \"-MciioUSZ8C-CC1gVlBK\",\n  \"rowKey\": \"-MoDQq4qYI-y9f1aTgvv\",\n  \"startDate\": 1617663600000,\n  \"state\": \"Admin Approval\",\n  \"testbedHigherEducationJobs\": 0,\n  \"testbedProfessionalJobs\": 3,\n  \"user\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"website\": \"https://educationequation.co.uk/\"\n}",
+    "name": "Workflow Step > Send Mail to Company Profile Owner",
+    "rowKey": "-MoDcB4TxTpdzYZkb9fz"
+  },
+  "-MoDcBCEo066sjFGvSL8": {
+    "_id": 434,
+    "date": 1636627956561,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 38,\n  \"aboutTheCompany\": \"We are an early stage ed-tech company that is revolutionising the education industry by making higher quality, targetted tutoring available at just 1/3 of the market price.  Our 6-1 tutoring approach enables lessons to cost parents just £10-12, significantly undercutting competitors whilst retaining quality with a world class tutor. \\n\\nOur free online platform breaks down learning in a more granular and modular approach than previously seen in the industry, across GCSE & A-level for 14-18 year olds. Our spec driven tutoring approach, embedded with our cheaper pricing aims to deliver a more effective option for students to achieve better grades and for more parents to afford tutoring.\",\n  \"access\": \"-MKjNhCeEjTtfQL8X6vn\",\n  \"companyEmail\": \"azhar@educationequation.co.uk\",\n  \"companyLogo\": {\n    \"fileName\": \"9e4b0ad0-42d8-11ec-8cf2-1d7c31694262_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F9e4b0ad0-42d8-11ec-8cf2-1d7c31694262_datagrid_profile_img.png?alt=media&token=f9e0a78d-fbcc-40bf-b90d-59517cae61c1\"\n  },\n  \"companyStage\": \"-Mj4Ym8u3Z1TxqoIC8GP,-Mj4Yo92FOe9owFR_Iws\",\n  \"companyUser\": \"-Mo9PWCRSHISfaI0V6YW\",\n  \"createdDate\": 1636624721954,\n  \"employeeAmount\": 3,\n  \"howManyInteractionsToMeetProjection\": 10,\n  \"howManySignedLOIMOUHOT\": 0,\n  \"jobsGeneratedThroughoutProgramme\": 3,\n  \"lastEditDate\": 1636626427396,\n  \"lastEditedBy\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"linkedInLink\": \"https://www.linkedin.com/in/azhar-haris/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"mobileNumber\": \"+447387072731\",\n  \"name\": \"Education Equation\",\n  \"news\": \"N/A\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"numberOfInteractionsCommercialOpportunities\": 0,\n  \"numberOfJobsGenerated\": 3,\n  \"owner\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"permanentHigherEducationJobs\": 3,\n  \"permanentProfessionalJobs\": 0,\n  \"predictedEmployeesHired1Year\": 3,\n  \"predictedEmployeesHired2Years\": 10,\n  \"predictedEmployeesHired3Years\": 15,\n  \"predictedEmployeesHired5Years\": 25,\n  \"productGrowthOtherIndustries\": \"-MJwpRsNJS8wINoe-p1l,-MJwpVtSdOlT80E6Sbfs\",\n  \"programme\": \"-MciioUSZ8C-CC1gVlBK\",\n  \"rowKey\": \"-MoDQq4qYI-y9f1aTgvv\",\n  \"startDate\": 1617663600000,\n  \"state\": \"Admin Approval\",\n  \"testbedHigherEducationJobs\": 0,\n  \"testbedProfessionalJobs\": 3,\n  \"user\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"website\": \"https://educationequation.co.uk/\"\n}",
+    "name": "Workflow Step > Accepted",
+    "rowKey": "-MoDcBCEo066sjFGvSL8"
   }
 }

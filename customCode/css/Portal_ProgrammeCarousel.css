@@ -1,0 +1,51 @@
+.cohortCard .wrapper{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.cohortCard .slider {
+  width: 1100px;
+  height: 100px;
+  position: relative;
+
+  display: flex;
+  overflow: hidden;
+}
+
+.cohortCard .slide {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  animation: slideshow 8s linear infinite;
+  
+}
+.cohortCard .slide img {
+  height: 70px;
+  padding: 0 0px 0 0px; 
+  border-radius: 8px !important;
+
+  margin-left: 5.55%;
+  margin-right: 5.55%;
+
+}
+
+@keyframes slideshow {
+  0% {transform: translateX(0);}
+  100% {transform: translateX(-100%);}
+}
+
+.cohortCard .programmeContainer .programmeLogo{
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cohortCard .programmeContainer .programmeLogo img{
+  margin-left: 20px;
+  margin-right: 20px;
+}

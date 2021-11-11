@@ -9,7 +9,7 @@
         "id": "node1626340901423",
         "x": 326.00000000000006,
         "y": 282.42857142857144,
-        "width": 103.76560756138393,
+        "width": 104,
         "height": 40,
         "clazz": "startEvent",
         "label": "Start Event",
@@ -24,8 +24,8 @@
         "id": "node1626340919903",
         "x": 564.1428571428572,
         "y": 322,
-        "width": 99.99995640345983,
-        "height": 100,
+        "width": 100,
+        "height": 101,
         "clazz": "userTask",
         "label": "User Task",
         "className": "user-task",
@@ -53,7 +53,7 @@
         "id": "node1626340945298",
         "x": 902.4285714285716,
         "y": 352.42857142857144,
-        "width": 140.40623256138394,
+        "width": 141,
         "height": 40,
         "clazz": "updateRecord",
         "label": "Approve Investor",
@@ -71,7 +71,7 @@
         "id": "node1626949252265",
         "x": 1421.142857142857,
         "y": 370,
-        "width": 163.7656947544643,
+        "width": 164,
         "height": 40,
         "clazz": "scriptTask",
         "label": "Send Approval Email",
@@ -88,7 +88,7 @@
         "id": "node1626949271500",
         "x": 896.5714285714284,
         "y": 465.28571428571433,
-        "width": 127.28123256138393,
+        "width": 128,
         "height": 40,
         "clazz": "updateRecord",
         "label": "Reject Investor",
@@ -106,7 +106,7 @@
         "id": "node1626959257040",
         "x": 1165.142857142857,
         "y": 276.28571428571433,
-        "width": 165.0156947544643,
+        "width": 166,
         "height": 40,
         "clazz": "updateRecord",
         "label": "Admin Rejected False",
@@ -264,7 +264,12 @@
           "dash": null
         }
       }
-    ]
+    ],
+    "transform": {
+      "x": 255,
+      "y": 64,
+      "scale": 0.7
+    }
   },
   "name": "Approve Investor"
 }

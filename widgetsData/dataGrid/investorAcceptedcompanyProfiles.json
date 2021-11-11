@@ -1234,6 +1234,90 @@
       ],
       "title": "Admin"
     },
+    "companyView": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"companyUser\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"companyUser\",\"expression\":true,\"hidden\":true}]}",
+      "meta": {
+        "accepted": {
+          "order": 0
+        },
+        "companyCard": {
+          "order": 1
+        },
+        "companyNotice": {
+          "order": 2
+        },
+        "companyProfiles": {
+          "invisible": false,
+          "order": 3
+        },
+        "companyRepresentative": {
+          "order": 4
+        },
+        "companyUser": {
+          "order": 21
+        },
+        "createdDate": {
+          "invisible": false,
+          "order": 5
+        },
+        "investedInWorkflow": {
+          "order": 6
+        },
+        "investor": {
+          "invisible": false,
+          "order": 7
+        },
+        "investorCard": {
+          "order": 8
+        },
+        "investorInvested": {
+          "order": 9
+        },
+        "lastEditDate": {
+          "invisible": false,
+          "order": 10
+        },
+        "lastEditedBy": {
+          "invisible": false,
+          "order": 11
+        },
+        "layout": {
+          "order": 12
+        },
+        "name": {
+          "invisible": false,
+          "order": 13
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": 14
+        },
+        "notice": {
+          "order": 15
+        },
+        "owner": {
+          "invisible": false,
+          "order": 16
+        },
+        "requestSend": {
+          "order": 17
+        },
+        "responseOpened": {
+          "order": 18
+        },
+        "state": {
+          "invisible": true,
+          "order": 19
+        },
+        "status": {
+          "order": 20
+        }
+      },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
+      "title": "Company View"
+    },
     "investorInvestedInCompanies": {
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"investor\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"Investor\",\"expression\":true,\"hidden\":true},{\"key\":\"investorInvested\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"InvestorInvested\",\"expression\":false,\"hidden\":true}]}",
       "meta": {

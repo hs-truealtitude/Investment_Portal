@@ -1,0 +1,65 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-Mlo5B4AymUxnVnF2YBv",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1634036104127",
+        "x": -284.98475992839707,
+        "y": 236.41891024551774,
+        "width": 104,
+        "height": 40,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1634036106168",
+        "x": -44.95,
+        "y": 237.35,
+        "width": 105,
+        "height": 41,
+        "attachment": {
+          "script": "const msg = {\r\n            to: 'portal@truealtitude.co.uk',\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: URGENT - Programme Partner account(s) waiting for Approval!',\r\n            text: 'Hi Portal Admin \\n\\r' + 'There are Programme Partner(s) waiting for approval! Please click here to login. Login with support@truealtitude.co.uk. portal.truealtitude.co.uk',\r\n            html: 'Hi Portal Admin, <br/>' + '<br/> There are Programme Partner(s) waiting for approval! Login with support@truealtitude.co.uk. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Email Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1634036104127-right",
+        "target": "node1634036106168",
+        "endSocket": "left",
+        "id": "line-1634036112867",
+        "label": "Start Event",
+        "targetLabel": "Email Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": 477.0723018102286,
+      "y": 14.170102889291798,
+      "scale": 1.0248699850951326
+    }
+  },
+  "name": "Admin - Programme Partner Approval Email Notification"
+}

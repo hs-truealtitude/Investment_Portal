@@ -4,7 +4,6 @@
 
 
 /*Admin notifications - Hiding Modal Elements*/
-
 .dataGridEditRow .ml-auto{
     display: none;
 }
@@ -24,7 +23,6 @@
 
 .dgRowPreview .dgRowPreview__footer{
     display: none !important;
-
 }
 
 .sidenav.navbar {
@@ -35,11 +33,7 @@
 }
 
 .sidebarMobileTrigger{
-        display: none !important;
-}
-
-.toolsPanel{
-
+    display: none !important;
 }
 
 .g-sidenav-pinned .sidenav.fixed-left + .main-content{

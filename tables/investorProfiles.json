@@ -26,23 +26,27 @@
     "submitPressed": true,
     "user": "Q37VVEqcqUV1D6Fn6l5radpdc2F3"
   },
-  "-MlOtOBOQFRXrfvBNrV2": {
+  "-MlxrG_ldj3-1kjy6umI": {
     "_created": true,
     "_id": 2,
+    "aboutMe": "General Counsel of  True Altitude, with a background in IP, commercial, disputes, and privacy law. I also enjoy angel investing and supporting those early stage businesses however I can. ",
     "accType": "-MKorfvV-56oTz-K9J3t",
     "adminRejected": "",
-    "createdDate": 1633595790152,
-    "dateOfBirth": "01/01/2003",
+    "createdDate": 1634199214526,
+    "dateOfBirth": 273452400000,
     "isApproved": true,
-    "lastEditDate": 1633595798620,
+    "lastEditDate": 1634199416587,
     "lastEditedBy": "AsUNZDDYKIQQbX4GOi0X4gy6nrj2",
+    "linkedInProfileLink": "https://www.linkedin.com/in/charliewinckworth/",
     "location": "-MJwtgUqBjMrFNntf6GH",
     "name": "Charlie",
     "nextEvents": "Approve,Reject",
     "owner": "AsUNZDDYKIQQbX4GOi0X4gy6nrj2",
-    "rowKey": "-MlOtOBOQFRXrfvBNrV2",
+    "phoneNumber": "07976244732",
+    "rowKey": "-MlxrG_ldj3-1kjy6umI",
     "secondName": "Winckworth",
     "state": "Accepted",
+    "submitPressed": true,
     "user": "AsUNZDDYKIQQbX4GOi0X4gy6nrj2"
   }
 }

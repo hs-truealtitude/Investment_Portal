@@ -1,8 +1,7 @@
-
+/* Customisable login at register screen styling */
 
 .authForm__wrapper{
-            animation: fadeIn 0.3s !important;
-
+    animation: fadeIn 0.3s !important;
 }
 
 @keyframes fadeIn{
@@ -15,29 +14,24 @@
     }
 }
 
-
 .authForm__title span a{
-   color: #ef4437;
-       font-family: 'Grenette pro', sans-serif !important; 
-
+    color: #ef4437;
+    font-family: 'Grenette pro', sans-serif !important; 
 }
 
 .authForm__resetPass{
-       color: #ef4437;
+    color: #ef4437;
     font-family: 'Grenette pro', sans-serif !important; 
-
 }
 
 h5{
     color: black !important; 
     font-family: 'Grenette pro', sans-serif !important; 
     font-size: 17px;
-
 }
 
 .d-block{
     font-family: 'Grenette pro', sans-serif !important; 
- 
 }
 
 .authForm__title span {
@@ -46,14 +40,11 @@ h5{
 
 .authForm .form-group input {
     font-family: 'Grenette pro', sans-serif !important; 
-
 }
 
 .authForm .invalid-feedback {
     font-family: 'Grenette pro', sans-serif !important; 
-
 }
-
 
 authForm__title{
     font-family: 'Grenette pro', sans-serif !important; 
@@ -76,7 +67,6 @@ button{
     background-color: #fffaf3 !important;
     text-decoration:none;
 	font-size:15px !important;
-
 }
 
 .btn-primary:hover{
@@ -95,14 +85,11 @@ button{
     background-color: #fffaf3 !important;
     text-decoration:none;
     font-size:15px !important;
-
 }
 
 .authForm .oauth .google-btn {
     border-right: 1px solid black;
-
 }
-
 
 .btn:hover{
     transform: translateY(0px) !important;
@@ -113,34 +100,26 @@ button{
     height: 75px;
     width: 200px;
 }
+
 body {
     background: url("https://i.postimg.cc/rscCL64G/TA-Illustration-Full-Resolution.jpg") no-repeat 0 0 fixed;
-
-        background-size: cover;
+    background-size: cover;
     background-repeat:   no-repeat;
-        -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-    
-
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
 }
 
-
 .authForm__wrapper {
-
     background-color: #fffaf3 !important;
     border: 1px solid black;
     box-shadow: 0px 2px 8px rgb(0 0 0 / 80%);
-            border-radius: 0px !important;
-
+    border-radius: 0px !important;
 }
 
 .authForm .form-group input {
-
     color: black !important;
-
 }
-
 
 .btn-primary{
     background:#fffaf3 !important;
@@ -167,13 +146,12 @@ body {
 }
 
 input[type="checkbox"] {
-        outline: 1px solid #000000 !important;
-        border: 1px solid black !important;
+    outline: 1px solid #000000 !important;
+    border: 1px solid black !important;
 }
 
-/*
+/* Option Hide 'Login/Register with Google button'
 .oauth{
     display: none !important;
 }
-
 /*

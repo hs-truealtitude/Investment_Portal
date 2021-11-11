@@ -9,7 +9,7 @@ return function  () {
 
 //Get Number of Stats
     let total = 0
-    total = $getGrid('applications').filter(row => row.cohort == $getUser('activeMyCohort') && row.name == "Investor->CompanyUser" && isComplete == true).length 
+    total = $getGrid('applications').filter(row => row.cohort == $getUser('activeMyCohort') && row.name == "Investor->CompanyUser" && row.isComplete == true).length 
 
 //Apply new rows to stat counter
     if(total == 0){

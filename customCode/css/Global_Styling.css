@@ -13,23 +13,24 @@
   font-size: 16px;
   box-shadow: 0px 0px;
 }
+
 .formBuilder__date > input{
   max-height: 30px;
 }
+
 .toggle-calendar{
   border: none !important;
 }
+
 .grid-stack-item-content{
   margin-bottom: 60px
 }
 
 .filterItem_label{
-  
   font-weight: 500 !important;
 }
 
 /*Card List Filter*/
-
 /*Highlighted */
 .data-grid__header .show .active-block span {
     border: 1px solid #a5925e;
@@ -37,20 +38,21 @@
 }
 
 .dg-add-column-btn button{
-      background-color: red !important;
+    background-color: red !important;
 }
 
 .data-grid__filterReset button{
-        background-color: red !important;
+    background-color: red !important;
 }
 
 .data-grid__filterReset button{
-        color: white !important;
+    color: white !important;
 }
 
 .badge-primary{
-  background-color: 	#808080;
+    background-color:	#808080;
 }
+
 .displayColumn span {
     color: black !important;
 }
@@ -91,26 +93,15 @@
     border: 0px solid black !important;
 }
 
-/*Hide Add to datagrid with number option
-.data-grid__table-wrapper .block-bottom{
-    display: none !important;
-}
-*/
-
 /*Table buttons - no shadow */
 .data-grid .btn-link{
     box-shadow: 0 0px 0px 0 rgba(0,0,0,0) !important;
-}
-
-/*Calendar Slot Color*/
-.fc-time-grid-event {
 }
 
 .fc-ltr.fc-unthemed{
     position: relative;
     z-index: 12;
     background-color: #fffaf3!important;
-
 }
 
 .fullCalendar__viewControls{
@@ -118,8 +109,14 @@
     z-index: 12;
     background-color: #fffaf3!important;
 }
+
 .fullCalendar__options{
     position: relative;
     z-index: 12;
     background-color: #fffaf3!important;
+}
+
+/*Tangle Tabs Styling*/
+.tangle-tabs .card-header .nav-item .nav-link.active:before{
+    background-color: #ef4437 !important;
 }

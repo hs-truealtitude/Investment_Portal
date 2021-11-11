@@ -1,64 +1,46 @@
+/* Tangle container component styling */
 .containerWidget .nav-tabs span {
     font-family: 'Grenette pro', sans-serif !important;
     color:black;
     font-size: 20px !important;
-
 }
 
 .containerWidget .nav-tabs .active span {
     font-weight: bold !important;
-    text-decoration: underline;
-    text-decoration-color: #ef4437;
-
 }
 
+/* Mobile styling */
 @media only screen and (max-width: 800px) {
-
-.containerWidget .nav-tabs span {
-
-    font-size: 15px !important;
-
-}
+    .containerWidget .nav-tabs span {
+        font-size: 15px !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-
-.containerWidget .nav-tabs span {
-
-    font-size: 12px !important;
-
-}
+    .containerWidget .nav-tabs span {
+        font-size: 12px !important;
+    }
 }
 
 @media only screen and (max-width: 480px) {
+    .containerWidget .nav-tabs span {
+        font-size: 10px !important;
+    }
 
-.containerWidget .nav-tabs span {
-
-    font-size: 10px !important;
-
-}
-.containerWidget .nav-link{
-
-    margin-bottom: -5px !important;
-
-}
-
-
+    .containerWidget .nav-link{
+        margin-bottom: -5px !important;
+    }
 }
 
 @media only screen and (max-width: 420px) {
 
-.containerWidget .nav-tabs span {
+    .containerWidget .nav-tabs span {
+        font-size: 8px !important;
+    }
 
-    font-size: 8px !important;
-
-}
-
-.containerWidget .nav-link{
-
-    margin-bottom: -5px !important;
-
-}
+    .containerWidget .nav-link{
+        margin-bottom: -5px !important;
+    }
 
 
 @media only screen and (max-width: 320px) {
@@ -69,11 +51,11 @@
 
 }
 
-.containerWidget .nav-link{
-
-    margin-bottom: -0px !important;
-
+    .containerWidget .nav-link{
+        margin-bottom: -0px !important;
+    }
 }
+
 }
 
 

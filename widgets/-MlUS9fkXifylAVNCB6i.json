@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/viewProgrammeModal",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "viewProgrammeModal"
+  },
+  "subtab": "-MlUS9cusHeFp8E2wkMd",
+  "tab": "-MKjMm1cJNwP3sVETeGP",
+  "type": "DataGrid"
+}

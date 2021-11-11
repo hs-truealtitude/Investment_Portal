@@ -3,10 +3,10 @@
   "classes": "",
   "detailTemplate": "",
   "gsOptions": {
-    "h": 6,
+    "h": 5,
     "w": 24,
     "x": 0,
-    "y": 11
+    "y": 5
   },
   "layout": {
     "text": "Standard"

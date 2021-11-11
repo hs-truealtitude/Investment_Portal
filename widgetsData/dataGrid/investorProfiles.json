@@ -5,152 +5,192 @@
   "meta": {
     "aboutMe": {
       "displayName": "About Me",
-      "order": 23,
+      "order": 0,
       "type": "multiline_text"
     },
     "accType": {
       "displayName": "accType",
       "lookUpTable": "accountType",
-      "order": "16",
+      "order": 1,
       "type": "lookup"
     },
     "adminRejected": {
       "displayName": "adminRejected",
-      "order": 18,
+      "order": 2,
       "type": "checkbox"
     },
     "approvalMessage1": {
       "displayName": "approvalMessage1",
-      "order": 19,
+      "order": 3,
       "type": "custom"
     },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": false,
-      "order": "5",
+      "order": 4,
       "type": "date"
     },
     "dateOfBirth": {
       "displayName": "Date of Birth",
       "invisible": true,
-      "order": "14",
+      "order": 5,
       "type": "date"
+    },
+    "hideDOB": {
+      "displayName": "hideDOB",
+      "order": 6,
+      "type": "checkbox"
     },
     "investorApproval": {
       "displayName": "Investor Approval",
-      "order": "17",
+      "order": 7,
       "startTitle": "Begin Investor Approval Process",
       "type": "workflow",
       "workflow": "-MeyOVXiZSSm-ZjkMCqL"
     },
+    "investorTypes": {
+      "displayName": "Investor Types",
+      "lookUpTable": "investorTypes",
+      "order": 8,
+      "type": "multi_lookup"
+    },
     "isApproved": {
       "displayName": "IsApproved",
       "invisible": true,
-      "order": "0",
+      "order": 9,
       "type": "checkbox"
     },
     "lastEditDate": {
       "displayName": "Last edit date",
       "invisible": true,
-      "order": "9",
+      "order": 10,
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
       "invisible": true,
-      "order": "8",
+      "order": 11,
       "type": "user"
     },
     "layout": {
       "displayName": "Layout",
-      "order": 22,
+      "order": 12,
       "type": "select"
     },
     "linkedInProfileLink": {
       "displayName": "LinkedIn Profile",
       "invisible": true,
-      "order": "2",
+      "order": 13,
       "type": "string"
     },
     "location": {
       "displayName": "Location",
       "invisible": true,
       "lookUpTable": "country",
-      "order": "10",
+      "order": 14,
       "type": "lookup"
     },
     "name": {
       "displayName": "First Name",
       "invisible": false,
-      "order": "12",
+      "order": 15,
       "type": "string"
     },
     "nextEvents": {
       "displayName": "Next Events",
       "invisible": true,
-      "order": "1",
+      "order": 16,
       "type": "string"
     },
     "owner": {
       "displayName": "Owner",
       "invisible": false,
-      "order": "4",
+      "order": 17,
       "type": "user"
     },
     "phoneNumber": {
       "displayName": "Contact Number",
       "invisible": true,
-      "order": "3",
+      "order": 18,
       "type": "phone"
     },
     "profileImage": {
       "displayName": "Profile Image",
       "invisible": false,
-      "order": "11",
+      "order": 19,
       "type": "profile_image"
+    },
+    "referralCompanyUser": {
+      "displayName": "referralCompanyUser",
+      "lookUpTable": "companyUserProfiles",
+      "order": 20,
+      "type": "multi_lookup"
+    },
+    "referralInvestor": {
+      "displayName": "referralInvestor",
+      "order": 32,
+      "type": "string"
+    },
+    "referralMentor": {
+      "displayName": "referralMentor",
+      "lookUpTable": "mentors",
+      "order": 21,
+      "type": "multi_lookup"
+    },
+    "referralProgrammePartner": {
+      "displayName": "referralProgrammePartner",
+      "lookUpTable": "programmePartnerProfiles",
+      "order": 22,
+      "type": "multi_lookup"
+    },
+    "referredBy": {
+      "Width": "281px",
+      "displayName": "referredBy",
+      "order": 31,
+      "type": "string"
     },
     "saveButton": {
       "displayName": "saveButton",
-      "order": 25,
+      "order": 23,
       "type": "custom"
     },
     "secondName": {
       "displayName": "Second Name",
       "invisible": false,
-      "order": "15",
+      "order": 24,
       "type": "string"
     },
     "state": {
       "displayName": "State",
       "invisible": true,
-      "order": "6",
+      "order": 25,
       "type": "string"
     },
     "submit": {
       "displayName": "",
       "invisible": true,
-      "order": "13",
+      "order": 26,
       "type": "custom"
     },
     "submitPressed": {
       "displayName": "submitPressed",
-      "order": 24,
+      "order": 27,
       "type": "checkbox"
     },
     "user": {
       "displayName": "User",
       "invisible": true,
-      "order": "7",
+      "order": 28,
       "type": "user"
     },
     "userApproval": {
       "displayName": "userApproval",
-      "order": 20,
+      "order": 29,
       "type": "custom"
     },
     "userRejected": {
       "displayName": "userRejected",
-      "order": 21,
+      "order": 30,
       "type": "custom"
     }
   },
@@ -292,6 +332,51 @@
                 "readonlyCondition": "rowData.owner != fbUser.uid"
               },
               {
+                "type": "multi_lookup",
+                "name": "control_60cb82a0-2cdc-11ec-a2f7-879f75befbaf",
+                "fieldName": "control_60cb82a0-2cdc-11ec-a2f7-879f75befbaf",
+                "label": "What is your Investor Types(s)?",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "rowData.owner != fbUser.uid",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": true,
+                "propName": "investorTypes",
+                "ableToAddLookUpVal": false,
+                "gridId": "investorProfiles",
+                "description": "Choose all that are applicable."
+              },
+              {
                 "type": "multiline_text",
                 "name": "control_4e190e10-0019-11ec-9e2a-cd4342be8f95",
                 "fieldName": "control_4e190e10-0019-11ec-9e2a-cd4342be8f95",
@@ -300,8 +385,8 @@
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
-                "readonly": false,
-                "readonlyCondition": "",
+                "readonly": true,
+                "readonlyCondition": "rowData.owner != fbUser.uid",
                 "placeholder": "",
                 "required": false,
                 "requiredCondition": "",
@@ -364,11 +449,55 @@
                 "customCode": "",
                 "propName": "dateOfBirth",
                 "gridId": "investorProfiles",
-                "invisible": null,
+                "invisible": true,
                 "invisibleLabel": null,
                 "invisibleInDataGrid": true,
                 "format": "DD/MM/YYYY",
-                "readonlyCondition": "rowData.owner != fbUser.uid"
+                "readonlyCondition": "rowData.owner != fbUser.uid",
+                "invisibleCondition": "rowData.hideDOB == true"
+              },
+              {
+                "type": "checkbox",
+                "name": "control_ed235f40-327a-11ec-a463-9f2c3ea43500",
+                "fieldName": "control_ed235f40-327a-11ec-a463-9f2c3ea43500",
+                "label": "Do not show my DOB",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "hideDOB",
+                "gridId": "investorProfiles"
               },
               {
                 "type": "text",
@@ -565,7 +694,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<center>\r\n<button class=\"btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n      setActiveUserName(rowData.name, rowData.secondName)\r\n      hideBack()\r\n      redirectToApproval()\r\n  \t}\r\n\t}\"        \r\n> \r\nSubmit\r\n</button>\r\n</center>",
+                "customCode": "<center>\r\n<button class=\"btn btn-primary\"\r\n\r\n        \r\n  @click=\"function() {\r\n    if ($dgFormTouchSection()) {\r\n      setActiveUserName(rowData.name, rowData.secondName)\r\n      hideBack()\r\n      adminAccountApprovalEmail()\r\n      redirectToApproval()\r\n      assignReferral()\r\n  \t}\r\n\t}\"        \r\n> \r\nSubmit\r\n</button>\r\n</center>",
                 "invisible": true,
                 "invisibleCondition": "rowData.isApproved == true || rowData.owner != fbUser.uid || rowData.submitPressed != true",
                 "invisibleInDataGrid": true,
@@ -617,6 +746,238 @@
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
                 "propName": "saveButton",
+                "gridId": "investorProfiles"
+              }
+            ]
+          },
+          {
+            "name": "section_35622_row_769770",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "text",
+                "name": "control_ca54ab90-3892-11ec-9de1-0921fc5ce0d7",
+                "fieldName": "control_ca54ab90-3892-11ec-9de1-0921fc5ce0d7",
+                "label": "referredBy",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "referredBy",
+                "gridId": "investorProfiles"
+              }
+            ]
+          },
+          {
+            "name": "section_35622_row_539949",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "multi_lookup",
+                "name": "control_d54cc760-37e5-11ec-9d0f-736a6eeb56a5",
+                "fieldName": "control_d54cc760-37e5-11ec-9d0f-736a6eeb56a5",
+                "label": "referralProgrammePartner",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "referralProgrammePartner",
+                "ableToAddLookUpVal": true,
+                "gridId": "investorProfiles"
+              },
+              {
+                "type": "multi_lookup",
+                "name": "control_50689640-37e6-11ec-9d0f-736a6eeb56a5",
+                "fieldName": "control_50689640-37e6-11ec-9d0f-736a6eeb56a5",
+                "label": "referralCompanyUser",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "referralCompanyUser",
+                "ableToAddLookUpVal": true,
+                "gridId": "investorProfiles"
+              },
+              {
+                "type": "multi_lookup",
+                "name": "control_4497af40-37e6-11ec-9d0f-736a6eeb56a5",
+                "fieldName": "control_4497af40-37e6-11ec-9d0f-736a6eeb56a5",
+                "label": "referralMentor",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "referralMentor",
+                "ableToAddLookUpVal": true,
+                "gridId": "investorProfiles"
+              },
+              {
+                "type": "text",
+                "name": "control_8deb9d90-3bde-11ec-9456-2b7fc78c7ebc",
+                "fieldName": "control_8deb9d90-3bde-11ec-9456-2b7fc78c7ebc",
+                "label": "referralInvestor",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "referralInvestor",
                 "gridId": "investorProfiles"
               }
             ]
@@ -1341,108 +1702,129 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.1768873544491787
+    "_uniqueId": 0.21087725988678918
   },
   "source": "investorProfiles",
   "storageType": "dashboard",
   "title": "Investor Profiles",
   "views": {
     "approvedInvestors": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"=\",\"value\":null,\"name\":\"First Name\",\"expression\":false,\"hidden\":false},{\"key\":\"secondName\",\"operator\":\"=\",\"value\":null,\"name\":\"Second Name\",\"expression\":false,\"hidden\":false},{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"IsApproved\",\"expression\":false,\"hidden\":true},{\"key\":\"name\",\"operator\":\"not null\",\"value\":null,\"name\":\"First Name\",\"expression\":false,\"hidden\":true}]}",
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"First Name\",\"expression\":false,\"hidden\":false},{\"key\":\"secondName\",\"operator\":\"contains\",\"value\":null,\"name\":\"Second Name\",\"expression\":false,\"hidden\":false},{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"IsApproved\",\"expression\":false,\"hidden\":true},{\"key\":\"name\",\"operator\":\"not null\",\"value\":null,\"name\":\"First Name\",\"expression\":false,\"hidden\":true}]}",
       "meta": {
         "aboutMe": {
-          "order": 23
+          "order": 0
         },
         "accType": {
-          "order": "16"
+          "order": 1
         },
         "adminRejected": {
-          "order": 18
+          "order": 2
         },
         "approvalMessage1": {
-          "order": 19
+          "order": 3
         },
         "createdDate": {
           "invisible": false,
-          "order": "5"
+          "order": 4
         },
         "dateOfBirth": {
           "invisible": true,
-          "order": "14"
+          "order": 5
+        },
+        "hideDOB": {
+          "order": 6
         },
         "investorApproval": {
-          "order": "17"
+          "order": 7
+        },
+        "investorTypes": {
+          "order": 8
         },
         "isApproved": {
           "invisible": true,
-          "order": "0"
+          "order": 9
         },
         "lastEditDate": {
           "invisible": true,
-          "order": "9"
+          "order": 10
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "8"
+          "order": 11
         },
         "layout": {
-          "order": 22
+          "order": 12
         },
         "linkedInProfileLink": {
           "invisible": true,
-          "order": "2"
+          "order": 13
         },
         "location": {
           "invisible": true,
-          "order": "10"
+          "order": 14
         },
         "name": {
           "invisible": false,
-          "order": "12"
+          "order": 15
         },
         "nextEvents": {
           "invisible": true,
-          "order": "1"
+          "order": 16
         },
         "owner": {
           "invisible": false,
-          "order": "4"
+          "order": 17
         },
         "phoneNumber": {
           "invisible": true,
-          "order": "3"
+          "order": 18
         },
         "profileImage": {
           "invisible": false,
-          "order": "11"
+          "order": 19
+        },
+        "referralCompanyUser": {
+          "order": 20
+        },
+        "referralInvestor": {
+          "order": 32
+        },
+        "referralMentor": {
+          "order": 21
+        },
+        "referralProgrammePartner": {
+          "order": 22
+        },
+        "referredBy": {
+          "order": 31
         },
         "saveButton": {
-          "order": 25
+          "order": 23
         },
         "secondName": {
           "invisible": false,
-          "order": "15"
+          "order": 24
         },
         "state": {
           "invisible": true,
-          "order": "6"
+          "order": 25
         },
         "submit": {
           "invisible": true,
-          "order": "13"
+          "order": 26
         },
         "submitPressed": {
-          "order": 24
+          "order": 27
         },
         "user": {
           "invisible": true,
-          "order": "7"
+          "order": 28
         },
         "userApproval": {
-          "order": 20
+          "order": 29
         },
         "userRejected": {
-          "order": 21
+          "order": 30
         }
       },
       "roles": [
@@ -1454,45 +1836,51 @@
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"IsApproved\",\"expression\":false,\"hidden\":true}]}",
       "meta": {
         "aboutMe": {
-          "order": 23
+          "order": 0
         },
         "accType": {
           "invisible": true,
-          "order": 11
+          "order": 1
         },
         "adminRejected": {
           "invisible": false,
-          "order": 1
+          "order": 2
         },
         "approvalMessage1": {
-          "order": 19
+          "order": 3
         },
         "createdDate": {
           "invisible": false,
-          "order": 5
+          "order": 4
         },
         "dateOfBirth": {
           "invisible": true,
-          "order": 9
+          "order": 5
+        },
+        "hideDOB": {
+          "order": 6
         },
         "investorApproval": {
           "invisible": true,
-          "order": 12
+          "order": 7
+        },
+        "investorTypes": {
+          "order": 8
         },
         "isApproved": {
           "invisible": false,
-          "order": 0
+          "order": 9
         },
         "lastEditDate": {
           "invisible": true,
-          "order": 18
+          "order": 10
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": 17
+          "order": 11
         },
         "layout": {
-          "order": 22
+          "order": 12
         },
         "linkedInProfileLink": {
           "invisible": true,
@@ -1500,11 +1888,11 @@
         },
         "location": {
           "invisible": true,
-          "order": 7
+          "order": 14
         },
         "name": {
           "invisible": false,
-          "order": 3
+          "order": 15
         },
         "nextEvents": {
           "invisible": true,
@@ -1512,43 +1900,58 @@
         },
         "owner": {
           "invisible": false,
-          "order": 6
+          "order": 17
         },
         "phoneNumber": {
           "invisible": true,
-          "order": 14
+          "order": 18
         },
         "profileImage": {
           "invisible": false,
-          "order": 2
+          "order": 19
+        },
+        "referralCompanyUser": {
+          "order": 20
+        },
+        "referralInvestor": {
+          "order": 32
+        },
+        "referralMentor": {
+          "order": 21
+        },
+        "referralProgrammePartner": {
+          "order": 22
+        },
+        "referredBy": {
+          "order": 31
         },
         "saveButton": {
-          "order": 25
+          "order": 23
         },
         "secondName": {
           "invisible": false,
-          "order": 4
+          "order": 24
         },
         "state": {
           "invisible": true,
-          "order": 15
+          "order": 25
         },
         "submit": {
           "invisible": true,
-          "order": 8
+          "order": 26
         },
         "submitPressed": {
-          "order": 24
+          "order": 27
         },
         "user": {
           "invisible": true,
-          "order": 10
+          "order": 28
         },
         "userApproval": {
-          "order": 20
+          "order": 29
         },
         "userRejected": {
-          "order": 21
+          "order": 30
         }
       },
       "roles": [
@@ -1560,97 +1963,118 @@
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"owner\",\"operator\":\"=\",\"value\":\"fbUser.uid\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true}]}",
       "meta": {
         "aboutMe": {
-          "order": 23
+          "order": 0
         },
         "accType": {
-          "order": "16"
+          "order": 1
         },
         "adminRejected": {
-          "order": 18
+          "order": 2
         },
         "approvalMessage1": {
-          "order": 19
+          "order": 3
         },
         "createdDate": {
           "invisible": false,
-          "order": "13"
+          "order": 4
         },
         "dateOfBirth": {
           "invisible": false,
-          "order": "14"
+          "order": 5
+        },
+        "hideDOB": {
+          "order": 6
         },
         "investorApproval": {
-          "order": "17"
+          "order": 7
+        },
+        "investorTypes": {
+          "order": 8
         },
         "isApproved": {
           "invisible": false,
-          "order": "0"
+          "order": 9
         },
         "lastEditDate": {
           "invisible": false,
-          "order": "9"
+          "order": 10
         },
         "lastEditedBy": {
           "invisible": false,
-          "order": "8"
+          "order": 11
         },
         "layout": {
-          "order": 22
+          "order": 12
         },
         "linkedInProfileLink": {
           "invisible": false,
-          "order": "3"
+          "order": 13
         },
         "location": {
           "invisible": false,
-          "order": "10"
+          "order": 14
         },
         "name": {
           "invisible": false,
-          "order": "1"
+          "order": 15
         },
         "nextEvents": {
           "invisible": true,
-          "order": "7"
+          "order": 16
         },
         "owner": {
           "invisible": false,
-          "order": "5"
+          "order": 17
         },
         "phoneNumber": {
           "invisible": false,
-          "order": "4"
+          "order": 18
         },
         "profileImage": {
           "invisible": false,
-          "order": "11"
+          "order": 19
+        },
+        "referralCompanyUser": {
+          "order": 20
+        },
+        "referralInvestor": {
+          "order": 32
+        },
+        "referralMentor": {
+          "order": 21
+        },
+        "referralProgrammePartner": {
+          "order": 22
+        },
+        "referredBy": {
+          "order": 31
         },
         "saveButton": {
-          "order": 25
+          "order": 23
         },
         "secondName": {
           "invisible": false,
-          "order": "2"
+          "order": 24
         },
         "state": {
           "invisible": true,
-          "order": "6"
+          "order": 25
         },
         "submit": {
           "invisible": true,
-          "order": "12"
+          "order": 26
         },
         "submitPressed": {
-          "order": 24
+          "order": 27
         },
         "user": {
-          "order": "15"
+          "order": 28
         },
         "userApproval": {
-          "order": 20
+          "order": 29
         },
         "userRejected": {
-          "order": 21
+          "order": 30
         }
       },
       "roles": [
@@ -1659,101 +2083,122 @@
       "title": "My Profile"
     },
     "viewAllInvestors": {
-      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"=\",\"value\":null,\"name\":\"First Name\",\"hidden\":false},{\"key\":\"secondName\",\"operator\":\"=\",\"value\":null,\"name\":\"Second Name\",\"hidden\":false},{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"IsApproved\",\"hidden\":true}]}",
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"First Name\",\"expression\":false,\"hidden\":false},{\"key\":\"secondName\",\"operator\":\"contains\",\"value\":null,\"name\":\"Second Name\",\"expression\":false,\"hidden\":false},{\"key\":\"isApproved\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"IsApproved\",\"expression\":false,\"hidden\":true}]}",
       "meta": {
         "aboutMe": {
-          "order": 23
+          "order": 0
         },
         "accType": {
-          "order": "16"
+          "order": 1
         },
         "adminRejected": {
-          "order": 18
+          "order": 2
         },
         "approvalMessage1": {
-          "order": 19
+          "order": 3
         },
         "createdDate": {
           "invisible": false,
-          "order": "5"
+          "order": 4
         },
         "dateOfBirth": {
           "invisible": true,
-          "order": "14"
+          "order": 5
+        },
+        "hideDOB": {
+          "order": 6
         },
         "investorApproval": {
-          "order": "17"
+          "order": 7
+        },
+        "investorTypes": {
+          "order": 8
         },
         "isApproved": {
           "invisible": true,
-          "order": "0"
+          "order": 9
         },
         "lastEditDate": {
           "invisible": true,
-          "order": "9"
+          "order": 10
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": "8"
+          "order": 11
         },
         "layout": {
-          "order": 22
+          "order": 12
         },
         "linkedInProfileLink": {
           "invisible": true,
-          "order": "2"
+          "order": 13
         },
         "location": {
           "invisible": true,
-          "order": "10"
+          "order": 14
         },
         "name": {
           "invisible": false,
-          "order": "12"
+          "order": 15
         },
         "nextEvents": {
           "invisible": true,
-          "order": "1"
+          "order": 16
         },
         "owner": {
           "invisible": false,
-          "order": "4"
+          "order": 17
         },
         "phoneNumber": {
           "invisible": true,
-          "order": "3"
+          "order": 18
         },
         "profileImage": {
           "invisible": false,
-          "order": "11"
+          "order": 19
+        },
+        "referralCompanyUser": {
+          "order": 20
+        },
+        "referralInvestor": {
+          "order": 32
+        },
+        "referralMentor": {
+          "order": 21
+        },
+        "referralProgrammePartner": {
+          "order": 22
+        },
+        "referredBy": {
+          "order": 31
         },
         "saveButton": {
-          "order": 25
+          "order": 23
         },
         "secondName": {
           "invisible": false,
-          "order": "15"
+          "order": 24
         },
         "state": {
           "invisible": true,
-          "order": "6"
+          "order": 25
         },
         "submit": {
           "invisible": true,
-          "order": "13"
+          "order": 26
         },
         "submitPressed": {
-          "order": 24
+          "order": 27
         },
         "user": {
           "invisible": true,
-          "order": "7"
+          "order": 28
         },
         "userApproval": {
-          "order": 20
+          "order": 29
         },
         "userRejected": {
-          "order": 21
+          "order": 30
         }
       },
       "roles": [

@@ -1,0 +1,45 @@
+/* Company User Landing page */
+.companyNavContainer {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: 200px;
+}
+
+/* Mobile styling */
+@media only screen and (max-width: 1600px) {
+.companyNavContainer .Ncard{
+    width: 250px !important;
+}
+}
+
+@media only screen and (max-width: 1440px) {
+.companyNavContainer .Ncard{
+    width: 250px !important;
+}
+}
+
+@media only screen and (max-width: 1330px) {
+.companyNavContainer .Ncard{
+    width: 220px !important;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+.companyNavContainer .Ncard{
+    width: 200px !important;
+}
+}
+
+@media only screen and (max-width: 1100px) {
+.companyNavContainer .Ncard{
+    width: 400px !important;
+}
+.companyNavContainer{
+    margin-bottom: 300px !important;
+}
+}

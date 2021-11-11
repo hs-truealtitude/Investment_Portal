@@ -1,4 +1,6 @@
 (async () => {
+  console.log('portalLoginFlow')
+  //return
   let accountType = $getUser("accountType");
 
   //IF THERE ISN'T A PROFILE REDIRECT TO SELECT PROFILE
@@ -61,10 +63,6 @@
         $setCurrentTab('-MVGOMA1-ifNurWKHxUf')
       }
     }
-
-
-
-
   }
 
   //ADMIN ONLY TEMPORARY FIX

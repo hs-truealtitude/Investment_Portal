@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/indirectInvestorTypes",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "indirectInvestorTypes"
+  },
+  "subtab": "-MlyMLU1CO8ChYWAhlDO",
+  "tab": "-MKjMRUUg4_Q6hNfvyso",
+  "type": "DataGrid"
+}

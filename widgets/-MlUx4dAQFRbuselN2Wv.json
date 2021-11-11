@@ -1,0 +1,28 @@
+{
+  "classes": "",
+  "containerTabs": [
+    {
+      "key": "-MlUx4dWTAHrM1JzFXeh",
+      "title": "My Connected Investors"
+    },
+    {
+      "key": "-MlUxb0o5F5cMHXtgqkX",
+      "title": "View All Investors"
+    }
+  ],
+  "gsOptions": {
+    "h": 24,
+    "w": 22,
+    "x": 1,
+    "y": 2
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "overflow": "height: auto;",
+  "styles": "",
+  "subtab": "-MfY3pV-fvW0uCQqFuxI",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "title": "",
+  "type": "container"
+}

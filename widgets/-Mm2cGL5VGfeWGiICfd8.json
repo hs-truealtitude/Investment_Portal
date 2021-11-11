@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/viewInvestorAndStatsModal",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "viewInvestorAndStatsModal"
+  },
+  "subtab": "-Mm2cG6dgchfnmQCw8dW",
+  "tab": "-MKjMm1cJNwP3sVETeGP",
+  "type": "DataGrid"
+}

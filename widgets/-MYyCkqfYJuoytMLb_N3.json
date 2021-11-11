@@ -13,6 +13,6 @@
   "perPage": 2,
   "styles": "",
   "tab": "-MRosDn6SYo3LCxaAq4i",
-  "template": "<center>\r\n  <button type=\"button\" @click='$setCurrentTab(\"-MKUwx1XmgWmAYvLK_wz\")'>Back to Admin Dashboard</button>\r\n</center>\r\n",
+  "template": "<center>\r\n  <button type=\"button\" @click='$setCurrentTab(\"-MKUwx1XmgWmAYvLK_wz\")'>Back to Admin Dashboard Pages</button>\r\n</center>\r\n\r\n\r\n",
   "title": ""
 }

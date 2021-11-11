@@ -1,5 +1,4 @@
-/*Center Texts on External Portal Users Dashboards*/
-
+/* Center Texts on External Portal Users Dashboards */
 .center {
     height: 10em;
     position: relative
@@ -39,4 +38,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    margin-top: 350px !important;
 }
+

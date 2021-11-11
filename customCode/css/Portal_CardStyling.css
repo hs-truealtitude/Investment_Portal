@@ -1,14 +1,13 @@
+/* HTML Information Card Styling */
 
 /*------------------FRONT CARD------------------*/
 .widget-card-list__item .card{
     border:1px solid 	#696969	 !important;
 }
 
-
-
 .widgetContent__filters{
     border:0px solid 	#696969	 !important;
-        box-shadow: 0 3px 4px 1px rgb(172 175 188 / 0%) !important;
+    box-shadow: 0 3px 4px 1px rgb(172 175 188 / 0%) !important;
     -webkit-box-shadow: 0 0px 0px 0px rgb(172 175 188 / 0%) !important;
 }
 
@@ -21,7 +20,6 @@
         padding: 0;
     }
 }
-
 
 /*Company Name*/
 .frontcard .h3{
@@ -109,8 +107,6 @@
     font-family: 'Grenette pro', sans-serif;   
 }
 
-
-
 /* On mouse-over, add a deeper shadow*/
 .card:hover {
   box-shadow: 0px 12px 16px 2px rgba(0,0,0,0.2);
@@ -169,9 +165,7 @@ body{
     border-radius:5px;
 }
 
-
 /*------------------DETAILS CARD------------------*/
-
 /*Tabs*/
 .tab-title-class {
     color: black !important;  
@@ -194,8 +188,7 @@ body{
 }
 
 .details .row{
-    padding-left: 15px;
-    
+    padding-left: 15px;  
 }
 
 .company_title{
@@ -213,38 +206,46 @@ body{
     font-size: 17px;
 }
 
+.details h2{
+    color: black !important;  
+    font-size: 17px;
+}
+
 
 /*------------------CARD LIST WIDGET------------------*/
-
 /*Other Styling*/
 .heading__content{
-     
     font-size: 15px;
 }
+
 .page-item a{
     border: 1px solid black;
 }
+
 .pagination .active .page-link {
-    
     color: black;
     border-color: #3f8cff;
 }
+
 .pagination{
     border: 0px solid #dce6f3;
     padding-left: 15px;
 }
+
 .form-control.form-control-md{
     background-color: white !important;
 }
+
 .btn.data-grid__addRowTrigger{
     display: none;
 }
+
 .data-grid__row.editMode{
     background-color: white !important;
 }
+
 .grid-stack-item__title{
     letter-spacing: 2px;
-     
     font-weight: 400 !important;
     color: black !important;  
 }
@@ -257,45 +258,49 @@ body{
     color: black !important;  
     font-size: 23px;
 }
+
 .nav-link.active.tab-title-class{
     font-weight: bold !important;
 }
+
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-        background-color: white;
+    background-color: white;
     border-color: #dee2e6 #dee2e6 #f8f9fe;
 }
-
 
 /*Filter(s)*/
 .RuleValue input{
     font-size: 14px !important;
-    
 }
+
 .multiselect__tag{
    background-color: #F1F1F1 !important;
 }
+
 .multiselect__tag span{
     color:black !important;
 }
-.multiselect__tags{
-        background-color: white !important;
-            border-color: black;
 
+.multiselect__tags{
+    background-color: white !important;
+    border-color: black;
 }
+
 .multiselect__tags input{
-        background-color: white !important;
-            border-color: black;
+    background-color: white !important;
+    border-color: black;
 
 }
 .multiselect__content-wrapper{
-        background-color: white !important;
-                    border-color: black;
+    background-color: white !important;
+    border-color: black;
+}
 
-}
 .filterItem__value input{
-            background-color: white !important;
-            border-color: black;
+    background-color: white !important;
+    border-color: black;
 }
+
 .widgetContent__filters{
     background-color: white !important;
 }
@@ -308,6 +313,25 @@ body{
 
 .cohortCard .container{
     height: 130px;
+}
+
+.cohortCard p{
+    color: black !important;
+}
+
+.cohortCard .dot{
+    top: 20px;
+    right: 120px;
+    width: 15px;
+    height: 15px;
+    -webkit-box-shadow:0 0 10px #ef4437;
+    -moz-box-shadow: 0 0 10px #ef4437; 
+    box-shadow:0 0 10px #ef4437;
+}
+
+.cohortCard h3{
+        font-family: 'Grenette pro', sans-serif;   
+
 }
 
 @media (max-width: 600px){
@@ -327,7 +351,6 @@ body{
         height: 280px !important;
     }
 }
-
 
 .cohortCard .infoContainer{
     height: 160px;
@@ -383,7 +406,6 @@ body{
 
 .cohortCard .profileCard a{
     font-family: 'Grenette pro', sans-serif;   
-
 }
 
 .cohortCard .row button{
@@ -413,7 +435,6 @@ body{
 .mentorCards .profileImage{
     width: 100px;
 }
-
 
 .mentorCards .imageContainer{
     height: 100px;
@@ -448,10 +469,7 @@ body{
 .mentorCards a{
     color: #ef4437;
     font-family: 'Grenette pro', sans-serif;   
-
 }
-
-
 
 .tab-title-class {
     color: black !important;  
@@ -470,7 +488,6 @@ body{
 .details .row{
     padding-left: 15px;
     font-family: 'Grenette pro', sans-serif !important;   
-
 }
 
 .details .h4{
@@ -480,7 +497,7 @@ body{
 }
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-        background-color: #fffaf3;
+    background-color: #fffaf3;
     border-color: #dee2e6 #dee2e6 #f8f9fe;
 }
 
@@ -492,38 +509,30 @@ body{
 
 .grid-stack-item__wrapper h4{
     color: black !important;  
-        font-size: 23px;
-
+    font-size: 23px;
 }
 
 .heading__content{
-            font-family: 'Grenette pro', sans-serif !important; 
+    font-family: 'Grenette pro', sans-serif !important; 
     font-size: 15px;
-
 }
 
 .card{
-        background-color: #fffaf3;
+    background-color: #fffaf3;
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 5px; 
-      border: 1px solid rgba(0, 0, 0, 0.2);
-
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
-
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0px 12px 16px 2px rgba(0,0,0,0.2);
+    box-shadow: 0px 12px 16px 2px rgba(0,0,0,0.2);
 }
 
-
-
-
 .widgetContent__filters{
-            background-color: #fffaf3 !important;
-
+    background-color: #fffaf3 !important;
 }
 
 .tVSelect__selectWrapper {
@@ -532,12 +541,10 @@ body{
 
 .select-wrapper{ 
     background-color: white !important;
-    
 }
 
 body{
     background-color: #fffaf3 !important;
-
 }
 
 .card-body .card-header{
@@ -557,26 +564,23 @@ body{
 }
 
 .multiselect__tags{
-        background-color: #fffaf3 !important;
-            border-color: black;
-
+    background-color: #fffaf3 !important;
+    border-color: black;
 }
 
 .multiselect__tags input{
-        background-color: #fffaf3 !important;
-            border-color: black;
-
+    background-color: #fffaf3 !important;
+    border-color: black;
 }
 
 .multiselect__content-wrapper{
-        background-color: #fffaf3 !important;
-                    border-color: black;
-
+    background-color: #fffaf3 !important;
+    border-color: black;
 }
 
 .filterItem__value input{
-            background-color: #fffaf3 !important;
-            border-color: black;
+    background-color: #fffaf3 !important;
+    border-color: black;
 }
 
 .social-icon-contain {
@@ -603,8 +607,7 @@ body{
 }
 
 .data-grid__row.editMode{
-                background-color: #fffaf3 !important;
-
+    background-color: #fffaf3 !important;
 }
 
 .btn.data-grid__addRowTrigger{
@@ -612,7 +615,7 @@ body{
 }
 
 .filesControl span, .filesControl svg {
-        color: #ef4437;
+    color: #ef4437;
 }
 
 .form-block input{
@@ -658,9 +661,19 @@ body{
     padding-left: 10px;
 }
 
+.profileCard p{
+    color:black;
+}
+
+.myProfile h2{
+    color:black;
+}
+
+.myProfile span{
+    color: #ef4437;
+}
+
 /*------------------SESSION CARD------------------*/
 .sessionCard .date span{
     color: #ef4437;
 }
-
-/*------------------Work Packages Card------------------*/
