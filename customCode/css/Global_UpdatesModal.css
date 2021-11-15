@@ -1,0 +1,34 @@
+#updatesModal .modal-body{
+    background-color: #fffaf3;
+}
+
+#updatesModal h3{
+    color: black;
+    font-family: 'Grenette pro', sans-serif;
+}
+
+#updatesModal .modal-header{
+    background-color: #fffaf3;
+    border-bottom: 0px solid rgba(0, 0, 0, 0.05);
+}
+
+#updatesModal .modal-footer button{
+    display: none;
+}
+
+#updatesModal .modal-footer{
+    background-color: #fffaf3;
+}
+
+#updatesModal .textContainer{
+    background-color: white;
+    padding: 8px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+#updatesModal ol{
+    margin-bottom: 0px;
+    font-family: 'Grenette pro', sans-serif;
+    color: black;
+}

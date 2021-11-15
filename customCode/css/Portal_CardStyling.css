@@ -35,6 +35,10 @@
     height: 140px;
 }
 
+.card-body .frontcard .companylogo{
+    height: 100px;
+}
+
 .investment{
     height: 100px;
 }
@@ -210,6 +214,7 @@ body{
     color: black !important;  
     font-size: 17px;
 }
+
 
 
 /*------------------CARD LIST WIDGET------------------*/

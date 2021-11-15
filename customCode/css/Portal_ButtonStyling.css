@@ -56,3 +56,40 @@
 button.btn > span {
 	color: #000000 !important;
 }
+
+.inviteDropdown .dropdown-menu{
+	background-color: #fffaf3 !important;
+	border:1px solid #000000 !important;
+	border-radius: 0px;
+}
+
+.inviteDropdown .dropdown-toggle{
+	padding: 0px 0px;
+}
+
+.inviteDropdown .dropdown-menu .dropdown-item {
+	border-bottom: 1px solid black;
+	border-radius: 0px;
+	width: 100% !important;
+	color: black;
+	font-family: 'Grenette pro', sans-serif !important;
+}
+
+.dropdown-menu  .none{
+	border-bottom: 0px solid black !important;
+}
+
+.dropdown-menu{
+	padding: 0px;
+}
+
+.inviteDropdown .dropdown-menu .dropdown-item:hover {
+	color: black;
+	background-color:#ef4437 !important;
+}
+
+.inviteDropdown .show .btn-secondary{
+	background-color:#ef4437 !important;
+	color: black !important;
+}
+

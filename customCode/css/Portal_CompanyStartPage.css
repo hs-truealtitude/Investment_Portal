@@ -7,11 +7,11 @@
     bottom: 0;
     left: 0;
     width: auto;
-    height: 200px;
+    height:auto;
 }
 
 /* Mobile styling */
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1620px) {
 .companyNavContainer .Ncard{
     width: 250px !important;
 }
@@ -19,7 +19,7 @@
 
 @media only screen and (max-width: 1440px) {
 .companyNavContainer .Ncard{
-    width: 250px !important;
+    width: 235px !important;
 }
 }
 
@@ -29,17 +29,17 @@
 }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1245px) {
 .companyNavContainer .Ncard{
     width: 200px !important;
 }
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1150px) {
 .companyNavContainer .Ncard{
     width: 400px !important;
 }
 .companyNavContainer{
-    margin-bottom: 300px !important;
+    margin-bottom: 100px !important;
 }
 }

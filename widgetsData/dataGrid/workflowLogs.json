@@ -24,6 +24,7 @@
       "type": "multiline_text"
     },
     "name": {
+      "Width": "472px",
       "displayName": "Name",
       "inherited": true,
       "invisible": false,
