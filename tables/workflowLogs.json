@@ -957,5 +957,91 @@
     "logDetails": "{\n  \"_id\": 305,\n  \"cohort\": \"-MoY7agXGHtYd2kJ2N5t\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"direction\": \"CompanyUser->Mentor\",\n  \"eDate\": 1637213400000,\n  \"lastEditDate\": 1636973201953,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"mentor\": \"-MoEFeB236wPDze2zTK8\",\n  \"name\": \"TEST\",\n  \"nextEvents\": \"Accept,Reject\",\n  \"notes\": \"TERSSTT\",\n  \"owner\": \"ikXhm0aqehRy2VDS85c2a8uZ1aC2\",\n  \"programme\": \"null\",\n  \"rowKey\": \"-MoYC9zdy62QBjF_yYks\",\n  \"sDate\": 1637209800000,\n  \"sessionLength\": 1,\n  \"state\": \"Mentor Approve\",\n  \"status\": \"-MT_Y0f-hgT92Kdk5APL\"\n}",
     "name": "Workflow Step > Did Session Happen? Mentor",
     "rowKey": "-MoYCEvypbCCO4t4oy4q"
+  },
+  "-MoYij6FwhBchiap6igR": {
+    "_id": 115,
+    "date": 1636981993737,
+    "logDetails": "data passed is{\n  \"row\": \"-MoYiYBMgoQrOHI0zezs\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Submit\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MoYij6FwhBchiap6igR"
+  },
+  "-MoYijF_7a_nBes6nxkk": {
+    "_id": 116,
+    "date": 1636981994568,
+    "logDetails": "{\n  \"_id\": 29,\n  \"cohort\": \"-MnzXlj41Z2d2dAF8igY\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1636981945603,\n  \"lastEditDate\": 1636981946216,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"rowKey\": \"-MoYiYBMgoQrOHI0zezs\",\n  \"state\": null\n}",
+    "name": "Workflow Step > Email Task - ProgrammePartner->CompanyUser - Notify Company User (Cohort Invite)",
+    "rowKey": "-MoYijF_7a_nBes6nxkk"
+  },
+  "-MoYijFd18zBWsjznCBH": {
+    "_id": 116,
+    "date": 1636981994465,
+    "logDetails": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "name": "Workflow Log ",
+    "rowKey": "-MoYijFd18zBWsjznCBH"
+  },
+  "-MoYijNHLHvNCYGxwRaP": {
+    "_id": 117,
+    "date": 1636981995055,
+    "logDetails": "{\n  \"_id\": 29,\n  \"cohort\": \"-MnzXlj41Z2d2dAF8igY\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1636981945603,\n  \"lastEditDate\": 1636981946216,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"rowKey\": \"-MoYiYBMgoQrOHI0zezs\",\n  \"state\": null\n}",
+    "name": "Workflow Step > ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)",
+    "rowKey": "-MoYijNHLHvNCYGxwRaP"
+  },
+  "-MoYinfEBgzKhnQY259h": {
+    "_id": 118,
+    "date": 1636982012534,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MoYiYBMgoQrOHI0zezs\",\n  \"workflow\": \"-MgFozdW0n4sihq0holu\",\n  \"grid\": \"applications\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MoYinfEBgzKhnQY259h"
+  },
+  "-MoYinmxtalcWJr6bICT": {
+    "_id": 119,
+    "date": 1636982012730,
+    "logDetails": "support@truealtitude.co.uk clicked Approve at 2021-11-15 13:13:32 on record ID 29",
+    "name": "User Workflow Event",
+    "rowKey": "-MoYinmxtalcWJr6bICT",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "All Applications & Invites"
+  },
+  "-MoYinnBxCrv5314m2NG": {
+    "_id": 120,
+    "date": 1636982013129,
+    "logDetails": "{\n  \"_id\": 29,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-MnzXlj41Z2d2dAF8igY\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1636981945603,\n  \"lastEditDate\": 1636981946216,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"rowKey\": \"-MoYiYBMgoQrOHI0zezs\",\n  \"state\": \"ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)\"\n}",
+    "name": "Workflow Step > Email Task - ProgrammePartner->CompanyUser - Approval Notif",
+    "rowKey": "-MoYinnBxCrv5314m2NG"
+  },
+  "-MoYinoeMRSYxMG_D98D": {
+    "_id": 121,
+    "date": 1636982013224,
+    "logDetails": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "name": "Workflow Log ",
+    "rowKey": "-MoYinoeMRSYxMG_D98D"
+  },
+  "-MoYinssDPgniTU4Gu26": {
+    "_id": 122,
+    "date": 1636982013493,
+    "logDetails": "dev@truealtitude.co.uk",
+    "name": "Workflow Log ",
+    "rowKey": "-MoYinssDPgniTU4Gu26"
+  },
+  "-MoYio1iRbKNv-t9gpmH": {
+    "_id": 123,
+    "date": 1636982014132,
+    "logDetails": "{\n  \"_id\": 29,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-MnzXlj41Z2d2dAF8igY\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1636981945603,\n  \"lastEditDate\": 1636981946216,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"rowKey\": \"-MoYiYBMgoQrOHI0zezs\",\n  \"state\": \"ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)\"\n}",
+    "name": "Workflow Step > Script Task - Add Company",
+    "rowKey": "-MoYio1iRbKNv-t9gpmH"
+  },
+  "-MoYio1jfFiBDHGFp0Yu": {
+    "_id": 123,
+    "date": 1636982014125,
+    "logDetails": "{\n  \"_id\": 29,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-MnzXlj41Z2d2dAF8igY\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1636981945603,\n  \"lastEditDate\": 1636981946216,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"rowKey\": \"-MoYiYBMgoQrOHI0zezs\",\n  \"state\": \"ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)\"\n}",
+    "name": "Workflow Step > Script Task - Add Company Users",
+    "rowKey": "-MoYio1jfFiBDHGFp0Yu"
+  },
+  "-MoYio3LCbRCHNDYXz4h": {
+    "_id": 124,
+    "date": 1636982014231,
+    "logDetails": "{\n  \"_id\": 29,\n  \"applicationStatus\": \"-MS2D3TANT4YEUz1kO4G\",\n  \"cohort\": \"-MnzXlj41Z2d2dAF8igY\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyLastEditDate\": 1633528356000,\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"createdBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"createdDate\": 1636981945603,\n  \"lastEditDate\": 1636981946216,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"name\": \"ProgrammePartner->CompanyUser\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"notificationDescription\": \"A Programme Partner has applied for Warner Patch to be a part of their cohort\",\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programmePartnerOwner\": \"-MkCrUeakAp1NI5Pf-Il\",\n  \"rowKey\": \"-MoYiYBMgoQrOHI0zezs\",\n  \"state\": \"ProgrammePartner->CompanyUser - Company User Approve (Cohort Invite)\"\n}",
+    "name": "Workflow Step > ProgrammePartner - Response",
+    "rowKey": "-MoYio3LCbRCHNDYXz4h"
   }
 }

@@ -1,6 +1,6 @@
   <b-modal id="updatesModal" title="True Altitude Investment Portal Updates">
     
-    <h3>12/11/2021:</h3>
+    <h3>15/11/2021:</h3>
     <div class="textContainer">
     
       <ol>
@@ -9,12 +9,10 @@
         <li>Account type/profiles feature functionality cards on profile sign up.</li>
         <li>Improved session booking email notifcations with ICS files attached</li>
       </ol>
-    
 
     </div>
 
-        <button class="myButton">Okay</button>
-
+    <button @click="updatesRead(); $bvModal.hide('updatesModal') " class="myButton">Okay</button>
 
   </b-modal>
 

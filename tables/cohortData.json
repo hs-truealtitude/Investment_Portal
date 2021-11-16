@@ -92,8 +92,10 @@
   "-MnzXlj41Z2d2dAF8igY": {
     "_id": 11,
     "cohortOwnerType": "ProgrammePartner",
+    "companies": "-MMzZ2krPwl50hP5t54m,-MNZ-kKtSmZQuN7gqgFt,-MNwrDHaFOpGKE6yT3qn,-MNwwmbS6JoOq9qymT7i",
+    "companyUsers": "-MkCt4HXbnk2U45svnTL",
     "createdDate": 1636374879809,
-    "lastEditDate": 1636632132927,
+    "lastEditDate": 1636982277985,
     "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
     "name": "Cohort 2",
     "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
