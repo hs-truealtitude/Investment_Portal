@@ -1,12 +1,11 @@
 {
   "accountType": "ProgrammePartner",
-  "activeCohort": "-MnzXlj41Z2d2dAF8igY",
-  "activeCohortName": "Cohort 2",
-  "activeGeneratedLink": "https://portaldev.truealtitude.co.uk/auth-link?uid=Ez5LcanOKChjJ3QU0DE2UekXbbf1&linkId=2ebf64d0-43a6-11ec-a1a9-8708e286ea35",
+  "activeCohort": "-MnzXjT6_y_0kEXZE-gn",
+  "activeGeneratedLink": "https://portal.truealtitude.co.uk/auth-link?uid=HIqbWBD56cTe5IcKUI8jLA01Noe2&linkId=49ab1dc0-4603-11ec-b28c-25b544dc97f0",
   "activeMyCohort": "-MnzXlj41Z2d2dAF8igY",
-  "activeMyProgramme": "-MoDs5GdOEhUk7mfBRzZ",
+  "activeMyProgramme": "-MoYDMhQiw5fc-Bs5PBP",
   "activeProgramme": "-MlOjOtSjVSaWIUPk_C3",
-  "activeProgrammeName": "PROGRAMME 1",
+  "activeProgrammeName": "Demo",
   "commercialContracts_lastViews": "",
   "companyProfiles_lastViews": "approvecompanyProfiles",
   "companyUserProfiles_lastViews": "",
@@ -19,11 +18,6 @@
   "selectedMentor": "-Mkfn84Y347ep7mCQiGb",
   "selectedMentorName": "Lemon",
   "selectedMentorSecondName": "TEST",
-  "selectedProgramme": "-MoDs5GdOEhUk7mfBRzZ",
-  "updatesRead": true,
-  "updatesRead:15": {
-    "11": {
-      "2021": true
-    }
-  }
+  "selectedProgramme": "-MoYDMhQiw5fc-Bs5PBP",
+  "updatesRead": true
 }

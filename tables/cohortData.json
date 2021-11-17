@@ -92,85 +92,13 @@
   "-MnzXlj41Z2d2dAF8igY": {
     "_id": 11,
     "cohortOwnerType": "ProgrammePartner",
-    "companies": "-MMzZ2krPwl50hP5t54m,-MNZ-kKtSmZQuN7gqgFt,-MNwrDHaFOpGKE6yT3qn,-MNwwmbS6JoOq9qymT7i",
-    "companyUsers": "-MkCt4HXbnk2U45svnTL",
     "createdDate": 1636374879809,
-    "lastEditDate": 1636982277985,
+    "lastEditDate": 1636973535005,
     "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
     "name": "Cohort 2",
     "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
     "programmePartnerOwner": "-MkCrUeakAp1NI5Pf-Il",
-    "programmes": "-MoDs5GdOEhUk7mfBRzZ",
+    "programmes": "-MoYDMhQiw5fc-Bs5PBP",
     "rowKey": "-MnzXlj41Z2d2dAF8igY"
-  },
-  "-MoE3H2QR0RfAjUbnmlQ": {
-    "_id": 12,
-    "cohortOwnerType": "Mentor",
-    "createdDate": 1636635319882,
-    "lastEditDate": 1636635957204,
-    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
-    "mentorOwner": "-MlnkTYTweoK3U_Ecwi3",
-    "name": "TEST",
-    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
-    "rowKey": "-MoE3H2QR0RfAjUbnmlQ"
-  },
-  "-MoE5ALzq_xHDKPJYeTu": {
-    "_id": 13,
-    "cohortOwnerType": "Mentor",
-    "createdDate": 1636635816758,
-    "lastEditDate": 1636635816759,
-    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
-    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
-    "programmePartnerOwner": "-MlnkTYTweoK3U_Ecwi3",
-    "rowKey": "-MoE5ALzq_xHDKPJYeTu"
-  },
-  "-MoEHq9gHvcXP_8-k16Q": {
-    "_id": 14,
-    "cohortOwnerType": "Mentor",
-    "createdDate": 1636639137953,
-    "lastEditDate": 1636639143204,
-    "lastEditedBy": "ikXhm0aqehRy2VDS85c2a8uZ1aC2",
-    "mentorOwner": "-MSSGA39TgrXo61gq-zJ",
-    "name": "MENTOR COHORT",
-    "owner": "ikXhm0aqehRy2VDS85c2a8uZ1aC2",
-    "rowKey": "-MoEHq9gHvcXP_8-k16Q"
-  },
-  "-MoEMXf5NN3d1aeZVaZX": {
-    "_id": 15,
-    "cohortOwnerType": "Mentor",
-    "companies": "-MMzZ2krPwl50hP5t54m",
-    "createdDate": 1636640368827,
-    "lastEditDate": 1636644498548,
-    "lastEditedBy": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
-    "mentorOwner": "-MoEFeB236wPDze2zTK8",
-    "name": "Cohort 1",
-    "owner": "ikXhm0aqehRy2VDS85c2a8uZ1aC2",
-    "rowKey": "-MoEMXf5NN3d1aeZVaZX"
-  },
-  "-MoEZVcDp85YXZi8aZzT": {
-    "_id": 16,
-    "cohortOwnerType": "Mentor",
-    "companies": "-MMzZ2krPwl50hP5t54m",
-    "companyUsers": "-MkCt4HXbnk2U45svnTL",
-    "createdDate": 1636643768322,
-    "lastEditDate": 1636643777283,
-    "lastEditedBy": "AmMj4ZWi0Ugs4R1Rmb9V0GP6nla2",
-    "mentorOwner": "-MoEZ8l6FUlvspUalOil",
-    "name": "Test Session Cohort",
-    "owner": "AmMj4ZWi0Ugs4R1Rmb9V0GP6nla2",
-    "rowKey": "-MoEZVcDp85YXZi8aZzT"
-  },
-  "-MoY7agXGHtYd2kJ2N5t": {
-    "_id": 17,
-    "cohortOwnerType": "Mentor",
-    "companies": "-MMzZ2krPwl50hP5t54m",
-    "companyUsers": "-MkCt4HXbnk2U45svnTL",
-    "createdDate": 1636971998244,
-    "lastEditDate": 1636972010327,
-    "lastEditedBy": "ikXhm0aqehRy2VDS85c2a8uZ1aC2",
-    "mentorOwner": "-MoEFeB236wPDze2zTK8",
-    "name": "SESSION TEST",
-    "owner": "ikXhm0aqehRy2VDS85c2a8uZ1aC2",
-    "rowKey": "-MoY7agXGHtYd2kJ2N5t"
   }
 }
