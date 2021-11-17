@@ -1,23 +1,36 @@
 {
   "accountType": "ProgrammePartner",
-  "activeCohort": "-MnzXjT6_y_0kEXZE-gn",
-  "activeGeneratedLink": "https://portal.truealtitude.co.uk/auth-link?uid=HIqbWBD56cTe5IcKUI8jLA01Noe2&linkId=49ab1dc0-4603-11ec-b28c-25b544dc97f0",
+  "activeCohort": "-MnzXlj41Z2d2dAF8igY",
+  "activeCohortName": "Cohort 2",
+  "activeGeneratedLink": "https://portaldev.truealtitude.co.uk/auth-link?uid=F7B9WliKFDgAxB0Pdf8TA9kzzGL2&linkId=cba3a2b0-4799-11ec-9aed-732d318d10fe",
   "activeMyCohort": "-MnzXlj41Z2d2dAF8igY",
-  "activeMyProgramme": "-MoYDMhQiw5fc-Bs5PBP",
+  "activeMyProgramme": "-MoYY9o1cbJvX7IAIfBc",
   "activeProgramme": "-MlOjOtSjVSaWIUPk_C3",
-  "activeProgrammeName": "Demo",
+  "activeProgrammeName": "PROGRAMME 2",
+  "activecompanyProfile": "-ModKdkrISA-CAoqUGOK",
   "commercialContracts_lastViews": "",
+  "companyDisclaimerRead": "true",
   "companyProfiles_lastViews": "approvecompanyProfiles",
   "companyUserProfiles_lastViews": "",
   "cookieConsent": "true",
+  "filterCompany": "-MNZ-kKtSmZQuN7gqgFt",
+  "filterCompanyUser": "-MkCt4HXbnk2U45svnTL",
+  "filterMentor": "-MlFpp5VRgm-obzSGUVQ",
   "hideBack": "YES",
-  "investorProfiles_lastViews": "investorApproval",
+  "investorProfiles_lastViews": "viewAllInvestors",
   "mentors_lastViews": "approvedMentors",
   "profileID": "-MkCrUeakAp1NI5Pf-Il",
   "programmePartnerProfiles_lastViews": "",
   "selectedMentor": "-Mkfn84Y347ep7mCQiGb",
   "selectedMentorName": "Lemon",
   "selectedMentorSecondName": "TEST",
-  "selectedProgramme": "-MoYDMhQiw5fc-Bs5PBP",
-  "updatesRead": true
+  "selectedProgramme": "-MoYY9o1cbJvX7IAIfBc",
+  "sessionDirection": "CompanyUser->Mentor",
+  "sessions_lastViews": "leaveCompanyUserReview",
+  "updatesRead": true,
+  "updatesRead:15": {
+    "11": {
+      "2021": true
+    }
+  }
 }

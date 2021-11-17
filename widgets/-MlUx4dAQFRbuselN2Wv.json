@@ -2,12 +2,12 @@
   "classes": "",
   "containerTabs": [
     {
-      "key": "-MlUx4dWTAHrM1JzFXeh",
-      "title": "My Connected Investors"
-    },
-    {
       "key": "-MlUxb0o5F5cMHXtgqkX",
       "title": "View All Investors"
+    },
+    {
+      "key": "-MohmBX57te-f525akGP",
+      "title": "My Connected Investors"
     }
   ],
   "gsOptions": {

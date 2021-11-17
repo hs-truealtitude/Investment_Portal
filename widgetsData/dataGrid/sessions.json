@@ -80,6 +80,7 @@
       },
       "displayName": "End Date & Time",
       "invisible": true,
+      "onChange": "",
       "order": 11,
       "type": "timepicker"
     },
@@ -181,54 +182,61 @@
     },
     "postFeedbackNotice": {
       "displayName": "postFeedbackNotice",
-      "order": 44,
+      "order": 28,
       "type": "custom"
     },
     "programme": {
       "displayName": "programme",
       "invisible": false,
       "lookUpTable": "programmeData",
-      "order": 28,
+      "order": 29,
       "type": "lookup"
     },
     "recommendation": {
       "displayName": "recommendation",
-      "order": 29,
+      "order": 30,
       "type": "string"
     },
     "red": {
       "displayName": "red",
       "invisible": true,
-      "order": 30,
+      "order": 31,
       "type": "string"
     },
     "rejected": {
       "displayName": "rejected",
       "invisible": true,
-      "order": 31,
+      "order": 32,
       "type": "checkbox"
     },
     "responseOpened": {
       "displayName": "responseOpened",
       "invisible": true,
-      "order": 32,
+      "order": 33,
       "type": "checkbox"
     },
     "sDate": {
       "displayName": "Start Date & Time",
       "invisible": false,
-      "order": 33,
+      "order": 34,
       "type": "timepicker"
     },
     "sessionDetailsNotice": {
       "displayName": "sessionDetailsNotice",
-      "order": 34,
+      "order": 35,
       "type": "custom"
+    },
+    "sessionDurationLength": {
+      "Width": "252px",
+      "displayName": "sessionDurationLength",
+      "onChange": "if (rowData.sessionDurationLength == 15){\r\n    var endDate = rowData.sDate + 900000\r\n    $setDataGridVal('sessions', rowData.rowKey + '.eDate', endDate)\r\n}\r\n\r\nif (rowData.sessionDurationLength == 30){\r\n    var endDate = rowData.sDate + 1800000\r\n    $setDataGridVal('sessions', rowData.rowKey + '.eDate', endDate)\r\n}\r\n\r\nif (rowData.sessionDurationLength == 1){\r\n    var endDate = rowData.sDate + 3600000\r\n    $setDataGridVal('sessions', rowData.rowKey + '.eDate', endDate)\r\n}\r\n\r\nif (rowData.sessionDurationLength == 2){\r\n    var endDate = rowData.sDate + 7200000\r\n    $setDataGridVal('sessions', rowData.rowKey + '.eDate', endDate)\r\n}\r\n\r\nif (rowData.sessionDurationLength == 3){\r\n    var endDate = rowData.sDate + 10800000\r\n    $setDataGridVal('sessions', rowData.rowKey + '.eDate', endDate)\r\n}\r\n",
+      "order": 36,
+      "type": "select"
     },
     "sessionHappen": {
       "displayName": "sessionHappen",
       "invisible": true,
-      "order": 35,
+      "order": 37,
       "type": "checkbox"
     },
     "sessionLength": {
@@ -238,48 +246,48 @@
       },
       "displayName": "Duration",
       "invisible": true,
-      "order": 36,
+      "order": 38,
       "type": "number"
     },
     "sessionRejected": {
       "displayName": "sessionRejected",
       "invisible": true,
-      "order": 37,
+      "order": 39,
       "type": "custom"
     },
     "sessionReview": {
       "displayName": "Session Review for Mentor",
       "invisible": true,
-      "order": 38,
+      "order": 40,
       "type": "multiline_text"
     },
     "sessionReviewForCompanyUser": {
       "displayName": "Session Review for Company User",
       "invisible": true,
-      "order": 39,
+      "order": 41,
       "type": "multiline_text"
     },
     "state": {
       "displayName": "State",
       "invisible": true,
-      "order": 40,
+      "order": 42,
       "type": "string"
     },
     "status": {
       "displayName": "Status",
       "invisible": true,
       "lookUpTable": "sessionStatus",
-      "order": 41,
+      "order": 43,
       "type": "lookup"
     },
     "targetNotAchieved": {
       "displayName": "targetNotAchieved",
-      "order": 42,
+      "order": 44,
       "type": "checkbox"
     },
     "workpackageCard": {
       "displayName": "workpackageCard",
-      "order": 43,
+      "order": 45,
       "type": "custom"
     }
   },
@@ -461,7 +469,7 @@
                 "customCode": "<h2 style=\"text-decoration: underline; text-decoration-color: red;\">Session Details</h2>",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": true,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -596,7 +604,7 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -606,21 +614,18 @@
                 "format": "DD/MM/YYYY, HH:mm"
               },
               {
-                "type": "number",
-                "name": "control_number_797480",
-                "fieldName": "control_number_797480",
-                "label": "Duration",
-                "order": 7,
+                "type": "select",
+                "name": "control_863f4cb0-4794-11ec-87ce-797b6690f718",
+                "fieldName": "control_863f4cb0-4794-11ec-87ce-797b6690f718",
+                "label": "Session Duration",
+                "order": 0,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
-                "readonly": true,
-                "readonlyCondition": "(rowData.direction == 'Mentor->CompanyUser'  && $getUser('accountType') == 'CompanyUser') || (rowData.direction == 'CompanyUser->Mentor' && $getUser('accountType') == 'Mentor') || rowData.$status$display == \"Accept\" || (rowData.nextEvents && rowData.owner != fbUser.uid)",
+                "readonly": false,
+                "readonlyCondition": "",
                 "placeholder": "",
-                "labelBold": false,
-                "labelItalic": false,
-                "labelUnderline": false,
-                "required": true,
+                "required": false,
                 "requiredCondition": "",
                 "isMultiLine": false,
                 "isInteger": false,
@@ -634,21 +639,43 @@
                 "timeFormat": "HH:mm",
                 "isMultiple": false,
                 "isAjax": false,
-                "dataOptions": [],
+                "dataOptions": [
+                  {
+                    "id": "15",
+                    "text": "15 minutes"
+                  },
+                  {
+                    "id": "30",
+                    "text": "30 minutes"
+                  },
+                  {
+                    "id": "1",
+                    "text": "1 hour"
+                  },
+                  {
+                    "id": "2",
+                    "text": "2 hours"
+                  },
+                  {
+                    "id": "3",
+                    "text": "3 hours"
+                  }
+                ],
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": true,
+                "invisibleInDataGrid": false,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
-                "propName": "sessionLength",
-                "gridId": "sessions",
-                "description": "Please enter the duration in hours (30 minutes = 0.5, 1 hour = 1)"
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "sessionDurationLength",
+                "gridId": "sessions"
               },
               {
                 "type": "multiline_text",
@@ -1131,7 +1158,7 @@
                 "customCode": "<h2 style=\"\">Feedback Saved</h2>",
                 "invisible": true,
                 "invisibleCondition": "rowData.companyUserReviewGiven != true",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": true,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
@@ -1429,6 +1456,51 @@
                 "propName": "mentor",
                 "ableToAddLookUpVal": true,
                 "gridId": "sessions"
+              },
+              {
+                "type": "number",
+                "name": "control_number_797480",
+                "fieldName": "control_number_797480",
+                "label": "Duration",
+                "order": 7,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "(rowData.direction == 'Mentor->CompanyUser'  && $getUser('accountType') == 'CompanyUser') || (rowData.direction == 'CompanyUser->Mentor' && $getUser('accountType') == 'Mentor') || rowData.$status$display == \"Accept\" || (rowData.nextEvents && rowData.owner != fbUser.uid)",
+                "placeholder": "",
+                "labelBold": false,
+                "labelItalic": false,
+                "labelUnderline": false,
+                "required": true,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "propName": "sessionLength",
+                "gridId": "sessions",
+                "description": "Please enter the duration in hours (30 minutes = 0.5, 1 hour = 1)"
               },
               {
                 "type": "lookup",
@@ -1804,7 +1876,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.8882752504863085
+    "_uniqueId": 0.07788401171891834
   },
   "source": "sessions",
   "storageType": "dashboard",
@@ -1922,67 +1994,70 @@
           "order": 27
         },
         "postFeedbackNotice": {
-          "order": 44
+          "order": 28
         },
         "programme": {
           "invisible": false,
-          "order": 28
+          "order": 29
         },
         "recommendation": {
-          "order": 29
+          "order": 30
         },
         "red": {
           "invisible": true,
-          "order": 30
+          "order": 31
         },
         "rejected": {
           "invisible": true,
-          "order": 31
+          "order": 32
         },
         "responseOpened": {
           "invisible": true,
-          "order": 32
+          "order": 33
         },
         "sDate": {
           "invisible": false,
-          "order": 33
+          "order": 34
         },
         "sessionDetailsNotice": {
-          "order": 34
+          "order": 35
+        },
+        "sessionDurationLength": {
+          "order": 36
         },
         "sessionHappen": {
           "invisible": true,
-          "order": 35
+          "order": 37
         },
         "sessionLength": {
           "invisible": true,
-          "order": 36
+          "order": 38
         },
         "sessionRejected": {
           "invisible": true,
-          "order": 37
+          "order": 39
         },
         "sessionReview": {
           "invisible": true,
-          "order": 38
+          "order": 40
         },
         "sessionReviewForCompanyUser": {
           "invisible": true,
-          "order": 39
+          "order": 41
         },
         "state": {
           "invisible": true,
-          "order": 40
+          "order": 42
         },
         "status": {
           "invisible": true,
-          "order": 41
+          "order": 43
         },
         "targetNotAchieved": {
-          "order": 42
+          "order": 44
         },
         "workpackageCard": {
-          "order": 43
+          "order": 45
         }
       },
       "title": "Admin View"
@@ -1991,30 +2066,39 @@
       "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"isBooked\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Booked?\",\"expression\":false,\"hidden\":true},{\"key\":\"sessionHappen\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Happened?\",\"expression\":false,\"hidden\":true},{\"key\":\"mentor\",\"operator\":\"=\",\"value\":\"$getUser('profileID')\",\"name\":\"Owner\",\"expression\":true,\"hidden\":true},{\"key\":\"companyUserReviewGiven\",\"operator\":\"checkbox\",\"value\":false,\"name\":\"companyUserReviewGiven\",\"expression\":false,\"hidden\":true}]}",
       "meta": {
         "adminViewed": {
+          "invisible": false,
           "order": 0
         },
         "bookASession": {
+          "invisible": true,
           "order": 1
         },
         "cohort": {
+          "invisible": false,
           "order": 2
         },
         "company": {
+          "invisible": false,
           "order": 3
         },
         "companyCard": {
+          "invisible": true,
           "order": 4
         },
         "companyUser": {
+          "invisible": false,
           "order": 5
         },
         "companyUserACCEPT": {
+          "invisible": true,
           "order": 6
         },
         "companyUserCard": {
+          "invisible": true,
           "order": 7
         },
         "companyUserReviewGiven": {
+          "invisible": false,
           "order": 8
         },
         "createdDate": {
@@ -2022,12 +2106,15 @@
           "order": 9
         },
         "direction": {
+          "invisible": false,
           "order": 10
         },
         "eDate": {
+          "invisible": false,
           "order": 11
         },
         "isBooked": {
+          "invisible": false,
           "order": 12
         },
         "lastEditDate": {
@@ -2039,21 +2126,27 @@
           "order": 14
         },
         "layout": {
+          "invisible": false,
           "order": 15
         },
         "mentor": {
+          "invisible": false,
           "order": 16
         },
         "mentorCard": {
+          "invisible": true,
           "order": 17
         },
         "mentorUserReviewGiven": {
+          "invisible": false,
           "order": 18
         },
         "mentorWorkpackage": {
+          "invisible": false,
           "order": 19
         },
         "message": {
+          "invisible": true,
           "order": 20
         },
         "name": {
@@ -2065,73 +2158,96 @@
           "order": 22
         },
         "notes": {
+          "invisible": true,
           "order": 23
         },
         "notice": {
+          "invisible": true,
           "order": 24
         },
         "notifComplete": {
+          "invisible": false,
           "order": 25
         },
         "notificationDescription": {
+          "invisible": false,
           "order": 26
         },
         "owner": {
+          "invisible": false,
           "order": 27
         },
         "postFeedbackNotice": {
-          "order": 44
-        },
-        "programme": {
+          "invisible": true,
           "order": 28
         },
-        "recommendation": {
+        "programme": {
+          "invisible": false,
           "order": 29
         },
-        "red": {
+        "recommendation": {
+          "invisible": true,
           "order": 30
         },
-        "rejected": {
+        "red": {
+          "invisible": false,
           "order": 31
         },
-        "responseOpened": {
+        "rejected": {
+          "invisible": false,
           "order": 32
         },
-        "sDate": {
+        "responseOpened": {
+          "invisible": false,
           "order": 33
         },
-        "sessionDetailsNotice": {
+        "sDate": {
+          "invisible": false,
           "order": 34
         },
-        "sessionHappen": {
+        "sessionDetailsNotice": {
+          "invisible": true,
           "order": 35
         },
-        "sessionLength": {
+        "sessionDurationLength": {
           "invisible": false,
           "order": 36
         },
-        "sessionRejected": {
+        "sessionHappen": {
+          "invisible": false,
           "order": 37
         },
-        "sessionReview": {
+        "sessionLength": {
           "invisible": false,
           "order": 38
         },
-        "sessionReviewForCompanyUser": {
+        "sessionRejected": {
+          "invisible": true,
           "order": 39
         },
-        "state": {
+        "sessionReview": {
           "invisible": true,
           "order": 40
         },
-        "status": {
+        "sessionReviewForCompanyUser": {
+          "invisible": true,
           "order": 41
         },
-        "targetNotAchieved": {
+        "state": {
+          "invisible": true,
           "order": 42
         },
-        "workpackageCard": {
+        "status": {
+          "invisible": false,
           "order": 43
+        },
+        "targetNotAchieved": {
+          "invisible": true,
+          "order": 44
+        },
+        "workpackageCard": {
+          "invisible": true,
+          "order": 45
         }
       },
       "roles": [
@@ -2232,58 +2348,61 @@
           "order": 27
         },
         "postFeedbackNotice": {
-          "order": 44
-        },
-        "programme": {
           "order": 28
         },
-        "recommendation": {
+        "programme": {
           "order": 29
         },
-        "red": {
+        "recommendation": {
           "order": 30
         },
-        "rejected": {
+        "red": {
           "order": 31
         },
-        "responseOpened": {
+        "rejected": {
           "order": 32
         },
-        "sDate": {
+        "responseOpened": {
           "order": 33
         },
-        "sessionDetailsNotice": {
+        "sDate": {
           "order": 34
         },
-        "sessionHappen": {
+        "sessionDetailsNotice": {
           "order": 35
+        },
+        "sessionDurationLength": {
+          "order": 36
+        },
+        "sessionHappen": {
+          "order": 37
         },
         "sessionLength": {
           "invisible": false,
-          "order": 36
+          "order": 38
         },
         "sessionRejected": {
-          "order": 37
+          "order": 39
         },
         "sessionReview": {
           "invisible": false,
-          "order": 38
+          "order": 40
         },
         "sessionReviewForCompanyUser": {
-          "order": 39
+          "order": 41
         },
         "state": {
           "invisible": true,
-          "order": 40
-        },
-        "status": {
-          "order": 41
-        },
-        "targetNotAchieved": {
           "order": 42
         },
-        "workpackageCard": {
+        "status": {
           "order": 43
+        },
+        "targetNotAchieved": {
+          "order": 44
+        },
+        "workpackageCard": {
+          "order": 45
         }
       },
       "roles": [
@@ -2395,66 +2514,69 @@
           "order": 27
         },
         "postFeedbackNotice": {
-          "order": 44
-        },
-        "programme": {
           "order": 28
         },
-        "recommendation": {
+        "programme": {
           "order": 29
+        },
+        "recommendation": {
+          "order": 30
         },
         "red": {
           "invisible": true,
-          "order": 30
+          "order": 31
         },
         "rejected": {
           "invisible": true,
-          "order": 31
+          "order": 32
         },
         "responseOpened": {
           "invisible": true,
-          "order": 32
+          "order": 33
         },
         "sDate": {
           "invisible": false,
-          "order": 33
+          "order": 34
         },
         "sessionDetailsNotice": {
-          "order": 34
+          "order": 35
+        },
+        "sessionDurationLength": {
+          "order": 36
         },
         "sessionHappen": {
           "invisible": true,
-          "order": 35
+          "order": 37
         },
         "sessionLength": {
           "invisible": true,
-          "order": 36
+          "order": 38
         },
         "sessionRejected": {
           "invisible": true,
-          "order": 37
+          "order": 39
         },
         "sessionReview": {
           "invisible": true,
-          "order": 38
+          "order": 40
         },
         "sessionReviewForCompanyUser": {
           "invisible": true,
-          "order": 39
+          "order": 41
         },
         "state": {
           "invisible": true,
-          "order": 40
+          "order": 42
         },
         "status": {
           "invisible": false,
-          "order": 41
+          "order": 43
         },
         "targetNotAchieved": {
-          "order": 42
+          "order": 44
         },
         "workpackageCard": {
-          "order": 43
+          "order": 45
         }
       },
       "roles": [
@@ -2574,67 +2696,70 @@
           "order": 27
         },
         "postFeedbackNotice": {
-          "order": 44
+          "order": 28
         },
         "programme": {
           "invisible": false,
-          "order": 28
+          "order": 29
         },
         "recommendation": {
-          "order": 29
+          "order": 30
         },
         "red": {
           "invisible": false,
-          "order": 30
+          "order": 31
         },
         "rejected": {
           "invisible": false,
-          "order": 31
+          "order": 32
         },
         "responseOpened": {
           "invisible": false,
-          "order": 32
+          "order": 33
         },
         "sDate": {
           "invisible": false,
-          "order": 33
+          "order": 34
         },
         "sessionDetailsNotice": {
-          "order": 34
+          "order": 35
+        },
+        "sessionDurationLength": {
+          "order": 36
         },
         "sessionHappen": {
           "invisible": false,
-          "order": 35
+          "order": 37
         },
         "sessionLength": {
           "invisible": true,
-          "order": 36
+          "order": 38
         },
         "sessionRejected": {
           "invisible": true,
-          "order": 37
+          "order": 39
         },
         "sessionReview": {
           "invisible": true,
-          "order": 38
+          "order": 40
         },
         "sessionReviewForCompanyUser": {
           "invisible": true,
-          "order": 39
+          "order": 41
         },
         "state": {
           "invisible": true,
-          "order": 40
+          "order": 42
         },
         "status": {
           "invisible": false,
-          "order": 41
+          "order": 43
         },
         "targetNotAchieved": {
-          "order": 42
+          "order": 44
         },
         "workpackageCard": {
-          "order": 43
+          "order": 45
         }
       },
       "roles": [
@@ -2754,67 +2879,70 @@
           "order": 27
         },
         "postFeedbackNotice": {
-          "order": 44
+          "order": 28
         },
         "programme": {
           "invisible": false,
-          "order": 28
+          "order": 29
         },
         "recommendation": {
-          "order": 29
+          "order": 30
         },
         "red": {
           "invisible": true,
-          "order": 30
+          "order": 31
         },
         "rejected": {
           "invisible": true,
-          "order": 31
+          "order": 32
         },
         "responseOpened": {
           "invisible": true,
-          "order": 32
+          "order": 33
         },
         "sDate": {
           "invisible": false,
-          "order": 33
+          "order": 34
         },
         "sessionDetailsNotice": {
-          "order": 34
+          "order": 35
+        },
+        "sessionDurationLength": {
+          "order": 36
         },
         "sessionHappen": {
           "invisible": true,
-          "order": 35
+          "order": 37
         },
         "sessionLength": {
           "invisible": true,
-          "order": 36
+          "order": 38
         },
         "sessionRejected": {
           "invisible": true,
-          "order": 37
+          "order": 39
         },
         "sessionReview": {
           "invisible": true,
-          "order": 38
+          "order": 40
         },
         "sessionReviewForCompanyUser": {
           "invisible": true,
-          "order": 39
+          "order": 41
         },
         "state": {
           "invisible": true,
-          "order": 40
+          "order": 42
         },
         "status": {
           "invisible": true,
-          "order": 41
+          "order": 43
         },
         "targetNotAchieved": {
-          "order": 42
+          "order": 44
         },
         "workpackageCard": {
-          "order": 43
+          "order": 45
         }
       },
       "roles": [
@@ -2934,67 +3062,70 @@
           "order": 27
         },
         "postFeedbackNotice": {
-          "order": 44
+          "order": 28
         },
         "programme": {
           "invisible": false,
-          "order": 28
+          "order": 29
         },
         "recommendation": {
-          "order": 29
+          "order": 30
         },
         "red": {
           "invisible": true,
-          "order": 30
+          "order": 31
         },
         "rejected": {
           "invisible": true,
-          "order": 31
+          "order": 32
         },
         "responseOpened": {
           "invisible": true,
-          "order": 32
+          "order": 33
         },
         "sDate": {
           "invisible": false,
-          "order": 33
+          "order": 34
         },
         "sessionDetailsNotice": {
-          "order": 34
+          "order": 35
+        },
+        "sessionDurationLength": {
+          "order": 36
         },
         "sessionHappen": {
           "invisible": true,
-          "order": 35
+          "order": 37
         },
         "sessionLength": {
           "invisible": true,
-          "order": 36
+          "order": 38
         },
         "sessionRejected": {
           "invisible": true,
-          "order": 37
+          "order": 39
         },
         "sessionReview": {
           "invisible": true,
-          "order": 38
+          "order": 40
         },
         "sessionReviewForCompanyUser": {
           "invisible": true,
-          "order": 39
+          "order": 41
         },
         "state": {
           "invisible": true,
-          "order": 40
+          "order": 42
         },
         "status": {
           "invisible": true,
-          "order": 41
+          "order": 43
         },
         "targetNotAchieved": {
-          "order": 42
+          "order": 44
         },
         "workpackageCard": {
-          "order": 43
+          "order": 45
         }
       },
       "roles": [
@@ -3114,67 +3245,70 @@
           "order": 27
         },
         "postFeedbackNotice": {
-          "order": 44
+          "order": 28
         },
         "programme": {
           "invisible": false,
-          "order": 28
+          "order": 29
         },
         "recommendation": {
-          "order": 29
+          "order": 30
         },
         "red": {
           "invisible": true,
-          "order": 30
+          "order": 31
         },
         "rejected": {
           "invisible": true,
-          "order": 31
+          "order": 32
         },
         "responseOpened": {
           "invisible": true,
-          "order": 32
+          "order": 33
         },
         "sDate": {
           "invisible": false,
-          "order": 33
+          "order": 34
         },
         "sessionDetailsNotice": {
-          "order": 34
+          "order": 35
+        },
+        "sessionDurationLength": {
+          "order": 36
         },
         "sessionHappen": {
           "invisible": true,
-          "order": 35
+          "order": 37
         },
         "sessionLength": {
           "invisible": true,
-          "order": 36
+          "order": 38
         },
         "sessionRejected": {
           "invisible": true,
-          "order": 37
+          "order": 39
         },
         "sessionReview": {
           "invisible": true,
-          "order": 38
+          "order": 40
         },
         "sessionReviewForCompanyUser": {
           "invisible": true,
-          "order": 39
+          "order": 41
         },
         "state": {
           "invisible": true,
-          "order": 40
+          "order": 42
         },
         "status": {
           "invisible": true,
-          "order": 41
+          "order": 43
         },
         "targetNotAchieved": {
-          "order": 42
+          "order": 44
         },
         "workpackageCard": {
-          "order": 43
+          "order": 45
         }
       },
       "roles": [
@@ -3294,73 +3428,259 @@
           "order": 27
         },
         "postFeedbackNotice": {
-          "order": 44
+          "order": 28
         },
         "programme": {
           "invisible": false,
-          "order": 28
+          "order": 29
         },
         "recommendation": {
-          "order": 29
+          "order": 30
         },
         "red": {
           "invisible": true,
-          "order": 30
+          "order": 31
         },
         "rejected": {
           "invisible": true,
-          "order": 31
+          "order": 32
         },
         "responseOpened": {
           "invisible": true,
-          "order": 32
+          "order": 33
         },
         "sDate": {
           "invisible": false,
-          "order": 33
+          "order": 34
         },
         "sessionDetailsNotice": {
-          "order": 34
+          "order": 35
+        },
+        "sessionDurationLength": {
+          "order": 36
         },
         "sessionHappen": {
           "invisible": true,
-          "order": 35
+          "order": 37
         },
         "sessionLength": {
           "invisible": true,
-          "order": 36
+          "order": 38
         },
         "sessionRejected": {
           "invisible": true,
-          "order": 37
+          "order": 39
         },
         "sessionReview": {
           "invisible": true,
-          "order": 38
+          "order": 40
         },
         "sessionReviewForCompanyUser": {
           "invisible": true,
-          "order": 39
+          "order": 41
         },
         "state": {
           "invisible": true,
-          "order": 40
+          "order": 42
         },
         "status": {
           "invisible": true,
-          "order": 41
+          "order": 43
         },
         "targetNotAchieved": {
-          "order": 42
+          "order": 44
         },
         "workpackageCard": {
-          "order": 43
+          "order": 45
         }
       },
       "roles": [
         "-MXvgvmptAXJEl738FcF"
       ],
       "title": "Old Sessions Mentor"
+    },
+    "viewAll": {
+      "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"companyUser\",\"operator\":\"=\",\"value\":null,\"name\":\"Company User\",\"hidden\":false},{\"key\":\"company\",\"operator\":\"=\",\"value\":null,\"name\":\"company\",\"hidden\":false},{\"key\":\"mentor\",\"operator\":\"=\",\"value\":null,\"name\":\"Mentor\",\"hidden\":false},{\"key\":\"sessionHappen\",\"operator\":\"checkbox\",\"value\":null,\"name\":\"sessionHappen\",\"hidden\":false}]}",
+      "meta": {
+        "adminViewed": {
+          "invisible": false,
+          "order": 0
+        },
+        "bookASession": {
+          "invisible": true,
+          "order": 1
+        },
+        "cohort": {
+          "invisible": false,
+          "order": 2
+        },
+        "company": {
+          "invisible": false,
+          "order": 3
+        },
+        "companyCard": {
+          "invisible": true,
+          "order": 4
+        },
+        "companyUser": {
+          "invisible": false,
+          "order": 5
+        },
+        "companyUserACCEPT": {
+          "invisible": true,
+          "order": 6
+        },
+        "companyUserCard": {
+          "invisible": true,
+          "order": 7
+        },
+        "companyUserReviewGiven": {
+          "order": 8
+        },
+        "createdDate": {
+          "invisible": true,
+          "order": 9
+        },
+        "direction": {
+          "invisible": false,
+          "order": 10
+        },
+        "eDate": {
+          "invisible": true,
+          "order": 11
+        },
+        "isBooked": {
+          "invisible": true,
+          "order": 12
+        },
+        "lastEditDate": {
+          "invisible": true,
+          "order": 13
+        },
+        "lastEditedBy": {
+          "invisible": true,
+          "order": 14
+        },
+        "layout": {
+          "invisible": false,
+          "order": 15
+        },
+        "mentor": {
+          "invisible": false,
+          "order": 16
+        },
+        "mentorCard": {
+          "invisible": true,
+          "order": 17
+        },
+        "mentorUserReviewGiven": {
+          "order": 18
+        },
+        "mentorWorkpackage": {
+          "order": 19
+        },
+        "message": {
+          "invisible": true,
+          "order": 20
+        },
+        "name": {
+          "invisible": true,
+          "order": 21
+        },
+        "nextEvents": {
+          "invisible": true,
+          "order": 22
+        },
+        "notes": {
+          "invisible": true,
+          "order": 23
+        },
+        "notice": {
+          "order": 24
+        },
+        "notifComplete": {
+          "invisible": true,
+          "order": 25
+        },
+        "notificationDescription": {
+          "invisible": true,
+          "order": 26
+        },
+        "owner": {
+          "invisible": false,
+          "order": 27
+        },
+        "postFeedbackNotice": {
+          "order": 28
+        },
+        "programme": {
+          "invisible": false,
+          "order": 29
+        },
+        "recommendation": {
+          "order": 30
+        },
+        "red": {
+          "invisible": true,
+          "order": 31
+        },
+        "rejected": {
+          "invisible": true,
+          "order": 32
+        },
+        "responseOpened": {
+          "invisible": true,
+          "order": 33
+        },
+        "sDate": {
+          "invisible": false,
+          "order": 34
+        },
+        "sessionDetailsNotice": {
+          "order": 35
+        },
+        "sessionDurationLength": {
+          "order": 36
+        },
+        "sessionHappen": {
+          "invisible": true,
+          "order": 37
+        },
+        "sessionLength": {
+          "invisible": true,
+          "order": 38
+        },
+        "sessionRejected": {
+          "invisible": true,
+          "order": 39
+        },
+        "sessionReview": {
+          "invisible": true,
+          "order": 40
+        },
+        "sessionReviewForCompanyUser": {
+          "invisible": true,
+          "order": 41
+        },
+        "state": {
+          "invisible": true,
+          "order": 42
+        },
+        "status": {
+          "invisible": true,
+          "order": 43
+        },
+        "targetNotAchieved": {
+          "order": 44
+        },
+        "workpackageCard": {
+          "order": 45
+        }
+      },
+      "roles": [
+        "-MXvgvmptAXJEl738FcF"
+      ],
+      "title": "View All"
     }
   }
 }

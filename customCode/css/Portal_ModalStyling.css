@@ -7,23 +7,26 @@
     background-color: #fffaf3;
 }
 
-
 .modal-content .nav-link{
     font-family: 'Grenette pro', sans-serif !important;
     color: black;
 }
 
 .modal-title{
-        display: none;
+    display: none;
+}
+
+.modal-content .nav-item a{
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .controlElement .mcard{
-        border:1px solid 	#696969	 !important;
-
+    border:1px solid #696969 !important;
 }
 
 .modal-content a{
-        color: #ef4437 !important
+    color: #ef4437 !important
 }
 
 .modal-content img{

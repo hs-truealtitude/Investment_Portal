@@ -1362,5 +1362,12 @@
     "name": "Maintenance Page",
     "rowKey": "-MoDD6OaJknJrchFTsze",
     "tabKey": "-Mn1BMT0PsgIKnU53ngT"
+  },
+  "-Moh9LYTW6FkMR0_RCA8": {
+    "_id": 235,
+    "name": "Session Duration",
+    "parent": "-MKjMRYLakxQ3PwoiHv-",
+    "rowKey": "-Moh9LYTW6FkMR0_RCA8",
+    "tabKey": "-Moh9LTYatjhZOpu3PaP"
   }
 }

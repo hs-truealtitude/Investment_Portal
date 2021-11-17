@@ -48,5 +48,30 @@
     "state": "Accepted",
     "submitPressed": true,
     "user": "AsUNZDDYKIQQbX4GOi0X4gy6nrj2"
+  },
+  "-MohnV7yvTp3mWZ_nefA": {
+    "_created": true,
+    "_id": 3,
+    "accType": "-MKorfvV-56oTz-K9J3t",
+    "adminRejected": "",
+    "createdDate": 1637151015589,
+    "dateOfBirth": "01/01/2003",
+    "hideDOB": true,
+    "isApproved": true,
+    "lastEditDate": 1637151038953,
+    "lastEditedBy": "177N8w8VJVUaR8ug2sk7rhfJBO93",
+    "location": "-MJwtgUqBjMrFNntf6GH",
+    "name": "Test",
+    "nextEvents": "Approve,Reject",
+    "owner": "177N8w8VJVUaR8ug2sk7rhfJBO93",
+    "profileImage": {
+      "fileName": "5ec0d270-479f-11ec-82fc-79610dc35b23_datagrid_profile_img.png",
+      "url": "https://firebasestorage.googleapis.com/v0/b/investment-portal---dev.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F5ec0d270-479f-11ec-82fc-79610dc35b23_datagrid_profile_img.png?alt=media&token=d63451d4-3f21-4a67-927c-feb2fef8a1b8"
+    },
+    "rowKey": "-MohnV7yvTp3mWZ_nefA",
+    "secondName": "Investor",
+    "state": "Accepted",
+    "submitPressed": true,
+    "user": "177N8w8VJVUaR8ug2sk7rhfJBO93"
   }
 }
