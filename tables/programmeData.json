@@ -117,21 +117,43 @@
   "-MoDs5GdOEhUk7mfBRzZ": {
     "_id": 13,
     "createdDate": 1636632125921,
-    "lastEditDate": 1636978986682,
+    "lastEditDate": 1637319616383,
     "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
     "name": "PROGRAMME 1",
     "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "programmeLogo": {
+      "fileName": "e0519d40-4927-11ec-9e1f-5565da3b2119_datagrid_profile_img.png",
+      "url": "https://firebasestorage.googleapis.com/v0/b/investment-portal---dev.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2Fe0519d40-4927-11ec-9e1f-5565da3b2119_datagrid_profile_img.png?alt=media&token=ebc0ba0b-8337-4628-a451-42148e117d20"
+    },
     "programmePartner": "-MkCrUeakAp1NI5Pf-Il",
     "rowKey": "-MoDs5GdOEhUk7mfBRzZ"
   },
   "-MoYY9o1cbJvX7IAIfBc": {
     "_id": 14,
     "createdDate": 1636978962067,
-    "lastEditDate": 1636978992690,
+    "lastEditDate": 1637336416555,
     "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
     "name": "PROGRAMME 2",
     "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "programmeLogo": {
+      "fileName": "fe08a960-494e-11ec-9c3f-79288098e757_datagrid_profile_img.png",
+      "url": "https://firebasestorage.googleapis.com/v0/b/investment-portal---dev.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2Ffe08a960-494e-11ec-9c3f-79288098e757_datagrid_profile_img.png?alt=media&token=b75e9013-7228-4e04-ad17-bf667978ec0b"
+    },
     "programmePartner": "-MkCrUeakAp1NI5Pf-Il",
     "rowKey": "-MoYY9o1cbJvX7IAIfBc"
+  },
+  "-MosqlrKno_9ymz-lMJC": {
+    "_id": 15,
+    "createdDate": 1637336423417,
+    "lastEditDate": 1637336432428,
+    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "name": "PROGRAMME 3",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "programmeLogo": {
+      "fileName": "07851910-494f-11ec-9c3f-79288098e757_datagrid_profile_img.png",
+      "url": "https://firebasestorage.googleapis.com/v0/b/investment-portal---dev.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F07851910-494f-11ec-9c3f-79288098e757_datagrid_profile_img.png?alt=media&token=a460afaf-8718-4150-bb09-ea880faf1d47"
+    },
+    "programmePartner": "-MkCrUeakAp1NI5Pf-Il",
+    "rowKey": "-MosqlrKno_9ymz-lMJC"
   }
 }
