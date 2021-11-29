@@ -1,0 +1,67 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-MpRc1BQ2udjLKkGDm6E",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1637936587846",
+        "x": 834.1996100388388,
+        "y": 280.36180965035726,
+        "width": 104,
+        "height": 40,
+        "attachment": {
+          "script": ""
+        },
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1637936589261",
+        "x": 1160.63,
+        "y": 280.13,
+        "width": 107,
+        "height": 40,
+        "attachment": {
+          "script": "const authLinkGenerated = await generateAuthLink({\r\n    redirectUrl: '/dashboard/-MhsbxHaHHybrPYZ2mCu?tab=-MmIIsHE-irxCHjAxrNf&subtab=-MpRXAjBGPjE9vl2GoJn',\r\n    origin: data.origin,\r\n    rowKey: data.rowKey,\r\n})\r\n\r\nconst { user } = authLinkGenerated\r\n\r\nif (user) {\r\n    await addUser({\r\n      uid: user.uid,\r\n      dashboard: data.dashboard,\r\n      rules: { read: true },\r\n    })\r\n}\r\n\r\ncontext.data.authLinkGenerated = authLinkGenerated\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1637936587846-right",
+        "target": "node1637936589261",
+        "endSocket": "left",
+        "id": "line-1637936591830",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": -581.668592334056,
+      "y": -173.08310607883652,
+      "scale": 0.9466182549099933
+    }
+  },
+  "name": "generateAuthLink_CohortInvite"
+}

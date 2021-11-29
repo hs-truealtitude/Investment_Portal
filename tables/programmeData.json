@@ -117,7 +117,8 @@
   "-MoDs5GdOEhUk7mfBRzZ": {
     "_id": 13,
     "createdDate": 1636632125921,
-    "lastEditDate": 1637319616383,
+    "fundSize": 11111111100,
+    "lastEditDate": 1637935499386,
     "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
     "name": "PROGRAMME 1",
     "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
@@ -125,7 +126,9 @@
       "fileName": "e0519d40-4927-11ec-9e1f-5565da3b2119_datagrid_profile_img.png",
       "url": "https://firebasestorage.googleapis.com/v0/b/investment-portal---dev.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2Fe0519d40-4927-11ec-9e1f-5565da3b2119_datagrid_profile_img.png?alt=media&token=ebc0ba0b-8337-4628-a451-42148e117d20"
     },
+    "programmeObjectives": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "programmePartner": "-MkCrUeakAp1NI5Pf-Il",
+    "programmeSummary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "rowKey": "-MoDs5GdOEhUk7mfBRzZ"
   },
   "-MoYY9o1cbJvX7IAIfBc": {

@@ -1,0 +1,15 @@
+{
+  "dependency": "tChart/-MpHDg3YB0-gfk1qbYee",
+  "gsOptions": {
+    "h": 11,
+    "w": 12,
+    "x": 12,
+    "y": 48
+  },
+  "layout": "b-card",
+  "offSet": 0,
+  "perPage": 2,
+  "subtab": "-Mj-Q3txJ5KcUXArNJy5",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<TChart\n\tchartOptionsId=\"-MpHDg3YB0-gfk1qbYee\"\n\t:data=\"$getGrid('applications')\"\n\tgridId=\"applications\"\n/>"
+}

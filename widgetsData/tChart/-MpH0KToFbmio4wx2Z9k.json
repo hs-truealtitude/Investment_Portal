@@ -1,0 +1,33 @@
+{
+  "chartName": "Sessions Booked within Cohort",
+  "chartType": "pie",
+  "filter": {
+    "condition": "AND",
+    "rules": [
+      {
+        "expression": false,
+        "hidden": false,
+        "key": "cohort",
+        "name": "cohort",
+        "operator": "=",
+        "value": {
+          "name": "Cohort 2",
+          "value": "-MnzXlj41Z2d2dAF8igY"
+        }
+      }
+    ]
+  },
+  "groupBy": [
+    {
+      "column": "name",
+      "key": "-MpH0Mryrhen4UpukNTJ"
+    }
+  ],
+  "metrics": [
+    {
+      "column": "isBooked",
+      "key": "-MpH7j831fd-eNhsi-7L",
+      "operator": "count"
+    }
+  ]
+}

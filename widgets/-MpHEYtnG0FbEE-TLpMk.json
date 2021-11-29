@@ -1,0 +1,15 @@
+{
+  "dependency": "tChart/-MpHEaYAnW0-aLdUZPDn",
+  "gsOptions": {
+    "h": 11,
+    "w": 24,
+    "x": 0,
+    "y": 37
+  },
+  "layout": "b-card",
+  "offSet": 0,
+  "perPage": 2,
+  "subtab": "-Mj-Q3txJ5KcUXArNJy5",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<TChart\n\tchartOptionsId=\"-MpHEaYAnW0-aLdUZPDn\"\n\t:data=\"$getGrid('sessions')\"\n\tgridId=\"sessions\"\n/>"
+}

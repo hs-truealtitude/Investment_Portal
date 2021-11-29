@@ -1,0 +1,31 @@
+{
+  "chartName": "Cohort Sessions",
+  "chartType": "pie",
+  "filter": {
+    "condition": "AND",
+    "rules": [
+      {
+        "expression": true,
+        "hidden": true,
+        "key": "cohort",
+        "name": "cohort",
+        "operator": "=",
+        "value": "$getUser('activeMyCohort')"
+      }
+    ]
+  },
+  "groupBy": [
+    {
+      "column": "isBooked",
+      "key": "-MpBP3i8n1b5twnoZhJG"
+    }
+  ],
+  "metrics": [
+    {
+      "column": "isBooked",
+      "key": "-MpBP1KKUS8OiwiJ6C45",
+      "operator": "sum"
+    }
+  ],
+  "metricsSort": "ASC"
+}
