@@ -9,7 +9,7 @@
 }
 
 .navCards{
-    margin-top: -250px !important;
+
 }
 
 
@@ -35,7 +35,7 @@
    cursor: pointer;
    transition: all 0.3s ease;
    background-color: #fffaf3;
-   top: 260px;
+   /*top: 260px;*/
 
 }
 

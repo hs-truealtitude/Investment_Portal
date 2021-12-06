@@ -24,8 +24,8 @@
         "id": "node1613390095196",
         "x": 318.36,
         "y": 272.48,
-        "height": 40,
-        "width": 201,
+        "height": 41,
+        "width": 200,
         "clazz": "updateRecord",
         "label": "Update Record to Pending Company User APPROVE",
         "className": "update-record",
@@ -42,7 +42,7 @@
         "id": "node1613390323051",
         "x": 842,
         "y": 242,
-        "height": 100,
+        "height": 101,
         "width": 176,
         "clazz": "userTask",
         "label": "Company User Approve",
@@ -72,7 +72,7 @@
         "x": 1018,
         "y": 181,
         "height": 41,
-        "width": 201,
+        "width": 200,
         "clazz": "updateRecord",
         "label": "Company User Update Session Record to Approved",
         "className": "update-record",
@@ -89,8 +89,8 @@
         "id": "node1613390736043",
         "x": 1060,
         "y": 342,
-        "height": 41,
-        "width": 201,
+        "height": 40,
+        "width": 200,
         "clazz": "updateRecord",
         "label": "Company User Update Session Record to Rejected",
         "className": "update-record",
@@ -123,9 +123,9 @@
       },
       {
         "id": "node1613463136747",
-        "x": 1723,
-        "y": 139,
-        "height": 100,
+        "x": 1948.58,
+        "y": 212.35,
+        "height": 101,
         "width": 201,
         "clazz": "userTask",
         "label": "Did Session Happen? Company User",
@@ -172,7 +172,7 @@
         "id": "node1615807978814",
         "x": 1398.28,
         "y": 330.28,
-        "height": 41,
+        "height": 40,
         "width": 201,
         "clazz": "updateRecord",
         "label": "Company User Update Record to Rejected",
@@ -209,7 +209,7 @@
         "x": 325.67,
         "y": 475.32,
         "height": 41,
-        "width": 201,
+        "width": 200,
         "clazz": "updateRecord",
         "label": "Update Record to Pending MENTOR APPROVE",
         "className": "update-record",
@@ -224,9 +224,9 @@
       },
       {
         "id": "node1615907920654",
-        "x": 863,
-        "y": 412,
-        "height": 100,
+        "x": 863.77,
+        "y": 411.62,
+        "height": 101,
         "width": 133,
         "clazz": "userTask",
         "label": "Mentor Approve",
@@ -273,8 +273,8 @@
         "id": "node1615908052024",
         "x": 1413.26,
         "y": 512.48,
-        "height": 41,
-        "width": 200,
+        "height": 40,
+        "width": 201,
         "clazz": "updateRecord",
         "label": "Mentor Update Record to Booked",
         "className": "update-record",
@@ -289,10 +289,10 @@
       },
       {
         "id": "node1615908105291",
-        "x": 1767,
-        "y": 475,
+        "x": 1973.2,
+        "y": 489.61,
         "height": 100,
-        "width": 201,
+        "width": 200,
         "clazz": "userTask",
         "label": "Did Session Happen? Mentor",
         "className": "user-task",
@@ -318,9 +318,9 @@
       },
       {
         "id": "node1615908140334",
-        "x": 2094.714285714286,
-        "y": 465.57142857142856,
-        "height": 41,
+        "x": 2230.34,
+        "y": 456.04,
+        "height": 40,
         "width": 185,
         "clazz": "updateRecord",
         "label": "Session Went On Mentor",
@@ -336,8 +336,8 @@
       },
       {
         "id": "node1615908165648",
-        "x": 2080,
-        "y": 566,
+        "x": 2230.61,
+        "y": 585.37,
         "height": 41,
         "width": 197,
         "clazz": "updateRecord",
@@ -374,8 +374,8 @@
         "id": "node1615909129991",
         "x": 1463,
         "y": 648,
-        "height": 40,
-        "width": 200,
+        "height": 41,
+        "width": 201,
         "clazz": "updateRecord",
         "label": "Mentor Update Record to Rejected",
         "className": "update-record",
@@ -392,7 +392,7 @@
         "id": "node1615980663486",
         "x": 86.38,
         "y": 329.29,
-        "height": 100,
+        "height": 101,
         "width": 150,
         "clazz": "decision",
         "label": "Check Direction",
@@ -421,7 +421,7 @@
         "id": "node1616155675538",
         "x": 2443,
         "y": 276,
-        "height": 41,
+        "height": 40,
         "width": 201,
         "clazz": "updateRecord",
         "label": "Update Record Status to Rejected",
@@ -437,8 +437,8 @@
       },
       {
         "id": "node1616155703847",
-        "x": 2366,
-        "y": 570,
+        "x": 2644.55,
+        "y": 655.8,
         "height": 41,
         "width": 201,
         "clazz": "updateRecord",
@@ -458,7 +458,7 @@
         "x": 2260,
         "y": 144,
         "width": 124,
-        "height": 71,
+        "height": 72,
         "attachment": {
           "user": "mentor.mentors.owner"
         },
@@ -480,7 +480,7 @@
         "x": 2552,
         "y": 169,
         "width": 192,
-        "height": 41,
+        "height": 40,
         "attachment": {
           "field": "sessions / companyUserReviewGiven",
           "fieldValue": "true"
@@ -493,10 +493,10 @@
       },
       {
         "id": "node1631620530726",
-        "x": 2323,
-        "y": 434,
+        "x": 2476.61,
+        "y": 440.15,
         "width": 110,
-        "height": 71,
+        "height": 72,
         "attachment": {
           "user": "mentor.mentors.owner"
         },
@@ -515,10 +515,10 @@
       },
       {
         "id": "node1631620557279",
-        "x": 2566,
-        "y": 442,
+        "x": 2696.09,
+        "y": 449.15,
         "width": 180,
-        "height": 41,
+        "height": 40,
         "attachment": {
           "field": "sessions / mentorUserReviewGiven",
           "fieldValue": "true"
@@ -533,7 +533,7 @@
         "id": "node1633958637498",
         "x": 566.78,
         "y": 174.97,
-        "width": 200,
+        "width": 201,
         "height": 40,
         "attachment": {
           "script": "//SEND COMPANY USER NOTIFICATION EMAIL\r\nlet dbCall = await tablesRef.child('companyUserProfiles/'+rowData.companyUser)\r\n      .once('value')\r\nlet results = dbCall.val()\r\n\r\n$log(results.owner)\r\n\r\nconst email = await getUserEmailByUID(results.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: You have a booking request to respond to!',\r\n            text: 'Hi ' + results.name + ', \\n\\r' + 'You have a session booking request from a mentor on our portal! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results.name + ', <br/>' + '<br/> You have a session booking request from a mentor on our portal! Please check your portal notifications to respond. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
@@ -550,10 +550,10 @@
         "id": "node1633959329261",
         "x": 600.75,
         "y": 394.4,
-        "width": 200,
-        "height": 41,
+        "width": 201,
+        "height": 40,
         "attachment": {
-          "script": "//SEND COMPANY USER NOTIFICATION EMAIL\r\nlet dbCall = await tablesRef.child('mentors/'+rowData.mentor)\r\n      .once('value')\r\nlet results = dbCall.val()\r\n\r\n$log(results.owner)\r\n\r\nconst email = await getUserEmailByUID(results.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: You have a booking request to respond to!',\r\n            text: 'Hi ' + results.name + ', \\n\\r' + 'You have a session booking request from a company user on our portal! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results.name + ', <br/>' + '<br/> You have a session booking request from a company user on our portal! Please check your portal notifications to respond. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+          "script": "//SEND COMPANY USER NOTIFICATION EMAIL\r\nlet dbCall = await tablesRef.child('mentors/'+rowData.mentor)\r\n      .once('value')\r\nlet results = dbCall.val()\r\n\r\n$log(results.owner, '123<<<')\r\n\r\nconst email = await getUserEmailByUID(results.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: You have a booking request to respond to!',\r\n            text: 'Hi ' + results.name + ', \\n\\r' + 'You have a session booking request from a company user on our portal! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results.name + ', <br/>' + '<br/> You have a session booking request from a company user on our portal! Please check your portal notifications to respond. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
         },
         "name": "script-task",
         "clazz": "scriptTask",
@@ -565,12 +565,12 @@
       },
       {
         "id": "node1633959446104",
-        "x": 1461.77,
-        "y": 57.71,
+        "x": 1406.65,
+        "y": -10.1,
         "width": 201,
-        "height": 40,
+        "height": 41,
         "attachment": {
-          "script": "let dbCall = await tablesRef.child('mentors/' + rowData.mentor).once('value')\r\nlet results = dbCall.val()\r\n\r\n$log(results.owner)\r\n\r\nconst email = await getUserEmailByUID(results.owner)\r\n\r\nconst msg = {\r\n      to: email,\r\n      from: 'noreply@portal.truealtitude.co.uk',\r\n      subject: 'True Altitude Portal: Your booking request has been approved!',\r\n      text: 'Hi ' + results.name + ', \\n\\r' + 'You booking request has been approved by a company user! Please click here to login. portal.truealtitude.co.uk',\r\n      html: 'Hi ' + results.name + ', <br/>' + '<br/> You booking request has been approved by a company user! Please check your portal notifications to respond. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'\r\n}\r\n//ADD SESSION ICS FILE HERE\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+          "script": "//SEND COMPANY USER NOTIFICATION EMAIL\r\nlet dbCall = await tablesRef.child('companyUserProfiles/'+rowData.companyUser)\r\n      .once('value')\r\nlet results = dbCall.val()\r\n\r\nlet dbCall2 = await tablesRef.child('mentors/' + rowData.mentor).once('value')\r\nlet results2 = dbCall2.val()\r\n\r\nconst milliseconds = context.data.sDate\r\nconst dateObject = new Date(milliseconds)\r\n\r\nconst endDateObject = new Date(context.data.eDate)\r\n\r\nvar dif = endDateObject.getTime() - dateObject.getTime();\r\n\r\nlet h,m,s;\r\nh = Math.floor(dif/1000/60/60);\r\nm = Math.floor((dif/1000/60/60 - h)*60);\r\ns = Math.floor(((dif/1000/60/60 - h)*60 - m)*60);\r\n\r\n// const sessionDay = dateObject.toLocaleString(\"en-US\", {day: \"numeric\"})\r\n// const sessionMonth = dateObject.toLocaleString(\"en-US\", {month: \"numeric\"})\r\n// const sessionYear = dateObject.toLocaleString(\"en-US\", {year: \"numeric\"})\r\n// const sessionHour = dateObject.toLocaleString(\"en-US\", {hour: \"numeric\"})\r\n// const sessionMinute = dateObject.toLocaleString(\"en-US\", {minute: \"numeric\"})\r\n\r\nconst sessionDay = dateObject.getDate()\r\nconst sessionMonth = dateObject.getMonth()\r\nconst sessionYear = dateObject.getFullYear()\r\nconst sessionHour = dateObject.getHours()\r\nconst sessionMinute = dateObject.getMinutes()\r\n\r\nconst dateArray = [sessionYear, sessionMonth + 1, sessionDay, sessionHour, sessionMinute]\r\n\r\nconst mentorEmail = await getUserEmailByUID(results2.owner)\r\nconst ownerEmail = await getUserEmailByUID(results.owner)\r\n\r\nconst event = {\r\n  start: dateArray,\r\n  duration: { hours: h, minutes: m },\r\n  title: 'Investment Portal Session: ' + context.data.name,\r\n  description: 'True Altitude Session',\r\n  status: 'CONFIRMED',\r\n  organizer: { name: results2.name + ' ' + results2.secondName, email: mentorEmail },\r\n  attendees: [\r\n    { name: results.name + ' ' + results.secondName, email: ownerEmail, rsvp: true, partstat: 'ACCEPTED', role: 'REQ-PARTICIPANT' }\r\n  ]\r\n}\r\n\r\nconst attachment = await generateSCIData(event)\r\n\r\nconst email = await getUserEmailByUID(results2.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: Your booking request has been approved!',\r\n            text: 'Hi ' + results2.name + ', \\n\\r' + 'You booking request has been approved by a company user! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results2.name + ', <br/>' + '<br/> You booking request has been approved by a company user! An ICS file is attached to this email so you can add the session to a calendar of your choice. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.',\r\n            attachments: [\r\n            {\r\n              content: attachment,\r\n              filename: \"event.ics\",\r\n              type: \"application/pdf\",\r\n              disposition: \"attachment\"\r\n            }\r\n          ]\r\n}\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
         },
         "name": "script-task",
         "clazz": "scriptTask",
@@ -582,16 +582,65 @@
       },
       {
         "id": "node1633959638767",
-        "x": 1565.45,
-        "y": 412.01,
-        "width": 201,
-        "height": 40,
+        "x": 1503.18,
+        "y": 412.55,
+        "width": 200,
+        "height": 41,
         "attachment": {
-          "script": "//SEND COMPANY USER NOTIFICATION EMAIL\r\nlet dbCall = await tablesRef.child('companyUserProfiles/'+rowData.companyUser)\r\n      .once('value')\r\nlet results = dbCall.val()\r\n\r\n$log(results.owner)\r\n\r\nconst email = await getUserEmailByUID(results.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: Your booking request has been approved!',\r\n            text: 'Hi ' + results.name + ', \\n\\r' + 'You booking request has been approved by a mentor! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results.name + ', <br/>' + '<br/> You booking request has been approved by a mentor! Please check your portal notifications to respond. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.'            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+          "script": "//SEND COMPANY USER NOTIFICATION EMAIL\r\nlet dbCall = await tablesRef.child('companyUserProfiles/'+rowData.companyUser)\r\n      .once('value')\r\nlet results = dbCall.val()\r\n\r\nlet dbCall2 = await tablesRef.child('mentors/' + rowData.mentor).once('value')\r\nlet results2 = dbCall2.val()\r\n\r\nconst milliseconds = context.data.sDate\r\nconst dateObject = new Date(milliseconds)\r\n\r\nconst endDateObject = new Date(context.data.eDate)\r\n\r\nvar dif = endDateObject.getTime() - dateObject.getTime();\r\n\r\nlet h,m,s;\r\nh = Math.floor(dif/1000/60/60);\r\nm = Math.floor((dif/1000/60/60 - h)*60);\r\ns = Math.floor(((dif/1000/60/60 - h)*60 - m)*60);\r\n\r\n// const sessionDay = dateObject.toLocaleString(\"en-US\", {day: \"numeric\"})\r\n// const sessionMonth = dateObject.toLocaleString(\"en-US\", {month: \"numeric\"})\r\n// const sessionYear = dateObject.toLocaleString(\"en-US\", {year: \"numeric\"})\r\n// const sessionHour = dateObject.toLocaleString(\"en-US\", {hour: \"numeric\"})\r\n// const sessionMinute = dateObject.toLocaleString(\"en-US\", {minute: \"numeric\"})\r\n\r\nconst sessionDay = dateObject.getDate()\r\nconst sessionMonth = dateObject.getMonth()\r\nconst sessionYear = dateObject.getFullYear()\r\nconst sessionHour = dateObject.getHours()\r\nconst sessionMinute = dateObject.getMinutes()\r\n\r\nconst dateArray = [sessionYear, sessionMonth + 1, sessionDay, sessionHour, sessionMinute]\r\n\r\nconst mentorEmail = await getUserEmailByUID(results2.owner)\r\nconst ownerEmail = await getUserEmailByUID(results.owner)\r\n\r\nconst event = {\r\n  start: dateArray,\r\n  duration: { hours: h, minutes: m },\r\n  title: 'Investment Portal Session: ' + context.data.name,\r\n  description: 'True Altitude Session',\r\n  status: 'CONFIRMED',\r\n  organizer: { name: results.name  + ' ' + results.secondName, email: ownerEmail },\r\n  attendees: [\r\n    { name: results2.name + ' ' + results2.secondName, email: mentorEmail, rsvp: true, partstat: 'ACCEPTED', role: 'REQ-PARTICIPANT' }\r\n  ]\r\n}\r\n\r\nconst attachment = await generateSCIData(event)\r\n\r\nconst email = await getUserEmailByUID(results.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: Your booking request has been approved!',\r\n            text: 'Hi ' + results.name + ', \\n\\r' + 'You booking request has been approved by a mentor! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results.name + ', <br/>' + '<br/> You booking request has been approved by a mentor! An ICS file is attached to this email so you can add the session to a calendar of your choice. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.',\r\n            attachments: [\r\n            {\r\n              content: attachment,\r\n              filename: \"event.ics\",\r\n              type: \"application/pdf\",\r\n              disposition: \"attachment\"\r\n            }\r\n          ]\r\n}\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
         },
         "name": "script-task",
         "clazz": "scriptTask",
         "label": "Email Task (CompanyUser->Mentor) Response",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1636638248531",
+        "x": 703.3081777405887,
+        "y": 343.29152215983106,
+        "width": 101,
+        "height": 40,
+        "attachment": {},
+        "name": "comment",
+        "clazz": "comment",
+        "label": "Comment",
+        "icon": {
+          "name": "comment",
+          "color": "hsl(188, 78%, 41%)"
+        }
+      },
+      {
+        "id": "node1636971583639",
+        "x": 1818.71,
+        "y": 408.32,
+        "width": 177,
+        "height": 40,
+        "attachment": {
+          "script": "//SEND COMPANY USER NOTIFICATION EMAIL\r\nlet dbCall = await tablesRef.child('companyUserProfiles/'+rowData.companyUser)\r\n      .once('value')\r\nlet results = dbCall.val()\r\n\r\nlet dbCall2 = await tablesRef.child('mentors/' + rowData.mentor).once('value')\r\nlet results2 = dbCall2.val()\r\n\r\nconst milliseconds = context.data.sDate\r\nconst dateObject = new Date(milliseconds)\r\n\r\nconst endDateObject = new Date(context.data.eDate)\r\n\r\nvar dif = endDateObject.getTime() - dateObject.getTime();\r\n\r\nlet h,m,s;\r\nh = Math.floor(dif/1000/60/60);\r\nm = Math.floor((dif/1000/60/60 - h)*60);\r\ns = Math.floor(((dif/1000/60/60 - h)*60 - m)*60);\r\n\r\n// const sessionDay = dateObject.toLocaleString(\"en-US\", {day: \"numeric\"})\r\n// const sessionMonth = dateObject.toLocaleString(\"en-US\", {month: \"numeric\"})\r\n// const sessionYear = dateObject.toLocaleString(\"en-US\", {year: \"numeric\"})\r\n// const sessionHour = dateObject.toLocaleString(\"en-US\", {hour: \"numeric\"})\r\n// const sessionMinute = dateObject.toLocaleString(\"en-US\", {minute: \"numeric\"})\r\n\r\nconst sessionDay = dateObject.getDate()\r\nconst sessionMonth = dateObject.getMonth()\r\nconst sessionYear = dateObject.getFullYear()\r\nconst sessionHour = dateObject.getHours()\r\nconst sessionMinute = dateObject.getMinutes()\r\n\r\nconst dateArray = [sessionYear, sessionMonth + 1, sessionDay, sessionHour, sessionMinute]\r\n\r\nconst mentorEmail = await getUserEmailByUID(results2.owner)\r\nconst ownerEmail = await getUserEmailByUID(results.owner)\r\n\r\nconst event = {\r\n  start: dateArray,\r\n  duration: { hours: h, minutes: m },\r\n  title: 'Investment Portal Session: ' + context.data.name,\r\n  description: 'True Altitude Session',\r\n  status: 'CONFIRMED',\r\n  organizer: { name: results.name  + ' ' + results.secondName, email: ownerEmail },\r\n  attendees: [\r\n    { name: results2.name + ' ' + results2.secondName, email: mentorEmail, rsvp: true, partstat: 'ACCEPTED', role: 'REQ-PARTICIPANT' }\r\n  ]\r\n}\r\n\r\nconst attachment = await generateSCIData(event)\r\n\r\nconst email = await getUserEmailByUID(results2.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: New Booked Session!',\r\n            text: 'Hi ' + results2.name + ', \\n\\r' + 'A session you recently approved is now booked! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results2.name + ', <br/>' + '<br/> A session you recently approved is now booked! An ICS file is attached to this email so you can add the session to a calendar of your choice. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.',\r\n            attachments: [\r\n            {\r\n              content: attachment,\r\n              filename: \"event.ics\",\r\n              type: \"application/pdf\",\r\n              disposition: \"attachment\"\r\n            }\r\n          ]\r\n}\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "ICS file send to mentor",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1636972398889",
+        "x": 1695.54,
+        "y": 75.01,
+        "width": 201,
+        "height": 41,
+        "attachment": {
+          "script": "//SEND COMPANY USER NOTIFICATION EMAIL\r\nlet dbCall = await tablesRef.child('companyUserProfiles/'+rowData.companyUser)\r\n      .once('value')\r\nlet results = dbCall.val()\r\n\r\nlet dbCall2 = await tablesRef.child('mentors/' + rowData.mentor).once('value')\r\nlet results2 = dbCall2.val()\r\n\r\nconst milliseconds = context.data.sDate\r\nconst dateObject = new Date(milliseconds)\r\n\r\nconst endDateObject = new Date(context.data.eDate)\r\n\r\nvar dif = endDateObject.getTime() - dateObject.getTime();\r\n\r\nlet h,m,s;\r\nh = Math.floor(dif/1000/60/60);\r\nm = Math.floor((dif/1000/60/60 - h)*60);\r\ns = Math.floor(((dif/1000/60/60 - h)*60 - m)*60);\r\n\r\n// const sessionDay = dateObject.toLocaleString(\"en-US\", {day: \"numeric\"})\r\n// const sessionMonth = dateObject.toLocaleString(\"en-US\", {month: \"numeric\"})\r\n// const sessionYear = dateObject.toLocaleString(\"en-US\", {year: \"numeric\"})\r\n// const sessionHour = dateObject.toLocaleString(\"en-US\", {hour: \"numeric\"})\r\n// const sessionMinute = dateObject.toLocaleString(\"en-US\", {minute: \"numeric\"})\r\n\r\nconst sessionDay = dateObject.getDate()\r\nconst sessionMonth = dateObject.getMonth()\r\nconst sessionYear = dateObject.getFullYear()\r\nconst sessionHour = dateObject.getHours()\r\nconst sessionMinute = dateObject.getMinutes()\r\n\r\nconst dateArray = [sessionYear, sessionMonth + 1, sessionDay, sessionHour, sessionMinute]\r\n\r\nconst mentorEmail = await getUserEmailByUID(results2.owner)\r\nconst ownerEmail = await getUserEmailByUID(results.owner)\r\n\r\nconst event = {\r\n  start: dateArray,\r\n  duration: { hours: h, minutes: m },\r\n  title: 'Investment Portal Session: ' + context.data.name,\r\n  description: 'True Altitude Session',\r\n  status: 'CONFIRMED',\r\n  organizer: { name: results2.name  + ' ' + results2.secondName, email: mentorEmail },\r\n  attendees: [\r\n    { name: results.name + ' ' + results.secondName, email: mentorEmail, rsvp: true, partstat: 'ACCEPTED', role: 'REQ-PARTICIPANT' }\r\n  ]\r\n}\r\n\r\nconst attachment = await generateSCIData(event)\r\n\r\nconst email = await getUserEmailByUID(results.owner)\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: New Booked Session!',\r\n            text: 'Hi ' + results.name + ', \\n\\r' + 'A session you recently approved is now booked! Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi ' + results.name + ', <br/>' + '<br/> A session you recently approved is now booked! An ICS file is attached to this email so you can add the session to a calendar of your choice. <br/> <br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to login.',\r\n            attachments: [\r\n            {\r\n              content: attachment,\r\n              filename: \"event.ics\",\r\n              type: \"application/pdf\",\r\n              disposition: \"attachment\"\r\n            }\r\n          ]\r\n}\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "ICS file send to company user",
         "icon": {
           "name": "terminal",
           "color": "hsl(218, 54%, 20%)"
@@ -1013,21 +1062,6 @@
         }
       },
       {
-        "source": "node1633959446104-right",
-        "target": "node1613463136747",
-        "endSocket": "left",
-        "id": "line-1633959468881",
-        "label": "Email Task (Mentor->CompanyUser) Response",
-        "targetLabel": "Did Session Happen? Company User",
-        "type": {
-          "startPlug": "behind",
-          "color": "#5e73e4",
-          "size": 2,
-          "path": "grid",
-          "dash": null
-        }
-      },
-      {
         "source": "node1615908052024-right",
         "target": "node1633959638767",
         "endSocket": "left",
@@ -1044,11 +1078,56 @@
       },
       {
         "source": "node1633959638767-right",
+        "target": "node1636971583639",
+        "endSocket": "left",
+        "id": "line-1636971776959",
+        "label": "Email Task (CompanyUser->Mentor) Response",
+        "targetLabel": "ICS file send to mentor",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1636971583639-right",
         "target": "node1615908105291",
         "endSocket": "left",
-        "id": "line-1633959775605",
-        "label": "Email Task (CompanyUser->Mentor) Response",
+        "id": "line-1636971779636",
+        "label": "ICS file send to mentor",
         "targetLabel": "Did Session Happen? Mentor",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1633959446104-right",
+        "target": "node1636972398889",
+        "endSocket": "left",
+        "id": "line-1636972514123",
+        "label": "Email Task (Mentor->CompanyUser) Response",
+        "targetLabel": "ICS file send to company user",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1636972398889-right",
+        "target": "node1613463136747",
+        "endSocket": "left",
+        "id": "line-1636972516654",
+        "label": "ICS file send to company user",
+        "targetLabel": "Did Session Happen? Company User",
         "type": {
           "startPlug": "behind",
           "color": "#5e73e4",
@@ -1059,9 +1138,9 @@
       }
     ],
     "transform": {
-      "x": -984.0284789804468,
-      "y": 221.13276781410877,
-      "scale": 0.7948556850481601
+      "x": -317.299181839628,
+      "y": 297.3109766501186,
+      "scale": 0.597186845099943
     }
   },
   "name": "Sessions",

@@ -1,0 +1,58 @@
+#updatesModal .modal-body{
+    background-color: #fffaf3;
+}
+
+#updatesModal .modal-title{
+    display: block !important;
+}
+
+#updatesModal h3{
+    color: black;
+    font-family: 'Grenette pro', sans-serif;
+}
+
+#updatesModal .modal-header{
+    background-color: #fffaf3;
+    border-bottom: 0px solid rgba(0, 0, 0, 0.05);
+    font-family: 'Grenette pro', sans-serif;
+    color: black !important;
+}
+
+#updatesModal h5{
+    background-color: #fffaf3;
+    border-bottom: 0px solid rgba(0, 0, 0, 0.05);
+    font-family: 'Grenette pro', sans-serif;
+    color: black !important;
+}
+
+#updatesModal .modal-footer button{
+    display: none;
+}
+
+#updatesModal .modal-footer{
+    background-color: #fffaf3;
+    height: 10px !important;
+    padding: 0px !important;
+}
+
+#updatesModal .myButton{
+    width: 100%;
+}
+
+#updatesModal .myButton:hover{
+    background-color: #ef4437 !important;
+    border: 1px solid black !important;
+}
+
+#updatesModal .textContainer{
+    background-color: white;
+    padding: 8px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+#updatesModal ol{
+    margin-bottom: 0px;
+    font-family: 'Grenette pro', sans-serif;
+    color: black;
+}

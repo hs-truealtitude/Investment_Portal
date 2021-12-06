@@ -1,15 +1,16 @@
 {
   "accountType": "CompanyUser",
   "activeCohort": "-Mn5_hVFYKPmuLKdb4kc",
+  "activeCohortRowKey": "-Mn5_hVFYKPmuLKdb4kc",
   "activeCompanyName": "Warner Patch",
   "activeCompanyOwnerName": "Support",
-  "activeDataroom": "-Ml9eFrtRVXWUVnnKpIs",
+  "activeGeneratedLink": "https://portal.truealtitude.co.uk/auth-link?uid=S6BFBB2qTpUnFD8iDf8IHFJKofA3&linkId=319d57a0-48ad-11ec-996a-17fa7a56f838",
   "activeMentorName": "Arnold",
   "activeMentorSecondName": "du Toit",
   "activeMinutesRoom": "-Ml9eFtreqbBBKdSqxlK",
   "activeUserFirstName": "Support",
   "activeUserSecondName": "True Altitude",
-  "activecompanyProfile": "-MnzWLLP0m7EBe3Nf5TO",
+  "activecompanyProfile": "-MpotvQj7q522JVliXnq",
   "applications_lastViews": "",
   "companyDisclaimerRead": "true",
   "companyProfiles_lastViews": "rejectCompanies",
@@ -28,5 +29,6 @@
   "profileID": "-MkCt4HXbnk2U45svnTL",
   "programmePartnerProfiles_lastViews": "",
   "selectedProgramme": "-Mn66GX6iReIIo69a6r0",
-  "sessionDirection": "CompanyUser->Mentor"
+  "sessionDirection": "CompanyUser->Mentor",
+  "updatesRead": true
 }

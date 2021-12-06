@@ -5,6 +5,7 @@
     border:1px solid 	#696969	 !important;
 }
 
+
 .widgetContent__filters{
     border:0px solid 	#696969	 !important;
     box-shadow: 0 3px 4px 1px rgb(172 175 188 / 0%) !important;
@@ -33,6 +34,10 @@
 /*Company About*/
 .about{
     height: 140px;
+}
+
+.card-body .frontcard .companylogo{
+    height: 100px;
 }
 
 .investment{
@@ -210,6 +215,7 @@ body{
     color: black !important;  
     font-size: 17px;
 }
+
 
 
 /*------------------CARD LIST WIDGET------------------*/

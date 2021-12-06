@@ -3463,5 +3463,100 @@
     "logDetails": "{\n  \"_created\": true,\n  \"_id\": 38,\n  \"aboutTheCompany\": \"We are an early stage ed-tech company that is revolutionising the education industry by making higher quality, targetted tutoring available at just 1/3 of the market price.  Our 6-1 tutoring approach enables lessons to cost parents just £10-12, significantly undercutting competitors whilst retaining quality with a world class tutor. \\n\\nOur free online platform breaks down learning in a more granular and modular approach than previously seen in the industry, across GCSE & A-level for 14-18 year olds. Our spec driven tutoring approach, embedded with our cheaper pricing aims to deliver a more effective option for students to achieve better grades and for more parents to afford tutoring.\",\n  \"access\": \"-MKjNhCeEjTtfQL8X6vn\",\n  \"companyEmail\": \"azhar@educationequation.co.uk\",\n  \"companyLogo\": {\n    \"fileName\": \"9e4b0ad0-42d8-11ec-8cf2-1d7c31694262_datagrid_profile_img.png\",\n    \"url\": \"https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F9e4b0ad0-42d8-11ec-8cf2-1d7c31694262_datagrid_profile_img.png?alt=media&token=f9e0a78d-fbcc-40bf-b90d-59517cae61c1\"\n  },\n  \"companyStage\": \"-Mj4Ym8u3Z1TxqoIC8GP,-Mj4Yo92FOe9owFR_Iws\",\n  \"companyUser\": \"-Mo9PWCRSHISfaI0V6YW\",\n  \"createdDate\": 1636624721954,\n  \"employeeAmount\": 3,\n  \"howManyInteractionsToMeetProjection\": 10,\n  \"howManySignedLOIMOUHOT\": 0,\n  \"jobsGeneratedThroughoutProgramme\": 3,\n  \"lastEditDate\": 1636626427396,\n  \"lastEditedBy\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"linkedInLink\": \"https://www.linkedin.com/in/azhar-haris/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"mobileNumber\": \"+447387072731\",\n  \"name\": \"Education Equation\",\n  \"news\": \"N/A\",\n  \"nextEvents\": \"Approve,Reject\",\n  \"numberOfInteractionsCommercialOpportunities\": 0,\n  \"numberOfJobsGenerated\": 3,\n  \"owner\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"permanentHigherEducationJobs\": 3,\n  \"permanentProfessionalJobs\": 0,\n  \"predictedEmployeesHired1Year\": 3,\n  \"predictedEmployeesHired2Years\": 10,\n  \"predictedEmployeesHired3Years\": 15,\n  \"predictedEmployeesHired5Years\": 25,\n  \"productGrowthOtherIndustries\": \"-MJwpRsNJS8wINoe-p1l,-MJwpVtSdOlT80E6Sbfs\",\n  \"programme\": \"-MciioUSZ8C-CC1gVlBK\",\n  \"rowKey\": \"-MoDQq4qYI-y9f1aTgvv\",\n  \"startDate\": 1617663600000,\n  \"state\": \"Admin Approval\",\n  \"testbedHigherEducationJobs\": 0,\n  \"testbedProfessionalJobs\": 3,\n  \"user\": \"bCKrH0gXIoTR4cbDUFcxQxUIK3e2\",\n  \"website\": \"https://educationequation.co.uk/\"\n}",
     "name": "Workflow Step > Accepted",
     "rowKey": "-MoDcBCEo066sjFGvSL8"
+  },
+  "-MoEGfDxNi2GBunYjDYU": {
+    "_id": 435,
+    "date": 1636638831540,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\",\n  \"origin\": \"https://portal.truealtitude.co.uk\",\n  \"workflow\": \"-MnjgEGfJWPubWOaoZ9L\",\n  \"rowKey\": \"-MnzXlj41Z2d2dAF8igY\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MoEGfDxNi2GBunYjDYU"
+  },
+  "-MoIR8QsvVSJz6ESfdDT": {
+    "_id": 436,
+    "date": 1636708685504,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\",\n  \"origin\": \"https://portal.truealtitude.co.uk\",\n  \"workflow\": \"-MnjgEGfJWPubWOaoZ9L\",\n  \"rowKey\": \"-MnzXlj41Z2d2dAF8igY\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MoIR8QsvVSJz6ESfdDT"
+  },
+  "-MoYFKKlxWVOJgCwkI1S": {
+    "_id": 437,
+    "date": 1636974023897,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\",\n  \"origin\": \"https://portal.truealtitude.co.uk\",\n  \"workflow\": \"-Mo3TmHdNn2pYZChwAcG\",\n  \"rowKey\": \"-MkCrUeakAp1NI5Pf-Il\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MoYFKKlxWVOJgCwkI1S"
+  },
+  "-MoYFQ54I7djtui-Uw7W": {
+    "_id": 438,
+    "date": 1636974047538,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\",\n  \"origin\": \"https://portal.truealtitude.co.uk\",\n  \"workflow\": \"-Mo3TmHdNn2pYZChwAcG\",\n  \"rowKey\": \"-MkCrUeakAp1NI5Pf-Il\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MoYFQ54I7djtui-Uw7W"
+  },
+  "-MoiVuEUNWTIK0LneazT": {
+    "_id": 439,
+    "date": 1637162918865,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"email\": \"dev@truealtitude.co.uk\",\n  \"origin\": \"https://portal.truealtitude.co.uk\",\n  \"workflow\": \"-Mo3TmHdNn2pYZChwAcG\",\n  \"rowKey\": \"-MkCrUeakAp1NI5Pf-Il\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-MoiVuEUNWTIK0LneazT"
+  },
+  "-Moohe5p5eHQPBn_GMET": {
+    "_id": 440,
+    "date": 1637266923898,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\",\n  \"origin\": \"https://portal.truealtitude.co.uk\",\n  \"workflow\": \"-MnkooX1eKKHhLPA_bfK\",\n  \"rowKey\": \"-MMzZ2krPwl50hP5t54m\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Moohe5p5eHQPBn_GMET"
+  },
+  "-Mp71XD5b0v_uQmi7-8c": {
+    "_id": 441,
+    "date": 1637591163751,
+    "logDetails": "data passed is{\n  \"event\": \"Session went on as planned\",\n  \"row\": \"-MnBK1-HXPG6Gn6Eie60\",\n  \"workflow\": \"-MT_XSLmtVM9drCNLKMi\",\n  \"grid\": \"sessions\",\n  \"step\": \"Session went on as planned\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mp71XD5b0v_uQmi7-8c"
+  },
+  "-Mp71XHVO3RC6-0GsQPw": {
+    "_id": 442,
+    "date": 1637591163889,
+    "logDetails": "support@truealtitude.co.uk clicked Session went on as planned at 2021-11-22 14:26:03 on record ID 181",
+    "name": "User Workflow Event",
+    "rowKey": "-Mp71XHVO3RC6-0GsQPw",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "Sessions"
+  },
+  "-Mp71XJZlEWpXfbOEzzX": {
+    "_id": 443,
+    "date": 1637591164188,
+    "logDetails": "{\n  \"_id\": 181,\n  \"adminViewed\": true,\n  \"cohort\": \"-Mn68tOxj6ooPBGzwfXb\",\n  \"company\": \"-MMzZ2krPwl50hP5t54m\",\n  \"companyUser\": \"-MkCt4HXbnk2U45svnTL\",\n  \"direction\": \"CompanyUser->Mentor\",\n  \"eDate\": 1635332400000,\n  \"isBooked\": true,\n  \"lastEditDate\": 1636470515205,\n  \"lastEditedBy\": \"kcqPKqzwdwaerATjysdgpyqIp0R2\",\n  \"mentor\": \"-MlFpp5VRgm-obzSGUVQ\",\n  \"name\": \"TEST\",\n  \"nextEvents\": \"Session went on as planned,Session did not happen\",\n  \"notes\": \"Introduction\",\n  \"notifComplete\": true,\n  \"owner\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"programme\": \"null\",\n  \"rowKey\": \"-MnBK1-HXPG6Gn6Eie60\",\n  \"sDate\": 1635328800000,\n  \"sessionLength\": 1,\n  \"state\": \"Did Session Happen? Mentor\",\n  \"status\": \"-MT_Xz9l8P0BnRSUB8fb\"\n}",
+    "name": "Workflow Step > Submit Review",
+    "rowKey": "-Mp71XJZlEWpXfbOEzzX"
+  },
+  "-Mpku86B7qo7F7Sw0TVF": {
+    "_id": 444,
+    "date": 1638276829598,
+    "logDetails": "data passed is{\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"SQ6S3GNIk7XpjepQesuGjjUhgwN2\",\n  \"email\": \"demo@truealtitude.co.uk\",\n  \"origin\": \"https://portal.truealtitude.co.uk\",\n  \"workflow\": \"-Mnkn0Yi6Ocsfu2jK7lv\",\n  \"rowKey\": \"-Mltijf7A9r5YBZ9cPVY\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mpku86B7qo7F7Sw0TVF"
+  },
+  "-Mpop5-XO2SVDbf98fqr": {
+    "_id": 445,
+    "date": 1638342615007,
+    "logDetails": "data passed is{\n  \"event\": \"Approve\",\n  \"row\": \"-MkkuobO2fYiq-HAHv_T\",\n  \"workflow\": \"-MeyOSEvs0lCWgaoyWNv\",\n  \"grid\": \"mentors\",\n  \"step\": \"Approve\",\n  \"dashboard\": \"-MhsbxHaHHybrPYZ2mCu\",\n  \"userId\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"email\": \"support@truealtitude.co.uk\"\n}",
+    "name": "Workflow Log ",
+    "rowKey": "-Mpop5-XO2SVDbf98fqr"
+  },
+  "-Mpop505_EycLgs1isFm": {
+    "_id": 446,
+    "date": 1638342615096,
+    "logDetails": "support@truealtitude.co.uk clicked Approve at 2021-12-01 07:10:15 on record ID 1",
+    "name": "User Workflow Event",
+    "rowKey": "-Mpop505_EycLgs1isFm",
+    "user": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "workflowName": "Approve Mentor"
+  },
+  "-Mpop50GxtCEjxNzBtIc": {
+    "_id": 447,
+    "date": 1638342615118,
+    "logDetails": "{\n  \"_created\": true,\n  \"_id\": 1,\n  \"accType\": \"-MeUR8pnRtHhdp26LXsL\",\n  \"adminRejected\": \"\",\n  \"createdDate\": 1632908300795,\n  \"dateOfBirth\": 564969600000,\n  \"isApproved\": false,\n  \"lastEditDate\": 1637591513454,\n  \"lastEditedBy\": \"WpkVMBiLKvc9nwixypDfeCdq5gr2\",\n  \"linkedInProfileLink\": \"https://www.linkedin.com/in/jack-lomax-25946664/\",\n  \"location\": \"-MJwtgUqBjMrFNntf6GH\",\n  \"name\": \"Jack\",\n  \"nextEvents\": \"Reject,Approve\",\n  \"owner\": \"SG3ADsdWXbSmPaeWD4Fpr5ZA6VA2\",\n  \"rowKey\": \"-MkkuobO2fYiq-HAHv_T\",\n  \"secondName\": \"Lomax\",\n  \"state\": \"Accepted\",\n  \"submitPressed\": true,\n  \"user\": \"SG3ADsdWXbSmPaeWD4Fpr5ZA6VA2\"\n}",
+    "name": "Workflow Step > Accepted",
+    "rowKey": "-Mpop50GxtCEjxNzBtIc"
   }
 }
