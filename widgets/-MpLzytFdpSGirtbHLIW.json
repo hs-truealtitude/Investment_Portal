@@ -1,0 +1,19 @@
+{
+  "alignment": "center",
+  "classes": "",
+  "dependency": "tChart/-MpM-2UY84h4iR4E6FWD",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 10,
+    "w": 22,
+    "x": 1,
+    "y": 8
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-Mj-Q3txJ5KcUXArNJy5",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<TChart  chartOptionsId=\"-MpM-2UY84h4iR4E6FWD\" :data=\"$getGrid('userCountChartTable')\" gridId=\"userCountChartTable\" />",
+  "title": ""
+}

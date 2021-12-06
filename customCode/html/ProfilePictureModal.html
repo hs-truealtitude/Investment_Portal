@@ -1,0 +1,30 @@
+  <b-modal id="image-modal" centered>
+    <center>
+
+    <div v-if="$getUser('selectedImageType') == 'Mentor' || $getUser('selectedImageType') == 'Cohort_Mentor'">  
+      <img v-if="$getDashboardModel('mentors')[$getUser('selectedImageRowKey')] && $getDashboardModel('mentors')[$getUser('selectedImageRowKey')].profileImage && $getDashboardModel('mentors')[$getUser('selectedImageRowKey')].profileImage.url" :src="$getDashboardModel('mentors')[$getUser('selectedImageRowKey')].profileImage.url" style="width:300px;  " /> 
+    </div>
+    
+    <div v-if="$getUser('selectedImageType') == 'Company'">
+      <img v-if="$getDashboardModel('companyProfiles')[$getUser('selectedImageRowKey')].companyLogo.url" :src="$getDashboardModel('companyProfiles')[$getUser('selectedImageRowKey')].companyLogo.url" style="width:300px; " />
+    </div>
+
+    <div v-if="$getUser('selectedImageType') == 'CompanyUser'">
+      <img v-if="$getDashboardModel('companyUserProfiles')[$getUser('selectedImageRowKey')].profileImage.url" :src="$getDashboardModel('companyUserProfiles')[$getUser('selectedImageRowKey')].profileImage.url" style="width:300px;" />
+    </div>
+
+    <div v-if="$getUser('selectedImageType') == 'Investor'">
+      <img v-if="$getDashboardModel('investorProfiles')[$getUser('selectedImageRowKey')].profileImage.url" class="profileImage" :src="$getDashboardModel('investorProfiles')[$getUser('selectedImageRowKey')].profileImage.url" style="width:300px;  " /> 
+    </div>
+
+    <div v-if="$getUser('selectedImageType') == 'ProgrammePartner' || $getUser('selectedImageType') == 'Cohort_PP'">
+      <img v-if="$getDashboardModel('programmePartnerProfiles')[$getUser('selectedImageRowKey')].profileImage.url" :src="$getDashboardModel('programmePartnerProfiles')[$getUser('selectedImageRowKey')].profileImage.url" style="width: 300px;" />
+    </div>
+
+    <div v-if="$getUser('selectedImageType') == 'Programme'">
+      <img v-if="$getDashboardModel('programmeData')[$getUser('selectedImageRowKey')].programmeLogo.url" :src="$getDashboardModel('programmeData')[$getUser('selectedImageRowKey')].programmeLogo.url" style="width: 300px;"/>
+    </div>
+
+
+    </center>
+  </b-modal>

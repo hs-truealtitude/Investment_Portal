@@ -1,0 +1,18 @@
+{
+  "classes": "",
+  "dependency": "tChart/-MpHDg3YB0-gfk1qbYee",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 10,
+    "w": 12,
+    "x": 12,
+    "y": 50
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-Mj-Q3txJ5KcUXArNJy5",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<TChart chartOptionsId=\"-MpHDg3YB0-gfk1qbYee\" :data=\"$getGrid('applications')\" gridId=\"applications\" />",
+  "title": ""
+}

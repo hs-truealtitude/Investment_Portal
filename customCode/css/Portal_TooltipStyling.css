@@ -1,4 +1,30 @@
 /* Tooltip text */
+.signOut .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+  top: 8px;
+  width: auto;
+  right: 0px;
+}
+
+.signOut:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 20px;
+
+}
+
+
 .bug .tooltiptext {
   visibility: hidden;
   background-color: #fffaf3;
@@ -363,6 +389,79 @@
   justify-content: center;
 }
 
+/* Cohort Remove text */
+.removeMentor .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+  top: -75px;
+  width: auto;
+  right: 0px;
+}
+
+.removeMentor:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 20px;
+}
+
+.removeInvestor .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+  top: -75px;
+  width: auto;
+  right: 0px;
+}
+
+.removeInvestor:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 20px;
+}
+
+.removeCompany .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+  top: -75px;
+  width: auto;
+  right: 0px;
+}
+
+.removeCompany:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 20px;
+}
+
 /*Profile Hover*/
 .profileHover:hover .profileDropdown {
   visibility: visible;
@@ -386,6 +485,8 @@
   justify-content: center;
   height: auto;
 }
+
+
 
 .profileDropdown ul{
   margin-bottom: 0px !important;

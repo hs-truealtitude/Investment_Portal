@@ -1,0 +1,45 @@
+{
+  "chartName": "Successful Investor Applications within Cohort",
+  "chartType": "bar",
+  "datalabels": {
+    "hidden": false
+  },
+  "filter": {
+    "condition": "AND",
+    "rules": [
+      {
+        "expression": true,
+        "hidden": true,
+        "key": "cohort",
+        "name": "Cohort",
+        "operator": "=",
+        "value": "$getUser('activeMyCohort')"
+      },
+      {
+        "expression": false,
+        "hidden": true,
+        "key": "name",
+        "name": "Direction",
+        "operator": "contains",
+        "value": "Investor->CompanyUser"
+      }
+    ]
+  },
+  "filterValues": {
+    "hidden": true
+  },
+  "groupBy": [
+    {
+      "column": "$investor$display",
+      "key": "-MpgJ7-31OZG4gSqJBO2"
+    }
+  ],
+  "maxResult": "49",
+  "metrics": [
+    {
+      "column": "isComplete",
+      "key": "-MpHAG3ko8AkbT5OPsl1",
+      "operator": "sum"
+    }
+  ]
+}

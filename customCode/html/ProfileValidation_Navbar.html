@@ -19,6 +19,14 @@
       <i class="fas fa-database"></i>
       </a>
    </div>
+
+   <div v-if="fbUser.email" class="nav-logo right ui notNotif signOut">
+      <a @click="$signOut()" target="_blank">
+        <span class="tooltiptext">Sign out: {{fbUser.email}}</span>
+        <i class="fas fa-sign-out-alt"></i>
+      </a>
+   </div>
+
     <div class="nav-logo right w-nav-brand w--current">
         <a href="https://www.truealtitude.co.uk/" target="_blank">
             <img src="https://uploads-ssl.webflow.com/6019829c6923fb7e4774c0bc/601d6a5ca8e000caf35b4f86_logomark.svg" loading="lazy" alt="true altitude logomark" class="logomark">

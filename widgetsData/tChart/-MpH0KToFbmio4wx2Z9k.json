@@ -1,0 +1,50 @@
+{
+  "chartName": "Sessions Booked within Cohort",
+  "chartType": "pie",
+  "colorPalette": {
+    "colorPalette": {
+      "label": "Default",
+      "value": "default"
+    }
+  },
+  "datalabels": {
+    "hidden": false
+  },
+  "filter": {
+    "condition": "AND",
+    "rules": [
+      {
+        "expression": true,
+        "hidden": true,
+        "key": "cohort",
+        "name": "cohort",
+        "operator": "=",
+        "value": "$getUser('activeMyCohort')"
+      }
+    ]
+  },
+  "filterValues": {
+    "hidden": true
+  },
+  "groupBy": [
+    {
+      "column": "$cohort$display",
+      "key": "-MpH0Mryrhen4UpukNTJ"
+    }
+  ],
+  "labels": {
+    "hidden": true
+  },
+  "maxResult": "500",
+  "metrics": [
+    {
+      "column": "sessionHappen",
+      "key": "-MpH7j831fd-eNhsi-7L",
+      "operator": "count"
+    }
+  ],
+  "outsideLabels": {
+    "visible": false
+  },
+  "sliceBy": "isBooked"
+}

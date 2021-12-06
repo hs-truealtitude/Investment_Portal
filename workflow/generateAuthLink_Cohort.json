@@ -22,12 +22,12 @@
       },
       {
         "id": "node1636127966359",
-        "x": 1031.182596998669,
-        "y": 308.90738670454493,
+        "x": 838.92,
+        "y": 308.68,
         "width": 107,
         "height": 41,
         "attachment": {
-          "script": "const authLinkGenerated = await generateAuthLink({\r\n    redirectUrl: '/dashboard/-MhsbxHaHHybrPYZ2mCu?tab=-MmIIsHE-irxCHjAxrNf&subtab=-Mo4I1BPB1KsiCralyP6',\r\n    origin: data.origin,\r\n    rowKey: data.rowKey,\r\n})\r\n\r\nconst { user } = authLinkGenerated\r\n\r\nif (user) {\r\n    await addUser({\r\n      uid: user.uid,\r\n      dashboard: data.dashboard,\r\n      rules: { read: true },\r\n    })\r\n}\r\n\r\ncontext.data.authLinkGenerated = authLinkGenerated\r\n"
+          "script": "const authLinkGenerated = await generateAuthLink({\r\n    redirectUrl: '/dashboard/-MhsbxHaHHybrPYZ2mCu?tab=-MmIIsHE-irxCHjAxrNf&subtab=-Mo4I1BPB1KsiCralyP6',\r\n    origin: data.origin,\r\n    rowKey: data.rowKey,\r\n})\r\n\r\nconst { user } = authLinkGenerated\r\n\r\n\r\nif (user) {\r\n    await addUser({\r\n      uid: user.uid,\r\n      dashboard: data.dashboard,\r\n      rules: { read: true },\r\n    })\r\n}\r\n\r\ncontext.data.authLinkGenerated = authLinkGenerated\r\n"
         },
         "name": "script-task",
         "clazz": "scriptTask",
@@ -43,7 +43,7 @@
         "source": "node1636108940708-right",
         "target": "node1636127966359",
         "endSocket": "left",
-        "id": "line-1636472706227",
+        "id": "line-1637931224860",
         "label": "Start Event",
         "targetLabel": "Script Task",
         "type": {
@@ -56,8 +56,8 @@
       }
     ],
     "transform": {
-      "x": 13.331407665943914,
-      "y": -104.08310607883652,
+      "x": -17.668592334056086,
+      "y": -116.08310607883652,
       "scale": 0.9466182549099933
     }
   },

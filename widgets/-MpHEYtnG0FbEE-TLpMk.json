@@ -1,0 +1,18 @@
+{
+  "classes": "",
+  "dependency": "tChart/-MpHEaYAnW0-aLdUZPDn",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 13,
+    "w": 24,
+    "x": 0,
+    "y": 37
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-Mj-Q3txJ5KcUXArNJy5",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<TChart chartOptionsId=\"-MpHEaYAnW0-aLdUZPDn\" :data=\"$getGrid('sessions')\" gridId=\"sessions\" />",
+  "title": ""
+}

@@ -1,0 +1,55 @@
+{
+  "chartName": "Count of Sessions Booked by Mentor within Cohort",
+  "chartType": "horizontalBar",
+  "datalabels": {
+    "hidden": false
+  },
+  "filter": {
+    "condition": "AND",
+    "rules": [
+      {
+        "expression": true,
+        "hidden": true,
+        "key": "cohort",
+        "name": "cohort",
+        "operator": "=",
+        "value": "$getUser('activeMyCohort')"
+      },
+      {
+        "expression": false,
+        "hidden": true,
+        "key": "direction",
+        "name": "direction",
+        "operator": "contains",
+        "value": "Mentor->CompanyUser"
+      },
+      {
+        "expression": false,
+        "hidden": true,
+        "key": "isBooked",
+        "name": "isBooked",
+        "operator": "checkbox",
+        "value": true
+      }
+    ]
+  },
+  "filterValues": {
+    "hidden": true
+  },
+  "groupBy": [
+    {
+      "column": "mentor",
+      "key": "-MpkR2_lZ_nP_N7ONCFb"
+    }
+  ],
+  "labels": {
+    "hidden": true
+  },
+  "metrics": [
+    {
+      "column": "isBooked",
+      "key": "-MpHFDIrAqOXHyNgWMoc",
+      "operator": "sum"
+    }
+  ]
+}
