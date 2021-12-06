@@ -2,6 +2,7 @@
   "accountType": "ProgrammePartner",
   "activeCohort": "-MlOqCDh99dhXB_Ufb1n",
   "activeCohortName": "Cohort 1",
+  "activeGeneratedLink": "https://portal.truealtitude.co.uk/auth-link?uid=WZ5psLOghQZMdQFcogh3yYCitK43&linkId=9050eb80-51dc-11ec-88ce-a91a56e99550",
   "activeMyCohort": "-MlOqCDh99dhXB_Ufb1n",
   "activeMyProgramme": "-Mltijf7A9r5YBZ9cPVY",
   "activeProgramme": "-MlKqgI8s9-Xk06Kv0HQ",
@@ -14,5 +15,6 @@
   "selectedMentor": "-MlFpp5VRgm-obzSGUVQ",
   "selectedMentorName": "Arnold",
   "selectedMentorSecondName": "du Toit",
-  "selectedProgramme": "-Mltijf7A9r5YBZ9cPVY"
+  "selectedProgramme": "-Mltijf7A9r5YBZ9cPVY",
+  "updatesRead": true
 }

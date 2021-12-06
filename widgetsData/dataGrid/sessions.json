@@ -1,6 +1,6 @@
 {
   "displayColumn": "name",
-  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"companyUser\",\"operator\":\"=\",\"value\":null,\"name\":\"Company User\",\"expression\":false,\"hidden\":false},{\"key\":\"company\",\"operator\":\"=\",\"value\":null,\"name\":\"company\",\"expression\":false,\"hidden\":false},{\"key\":\"mentor\",\"operator\":\"=\",\"value\":null,\"name\":\"Mentor\",\"expression\":false,\"hidden\":false},{\"key\":\"sessionHappen\",\"operator\":\"checkbox\",\"value\":null,\"name\":\"sessionHappen\",\"expression\":false,\"hidden\":false},{\"key\":\"cohort\",\"operator\":\"=\",\"value\":null,\"name\":\"cohort\",\"expression\":false,\"hidden\":false},{\"key\":\"isBooked\",\"operator\":\"checkbox\",\"value\":null,\"name\":\"isBooked\",\"expression\":false,\"hidden\":false},{\"key\":\"direction\",\"operator\":\"contains\",\"value\":null,\"name\":\"direction\",\"expression\":false,\"hidden\":false}]}",
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"companyUser\",\"operator\":\"=\",\"value\":null,\"name\":\"Company User\",\"hidden\":false},{\"key\":\"company\",\"operator\":\"=\",\"value\":null,\"name\":\"company\",\"hidden\":false},{\"key\":\"mentor\",\"operator\":\"=\",\"value\":null,\"name\":\"Mentor\",\"hidden\":false},{\"key\":\"sessionHappen\",\"operator\":\"checkbox\",\"value\":null,\"name\":\"sessionHappen\",\"hidden\":false}]}",
   "isReactive": true,
   "meta": {
     "adminViewed": {

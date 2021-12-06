@@ -169,7 +169,6 @@
         <div class="profileDropdown">
             <ul style="height: 100%;" class="profileMenu">
                 <li @click="directAccountViewProfile()" class="viewProfile"><p> My Profile </p></li>
-                <li v-if="$getUser('accountType') == 'CompanyUser'" @click="directMyBookedSessions()" class="signOut"><p style=""> Booked Sessions </p></li>
                 <li v-if="$getUser('updatesRead') !== true" @click="$bvModal.show('updatesModal')" class="signOut"><p> What's new? </p></li>
                 <li @click='$signOut()' class="signOut"><p> Sign Out </p></li>
             </ul>

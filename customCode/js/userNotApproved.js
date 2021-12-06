@@ -1,5 +1,6 @@
 (async () => {
-
+  console.log('userNotApproved')
+  //return
   let accountType = $getUser("accountType");
   let profileRowKey = $getUser("profileID");
 

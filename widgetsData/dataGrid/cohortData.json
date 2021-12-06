@@ -6,47 +6,34 @@
     "cohortOwnerType": {
       "displayName": "Owner Account Type",
       "invisible": false,
-      "order": 1,
+      "order": 0,
       "type": "string"
     },
     "cohortSummary": {
       "displayName": "Summary of Cohort (Optional)",
-      "invisible": true,
-      "order": 15,
+      "order": 1,
       "type": "multiline_text"
     },
     "cohortTitle": {
       "displayName": "cohortTitle",
-      "invisible": true,
-      "order": 28,
+      "order": 24,
       "type": "custom"
     },
     "companies": {
       "displayName": "Companies",
-      "invisible": false,
       "lookUpTable": "companyProfiles",
-      "onChange": "var companyTotal = Object.keys(rowData.$companies || {}).length\r\n\r\n$setDataGridVal('cohortData', rowData.rowKey + '.companyCount', companyTotal)\r\n",
-      "order": 10,
+      "order": 2,
       "type": "multi_lookup"
-    },
-    "companyCount": {
-      "displayName": "companyCount",
-      "invisible": false,
-      "onChange": "var cohortCountCompany = $getGrid('userCountChartTable').filter(row => (row.cohort).includes(rowData.rowKey) && row.grouping == \"Companies\")\r\n\r\n$setDataGridVal('userCountChartTable', cohortCountCompany[0].rowKey + '.amount', rowData.companyCount)\r\n",
-      "order": 11,
-      "type": "number"
     },
     "companyEngagementsCount": {
       "displayName": "companyEngagementsCount",
-      "invisible": true,
-      "order": 16,
+      "order": 3,
       "type": "number"
     },
     "companyUserOwner": {
       "displayName": "companyUserOwner",
-      "invisible": true,
       "lookUpTable": "companyUserProfiles",
-      "order": 17,
+      "order": 4,
       "type": "lookup"
     },
     "companyUsers": {
@@ -54,42 +41,24 @@
       "displayName": "CompanyUsers",
       "invisible": false,
       "lookUpTable": "companyUserProfiles",
-      "onChange": "var companyUsersTotal = Object.keys(rowData.$companyUsers || {}).length\r\n\r\n$setDataGridVal('cohortData', rowData.rowKey + '.companyUsersCount', companyUsersTotal)\r\n",
-      "order": 2,
+      "order": 5,
       "type": "multi_lookup"
-    },
-    "companyUsersCount": {
-      "Width": "224px",
-      "displayName": "companyUsersCount",
-      "invisible": false,
-      "order": 14,
-      "type": "number"
     },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": true,
-      "order": 18,
+      "order": 6,
       "type": "date"
-    },
-    "investorCount": {
-      "Width": "198px",
-      "displayName": "investorCount",
-      "invisible": false,
-      "onChange": "var cohortCountInvestor = $getGrid('userCountChartTable').filter(row => (row.cohort).includes(rowData.rowKey) && row.grouping == \"Investors\")\r\n\r\n$setDataGridVal('userCountChartTable', cohortCountInvestor[0].rowKey + '.amount', rowData.investorCount)\r\n",
-      "order": 13,
-      "type": "number"
     },
     "investorEngagementsCount": {
       "displayName": "investorEngagementsCount",
-      "invisible": true,
-      "order": 19,
+      "order": 7,
       "type": "number"
     },
     "investorOwner": {
       "displayName": "investorOwner",
-      "invisible": true,
       "lookUpTable": "investorProfiles",
-      "order": 20,
+      "order": 8,
       "type": "lookup"
     },
     "investors": {
@@ -97,47 +66,35 @@
       "displayName": "Investors",
       "invisible": false,
       "lookUpTable": "investorProfiles",
-      "onChange": "var investorTotal = Object.keys(rowData.$investors || {}).length\r\n\r\n$setDataGridVal('cohortData', rowData.rowKey + '.investorCount', investorTotal)\r\n",
-      "order": 12,
+      "order": 9,
       "type": "multi_lookup"
     },
     "lastEditDate": {
       "displayName": "Last edit date",
       "invisible": true,
-      "order": 21,
+      "order": 10,
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
       "invisible": true,
-      "order": 22,
+      "order": 11,
       "type": "user"
     },
     "layout": {
       "displayName": "Layout",
-      "invisible": false,
-      "order": 3,
+      "order": 12,
       "type": "select"
-    },
-    "mentorCount": {
-      "Width": "212px",
-      "displayName": "mentorCount",
-      "invisible": false,
-      "onChange": "var cohortCountMentor = $getGrid('userCountChartTable').filter(row => (row.cohort).includes(rowData.rowKey) && row.grouping == \"Indirect Investors/Mentors\")\r\n\r\n\r\nconsole.log(cohortCountMentor)\r\n\r\n\r\n$setDataGridVal('userCountChartTable', cohortCountMentor[0].rowKey + '.amount', rowData.mentorCount)\r\n",
-      "order": 9,
-      "type": "number"
     },
     "mentorEngagementsCount": {
       "displayName": "mentorEngagementsCount",
-      "invisible": true,
-      "order": 23,
+      "order": 13,
       "type": "number"
     },
     "mentorOwner": {
       "displayName": "mentorOwner",
-      "invisible": false,
       "lookUpTable": "mentors",
-      "order": 4,
+      "order": 14,
       "type": "lookup"
     },
     "mentors": {
@@ -145,65 +102,59 @@
       "displayName": "Mentors",
       "invisible": false,
       "lookUpTable": "mentors",
-      "onChange": "var mentorTotal = Object.keys(rowData.$mentors || {}).length\r\n\r\n$setDataGridVal('cohortData', rowData.rowKey + '.mentorCount', mentorTotal)\r\n\r\n",
-      "order": 8,
+      "order": 15,
       "type": "multi_lookup"
     },
     "name": {
       "displayName": "Name of Cohort",
       "invisible": false,
-      "order": 0,
+      "order": 16,
       "type": "string"
     },
     "nextEvents": {
       "displayName": "Next Events",
       "invisible": true,
-      "order": 24,
+      "order": 17,
       "type": "string"
     },
     "owner": {
       "displayName": "Owner",
       "invisible": false,
-      "order": 5,
+      "order": 18,
       "type": "user"
     },
     "programmePartnerOwner": {
       "displayName": "programmePartnerOwner",
-      "invisible": false,
       "lookUpTable": "programmePartnerProfiles",
-      "order": 6,
+      "order": 19,
       "type": "lookup"
     },
     "programmes": {
       "displayName": "Programmes",
       "filterCode": "return row.owner == rowData.owner\r\n\r\n//return row.programmePartnerOwner == rowData.programmeParter\r\n",
-      "invisible": false,
       "lookUpTable": "programmeData",
-      "order": 7,
+      "order": 23,
       "type": "multi_lookup"
     },
     "programmesTitle": {
       "displayName": "programmesTitle",
-      "invisible": true,
-      "order": 29,
+      "order": 25,
       "type": "custom"
     },
     "sessionCount": {
       "displayName": "sessionCount",
-      "invisible": true,
-      "order": 25,
+      "order": 20,
       "type": "number"
     },
     "state": {
       "displayName": "State",
       "invisible": true,
-      "order": 26,
+      "order": 21,
       "type": "string"
     },
     "successfulInvestorEngagementsCount": {
       "displayName": "successfulInvestorEngagementsCount",
-      "invisible": true,
-      "order": 27,
+      "order": 22,
       "type": "number"
     }
   },
@@ -1418,182 +1369,6 @@
                 "gridId": "cohortData"
               }
             ]
-          },
-          {
-            "name": "section_333252_row_784274",
-            "label": "",
-            "order": 0,
-            "controls": [
-              {
-                "type": "number",
-                "name": "control_bfa9e7a0-4d23-11ec-9a2f-199243789cb7",
-                "fieldName": "control_bfa9e7a0-4d23-11ec-9a2f-199243789cb7",
-                "label": "investorCount",
-                "order": 0,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-6",
-                "readonly": false,
-                "readonlyCondition": "",
-                "placeholder": "",
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "isTodayValueCreated": true,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isCurrentUser": false,
-                "isCurrentUserOwner": true,
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": false,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "mask": "",
-                "lookupOpenInModalDisabled": false,
-                "propName": "investorCount",
-                "gridId": "cohortData"
-              },
-              {
-                "type": "number",
-                "name": "control_c30ce8c0-4d23-11ec-9a2f-199243789cb7",
-                "fieldName": "control_c30ce8c0-4d23-11ec-9a2f-199243789cb7",
-                "label": "mentorCount",
-                "order": 0,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-6",
-                "readonly": false,
-                "readonlyCondition": "",
-                "placeholder": "",
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "isTodayValueCreated": true,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isCurrentUser": false,
-                "isCurrentUserOwner": true,
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": false,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "mask": "",
-                "lookupOpenInModalDisabled": false,
-                "propName": "mentorCount"
-              },
-              {
-                "type": "number",
-                "name": "control_c6b1add0-4d23-11ec-9a2f-199243789cb7",
-                "fieldName": "control_c6b1add0-4d23-11ec-9a2f-199243789cb7",
-                "label": "companyCount",
-                "order": 0,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-6",
-                "readonly": false,
-                "readonlyCondition": "",
-                "placeholder": "",
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "isTodayValueCreated": true,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isCurrentUser": false,
-                "isCurrentUserOwner": true,
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": false,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "mask": "",
-                "lookupOpenInModalDisabled": false,
-                "propName": "companyCount"
-              },
-              {
-                "type": "number",
-                "name": "control_cab95360-4d23-11ec-9a2f-199243789cb7",
-                "fieldName": "control_cab95360-4d23-11ec-9a2f-199243789cb7",
-                "label": "companyUsersCount",
-                "order": 0,
-                "defaultValue": "",
-                "value": "",
-                "className": "col-md-6",
-                "readonly": false,
-                "readonlyCondition": "",
-                "placeholder": "",
-                "required": false,
-                "requiredCondition": "",
-                "isMultiLine": false,
-                "isInteger": false,
-                "decimalPlace": 0,
-                "isTodayValue": false,
-                "isTodayValueCreated": true,
-                "dateFormat": "mm/dd/yy hh:mm p",
-                "isCurrentUser": false,
-                "isCurrentUserOwner": true,
-                "isNowTimeValue": false,
-                "timeFormat": "HH:mm",
-                "isMultiple": false,
-                "isAjax": false,
-                "dataOptions": [],
-                "ajaxDataUrl": "",
-                "isChecked": false,
-                "vif": "",
-                "customCode": "",
-                "invisible": false,
-                "invisibleCondition": "",
-                "invisibleInDataGrid": false,
-                "invisibleLabel": false,
-                "enableCustomValidation": false,
-                "customValidationRule": "",
-                "customValidationErrorMessage": "",
-                "mask": "",
-                "lookupOpenInModalDisabled": false,
-                "propName": "companyUsersCount"
-              }
-            ]
           }
         ],
         "labelPosition": "top",
@@ -1605,7 +1380,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.3810398042186589
+    "_uniqueId": 0.35333215821588193
   },
   "source": "cohortData",
   "storageType": "dashboard",
@@ -1627,9 +1402,6 @@
         "companies": {
           "order": 2
         },
-        "companyCount": {
-          "order": 28
-        },
         "companyEngagementsCount": {
           "order": 3
         },
@@ -1640,15 +1412,9 @@
           "invisible": false,
           "order": 5
         },
-        "companyUsersCount": {
-          "order": 29
-        },
         "createdDate": {
           "invisible": true,
           "order": 6
-        },
-        "investorCount": {
-          "order": 26
         },
         "investorEngagementsCount": {
           "order": 7
@@ -1670,9 +1436,6 @@
         },
         "layout": {
           "order": 12
-        },
-        "mentorCount": {
-          "order": 27
         },
         "mentorEngagementsCount": {
           "order": 13
@@ -1737,9 +1500,6 @@
         "companies": {
           "order": 2
         },
-        "companyCount": {
-          "order": 28
-        },
         "companyEngagementsCount": {
           "order": 3
         },
@@ -1750,15 +1510,9 @@
           "invisible": false,
           "order": 5
         },
-        "companyUsersCount": {
-          "order": 29
-        },
         "createdDate": {
           "invisible": true,
           "order": 6
-        },
-        "investorCount": {
-          "order": 26
         },
         "investorEngagementsCount": {
           "order": 7
@@ -1780,9 +1534,6 @@
         },
         "layout": {
           "order": 12
-        },
-        "mentorCount": {
-          "order": 27
         },
         "mentorEngagementsCount": {
           "order": 13
@@ -1847,9 +1598,6 @@
         "companies": {
           "order": 2
         },
-        "companyCount": {
-          "order": 28
-        },
         "companyEngagementsCount": {
           "order": 3
         },
@@ -1860,15 +1608,9 @@
           "invisible": false,
           "order": 5
         },
-        "companyUsersCount": {
-          "order": 29
-        },
         "createdDate": {
           "invisible": true,
           "order": 6
-        },
-        "investorCount": {
-          "order": 26
         },
         "investorEngagementsCount": {
           "order": 7
@@ -1890,9 +1632,6 @@
         },
         "layout": {
           "order": 12
-        },
-        "mentorCount": {
-          "order": 27
         },
         "mentorEngagementsCount": {
           "order": 13
@@ -1957,9 +1696,6 @@
         "companies": {
           "order": 2
         },
-        "companyCount": {
-          "order": 28
-        },
         "companyEngagementsCount": {
           "order": 3
         },
@@ -1970,15 +1706,9 @@
           "invisible": false,
           "order": 5
         },
-        "companyUsersCount": {
-          "order": 29
-        },
         "createdDate": {
           "invisible": true,
           "order": 6
-        },
-        "investorCount": {
-          "order": 26
         },
         "investorEngagementsCount": {
           "order": 7
@@ -2000,9 +1730,6 @@
         },
         "layout": {
           "order": 12
-        },
-        "mentorCount": {
-          "order": 27
         },
         "mentorEngagementsCount": {
           "order": 13
@@ -2066,9 +1793,6 @@
         "companies": {
           "order": 2
         },
-        "companyCount": {
-          "order": 28
-        },
         "companyEngagementsCount": {
           "order": 3
         },
@@ -2079,15 +1803,9 @@
           "invisible": false,
           "order": 5
         },
-        "companyUsersCount": {
-          "order": 29
-        },
         "createdDate": {
           "invisible": true,
           "order": 6
-        },
-        "investorCount": {
-          "order": 26
         },
         "investorEngagementsCount": {
           "order": 7
@@ -2109,9 +1827,6 @@
         },
         "layout": {
           "order": 12
-        },
-        "mentorCount": {
-          "order": 27
         },
         "mentorEngagementsCount": {
           "order": 13
@@ -2176,9 +1891,6 @@
         "companies": {
           "order": 2
         },
-        "companyCount": {
-          "order": 28
-        },
         "companyEngagementsCount": {
           "order": 3
         },
@@ -2189,15 +1901,9 @@
           "invisible": false,
           "order": 5
         },
-        "companyUsersCount": {
-          "order": 29
-        },
         "createdDate": {
           "invisible": true,
           "order": 6
-        },
-        "investorCount": {
-          "order": 26
         },
         "investorEngagementsCount": {
           "order": 7
@@ -2219,9 +1925,6 @@
         },
         "layout": {
           "order": 12
-        },
-        "mentorCount": {
-          "order": 27
         },
         "mentorEngagementsCount": {
           "order": 13

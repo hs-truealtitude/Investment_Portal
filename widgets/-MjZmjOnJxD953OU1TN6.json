@@ -6,10 +6,10 @@
   "dataSource": "sessions",
   "detailTemplate": "",
   "gsOptions": {
-    "h": 11,
+    "h": 0,
     "w": 20,
     "x": 2,
-    "y": 59
+    "y": 10
   },
   "itemsPerPage": 10,
   "layout": {
