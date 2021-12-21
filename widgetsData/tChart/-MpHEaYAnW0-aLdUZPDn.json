@@ -1,6 +1,12 @@
 {
   "chartName": "Count of Sessions Booked by Mentor within Cohort",
   "chartType": "horizontalBar",
+  "colorPalette": {
+    "colorPalette": {
+      "label": "Red",
+      "value": "red"
+    }
+  },
   "datalabels": {
     "hidden": false
   },

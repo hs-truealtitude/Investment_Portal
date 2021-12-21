@@ -49,6 +49,14 @@
     margin-bottom: 60px !important;
 }
  
+/*Card list view details svg*/
+.containerWidget__controls._inCardList a {
+    color: black !important;
+}
+
+.containerWidget__controls._inCardList a:hover {
+    color: #ef4437 !important;
+}
 
 
 /* Hide container Element Admin Elements

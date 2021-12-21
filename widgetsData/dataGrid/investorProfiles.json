@@ -24,173 +24,207 @@
       "order": 3,
       "type": "custom"
     },
+    "companyLogo": {
+      "displayName": "Company Logo",
+      "order": 4,
+      "type": "profile_image"
+    },
+    "companyName": {
+      "displayName": "CompanyName",
+      "order": 5,
+      "type": "string"
+    },
+    "companySummary": {
+      "displayName": "Company Summary",
+      "order": 6,
+      "type": "multiline_text"
+    },
+    "companyWebsite": {
+      "displayName": "Company Website",
+      "order": 7,
+      "type": "string"
+    },
     "createdDate": {
       "displayName": "Created Date",
       "invisible": false,
-      "order": 4,
+      "order": 8,
       "type": "date"
     },
     "dateOfBirth": {
       "displayName": "Date of Birth",
       "invisible": true,
-      "order": 5,
+      "order": 9,
       "type": "date"
     },
     "hideDOB": {
       "displayName": "hideDOB",
-      "order": 6,
+      "order": 10,
       "type": "checkbox"
     },
     "investorApproval": {
       "displayName": "Investor Approval",
-      "order": 7,
+      "order": 11,
       "startTitle": "Begin Investor Approval Process",
       "type": "workflow",
       "workflow": "-MeyOVXiZSSm-ZjkMCqL"
     },
-    "investorTypes": {
-      "displayName": "Investor Types",
-      "lookUpTable": "investorTypes",
-      "order": 8,
-      "type": "multi_lookup"
+    "investorType": {
+      "displayName": "investorType",
+      "order": 12,
+      "type": "select"
     },
     "isApproved": {
       "displayName": "IsApproved",
       "invisible": true,
-      "order": 9,
+      "order": 13,
       "type": "checkbox"
     },
     "lastEditDate": {
       "displayName": "Last edit date",
       "invisible": true,
-      "order": 10,
+      "order": 14,
       "type": "date"
     },
     "lastEditedBy": {
       "displayName": "Last edited by",
       "invisible": true,
-      "order": 11,
+      "order": 15,
       "type": "user"
     },
     "layout": {
       "displayName": "Layout",
-      "order": 12,
+      "order": 16,
       "type": "select"
     },
     "linkedInProfileLink": {
       "displayName": "LinkedIn Profile",
       "invisible": true,
-      "order": 13,
+      "order": 17,
       "type": "string"
     },
     "location": {
       "displayName": "Location",
       "invisible": true,
       "lookUpTable": "country",
-      "order": 14,
+      "order": 18,
       "type": "lookup"
     },
     "name": {
       "displayName": "First Name",
       "invisible": false,
-      "order": 15,
+      "order": 19,
       "type": "string"
     },
     "nextEvents": {
       "displayName": "Next Events",
       "invisible": true,
-      "order": 16,
+      "order": 20,
       "type": "string"
+    },
+    "onBehalfCompany": {
+      "displayName": "onBehalfCompany",
+      "order": 21,
+      "type": "checkbox"
+    },
+    "onBehalfCompanyTitle": {
+      "displayName": "onBehalfCompanyTitle",
+      "order": 22,
+      "type": "custom"
     },
     "owner": {
       "displayName": "Owner",
       "invisible": false,
-      "order": 17,
+      "order": 23,
       "type": "user"
     },
     "phoneNumber": {
       "displayName": "Contact Number",
       "invisible": true,
-      "order": 18,
+      "order": 24,
       "type": "phone"
     },
     "profileImage": {
       "displayName": "Profile Image",
       "invisible": false,
-      "order": 19,
+      "order": 25,
       "type": "profile_image"
     },
     "referralCompanyUser": {
       "displayName": "referralCompanyUser",
       "lookUpTable": "companyUserProfiles",
-      "order": 20,
+      "order": 26,
       "type": "multi_lookup"
     },
     "referralInvestor": {
       "displayName": "referralInvestor",
-      "order": 32,
+      "order": 27,
       "type": "string"
     },
     "referralMentor": {
       "displayName": "referralMentor",
       "lookUpTable": "mentors",
-      "order": 21,
+      "order": 28,
       "type": "multi_lookup"
     },
     "referralProgrammePartner": {
       "displayName": "referralProgrammePartner",
       "lookUpTable": "programmePartnerProfiles",
-      "order": 22,
+      "order": 29,
       "type": "multi_lookup"
     },
     "referredBy": {
       "Width": "281px",
       "displayName": "referredBy",
-      "order": 31,
+      "order": 30,
       "type": "string"
     },
     "saveButton": {
       "displayName": "saveButton",
-      "order": 23,
+      "order": 31,
       "type": "custom"
     },
     "secondName": {
       "displayName": "Second Name",
       "invisible": false,
-      "order": 24,
+      "order": 32,
       "type": "string"
     },
     "state": {
       "displayName": "State",
       "invisible": true,
-      "order": 25,
+      "order": 33,
       "type": "string"
     },
     "submit": {
       "displayName": "",
       "invisible": true,
-      "order": 26,
+      "order": 34,
       "type": "custom"
     },
     "submitPressed": {
       "displayName": "submitPressed",
-      "order": 27,
+      "order": 35,
       "type": "checkbox"
+    },
+    "submitTitle": {
+      "displayName": "submitTitle",
+      "order": 36,
+      "type": "custom"
     },
     "user": {
       "displayName": "User",
       "invisible": true,
-      "order": 28,
+      "order": 37,
       "type": "user"
     },
     "userApproval": {
       "displayName": "userApproval",
-      "order": 29,
+      "order": 38,
       "type": "custom"
     },
     "userRejected": {
       "displayName": "userRejected",
-      "order": 30,
+      "order": 39,
       "type": "custom"
     }
   },
@@ -332,16 +366,16 @@
                 "readonlyCondition": "rowData.owner != fbUser.uid"
               },
               {
-                "type": "multi_lookup",
-                "name": "control_60cb82a0-2cdc-11ec-a2f7-879f75befbaf",
-                "fieldName": "control_60cb82a0-2cdc-11ec-a2f7-879f75befbaf",
-                "label": "What is your Investor Types(s)?",
+                "type": "select",
+                "name": "control_91c60140-576c-11ec-8b4d-dd1f30c89db3",
+                "fieldName": "control_91c60140-576c-11ec-8b4d-dd1f30c89db3",
+                "label": "What is your Investor Type(s)?",
                 "order": 0,
                 "defaultValue": "",
                 "value": "",
                 "className": "col-md-12",
-                "readonly": true,
-                "readonlyCondition": "rowData.owner != fbUser.uid",
+                "readonly": false,
+                "readonlyCondition": "",
                 "placeholder": "",
                 "required": false,
                 "requiredCondition": "",
@@ -355,9 +389,50 @@
                 "isCurrentUserOwner": true,
                 "isNowTimeValue": false,
                 "timeFormat": "HH:mm",
-                "isMultiple": false,
+                "isMultiple": true,
                 "isAjax": false,
-                "dataOptions": [],
+                "dataOptions": [
+                  {
+                    "id": "Angel",
+                    "text": "Angel"
+                  },
+                  {
+                    "id": "S/EIS",
+                    "text": "S/EIS"
+                  },
+                  {
+                    "id": "Syndicate Fund",
+                    "text": "Syndicate Fund"
+                  },
+                  {
+                    "id": "VC",
+                    "text": "VC"
+                  },
+                  {
+                    "id": "CVC",
+                    "text": "CVC"
+                  },
+                  {
+                    "id": "PE",
+                    "text": "PE"
+                  },
+                  {
+                    "id": "Family",
+                    "text": "Family"
+                  },
+                  {
+                    "id": "Debt/Convertible",
+                    "text": "Debt/Convertible"
+                  },
+                  {
+                    "id": "Grant",
+                    "text": "Grant"
+                  },
+                  {
+                    "id": "Philanthropist",
+                    "text": "Philanthropist"
+                  }
+                ],
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
@@ -370,9 +445,8 @@
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "mask": "",
-                "lookupOpenInModalDisabled": true,
-                "propName": "investorTypes",
-                "ableToAddLookUpVal": false,
+                "lookupOpenInModalDisabled": false,
+                "propName": "investorType",
                 "gridId": "investorProfiles",
                 "description": "Choose all that are applicable."
               },
@@ -615,6 +689,308 @@
                 "customValidationErrorMessage": "",
                 "propName": "location",
                 "ableToAddLookUpVal": false,
+                "gridId": "investorProfiles"
+              },
+              {
+                "type": "checkbox",
+                "name": "control_923be5b0-5689-11ec-b861-1f59dbcb9360",
+                "fieldName": "control_923be5b0-5689-11ec-b861-1f59dbcb9360",
+                "label": "Are you representing an organisation/company as a decision maker in investments?",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "rowData.owner != fbUser.uid",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "onBehalfCompany",
+                "gridId": "investorProfiles",
+                "description": "Check the box above if you would like to showcase the company you here on behalf of."
+              },
+              {
+                "type": "custom",
+                "name": "control_b7ad77f0-5689-11ec-b861-1f59dbcb9360",
+                "fieldName": "control_b7ad77f0-5689-11ec-b861-1f59dbcb9360",
+                "label": "onBehalfCompanyTitle",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<h2> Organisation/Company Details </h2>",
+                "invisible": true,
+                "invisibleCondition": "rowData.onBehalfCompany != true",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "onBehalfCompanyTitle",
+                "gridId": "investorProfiles"
+              },
+              {
+                "type": "profile_image",
+                "name": "control_fee96660-5689-11ec-b861-1f59dbcb9360",
+                "fieldName": "control_fee96660-5689-11ec-b861-1f59dbcb9360",
+                "label": "Organisation/Company Logo",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "rowData.onBehalfCompany != true",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companyLogo",
+                "gridId": "investorProfiles"
+              },
+              {
+                "type": "text",
+                "name": "control_0fd70c70-568a-11ec-b861-1f59dbcb9360",
+                "fieldName": "control_0fd70c70-568a-11ec-b861-1f59dbcb9360",
+                "label": "Organisation/Company Name",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "rowData.owner != fbUser.uid",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "rowData.onBehalfCompany != true",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companyName",
+                "gridId": "investorProfiles"
+              },
+              {
+                "type": "multiline_text",
+                "name": "control_1a2f5d30-568a-11ec-b861-1f59dbcb9360",
+                "fieldName": "control_1a2f5d30-568a-11ec-b861-1f59dbcb9360",
+                "label": "Organisation/Company Summary",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "rowData.owner != fbUser.uid",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "rowData.onBehalfCompany != true",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companySummary",
+                "gridId": "investorProfiles"
+              },
+              {
+                "type": "text",
+                "name": "control_27175980-568a-11ec-b861-1f59dbcb9360",
+                "fieldName": "control_27175980-568a-11ec-b861-1f59dbcb9360",
+                "label": "Organisation/Company Website",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "rowData.owner != fbUser.uid",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "rowData.onBehalfCompany != true",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companyWebsite",
+                "gridId": "investorProfiles"
+              },
+              {
+                "type": "custom",
+                "name": "control_361966c0-568b-11ec-b861-1f59dbcb9360",
+                "fieldName": "control_361966c0-568b-11ec-b861-1f59dbcb9360",
+                "label": "submitTitle",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<h2> Submit Profile </h2>",
+                "invisible": true,
+                "invisibleCondition": "rowData.isApproved == true",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "submitTitle",
                 "gridId": "investorProfiles"
               },
               {
@@ -1702,7 +2078,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.21087725988678918
+    "_uniqueId": 0.7232567620116579
   },
   "source": "investorProfiles",
   "storageType": "dashboard",
@@ -1723,108 +2099,129 @@
         "approvalMessage1": {
           "order": 3
         },
+        "companyLogo": {
+          "order": 4
+        },
+        "companyName": {
+          "order": 5
+        },
+        "companySummary": {
+          "order": 6
+        },
+        "companyWebsite": {
+          "order": 7
+        },
         "createdDate": {
           "invisible": false,
-          "order": 4
+          "order": 8
         },
         "dateOfBirth": {
           "invisible": true,
-          "order": 5
+          "order": 9
         },
         "hideDOB": {
-          "order": 6
+          "order": 10
         },
         "investorApproval": {
-          "order": 7
+          "order": 11
         },
-        "investorTypes": {
-          "order": 8
+        "investorType": {
+          "order": 12
         },
         "isApproved": {
           "invisible": true,
-          "order": 9
+          "order": 13
         },
         "lastEditDate": {
           "invisible": true,
-          "order": 10
+          "order": 14
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": 11
+          "order": 15
         },
         "layout": {
-          "order": 12
+          "order": 16
         },
         "linkedInProfileLink": {
           "invisible": true,
-          "order": 13
+          "order": 17
         },
         "location": {
           "invisible": true,
-          "order": 14
+          "order": 18
         },
         "name": {
           "invisible": false,
-          "order": 15
+          "order": 19
         },
         "nextEvents": {
           "invisible": true,
-          "order": 16
+          "order": 20
+        },
+        "onBehalfCompany": {
+          "order": 21
+        },
+        "onBehalfCompanyTitle": {
+          "order": 22
         },
         "owner": {
           "invisible": false,
-          "order": 17
+          "order": 23
         },
         "phoneNumber": {
           "invisible": true,
-          "order": 18
+          "order": 24
         },
         "profileImage": {
           "invisible": false,
-          "order": 19
+          "order": 25
         },
         "referralCompanyUser": {
-          "order": 20
+          "order": 26
         },
         "referralInvestor": {
-          "order": 32
+          "order": 27
         },
         "referralMentor": {
-          "order": 21
+          "order": 28
         },
         "referralProgrammePartner": {
-          "order": 22
+          "order": 29
         },
         "referredBy": {
-          "order": 31
+          "order": 30
         },
         "saveButton": {
-          "order": 23
+          "order": 31
         },
         "secondName": {
           "invisible": false,
-          "order": 24
+          "order": 32
         },
         "state": {
           "invisible": true,
-          "order": 25
+          "order": 33
         },
         "submit": {
           "invisible": true,
-          "order": 26
+          "order": 34
         },
         "submitPressed": {
-          "order": 27
+          "order": 35
+        },
+        "submitTitle": {
+          "order": 36
         },
         "user": {
           "invisible": true,
-          "order": 28
+          "order": 37
         },
         "userApproval": {
-          "order": 29
+          "order": 38
         },
         "userRejected": {
-          "order": 30
+          "order": 39
         }
       },
       "roles": [
@@ -1849,109 +2246,130 @@
         "approvalMessage1": {
           "order": 3
         },
+        "companyLogo": {
+          "order": 4
+        },
+        "companyName": {
+          "order": 5
+        },
+        "companySummary": {
+          "order": 6
+        },
+        "companyWebsite": {
+          "order": 7
+        },
         "createdDate": {
           "invisible": false,
-          "order": 4
+          "order": 8
         },
         "dateOfBirth": {
           "invisible": true,
-          "order": 5
+          "order": 9
         },
         "hideDOB": {
-          "order": 6
+          "order": 10
         },
         "investorApproval": {
           "invisible": true,
-          "order": 7
+          "order": 11
         },
-        "investorTypes": {
-          "order": 8
+        "investorType": {
+          "order": 12
         },
         "isApproved": {
           "invisible": false,
-          "order": 9
+          "order": 13
         },
         "lastEditDate": {
           "invisible": true,
-          "order": 10
+          "order": 14
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": 11
+          "order": 15
         },
         "layout": {
-          "order": 12
+          "order": 16
         },
         "linkedInProfileLink": {
           "invisible": true,
-          "order": 13
+          "order": 17
         },
         "location": {
           "invisible": true,
-          "order": 14
+          "order": 18
         },
         "name": {
           "invisible": false,
-          "order": 15
+          "order": 19
         },
         "nextEvents": {
           "invisible": true,
-          "order": 16
+          "order": 20
+        },
+        "onBehalfCompany": {
+          "order": 21
+        },
+        "onBehalfCompanyTitle": {
+          "order": 22
         },
         "owner": {
           "invisible": false,
-          "order": 17
+          "order": 23
         },
         "phoneNumber": {
           "invisible": true,
-          "order": 18
+          "order": 24
         },
         "profileImage": {
           "invisible": false,
-          "order": 19
+          "order": 25
         },
         "referralCompanyUser": {
-          "order": 20
+          "order": 26
         },
         "referralInvestor": {
-          "order": 32
+          "order": 27
         },
         "referralMentor": {
-          "order": 21
+          "order": 28
         },
         "referralProgrammePartner": {
-          "order": 22
+          "order": 29
         },
         "referredBy": {
-          "order": 31
+          "order": 30
         },
         "saveButton": {
-          "order": 23
+          "order": 31
         },
         "secondName": {
           "invisible": false,
-          "order": 24
+          "order": 32
         },
         "state": {
           "invisible": true,
-          "order": 25
+          "order": 33
         },
         "submit": {
           "invisible": true,
-          "order": 26
+          "order": 34
         },
         "submitPressed": {
-          "order": 27
+          "order": 35
+        },
+        "submitTitle": {
+          "order": 36
         },
         "user": {
           "invisible": true,
-          "order": 28
+          "order": 37
         },
         "userApproval": {
-          "order": 29
+          "order": 38
         },
         "userRejected": {
-          "order": 30
+          "order": 39
         }
       },
       "roles": [
@@ -1974,107 +2392,128 @@
         "approvalMessage1": {
           "order": 3
         },
+        "companyLogo": {
+          "order": 4
+        },
+        "companyName": {
+          "order": 5
+        },
+        "companySummary": {
+          "order": 6
+        },
+        "companyWebsite": {
+          "order": 7
+        },
         "createdDate": {
           "invisible": false,
-          "order": 4
+          "order": 8
         },
         "dateOfBirth": {
           "invisible": false,
-          "order": 5
+          "order": 9
         },
         "hideDOB": {
-          "order": 6
+          "order": 10
         },
         "investorApproval": {
-          "order": 7
+          "order": 11
         },
-        "investorTypes": {
-          "order": 8
+        "investorType": {
+          "order": 12
         },
         "isApproved": {
           "invisible": false,
-          "order": 9
+          "order": 13
         },
         "lastEditDate": {
           "invisible": false,
-          "order": 10
+          "order": 14
         },
         "lastEditedBy": {
           "invisible": false,
-          "order": 11
+          "order": 15
         },
         "layout": {
-          "order": 12
+          "order": 16
         },
         "linkedInProfileLink": {
           "invisible": false,
-          "order": 13
+          "order": 17
         },
         "location": {
           "invisible": false,
-          "order": 14
+          "order": 18
         },
         "name": {
           "invisible": false,
-          "order": 15
+          "order": 19
         },
         "nextEvents": {
           "invisible": true,
-          "order": 16
+          "order": 20
+        },
+        "onBehalfCompany": {
+          "order": 21
+        },
+        "onBehalfCompanyTitle": {
+          "order": 22
         },
         "owner": {
           "invisible": false,
-          "order": 17
+          "order": 23
         },
         "phoneNumber": {
           "invisible": false,
-          "order": 18
+          "order": 24
         },
         "profileImage": {
           "invisible": false,
-          "order": 19
+          "order": 25
         },
         "referralCompanyUser": {
-          "order": 20
+          "order": 26
         },
         "referralInvestor": {
-          "order": 32
+          "order": 27
         },
         "referralMentor": {
-          "order": 21
+          "order": 28
         },
         "referralProgrammePartner": {
-          "order": 22
+          "order": 29
         },
         "referredBy": {
-          "order": 31
+          "order": 30
         },
         "saveButton": {
-          "order": 23
+          "order": 31
         },
         "secondName": {
           "invisible": false,
-          "order": 24
+          "order": 32
         },
         "state": {
           "invisible": true,
-          "order": 25
+          "order": 33
         },
         "submit": {
           "invisible": true,
-          "order": 26
+          "order": 34
         },
         "submitPressed": {
-          "order": 27
+          "order": 35
+        },
+        "submitTitle": {
+          "order": 36
         },
         "user": {
-          "order": 28
+          "order": 37
         },
         "userApproval": {
-          "order": 29
+          "order": 38
         },
         "userRejected": {
-          "order": 30
+          "order": 39
         }
       },
       "roles": [
@@ -2097,108 +2536,129 @@
         "approvalMessage1": {
           "order": 3
         },
+        "companyLogo": {
+          "order": 4
+        },
+        "companyName": {
+          "order": 5
+        },
+        "companySummary": {
+          "order": 6
+        },
+        "companyWebsite": {
+          "order": 7
+        },
         "createdDate": {
           "invisible": false,
-          "order": 4
+          "order": 8
         },
         "dateOfBirth": {
           "invisible": true,
-          "order": 5
+          "order": 9
         },
         "hideDOB": {
-          "order": 6
+          "order": 10
         },
         "investorApproval": {
-          "order": 7
+          "order": 11
         },
-        "investorTypes": {
-          "order": 8
+        "investorType": {
+          "order": 12
         },
         "isApproved": {
           "invisible": true,
-          "order": 9
+          "order": 13
         },
         "lastEditDate": {
           "invisible": true,
-          "order": 10
+          "order": 14
         },
         "lastEditedBy": {
           "invisible": true,
-          "order": 11
+          "order": 15
         },
         "layout": {
-          "order": 12
+          "order": 16
         },
         "linkedInProfileLink": {
           "invisible": true,
-          "order": 13
+          "order": 17
         },
         "location": {
           "invisible": true,
-          "order": 14
+          "order": 18
         },
         "name": {
           "invisible": false,
-          "order": 15
+          "order": 19
         },
         "nextEvents": {
           "invisible": true,
-          "order": 16
+          "order": 20
+        },
+        "onBehalfCompany": {
+          "order": 21
+        },
+        "onBehalfCompanyTitle": {
+          "order": 22
         },
         "owner": {
           "invisible": false,
-          "order": 17
+          "order": 23
         },
         "phoneNumber": {
           "invisible": true,
-          "order": 18
+          "order": 24
         },
         "profileImage": {
           "invisible": false,
-          "order": 19
+          "order": 25
         },
         "referralCompanyUser": {
-          "order": 20
+          "order": 26
         },
         "referralInvestor": {
-          "order": 32
+          "order": 27
         },
         "referralMentor": {
-          "order": 21
+          "order": 28
         },
         "referralProgrammePartner": {
-          "order": 22
+          "order": 29
         },
         "referredBy": {
-          "order": 31
+          "order": 30
         },
         "saveButton": {
-          "order": 23
+          "order": 31
         },
         "secondName": {
           "invisible": false,
-          "order": 24
+          "order": 32
         },
         "state": {
           "invisible": true,
-          "order": 25
+          "order": 33
         },
         "submit": {
           "invisible": true,
-          "order": 26
+          "order": 34
         },
         "submitPressed": {
-          "order": 27
+          "order": 35
+        },
+        "submitTitle": {
+          "order": 36
         },
         "user": {
           "invisible": true,
-          "order": 28
+          "order": 37
         },
         "userApproval": {
-          "order": 29
+          "order": 38
         },
         "userRejected": {
-          "order": 30
+          "order": 39
         }
       },
       "roles": [

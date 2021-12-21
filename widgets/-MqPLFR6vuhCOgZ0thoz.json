@@ -1,0 +1,15 @@
+{
+  "container": "-MqOoNElM8Wh06Rhsr-t",
+  "gsOptions": {
+    "h": 2,
+    "w": 6,
+    "x": 11,
+    "y": 4
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "subTab": "-Mj-Q3txJ5KcUXArNJy5",
+  "subtab": "-Mj-Q3txJ5KcUXArNJy5",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "    <p style=\"margin-bottom: 0px;\">Session Length: </p>\r\n\r\n    <p v-if=\"row.sDate\">{{row.$sessionDurationLength$display}}</p>\r\n"
+}

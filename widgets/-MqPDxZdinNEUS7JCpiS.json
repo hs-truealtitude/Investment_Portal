@@ -1,0 +1,15 @@
+{
+  "container": "-MqOoNElM8Wh06Rhsr-t",
+  "gsOptions": {
+    "h": 2,
+    "w": 16,
+    "x": 4,
+    "y": 0
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "subTab": "-Mj-Q3txJ5KcUXArNJy5",
+  "subtab": "-Mj-Q3txJ5KcUXArNJy5",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<h1 style=\"margin-top:22px;\" v-if=\"row.name\">{{row.name}}</h1>"
+}

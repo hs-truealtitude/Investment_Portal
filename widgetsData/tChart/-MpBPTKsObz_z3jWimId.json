@@ -1,6 +1,12 @@
 {
   "chartName": "Sessions Happened within Cohort",
   "chartType": "pie",
+  "colorPalette": {
+    "colorPalette": {
+      "label": "Red",
+      "value": "red"
+    }
+  },
   "datalabels": {
     "hidden": false
   },

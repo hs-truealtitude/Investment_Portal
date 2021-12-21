@@ -58,3 +58,6 @@
     word-wrap: break-word;
 }
 
+#sessionModal .modal-footer{
+    display: none !important;
+}

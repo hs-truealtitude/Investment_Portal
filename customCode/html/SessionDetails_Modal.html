@@ -1,0 +1,6 @@
+  <b-modal class="sessionModal" id="sessionModal" centered>
+    <div v-for='row in getSessionDetailsRowModal'>
+      <h1 v-if="row.name" style="padding-top: -100px;" class="">{{row.name}}</h1>
+      <p v-if="row.notes"> {{row.notes}} </p>
+    </div>
+  </b-modal>

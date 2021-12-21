@@ -683,3 +683,12 @@ body{
 .sessionCard .date span{
     color: #ef4437;
 }
+
+.sessionNotesLink{
+    font-family: 'Grenette pro', sans-serif;   
+}
+
+.sessionNotesLink:hover{
+    color: #ef4437 !important;
+    cursor: pointer;
+}

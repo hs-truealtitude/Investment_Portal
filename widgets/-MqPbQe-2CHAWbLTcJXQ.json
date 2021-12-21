@@ -1,0 +1,42 @@
+{
+  "autoHeight": true,
+  "classes": "",
+  "columnCount": 1,
+  "columnMaxWidth": "320",
+  "columnMinWidth": "320",
+  "container": "-MjTbLKL1cucgRjhgPYS",
+  "containerTabsCardList": [
+    {
+      "key": "-MqPbYMUJ_Gzt8f0MMug",
+      "title": "Page Name"
+    }
+  ],
+  "containerTabsCardListDetail": [
+    {
+      "key": "-MqPbYMUJ_Gzt8f0MMuh",
+      "title": "Page Name"
+    }
+  ],
+  "dataSource": "sessions",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 8,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "isCardListDetailTabsHidden": true,
+  "isCardListTabsHidden": true,
+  "itemsPerPage": 20,
+  "overflow": "height: auto;",
+  "styles": "",
+  "subtab": "-MW45ehLM2LrwcrP_xZ7",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "",
+  "title": "",
+  "type": "card-list",
+  "useContainerForDetail": true,
+  "useContainerForList": true,
+  "viewOfGrid": "myBookedSessions",
+  "widthType": "minAndMaxWidth"
+}

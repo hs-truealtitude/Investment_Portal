@@ -10,6 +10,11 @@ return function(accountType, rowKey){
         $setUser('selectedImageType', "Investor")
     }
 
+    if(accountType == "InvestorCompanyLogo"){
+        $setUser('selectedImageRowKey', rowKey)
+        $setUser('selectedImageType', "InvestorCompanyLogo")
+    }
+
     if(accountType == "CompanyUser"){
         $setUser('selectedImageRowKey', rowKey)
         $setUser('selectedImageType', "CompanyUser")

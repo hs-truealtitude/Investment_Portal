@@ -9,8 +9,8 @@
         "id": "node1636108940708",
         "x": 231.16,
         "y": 308.82,
-        "width": 104,
-        "height": 41,
+        "width": 191,
+        "height": 65,
         "attachment": {},
         "name": "start-event",
         "clazz": "startEvent",
@@ -24,8 +24,8 @@
         "id": "node1636127966359",
         "x": 838.92,
         "y": 308.68,
-        "width": 107,
-        "height": 41,
+        "width": 191,
+        "height": 65,
         "attachment": {
           "script": "const authLinkGenerated = await generateAuthLink({\r\n    redirectUrl: '/dashboard/-MhsbxHaHHybrPYZ2mCu?tab=-MmIIsHE-irxCHjAxrNf&subtab=-Mo4I1BPB1KsiCralyP6',\r\n    origin: data.origin,\r\n    rowKey: data.rowKey,\r\n})\r\n\r\nconst { user } = authLinkGenerated\r\n\r\n\r\nif (user) {\r\n    await addUser({\r\n      uid: user.uid,\r\n      dashboard: data.dashboard,\r\n      rules: { read: true },\r\n    })\r\n}\r\n\r\ncontext.data.authLinkGenerated = authLinkGenerated\r\n"
         },
@@ -56,8 +56,8 @@
       }
     ],
     "transform": {
-      "x": -17.668592334056086,
-      "y": -116.08310607883652,
+      "x": -671.668592334056,
+      "y": -128.08310607883652,
       "scale": 0.9466182549099933
     }
   },

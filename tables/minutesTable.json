@@ -515,15 +515,5 @@
     "name": "TEST",
     "owner": "w5X7O3SKChceASnyn15NjDxlOZb2",
     "rowKey": "-MnyryjBpp8DHICQkPEc"
-  },
-  "-MoERkXTI8kjQqfFmMUz": {
-    "_id": 53,
-    "createdDate": 1636641736701,
-    "group": "-McJIcqzO6NQgxEStbY6,-MoERkQoJiV6JLUBHtj5",
-    "lastEditDate": 1636641736701,
-    "lastEditedBy": "bCKrH0gXIoTR4cbDUFcxQxUIK3e2",
-    "name": "Education Equation",
-    "owner": "bCKrH0gXIoTR4cbDUFcxQxUIK3e2",
-    "rowKey": "-MoERkXTI8kjQqfFmMUz"
   }
 }

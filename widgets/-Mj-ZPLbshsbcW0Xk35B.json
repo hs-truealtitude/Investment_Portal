@@ -3,7 +3,7 @@
   "classes": "",
   "detailTemplate": "",
   "gsOptions": {
-    "h": 5,
+    "h": 6,
     "w": 22,
     "x": 1,
     "y": 3
@@ -17,6 +17,6 @@
   "styles": "",
   "subtab": "-Mj-Q3txJ5KcUXArNJy5",
   "tab": "-MJq8S1suwASZ84EkCd5",
-  "template": "<div class=\"cohortData\" style=\"\">\r\n  <center>\r\n    <h1 style=\"margin-top: 20px;  font-size: 2.9em;  text-decoration-color: #ef4437;;\">{{$getUser('activeCohortName')}}</h1>\r\n  </center>\r\n\r\n  <div class=\"row\" style=\"margin-top: 30px; color:black; \">\r\n\r\n    <div class=\"col\">\r\n      <b-card class=\"cohortStat\">\r\n        <center>\r\n          <h1> Investors </h1>\r\n          <h1 class=\"stat\" style=\"font-size: 2.5em;\">{{cohortCountInvestors()}}</h1>\r\n        </center>\r\n      </b-card>\r\n    </div>\r\n\r\n    <div class=\"col\">\r\n    <b-card class=\"cohortStat\">\r\n      <center>\r\n        <h1> Companies </h1>\r\n        <h1 class=\"stat\" style=\"font-size: 2.5em;\">{{cohortCountCompanies()}}</h1>\r\n      </center>\r\n    </b-card>\r\n    </div>\r\n\r\n    <div v-if=\"$getUser('accountType') == 'ProgrammePartner'\" class=\"col\">\r\n      <b-card class=\"cohortStat\">\r\n      <center>\r\n        <h1> Indirect Investors </h1>\r\n        <h1 class=\"stat\" style=\"font-size: 2.5em;\">{{cohortCountMentors()}}</h1>\r\n      </center>\r\n      </b-card>\r\n    </div>\r\n\r\n  </div>\r\n\r\n</div>",
+  "template": "<div class=\"cohortData\" style=\"\">\r\n  <center>\r\n    <h1 style=\"margin-top: 20px;  font-size: 2.9em;  text-decoration-color: #ef4437;;\">{{$getUser('activeCohortName')}}</h1>\r\n  </center>\r\n\r\n  <div class=\"row\" style=\"margin-top: 30px; color:black; \">\r\n\r\n    <div class=\"col\">\r\n      <b-card class=\"cohortStat\">\r\n        <center>\r\n          <h1> Investors </h1>\r\n          <h1 class=\"stat\" style=\"font-size: 2.5em;\">{{cohortCountInvestors()}}</h1>\r\n        </center>\r\n      </b-card>\r\n    </div>\r\n\r\n    <div class=\"col\">\r\n    <b-card class=\"cohortStat\">\r\n      <center>\r\n        <h1> Companies </h1>\r\n        <h1 class=\"stat\" style=\"font-size: 2.5em;\">{{cohortCountCompanies()}}</h1>\r\n      </center>\r\n    </b-card>\r\n    </div>\r\n\r\n    <div class=\"col\">\r\n      <b-card class=\"cohortStat\">\r\n      <center>\r\n        <h1> Indirect Investors </h1>\r\n        <h1 class=\"stat\" style=\"font-size: 2.5em;\">{{cohortCountMentors()}}</h1>\r\n      </center>\r\n      </b-card>\r\n    </div>\r\n\r\n  </div>\r\n\r\n</div>",
   "title": ""
 }

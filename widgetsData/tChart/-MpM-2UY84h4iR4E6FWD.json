@@ -3,8 +3,8 @@
   "chartType": "donut",
   "colorPalette": {
     "colorPalette": {
-      "label": "Default",
-      "value": "default"
+      "label": "Red",
+      "value": "red"
     }
   },
   "datalabels": {

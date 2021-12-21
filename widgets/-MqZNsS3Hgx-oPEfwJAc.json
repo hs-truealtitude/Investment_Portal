@@ -1,0 +1,42 @@
+{
+  "autoHeight": true,
+  "classes": "",
+  "columnCount": 1,
+  "columnMaxWidth": "320",
+  "columnMinWidth": "320",
+  "container": "-MjZIRdCClhLQapDKhP6",
+  "containerTabsCardList": [
+    {
+      "key": "-MqZNxshmQpFyg6kAhh9",
+      "title": "Page Name"
+    }
+  ],
+  "containerTabsCardListDetail": [
+    {
+      "key": "-MqZNxshmQpFyg6kAhhA",
+      "title": "Page Name"
+    }
+  ],
+  "dataSource": "sessions",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 25,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "isCardListDetailTabsHidden": true,
+  "isCardListTabsHidden": true,
+  "offSet": 0,
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-MW45ehLM2LrwcrP_xZ7",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "",
+  "title": "",
+  "type": "card-list",
+  "useContainerForDetail": true,
+  "useContainerForList": true,
+  "viewOfGrid": "oldSessionsCompanyUser",
+  "widthType": "minAndMaxWidth"
+}

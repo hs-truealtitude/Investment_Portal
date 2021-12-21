@@ -28,12 +28,32 @@
       "order": 3,
       "type": "custom"
     },
+    "companyLogo": {
+      "displayName": "companyLogo",
+      "order": 51,
+      "type": "profile_image"
+    },
+    "companyName": {
+      "displayName": "companyName",
+      "order": 52,
+      "type": "string"
+    },
     "companyStage": {
       "displayName": "Company Stage",
       "invisible": true,
       "lookUpTable": "stage",
       "order": 4,
       "type": "multi_lookup"
+    },
+    "companySummary": {
+      "displayName": "companySummary",
+      "order": 53,
+      "type": "multiline_text"
+    },
+    "companyWebsite": {
+      "displayName": "companyWebsite",
+      "order": 54,
+      "type": "string"
     },
     "createdDate": {
       "displayName": "Created Date",
@@ -161,6 +181,16 @@
       "displayName": "note",
       "invisible": true,
       "order": 24,
+      "type": "custom"
+    },
+    "onBehalfCompany": {
+      "displayName": "onBehalfCompany",
+      "order": 49,
+      "type": "checkbox"
+    },
+    "onBehalfCompanyTitle": {
+      "displayName": "onBehalfCompanyTitle",
+      "order": 50,
       "type": "custom"
     },
     "owner": {
@@ -709,6 +739,265 @@
                 "lookupOpenInModalDisabled": false,
                 "propName": "location",
                 "ableToAddLookUpVal": true,
+                "gridId": "mentors"
+              },
+              {
+                "type": "checkbox",
+                "name": "control_b96233e0-5f3c-11ec-82a1-4f741cb4296d",
+                "fieldName": "control_b96233e0-5f3c-11ec-82a1-4f741cb4296d",
+                "label": "Are you representing an organisation/company as a decision maker in investments?",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "rowData.owner != fbUser.uid",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "rowData.onBehalfCompany != true",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "onBehalfCompany",
+                "gridId": "mentors",
+                "description": "Check the box above if you would like to showcase the company you here on behalf of."
+              },
+              {
+                "type": "custom",
+                "name": "control_d6556580-5f3c-11ec-82a1-4f741cb4296d",
+                "fieldName": "control_d6556580-5f3c-11ec-82a1-4f741cb4296d",
+                "label": "onBehalfCompanyTitle",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<h2> Organisation/Company Details </h2>",
+                "invisible": true,
+                "invisibleCondition": "rowData.onBehalfCompany != true",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "onBehalfCompanyTitle",
+                "gridId": "mentors"
+              },
+              {
+                "type": "profile_image",
+                "name": "control_131faed0-5f3d-11ec-82a1-4f741cb4296d",
+                "fieldName": "control_131faed0-5f3d-11ec-82a1-4f741cb4296d",
+                "label": "Organisation/Company Logo",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "rowData.onBehalfCompany != true",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companyLogo",
+                "gridId": "mentors"
+              },
+              {
+                "type": "text",
+                "name": "control_23596e30-5f3d-11ec-82a1-4f741cb4296d",
+                "fieldName": "control_23596e30-5f3d-11ec-82a1-4f741cb4296d",
+                "label": "Organisation/Company Name",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "rowData.owner != fbUser.uid",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "rowData.onBehalfCompany != true",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companyName",
+                "gridId": "mentors"
+              },
+              {
+                "type": "multiline_text",
+                "name": "control_3639bc80-5f3d-11ec-82a1-4f741cb4296d",
+                "fieldName": "control_3639bc80-5f3d-11ec-82a1-4f741cb4296d",
+                "label": "Organisation/Company Summary",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "rowData.owner != fbUser.uid",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "rowData.onBehalfCompany != true",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companySummary",
+                "gridId": "mentors"
+              },
+              {
+                "type": "text",
+                "name": "control_4af31090-5f3d-11ec-82a1-4f741cb4296d",
+                "fieldName": "control_4af31090-5f3d-11ec-82a1-4f741cb4296d",
+                "label": "Organisation/Company Website",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": true,
+                "readonlyCondition": "rowData.owner != fbUser.uid",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": true,
+                "invisibleCondition": "rowData.onBehalfCompany != true",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "companyWebsite",
                 "gridId": "mentors"
               },
               {
@@ -2412,7 +2701,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.46116434777049986
+    "_uniqueId": 0.1414330418588139
   },
   "source": "mentors",
   "storageType": "dashboard",
@@ -2437,9 +2726,21 @@
           "invisible": true,
           "order": 3
         },
+        "companyLogo": {
+          "order": 51
+        },
+        "companyName": {
+          "order": 52
+        },
         "companyStage": {
           "invisible": true,
           "order": 4
+        },
+        "companySummary": {
+          "order": 53
+        },
+        "companyWebsite": {
+          "order": 54
         },
         "createdDate": {
           "invisible": false,
@@ -2511,6 +2812,12 @@
         },
         "note": {
           "order": 23
+        },
+        "onBehalfCompany": {
+          "order": 49
+        },
+        "onBehalfCompanyTitle": {
+          "order": 50
         },
         "owner": {
           "invisible": false,
@@ -2621,9 +2928,21 @@
           "invisible": true,
           "order": 3
         },
+        "companyLogo": {
+          "order": 51
+        },
+        "companyName": {
+          "order": 52
+        },
         "companyStage": {
           "invisible": true,
           "order": 4
+        },
+        "companySummary": {
+          "order": 53
+        },
+        "companyWebsite": {
+          "order": 54
         },
         "createdDate": {
           "invisible": true,
@@ -2700,6 +3019,12 @@
         "note": {
           "invisible": true,
           "order": 23
+        },
+        "onBehalfCompany": {
+          "order": 49
+        },
+        "onBehalfCompanyTitle": {
+          "order": 50
         },
         "owner": {
           "invisible": true,
@@ -2816,9 +3141,21 @@
         "approvalMessage1": {
           "order": 3
         },
+        "companyLogo": {
+          "order": 51
+        },
+        "companyName": {
+          "order": 52
+        },
         "companyStage": {
           "invisible": false,
           "order": 4
+        },
+        "companySummary": {
+          "order": 53
+        },
+        "companyWebsite": {
+          "order": 54
         },
         "createdDate": {
           "invisible": false,
@@ -2880,6 +3217,12 @@
         },
         "note": {
           "order": 23
+        },
+        "onBehalfCompany": {
+          "order": 49
+        },
+        "onBehalfCompanyTitle": {
+          "order": 50
         },
         "owner": {
           "invisible": false,
@@ -2983,9 +3326,21 @@
           "invisible": true,
           "order": 3
         },
+        "companyLogo": {
+          "order": 51
+        },
+        "companyName": {
+          "order": 52
+        },
         "companyStage": {
           "invisible": true,
           "order": 4
+        },
+        "companySummary": {
+          "order": 53
+        },
+        "companyWebsite": {
+          "order": 54
         },
         "createdDate": {
           "invisible": false,
@@ -3063,6 +3418,12 @@
         "note": {
           "invisible": true,
           "order": 24
+        },
+        "onBehalfCompany": {
+          "order": 49
+        },
+        "onBehalfCompanyTitle": {
+          "order": 50
         },
         "owner": {
           "invisible": false,

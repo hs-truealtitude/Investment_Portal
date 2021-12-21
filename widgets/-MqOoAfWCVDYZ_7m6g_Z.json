@@ -1,0 +1,43 @@
+{
+  "autoHeight": true,
+  "classes": "",
+  "columnCount": 1,
+  "columnMaxWidth": "320",
+  "columnMinWidth": "320",
+  "containerTabsCardList": [
+    {
+      "key": "-MqOoNElM8Wh06Rhsr-s",
+      "title": "Page Name"
+    }
+  ],
+  "containerTabsCardListDetail": [
+    {
+      "key": "-MqOoNElM8Wh06Rhsr-t",
+      "title": "Page Name"
+    }
+  ],
+  "dataSource": "sessions",
+  "detailTemplate": "",
+  "gsOptions": {
+    "h": 8,
+    "w": 24,
+    "x": 0,
+    "y": 105
+  },
+  "isCardListDetailTabsHidden": true,
+  "isCardListTabsHidden": true,
+  "itemsPerPage": 20,
+  "offSet": 0,
+  "overflow": "height: auto;",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-Mj-Q3txJ5KcUXArNJy5",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "",
+  "title": "All Sessions Booked within Cohort",
+  "type": "card-list",
+  "useContainerForDetail": true,
+  "useContainerForList": true,
+  "viewOfGrid": "myCohortAllSessions",
+  "widthType": "minAndMaxWidth"
+}

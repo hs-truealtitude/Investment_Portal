@@ -1,13 +1,8 @@
 {
-  "accountType": "Mentor",
-  "activeCohort": "-MqK6lwHteScTbiGXNiw",
-  "activeCohortRowKey": "-MqK6lwHteScTbiGXNiw",
-  "activeUserFirstName": "True",
-  "activeUserSecondName": "Altitude",
+  "accountType": "NONE",
+  "activeUserFirstName": "TEST",
+  "activeUserSecondName": "TEST",
   "cookieConsent": "true",
   "hideBack": "YES",
-  "profileID": "-MqK3F_U4ttPyx33Ny7I",
-  "referralAccountType": "Mentor",
-  "referralRowKey": "-MqK3F_U4ttPyx33Ny7I",
-  "updatesRead": true
+  "profileID": "-MlsqfmMkMGy5AUNY2XV"
 }

@@ -21,9 +21,7 @@
 .signOut:hover .tooltiptext {
   visibility: visible;
   margin-top: 20px;
-
 }
-
 
 .bug .tooltiptext {
   visibility: hidden;
@@ -190,6 +188,152 @@
   position: absolute;
   z-index: 1;
 
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+}
+
+/* Investor Organisation Logo */
+.investorCompanyLogo .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+  top: 8px;
+  width: auto;
+  right: 30px;
+}
+
+.investorCompanyLogo:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 20px;
+
+}
+
+/*Session Card Company Tag*/
+.companyImage:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -50px;
+}
+
+.companyImage .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  right: 110px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+}
+
+/*Company User Card Tag*/
+.companyUser:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -50px;
+}
+
+.companyUser .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  right: 110px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+}
+
+/*Session Card Mentor Tag*/
+.mentorImage:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -50px;
+}
+
+.mentorImage .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  right: 60px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+}
+
+/*Session Response Tag*/
+.responseNotice:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -180px;
+}
+
+.responseNotice .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  right: 110px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+}
+
+/*Session Company User Response Tag*/
+.responseNoticeCompanyUser:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -190px;
+}
+
+.responseNoticeCompanyUser .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  right: 110px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
   justify-content: center;
 }

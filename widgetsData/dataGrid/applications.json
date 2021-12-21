@@ -188,6 +188,11 @@
       "order": 50,
       "type": "custom"
     },
+    "mentorMentorNotice": {
+      "displayName": "mentorMentorNotice",
+      "order": 51,
+      "type": "custom"
+    },
     "mentorOwner": {
       "displayName": "mentorOwner",
       "invisible": false,
@@ -468,7 +473,7 @@
                 "vif": "",
                 "customCode": "<center v-if=\"rowData.$investor\">\r\n  <b-card style=\"padding: 20px !important;\"  class=\"mcard\">\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n  </div>\r\n  <center><img v-if=\"rowData.$investor.profileImage\" :src=\"$getDashboardModel('investorProfiles')[rowData.investor].profileImage.url\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span v-if=\"rowData.$investor.name && rowData.$investor.secondName\" class=\"d-block mb-1\">{{rowData.$investor.name}} {{rowData.$investor.secondName}} </span>\r\n      <small id=\"about\" class=\"\"></small>\r\n </h5>\r\n\r\n       <div v-if=\"rowData.$investor.linkedInProfileLink\" class=\"row justify-content-center\">\r\n\r\n      <a :href=\"rowData.$investor.linkedInProfileLink\" target=\"_blank\">\r\n        <div v-if=\"rowData.$investor.linkedInProfileLink\" class=\"social-icon-contain\">\r\n        <i v-if=\"rowData.$investor.linkedInProfileLink\" style=\"padding: 5px;\" class=\"fab fa-linkedin\"></i>\r\n        </div>\r\n     </a>\r\n       </div>\r\n\r\n  </div>\r\n</div>\r\n</b-card>\r\n</center>\r\n",
                 "invisible": true,
-                "invisibleCondition": "rowData.name==\"Mentor->CompanyUser(Programme)\" || rowData.name==\"CompanyUser->Mentor(Programme)\" || rowData.name == \"ProgrammePartner->CompanyUser(Programme)\" || rowData.name == \"ProgrammePartner->Mentor(Programme)\" || rowData.name == 'Mentor->CompanyUser(inCohort)' || rowData.name == 'CompanyUser->Mentor(inCohort)' || rowData.name == \"ProgrammePartner->CompanyUser\" ||  rowData.name == \"ProgrammePartner->Mentor\" || $getUser('accountType') == 'Investor' || rowData.name == 'Mentor->CompanyUser'  || rowData.name == 'CompanyUser->Mentor'",
+                "invisibleCondition": "rowData.name==\"Mentor->Mentor\" || rowData.name==\"Mentor->CompanyUser(Programme)\" || rowData.name==\"CompanyUser->Mentor(Programme)\" || rowData.name == \"ProgrammePartner->CompanyUser(Programme)\" || rowData.name == \"ProgrammePartner->Mentor(Programme)\" || rowData.name == 'Mentor->CompanyUser(inCohort)' || rowData.name == 'CompanyUser->Mentor(inCohort)' || rowData.name == \"ProgrammePartner->CompanyUser\" ||  rowData.name == \"ProgrammePartner->Mentor\" || $getUser('accountType') == 'Investor' || rowData.name == 'Mentor->CompanyUser'  || rowData.name == 'CompanyUser->Mentor'",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
@@ -596,7 +601,7 @@
                 "vif": "",
                 "customCode": "<center v-if=\"rowData.$programmePartnerOwner\">\r\n  <b-card style=\"padding: 20px !important;\"  class=\"mcard\">\r\n<div class=\"card-body\" style=\"max-width: 100%;\">\r\n  <div class=\"row\">\r\n\r\n  </div>\r\n  <center><img v-if=\"rowData.$programmePartnerOwner.profileImage\" :src=\"$getDashboardModel('programmePartnerProfiles')[rowData.programmePartnerOwner].profileImage.url\" style=\"border-radius: 15px; max-width:100px  \" /> </center>\r\n  <a href=\"#!\">\r\n  </a>\r\n  <div class=\"pt-4 text-center\">\r\n    <h5 class=\"h3 title\">\r\n      <span v-if=\"rowData.$programmePartnerOwner.name && rowData.$programmePartnerOwner.secondName\" class=\"d-block mb-1\">{{rowData.$programmePartnerOwner.name}} {{rowData.$programmePartnerOwner.secondName}} </span>\r\n      <small id=\"about\" class=\"\"></small>\r\n\r\n\r\n </h5>\r\n\r\n       <div v-if=\"rowData.$programmePartnerOwner.linkedInProfileLink\" class=\"row justify-content-center\">\r\n\r\n      <a :href=\"rowData.$programmePartnerOwner.linkedInProfileLink\" target=\"_blank\">\r\n        <div v-if=\"rowData.$programmePartnerOwner.linkedInProfileLink\" class=\"social-icon-contain\">\r\n        <i v-if=\"rowData.$programmePartnerOwner.linkedInProfileLink\" style=\"padding: 5px;\" class=\"fab fa-linkedin\"></i>\r\n        </div>\r\n     </a>\r\n       </div>\r\n\r\n  </div>\r\n</div>\r\n</b-card>\r\n</center>\r\n",
                 "invisible": true,
-                "invisibleCondition": "(rowData.name == \"ProgrammePartner->Investor(Programme)\" && $getUser('accountType') == \"ProgrammePartner\") || rowData.name==\"Mentor->CompanyUser(Programme)\" || rowData.name==\"CompanyUser->Mentor(Programme)\" || (rowData.name == \"ProgrammePartner->CompanyUser(Programme)\" && $getUser('accountType') == \"ProgrammePartner\") || (rowData.name == \"ProgrammePartner->Mentor(Programme)\" && $getUser('accountType') == \"ProgrammePartner\") || rowData.name == 'Mentor->CompanyUser(inCohort)' || rowData.name == 'CompanyUser->Mentor(inCohort)' || rowData.name == \"Investor->CompanyUser\" || rowData.name == 'CompanyUser->Mentor' || (rowData.name == 'ProgrammePartner->Mentor' && $getUser('accountType') == 'ProgrammePartner') || rowData.name == 'Mentor->CompanyUser' || rowData.name == 'Mentor->Investor' || (rowData.name == 'ProgrammePartner->CompanyUser' && $getUser('accountType') == \"ProgrammePartner\") || (rowData.programmePartnerOwner == $getUser('profileID')  && rowData.name == 'ProgrammePartner->Investor')",
+                "invisibleCondition": "rowData.name==\"Mentor->Mentor\" || (rowData.name == \"ProgrammePartner->Investor(Programme)\" && $getUser('accountType') == \"ProgrammePartner\") || rowData.name==\"Mentor->CompanyUser(Programme)\" || rowData.name==\"CompanyUser->Mentor(Programme)\" || (rowData.name == \"ProgrammePartner->CompanyUser(Programme)\" && $getUser('accountType') == \"ProgrammePartner\") || (rowData.name == \"ProgrammePartner->Mentor(Programme)\" && $getUser('accountType') == \"ProgrammePartner\") || rowData.name == 'Mentor->CompanyUser(inCohort)' || rowData.name == 'CompanyUser->Mentor(inCohort)' || rowData.name == \"Investor->CompanyUser\" || rowData.name == 'CompanyUser->Mentor' || (rowData.name == 'ProgrammePartner->Mentor' && $getUser('accountType') == 'ProgrammePartner') || rowData.name == 'Mentor->CompanyUser' || rowData.name == 'Mentor->Investor' || (rowData.name == 'ProgrammePartner->CompanyUser' && $getUser('accountType') == \"ProgrammePartner\") || (rowData.programmePartnerOwner == $getUser('profileID')  && rowData.name == 'ProgrammePartner->Investor')",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
@@ -637,7 +642,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<b-card style=\"padding: 20px !important; width: 100%;\"  v-if=\"rowData.$cohort\" style=\"\" class=\"cohortCard mcard\">\r\n  <center>\r\n\r\n\r\n    <div v-if=\"rowData.$programmePartnerOwner\" class=\"containerPP\">\r\n      <img style=\"border-radius: 2px; \" class=\"profileImage\" v-if=\"rowData.$programmePartnerOwner && rowData.$programmePartnerOwner.profileImage\" :src=\"$getDashboardModel('programmePartnerProfiles')[rowData.programmePartnerOwner].profileImage.url\"></img>\r\n      <h2 v-if=\"rowData.$programmePartnerOwner\" class=\"title\">{{rowData.$programmePartnerOwner.name}} ({{rowData.$cohort.cohortOwnerType}})</h2>\r\n    </div>\r\n\r\n    <div v-if=\"rowData.$mentorOwner\" class=\"containerMentor\">\r\n      <img style=\"border-radius: 2px; \" class=\"profileImage\" v-if=\"rowData.$mentorOwner && rowData.$mentorOwner.profileImage\" :src=\"$getDashboardModel('mentors')[rowData.mentorOwner].profileImage.url\"></img>\r\n      <h2 v-if=\"rowData.$mentorOwner\" class=\"title\">{{rowData.$mentorOwner.name}} ({{rowData.$cohort.cohortOwnerType}})</h2>\r\n    </div>\r\n\r\n    <div style=\"margin-bottom: 20px;\" class=\"buttonContainer\">\r\n      <h1 style=\"padding-top: 20px !important;\" class=\"title\">{{rowData.$cohort.name}}</h1>\r\n      <div style=\"height: 210px;\">\r\n        <p style=\"margin-bottom: 20px;\" v-if=\"rowData.$cohort.cohortSummary\"> {{truncateText(rowData.$cohort.cohortSummary,200)}} </p>\r\n      </div>\r\n    </div>\r\n\r\n  </center>\r\n</b-card>\r\n",
+                "customCode": "<b-card style=\"padding: 20px !important; width: 100%;\"  v-if=\"rowData.$cohort\" style=\"\" class=\"cohortCard mcard\">\r\n  <center>\r\n\r\n\r\n    <div v-if=\"rowData.$programmePartnerOwner\" class=\"containerPP\">\r\n      <img style=\"border-radius: 2px; \" class=\"profileImage\" v-if=\"rowData.$programmePartnerOwner && rowData.$programmePartnerOwner.profileImage\" :src=\"$getDashboardModel('programmePartnerProfiles')[rowData.programmePartnerOwner].profileImage.url\"></img>\r\n      <h2 v-if=\"rowData.$programmePartnerOwner\" class=\"title\">{{rowData.$programmePartnerOwner.name}} ({{rowData.$cohort.cohortOwnerType}})</h2>\r\n    </div>\r\n\r\n    <div v-if=\"rowData.$mentorOwner\" class=\"containerMentor\">\r\n      <img style=\"border-radius: 2px; \" class=\"profileImage\" v-if=\"rowData.$mentorOwner && rowData.$mentorOwner.profileImage\" :src=\"$getDashboardModel('mentors')[rowData.mentorOwner].profileImage.url\"></img>\r\n      <h2 v-if=\"rowData.$mentorOwner\" class=\"title\">{{rowData.$mentorOwner.name}} ({{rowData.$cohort.cohortOwnerType}})</h2>\r\n    </div>\r\n\r\n  </center>\r\n</b-card>\r\n",
                 "invisible": true,
                 "invisibleCondition": "rowData.name==\"Mentor->CompanyUser(Programme)\" || rowData.name==\"CompanyUser->Mentor(Programme)\" || rowData.name == \"ProgrammePartner->CompanyUser(Programme)\" || rowData.name == \"ProgrammePartner->Investor(Programme)\" || rowData.name == \"ProgrammePartner->Mentor(Programme)\" || rowData.name == 'Mentor->CompanyUser(inCohort)' || rowData.name == 'CompanyUser->Mentor(inCohort)' || rowData.name == 'Mentor->Investor' || rowData.name == \"Investor->CompanyUser\" ||  rowData.name == 'CompanyUser->Mentor' || rowData.name == 'ProgrammePartner->Mentor' || rowData.name == 'ProgrammePartner->Investor' || rowData.name == 'ProgrammePartner->CompanyUser' || rowData.name == 'Mentor->CompanyUser' || (rowData.name == 'Mentor->Investor' && $getUser('accountType') == \"Mentor\") ",
                 "invisibleInDataGrid": true,
@@ -909,6 +914,49 @@
                 "gridId": "applications"
               },
               {
+                "type": "custom",
+                "name": "control_1e1a7ef0-5f2e-11ec-b032-5b0035e83ffa",
+                "fieldName": "control_1e1a7ef0-5f2e-11ec-b032-5b0035e83ffa",
+                "label": "mentorMentorNotice",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "<h2 v-if=\"rowData.mentorOwner == $getUser('profileID') && $getUser('accountType') == 'Mentor'\" style=\"display:inline-block;\"> Invite\r\n    <h2 v-if=\"rowData.$mentor.name\" style=\"display:inline-block;\"> {{rowData.$mentor.name}} {{rowData.$mentor.secondName}} (Mentor/Indirect Investor) </h2>\r\n    to {{rowData.$cohort.name}} (Cohort).\r\n</h2>\r\n\r\n<h2 v-if=\"rowData.mentor == $getUser('profileID') && $getUser('accountType') == 'Mentor'\" style=\"display:inline-block;\"> You have been invited to\r\n    <h2 v-if=\"rowData.$cohort.name\" style=\"display:inline-block;\"> {{rowData.$cohort.name}} (Cohort) </h2>\r\n    <h2 v-if=\"rowData.$mentorOwner && rowData.$mentorOwner.name && rowData.$mentorOwner.secondName\" style=\"display:inline-block;\"> by {{rowData.$mentorOwner.name}} {{rowData.$mentorOwner.secondName}}. </h2>\r\n</h2>",
+                "invisible": true,
+                "invisibleCondition": "rowData.name != \"Mentor->Mentor\"",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": true,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "propName": "mentorMentorNotice",
+                "gridId": "applications"
+              },
+              {
                 "type": "lookup",
                 "name": "control_lookup_650003",
                 "fieldName": "control_lookup_650003",
@@ -1097,7 +1145,7 @@
                 "value": "",
                 "className": "col-md-12",
                 "readonly": true,
-                "readonlyCondition": "(rowData.nextEvents && rowData.owner != fbUser.uid) || (rowData.name ==\"Mentor->Investor\" && $getUser('accountType') == 'Investor') || rowData.$mentorOwner == null",
+                "readonlyCondition": "(rowData.$mentor != $getUser('profileID') && rowData.name == 'Mentor->Mentor') || (rowData.nextEvents && rowData.owner != fbUser.uid) || (rowData.name ==\"Mentor->Investor\" && $getUser('accountType') == 'Investor') || rowData.$mentorOwner == null",
                 "placeholder": "",
                 "required": true,
                 "requiredCondition": "",
@@ -1188,7 +1236,7 @@
                 "value": "",
                 "className": "col-md-12",
                 "readonly": true,
-                "readonlyCondition": "(rowData.nextEvents && rowData.owner != fbUser.uid) || ($getUser('accountType') == 'CompanyUser' && rowData.name == 'Mentor->CompanyUser(inCohort)') || rowData.name != 'Mentor->Mentor' && $getUser('accountType') == 'Mentor' ",
+                "readonlyCondition": "(rowData.$mentor != $getUser('profileID') && rowData.name == 'Mentor->Mentor') || (rowData.nextEvents && rowData.owner != fbUser.uid) || ($getUser('accountType') == 'CompanyUser' && rowData.name == 'Mentor->CompanyUser(inCohort)') || rowData.name != 'Mentor->Mentor' && $getUser('accountType') == 'Mentor' ",
                 "placeholder": "",
                 "labelBold": false,
                 "labelItalic": false,
@@ -1233,7 +1281,7 @@
                 "value": "",
                 "className": "col-md-12",
                 "readonly": true,
-                "readonlyCondition": "($getUser('accountType') == \"Mentor\" && rowData.name==\"ProgrammePartner->Mentor(Programme)\") || (rowData.nextEvents && rowData.owner != fbUser.uid) || (rowData.name==\"Mentor->CompanyUser(Programme)\" && $getUser('accountType')==\"CompanyUser\") || rowData.name==\"CompanyUser->Mentor(Programme)\" || ($getUser('accountType') == \"CompanyUser\" && rowData.name == \"ProgrammePartner->CompanyUser(Programme)\") || ($getUser('accountType') == 'CompanyUser' && rowData.name == 'Mentor->CompanyUser(inCohort)') || (rowData.name == \"Investor->CompanyUser\" && $getUser('accountType') == 'CompanyUser') || (rowData.name == \"CompanyUser->Mentor\" && $getUser('accountType') == 'Mentor') || (rowData.name == 'ProgrammePartner->Mentor' && $getUser('accountType') == \"Mentor\") || (rowData.name == 'ProgrammePartner->CompanyUser' && $getUser('accountType') == \"CompanyUser\") || (rowData.name == \"Mentor->CompanyUser\" && $getUser('accountType') == 'CompanyUser')",
+                "readonlyCondition": "(rowData.$mentor != $getUser('profileID') && rowData.name == 'Mentor->Mentor') || ($getUser('accountType') == \"Mentor\" && rowData.name==\"ProgrammePartner->Mentor(Programme)\") || (rowData.nextEvents && rowData.owner != fbUser.uid) || (rowData.name==\"Mentor->CompanyUser(Programme)\" && $getUser('accountType')==\"CompanyUser\") || rowData.name==\"CompanyUser->Mentor(Programme)\" || ($getUser('accountType') == \"CompanyUser\" && rowData.name == \"ProgrammePartner->CompanyUser(Programme)\") || ($getUser('accountType') == 'CompanyUser' && rowData.name == 'Mentor->CompanyUser(inCohort)') || (rowData.name == \"Investor->CompanyUser\" && $getUser('accountType') == 'CompanyUser') || (rowData.name == \"CompanyUser->Mentor\" && $getUser('accountType') == 'Mentor') || (rowData.name == 'ProgrammePartner->Mentor' && $getUser('accountType') == \"Mentor\") || (rowData.name == 'ProgrammePartner->CompanyUser' && $getUser('accountType') == \"CompanyUser\") || (rowData.name == \"Mentor->CompanyUser\" && $getUser('accountType') == 'CompanyUser')",
                 "placeholder": "",
                 "required": false,
                 "requiredCondition": "",
@@ -1302,7 +1350,7 @@
                 "vif": "",
                 "customCode": "",
                 "invisible": true,
-                "invisibleCondition": " (rowData.name==\"Mentor->CompanyUser(Programme)\" && $getUser('accountType')==\"CompanyUser\") || (rowData.name==\"CompanyUser->Mentor(Programme)\" && $getUser('accountType')==\"Mentor\") || ($getUser('accountType') == \"CompanyUser\" && rowData.name == \"ProgrammePartner->CompanyUser(Programme)\") || (rowData.name == \"ProgrammePartner->Investor(Programme)\" && $getUser('accountType') == \"Investor\") || (rowData.name == \"ProgrammePartner->Mentor(Programme)\" && $getUser('accountType') == \"Mentor\") || ($getUser('accountType') == 'CompanyUser' && rowData.name == 'Mentor->CompanyUser(inCohort)') || ($getUser('accountType') == \"Mentor\" && rowData.name == 'CompanyUser->Mentor(inCohort)') || (rowData.name == 'ProgrammePartner->Mentor' && $getUser('accountType') == \"Mentor\") || (rowData.name == 'ProgrammePartner->CompanyUser' && $getUser('accountType') == \"CompanyUser\") || ($getUser('accountType') == \"Investor\" && rowData.name == 'ProgrammePartner->Investor') || (rowData.name == \"Mentor->Investor\" && $getUser('accountType') == \"Investor\") || (rowData.name == 'Investor->CompanyUser' && $getUser('accountType') == 'CompanyUser') || (rowData.name == 'CompanyUser->Mentor' && $getUser('accountType') == 'Mentor') || (rowData.name == 'Mentor->CompanyUser' && $getUser('accountType') == 'CompanyUser') ",
+                "invisibleCondition": " (rowData.name==\"Mentor->Mentor\" && rowData.mentorOwner != $getUser('profileID')) || (rowData.name==\"Mentor->CompanyUser(Programme)\" && $getUser('accountType')==\"CompanyUser\") || (rowData.name==\"CompanyUser->Mentor(Programme)\" && $getUser('accountType')==\"Mentor\") || ($getUser('accountType') == \"CompanyUser\" && rowData.name == \"ProgrammePartner->CompanyUser(Programme)\") || (rowData.name == \"ProgrammePartner->Investor(Programme)\" && $getUser('accountType') == \"Investor\") || (rowData.name == \"ProgrammePartner->Mentor(Programme)\" && $getUser('accountType') == \"Mentor\") || ($getUser('accountType') == 'CompanyUser' && rowData.name == 'Mentor->CompanyUser(inCohort)') || ($getUser('accountType') == \"Mentor\" && rowData.name == 'CompanyUser->Mentor(inCohort)') || (rowData.name == 'ProgrammePartner->Mentor' && $getUser('accountType') == \"Mentor\") || (rowData.name == 'ProgrammePartner->CompanyUser' && $getUser('accountType') == \"CompanyUser\") || ($getUser('accountType') == \"Investor\" && rowData.name == 'ProgrammePartner->Investor') || (rowData.name == \"Mentor->Investor\" && $getUser('accountType') == \"Investor\") || (rowData.name == 'Investor->CompanyUser' && $getUser('accountType') == 'CompanyUser') || (rowData.name == 'CompanyUser->Mentor' && $getUser('accountType') == 'Mentor') || (rowData.name == 'Mentor->CompanyUser' && $getUser('accountType') == 'CompanyUser') ",
                 "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
@@ -2746,7 +2794,7 @@
       }
     ],
     "layout": "tab",
-    "_uniqueId": 0.14082658364686695
+    "_uniqueId": 0.13436381085276317
   },
   "source": "applications",
   "storageType": "dashboard",
@@ -2847,6 +2895,9 @@
         },
         "mentorInvestor": {
           "order": 50
+        },
+        "mentorMentorNotice": {
+          "order": 51
         },
         "mentorOwner": {
           "order": 23
@@ -3025,6 +3076,9 @@
         },
         "mentorInvestor": {
           "order": 50
+        },
+        "mentorMentorNotice": {
+          "order": 51
         },
         "mentorOwner": {
           "order": 23
@@ -3210,6 +3264,9 @@
         "mentorInvestor": {
           "order": 50
         },
+        "mentorMentorNotice": {
+          "order": 51
+        },
         "mentorOwner": {
           "order": 23
         },
@@ -3393,6 +3450,9 @@
         },
         "mentorInvestor": {
           "order": 50
+        },
+        "mentorMentorNotice": {
+          "order": 51
         },
         "mentorOwner": {
           "order": 23

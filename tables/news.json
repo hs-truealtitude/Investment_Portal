@@ -120,14 +120,5 @@
     "newsLink": "TEST",
     "owner": "mvhT7sNTcEM5BdibKTLtmFZg6RE3",
     "rowKey": "-M_z5KnOk5aDfsme4CVT"
-  },
-  "-Mpl0cnV7N1iCHZK8ZsC": {
-    "_id": 13,
-    "company": "-Mpl0UxvZeDJttHbSyOQ",
-    "createdDate": 1638278794735,
-    "lastEditDate": 1638278794747,
-    "lastEditedBy": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
-    "owner": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
-    "rowKey": "-Mpl0cnV7N1iCHZK8ZsC"
   }
 }

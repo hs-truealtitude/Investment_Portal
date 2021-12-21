@@ -1,0 +1,15 @@
+{
+  "container": "-MqOoNElM8Wh06Rhsr-t",
+  "gsOptions": {
+    "h": 2,
+    "w": 3,
+    "x": 17,
+    "y": 4
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "subTab": "-Mj-Q3txJ5KcUXArNJy5",
+  "subtab": "-Mj-Q3txJ5KcUXArNJy5",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<p>Session Happen:</p>\r\n<p v-if=\"row.sessionHappen == true\"> TRUE  </p>\r\n<p v-if=\"row.sessionHappen == false\"> FALSE  </p>\r\n"
+}

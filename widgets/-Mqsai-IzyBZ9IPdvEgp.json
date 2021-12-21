@@ -1,0 +1,15 @@
+{
+  "container": "-MqnTSRviC8NeZju6QOr",
+  "gsOptions": {
+    "h": 1,
+    "w": 24,
+    "x": 0,
+    "y": 8
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "subTab": "-MW49Z1H3IKgqYwA-yLg",
+  "subtab": "-MW49Z1H3IKgqYwA-yLg",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<center>\r\n<a class=\"sessionNotesLink\" style=\"font-size: 14px;\"\r\n @click=\"$bvModal.show('sessionModal'); $setUser('activeSession', row.rowKey);\"\r\n> \r\n    Session Notes \r\n\r\n<i class=\"fas fa-chevron-right\"></i>\r\n</a>\r\n</center>"
+}

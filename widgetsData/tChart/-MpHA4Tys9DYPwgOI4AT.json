@@ -1,6 +1,12 @@
 {
   "chartName": "Successful Investor Applications within Cohort",
   "chartType": "bar",
+  "colorPalette": {
+    "colorPalette": {
+      "label": "Red",
+      "value": "red"
+    }
+  },
   "datalabels": {
     "hidden": false
   },
