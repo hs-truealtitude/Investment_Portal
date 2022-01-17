@@ -1,0 +1,15 @@
+{
+  "container": "-MqOoNElM8Wh06Rhsr-t",
+  "gsOptions": {
+    "h": 2,
+    "w": 20,
+    "x": 4,
+    "y": 2
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "subTab": "-Mj-Q3txJ5KcUXArNJy5",
+  "subtab": "-Mj-Q3txJ5KcUXArNJy5",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<div v-if=\"row.notes\">\r\n    <p>Session Details:</p>\r\n    <p v-if=\"row.notes\">{{row.notes}}</p>\r\n</div>"
+}

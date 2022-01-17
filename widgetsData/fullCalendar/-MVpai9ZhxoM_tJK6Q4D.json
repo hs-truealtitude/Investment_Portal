@@ -1,5 +1,8 @@
 {
   "colorField": "red",
+  "columnHeaderFormat": {
+    "week": "MMM Do dddd"
+  },
   "dataSource": "sessions",
   "displayMode": "timeGridWeek",
   "durationField": "sessionLength",

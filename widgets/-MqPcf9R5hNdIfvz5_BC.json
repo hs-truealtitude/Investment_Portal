@@ -1,0 +1,15 @@
+{
+  "container": "-MqPbYMUJ_Gzt8f0MMug",
+  "gsOptions": {
+    "h": 2,
+    "w": 24,
+    "x": 0,
+    "y": 6
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "subTab": "-MW45ehLM2LrwcrP_xZ7",
+  "subtab": "-MW45ehLM2LrwcrP_xZ7",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<center style=\"margin-top: 35px;\">\r\n<p style=\"margin-bottom: -2px;\">Cohort:</p>\r\n<h2 v-if=\"row.$cohort && row.$cohort.name\">{{row.$cohort.name}}</h2>\r\n</center>"
+}

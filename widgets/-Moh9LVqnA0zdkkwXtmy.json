@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/sessionDuration",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "sessionDuration"
+  },
+  "subtab": "-Moh9LTYatjhZOpu3PaP",
+  "tab": "-MKjMRUUg4_Q6hNfvyso",
+  "type": "DataGrid"
+}

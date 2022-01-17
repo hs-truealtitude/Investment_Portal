@@ -1,7 +1,6 @@
 .dataGridEditRow{
     background-color: #fffaf3 !important;
-        border: 1px solid black !important;
-
+    border: 1px solid black !important;
 }
 
 .grid-stack-item__title h4{
@@ -10,7 +9,7 @@
 }
 
 .guiSectionItem .nav-tabs .active {
-font-weight: bold !important;
+    font-weight: bold !important;
 }
 
 .dataGridEditRow textarea{
@@ -19,7 +18,7 @@ font-weight: bold !important;
 
 .dataGridEditRow input{
     border: 1px solid black !important;
-            font-family: 'Grenette pro', sans-serif !important; 
+    font-family: 'Grenette pro', sans-serif !important; 
     font-size: 15px;
 }
 
@@ -41,14 +40,13 @@ font-weight: bold !important;
 
 .dataGridEditRow textarea{
     border: 1px solid black !important;
-            font-family: 'Grenette pro', sans-serif !important; 
+    font-family: 'Grenette pro', sans-serif !important; 
     font-size: 15px;
 }
 
 .form-builder-root .nav a{
-        font-family: 'Grenette pro', sans-serif !important; 
+    font-family: 'Grenette pro', sans-serif !important; 
     color: black !important;  
-
 }
 
 .head-menu__custom{
@@ -61,41 +59,36 @@ font-weight: bold !important;
 }
 
 #scroll-MXXUbzBi9sEmgHrIEXP{
-border: 1px solid black;
-                background-color: #fffaf3 !important;
-
+    border: 1px solid black;
+    background-color: #fffaf3 !important;
 }
 
 .guiSectionItem .nav-tabs .active {
     border-bottom: 2px solid #ef4437;
-
-
 }
 
-
-
 .form-builder-root span{
-        font-family: 'Grenette pro', sans-serif !important; 
-font-size: 0.85rem;
+    font-family: 'Grenette pro', sans-serif !important; 
+    font-size: 0.85rem;
     color: black !important;  
-
 }
 
 .controlItem{
-                background-color: #fffaf3 !important;
+    background-color: #fffaf3 !important;
+}
 
+.card-header{
+    background-color: #fffaf3 !important;
 }
 
 .form-block input{
     background-color: #fffaf3 !important;
     /* max-height: 30px; */
     margin-bottom: 0px;
-
 } 
 
 .form-block .controlElement textarea{
-                        background-color: #fffaf3 !important;
-
+    background-color: #fffaf3 !important;
 }
 
 .dataGridEditRow legend{
@@ -104,17 +97,14 @@ font-size: 0.85rem;
 
 .controlItem{
     margin-top: 5px !important;
-
 }
 
 .field__description{
-            font-family: 'Grenette pro', sans-serif !important; 
-
+    font-family: 'Grenette pro', sans-serif !important; 
 }
 
 .handy-scroll-area thread{
-                            background: #fffaf3 !important;
-
+    background: #fffaf3 !important;
 }
 
 .data-grid__tableHeading{
@@ -139,8 +129,7 @@ font-size: 0.85rem;
 }
 
 .dg-lookup-control{
-        background-color: #fffaf3 !important;
-
+    background-color: #fffaf3 !important;
 }
 
 .rowItem .controlElement{
@@ -150,7 +139,7 @@ font-size: 0.85rem;
 }
 
 .data-grid__table-wrapper .card{
-        border: 0px solid rgba(0, 0, 0, 0.2);
+    border: 0px solid rgba(0, 0, 0, 0.2);
 }
 
 .collapseFormItem .title{
@@ -161,7 +150,6 @@ font-size: 0.85rem;
     background: #ef4437;
     color: black;
 }
-
 
 .badge-primary[href]:hover, .badge-primary[href]:focus {
     text-decoration: none;
@@ -174,12 +162,11 @@ font-size: 0.85rem;
 }
 
 .grid-stack-item-content h-100 ._hasTitle{
- display: none;
+    display: none;
 }
 
 .vs__dropdown-menu{
-        background: #fffaf3 !important;
-
+    background: #fffaf3 !important;
 }
 
 .vs__dropdown-menu .vs__dropdown-option--highlight{
@@ -198,22 +185,19 @@ font-size: 0.85rem;
 
 .widgetContent button:hover {
     background-color: #ef4437!important;
-        border: 1px solid #000000 !important;
-
+    border: 1px solid #000000 !important;
 }
 
 .data-grid__table-wrapper .card{
-        background-color: #fffaf3 !important;
-
+    background-color: #fffaf3 !important;
 }
 
 .widgetContent .mb-3 .card{
-            border: 1px solid #000000 !important;
-
+    border: 1px solid #000000 !important;
 } 
 
 .widgetContent a{
-        color: #ef4437!important;
+    color: #ef4437!important;
 }
 
 .tVSelectDropdown{
@@ -229,13 +213,11 @@ font-size: 0.85rem;
 }
 
 .tVSelectDropdown__itemsList a:hover{
-                background-color: #ef4437!important;
-
+    background-color: #ef4437!important;
 }
 
 .v-select{
     background-color: white;
-
 }
 
 .tVSelect__selectTrigger{

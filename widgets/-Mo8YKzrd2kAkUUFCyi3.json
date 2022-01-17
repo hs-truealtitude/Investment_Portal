@@ -1,0 +1,23 @@
+{
+  "alignment": "center",
+  "autoHeight": true,
+  "classes": "",
+  "component": "-Mo8XoK6BJtaCVsQSK8l",
+  "gsOptions": {
+    "h": 10,
+    "w": 20,
+    "x": 2,
+    "y": 2
+  },
+  "layout": {
+    "text": "Standard"
+  },
+  "offSet": 0,
+  "overflow": "height: auto;",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-Mo8XLpU_LblcA_FlDQ1",
+  "tab": "-MmIIsHE-irxCHjAxrNf",
+  "title": "",
+  "type": "custom"
+}

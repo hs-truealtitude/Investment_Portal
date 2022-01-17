@@ -1,6 +1,5 @@
-/*Mobile Styling*/
+/* General UI Mobile/Responsive Styling - Needs updating*/
 @media only screen and (max-width: 1400px) {
-
     .menu .type{
         font-size: 0.9em;
     }
@@ -22,7 +21,7 @@
 
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1300px) {
     .nav-logo-text{
         font-size: 1em !important;
     }
@@ -36,7 +35,6 @@
     .menu li{
         width: 115px !important;
     }
-    
     .notiftitle .menusection{
         line-height: 15px !important;
     }
@@ -47,37 +45,24 @@
     .Ncard{
         width: 50px !important;
     }
-
 }
 
 @media only screen and (max-width: 1085px) {
-
     .menu li{
         width: 140px !important;
     }
-
     .menu .type{
         font-size: 0.9em;
     }
-
-
 }
+
 @media only screen and (max-width: 950px) {
-    #hovernotif:hover #notifc {
-
-    }
-
-    .flexbox-container{
-    }
-
     .menu li{
         width: 103px !important;
     }
         .menu .type{
         font-size: 0.8em;
     }
-
-
 }
 
 @media only screen and (max-width: 800px) {
@@ -88,30 +73,12 @@
         padding-right: 25px;
         font-size: 12px !important;
     }
-
     .type{
         font-size: 12px !important;
-    }
-
-    .flexbox-container{
-    }
-
-    .content{
-
     }
 }
 
 @media only screen and (max-width: 715px) {
-
-    .flexbox-container{
-       
-    }
-
-    .content{
-        
-    }
-
-
     .menu li{
         width: 80px !important;
     }
@@ -121,20 +88,16 @@
     .type{
         font-size: 11px !important;
     }
-
 }
 
 @media only screen and (max-width: 450px) {
-
     .menu{
         margin-top: 50px !important;
         margin-left: 20px !important;
     }
-
     .border-top{
         height: 150px !important;
     }
-
     .menu li{
         width: 80px !important;
     }
@@ -144,6 +107,5 @@
     .type{
         font-size: 11px !important;
     }
-
 }
 

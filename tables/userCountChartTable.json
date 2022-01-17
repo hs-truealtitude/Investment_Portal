@@ -1,0 +1,65 @@
+{
+  "-MqK6m6XFjsQAcTHJdYz": {
+    "_id": 1,
+    "amount": 3,
+    "cohort": "-MqK6lwHteScTbiGXNiw",
+    "createdDate": 1638884385205,
+    "grouping": "Companies",
+    "lastEditDate": 1638884787919,
+    "lastEditedBy": "WpkVMBiLKvc9nwixypDfeCdq5gr2",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-MqK6m6XFjsQAcTHJdYz"
+  },
+  "-MqK6m6_z_MrjC8gVe70": {
+    "_id": 1,
+    "amount": 1,
+    "cohort": "-MqK6lwHteScTbiGXNiw",
+    "createdDate": 1638884385207,
+    "grouping": "Indirect Investors/Mentors",
+    "lastEditDate": 1638884675434,
+    "lastEditedBy": "4OZfzNOTiObDfi75pVPYpScLMve2",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-MqK6m6_z_MrjC8gVe70"
+  },
+  "-MqK6m6b7YtEGCEtn2rL": {
+    "_id": 1,
+    "amount": 1,
+    "cohort": "-MqK6lwHteScTbiGXNiw",
+    "createdDate": 1638884385210,
+    "grouping": "Investors",
+    "lastEditDate": 1638884734631,
+    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-MqK6m6b7YtEGCEtn2rL"
+  },
+  "-MtHAlLdEh0n_FvCdBp9": {
+    "_id": 3,
+    "cohort": "-MtHAlDOBlnRUhVMWadQ",
+    "createdDate": 1642056325098,
+    "grouping": "Companies",
+    "lastEditDate": 1642056325098,
+    "lastEditedBy": "IyHrs0P6j3VzPK4n505PzuEqDuH2",
+    "owner": "IyHrs0P6j3VzPK4n505PzuEqDuH2",
+    "rowKey": "-MtHAlLdEh0n_FvCdBp9"
+  },
+  "-MtHAlLeJFO7tQzf8Xg1": {
+    "_id": 3,
+    "cohort": "-MtHAlDOBlnRUhVMWadQ",
+    "createdDate": 1642056325099,
+    "grouping": "Indirect Investors/Mentors",
+    "lastEditDate": 1642056325099,
+    "lastEditedBy": "IyHrs0P6j3VzPK4n505PzuEqDuH2",
+    "owner": "IyHrs0P6j3VzPK4n505PzuEqDuH2",
+    "rowKey": "-MtHAlLeJFO7tQzf8Xg1"
+  },
+  "-MtHAlLeJFO7tQzf8Xg2": {
+    "_id": 3,
+    "cohort": "-MtHAlDOBlnRUhVMWadQ",
+    "createdDate": 1642056325100,
+    "grouping": "Investors",
+    "lastEditDate": 1642056325100,
+    "lastEditedBy": "IyHrs0P6j3VzPK4n505PzuEqDuH2",
+    "owner": "IyHrs0P6j3VzPK4n505PzuEqDuH2",
+    "rowKey": "-MtHAlLeJFO7tQzf8Xg2"
+  }
+}

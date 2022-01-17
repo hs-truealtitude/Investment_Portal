@@ -1,8 +1,8 @@
-return function  () {
+return function  (programmeKey) {
 
     let cohortsInProgramme = 0
     //Get the row (Cohort)
-    cohortsInProgramme = $getGrid('cohortData').filter(row => (row.programmes || '').includes($getUser('selectedProgramme'))).length
+    cohortsInProgramme = $getGrid('cohortData').filter(row => (row.programmes || '').includes(programmeKey)).length
 
 return cohortsInProgramme
 }

@@ -9,7 +9,7 @@
 }
 
 .navCards{
-    margin-top: -250px !important;
+
 }
 
 
@@ -35,7 +35,7 @@
    cursor: pointer;
    transition: all 0.3s ease;
    background-color: #fffaf3;
-   top: 260px;
+   /*top: 260px;*/
 
 }
 
@@ -105,6 +105,11 @@
    -webkit-text-fill-color: transparent;
    opacity: 1;
    transition: all 0.3s ease;
+      font-size: 1.7em;
+}
+
+.Ncard .icon i{
+   font-size: 1.4em;
 }
 
 .navCards .flexbox-container{

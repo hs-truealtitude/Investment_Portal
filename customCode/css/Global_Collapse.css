@@ -23,8 +23,6 @@ input[type='checkbox'] {
     text-decoration: underline;
 } 
 
-
-
 .lbl-toggle::before { 
     content: ' '; display: inline-block; 
     border-top: 5px solid transparent; 
@@ -50,17 +48,16 @@ input[type='checkbox'] {
     max-height: 350px; 
 } 
 
-
 .toggle:checked+.lbl-toggle { 
     border-bottom-right-radius: 0; 
     border-bottom-left-radius: 0; 
 } 
 
 .collapsible-content .content-inner { 
-        background-color: #fffaf3;
-  border-bottom-left-radius: 7px;
-   border-bottom-right-radius: 7px; 
-   padding: .5rem 1rem; 
+    background-color: #fffaf3;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px; 
+    padding: .5rem 1rem; 
 } 
 
 .collapsible-content p { 

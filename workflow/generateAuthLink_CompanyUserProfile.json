@@ -1,0 +1,65 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-Mo8WzNng2CUxzDysUGf",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1636542448188",
+        "x": 420.3820534101193,
+        "y": 273.90041167815264,
+        "width": 104,
+        "height": 41,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1636542449304",
+        "x": 771.8724995339469,
+        "y": 273.90041167815264,
+        "width": 107,
+        "height": 41,
+        "attachment": {
+          "script": "const authLinkGenerated = await generateAuthLink({\r\n    redirectUrl: '/dashboard/-MhsbxHaHHybrPYZ2mCu?tab=-MmIIsHE-irxCHjAxrNf&subtab=-Mo8XLpU_LblcA_FlDQ1',\r\n    origin: data.origin,\r\n    rowKey: data.rowKey,\r\n})\r\n\r\nconst { user } = authLinkGenerated\r\n\r\nif (user) {\r\n    await addUser({\r\n      uid: user.uid,\r\n      dashboard: data.dashboard,\r\n      rules: { read: true },\r\n    })\r\n}\r\n\r\ncontext.data.authLinkGenerated = authLinkGenerated\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1636542448188-right",
+        "target": "node1636542449304",
+        "endSocket": "left",
+        "id": "line-1636542606294",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": -249.73545156746175,
+      "y": -60.191416686720196,
+      "scale": 1.0412800804009927
+    }
+  },
+  "name": "generateAuthLink_CompanyUserProfile"
+}

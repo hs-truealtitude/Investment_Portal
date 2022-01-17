@@ -1,19 +1,45 @@
 /* Tooltip text */
-.bug .tooltiptext {
+.signOut .tooltiptext {
   visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
+  background-color: #fffaf3;
+  color: black;
   text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
- 
-  /* Position the tooltip text - see examples below! */
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
   position: absolute;
   z-index: 1;
-    right: 0px;
-    top: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+  top: 8px;
+  width: auto;
+  right: 0px;
+}
 
+.signOut:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 20px;
+}
+
+.bug .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+  top: 8px;
+  width: 100px;
+  right: 0px;
 }
 
 .bug:hover .tooltiptext {
@@ -25,19 +51,22 @@
 /* Tooltip text */
 .admin .tooltiptext {
   visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
+  background-color: #fffaf3;
+  color: black;
   text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
- 
-  /* Position the tooltip text - see examples below! */
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
   position: absolute;
   z-index: 1;
-      right: 0px;
-      top: 8px;
 
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+   top: 8px;
+  width: 100px;
+  right: 0px;
 }
 
 .admin:hover .tooltiptext {
@@ -48,18 +77,19 @@
 /* Tooltip text */
 .dev .tooltiptext {
   visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
+  background-color: #fffaf3;
+  color: black;
   text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
- 
-  /* Position the tooltip text - see examples below! */
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
   position: absolute;
   z-index: 1;
-      right: 0px;
 
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
 }
 
 .dev:hover .tooltiptext {
@@ -70,17 +100,19 @@
 /* Tooltip text */
 .userManagement .tooltiptext {
   visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
+  background-color: #fffaf3;
+  color: black;
   text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
- 
-  /* Position the tooltip text - see examples below! */
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
   position: absolute;
   z-index: 1;
-      right: 50px;
+
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
 
 }
 
@@ -93,19 +125,19 @@
 /* Tooltip text */
 .h3 i .tooltiptext {
   visibility: hidden;
-  width: 100px;
-  background-color: black;
-  color: #fff;
+  background-color: #fffaf3;
+  color: black;
   text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
+  padding: 5px 5px;
+  border-radius: 0px;
   font-size: 13px;
-  font-weight: 400;
- 
-  /* Position the tooltip text - see examples below! */
+  font-weight: 900;
+  border: 1px solid black;
   position: absolute;
   z-index: 1;
-      right: 0px;
+
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
 
 }
 
@@ -116,23 +148,519 @@
 
 .cohortCard .dot .tooltiptext {
   visibility: hidden;
-  width: 100px;
-  background-color: black;
-  color: #fff;
+  background-color: #fffaf3;
+  color: black;
   text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
+  padding: 5px 5px;
+  border-radius: 0px;
   font-size: 13px;
-  font-weight: 400;
- 
-  /* Position the tooltip text - see examples below! */
+  font-weight: 900;
+  border: 1px solid black;
   position: absolute;
   z-index: 1;
-      right: 0px;
+
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
 
 }
 
 .cohortCard .dot:hover .tooltiptext {
   visibility: visible;
   margin-top: 20px;
+}
+
+/*Programme Logo hover*/
+.programmeContainer .programmeLogo:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 90px;
+}
+
+.programmeContainer .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+}
+
+/* Investor Organisation Logo */
+.investorCompanyLogo .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+  top: 8px;
+  width: auto;
+  right: 30px;
+}
+
+.investorCompanyLogo:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 20px;
+
+}
+
+/*Session Card Company Tag*/
+.companyImage:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -50px;
+}
+
+.companyImage .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  right: 110px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+}
+
+/*Company User Card Tag*/
+.companyUser:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -50px;
+}
+
+.companyUser .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  right: 110px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+}
+
+/*Session Card Mentor Tag*/
+.mentorImage:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -50px;
+}
+
+.mentorImage .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  right: 60px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+}
+
+/*Session Response Tag*/
+.responseNotice:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -180px;
+}
+
+.responseNotice .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  right: 110px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+}
+
+/*Session Company User Response Tag*/
+.responseNoticeCompanyUser:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -190px;
+}
+
+.responseNoticeCompanyUser .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  right: 110px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+}
+
+/*Delete Cohort*/
+.deleteCohort:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -36px;
+}
+
+.deleteCohort .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  right: -30px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+
+}
+
+/*Edit Cohort*/
+.editCohort:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -36px;
+}
+
+.editCohort .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  right: -30px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+}
+
+/*Delete Programme*/
+.deleteProgramme:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -59px;
+}
+
+.deleteProgramme .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  right: -30px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+
+}
+
+/*Edit Programme*/
+.editProgramme:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -59px;
+}
+
+.editProgramme .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  right: -30px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+}
+
+/*Delete Company*/
+.deleteCompany:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -59px;
+}
+
+.deleteCompany .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  right: -30px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+
+}
+
+/*Edit Company*/
+.editCompany:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -40px;
+}
+
+.editCompany .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  right: -30px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+}
+
+/*Save Company*/
+.saveCompany:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -50px;
+}
+
+.saveCompany .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  right: 300px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+}
+
+/*UnSave Company*/
+.unSaveCompany:hover .tooltiptext {
+  visibility: visible;
+  margin-top: -50px;
+}
+
+.unSaveCompany .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  right: 300px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+}
+
+/* Cohort Remove text */
+.removeMentor .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+  top: -75px;
+  width: auto;
+  right: 0px;
+}
+
+.removeMentor:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 20px;
+}
+
+.removeInvestor .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+  top: -75px;
+  width: auto;
+  right: 0px;
+}
+
+.removeInvestor:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 20px;
+}
+
+.removeCompany .tooltiptext {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+  top: -75px;
+  width: auto;
+  right: 0px;
+}
+
+.removeCompany:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 20px;
+}
+
+/*Profile Hover*/
+.profileHover:hover .profileDropdown {
+  visibility: visible;
+  margin-top: 28px;
+}
+
+.profileDropdown {
+  visibility: hidden;
+  background-color: #fffaf3;
+  color: black;
+  text-align: center;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 400;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  width: 130px;
+  right: -1px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+  justify-content: center;
+  height: auto;
+}
+
+
+
+.profileDropdown ul{
+  margin-bottom: 0px !important;
+  margin-left: -31.5%;
+  list-style: none;
+  display: block;
+}
+
+.profileHover .profileDropdown .profileMenu  li{
+  width: 100%;
+  list-style: none;
+  padding-left: 5%;
+  font-family: 'Grenette pro', sans-serif;
+  height: 30px;
+	display: inline-block; 
+}
+
+.profileHover .profileDropdown .profileMenu  .signOut{
+  border-top: 1px solid black;
+}
+
+.profileHover .profileDropdown .profileMenu  li:hover{
+  background-color: #ef4437;
+}
+
+.profileHover .profileDropdown .profileMenu  li p{
+  margin-top: 3px;
+  font-size: 15px;
+}
+
+.profileHover .profileDropdown .profileMenu  li:hover p{
+  font-weight: 900;
 }

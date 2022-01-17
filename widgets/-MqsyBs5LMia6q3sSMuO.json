@@ -1,0 +1,15 @@
+{
+  "container": "-MqsxygvCY7lqe56r629",
+  "gsOptions": {
+    "h": 1,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "subTab": "-MW49Z1H3IKgqYwA-yLg",
+  "subtab": "-MW49Z1H3IKgqYwA-yLg",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<div style=\"margin-top: -20px; margin-right: -140px;\" v-if=\"$getUser('unreadNotif') == row.rowKey\" class=\"dot\">\r\n</div>\r\n\r\n<center>\r\n<div> \r\n  <a class=\"companyUser\" @click=\"setActiveImage('CompanyUser', row.$companyUser.rowKey)\" v-b-modal.image-modal style=\"cursor: pointer;\">\r\n    <img v-if='row.$companyUser.profileImage' :src=\"$getDashboardModel('companyUserProfiles')[row.companyUser].profileImage.url\" style=\"border-radius: 15px; max-width:70px; padding: 5px; \" />\r\n      <span class=\"tooltiptext\">Company Representative: {{row.$companyUser.name}} {{row.$companyUser.secondName}}</span>    \r\n  </a>\r\n  \r\n  <a class=\"companyImage\" @click=\"setActiveImage('Company', row.$company.rowKey)\" v-b-modal.image-modal style=\"cursor: pointer;\">\r\n    <img v-if='row.$companyUser && row.$company.companyLogo' :src=\"$getDashboardModel('companyProfiles')[row.company].companyLogo.url\" style=\"border-radius: 15px; max-width:70px; padding: 5px; \" />\r\n    <span class=\"tooltiptext\">Company: {{row.$company.name}}</span>    \r\n  </a>\r\n</div>\r\n</center>"
+}

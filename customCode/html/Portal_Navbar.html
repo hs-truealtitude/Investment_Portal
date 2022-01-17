@@ -78,15 +78,23 @@
                   <!-- Investor Notifications Response -->
                   <li class="icon"
                      v-for='row in notificationListResponseInvestor'
-                     @click="redirectToCompanyUserorMentorPage(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true);" >
+                     @click="redirectToCompanyUserorMentorPage(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true); $setUser('unreadNotif', row.$cohort.rowKey);" >
                      <span class="text" v-if="row.$investor.name && row.$investor.secondName">{{row.$investor.name}} {{row.$investor.secondName}} has accepted your cohort invite</span>
                   </li>
-                  <!-- Investor->Company User Application Response -->
+                  
+                  <!-- MentorOwner Notification Response (Cohort Invite -->
+                  <li class="icon"
+                     v-for='row in notificationListResponseMentorOwner'
+                     @click="redirectToCompanyUserorMentorPage(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true); $setUser('unreadNotif', row.$cohort.rowKey);" >
+                     <span class="text" v-if="row.$mentor.name && row.$mentor.secondName">{{row.$mentor.name}} {{row.$mentor.secondName}} (Mentor/Indirect Investor) has accepted your cohort invite</span>
+                  </li>
+
+                  <!-- Investor->Company User Application Response 
                   <li class="icon"
                      v-for='row in notificationListResponseInvestor'
                      @click="redirectToCompanyUserorMentorPage(); $setDataGridVal('applications', `${row.rowKey}.responseOpened`, true);" >
                      <span class="text" v-if="row.$investor.name && row.$investor.secondName">{{row.$investor.name}} {{row.$investor.secondName}} has accepted your cohort invite</span>
-                  </li>
+                  </li>-->
                   <!-- Investor->CompanyUser (Invested In) Notifications -->
                   <li class="icon"
                      v-for='row in notificationListResponseInvestorInvestedIn'
@@ -138,7 +146,7 @@
                   <!-- Session request response to mentor -->
                   <li class="icon"
                      v-for='row in notificationListSessionResponseToMentor'
-                     @click="$setDataGridVal('sessions', `${row.rowKey}.notifComplete`, true); redirectToMyBookedSessions();" >
+                     @click="$setDataGridVal('sessions', `${row.rowKey}.notifComplete`, true); $setUser('unreadNotif', row.rowKey); redirectToMyBookedSessions(); " >
                      <span class="text" >{{row.$companyUser.name}} {{row.$companyUser.secondName}} ({{row.$company.name}}) has accepted your session booking </span>
                   </li>
                   <!-- Session request sent to Mentor-->
@@ -150,8 +158,33 @@
                   <!-- Session request response to CompanyUser -->
                   <li class="icon"
                      v-for='row in notificationListSessionResponseToCompanyUser'
-                     @click="$setDataGridVal('sessions', `${row.rowKey}.notifComplete`, true); redirectToMyBookedSessions();" >
+                     @click="$setDataGridVal('sessions', `${row.rowKey}.notifComplete`, true); $setUser('unreadNotif', row.rowKey); redirectToMyBookedSessions();" >
                      <span class="text" >{{row.$mentor.name}} {{row.$mentor.secondName}} (Mentor) has accepted your session booking </span>
+                  </li>
+
+                  <!-- Session happened? Notification sent to CompanyUser -->
+                  <li class="icon"
+                     v-for='row in notificationListSessionHappenCompanyUser'
+                     @click="$dgShowEditRowModal('sessions', row.rowKey);" >
+                     <span class="text" > Did your booked session (on {{row.$sDate$display}}) with {{row.$mentor.name}} {{row.$mentor.secondName}} (Mentor/Indirect Investor) go ahead as planned? </span>
+                  </li>
+                  <!-- Session happened? Notification sent to Mentor -->
+                  <li class="icon"
+                     v-for='row in notificationListSessionHappenMentor'
+                     @click="$dgShowEditRowModal('sessions', row.rowKey);" >
+                     <span class="text" > Did your booked session (on {{row.$sDate$display}}) with {{row.$companyUser.name}} {{row.$companyUser.secondName}} ({{row.$company.name}}) go ahead as planned? </span>
+                  </li>
+                  <!-- Have you given session feedback? Notification sent to CompanyUser -->
+                  <li class="icon"
+                     v-for='row in notificationListSessionFeedbackCompanyUser'
+                     @click="$setUser('unreadNotif', row.rowKey); redirectToMyBookedSessions();" >
+                     <span class="text" > Give feedback on your booked session (on {{row.$sDate$display}}) with {{row.$mentor.name}} {{row.$mentor.secondName}} (Mentor/Indirect Investor) </span>
+                  </li>
+                  <!-- Have you given session feedback? Notification sent to Mentor -->
+                  <li class="icon"
+                     v-for='row in notificationListSessionFeedbackMentor'
+                     @click="$setUser('unreadNotif', row.rowKey); redirectToMyBookedSessions();" >
+                     <span class="text" > Give feedback on your booked session (on {{row.$sDate$display}}) with {{row.$companyUser.name}} {{row.$companyUser.secondName}} ({{row.$company.name}}) </span>
                   </li>
                </div>
             </div>
@@ -160,18 +193,26 @@
    </div>
    <div class="nav-logo right ui notNotif">
       <a @click="backToDashboard()" target="_blank">
-      <i class="fas fa-home"></i>
+        <i class="fas fa-home"></i>
       </a>
    </div>
    <div class="nav-logo right ui notNotif">
-      <a @click="directAccountViewProfile()" target="_blank">
-      <i style=""class="fas fa-user"></i>
+      <a class="profileHover" @click="" target="_blank">
+        <i style=""class="fas fa-user"></i>
+        <div class="profileDropdown">
+            <ul style="height: 100%;" class="profileMenu">
+                <li @click="directAccountViewProfile()" class="viewProfile"><p> My Profile </p></li>
+                <li v-if="$getUser('accountType') == 'CompanyUser'" @click="directMyBookedSessions()" class="signOut"><p style=""> Booked Sessions </p></li>
+                <li v-if="$getUser('updatesRead') !== true" @click="$bvModal.show('updatesModal')" class="signOut"><p> What's new? </p></li>
+                <li @click='$signOut()' class="signOut"><p> Sign Out </p></li>
+            </ul>
+        </div>
       </a>
    </div>
    <div class="nav-logo right ui notNotif bug  end">
       <a @click="giveFeedback()" target="_blank">
       <span class="tooltiptext">Report an issue or bug</span>
-      <i class="fas fa-bug">
+        <i class="fas fa-bug">
       </a>
    </div>
    <div v-if="userRoles && userRoles.includes('Admin')" class="nav-logo right ui admin">

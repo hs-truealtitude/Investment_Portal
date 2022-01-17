@@ -6073,7 +6073,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<center style=\"padding-top: 45px;\">\n  <h3 style=\"color:black;\">By clicking Submit, you are creating your own company dataroom and minutes documention room.</h3>\n  <button @click='createCompanyDataroom(rowData.rowKey, rowData.name); $setCurrentSubTab(\"-MKUrGgnB0UOnhJlhCjv\",\"-MJq8S1suwASZ84EkCd5\")' type=\"button\" class=\"btn btn-success\">Submit Company <break> </break> <i class=\"fas fa-check-circle\"></i> </button>\n</center>\n",
+                "customCode": "<center style=\"padding-top: 45px;\">\n  <h3 style=\"color:black;\">By clicking Submit, you are creating your own company dataroom and minutes documention room.</h3>\n  <button @click='createCompanyDataroom(rowData.rowKey, rowData.name); redirectToMyCompanyProfiles();' type=\"button\" class=\"btn btn-success\">Submit Company <break> </break> <i class=\"fas fa-check-circle\"></i> </button>\n</center>\n",
                 "invisible": true,
                 "invisibleCondition": "rowData.hasSubmitted == true",
                 "invisibleInDataGrid": true,

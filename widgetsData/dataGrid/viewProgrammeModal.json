@@ -96,7 +96,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<div v-if=\"getProgramme()\">\r\n  <img style=\"border-radius: 2px; \" class=\"profileImage\" v-if=\"getProgramme().programmeLogo\" :src=\"$getDashboardModel('programmeData')[getProgramme().rowKey].programmeLogo.url\"></img>\r\n  <h1>{{ getProgramme().name }}</h1>\r\n  <p style=\"font-weight: bold;\">Programme Summary:</p>\r\n  <p>{{ getProgramme().programmeSummary }}</p>\r\n  <p style=\"font-weight: bold;\">Programme Objectives:</p>\r\n  <p>{{ getProgramme().programmeObjectives }}</p>\r\n  <p style=\"font-weight: bold;\">Fund Size: </p>\r\n  <p> £{{ getProgramme().fundSize |  numeralFormat('0,0')}}</p>\r\n</div>\r\n",
+                "customCode": "<div v-if=\"getProgramme()\">\r\n  <img style=\"border-radius: 2px; width: 100px; margin-bottom: 10px;\" class=\"profileImage\" v-if=\"getProgramme().programmeLogo\" :src=\"$getDashboardModel('programmeData')[getProgramme().rowKey].programmeLogo.url\"></img>\r\n  <h1>{{ getProgramme().name }}</h1>\r\n  <p style=\"font-weight: bold;\">Programme Summary:</p>\r\n  <p>{{ getProgramme().programmeSummary }}</p>\r\n  <p style=\"font-weight: bold;\">Programme Objectives:</p>\r\n  <p>{{ getProgramme().programmeObjectives }}</p>\r\n  <p style=\"font-weight: bold;\">Fund Size: </p>\r\n  <p> £{{ getProgramme().fundSize |  numeralFormat('0,0')}}</p>\r\n</div>\r\n",
                 "invisible": false,
                 "invisibleCondition": "",
                 "invisibleInDataGrid": true,
@@ -205,14 +205,15 @@
                 "customCode": "",
                 "invisible": true,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
-                "propName": "nextEvents"
+                "propName": "nextEvents",
+                "gridId": "viewProgrammeModal"
               },
               {
                 "type": "text",
@@ -254,7 +255,8 @@
                 "customValidationErrorMessage": "",
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
-                "propName": "name"
+                "propName": "name",
+                "gridId": "viewProgrammeModal"
               },
               {
                 "type": "select",
@@ -289,14 +291,15 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
-                "propName": "layout"
+                "propName": "layout",
+                "gridId": "viewProgrammeModal"
               },
               {
                 "type": "user",
@@ -331,14 +334,15 @@
                 "customCode": "",
                 "invisible": false,
                 "invisibleCondition": "",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": false,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
                 "customValidationErrorMessage": "",
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
-                "propName": "owner"
+                "propName": "owner",
+                "gridId": "viewProgrammeModal"
               },
               {
                 "type": "datepicker",
@@ -472,7 +476,7 @@
       }
     ],
     "layout": "collapse",
-    "_uniqueId": 0.7715902403722008
+    "_uniqueId": 0.8505767414642789
   },
   "source": "viewProgrammeModal",
   "storageType": "dashboard",

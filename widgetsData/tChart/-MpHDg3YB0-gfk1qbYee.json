@@ -1,0 +1,53 @@
+{
+  "chartName": "Successful Mentor Applications within Cohort",
+  "chartType": "bar",
+  "colorPalette": {
+    "colorPalette": {
+      "label": "Red",
+      "value": "red"
+    }
+  },
+  "datalabels": {
+    "hidden": false
+  },
+  "filter": {
+    "condition": "AND",
+    "rules": [
+      {
+        "expression": true,
+        "hidden": true,
+        "key": "cohort",
+        "name": "Cohort",
+        "operator": "=",
+        "value": "$getUser('activeMyCohort')"
+      },
+      {
+        "expression": false,
+        "hidden": true,
+        "key": "name",
+        "name": "Direction",
+        "operator": "contains",
+        "value": "Mentor->CompanyUser"
+      }
+    ]
+  },
+  "filterValues": {
+    "hidden": true
+  },
+  "groupBy": [
+    {
+      "column": "$mentor$display",
+      "key": "-MpHDvVdh3TDe08dI7MY"
+    }
+  ],
+  "labels": {
+    "hidden": false
+  },
+  "metrics": [
+    {
+      "column": "isComplete",
+      "key": "-MpHDzPE8kyj8XAbIrmg",
+      "operator": "sum"
+    }
+  ]
+}

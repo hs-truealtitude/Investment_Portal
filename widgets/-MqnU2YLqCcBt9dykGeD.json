@@ -1,0 +1,15 @@
+{
+  "container": "-MqnTSRviC8NeZju6QOr",
+  "gsOptions": {
+    "h": 1,
+    "w": 24,
+    "x": 0,
+    "y": 9
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "subTab": "-MW49Z1H3IKgqYwA-yLg",
+  "subtab": "-MW49Z1H3IKgqYwA-yLg",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "template": "<center>\r\n<div class=\"\" v-if=\"row.direction == 'Mentor->CompanyUser' && row.isBooked == true\">\r\n    <p style=\"margin-bottom: -2px;\">Status:</p>\r\n\r\n    <button v-if=\"row.direction == 'Mentor->CompanyUser' && row.companyUserReviewGiven != true\" style=\" margin-top: 7px; width: 100%; height: 40px;\"\r\n    @click=\"$dgShowEditRowModal('sessions', row.rowKey); $setDataGridVal( 'sessions', row.rowKey + '.mentorStartFeedback', true);  $setUser('unreadNotif', null);\"\r\n    >Feedback Required </button>\r\n</div>\r\n\r\n<div class=\"responseNoticeCompanyUser\" v-if=\"row.direction == 'CompanyUser->Mentor' && row.isBooked == true\">\r\n    <p style=\"margin-bottom: 5px;\">Status:</p>\r\n    <h3 v-if=\"row.sessionHappen != true\">Waiting on session owner response </h3>\r\n    <span v-if=\"row.sessionHappen != true\" class=\"tooltiptext\"> Company representative response required before session feedback  </span>\r\n    <button v-if=\"row.sessionHappen == true\" style=\"width: 100%; height: 40px;\"\r\n    @click=\"$dgShowEditRowModal('sessions', row.rowKey); $setDataGridVal( 'sessions', row.rowKey + '.mentorStartFeedback', true);  $setUser('unreadNotif', null);\"\r\n    >Feedback Required </button>\r\n\r\n    <h3 v-if=\"row.companyUserReviewGiven == true\" style=\"margin-top: -2px;\">Feedback Sent </h3>\r\n\r\n</div>\r\n</center>"
+}

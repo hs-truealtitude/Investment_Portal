@@ -1,3 +1,4 @@
+/* General UI mobile styling */
 .nav-menu-link-box {
     width: 300px;
 }
@@ -196,6 +197,15 @@
         overflow-y: scroll;
         height: 100px;
     }
+
+    .investorCard .about{
+        margin-top: 20px;
+    }
+
+    .mainSection{
+        margin-bottom: 70px;
+        margin-top: 15px;
+    } 
 
     .company_title{
         font-size: 15px !important;

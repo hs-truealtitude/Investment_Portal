@@ -1,0 +1,65 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-MnydXMg_PV7TibT78oI",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1636359904501",
+        "x": 899.8205154279195,
+        "y": 369.2411586049773,
+        "width": 104,
+        "height": 40,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1636359905935",
+        "x": 1261.79,
+        "y": 369.26,
+        "width": 107,
+        "height": 40,
+        "attachment": {
+          "script": "context.data.authLinkGenerated = await generateAuthLink({\r\n    redirectUrl: '/dashboard/-MhsbxHaHHybrPYZ2mCu?tab=-MmIIsHE-irxCHjAxrNf&subtab=-Mn0-VfuZP9Bdr4jv_yz',\r\n    origin: data.origin,\r\n    rowKey: data.rowKey,\r\n})\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1636359904501-right",
+        "target": "node1636359905935",
+        "endSocket": "left",
+        "id": "line-1636359935555",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": -680.1813345218216,
+      "y": -28.40505535807337,
+      "scale": 0.7459215639286157
+    }
+  },
+  "name": "generateAuthLink_Profile"
+}

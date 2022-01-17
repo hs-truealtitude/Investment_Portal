@@ -1,8 +1,9 @@
 {
+  "autoHeight": true,
   "classes": "",
   "detailTemplate": "",
   "gsOptions": {
-    "h": 17,
+    "h": 22,
     "w": 16,
     "x": 4,
     "y": 1
@@ -11,11 +12,11 @@
     "text": "Standard"
   },
   "offSet": 0,
-  "overflow": "",
+  "overflow": "height: auto;",
   "perPage": 2,
   "styles": "",
   "subtab": "-MVGPWkCqsquh0_f0Xb1",
   "tab": "-MVGOMA1-ifNurWKHxUf",
-  "template": "<DataGridEditRow gridId=\"investorProfiles\" :rowKey=\"$getUser('profileID')\" />",
+  "template": "<DataGridEditRow style=\"margin-bottom: 80px;\" gridId=\"investorProfiles\" :rowKey=\"$getUser('profileID')\" />",
   "title": "Create your Investor profile"
 }

@@ -1,4 +1,5 @@
 (async () => {
+
   let accountType = $getUser("accountType");
   let profileRowKey = $getUser("profileID");
 

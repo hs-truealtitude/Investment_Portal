@@ -59,120 +59,121 @@
                <div class="accountApproval">
                   <div class="notifications__dropdown">
                      <!--CompanyUser Account Approval Notifications-->
-         <li class="CompanyUserapproval oneline" v-for='row in AdminNotifications_CompanyUserApproval' @click="$store.commit('setDataGridRowPreview', {
-            gridId: 'companyUserProfiles',
-            rowKey: row.rowKey,
-            })">
-         <span v-if="row.accType && row.name && row.secondName" class="text" >{{row.$accType$display}} - {{row.name}} {{truncateText(row.secondName,10)}}</span>
-         </li>
-         <!--Mentor Account Approval Notifications-->
-         <li class="Mentorapproval oneline" v-for='row in AdminNotifications_MentorApproval' @click="$store.commit('setDataGridRowPreview', {
-            gridId: 'mentors',
-            rowKey: row.rowKey,
-            })">
-         <span v-if="row.accType && row.name && row.secondName" class="text" >{{row.$accType$display}} - {{row.name}} {{truncateText(row.secondName,10)}}</span>
-         </li>
-         <!--Investor Account Approval Notifications-->
-         <li class="Investorapproval oneline" v-for='row in AdminNotifications_InvestorApproval' @click="$store.commit('setDataGridRowPreview', {
-            gridId: 'investorProfiles',
-            rowKey: row.rowKey,
-            })">
-         <span v-if="row.$accType && row.name && row.secondName" class="text" >{{row.$accType$display}} - {{row.name}} {{truncateText(row.secondName,10)}}</span>
-         </li>
-         <!--ProgrammePartner Account Approval Notifications-->
-         <li class="PPapproval twoline" style="" v-for='row in AdminNotifications_PPApproval' @click="$store.commit('setDataGridRowPreview', {
-            gridId: 'programmePartnerProfiles',
-            rowKey: row.rowKey,
-            })">
-         <span v-if="row.$accType && row.name && row.secondName" class="text" >{{row.$accType$display}} - {{row.name}} {{truncateText(row.secondName,10)}}</span>
-         </li>
-         </div>
-         </div>
-         </a>
-         </li>
-         <!--Company Approval Notifications -->
-         <li class="notiftitle">
-            <a class="menusection" href="#" :data-bubble="AdminNotifications_CompanyApprovalCount">
-               <span class="type"> Company Approval </span>
-               <div class="companyApproval">
-                  <div class="notifications__dropdown">
-                     <!--CompanyUser Account Approval Notifications-->
-         <li class="companyApprove oneline" v-for='row in AdminNotifications_CompanyApproval' @click="$store.commit('setDataGridRowPreview', {
-            gridId: 'companyProfiles',
-            rowKey: row.rowKey,
-            })">
-         <span v-if="row.name" class="text" >{{truncateText(row.name,26)}} </span>
-         </li>
-         </div>
-         </div>
-         </a>
-         </li>
-         <li class="notiftitle">
-            <a class="menusection" href="#" :data-bubble="AdminNotifications_MentorEngagements_Count">
-               <span class="type"> Mentor Engagements </span>
-               <div class="mentorEngagements">
-                  <div class="notifications__dropdown">
-                     <!--Applications Notifications (Mentor->CompanyUser) -->
-         <li class="threeline" style="" v-for='row in AdminNotifications_MentorEngagements_Applications_MentortoCompanyUser' @click="$setDataGridVal('applications', `${row.rowKey}.adminViewed`, true); $store.commit('setDataGridRowPreview', {
-            gridId: 'applications',
-            rowKey: row.rowKey,
-            })">
-         <span v-if="row.mentorOwner && row.companyUser" class="text" >Connection: {{truncateText(row.$mentorOwner.name,10)}} (Mentor) with {{truncateText(row.$companyUser.name,10)}} (CompanyUser)  </span>
-         </li>
-         <!--Applications Notifications (CompanyUser->Mentor) -->
-         <li class="threeline" style="" v-for='row in AdminNotifications_MentorEngagements_Applications_CompanyUsertoMentor' @click="$setDataGridVal('applications', `${row.rowKey}.adminViewed`, true); $store.commit('setDataGridRowPreview', {
-            gridId: 'applications',
-            rowKey: row.rowKey,
-            })">
-         <span v-if="row.companyUser && row.mentor" class="text">Connection: {{truncateText(row.$companyUser.name,10)}} (CompanyUser) with {{truncateText(row.$mentor.name,10)}} (Mentor)   </span>
-         </li>
-         <!--Session Notifications (Mentor->CompanyUser) -->
-         <li class="threeline" style="" v-for='row in AdminNotifications_MentorEngagements_Sessions_MentortoCompanyUser' @click="$setDataGridVal('sessions', `${row.rowKey}.adminViewed`, true); $store.commit('setDataGridRowPreview', {
-            gridId: 'sessions',
-            rowKey: row.rowKey,
-            })">
-         <span v-if="row.mentor && row.companyUser" class="text">Booking: {{truncateText(row.$mentor.name,10)}} (Mentor) with {{truncateText(row.$companyUser.name,10)}} (CompanyUser)  </span>
-         </li>
-         <!--Session Notifications (CompanyUser->Mentor) -->
-         <li class="threeline" style="" v-for='row in AdminNotifications_MentorEngagements_Sessions_CompanyUsertoMentor' @click="$setDataGridVal('sessions', `${row.rowKey}.adminViewed`, true); $store.commit('setDataGridRowPreview', {
-            gridId: 'sessions',
-            rowKey: row.rowKey,
-            })">
-         <span v-if="row.companyUser && row.mentor" class="text">Booking: {{truncateText(row.$companyUser.name,10)}} (CompanyUser) with {{truncateText(row.$mentor.name,10)}} (Mentor)   </span>
-         </li>
-         <li v-if="AdminNotifications_MentorEngagements_Count != 0">
-         <center><span @click="AdminNotifications_clearMentorEngagements(); AdminNotifications_clearMentorSessions();">Clear All</span></center>
-         </li>
-         </div>
-         </div>
-         </a>
-         </li>
-         <li class="notiftitle">
-            <a class="menusection" href="#" :data-bubble="AdminNotifications_InvestorEngagements_Count">
-               <span class="type"> Investor Engagements </span>
-               <div class="investorEngagements">
-                  <div class="notifications__dropdown">
-                     <!--CompanyUser Account Approval Notifications-->
-         <li class="investorList threeline" style="" v-for='row in AdminNotifications_InvestorEngagements' @click="$setDataGridVal('applications', `${row.rowKey}.adminViewed`, true); $store.commit('setDataGridRowPreview', {
-            gridId: 'applications',
-            rowKey: row.rowKey,
-            })">
-         <span v-if="row.investor && row.companyUser" class="text" >Connection: {{row.$investor.name}} (Investor) with {{row.$companyUser.name}} (CompanyUser) </span>
-         </li>
-         <li v-if="AdminNotifications_InvestorEngagements_Count != 0">
-         <center><span @click="AdminNotifications_clearInvestorEngagements();">Clear All</span></center>
-         </li>
-         </div>
-         </div>
-         </a>
-         </li>
-      </ul>
+                    <li class="CompanyUserapproval oneline" v-for='row in AdminNotifications_CompanyUserApproval' @click="$store.commit('setDataGridRowPreview', {
+                        gridId: 'companyUserProfiles',
+                        rowKey: row.rowKey,
+                        })">
+                    <span v-if="row.accType && row.name && row.secondName" class="text" >{{row.$accType$display}} - {{row.name}} {{truncateText(row.secondName,10)}}</span>
+                    </li>
+                    <!--Mentor Account Approval Notifications-->
+                    <li class="Mentorapproval oneline" v-for='row in AdminNotifications_MentorApproval' @click="$store.commit('setDataGridRowPreview', {
+                        gridId: 'mentors',
+                        rowKey: row.rowKey,
+                        })">
+                    <span v-if="row.accType && row.name && row.secondName" class="text" >{{row.$accType$display}} - {{row.name}} {{truncateText(row.secondName,10)}}</span>
+                    </li>
+                    <!--Investor Account Approval Notifications-->
+                    <li class="Investorapproval oneline" v-for='row in AdminNotifications_InvestorApproval' @click="$store.commit('setDataGridRowPreview', {
+                        gridId: 'investorProfiles',
+                        rowKey: row.rowKey,
+                        })">
+                    <span v-if="row.$accType && row.name && row.secondName" class="text" >{{row.$accType$display}} - {{row.name}} {{truncateText(row.secondName,10)}}</span>
+                    </li>
+                    <!--ProgrammePartner Account Approval Notifications-->
+                    <li class="PPapproval twoline" style="" v-for='row in AdminNotifications_PPApproval' @click="$store.commit('setDataGridRowPreview', {
+                        gridId: 'programmePartnerProfiles',
+                        rowKey: row.rowKey,
+                        })">
+                    <span v-if="row.$accType && row.name && row.secondName" class="text" >{{row.$accType$display}} - {{row.name}} {{truncateText(row.secondName,10)}}</span>
+                    </li>
+                    </div>
+                    </div>
+                    </a>
+                    </li>
+                    <!--Company Approval Notifications -->
+                    <li class="notiftitle">
+                        <a class="menusection" href="#" :data-bubble="AdminNotifications_CompanyApprovalCount">
+                        <span class="type"> Company Approval </span>
+                        <div class="companyApproval">
+                            <div class="notifications__dropdown">
+                                <!--CompanyUser Account Approval Notifications-->
+                    <li class="companyApprove oneline" v-for='row in AdminNotifications_CompanyApproval' @click="$store.commit('setDataGridRowPreview', {
+                        gridId: 'companyProfiles',
+                        rowKey: row.rowKey,
+                        })">
+                    <span v-if="row.name" class="text" >{{truncateText(row.name,26)}} </span>
+                    </li>
+                    </div>
+                    </div>
+                    </a>
+                    </li>
+                    <li class="notiftitle">
+                        <a class="menusection" href="#" :data-bubble="AdminNotifications_MentorEngagements_Count">
+                        <span class="type"> Mentor Engagements </span>
+                        <div class="mentorEngagements">
+                            <div class="notifications__dropdown">
+                                <!--Applications Notifications (Mentor->CompanyUser) -->
+                    <li class="threeline" style="" v-for='row in AdminNotifications_MentorEngagements_Applications_MentortoCompanyUser' @click="$setDataGridVal('applications', `${row.rowKey}.adminViewed`, true); $store.commit('setDataGridRowPreview', {
+                        gridId: 'applications',
+                        rowKey: row.rowKey,
+                        })">
+                    <span v-if="row.mentorOwner && row.companyUser" class="text" >Connection: {{truncateText(row.$mentorOwner.name,10)}} (Mentor) with {{truncateText(row.$companyUser.name,10)}} (CompanyUser)  </span>
+                    </li>
+                    <!--Applications Notifications (CompanyUser->Mentor) -->
+                    <li class="threeline" style="" v-for='row in AdminNotifications_MentorEngagements_Applications_CompanyUsertoMentor' @click="$setDataGridVal('applications', `${row.rowKey}.adminViewed`, true); $store.commit('setDataGridRowPreview', {
+                        gridId: 'applications',
+                        rowKey: row.rowKey,
+                        })">
+                    <span v-if="row.companyUser && row.mentor" class="text">Connection: {{truncateText(row.$companyUser.name,10)}} (CompanyUser) with {{truncateText(row.$mentor.name,10)}} (Mentor)   </span>
+                    </li>
+                    <!--Session Notifications (Mentor->CompanyUser) -->
+                    <li class="threeline" style="" v-for='row in AdminNotifications_MentorEngagements_Sessions_MentortoCompanyUser' @click="$setDataGridVal('sessions', `${row.rowKey}.adminViewed`, true); $store.commit('setDataGridRowPreview', {
+                        gridId: 'sessions',
+                        rowKey: row.rowKey,
+                        })">
+                    <span v-if="row.mentor && row.companyUser" class="text">Booking: {{truncateText(row.$mentor.name,10)}} (Mentor) with {{truncateText(row.$companyUser.name,10)}} (CompanyUser)  </span>
+                    </li>
+                    <!--Session Notifications (CompanyUser->Mentor) -->
+                    <li class="threeline" style="" v-for='row in AdminNotifications_MentorEngagements_Sessions_CompanyUsertoMentor' @click="$setDataGridVal('sessions', `${row.rowKey}.adminViewed`, true); $store.commit('setDataGridRowPreview', {
+                        gridId: 'sessions',
+                        rowKey: row.rowKey,
+                        })">
+                    <span v-if="row.companyUser && row.mentor" class="text">Booking: {{truncateText(row.$companyUser.name,10)}} (CompanyUser) with {{truncateText(row.$mentor.name,10)}} (Mentor)   </span>
+                    </li>
+                    <li v-if="AdminNotifications_MentorEngagements_Count != 0">
+                    <center><span @click="AdminNotifications_clearMentorEngagements(); AdminNotifications_clearMentorSessions();">Clear All</span></center>
+                    </li>
+                    </div>
+                    </div>
+                    </a>
+                    </li>
+                    <li class="notiftitle">
+                        <a class="menusection" href="#" :data-bubble="AdminNotifications_InvestorEngagements_Count">
+                        <span class="type"> Investor Engagements </span>
+                        <div class="investorEngagements">
+                            <div class="notifications__dropdown">
+                                <!--CompanyUser Account Approval Notifications-->
+                    <li class="investorList threeline" style="" v-for='row in AdminNotifications_InvestorEngagements' @click="$setDataGridVal('applications', `${row.rowKey}.adminViewed`, true); $store.commit('setDataGridRowPreview', {
+                        gridId: 'applications',
+                        rowKey: row.rowKey,
+                        })">
+                    <span v-if="row.investor && row.companyUser" class="text" >Connection: {{row.$investor.name}} (Investor) with {{row.$companyUser.name}} (CompanyUser) </span>
+                    </li>
+                    <li v-if="AdminNotifications_InvestorEngagements_Count != 0">
+                    <center><span @click="AdminNotifications_clearInvestorEngagements();">Clear All</span></center>
+                    </li>
+                    </div>
+                    </div>
+                    </a>
+                    </li>
+                </ul>
    </div>
    <div class="row">
       <div class="nav-logo right ui userManagement">
          <div v-if="userRoles && userRoles.includes('Admin')">
             <a @click="$setCurrentSubTab('-Mk2LRrt-B_UIktKpDNh','-MKUwx1XmgWmAYvLK_wz')" target="_blank">
-            <i class="gg-user-list"></i>
+            <!--i class="gg-user-list"></i-->
+            <i class="fas fa-users fa-lg"></i>
             <span class="tooltiptext">User Management</span>
             </a>
          </div>
@@ -180,7 +181,8 @@
       <div class="nav-logo right ui end dev">
          <div v-if="userRoles && userRoles.includes('Developer')">
             <a @click="$setCurrentTab('-MRosDn6SYo3LCxaAq4i')" target="_blank">
-            <i class="gg-code-slash"></i> 
+            <!--i class="gg-code-slash"></i-->
+            <i class="fas fa-code fa-lg"></i> 
             <span class="tooltiptext">Developer Access (Tangle)</span>
             </a>
          </div>

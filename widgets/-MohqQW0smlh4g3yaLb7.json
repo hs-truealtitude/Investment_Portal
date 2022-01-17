@@ -1,0 +1,25 @@
+{
+  "classes": "",
+  "containerTabs": [
+    {
+      "key": "-MohqQW0smlh4g3yaLb8",
+      "title": "View All Mentors/Indirect Investors"
+    },
+    {
+      "key": "-MohqYIyxi73UiLbk0Ep",
+      "title": "My Mentors/Indirect Investors"
+    }
+  ],
+  "gsOptions": {
+    "h": 60,
+    "w": 22,
+    "x": 1,
+    "y": 1
+  },
+  "overflow": "height: auto;",
+  "styles": "",
+  "subtab": "-MPe0NxYQploLstsV54u",
+  "tab": "-MJq8S1suwASZ84EkCd5",
+  "title": "",
+  "type": "container"
+}

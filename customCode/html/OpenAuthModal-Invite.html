@@ -1,0 +1,21 @@
+  <b-modal class="openAuthModal" id="openAuthModalInvite" title="Your link">
+    <h1 style="padding-top: -100px;" class="">{{$getUser('inviteCohortName')}}</h1>
+    <h2>Cohort Invite Link:</h2>
+    <p> This is an invite & referral link for unregistered users. Use this link to invite new users to your cohort.</p>
+    
+    <p style="color: #ef4437; font-weight: bold; margin-bottom: -3px; "> Please note: </p> <p> If you would like to test this link, please open it in a different browser as it may sign you out of your current session. </p>
+    
+    <div class="linkTextContainer">
+      <p id="linkText" class="linkText">
+
+      {{$getUser('activeGeneratedLinkInvite')}}
+
+      </p>
+    </div>
+    
+    <button @click="textCopied('linkText')" id="textCopied" class="myButton">Copy link
+      <i  style="margin-left: 5px !important;" class="fas fa-copy"></i>
+    </button>
+
+
+  </b-modal>

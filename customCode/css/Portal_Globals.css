@@ -1,0 +1,12 @@
+.dashboard__wrapper {
+    height: 100vh;
+    padding-top: 60px;
+    padding-bottom: 60px !important;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden !important;
+}
+
+.dashboard__wrapper > .dashboard {
+    overflow: auto;
+}

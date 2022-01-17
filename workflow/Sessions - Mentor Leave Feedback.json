@@ -1,0 +1,160 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-MqUPeuHrtfZiInegjyf",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1639132594967",
+        "x": 208.57,
+        "y": 386.16,
+        "width": 190,
+        "height": 87,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Submit Feedback",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1639653600601",
+        "x": 898.58,
+        "y": 308.57,
+        "width": 207,
+        "height": 179,
+        "attachment": {},
+        "name": "decision",
+        "clazz": "decision",
+        "label": "Decision Referral Email",
+        "icon": {
+          "name": "check-circle",
+          "color": "hsl(11, 96%, 62%)"
+        },
+        "outcomes": [
+          {
+            "text": "Send Referral Email",
+            "id": "outcome1639653667781",
+            "idx": 1,
+            "expression": "context.data.sendReferralEmail == true"
+          },
+          {
+            "text": "Do not send Referral Email",
+            "id": "outcome1639653687682",
+            "idx": 2,
+            "expression": "context.data.sendReferralEmail != true"
+          }
+        ]
+      },
+      {
+        "id": "node1639653694317",
+        "x": 1515.71,
+        "y": 315.72,
+        "width": 190,
+        "height": 87,
+        "attachment": {
+          "script": "//SEND REFERRAL EMAIL NOTIFICATION\r\nlet dbCall = await tablesRef.child('companyUserProfiles/'+rowData.companyUser)\r\n      .once('value')\r\nlet results = dbCall.val()\r\n\r\nlet dbCall2 = await tablesRef.child('mentors/'+rowData.mentor)\r\n      .once('value')\r\nlet results2 = dbCall2.val()\r\n\r\nlet dbCall3 = await tablesRef.child('companyProfiles/'+rowData.company)\r\n      .once('value')\r\nlet results3 = dbCall3.val()\r\n\r\n$log(context.data.recommendation)\r\n\r\nconst companyRepEmail = await getUserEmailByUID(results.owner)\r\nconst email = context.data.recommendation\r\n\r\nconst msg = {\r\n            to: {email},\r\n            from: 'noreply@portal.truealtitude.co.uk',\r\n            subject: 'True Altitude Portal: You have been referred to a Company by ' + results2.name + ' ' + results2.secondName + '!',\r\n            text: 'Hi, \\n\\r' + ' Please click here to login. portal.truealtitude.co.uk',\r\n            html: 'Hi, <br/>' \r\n                  + '<br/> <b>' + results2.name + ' ' + results2.secondName + '</b> has been speaking to <b>' + results3.name + '</b> (Company) and has suggested you speak with them. <br/>'\r\n                  \r\n                  + '<br/>' + context.data.referralPersonalMessage + '<br/>'\r\n\r\n                  + '<br/>' + results.name + ' ' + results.secondName + ' (Company Representative): ' + companyRepEmail + '<br/>'\r\n\r\n                  + '<br/> Please click <a href=\"portal.truealtitude.co.uk/auth\">here</a> to register/login to the <b>True Altitude Investment Portal</b>.'\r\n            }\r\n\r\nlet nEmail = await sendEmail(msg)\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Send Referral Email",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1639658061380",
+        "x": 1928.57,
+        "y": 767.14,
+        "width": 190,
+        "height": 65,
+        "attachment": {
+          "field": "sessions / companyUserReviewGiven",
+          "fieldValue": "true",
+          "color": "#2dcd88"
+        },
+        "name": "update-record",
+        "clazz": "updateRecord",
+        "label": "Feedback given",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "connector-outcome1639653667781",
+        "target": "node1639653694317",
+        "endSocket": "left",
+        "id": "line-1639653723249",
+        "label": "Send Referral Email",
+        "targetLabel": "Send Referral Email",
+        "expression": "context.data.sendReferralEmail == true",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1639132594967-right",
+        "target": "node1639653600601",
+        "endSocket": "left",
+        "id": "line-1639658049094",
+        "label": "Start Event",
+        "targetLabel": "Decision Referral Email",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1639653694317-right",
+        "target": "node1639658061380",
+        "endSocket": "left",
+        "id": "line-1639658096659",
+        "label": "Send Referral Email",
+        "targetLabel": "Feedback given",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "connector-outcome1639653687682",
+        "target": "node1639658061380",
+        "endSocket": "left",
+        "id": "line-1639658099143",
+        "label": "Do not send Referral Email",
+        "targetLabel": "Feedback given",
+        "expression": "context.data.sendReferralEmail != true",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": -1252,
+      "y": -259,
+      "scale": 0.7
+    }
+  },
+  "name": "Sessions - Mentor Leave Feedback"
+}

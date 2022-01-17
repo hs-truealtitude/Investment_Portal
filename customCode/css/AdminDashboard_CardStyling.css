@@ -138,6 +138,7 @@
 }
 */
 
+/* Admin dashboard navigation cards */
 .navCards .content {
    max-width: 1024px;
    width: 100%;
@@ -149,12 +150,8 @@
 }
 
 .navCards{
-          margin-top: -30px !important;
-
+    margin-top: -30px !important;
 }
-
-
-
 
 .navCards .Ncard {
    width: 100%;
@@ -175,7 +172,6 @@
    transition: all 0.3s ease;
    background-color: #fffaf3;
    top: 260px;
-
 }
 
 .navCards .icon {
@@ -195,7 +191,6 @@
 }
 
 .navCards .Ncard .title {
-   
    width: 90%;
    margin: 0;
    text-align: center;
@@ -205,7 +200,6 @@
    text-transform: uppercase;
    letter-spacing: 2px;
    font-family: "Grenette pro", sans-serif;  color: black;
-
 }
 
 .navCards .Ncard .text {
@@ -244,7 +238,13 @@
    -webkit-text-fill-color: transparent;
    opacity: 1;
    transition: all 0.3s ease;
+      font-size: 1.7em;
 }
+
+.Ncard .icon i{
+   font-size: 1.4em;
+}
+
 
 .navCards .flexbox-container{
     display: flex;
@@ -254,6 +254,7 @@
     justify-content: space-around;
 }
 
+/* Navigation card mobile styling */
 @media screen and (max-width: 1670px) {
    .Ncard{
        width: 270px !important;
@@ -264,7 +265,6 @@
    .Ncard{
        width: 250px !important;
    }
-
    .Ncard .text{
        font-size: 12px !important;
    }
@@ -292,8 +292,6 @@
       margin-top: -190px;
    }
 }
-
-
 
 /*------------------FRONT CARD------------------*/
 
@@ -401,7 +399,6 @@ body{
 /*Tabs*/
 .tab-title-class {
     color: black !important;  
-    
     font-size: 18px;
 }
 
@@ -421,17 +418,14 @@ body{
 
 .details .row{
     padding-left: 15px;
-    
 }
 
 .company_title{
-    
     font-weight: 600 !important;
 }
 
 .details{
     padding-top: 15px;
-    
 }
 
 .details .h4{
@@ -454,7 +448,6 @@ body{
 .requestCard h3{
     color: black;
 }
-
 
 .stats h2{
     font-family: 'Grenette pro', sans-serif;

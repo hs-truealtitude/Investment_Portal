@@ -1,18 +1,32 @@
+/* Tangle modal styling */
 .modal-body .ml-auto{
         display: none !important;
 }
 
+.modal-content .card-header{
+    background-color: #fffaf3;
+}
+
+.modal-content .nav-link{
+    font-family: 'Grenette pro', sans-serif !important;
+    color: black;
+}
+
 .modal-title{
-        display: none;
+    display: none;
+}
+
+.modal-content .nav-item a{
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .controlElement .mcard{
-        border:1px solid 	#696969	 !important;
-
+    border:1px solid #696969 !important;
 }
 
 .modal-content a{
-        color: #ef4437 !important
+    color: #ef4437 !important
 }
 
 .modal-content img{
@@ -219,3 +233,16 @@ color: white !important;
 .modal-content .card-body{
         padding: 10px;
 }
+
+.tabContainer{
+        margin-top: 20px !important;
+}
+
+.tangle-tabs .card-body {
+    padding: 20px;
+}
+
+.modal-content li{      
+    font-family: 'Grenette pro', sans-serif !important;
+}
+

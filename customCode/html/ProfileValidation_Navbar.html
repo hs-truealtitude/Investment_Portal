@@ -19,6 +19,14 @@
       <i class="fas fa-database"></i>
       </a>
    </div>
+
+   <div v-if="fbUser.email" class="nav-logo right ui notNotif signOut">
+      <a @click="$signOut()" target="_blank">
+        <span class="tooltiptext">Sign out: {{fbUser.email}}</span>
+        <i class="fas fa-sign-out-alt"></i>
+      </a>
+   </div>
+
     <div class="nav-logo right w-nav-brand w--current">
         <a href="https://www.truealtitude.co.uk/" target="_blank">
             <img src="https://uploads-ssl.webflow.com/6019829c6923fb7e4774c0bc/601d6a5ca8e000caf35b4f86_logomark.svg" loading="lazy" alt="true altitude logomark" class="logomark">
@@ -27,23 +35,45 @@
 </div>
 <div class="bg">
 </div>
-<div class="nav-bottom-contain">
-   <div data-w-id="639316c0-3f07-ae05-7551-93879e5f39bf" class="nav-menu-icon-contain">
-      <a href="#" class="nav-menu-link menu w-button">Menu</a>
-      <a href="#" class="nav-menu-link close w-button"></a>
-   </div>
-   <div v-if="$getUser('accountType') != 'CompanyUser' && $getUser('accountType') != 'Mentor' && $getUser('accountType') != 'Investor' && $getUser('accountType') != 'ProgrammePartner'" class="nav-menu-contain">
-      <div class="nav-menu-link-box start">
-         <a @click="createInvestorProfile()" class="nav-menu-link w-button">Investor</a>
-      </div>
-      <div class="nav-menu-link-box">
-         <a @click="createMentorProfile()" class="nav-menu-link w-button">Mentor</a>
-      </div>
-      <div class="nav-menu-link-box">
-         <a @click="createCompanyUserProfile()" class="nav-menu-link w-button">Company</a>
-      </div>
-      <div class="nav-menu-link-box end">
-         <a @click="createProgrammePartnerProfile()" class="nav-menu-link w-button">Programme Partner</a>
-      </div>
-   </div>
+<div>
+    <div class="nav-bottom-contain">
+    <div data-w-id="639316c0-3f07-ae05-7551-93879e5f39bf" class="nav-menu-icon-contain">
+        <a href="#" class="nav-menu-link menu w-button">Menu</a>
+        <a href="#" class="nav-menu-link close w-button"></a>
+    </div>
+    <div v-if="$getUser('accountType') != 'CompanyUser' && $getUser('accountType') != 'Mentor' && $getUser('accountType') != 'Investor' && $getUser('accountType') != 'ProgrammePartner'" class="nav-menu-contain">
+        <div class="nav-menu-link-box start">
+            <a @click="createInvestorProfile()" class="nav-menu-link w-button" id="createInvestor" 
+                onmouseleave="document.getElementById('cardContainer').style.display = 'none'; document.getElementById('investorText').style.display = 'none';" 
+                onmouseover="document.getElementById('cardContainer').style.display = 'block'; document.getElementById('investorText').style.display = 'block';"
+            >
+            Investor
+            </a>
+        </div>
+        <div class="nav-menu-link-box">
+            <a @click="createMentorProfile()" class="nav-menu-link w-button" id="createMentor"
+                onmouseleave="document.getElementById('cardContainer').style.display = 'none'; document.getElementById('mentorText').style.display = 'none';" 
+                onmouseover="document.getElementById('cardContainer').style.display = 'block'; document.getElementById('mentorText').style.display = 'block';"
+            >
+            Indirect Investor
+            </a>
+        </div>
+        <div class="nav-menu-link-box">
+            <a @click="createCompanyUserProfile()" class="nav-menu-link w-button" id="createCompanyUser"
+                onmouseleave="document.getElementById('cardContainer').style.display = 'none'; document.getElementById('companyUserText').style.display = 'none';" 
+                onmouseover="document.getElementById('cardContainer').style.display = 'block'; document.getElementById('companyUserText').style.display = 'block';"
+            >
+            Company
+            </a>
+        </div>
+        <div class="nav-menu-link-box end">
+            <a @click="createProgrammePartnerProfile()" class="nav-menu-link w-button" id="createPP"
+                onmouseleave="document.getElementById('cardContainer').style.display = 'none'; document.getElementById('ppText').style.display = 'none';" 
+                onmouseover="document.getElementById('cardContainer').style.display = 'block'; document.getElementById('ppText').style.display = 'block';"
+            >    
+            Programme Partner
+            </a>
+        </div>
+    </div>
+    </div>
 </div>

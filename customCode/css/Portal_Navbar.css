@@ -84,8 +84,8 @@ html {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    
 }
+
 .w-nav-brand {
     position: relative;
     float: left;
@@ -169,6 +169,10 @@ body {
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     background-color: #fffaf3;
+}
+
+.nav-bottom-contain .nav-menu-contain .nav-logo .right a{
+    height: 100% !important;
 }
 
 .border-left {
@@ -375,7 +379,7 @@ body {
     background-color: transparent;
     font-family: 'Grenette pro', sans-serif;
     color: #000;
-    font-size: 1.1em;
+    font-size: 1.0em;
     line-height: 1;
     text-align: center;
 }

@@ -1,0 +1,65 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-MnkooX1eKKHhLPA_bfK",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1636127966359",
+        "x": 1031.182596998669,
+        "y": 308.90738670454493,
+        "width": 108,
+        "height": 41,
+        "attachment": {
+          "script": "const authLinkGenerated = await generateAuthLink({\r\n    redirectUrl: '/dashboard/-MhsbxHaHHybrPYZ2mCu?tab=-MmIIsHE-irxCHjAxrNf&subtab=-MnPo9YMGQa6xp5jnip7',\r\n    origin: data.origin,\r\n    rowKey: data.rowKey,\r\n})\r\n\r\nconst { user } = authLinkGenerated\r\n\r\nif (user) {\r\n    await addUser({\r\n      uid: user.uid,\r\n      dashboard: data.dashboard,\r\n      rules: { read: true },\r\n    })\r\n}\r\n\r\ncontext.data.authLinkGenerated = authLinkGenerated\r\n\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1636128005519",
+        "x": 807.3,
+        "y": 308.91,
+        "width": 105,
+        "height": 41,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1636128005519-right",
+        "target": "node1636127966359",
+        "endSocket": "left",
+        "id": "line-1636128007180",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": -441.18133452182155,
+      "y": -18.40505535807337,
+      "scale": 0.7459215639286157
+    }
+  },
+  "name": "generateAuthLink_Company"
+}

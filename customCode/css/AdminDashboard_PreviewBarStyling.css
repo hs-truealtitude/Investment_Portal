@@ -1,15 +1,22 @@
-/*Color*/
+/* Styling & Tangle UI elements hidden/moved */
+
+/*Background Color*/
 #dgRowPreview {
     background:  #fffaf3 !important;
 }
 
+.card-header{
+    background:  #fffaf3 !important;
+
+}
+
 #dgRowPreview strong{
-        font-family: 'Grenette pro', sans-serif !important;
+    font-family: 'Grenette pro', sans-serif !important;
 }
 
 #dgRowPreview .nav-item a{
-            font-family: 'Grenette pro', sans-serif !important;
-color: black;
+    font-family: 'Grenette pro', sans-serif !important;
+    color: black;
 }
 
 .dgRowPreview .guiSectionItem .nav-tabs .active {
@@ -18,11 +25,7 @@ color: black;
 }
 
 #dgRowPreview .controlItem{
-        background:  #fffaf3 !important;
-
-}
-
-.data-grid__table-wrapper .card{
+    background:  #fffaf3 !important;
 }
 
 /*Placement*/
@@ -40,7 +43,7 @@ color: black;
 }
 
 .dgRowPreview .card{
-        border: 0px solid rgba(0, 0, 0, 0.2) !important;
+    border: 0px solid rgba(0, 0, 0, 0.2) !important;
 }
 
 .dgRowPreview span{

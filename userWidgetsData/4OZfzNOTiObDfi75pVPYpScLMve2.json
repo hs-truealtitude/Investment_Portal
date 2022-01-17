@@ -1,8 +1,19 @@
 {
-  "accountType": "NONE",
-  "activeUserFirstName": "TEST",
-  "activeUserSecondName": "TEST",
+  "accountType": "Mentor",
+  "activeCohort": "-MqK6lwHteScTbiGXNiw",
+  "activeCohortRowKey": "-MqK6lwHteScTbiGXNiw",
+  "activeCompanyName": "Warner Patch",
+  "activeCompanyOwnerName": "Support",
+  "activeUserFirstName": "True",
+  "activeUserSecondName": "Altitude",
   "cookieConsent": "true",
+  "filterCompany": "-MMzZ2krPwl50hP5t54m",
+  "filterCompanyUser": "-MkCt4HXbnk2U45svnTL",
+  "filterMentor": "-MqK3F_U4ttPyx33Ny7I",
   "hideBack": "YES",
-  "profileID": "-MlsqfmMkMGy5AUNY2XV"
+  "profileID": "-MqK3F_U4ttPyx33Ny7I",
+  "referralAccountType": "Mentor",
+  "referralRowKey": "-MqK3F_U4ttPyx33Ny7I",
+  "sessionDirection": "Mentor->CompanyUser",
+  "updatesRead": true
 }
