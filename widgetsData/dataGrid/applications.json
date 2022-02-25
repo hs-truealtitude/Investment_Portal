@@ -55,7 +55,7 @@
       "filterCode": "// return row.cohort.companies.companyUser == $getUser('profileID')\r\nconst cohortCompanies = []\r\n\r\nfor (let key in rowData.$cohort.$companies || {}) {\r\n    const company = rowData.$cohort.$companies[key]\r\n\r\n    cohortCompanies.push(company.rowKey)\r\n}\r\n\r\nreturn row.owner === fbUser.uid && cohortCompanies.includes(row.rowKey)",
       "invisible": false,
       "lookUpTable": "companyProfiles",
-      "order": 2,
+      "order": 3,
       "type": "lookup"
     },
     "company": {
@@ -64,7 +64,7 @@
       "invisible": false,
       "lookUpTable": "companyProfiles",
       "onChange": "$setDataGridVal(\r\n    'applications',\r\n    `${rowData.rowKey}.companyLastEditDate`,\r\n    rowData.$company.lastEditDate\r\n)\r\n",
-      "order": 3,
+      "order": 2,
       "type": "lookup"
     },
     "companyCard": {
@@ -190,6 +190,7 @@
     },
     "mentorMentorNotice": {
       "displayName": "mentorMentorNotice",
+      "invisible": true,
       "order": 51,
       "type": "custom"
     },

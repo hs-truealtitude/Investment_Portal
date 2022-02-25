@@ -1,0 +1,14 @@
+{
+  "dependency": "kanbanData/-MvZGs4B_Z61DCrTdir4",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 16
+  },
+  "layout": "b-card",
+  "offSet": 0,
+  "perPage": 2,
+  "tab": "-MRosDn6SYo3LCxaAq4i",
+  "template": "<Kanban kanbanId=\"-MvZGs4B_Z61DCrTdir4\" />"
+}

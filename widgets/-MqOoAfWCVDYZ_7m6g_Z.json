@@ -19,10 +19,10 @@
   "dataSource": "sessions",
   "detailTemplate": "",
   "gsOptions": {
-    "h": 8,
+    "h": 4,
     "w": 24,
     "x": 0,
-    "y": 105
+    "y": 60
   },
   "isCardListDetailTabsHidden": true,
   "isCardListTabsHidden": true,

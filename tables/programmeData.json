@@ -214,13 +214,19 @@
     "programmeSummary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "rowKey": "-MpC5U5e_T5k7FwnbgvA"
   },
-  "-MsjjDPLqvQs_tHwRrQZ": {
+  "-Mw1Z4ohg-8xA2CBcV8r": {
     "_id": 19,
-    "createdDate": 1641478415820,
-    "lastEditDate": 1641478415820,
+    "createdDate": 1645015489961,
+    "lastEditDate": 1645016102656,
     "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "name": "CPC",
     "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "programmeLogo": {
+      "fileName": "7e9b9f20-8f26-11ec-9f31-29815c5f0660_datagrid_profile_img.png",
+      "url": "https://firebasestorage.googleapis.com/v0/b/investment-portal-ab4a7.appspot.com/o/-MhsbxHaHHybrPYZ2mCu%2F7e9b9f20-8f26-11ec-9f31-29815c5f0660_datagrid_profile_img.png?alt=media&token=31d725f5-9c62-4c94-ac88-cceeec87317e"
+    },
     "programmePartner": "-MkCrUeakAp1NI5Pf-Il",
-    "rowKey": "-MsjjDPLqvQs_tHwRrQZ"
+    "programmeSummary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "rowKey": "-Mw1Z4ohg-8xA2CBcV8r"
   }
 }

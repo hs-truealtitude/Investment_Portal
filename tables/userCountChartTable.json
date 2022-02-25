@@ -1,0 +1,98 @@
+{
+  "-MtHAlLdEh0n_FvCdBp9": {
+    "_id": 3,
+    "cohort": "-MtHAlDOBlnRUhVMWadQ",
+    "createdDate": 1642056325098,
+    "grouping": "Companies",
+    "lastEditDate": 1642056325098,
+    "lastEditedBy": "IyHrs0P6j3VzPK4n505PzuEqDuH2",
+    "owner": "IyHrs0P6j3VzPK4n505PzuEqDuH2",
+    "rowKey": "-MtHAlLdEh0n_FvCdBp9"
+  },
+  "-MtHAlLeJFO7tQzf8Xg1": {
+    "_id": 3,
+    "cohort": "-MtHAlDOBlnRUhVMWadQ",
+    "createdDate": 1642056325099,
+    "grouping": "Indirect Investors/Mentors",
+    "lastEditDate": 1642056325099,
+    "lastEditedBy": "IyHrs0P6j3VzPK4n505PzuEqDuH2",
+    "owner": "IyHrs0P6j3VzPK4n505PzuEqDuH2",
+    "rowKey": "-MtHAlLeJFO7tQzf8Xg1"
+  },
+  "-MtHAlLeJFO7tQzf8Xg2": {
+    "_id": 3,
+    "cohort": "-MtHAlDOBlnRUhVMWadQ",
+    "createdDate": 1642056325100,
+    "grouping": "Investors",
+    "lastEditDate": 1642056325100,
+    "lastEditedBy": "IyHrs0P6j3VzPK4n505PzuEqDuH2",
+    "owner": "IyHrs0P6j3VzPK4n505PzuEqDuH2",
+    "rowKey": "-MtHAlLeJFO7tQzf8Xg2"
+  },
+  "-MuGkBJcQh0SBDEEZOdK": {
+    "_id": 4,
+    "amount": 3,
+    "cohort": "-MuGkBD5eU0jM5QRpnq0",
+    "createdDate": 1643122833325,
+    "grouping": "Companies",
+    "lastEditDate": 1643122967804,
+    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-MuGkBJcQh0SBDEEZOdK"
+  },
+  "-MuGkBJdpBdkcwIbXFfC": {
+    "_id": 4,
+    "amount": 4,
+    "cohort": "-MuGkBD5eU0jM5QRpnq0",
+    "createdDate": 1643122833326,
+    "grouping": "Indirect Investors/Mentors",
+    "lastEditDate": 1643123407273,
+    "lastEditedBy": "4OZfzNOTiObDfi75pVPYpScLMve2",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-MuGkBJdpBdkcwIbXFfC"
+  },
+  "-MuGkBJsoAdgTrK6Ll8q": {
+    "_id": 4,
+    "amount": 1,
+    "cohort": "-MuGkBD5eU0jM5QRpnq0",
+    "createdDate": 1643122833341,
+    "grouping": "Investors",
+    "lastEditDate": 1643122971675,
+    "lastEditedBy": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-MuGkBJsoAdgTrK6Ll8q"
+  },
+  "-Mv3Zf31cwndL4biO4WH": {
+    "_id": 5,
+    "amount": 4,
+    "cohort": "-Mv3Zez7-scsjKdExhTU",
+    "createdDate": 1643975454289,
+    "grouping": "Companies",
+    "lastEditDate": 1644334392556,
+    "lastEditedBy": "4OZfzNOTiObDfi75pVPYpScLMve2",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-Mv3Zf31cwndL4biO4WH"
+  },
+  "-Mv3Zf32y1X9CP6G4210": {
+    "_id": 5,
+    "amount": 2,
+    "cohort": "-Mv3Zez7-scsjKdExhTU",
+    "createdDate": 1643975454290,
+    "grouping": "Indirect Investors/Mentors",
+    "lastEditDate": 1643976618376,
+    "lastEditedBy": "4OZfzNOTiObDfi75pVPYpScLMve2",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-Mv3Zf32y1X9CP6G4210"
+  },
+  "-Mv3Zf33gZvLm68gRDx1": {
+    "_id": 5,
+    "amount": 3,
+    "cohort": "-Mv3Zez7-scsjKdExhTU",
+    "createdDate": 1643975454291,
+    "grouping": "Investors",
+    "lastEditDate": 1643976606041,
+    "lastEditedBy": "4OZfzNOTiObDfi75pVPYpScLMve2",
+    "owner": "kcqPKqzwdwaerATjysdgpyqIp0R2",
+    "rowKey": "-Mv3Zf33gZvLm68gRDx1"
+  }
+}

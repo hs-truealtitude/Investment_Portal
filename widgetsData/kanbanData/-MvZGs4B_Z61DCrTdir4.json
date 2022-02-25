@@ -1,0 +1,11 @@
+{
+  "descriptionCol": "aboutTheCompany",
+  "filter": "{\"condition\":\"AND\",\"rules\":[{\"key\":\"name\",\"operator\":\"not null\",\"value\":null,\"name\":\"Company Name\",\"expression\":false,\"hidden\":false}]}",
+  "itemsStorage": "companyProfiles",
+  "laneCol": "name",
+  "lanesStorage": "stages",
+  "sortIndexCol": "access",
+  "statusCol": "adminRejected",
+  "template": "<div class=\"rectangle\" style=\"padding: 2px; border-radius: 6px;\">\r\n  <span v-if=\"item.fundraisingStage\"> {{item.$fundraisingStage$display}} </span>\r\n</div>",
+  "titleCol": "name"
+}

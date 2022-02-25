@@ -1362,5 +1362,12 @@
     "name": "Maintenance Page",
     "rowKey": "-MoDD6OaJknJrchFTsze",
     "tabKey": "-Mn1BMT0PsgIKnU53ngT"
+  },
+  "-MvZGCZ37ccrOOvBgLlC": {
+    "_id": 235,
+    "name": "Stages",
+    "parent": "-MKjMm5YwO4Q3EH68G_M",
+    "rowKey": "-MvZGCZ37ccrOOvBgLlC",
+    "tabKey": "-MvZGCSRMK1XW_bFTvOm"
   }
 }

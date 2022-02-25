@@ -1184,7 +1184,7 @@
                 "customCode": "<h2 > Referral Details (Optional) </h2>",
                 "invisible": true,
                 "invisibleCondition": "$getUser('accountType') == 'CompanyUser' || rowData.sessionHappen != true",
-                "invisibleInDataGrid": false,
+                "invisibleInDataGrid": true,
                 "invisibleLabel": true,
                 "enableCustomValidation": false,
                 "customValidationRule": "",
